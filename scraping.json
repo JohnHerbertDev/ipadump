@@ -1,0 +1,41 @@
+[
+    {
+        "github": "Balackburn/Apollo",
+        "bundleID": "com.christianselig.Apollo",
+        "name": "Apollo",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a1/d8/a6/a1d8a63c-1534-2a04-b0fe-3de6e9c800b9/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/400x400ia-75.webp"
+    },
+    {
+        "github": "moffatman/chan",
+        "bundleID": "com.moffatman.chan",
+        "name": "Chance",
+        "iconURL": "https://github.com/moffatman/chan/blob/master/assets/appicon.png?raw=true"
+    },
+    {
+        "github": "NeoFreeBird/app",
+        "bundleID": "com.atebits.Tweetie2",
+        "name": "Twitter (NeoFreeBird)",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp"
+    },
+    {
+        "github": "hugeBlack/GetMoreRam",
+        "bundleID": "com.stos.Entitlement",
+        "name": "Get More Ram"
+    },
+    {
+        "github": "leminlimez/Pocket-Poster",
+        "bundleID": "com.lemin.Pocket-Poster",
+        "name": "Pocket Poster",
+        "iconURL": "https://raw.githubusercontent.com/leminlimez/Pocket-Poster/refs/heads/main/Pocket%20Poster/Assets.xcassets/AppIcon.appiconset/pocket_poster.png"
+    },
+    {
+        "github": "KRTirtho/spotube",
+        "bundleID": "oss.krtirtho.spotube.stable",
+        "name": "Spotube",
+        "iconURL": "https://github.com/KRTirtho/spotube/blob/master/assets/branding/spotube-logo-macos.png?raw=true"
+    },
+    {
+        "github": "StreamerApp/App",
+        "bundleID": "com.streamerapp.ios",
+        "name": "Streamer",
+        "iconURL": "https://private-user-images.githubusercontent.com/96978272/471154960-27a5c92f-84b3-448f-b9ce-91c6dca66f26.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQ0OTczMDEsIm5iZiI6MTc2NDQ5NzAwMSwicGF0aCI6Ii85Njk3ODI3Mi
