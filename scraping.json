@@ -45,5 +45,11 @@
         "bundleID": "com.ahmedbafkir.dlipa",
         "name": "DLiPA",
         "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png"
+    },
+    {
+        "github": "lo-cafe/winston",
+        "bundleID": "Lo.cafe.winston",
+        "name": "Winston for Reddit",
+        "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75"
     }
 ]
