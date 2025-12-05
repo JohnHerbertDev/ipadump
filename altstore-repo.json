@@ -502,79 +502,6 @@
             ]
         },
         {
-            "name": "Twitter (NeoFreeBird)",
-            "bundleIdentifier": "com.atebits.Tweetie2",
-            "developerName": "NeoFreeBird",
-            "subtitle": "A modified Twitter app, with branding reverts, BHTwitter and other QoL modifications.",
-            "localizedDescription": "<div align=\"center\">\n    <img src=\"./Branding/Icon_rounded.png\" alt=\"NeoFreeBird\" width=\"130\" height=\"130\">\n \n  # NeoFreeBird\n  <i>The Twitter app that you deserve</i>\n\n  <p>\n    A modified Twitter/X app for iOS/iPadOS devices with branding reverts, <a href=\"https://github.com/actuallyaridan/NeoFreeBird-BHTwitter\"> a new updated BHTwitter</a>, and many other useful features.\n  </p>\n\n  <div>\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=altstore://source?url=https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/AltSource.json\"><img src=\"./Branding/badges/add_to_altstore.png\" alt=\"Add to AltStore\" height=\"40\"></a>\n    &nbsp;\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=sidestore://source?url=https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/AltSource.json\"><img src=\"./Branding/badges/add_to_sidestore.png\" alt=\"Add to SideStore\" height=\"40\"></a>\n    &nbsp;\n    <a href=\"https://intradeus.github.io/http-protocol-redirector?r=feather://source/https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/AltSource.json\"><img src=\"./Branding/badges/add_to_feather.png\" alt=\"Add to Feather\" height=\"40\"></a>\n    &nbsp;\n  </div>\n</div>\n<br>\n\n| | | |\n|:-------------------------:|:-------------------------:|:-------------------------:|\n| <img src=\"./Branding/screenshots/IMG_9189.png\" alt=\"Screenshot 1\"> | <img src=\"./Branding/screenshots/IMG_9190.png\" alt=\"Screenshot 2\"> | <img src=\"./Branding/screenshots/IMG_9191.png\" alt=\"Screenshot 3\"> |\n| <img src=\"./Branding/screenshots/IMG_9201.png\" alt=\"Screenshot 4\"> | <img src=\"./Branding/screenshots/IMG_9202.png\" alt=\"Screenshot 5\"> | <img src=\"./Branding/screenshots/IMG_9200.png\" alt=\"Screenshot 6\"> |\n\n\n\n## Features\nNeoFreeBird uses a modern app version with various changes such as branding reverts, removal of unnecessary features, along with our own fork of BHTwitter for blocking ads, getting various Twitter Blue features for free and being able to customize Twitter in various ways. Theres tons of new features to try!\n\n| | | |\n|:-------------------------:|:-------------------------:|:-------------------------:|\n| ![](./Branding/screenshots/IMG_9192.png) | ![](./Branding/screenshots/IMG_9193.png) | ![](./Branding/screenshots/IMG_9194.png) |\n| ![](./Branding/screenshots/IMG_9195.png) | ![](./Branding/screenshots/IMG_9196.png) | ![](./Branding/screenshots/IMG_9198.png) |\n| ![](./Branding/screenshots/IMG_9199.png) |   |   |\n\n> [!NOTE]  \n> <b>There are some remains</b><br>You may still see some X branding in web based stuff. We try our best to get rid of most of them.\n",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
-            "versions": [
-                {
-                    "version": "2.2",
-                    "date": "2025-11-03T01:47:20Z",
-                    "localizedDescription": "NeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\r\n\r\n### Change log:\r\n\r\n**Twitter, version 11.35:**\r\n- Updated the Twitter build to 11.35\r\n\r\n**NeoFreeBird, version 2.2:**\r\n- Fixed log in issues using new sign in flow (you can only sign in to one account at once but better than nothing) [#78]\r\n- Localized the Post > Tweet replacer\r\n- Improved the Open in Twitter extension\r\n- Minor bug fixes and other minor improvements\r\n\r\nThere are two versions, one with FixTwitterLogin dylib (standard) and one without. Try the regular one first, and if you\u2019re unable to install it, try the one without. Both have the new sign in flow, the one with FixTwitterLogin just has the same dylib injected as 2.1 rev 2 to trick Attestation in some cases, allowing some users to sign in to multiple accounts. It works for some and not for others.\r\n\r\nIf you are already signed in to two accounts, you will still stay signed in to them, you just can't add more.",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.2/NeoFreeBird-2.2-Twitter-11.35-noFixTwitterLogin.ipa",
-                    "size": 158452402
-                },
-                {
-                    "version": "2.1",
-                    "date": "2025-10-27T03:25:12Z",
-                    "localizedDescription": "NeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\r\n\r\n### Change log:\r\n\r\n**Twitter, version 11.33:**\r\n- Updated the Twitter build to 11.33\r\n\r\n**NeoFreeBird, version 2.1:**\r\n- Includes \u201cOpen In Twitter\u201d extension to open x.com links in NeoFreeBird.\r\n- The Grok and Video tabs are now disabled by default \r\n- Fixed Profile and Communities toggles in the Custom Navigation menu\r\n- Removed navigation items now move to the sidebar\r\n- Fixed the Lock Twitter button on iOS 26\r\n- Added the ability to hide blue verified checkmarks [only the badge, not the Tweet or user themselves] (thanks @missaustraliana)\r\n- Added a Barbie icon (thanks [@TweetingStitch](https://x.com/TweetingStitch))\r\n- Added back Flex for debugging\r\n- Other minor bug fixes",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.1/NeoFreeBird-2.1-Twitter-11.33-rev2.ipa",
-                    "size": 155939853
-                },
-                {
-                    "version": "2.0",
-                    "date": "2025-08-12T18:57:45Z",
-                    "localizedDescription": "NeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\r\n\r\n### Change log:\r\n\r\n**Twitter, version 11.5.5:**\r\n- Updated the Twitter build to 11.5.5\r\n\r\n**NeoFreeBird, version 2.0:**\r\n- A fully redesigned NeoFreeBird settings page\r\n- Fix issues with upsells being shown on profiles on 11.5.5\r\n- Added an option to hide Chat in the sidebar\r\n- Made the notifications tab say Tweet instead of Post (English only for now)\r\n- Fixes for Tweet source labels not working for some users\r\n- Fixed ads appearing in replies and on the timeline (thanks @nyathea)\r\n- Restored the fly-in animation (#21, thanks @nyathea)\r\n- Restored the refresh sounds (thanks @nyathea)\r\n- Added the ability to select square icons for profiles/tweets (thanks @nyathea)\r\n- Added the ability to restore profile pictures on messages in DMs (thanks @nyathea)\r\n- Added the ability to hide the \"Subscribe\" (Super follow) button (thanks @nyathea)\r\n- Added the ability to hide the Follow button on Tweets (thanks @nyathea)\r\n- Added the ability to hide the Grok analyze buttons (thanks @nyathea)\r\n- Added more app icons and redesigned the app icon picker\r\n- Improved Japanese localizations (thanks @riolove1 and [@shonai_arai](https://x.com/shonai_arai))\r\n- Many, many more changes\r\n- Other minor bug fixes",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/2.0/NeoFreeBird-2.0r2-Twitter-11.5.5.ipa",
-                    "size": 164911428
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-05-04T16:53:24Z",
-                    "localizedDescription": "> [!NOTE]  \r\n> There are [newer versions](https://github.com/actuallyaridan/NeoFreeBird/releases) of NeoFreeBird available.\r\n\r\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\r\n\r\n### Change log:\r\n\r\n**Twitter, version 10.94:**\r\n- Updated the Twitter build to 10.94\r\n\r\n**NeoFreeBird, version 1.0:**\r\n- Improved various translations in all locales (#13, #15)\r\n- Added Croatian and Ukrainian (thanks @ytrav)\r\n- [Beta] Added the Tweet source label (like Twitter for iPhone and so on, thanks @nyathea) \r\n- Made the Twitter bird follow the accent color (#20, thanks @nyathea) \r\n- Added the seasonal Twitter icons from 2022\r\n- Added the ability to disable the individual Photos/Videos tabs, the Articles tab, and the Highlights tab on profiles (thanks @nyathea)\r\n- Added the ability to disable the compact interaction buttons on Tweets (thanks @nyathea)\r\n- Redesigned the NeoFreeBird settings page \r\n- Fixed tap-and-hold to speed up videos (#9)\r\n- Fixed the Video Download button causing crashes on 10.94 and beyond",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/1.0/NeoFreeBird-1.0-Twitter-10.94-rev3.ipa",
-                    "size": 151059429
-                },
-                {
-                    "version": "0.5-beta",
-                    "date": "2025-04-22T17:55:26Z",
-                    "localizedDescription": "> [!NOTE]  \r\n> There are [newer versions](https://github.com/actuallyaridan/NeoFreeBird/releases) of NeoFreeBird available.\r\n\r\nHere's a taste of version 1.0, just so you guys know the project isn't dead.\r\nThis build is not complete, but it does work decently well.",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/0.5-beta/Beta-build-29-NeoFreeBird-0.5-Twitter-10.77.1.ipa",
-                    "size": 142939227
-                },
-                {
-                    "version": "0.4",
-                    "date": "2025-02-26T00:43:36Z",
-                    "localizedDescription": "> [!NOTE]  \r\n> There are [newer versions](https://github.com/actuallyaridan/NeoFreeBird/releases) of NeoFreeBird available.\r\n\r\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications. It also seems to be faster compared to the official Twitter app, which says something.\r\n\r\n### Change log:\r\n\r\n**Twitter, version 10.77.1:**\r\n- Updated the Twitter build to 10.77.1\r\n- Fixed the Add New Muted Word menu being blank\r\n\r\n**NeoFreeBird, version 0.4:**\r\n- Made the Twitter bird blue\r\n- Made the Video/Media tab use the Vine icon instead\r\n- Grok support is fixed with reduced tab icon size\r\n- Fixed DM reactions\r\n- Disabled data-collection being sent to Twitter\r\n- Added support for the new block system, where you can still see public tweets from someone who has blocked you\r\n- Added support for the new tap-and-hold to view retweets/likes menu\r\n- Attempts at general performance improvements\r\n\r\n**NeoBHTwitter, version 4.3.2:**\r\n- Added the ability to hide the Video (Vine) tab\r\n- Added Swedish as a locale\r\n- Minor translation updates\r\n\r\n\r\nYou can pick between new (regular NeoFreeBird) or old icons (NeoFreeBird Classic). Both contain the same patches, but the old icons one uses the 2020-era Twitter icons whilst the new icons one uses the icon set of the latest Twitter branded app. You get the birdhouse and the Twitter bird back in both.\r\n\r\nSlight warning, the Classic version has inconsistent icons, as it (primarily) uses the old icons, but has the new ones for newer features. I'm in the process of retrofitting them, so if stuff looks inconsistent, that's why. ",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/0.4/NeoFreeBird-0.4-Twitter-10.77.1.ipa",
-                    "size": 142933398
-                },
-                {
-                    "version": "0.3",
-                    "date": "2025-01-19T17:40:33Z",
-                    "localizedDescription": "> [!NOTE]  \r\n> There are [newer versions](https://github.com/actuallyaridan/NeoFreeBird/releases) of NeoFreeBird available.\r\n\r\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications.\r\n\r\nThis is the first release of NeoFreeBird. It has all English and Swedish strings added. Grok is available, but it still thinks it's in closed beta. This'll be fixed soon. NeoFreeBird 0.3 also has multiple minor bug fixes.\r\n\r\n- Twitter, version 10.76 (2025-01-11)\r\n- NeoFreeBird, version 0.3\r\n- Our own fork of BHTwitter, version 4.3.1\r\n\r\nYou can pick between new or old icons. Both contain the same patches, but the old icons one uses the 2020-era Twitter icons whilst the new icons one uses the icon set of the latest Twitter branded app. You get the birdhouse and the Twitter bird back in both.",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/0.3/NeoFreeBird-0.3-Twitter-10.76-new-icons.ipa",
-                    "size": 144738791
-                },
-                {
-                    "version": "0.2",
-                    "date": "2025-01-15T22:35:33Z",
-                    "localizedDescription": "> [!NOTE]  \r\n> There are [newer versions](https://github.com/actuallyaridan/NeoFreeBird/releases) of NeoFreeBird available.\r\n\r\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications.\r\n\r\nThis is a pre-release. It works properly, but some things, like strings for new features, are broken. The first major version of NeoFreeBird aims to resolve that. This release adds in-app credits for me, Tim, Thea and the original BHTwitter developer.\r\n\r\n- Twitter, version 10.76 (2025-01-11)\r\n- NeoFreeBird, version 0.2\r\n- Our own fork of BHTwitter, version 4.3.1\r\n\r\nYou can pick between new icons or old icons. Both contain the same patches, but the old icons one uses the 2020-era Twitter icons whilst the new icons one uses the icon set of the latest Twitter branded app. You get the birdhouse and the Twitter bird back in both.\r\n",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/0.2/NeoFreeBird-0.2-Twitter-10.76-new-icons.ipa",
-                    "size": 148167106
-                },
-                {
-                    "version": "0.1",
-                    "date": "2025-01-12T17:01:29Z",
-                    "localizedDescription": "> [!NOTE]  \r\n> There are [newer versions](https://github.com/actuallyaridan/NeoFreeBird/releases) of NeoFreeBird available.\r\n\r\nNeoFreeBird is a modified Twitter app with branding reverts, BHTwitter and other QoL modifications.\r\n\r\nThis is a pre-release. It works properly, but some things, like strings for new features, are broken. The next version of NeoFreeBird aims to resolve that.\r\n\r\n- Twitter version 10.76 (2025-01-11)\r\n- NeoFreeBird version 0.1\r\n- Our own fork of BHTwitter version 4.3 with modifications and bug-fixes\r\n\r\nYou can pick between new icons or old icons. Both contain the same patches, but the old icons one uses the 2020-era Twitter icons whilst the new icons one uses the icon set of the latest Twitter branded app. You get the birdhouse and the Twitter bird back in both.\r\n",
-                    "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/0.1/NeoFreeBird-0.1-Twitter-10.76-new-icons.ipa",
-                    "size": 142396588
-                }
-            ]
-        },
-        {
             "name": "Get More Ram",
             "bundleIdentifier": "com.stos.Entitlement",
             "developerName": "hugeBlack",
@@ -772,6 +699,110 @@
                     "localizedDescription": "**Streamer App Release: v1.3.0**\r\nWe're excited to announce the latest updates to our streaming application for Apple platforms! Our team has been hard at work delivering improvements across iOS, tvOS, macOS, and visionOS. Here's what's new in this release:\r\n\r\nInterface Enhancements\r\nImproved Settings Experience\r\nBlurred Settings Interface: We've implemented a sleek new blurred background effect for the settings panel, creating a more so you can block episode images and summaries\r\nMulti-language Support\r\nAdded English Language Support for Torrentio. No idea why this was missing before. Should help you find english only links\r\n\r\n\r\nUser Experience Improvements\r\n\r\nApple TV Focus Improvements\r\nBottom Slider/ redesign\r\n\r\n\r\nEnhanced Focus Navigation: Fixed focus behavior on TV shows to always prioritize the \"Watch Now\" button, making it easier and more intuitive for Apple TV users to start streaming content.\r\nController Navigation Fixes: Optimized controllers for better navigation across the interface, ensuring a smooth experience when using the Apple TV remote or game controllers.\r\nSearch Functionality\r\n\r\niOS 16 Search Bug Fixes: Addressed issues with the search functionality on iOS 16 devices, ensuring users can easily find their favorite content without interruptions.\r\n\r\nTechnical Improvements\r\nPlatform Optimizations\r\nMultiplatform Compatibility: Further refined the app's functionality across iOS, tvOS, macOS Catalyst, and visionOS, ensuring a consistent experience on all Apple platforms.\r\n\r\nDark Mode Exclusivity: The app remains optimized for our signature dark mode aesthetic, providing a cinematic viewing experience.\r\n\r\n\r\n\r\nUnder the Hood Improvements\r\nFFmpeg Integration: Updated FFmpeg components to ensure optimal media playback across all supported devices.\r\n\r\nFramework Updates: Updated essential frameworks and dependencies to their latest versions for improved performance and stability.\r\n\r\nFaster search times. Optimized the await time to speed up searching\r\n\r\n\r\nPlans for the future\r\n-Simkl integration (Started to work with simkl to give users options)\r\n-Calendar trakt- this is under used. Plans to move this to the top bar\r\n-UI overhaul\r\n-Full redesign. This will be slower to release as the OS26 is causing some interesting design changes.\r\n-Anime Weeb Option.\r\n\r\n\r\nNote Some tvos26 users on early gens have been having issues. You can always roll back, but test fully before committing \r\n",
                     "downloadURL": "https://github.com/StreamerApp/App/releases/download/1.3.0/Streamer-iOS.ipa",
                     "size": 45908376
+                }
+            ]
+        },
+        {
+            "name": "DLiPA",
+            "bundleIdentifier": "com.ahmedbafkir.dlipa",
+            "developerName": "AhmedBafkir",
+            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
+            "localizedDescription": "<p align=\"center\">\n    <img src=\"images/icon.png\" height=\"150\">\n</p>\n\n# DLiPA\n\nAn iOS app inspired by the [ipatool](https://github.com/majd/ipatool) project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.\n\n**Supported:** iOS 13+\n\n## Screenshots\n\n<div>\n  <img src=\"images/1.PNG\" height=\"290\">\n  <img src=\"images/2.PNG\" height=\"290\">\n  <img src=\"images/3.PNG\" height=\"290\">\n  <img src=\"images/4.PNG\" height=\"290\">\n  <img src=\"images/5.PNG\" height=\"290\">\n  <img src=\"images/6.PNG\" height=\"290\">\n</div>\n\n## Features\n\n- [x] Select an available storefronts.\n- [x] Search for applications with name, Bundle-id, link.\n- [x] Ability to copy such as Bundle-id, application-id, link.\n- [x] Multiple account support.\n- [x] Purchase only free apps.\n- [x] Download apps as an ipa file.\n- [x] Download apps with older versions.\n- [x] Each account has separate downloads.\n- [x] Share apps as an ipa file.\n- [x] Install apps on device.\n- [x] Supports for non jailbroken devices.\n\n> \u26a0\ufe0f **Note:** Installing apps directly from within the app may cause issues such as missing automatic updates.  \n> For best results, use AirDrop to install them by sharing from another device.\n\n## Install DLiPA\n\nDownload the latest version from [Releases](https://github.com/AhmedBafkir/DLiPA/releases).\n\n<details>\n<summary><strong>AltStore</strong></summary>\n\n<blockquote>\n\n### Requirements:\n\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)\n\n### Install:\n\n* Download and install AltServer from [here](https://altstore.io)\n\n* Right-click on the AltServer icon with your phone connected and choose \"Install AltStore\", then the name of your phone. When prompted sign in with your Apple ID. Two-factor Authentication is supported, but app-specific passwords are not.\n\n* Download the IPA file from the [Releases](https://github.com/AhmedBafkir/DLiPA/releases) and copy it to your phone, using iCloud Drive, AirDrop, or any other method. Open AltStore and navigate to the \"My Apps\" tab. Choose the plus in the top right corner and open the IPA file. When prompted sign in with your Apple ID. Two-factor Authentication is supported, but app-specific passwords are not.\n\n</blockquote>\n</details>\n\n<details>\n<summary><strong>iOS App Signer</strong></summary>\n<blockquote>\n\nSee all instructions from [here](https://dantheman827.github.io/ios-app-signer/)\n\n</blockquote>\n</details>\n\n## Acknowledgements\n\nSpecial thanks to [ipatool](https://github.com/majd/ipatool) by Majd Alfhaily\n",
+            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2025-11-16T17:59:20Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
+                    "size": 480115
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-06-07T17:24:30Z",
+                    "localizedDescription": "Initial Release.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
+                    "size": 480247
+                }
+            ]
+        },
+        {
+            "name": "Winston for Reddit",
+            "bundleIdentifier": "Lo.cafe.winston",
+            "developerName": "lo-cafe",
+            "subtitle": "A beautiful and native Reddit client for iOS",
+            "localizedDescription": "![Winston Logo](https://i.imgur.com/axc6Rq3.png)\n\n![Discord](https://img.shields.io/discord/1094807340903039048)\n![License](https://img.shields.io/github/license/lo-cafe/winston)\n[![Platform](http://img.shields.io/badge/platform-iOS/iPadOS/macOS-blue.svg)](https://developer.apple.com/iphone/index.action)\n![Release](https://img.shields.io/github/downloads/lo-cafe/winston/total)\n![GitHub issues](https://img.shields.io/github/issues-raw/lo-cafe/winston)\n\nStep into Winston's embracing world! Winston is an elegant, open-source, native crafted Reddit client for iOS that pushes user experience to the next level.\n\n> [!IMPORTANT]\n> \u26a0\ufe0f We're hard at work! Both Winston and this README are works in progress. Watch this space for updates!\n\n\n<a href=\"https://testflight.apple.com/join/3UF8bAUN\"><img src=\"https://i.imgur.com/A5Kpowu.png\" width=\"200\"></a>\n<a href=\"https://www.shorturl.at/dAL15\"><img src=\"https://i.imgur.com/46qhEAv.png\" width=\"200\"></a>\n\n\n## \ud83d\udee0\ufe0f How to Install\n\nAt the moment, Winston hasn't made its grand appearance on the App Store. But worry not! Here's how you can get your hands on Winston:\n*Please note, Winston's minimum version is now iOS 17.*\n\n1. **TestFlight**: Take part in Winston's journey by joining our TestFlight [here](https://testflight.apple.com/join/3UF8bAUN). Be aware that this could be full or unavailable due to TestFlight's occasional downtimes.\n\n2. **Sideloading**: Employ [Sideloadly](https://sideloadly.io/) or a sideloading method of your preference to install the Winston IPA directly. Grab the IPA file from our [releases](https://github.com/lo-cafe/winston/releases/latest) page!\n\n## \ud83c\udf81 Make Winston Better (Contribution)\n\nWe open our arms to all those who wish to make Winston even better. If you'd like to contribute, kindly create a pull request based on the ['alpha'](https://github.com/lo-cafe/winston/tree/alpha) branch for seamless integration. We eagerly look forward to your ideas and innovations!\n\n## \ud83d\udd17 Handy Links\n\n- **Official sites**: Intrigued by our work? Explore some of our other creations at [lo.cafe](https://lo.cafe).\n- **Join the Club**: Connect with us, drop in your suggestions, or be part of our vibrant community on our [Discord](https://discord.gg/Jw3Syb3nrz) server.\n- Express your support by buying us a coffee at [Patreon](https://patreon.com/user?u=93745105) or [Ko-fi](https://ko-fi.com/locafe) \u2615\ufe0f\u2764\ufe0f\ud83d\udc31\n\n> [!NOTE]\n> \ud83d\udd14 Note: We no longer maintain a subreddit owing to irreconcilable policy disputes with Reddit.\n \n## \ud83d\udd13 License\n\nWinston is open-source, licensed under the GPL-3.0 license. Refer to the LICENSE file in the repository for more details.\n",
+            "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75",
+            "versions": [
+                {
+                    "version": "1.1.5",
+                    "date": "2024-06-24T08:53:08Z",
+                    "localizedDescription": "- Fixed placeholder message alignment\r\n- Fixed Reddit API preferences page\r\n- Added localization support\r\n- Cleaned unused code and replaced glitchy book Lottie\r\n- Removed old, unused TipJar component\r\n- Added back GlobalLoaderProvider\r\n- Fixed broken build\r\n- Improved RedditListingFeed component and cleaned up some files\r\n- Fixed many UI bugs and stutters; added new NukeUI Opt components\r\n- Removed redundant code calling setAudioToMixWithOthers three times\r\n- Provided RedditListingFeed with a force refresh handler; fixed UserView issues\r\n- Fixed blur flash on app open\r\n- Fixed cache clear button not working\r\n- Added support for inline image within comments\r\n- Improved spoiler handling in selftext\r\n- Corrected tab bar hit detection in Split View on iPad",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.5/winston.ipa",
+                    "size": 50003343
+                },
+                {
+                    "version": "1.1.4",
+                    "date": "2024-03-14T17:18:44Z",
+                    "localizedDescription": "- Implemented option to toggle visibility of feeds prefixes\r\n- Fixed multis not showing up\r\n- Now compact posts settings will be hidden if the option is not enabled\r\n- Fixed comments context menu preview showing in the wrong size",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.4/winston.ipa",
+                    "size": 47535139
+                },
+                {
+                    "version": "1.1.3",
+                    "date": "2024-03-12T17:02:28Z",
+                    "localizedDescription": "- Complete rewrite of how Winston displays the elements in each feed, resulting in a major boost to Winston\u2019s smoothness \r\n- Fixed bug regarding crossposts in compact mode\r\n- Fixed rare bug causing crashes when  in compact mode \r\n- Addition of setting to select the comment skipper button location\r\n- Fixed compact mode bug relating to post link heights\r\n- Fixed crashed related to UI being updated in the background\r\n- Fixed bug relating to tab bar swiping\r\n- Fixed bug relating to swipe anywhere\r\n\r\n\r\n",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.3/winston.ipa",
+                    "size": 47547581
+                },
+                {
+                    "version": "1.1.2",
+                    "date": "2024-01-19T15:03:25Z",
+                    "localizedDescription": "- Markdown overhaul (tables, spoilers, quotes now supported)\r\n- Comment skipper button\r\n- Apollo style 'Navigation anywhere' - it will now drag the page as you drag your finger.\r\n- Custom filters to easily find posts that contain some text\r\n- Compact mode per subreddit\r\n- Misc. bug fixes and performance improvements",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.2/winston.ipa",
+                    "size": 48250209
+                },
+                {
+                    "version": "1.1.1-alpha",
+                    "date": "2023-12-10T12:40:03Z",
+                    "localizedDescription": "Just a small fix that's already included in the TestFlight version of the app",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.1-alpha/winston.ipa",
+                    "size": 23564872
+                },
+                {
+                    "version": "1.1.0-alpha",
+                    "date": "2023-11-29T15:08:57Z",
+                    "localizedDescription": "This release does not have any changes and is only there to fix our AltStore source",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v1.1.0-alpha/winston.ipa",
+                    "size": 23569280
+                },
+                {
+                    "version": "0.4-alpha",
+                    "date": "2023-11-23T17:52:12Z",
+                    "localizedDescription": "- Huge performance upgrade!\r\n- Implemented saved posts. You can now access the \"Saved\" tab in your subs drawer.\r\n- Add controversial sort\r\n- Add subscribed indicator / button to search\r\n- Added option to use inline post toolbar in place of floating toolbar in the post page. (Theme -> Post page -> Inline upvote toolbar - at bottom)\r\n- Added ability to sort by only posts or only comments in a user profile. (Click the corresponding karma button)\r\n- Tweaked look of UI in many areas (mainly compact mode improvements).\r\n- Images in comments now open in the app.\r\n- In-app safari support improved.\r\n- Implemented iCloud syncing for credentials.\r\n- Removed deprecated bug reporting functionality.\r\n- Enhanced stability for the video player and made minor performance tweaks.\r\n- Deployed fix for user flairs and new comment indicators.\r\n- Various bug fixes, stability improvements and QOL tweaks.",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v0.4-alpha/winston.ipa",
+                    "size": 23569280
+                },
+                {
+                    "version": "0.3-alpha",
+                    "date": "2023-11-10T19:43:20Z",
+                    "localizedDescription": "# Added\r\n- Live Text in images\r\n- Whats new Sheet\r\n- Lock the app with Face ID / Fingerprint ID\r\n- Theme Store\r\n- Subscribed indicator / button when searching for subs\r\n- Add settings import / export\r\n- Add line spacing option for themes\r\n- New comments indicator\r\n- Added flairs in comments\r\n# Fixed\r\n- \"Streamable\" videos now working\r\n- Blur nsfw subs when searching for subs\r\n- Default search sort in settings\r\n- Save sort per subreddit\r\n- Save comment search per port\r\n- Support for themable user flairs\r\n- Add theming for load more button\r\n- fix wrong username showing up for comments\r\n\r\nSpecial thanks to rbertus2000, mmynk, Nelson Dane, Zander Bobronnikov and ben-wheeler for contributing to this release!",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v0.3-alpha/winston.ipa",
+                    "size": 22415140
+                },
+                {
+                    "version": "0.2-alpha",
+                    "date": "2023-10-02T14:46:31Z",
+                    "localizedDescription": "- Fixed crash when replying\r\n- Fixed crash when importing new themes\r\n- Fixed crash when long pressing on comment\r\n- Fixed random name in exported themes\r\n- Now exported themes have \".winston\" extension (zip will continue to work though)\r\n- Sharing zip to winston is now allowed\r\n- \".winston\" open in one tap into winston and imports it",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v0.2-alpha/winston.ipa",
+                    "size": 21591722
+                },
+                {
+                    "version": "0.1-alpha",
+                    "date": "2023-09-20T22:43:53Z",
+                    "localizedDescription": "This version is the first IPA available for download for people who can't use TestFlight for any reason.\r\nWe don't have a versioning system yet as well, so \"0.1\" is not exactly precise.",
+                    "downloadURL": "https://github.com/lo-cafe/winston/releases/download/v0.1-alpha/winston.ipa",
+                    "size": 8614755
                 }
             ]
         }
