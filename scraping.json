@@ -39,5 +39,11 @@
         "bundleID": "com.streamerapp.ios",
         "name": "Streamer",
         "iconURL": "https://avatars.githubusercontent.com/u/96971772?s=200&v=4"
-	}
+	},
+    {
+        "github": "AhmedBafkir/DLiPA",
+        "bundleID": "com.ahmedbafkir.dlipa",
+        "name": "DLiPA",
+        "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png"
+    }
 ]
