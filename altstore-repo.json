@@ -564,7 +564,7 @@
             ]
         },
         {
-            "name": "Spotube",
+            "name": "Spotify (Spotube)",
             "bundleIdentifier": "oss.krtirtho.spotube.stable",
             "developerName": "KRTirtho",
             "subtitle": "\ud83c\udfa7 Open source music streaming app! Available for both desktop & mobile!",
