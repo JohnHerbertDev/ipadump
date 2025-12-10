@@ -1,5 +1,8 @@
 name: Update AltStore Repo
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 0 * * *"   # every day at midnight UTC
