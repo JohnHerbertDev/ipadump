@@ -75,5 +75,23 @@
         "bundleID": "me.kingbri.ferrite",
         "name": "Ferrite",
         "iconURL": "https://raw.githubusercontent.com/Ferrite-iOS/Ferrite/refs/heads/next/Ferrite/Assets.xcassets/AppIcon.appiconset/Ferrite-lg.png"
+    },
+    {
+        "github": "sasobhabha/MathPrac",
+        "bundleID": "mathpioneers.MathPrac",
+        "name": "MathPrac",
+        "iconURL": "https://github.com/sasobhabha/MathPrac/blob/main/MathPrac/Assets.xcassets/AppIcon.appiconset/mathprac.png?raw=true"
+    },
+    {
+        "github": "sasobhabha/SciGen",
+        "bundleID": "mathpioneers.SciGen",
+        "name": "SciGen",
+        "iconURL": "https://raw.githubusercontent.com/sasobhabha/SciGen/refs/heads/main/SciGen/Assets.xcassets/AppIcon.appiconset/Icon-iOS-Default-1024x1024%401x.png"
+    },
+    {
+        "github": "al051195/SkyWizard-SwiftUI-Liquid-Glass",
+        "bundleID": "liquidglasstext.LiquidGlassText.resources",
+        "name": "SkyWizard Weather",
+        "iconURL": "https://raw.githubusercontent.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/refs/heads/master/SkyWizard-SwiftUI/Other/Assets.xcassets/wizard_face.imageset/wizard_face%403x.png"
     }
 ]
