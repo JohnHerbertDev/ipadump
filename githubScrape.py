@@ -1,39 +1,31 @@
 import requests
 import json
 
-# Load existing apps and scraping list
 myApps = json.load(open("my-apps.json"))
 scraping = json.load(open("scraping.json"))
 
-def app_exists(apps, bundleID):
-    """Return True if an app with this bundleID already exists."""
-    return any(a["bundleIdentifier"] == bundleID for a in apps)
+def find_app(apps, bundleID):
+    """Return the app dict if it exists, otherwise None."""
+    for app in apps:
+        if app["bundleIdentifier"] == bundleID:
+            return app
+    return None
+
+def version_exists(versions, version):
+    return any(v["version"] == version for v in versions)
 
 for repo_info in scraping:
     repo = repo_info["github"]
     bundleID = repo_info["bundleID"]
 
-    # 🔥 Skip duplicates
-    if app_exists(myApps["apps"], bundleID):
-        print(f"Skipping duplicate: {bundleID}")
-        continue
+    existing_app = find_app(myApps["apps"], bundleID)
 
-    # Fetch repository data
-    data = requests.get(f"https://api.github.com/repos/{repo}").json()
-    readme = requests.get(
-        f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md"
-    ).text
-
-    name = repo_info["name"]
-    author = data["owner"]["login"]
-    subtitle = data["description"]
-    localizedDescription = readme
-    versions = []
-
-    # Fetch releases
+    # Fetch releases (always)
     releases = requests.get(
         f"https://api.github.com/repos/{repo}/releases"
     ).json()
+
+    new_versions = []
 
     for release in releases:
         version = release["tag_name"].replace("v", "")
@@ -43,18 +35,16 @@ for repo_info in scraping:
         downloadURL = None
         size = None
 
-        # Find IPA asset
         for asset in release["assets"]:
             if asset["browser_download_url"].endswith(".ipa"):
                 downloadURL = asset["browser_download_url"]
                 size = asset["size"]
                 break
 
-        # Skip releases with no IPA
         if not downloadURL:
             continue
 
-        versions.append({
+        new_versions.append({
             "version": version,
             "date": date,
             "localizedDescription": changelog,
@@ -62,23 +52,39 @@ for repo_info in scraping:
             "size": size
         })
 
-    # Use iconURL directly from scraping.json
-    iconURL = repo_info.get("iconURL", "")
+    # 🔁 APP ALREADY EXISTS → ONLY UPDATE VERSIONS
+    if existing_app:
+        added = 0
+        for v in new_versions:
+            if not version_exists(existing_app["versions"], v["version"]):
+                existing_app["versions"].append(v)
+                added += 1
 
-    # Build app entry
+        if added > 0:
+            print(f"Updated {bundleID}: added {added} new version(s)")
+        else:
+            print(f"No new versions for {bundleID}")
+
+        continue
+
+    # ➕ NEW APP → FULL CREATE
+    data = requests.get(f"https://api.github.com/repos/{repo}").json()
+    readme = requests.get(
+        f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md"
+    ).text
+
     app = {
-        "name": name,
+        "name": repo_info["name"],
         "bundleIdentifier": bundleID,
-        "developerName": author,
-        "subtitle": subtitle,
-        "localizedDescription": localizedDescription,
-        "iconURL": iconURL,
-        "versions": versions
+        "developerName": data["owner"]["login"],
+        "subtitle": data["description"],
+        "localizedDescription": readme,
+        "iconURL": repo_info.get("iconURL", ""),
+        "versions": new_versions
     }
 
-    # Append ONLY if not a duplicate
     myApps["apps"].append(app)
-    print(f"Added: {bundleID}")
+    print(f"Added new app: {bundleID}")
 
-# Write updated repo
+# Save output
 json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
