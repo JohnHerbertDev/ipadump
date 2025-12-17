@@ -39,7 +39,7 @@
         "bundleID": "com.streamerapp.ios",
         "name": "Streamer",
         "iconURL": "https://avatars.githubusercontent.com/u/96971772?s=200&v=4"
-	},
+    },
     {
         "github": "AhmedBafkir/DLiPA",
         "bundleID": "com.ahmedbafkir.dlipa",
@@ -51,5 +51,29 @@
         "bundleID": "Lo.cafe.winston",
         "name": "Winston for Reddit",
         "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75"
+    },
+    {
+        "github": "level3tjg/RedditFilter",
+        "bundleID": "com.reddit.Reddit",
+        "name": "Reddit Filter",
+        "iconURL": "https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/icons/com.reddit.Reddit.png"
+    },
+    {
+        "github": "Nyasami/Ksign",
+        "bundleID": "nya.asami.ksign",
+        "name": "Ksign",
+        "iconURL": "https://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/Ksign/Resources/Assets.xcassets/AppIcon.appiconset/Ksign-default.png"
+    },
+    {
+        "github": "CloudySn0w/BTLoader",
+        "bundleID": "com.hammerandchisel.discord",
+        "name": "BTLoader (Discord)",
+        "iconURL": "https://raw.githubusercontent.com/CloudySn0w/BTLoader/refs/heads/main/assets/logo/icon.png"
+    },
+    {
+        "github": "Ferrite-iOS/Ferrite",
+        "bundleID": "me.kingbri.ferrite",
+        "name": "Ferrite",
+        "iconURL": "https://raw.githubusercontent.com/Ferrite-iOS/Ferrite/refs/heads/next/Ferrite/Assets.xcassets/AppIcon.appiconset/Ferrite-lg.png"
     }
 ]
