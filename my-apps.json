@@ -99,5 +99,11 @@
         "bundleID": "com.xitrix.iTorrent2",
         "name": "iTorrent",
         "iconURL": "https://raw.githubusercontent.com/XITRIX/iTorrent/refs/heads/main/iTorrent/Core/Assets/Assets.xcassets/AppIcons/AppIcon.appiconset/Frame%2018.png"
+    },
+    {
+        "github": "khcrysalis/Antrag",
+        "bundleID": "thewonderofyou.antrag2",
+        "name": "Antrag",
+        "iconURL": "https://raw.githubusercontent.com/khcrysalis/Antrag/refs/heads/main/Antrag/Resources/Assets.xcassets/AppIcon.appiconset/antrag.png"
     }
 ]
