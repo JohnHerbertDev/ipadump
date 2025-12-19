@@ -111,5 +111,11 @@
         "bundleID": "com.stik.stikdebug",
         "name": "StikDebug",
         "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png"
+    },
+    {
+        "github": "tapframe/NuvioStreaming",
+        "bundleID": "com.nuvio.app",
+        "name": "NuvioStreaming",
+        "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png"
     }
 ]
