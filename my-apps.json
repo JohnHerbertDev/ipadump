@@ -105,5 +105,11 @@
         "bundleID": "thewonderofyou.antrag2",
         "name": "Antrag",
         "iconURL": "https://raw.githubusercontent.com/khcrysalis/Antrag/refs/heads/main/Antrag/Resources/Assets.xcassets/AppIcon.appiconset/antrag.png"
+    },
+    {
+        "github": "StephenDev0/StikDebug",
+        "bundleID": "com.stik.stikdebug",
+        "name": "StikDebug",
+        "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png"
     }
 ]
