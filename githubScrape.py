@@ -1,28 +1,26 @@
 import requests
 import json
 
-# Load JSON files
-myApps = json.load(open("my-apps.json"))      # ← this is a LIST
+myApps = json.load(open("my-apps.json"))
 scraping = json.load(open("scraping.json"))
 
 def find_app(apps, bundleID):
     """Return the app dict if it exists, otherwise None."""
     for app in apps:
-        if app.get("bundleIdentifier") == bundleID:
+        if app["bundleIdentifier"] == bundleID:
             return app
     return None
 
 def version_exists(versions, version):
-    return any(v.get("version") == version for v in versions)
+    return any(v["version"] == version for v in versions)
 
 for repo_info in scraping:
     repo = repo_info["github"]
     bundleID = repo_info["bundleID"]
 
-    # ✅ FIX: pass the LIST directly
-    existing_app = find_app(myApps, bundleID)
+    existing_app = find_app(myApps["apps"], bundleID)
 
-    # Fetch releases
+    # Fetch releases (always)
     releases = requests.get(
         f"https://api.github.com/repos/{repo}/releases"
     ).json()
@@ -30,17 +28,17 @@ for repo_info in scraping:
     new_versions = []
 
     for release in releases:
-        version = release.get("tag_name", "").replace("v", "")
-        date = release.get("published_at")
-        changelog = release.get("body")
+        version = release["tag_name"].replace("v", "")
+        date = release["published_at"]
+        changelog = release["body"]
 
         downloadURL = None
         size = None
 
-        for asset in release.get("assets", []):
-            if asset.get("browser_download_url", "").endswith(".ipa"):
+        for asset in release["assets"]:
+            if asset["browser_download_url"].endswith(".ipa"):
                 downloadURL = asset["browser_download_url"]
-                size = asset.get("size")
+                size = asset["size"]
                 break
 
         if not downloadURL:
@@ -54,18 +52,13 @@ for repo_info in scraping:
             "size": size
         })
 
-    # 🔁 EXISTING APP → ONLY UPDATE VERSIONS
+    # 🔁 APP ALREADY EXISTS → ONLY UPDATE VERSIONS
     if existing_app:
         added = 0
-
-        existing_versions = existing_app.get("versions", [])
-
         for v in new_versions:
-            if not version_exists(existing_versions, v["version"]):
-                existing_versions.append(v)
+            if not version_exists(existing_app["versions"], v["version"]):
+                existing_app["versions"].append(v)
                 added += 1
-
-        existing_app["versions"] = existing_versions
 
         if added > 0:
             print(f"Updated {bundleID}: added {added} new version(s)")
@@ -74,7 +67,7 @@ for repo_info in scraping:
 
         continue
 
-    # ➕ NEW APP → CREATE FULL ENTRY
+    # ➕ NEW APP → FULL CREATE
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
     readme = requests.get(
         f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md"
@@ -84,13 +77,13 @@ for repo_info in scraping:
         "name": repo_info["name"],
         "bundleIdentifier": bundleID,
         "developerName": data["owner"]["login"],
-        "subtitle": data.get("description"),
+        "subtitle": data["description"],
         "localizedDescription": readme,
         "iconURL": repo_info.get("iconURL", ""),
         "versions": new_versions
     }
 
-    myApps.append(app)
+    myApps["apps"].append(app)
     print(f"Added new app: {bundleID}")
 
 # Save output
