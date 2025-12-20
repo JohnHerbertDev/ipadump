@@ -1,6 +1,8 @@
 import requests
 import json
+from datetime import datetime
 
+# Load existing apps and scraping list
 myApps = json.load(open("my-apps.json"))
 scraping = json.load(open("scraping.json"))
 
@@ -14,13 +16,23 @@ def find_app(apps, bundleID):
 def version_exists(versions, version):
     return any(v["version"] == version for v in versions)
 
+def latest_release_date(app):
+    """Return latest release datetime for an app, or epoch if none."""
+    if not app.get("versions"):
+        return datetime.min
+
+    return max(
+        datetime.fromisoformat(v["date"].replace("Z", "+00:00"))
+        for v in app["versions"]
+    )
+
 for repo_info in scraping:
     repo = repo_info["github"]
     bundleID = repo_info["bundleID"]
 
     existing_app = find_app(myApps["apps"], bundleID)
 
-    # Fetch releases (always)
+    # Fetch releases
     releases = requests.get(
         f"https://api.github.com/repos/{repo}/releases"
     ).json()
@@ -41,6 +53,7 @@ for repo_info in scraping:
                 size = asset["size"]
                 break
 
+        # Skip releases without IPA
         if not downloadURL:
             continue
 
@@ -52,7 +65,7 @@ for repo_info in scraping:
             "size": size
         })
 
-    # 🔁 APP ALREADY EXISTS → ONLY UPDATE VERSIONS
+    # 🔁 EXISTING APP → ONLY ADD NEW VERSIONS
     if existing_app:
         added = 0
         for v in new_versions:
@@ -85,6 +98,12 @@ for repo_info in scraping:
 
     myApps["apps"].append(app)
     print(f"Added new app: {bundleID}")
+
+# 🔽 SORT APPS BY LATEST RELEASE DATE (NEWEST FIRST)
+myApps["apps"].sort(
+    key=latest_release_date,
+    reverse=True
+)
 
 # Save output
 json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
