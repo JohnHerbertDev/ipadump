@@ -6,63 +6,10 @@
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a1/d8/a6/a1d8a63c-1534-2a04-b0fe-3de6e9c800b9/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/400x400ia-75.webp"
     },
     {
-        "github": "moffatman/chan",
-        "bundleID": "com.moffatman.chan",
-        "name": "Chance",
-        "iconURL": "https://github.com/moffatman/chan/blob/master/assets/appicon.png?raw=true"
-    },
-    {
-        "github": "NeoFreeBird/app",
-        "bundleID": "com.atebits.Tweetie2",
-        "name": "Twitter (NeoFreeBird)",
-        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp"
-    },
-    {
-        "github": "hugeBlack/GetMoreRam",
-        "bundleID": "com.stos.Entitlement",
-        "name": "Get More Ram"
-    },
-    {
-        "github": "leminlimez/Pocket-Poster",
-        "bundleID": "com.lemin.Pocket-Poster",
-        "name": "Pocket Poster",
-        "iconURL": "https://raw.githubusercontent.com/leminlimez/Pocket-Poster/refs/heads/main/Pocket%20Poster/Assets.xcassets/AppIcon.appiconset/pocket_poster.png"
-    },
-    {
-        "github": "KRTirtho/spotube",
-        "bundleID": "oss.krtirtho.spotube.stable",
-        "name": "Spotify (Spotube)",
-        "iconURL": "https://github.com/KRTirtho/spotube/blob/master/assets/branding/spotube-logo-macos.png?raw=true"
-    },
-    {
-        "github": "StreamerApp/App",
-        "bundleID": "com.streamerapp.ios",
-        "name": "Streamer",
-        "iconURL": "https://avatars.githubusercontent.com/u/96971772?s=200&v=4"
-    },
-    {
-        "github": "AhmedBafkir/DLiPA",
-        "bundleID": "com.ahmedbafkir.dlipa",
-        "name": "DLiPA",
-        "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png"
-    },
-    {
-        "github": "lo-cafe/winston",
-        "bundleID": "Lo.cafe.winston",
-        "name": "Winston for Reddit",
-        "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75"
-    },
-    {
-        "github": "level3tjg/RedditFilter",
-        "bundleID": "com.reddit.Reddit",
-        "name": "Reddit Filter",
-        "iconURL": "https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/icons/com.reddit.Reddit.png"
-    },
-    {
-        "github": "Nyasami/Ksign",
-        "bundleID": "nya.asami.ksign",
-        "name": "Ksign",
-        "iconURL": "https://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/Ksign/Resources/Assets.xcassets/AppIcon.appiconset/Ksign-default.png"
+        "github": "khcrysalis/Antrag",
+        "bundleID": "thewonderofyou.antrag2",
+        "name": "Antrag",
+        "iconURL": "https://raw.githubusercontent.com/khcrysalis/Antrag/refs/heads/main/Antrag/Resources/Assets.xcassets/AppIcon.appiconset/antrag.png"
     },
     {
         "github": "CloudySn0w/BTLoader",
@@ -71,16 +18,75 @@
         "iconURL": "https://raw.githubusercontent.com/CloudySn0w/BTLoader/refs/heads/main/assets/logo/icon.png"
     },
     {
+        "github": "AhmedBafkir/DLiPA",
+        "bundleID": "com.ahmedbafkir.dlipa",
+        "name": "DLiPA",
+        "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png"
+    },
+    {
         "github": "Ferrite-iOS/Ferrite",
         "bundleID": "me.kingbri.ferrite",
         "name": "Ferrite",
         "iconURL": "https://raw.githubusercontent.com/Ferrite-iOS/Ferrite/refs/heads/next/Ferrite/Assets.xcassets/AppIcon.appiconset/Ferrite-lg.png"
     },
     {
+        "github": "GopeedLab/gopeed",
+        "bundleID": "com.gopeed.gopeed",
+        "name": "Gopeed",
+        "iconURL": "https://raw.githubusercontent.com/GopeedLab/gopeed/refs/heads/main/ui/flutter/assets/icon/icon_macos_1024.png"
+    },
+    {
+        "github": "hugeBlack/GetMoreRam",
+        "bundleID": "com.stos.Entitlement",
+        "name": "Get More Ram"
+    },
+    {
+        "github": "XITRIX/iTorrent",
+        "bundleID": "com.xitrix.iTorrent2",
+        "name": "iTorrent",
+        "iconURL": "https://raw.githubusercontent.com/XITRIX/iTorrent/refs/heads/main/iTorrent/Core/Assets/Assets.xcassets/AppIcons/AppIcon.appiconset/Frame%2018.png"
+    },
+    {
+        "github": "Nyasami/Ksign",
+        "bundleID": "nya.asami.ksign",
+        "name": "Ksign",
+        "iconURL": "https://raw.githubusercontent.com/Nyasami/Ksign/refs/heads/main/Ksign/Resources/Assets.xcassets/AppIcon.appiconset/Ksign-default.png"
+    },
+    {
+        "github": "Lolendor/LBox",
+        "bundleID": "Lolendor.LBox",
+        "name": "LBox",
+        "iconURL": "https://raw.githubusercontent.com/Lolendor/LBox/main/screenshots/lbox_icon.jpg"
+    },
+    {
         "github": "sasobhabha/MathPrac",
         "bundleID": "mathpioneers.MathPrac",
         "name": "MathPrac",
         "iconURL": "https://github.com/sasobhabha/MathPrac/blob/main/MathPrac/Assets.xcassets/AppIcon.appiconset/mathprac.png?raw=true"
+    },
+    {
+        "github": "mongoosemonke504/NebuloIPTV",
+        "bundleID": "personal.Nebulo",
+        "name": "NebuloIPTV",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/00/af/ee00af75-4d23-3465-95e3-a4ea787abfe7/Placeholder.mill/400x400bb-75.webp"
+    },
+    {
+        "github": "zzanehip/The-OldOS-Project",
+        "bundleID": "com.zurac.OLDOSSL2",
+        "name": "OldOS",
+        "iconURL": "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/refs/heads/master/OldOS/OldOS/Assets.xcassets/AppIcon.appiconset/1024.png"
+    },
+    {
+        "github": "leminlimez/Pocket-Poster",
+        "bundleID": "com.lemin.Pocket-Poster",
+        "name": "Pocket Poster",
+        "iconURL": "https://raw.githubusercontent.com/leminlimez/Pocket-Poster/refs/heads/main/Pocket%20Poster/Assets.xcassets/AppIcon.appiconset/pocket_poster.png"
+    },
+    {
+        "github": "level3tjg/RedditFilter",
+        "bundleID": "com.reddit.Reddit",
+        "name": "Reddit Filter",
+        "iconURL": "https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/icons/com.reddit.Reddit.png"
     },
     {
         "github": "sasobhabha/SciGen",
@@ -95,16 +101,10 @@
         "iconURL": "https://raw.githubusercontent.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/refs/heads/master/SkyWizard-SwiftUI/Other/Assets.xcassets/wizard_face.imageset/wizard_face%403x.png"
     },
     {
-        "github": "XITRIX/iTorrent",
-        "bundleID": "com.xitrix.iTorrent2",
-        "name": "iTorrent",
-        "iconURL": "https://raw.githubusercontent.com/XITRIX/iTorrent/refs/heads/main/iTorrent/Core/Assets/Assets.xcassets/AppIcons/AppIcon.appiconset/Frame%2018.png"
-    },
-    {
-        "github": "khcrysalis/Antrag",
-        "bundleID": "thewonderofyou.antrag2",
-        "name": "Antrag",
-        "iconURL": "https://raw.githubusercontent.com/khcrysalis/Antrag/refs/heads/main/Antrag/Resources/Assets.xcassets/AppIcon.appiconset/antrag.png"
+        "github": "KRTirtho/spotube",
+        "bundleID": "oss.krtirtho.spotube.stable",
+        "name": "Spotify (Spotube)",
+        "iconURL": "https://github.com/KRTirtho/spotube/blob/master/assets/branding/spotube-logo-macos.png?raw=true"
     },
     {
         "github": "StephenDev0/StikDebug",
@@ -113,15 +113,27 @@
         "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png"
     },
     {
+        "github": "StreamerApp/App",
+        "bundleID": "com.streamerapp.ios",
+        "name": "Streamer",
+        "iconURL": "https://avatars.githubusercontent.com/u/96971772?s=200&v=4"
+    },
+    {
+        "github": "NeoFreeBird/app",
+        "bundleID": "com.atebits.Tweetie2",
+        "name": "Twitter (NeoFreeBird)",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp"
+    },
+    {
         "github": "tapframe/NuvioStreaming",
         "bundleID": "com.nuvio.app",
         "name": "NuvioStreaming",
         "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png"
     },
     {
-        "github": "zzanehip/The-OldOS-Project",
-        "bundleID": "com.zurac.OLDOSSL2",
-        "name": "OldOS",
-        "iconURL": "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/refs/heads/master/OldOS/OldOS/Assets.xcassets/AppIcon.appiconset/1024.png"
+        "github": "lo-cafe/winston",
+        "bundleID": "Lo.cafe.winston",
+        "name": "Winston for Reddit",
+        "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75"
     }
 ]
