@@ -93,5 +93,29 @@
         "bundleID": "liquidglasstext.LiquidGlassText.resources",
         "name": "SkyWizard Weather",
         "iconURL": "https://raw.githubusercontent.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/refs/heads/master/SkyWizard-SwiftUI/Other/Assets.xcassets/wizard_face.imageset/wizard_face%403x.png"
+    },
+    {
+        "github": "XITRIX/iTorrent",
+        "bundleID": "com.xitrix.iTorrent2",
+        "name": "iTorrent",
+        "iconURL": "https://raw.githubusercontent.com/XITRIX/iTorrent/refs/heads/main/iTorrent/Core/Assets/Assets.xcassets/AppIcons/AppIcon.appiconset/Frame%2018.png"
+    },
+    {
+        "github": "khcrysalis/Antrag",
+        "bundleID": "thewonderofyou.antrag2",
+        "name": "Antrag",
+        "iconURL": "https://raw.githubusercontent.com/khcrysalis/Antrag/refs/heads/main/Antrag/Resources/Assets.xcassets/AppIcon.appiconset/antrag.png"
+    },
+    {
+        "github": "StephenDev0/StikDebug",
+        "bundleID": "com.stik.stikdebug",
+        "name": "StikDebug",
+        "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png"
+    },
+    {
+        "github": "tapframe/NuvioStreaming",
+        "bundleID": "com.nuvio.app",
+        "name": "NuvioStreaming",
+        "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png"
     }
 ]
