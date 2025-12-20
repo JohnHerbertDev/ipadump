@@ -117,5 +117,11 @@
         "bundleID": "com.nuvio.app",
         "name": "NuvioStreaming",
         "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png"
+    },
+    {
+        "github": "zzanehip/The-OldOS-Project",
+        "bundleID": "com.zurac.OLDOSSL2",
+        "name": "OldOS",
+        "iconURL": "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/refs/heads/master/OldOS/OldOS/Assets.xcassets/AppIcon.appiconset/1024.png"
     }
 ]
