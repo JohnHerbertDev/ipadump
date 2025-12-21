@@ -43,7 +43,97 @@ def is_valid_ipa(asset):
 for repo_info in scraping:
     repo = repo_info["github"]
     bundleID = repo_info["bundleID"]
+    keyword = repo_info.get("keyword")
+
+    keyword = keyword.lower() if keyword else None
 
     existing_app = find_app(myApps["apps"], bundleID)
 
-    #
+    # Fetch releases
+    releases = requests.get(
+        f"https://api.github.com/repos/{repo}/releases"
+    ).json()
+
+    new_versions = []
+
+    for release in releases:
+        version = release["tag_name"].replace("v", "")
+        date = release["published_at"]
+        changelog = release["body"]
+
+        selected_asset = None
+
+        # 🔍 FIRST PASS: keyword match (if keyword exists)
+        if keyword:
+            for asset in release["assets"]:
+                name = asset["name"].lower()
+                url = asset["browser_download_url"].lower()
+
+                if not is_valid_ipa(asset):
+                    continue
+
+                if keyword in name or keyword in url:
+                    selected_asset = asset
+                    break
+
+        # 🔁 FALLBACK: first valid IPA
+        if not selected_asset:
+            for asset in release["assets"]:
+                if is_valid_ipa(asset):
+                    selected_asset = asset
+                    break
+
+        # ❌ No IPA found
+        if not selected_asset:
+            continue
+
+        new_versions.append({
+            "version": version,
+            "date": date,
+            "localizedDescription": changelog,
+            "downloadURL": selected_asset["browser_download_url"],
+            "size": selected_asset["size"]
+        })
+
+    # 🔁 EXISTING APP → ONLY ADD NEW VERSIONS
+    if existing_app:
+        added = 0
+        for v in new_versions:
+            if not version_exists(existing_app["versions"], v["version"]):
+                existing_app["versions"].append(v)
+                added += 1
+
+        if added > 0:
+            print(f"Updated {bundleID}: added {added} new version(s)")
+        else:
+            print(f"No new versions for {bundleID}")
+
+        continue
+
+    # ➕ NEW APP → FULL CREATE
+    data = requests.get(f"https://api.github.com/repos/{repo}").json()
+    readme = requests.get(
+        f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md"
+    ).text
+
+    app = {
+        "name": repo_info["name"],
+        "bundleIdentifier": bundleID,
+        "developerName": data["owner"]["login"],
+        "subtitle": data["description"],
+        "localizedDescription": readme,
+        "iconURL": repo_info.get("iconURL", ""),
+        "versions": new_versions
+    }
+
+    myApps["apps"].append(app)
+    print(f"Added new app: {bundleID}")
+
+# 🔽 SORT APPS BY LATEST RELEASE DATE (NEWEST FIRST)
+myApps["apps"].sort(
+    key=latest_release_date,
+    reverse=True
+)
+
+# Save output
+json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
