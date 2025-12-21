@@ -141,11 +141,29 @@
         "bundleID": "com.jbdotparty.PancakeStore",
         "name": "PancakeStore",
         "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png"
-    }
+    },
     {
         "github": "OatmealDome/dolphin-ios",
         "bundleID": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
         "name": "DolphiniOS",
         "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png"
     },
+    {
+        "github": "Provenance-Emu/Provenance",
+        "bundleID": "org.provenance-emu.provenance",
+        "name": "Provenance",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/65/5a/43/655a4310-f115-b354-a51a-848bf31ba236/Placeholder.mill/400x400bb-75.webp"
+    },
+    {
+        "github": "hrydgard/ppsspp",
+        "bundleID": "org.ppsspp.ppsspp",
+        "name": "PPSSPP",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/06/ab/34/06ab34e6-92e1-e0b7-a8f0-3be40dd4dbb1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/400x400ia-75.webp"
+    },
+    {
+        "github": "zydeco/minivmac4ios",
+        "bundleID": "net.namedfork.minivmac",
+        "name": "Mini vMac",
+        "iconURL": "https://github.com/zydeco/minivmac4ios/blob/main/Mini%20vMac/MacII/Icon@3x.png?raw=true"
+    }
 ]
