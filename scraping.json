@@ -142,4 +142,10 @@
         "name": "PancakeStore",
         "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png"
     }
+    {
+        "github": "OatmealDome/dolphin-ios",
+        "bundleID": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+        "name": "DolphiniOS",
+        "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png"
+    },
 ]
