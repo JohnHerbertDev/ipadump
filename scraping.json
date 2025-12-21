@@ -135,5 +135,11 @@
         "bundleID": "Lo.cafe.winston",
         "name": "Winston for Reddit",
         "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75"
+    },
+    {
+        "github": "jailbreakdotparty/PancakeStore",
+        "bundleID": "com.jbdotparty.PancakeStore",
+        "name": "PancakeStore",
+        "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png"
     }
 ]
