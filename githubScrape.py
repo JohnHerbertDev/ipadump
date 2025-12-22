@@ -57,6 +57,10 @@ for repo_info in scraping:
     new_versions = []
 
     for release in releases:
+        # 🚫 IGNORE PRE-RELEASES
+        if release.get("prerelease", False):
+            continue
+
         version = release["tag_name"].replace("v", "")
         date = release["published_at"]
         changelog = release["body"]
@@ -66,11 +70,11 @@ for repo_info in scraping:
         # 🔍 FIRST PASS: keyword match (if keyword exists)
         if keyword:
             for asset in release["assets"]:
-                name = asset["name"].lower()
-                url = asset["browser_download_url"].lower()
-
                 if not is_valid_ipa(asset):
                     continue
+
+                name = asset["name"].lower()
+                url = asset["browser_download_url"].lower()
 
                 if keyword in name or keyword in url:
                     selected_asset = asset
