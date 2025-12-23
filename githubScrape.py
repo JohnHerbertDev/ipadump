@@ -1,6 +1,6 @@
 import requests
 import json
-from datetime import datetime
+from datetime import datetime, timezone
 
 # Load existing apps and scraping list
 myApps = json.load(open("my-apps.json"))
@@ -19,7 +19,8 @@ def version_exists(versions, version):
 def latest_release_date(app):
     """Return latest release datetime for an app, or epoch if none."""
     if not app.get("versions"):
-        return datetime.min
+        # ✅ timezone-aware minimum
+        return datetime.min.replace(tzinfo=timezone.utc)
 
     return max(
         datetime.fromisoformat(v["date"].replace("Z", "+00:00"))
@@ -44,7 +45,6 @@ for repo_info in scraping:
     repo = repo_info["github"]
     bundleID = repo_info["bundleID"]
     keyword = repo_info.get("keyword")
-
     keyword = keyword.lower() if keyword else None
 
     existing_app = find_app(myApps["apps"], bundleID)
@@ -53,6 +53,10 @@ for repo_info in scraping:
     releases = requests.get(
         f"https://api.github.com/repos/{repo}/releases"
     ).json()
+
+    if not isinstance(releases, list):
+        print(f"⚠️ Failed to fetch releases for {repo}")
+        continue
 
     new_versions = []
 
@@ -67,16 +71,13 @@ for repo_info in scraping:
 
         selected_asset = None
 
-        # 🔍 FIRST PASS: keyword match (if keyword exists)
+        # 🔍 FIRST PASS: keyword match
         if keyword:
             for asset in release["assets"]:
                 if not is_valid_ipa(asset):
                     continue
 
-                name = asset["name"].lower()
-                url = asset["browser_download_url"].lower()
-
-                if keyword in name or keyword in url:
+                if keyword in asset["name"].lower() or keyword in asset["browser_download_url"].lower():
                     selected_asset = asset
                     break
 
@@ -87,7 +88,6 @@ for repo_info in scraping:
                     selected_asset = asset
                     break
 
-        # ❌ No IPA found
         if not selected_asset:
             continue
 
@@ -107,14 +107,17 @@ for repo_info in scraping:
                 existing_app["versions"].append(v)
                 added += 1
 
-        if added > 0:
-            print(f"Updated {bundleID}: added {added} new version(s)")
-        else:
-            print(f"No new versions for {bundleID}")
-
+        print(
+            f"Updated {bundleID}: added {added} new version(s)"
+            if added else f"No new versions for {bundleID}"
+        )
         continue
 
     # ➕ NEW APP → FULL CREATE
+    if not new_versions:
+        print(f"⚠️ No valid IPA releases for {bundleID}, skipping")
+        continue
+
     data = requests.get(f"https://api.github.com/repos/{repo}").json()
     readme = requests.get(
         f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md"
