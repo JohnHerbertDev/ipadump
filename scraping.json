@@ -32,6 +32,7 @@
         "bundleID": "me.kingbri.ferrite",
         "name": "Ferrite",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/Ferrite-iOS/Ferrite/refs/heads/next/Ferrite/Assets.xcassets/AppIcon.appiconset/Ferrite-lg.png"
     },
     {
@@ -46,6 +47,7 @@
         "bundleID": "com.stos.Entitlement",
         "name": "Get More Ram",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/61/02/796102aa-9d4b-902e-3ff6-db74ce99cb4b/Placeholder.mill/400x400bb-75.webp"
     },
     {
@@ -158,6 +160,7 @@
         "bundleID": "Lo.cafe.winston",
         "name": "Winston for Reddit",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75"
     },
     {
