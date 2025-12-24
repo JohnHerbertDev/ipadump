@@ -46,6 +46,11 @@ for repo_info in scraping:
     keyword = repo_info.get("keyword")
     allow_prerelease = repo_info.get("allowPrerelease", False)
 
+    # 🆕 NEW: Skip GitHub check if disabled
+    if not repo_info.get("checkGithub", True):
+        print(f"⏭️ Skipping GitHub check for {repo_info['name']}")
+        continue
+
     keyword = keyword.lower() if keyword else None
 
     existing_app = find_app(myApps["apps"], bundleID)
