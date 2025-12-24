@@ -19,7 +19,6 @@ def version_exists(versions, version):
 def latest_release_date(app):
     """Return latest release datetime for an app, or epoch if none."""
     if not app.get("versions"):
-        # ✅ timezone-aware minimum
         return datetime.min.replace(tzinfo=timezone.utc)
 
     return max(
@@ -45,6 +44,8 @@ for repo_info in scraping:
     repo = repo_info["github"]
     bundleID = repo_info["bundleID"]
     keyword = repo_info.get("keyword")
+    allow_prerelease = repo_info.get("allowPrerelease", False)
+
     keyword = keyword.lower() if keyword else None
 
     existing_app = find_app(myApps["apps"], bundleID)
@@ -61,8 +62,8 @@ for repo_info in scraping:
     new_versions = []
 
     for release in releases:
-        # 🚫 IGNORE PRE-RELEASES
-        if release.get("prerelease", False):
+        # 🚫 IGNORE PRE-RELEASES UNLESS ALLOWED
+        if release.get("prerelease", False) and not allow_prerelease:
             continue
 
         version = release["tag_name"].replace("v", "")
