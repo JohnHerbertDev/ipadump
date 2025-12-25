@@ -190,6 +190,7 @@
         "bundleID": "com.rileytestut.Delta",
         "name": "Delta Emulator",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/08/91/ed089193-2334-fd9b-752e-fc330791ee48/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/400x400ia-75.webp"
     },
     {
