@@ -253,5 +253,47 @@
         "keyword": "utm-hv",
         "allowPrerelease": false,
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
+    }.
+        {
+    "github": "Dan1elTheMan1el/LiveRedirect",
+    "bundleID": "danielthemaniel.DynamicRedirect",
+    "name": "LiveRedirect",
+    "allowPrerelease": false,
+    "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/main/DynamicRedirect%20Extension/images/icon-128.png"
+    },
+    {
+        "github": "SideStore/SideStore",
+        "bundleID": "com.SideStore.SideStore",
+        "name": "SideStore",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/SideStore/SideStore/refs/heads/develop/AltWidget/Assets.xcassets/SideStore.imageset/1024.png"
+    },
+    {
+        "github": "khcrysalis/Feather",
+        "bundleID": "thewonderofyou.Feather",
+        "name": "Feather",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/khcrysalis/Feather/refs/heads/main/Feather/Resources/Icons/Main/V1%403x.png"
+    },
+    {
+        "github": "leminlimez/Nugget-Mobile",
+        "bundleID": "com.leemin.nugget",
+        "name": "Nugget (Mobile)",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/leminlimez/Nugget-Mobile/1881fdc2b721fd2675a2909e7fbc24769d11bb53/readme-images/icon.png"
+    },
+    {
+        "github": "khcrysalis/Protokolle",
+        "bundleID": "thewonderofyou.syslog",
+        "name": "Protokolle",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/khcrysalis/Protokolle/refs/heads/main/Protokolle/Resources/Assets.xcassets/AppIcon.appiconset/Protokalle.png"
+    },
+    {
+        "github": "Mobile-Artificial-Intelligence/maid",
+        "bundleID": "com.danemadsen.maid",
+        "name": "Maid",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/refs/heads/main/images/logo.png"
     }
 ]
