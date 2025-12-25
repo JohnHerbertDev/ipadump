@@ -177,7 +177,6 @@
         "allowPrerelease": true,
         "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png"
     },
-
     {
         "github": "OnionBrowser/OnionBrowser",
         "bundleID": "com.miketigas.OnionBrowser",
@@ -217,10 +216,42 @@
     },
     {
         "github": "LiveContainer/LiveContainer",
-        "bundleID": "com.kdt.livecontainer",
+        "bundleID": "com.kdt.livecontainer2",
         "name": "LiveContainer + SideStore",
         "keyword": "LiveContainer+SideStore.ipa",
         "allowPrerelease": false,
         "iconURL": "https://github.com/LiveContainer/LiveContainer/raw/main/screenshots/livecontainer_icon.png"
+    },
+    {
+        "github": "utmapp/UTM",
+        "bundleID": "com.utmapp.utm",
+        "name": "UTM",
+        "keyword": "utm.ipa",
+        "allowPrerelease": false,
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
+    },
+    {
+        "github": "utmapp/UTM",
+        "bundleID": "com.utmapp.utmse",
+        "name": "UTM SE",
+        "keyword": "utm-se",
+        "allowPrerelease": false,
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
+    },
+    {
+        "github": "utmapp/UTM",
+        "bundleID": "com.utmapp.utmremote",
+        "name": "UTM Remote",
+        "keyword": "utm-remote",
+        "allowPrerelease": false,
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/61/02/796102aa-9d4b-902e-3ff6-db74ce99cb4b/Placeholder.mill/400x400bb-75.webp"
+    },
+        {
+        "github": "utmapp/UTM",
+        "bundleID": "com.utmapp.utmhv",
+        "name": "UTM Hypervisor",
+        "keyword": "utm-hv",
+        "allowPrerelease": false,
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
     }
 ]
