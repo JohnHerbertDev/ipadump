@@ -10,12 +10,175 @@
   "headerURL": "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/18e85263-afea-4d98-a16f-42554f815528/Wave1x1.png",
   "apps": [
     {
+      "name": "NuvioStreaming",
+      "bundleIdentifier": "com.nuvio.app",
+      "marketplaceID": "",
+      "developerName": "tapframe",
+      "subtitle": "A simple Media Hub",
+      "localizedDescription": "<!-- Improved compatibility of back to top link -->\n<a id=\"readme-top\"></a>\n\n<!-- PROJECT SHIELDS -->\n[![Contributors][contributors-shield]][contributors-url]\n[![Forks][forks-shield]][forks-url]\n[![Stargazers][stars-shield]][stars-url]\n[![Issues][issues-shield]][issues-url]\n[![License][license-shield]][license-url]\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <img src=\"assets/titlelogo.png\" alt=\"Nuvio Logo\" width=\"120\" />\n  <h1 align=\"center\">🎬 Nuvio Media Hub</h1>\n  <p align=\"center\">\n    A modern media hub built with React Native and Expo\n    <br />\n    Stremio Addon ecosystem • Cross‑platform • Offline metadata & sync\n    <br />\n    <br />\n    <a href=\"#getting-started\"><strong>Get Started »</strong></a>\n    <br />\n    <br />\n    <a href=\"#demo\">View Screenshots</a>\n    ·\n    <a href=\"https://github.com/tapframe/NuvioStreaming/issues/new?labels=bug&template=bug_report.md\">Report Bug</a>\n    ·\n    <a href=\"https://github.com/tapframe/NuvioStreaming/issues/new?labels=enhancement&template=feature_request.md\">Request Feature</a>\n  </p>\n</div>\n\n<!-- TABLE OF CONTENTS -->\n<details>\n  <summary>Table of Contents</summary>\n  <ol>\n    <li>\n      <a href=\"#about-the-project\">About The Project</a>\n    </li>\n    <li><a href=\"#installation\">Installation</a></li>\n    <li><a href=\"#demo\">Screenshots</a></li>\n    <li><a href=\"#getting-started\">Getting Started</a></li>\n    <li><a href=\"#contributing\">Contributing</a></li>\n    <li><a href=\"#support\">Support</a></li>\n    <li><a href=\"#license\">License</a></li>\n    <li><a href=\"#contact\">Contact</a></li>\n    <li><a href=\"#acknowledgments\">Acknowledgments</a></li>\n    <li><a href=\"#built-with\">Built With</a></li>\n  </ol>\n  </details>\n\n<!-- ABOUT THE PROJECT -->\n## About The Project\n\nNuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.\n\n \n\n<!-- INSTALLATION -->\n## Installation\n\n### Android\n[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/tapframe/NuvioStreaming/releases/latest)\n\nDownload the latest APK from [GitHub Releases](https://github.com/tapframe/NuvioStreaming/releases/latest)\n\n### iOS\n\n#### TestFlight (Recommended)\n<img src=\"https://upload.wikimedia.org/wikipedia/fr/b/bc/TestFlight-icon.png\" width=\"24\" height=\"24\" align=\"left\"> [![Join TestFlight](https://img.shields.io/badge/Join-TestFlight-blue?style=for-the-badge)](https://testflight.apple.com/join/QkKMGRqp)\n\n#### AltStore\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/2/20/AltStore_logo.png\" width=\"24\" height=\"24\" align=\"left\"> [![Add to AltStore](https://img.shields.io/badge/Add%20to-AltStore-blue?style=for-the-badge)](https://tinyurl.com/NuvioAltstore)\n\n#### SideStore\n<img src=\"https://github.com/SideStore/assets/blob/main/icon.png?raw=true\" width=\"24\" height=\"24\" align=\"left\"> [![Add to SideStore](https://img.shields.io/badge/Add%20to-SideStore-green?style=for-the-badge)](https://tinyurl.com/NuvioSidestore)\n\n**Manual URL:** `https://raw.githubusercontent.com/tapframe/NuvioStreaming/main/nuvio-source.json`\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n<!-- DEMO / SCREENSHOTS -->\n## Demo\n<a id=\"demo\"></a>\n\n| Home | Details |\n|:----:|:-------:|\n| ![Home](screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png) | ![Details](screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png) |\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n<!-- GETTING STARTED -->\n## Getting Started\n\nFollow the steps below to run the app locally for development.\n\n### Development Build\n\n<details>\n  <summary>Build from Source</summary>\n\n```bash\ngit clone https://github.com/tapframe/NuvioStreaming.git\ncd NuvioStreaming\nnpm install\n# If you hit peer dependency conflicts:\n# npm install --legacy-peer-deps\nnpx expo start\n```\n\n```bash\nnpx expo prebuild\nnpx expo run:android  # Android\nnpx expo run:ios      # iOS\n```\n\n</details>\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n \n\n## Contributing\n\nContributions make the open‑source community amazing! Any contributions are greatly appreciated.\n\n1. Fork the project\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Support\n\nIf you find Nuvio helpful, consider supporting development:\n\n* **Ko‑Fi** – `https://ko-fi.com/tapframe`\n* **GitHub Star** – Star the repo to show support\n* **Share** – Tell others about the project\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## License\n\nDistributed under the GNU GPLv3 License. See `LICENSE` for more information.\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Contact\n\n**Project Links:**\n* GitHub: `https://github.com/tapframe`\n* Issues: `https://github.com/tapframe/NuvioStreaming/issues`\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Acknowledgments\n\n* [React Native](https://reactnative.dev/)\n* [Expo](https://expo.dev/)\n* [TypeScript](https://www.typescriptlang.org/)\n* Community contributors and testers\n\n**Disclaimer:** This application functions as a media hub with addon/plugin support. It does not contain any built‑in content or host media content. Content access is only available through user‑installed plugins and addons. Any legal concerns should be directed to the specific websites providing the content.\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Built With\n\n<p align=\"left\">\n  <a href=\"https://skillicons.dev\">\n    <img src=\"https://skillicons.dev/icons?i=react,typescript,nodejs,expo,github,githubactions&theme=light&perline=6\" />\n  </a>\n  <br/>\n  React Native • Expo • TypeScript\n  </p>\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n<!-- MARKDOWN LINKS & IMAGES -->\n[contributors-shield]: https://img.shields.io/github/contributors/tapframe/NuvioStreaming.svg?style=for-the-badge\n[contributors-url]: https://github.com/tapframe/NuvioStreaming/graphs/contributors\n[forks-shield]: https://img.shields.io/github/forks/tapframe/NuvioStreaming.svg?style=for-the-badge\n[forks-url]: https://github.com/tapframe/NuvioStreaming/network/members\n[stars-shield]: https://img.shields.io/github/stars/tapframe/NuvioStreaming.svg?style=for-the-badge\n[stars-url]: https://github.com/tapframe/NuvioStreaming/stargazers\n[issues-shield]: https://img.shields.io/github/issues/tapframe/NuvioStreaming.svg?style=for-the-badge\n[issues-url]: https://github.com/tapframe/NuvioStreaming/issues\n[license-shield]: https://img.shields.io/github/license/tapframe/NuvioStreaming.svg?style=for-the-badge\n[license-url]: http://www.gnu.org/licenses/gpl-3.0.en.html",
+      "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
+      "tintColor": "#007aff",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.3.0",
+          "date": "2025-12-24T14:21:50Z",
+          "localizedDescription": "# ⚠️ Important Notice Before Updating to v1.3.0  \r\n\r\nBefore updating, please read this carefully.\r\n\r\nEspecially for **Android users**, this update is **not mandatory**.  \r\nWe have **completely migrated the internal player** from **ExoPlayer + VLC** to **MPV Player**.  \r\nBecause this is a major internal change, **unexpected bugs may occur**.\r\n\r\nThis update is **recommended only for users who are willing to test and provide feedback**.  \r\nYour feedback is important to help complete this migration and make it bug-free.\r\n\r\n---\r\n\r\n# Nuvio Media Hub – v1.3.0  \r\n\r\n## Android\r\n- Replaced internal player with **MPV Player** for better codec support  \r\n- Added toggles for **Software (SW) / Hardware (HW) decoding**  \r\n\r\n## Global\r\n- Dependency updates  \r\n- Minor bug fixes  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.0/Stable_1-3-0.ipa",
+          "size": 35835616,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.11",
+          "date": "2025-12-14T21:41:31Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
+          "size": 36074020,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.10",
+          "date": "2025-11-25T18:12:44Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week’s section** card UI for a cleaner look  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
+          "size": 54201010,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.9",
+          "date": "2025-11-16T16:31:11Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
+          "size": 54170603,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.8",
+          "date": "2025-11-09T16:11:34Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
+          "size": 54120130,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.7",
+          "date": "2025-10-26T09:13:08Z",
+          "localizedDescription": "# ⚠️ Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings → Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub – v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > ⚠️ This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you’ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
+          "size": 49189840,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.6",
+          "date": "2025-10-21T11:23:31Z",
+          "localizedDescription": "# Version 1.2.6 – Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge – Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
+          "size": 48961527,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.5",
+          "date": "2025-10-15T17:58:07Z",
+          "localizedDescription": "# Version 1.2.5 – Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
+          "size": 46750250,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.4",
+          "date": "2025-10-11T21:39:45Z",
+          "localizedDescription": "# Version 1.2.4 – Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
+          "size": 44690634,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.3",
+          "date": "2025-10-04T18:50:35Z",
+          "localizedDescription": "# Version 1.2.3 – Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** – contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from “H and MIN” to “H and M”  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
+          "size": 44424662,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.2",
+          "date": "2025-09-30T12:28:46Z",
+          "localizedDescription": "# Version 1.2.2 – Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
+          "size": 42388702,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.1",
+          "date": "2025-09-26T17:36:56Z",
+          "localizedDescription": "# Version 1.2.1 – Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - ⚠️ New users should use the respective **plugin repository link** to set up properly  \r\n\r\n⚠️ **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
+          "size": 42367478,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.0",
+          "date": "2025-09-22T15:52:55Z",
+          "localizedDescription": "# Version 1.2.0 – Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n⚠️ **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app’s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
+          "size": 42350147,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.1.1",
+          "date": "2025-09-20T11:27:24Z",
+          "localizedDescription": "# Version 1.1.1 – Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n⚠️ **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
+          "size": 26625101,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.1.0",
+          "date": "2025-09-18T11:40:28Z",
+          "localizedDescription": "# Version 1.1.0 – Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n⚠️ **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
+          "size": 26624100,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-09-15T17:12:25Z",
+          "localizedDescription": "# Version 1.0.0 – Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it’s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n🙏 A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
+          "size": 30213962,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
       "name": "PancakeStore",
       "bundleIdentifier": "com.jbdotparty.PancakeStore",
       "marketplaceID": "",
       "developerName": "jailbreakdotparty",
       "subtitle": "MuffinStore Jailed, with UI.",
-      "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\n>[!WARNING]\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\n\n## Features\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
+      "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
       "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
       "tintColor": "#c64000",
       "category": "developer",
@@ -43,7 +206,7 @@
       "marketplaceID": "",
       "developerName": "XITRIX",
       "subtitle": "Torrent client for iOS 16+",
-      "localizedDescription": "> [!WARNING]\n> iTorrent 2.0 app is in beta preview state, expect to see some bugs and be ready report about them.\n\nIt is an ordinary torrent client for iOS with Files app support.\n\nWhat can this app do:\n- Download in the background\n- Live Activity and Dynamic Island progress widget\n- Sequential download (use VLC to watch films while loading)\n- Add torrent files from Share menu (Safari and other apps)\n- Add magnet links directly from Safari\n- Store files in Files app\n- File sharing directly from app\n- Download torrent by link\n- Download torrent by magnet\n- Send notification on torrent downloaded\n- WebDav Server\n- Select files to download or not\n- Change UI to dark theme\n- RSS Feed\n- ??? \n\n## Localization\n\nNow iTorrent supports the following languages:\n- English\n- German\n- Russian\n- Spanish\n- Simplified Chinese\n- Italian\n- Polish\n\n## Important information\nThis app using Firebase Analytics and so it collects next information from your device:\n- The country of your internet provider\n- Time of app's working session\n\nAll this data presents as statistic, and cannot be used to get someone's personal information\n\nAlso this app using Firebase Crashlytics, which collects the next information when application crashes:\n- Model of your device (IPhone X or IPad Pro (10.5 inch) for example)\n- Device orientation\n- Free space on RAM and ROM\n- IOS version\n- Time of crash\n- Detailed log of the thread where the stuck happens\n\nAll this information is using for bug fixing and improving the quality of this app\n\nMore information you can find on https://firebase.google.com\n\nLicense:\nCopyright (c) 2024 XITRIX (Vinogradov Daniil)\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal \nin the Software without restriction, including without limitation the rights \nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER \nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+      "localizedDescription": "WARNING\niTorrent 2.0 app is in beta preview state, expect to see some bugs and be ready report about them.\n\nIt is an ordinary torrent client for iOS with Files app support.\n\nWhat can this app do:\n- Download in the background\n- Live Activity and Dynamic Island progress widget\n- Sequential download (use VLC to watch films while loading)\n- Add torrent files from Share menu (Safari and other apps)\n- Add magnet links directly from Safari\n- Store files in Files app\n- File sharing directly from app\n- Download torrent by link\n- Download torrent by magnet\n- Send notification on torrent downloaded\n- WebDav Server\n- Select files to download or not\n- Change UI to dark theme\n- RSS Feed\n- ??? \n\nLocalization\nNow iTorrent supports the following languages:\n- English\n- German\n- Russian\n- Spanish\n- Simplified Chinese\n- Italian\n- Polish\n\nImportant information\nThis app using Firebase Analytics and so it collects next information from your device:\n- The country of your internet provider\n- Time of app's working session\n\nAll this data presents as statistic, and cannot be used to get someone's personal information\n\nAlso this app using Firebase Crashlytics, which collects the next information when application crashes:\n- Model of your device (IPhone X or IPad Pro (10.5 inch) for example)\n- Device orientation\n- Free space on RAM and ROM\n- IOS version\n- Time of crash\n- Detailed log of the thread where the stuck happens\n\nAll this information is using for bug fixing and improving the quality of this app\n\nMore information you can find on https://firebase.google.com\n\nLicense:\nCopyright (c) 2024 XITRIX (Vinogradov Daniil)\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal \nin the Software without restriction, including without limitation the rights \nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER \nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
       "iconURL": "https://raw.githubusercontent.com/XITRIX/iTorrent/refs/heads/main/iTorrent/Core/Assets/Assets.xcassets/AppIcons/AppIcon.appiconset/Frame%2018.png",
       "tintColor": "#da9000",
       "category": "utilities",
@@ -959,170 +1122,52 @@
       "patreon": {}
     },
     {
-      "name": "NuvioStreaming",
-      "bundleIdentifier": "com.nuvio.app",
-      "marketplaceID": "",
-      "developerName": "tapframe",
-      "subtitle": "A simple Media Hub",
-      "localizedDescription": "<!-- Improved compatibility of back to top link -->\n<a id=\"readme-top\"></a>\n\n<!-- PROJECT SHIELDS -->\n[![Contributors][contributors-shield]][contributors-url]\n[![Forks][forks-shield]][forks-url]\n[![Stargazers][stars-shield]][stars-url]\n[![Issues][issues-shield]][issues-url]\n[![License][license-shield]][license-url]\n\n<!-- PROJECT LOGO -->\n<br />\n<div align=\"center\">\n  <img src=\"assets/titlelogo.png\" alt=\"Nuvio Logo\" width=\"120\" />\n  <h1 align=\"center\">🎬 Nuvio Media Hub</h1>\n  <p align=\"center\">\n    A modern media hub built with React Native and Expo\n    <br />\n    Stremio Addon ecosystem • Cross‑platform • Offline metadata & sync\n    <br />\n    <br />\n    <a href=\"#getting-started\"><strong>Get Started »</strong></a>\n    <br />\n    <br />\n    <a href=\"#demo\">View Screenshots</a>\n    ·\n    <a href=\"https://github.com/tapframe/NuvioStreaming/issues/new?labels=bug&template=bug_report.md\">Report Bug</a>\n    ·\n    <a href=\"https://github.com/tapframe/NuvioStreaming/issues/new?labels=enhancement&template=feature_request.md\">Request Feature</a>\n  </p>\n</div>\n\n<!-- TABLE OF CONTENTS -->\n<details>\n  <summary>Table of Contents</summary>\n  <ol>\n    <li>\n      <a href=\"#about-the-project\">About The Project</a>\n    </li>\n    <li><a href=\"#installation\">Installation</a></li>\n    <li><a href=\"#demo\">Screenshots</a></li>\n    <li><a href=\"#getting-started\">Getting Started</a></li>\n    <li><a href=\"#contributing\">Contributing</a></li>\n    <li><a href=\"#support\">Support</a></li>\n    <li><a href=\"#license\">License</a></li>\n    <li><a href=\"#contact\">Contact</a></li>\n    <li><a href=\"#acknowledgments\">Acknowledgments</a></li>\n    <li><a href=\"#built-with\">Built With</a></li>\n  </ol>\n  </details>\n\n<!-- ABOUT THE PROJECT -->\n## About The Project\n\nNuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.\n\n \n\n<!-- INSTALLATION -->\n## Installation\n\n### Android\n[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/tapframe/NuvioStreaming/releases/latest)\n\nDownload the latest APK from [GitHub Releases](https://github.com/tapframe/NuvioStreaming/releases/latest)\n\n### iOS\n\n#### TestFlight (Recommended)\n<img src=\"https://upload.wikimedia.org/wikipedia/fr/b/bc/TestFlight-icon.png\" width=\"24\" height=\"24\" align=\"left\"> [![Join TestFlight](https://img.shields.io/badge/Join-TestFlight-blue?style=for-the-badge)](https://testflight.apple.com/join/QkKMGRqp)\n\n#### AltStore\n<img src=\"https://upload.wikimedia.org/wikipedia/commons/2/20/AltStore_logo.png\" width=\"24\" height=\"24\" align=\"left\"> [![Add to AltStore](https://img.shields.io/badge/Add%20to-AltStore-blue?style=for-the-badge)](https://tinyurl.com/NuvioAltstore)\n\n#### SideStore\n<img src=\"https://github.com/SideStore/assets/blob/main/icon.png?raw=true\" width=\"24\" height=\"24\" align=\"left\"> [![Add to SideStore](https://img.shields.io/badge/Add%20to-SideStore-green?style=for-the-badge)](https://tinyurl.com/NuvioSidestore)\n\n**Manual URL:** `https://raw.githubusercontent.com/tapframe/NuvioStreaming/main/nuvio-source.json`\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n<!-- DEMO / SCREENSHOTS -->\n## Demo\n<a id=\"demo\"></a>\n\n| Home | Details |\n|:----:|:-------:|\n| ![Home](screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png) | ![Details](screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png) |\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n<!-- GETTING STARTED -->\n## Getting Started\n\nFollow the steps below to run the app locally for development.\n\n### Development Build\n\n<details>\n  <summary>Build from Source</summary>\n\n```bash\ngit clone https://github.com/tapframe/NuvioStreaming.git\ncd NuvioStreaming\nnpm install\n# If you hit peer dependency conflicts:\n# npm install --legacy-peer-deps\nnpx expo start\n```\n\n```bash\nnpx expo prebuild\nnpx expo run:android  # Android\nnpx expo run:ios      # iOS\n```\n\n</details>\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n \n\n## Contributing\n\nContributions make the open‑source community amazing! Any contributions are greatly appreciated.\n\n1. Fork the project\n2. Create your feature branch (`git checkout -b feature/AmazingFeature`)\n3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)\n4. Push to the branch (`git push origin feature/AmazingFeature`)\n5. Open a Pull Request\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Support\n\nIf you find Nuvio helpful, consider supporting development:\n\n* **Ko‑Fi** – `https://ko-fi.com/tapframe`\n* **GitHub Star** – Star the repo to show support\n* **Share** – Tell others about the project\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## License\n\nDistributed under the GNU GPLv3 License. See `LICENSE` for more information.\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Contact\n\n**Project Links:**\n* GitHub: `https://github.com/tapframe`\n* Issues: `https://github.com/tapframe/NuvioStreaming/issues`\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Acknowledgments\n\n* [React Native](https://reactnative.dev/)\n* [Expo](https://expo.dev/)\n* [TypeScript](https://www.typescriptlang.org/)\n* Community contributors and testers\n\n**Disclaimer:** This application functions as a media hub with addon/plugin support. It does not contain any built‑in content or host media content. Content access is only available through user‑installed plugins and addons. Any legal concerns should be directed to the specific websites providing the content.\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n## Built With\n\n<p align=\"left\">\n  <a href=\"https://skillicons.dev\">\n    <img src=\"https://skillicons.dev/icons?i=react,typescript,nodejs,expo,github,githubactions&theme=light&perline=6\" />\n  </a>\n  <br/>\n  React Native • Expo • TypeScript\n  </p>\n\n<p align=\"right\">(<a href=\"#readme-top\">back to top</a>)</p>\n\n<!-- MARKDOWN LINKS & IMAGES -->\n[contributors-shield]: https://img.shields.io/github/contributors/tapframe/NuvioStreaming.svg?style=for-the-badge\n[contributors-url]: https://github.com/tapframe/NuvioStreaming/graphs/contributors\n[forks-shield]: https://img.shields.io/github/forks/tapframe/NuvioStreaming.svg?style=for-the-badge\n[forks-url]: https://github.com/tapframe/NuvioStreaming/network/members\n[stars-shield]: https://img.shields.io/github/stars/tapframe/NuvioStreaming.svg?style=for-the-badge\n[stars-url]: https://github.com/tapframe/NuvioStreaming/stargazers\n[issues-shield]: https://img.shields.io/github/issues/tapframe/NuvioStreaming.svg?style=for-the-badge\n[issues-url]: https://github.com/tapframe/NuvioStreaming/issues\n[license-shield]: https://img.shields.io/github/license/tapframe/NuvioStreaming.svg?style=for-the-badge\n[license-url]: http://www.gnu.org/licenses/gpl-3.0.en.html",
-      "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
-      "tintColor": "#007aff",
-      "category": "other",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "1.2.11",
-          "date": "2025-12-14T21:41:31Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
-          "size": 36074020,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.10",
-          "date": "2025-11-25T18:12:44Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week’s section** card UI for a cleaner look  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
-          "size": 54201010,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.9",
-          "date": "2025-11-16T16:31:11Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
-          "size": 54170603,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.8",
-          "date": "2025-11-09T16:11:34Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
-          "size": 54120130,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.7",
-          "date": "2025-10-26T09:13:08Z",
-          "localizedDescription": "# ⚠️ Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings → Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub – v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > ⚠️ This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you’ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
-          "size": 49189840,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.6",
-          "date": "2025-10-21T11:23:31Z",
-          "localizedDescription": "# Version 1.2.6 – Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge – Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
-          "size": 48961527,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.5",
-          "date": "2025-10-15T17:58:07Z",
-          "localizedDescription": "# Version 1.2.5 – Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
-          "size": 46750250,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.4",
-          "date": "2025-10-11T21:39:45Z",
-          "localizedDescription": "# Version 1.2.4 – Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
-          "size": 44690634,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.3",
-          "date": "2025-10-04T18:50:35Z",
-          "localizedDescription": "# Version 1.2.3 – Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** – contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from “H and MIN” to “H and M”  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
-          "size": 44424662,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.2",
-          "date": "2025-09-30T12:28:46Z",
-          "localizedDescription": "# Version 1.2.2 – Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
-          "size": 42388702,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.1",
-          "date": "2025-09-26T17:36:56Z",
-          "localizedDescription": "# Version 1.2.1 – Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - ⚠️ New users should use the respective **plugin repository link** to set up properly  \r\n\r\n⚠️ **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
-          "size": 42367478,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.0",
-          "date": "2025-09-22T15:52:55Z",
-          "localizedDescription": "# Version 1.2.0 – Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n⚠️ **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app’s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
-          "size": 42350147,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.1.1",
-          "date": "2025-09-20T11:27:24Z",
-          "localizedDescription": "# Version 1.1.1 – Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n⚠️ **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
-          "size": 26625101,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.1.0",
-          "date": "2025-09-18T11:40:28Z",
-          "localizedDescription": "# Version 1.1.0 – Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n⚠️ **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
-          "size": 26624100,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.0.0",
-          "date": "2025-09-15T17:12:25Z",
-          "localizedDescription": "# Version 1.0.0 – Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it’s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n🙏 A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
-          "size": 30213962,
-          "buildVersion": null,
-          "minOSVersion": null
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {}
-    },
-    {
-      "name": "BTLoader (Discord)",
+      "name": "Discord (BTLoader)",
       "bundleIdentifier": "com.hammerandchisel.discord",
       "marketplaceID": "",
       "developerName": "CloudySn0w",
-      "subtitle": "💧 BTLoader! The Future For iOS.",
-      "localizedDescription": "# 💧 BTLoader\n\nTweak to inject [Ra1n](https://github.com/ra1ncord/ra1n) into Discord and perform various tasks.\n\n**We at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.**\n\n## Installation\n\nThe latest builds can be found in the [Releases](https://github.com/CloudySn0w/BTLoader/releases) tab.\n\n## Legacy Of BTLoader\n\nRead about our history here at [The Legacy Of BTLoader](TheLegacyOfBT.md).\n",
-      "iconURL": "https://raw.githubusercontent.com/CloudySn0w/BTLoader/refs/heads/main/assets/logo/icon.png",
+      "subtitle": "Group Chat That’s Fun & Games",
+      "localizedDescription": "💧 BTLoader\nTweak to inject into Discord and perform various tasks.\n\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\n",
+      "iconURL": "https://github.com/CloudySn0w/BTLoader/blob/main/assets/logo/icon.png?raw=true",
       "tintColor": "#a40300",
-      "category": "other",
-      "screenshots": [],
+      "category": "social",
+      "screenshots": {
+        "iphone": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/66/c5/2f66c537-1c12-e60e-195b-7dd3772eb3ca/baaf0ea6-bf25-48e8-bbcb-6f860eda5f96_1_GroupChat_Tile_EN_6-5.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/3b/7c/ca3b7c22-1c65-8337-204c-4c6fb6c15950/932d11eb-9349-4c32-a611-4c9b4384017b_2_Stream_Tile_EN_6-5.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/cb/15/77cb1519-aa19-6d48-af24-af61402e6acf/49f0b8ee-61f9-4fdc-a043-2f7904783cb5_3_SeeWhos_Tile_EN_6-5.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/5f/09/475f0927-4563-b286-0ffe-fcd035db41f5/4e3c518b-f980-4622-8b2f-924f8e67117d_4_HopIn_Tile_EN_6-5.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/53/a1/5f53a16e-a2f6-a1a7-4f0f-5b770676f1b4/e4df6caa-49a5-4503-8213-19bec0fc5b99_5_ToDo_Tile_EN_6-5.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/af/30/ffaf30de-6ce2-5c06-398b-63aac988cd56/Hero_Image__U0028for_Apple_store_U0029_Server__U0028no_members_list_U0029_1242x2688_EN.png/230x498bb.webp"
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/f1/22/c3f1225c-ebf2-d5c3-5716-3852c1d30754/bf95ff77-d012-475f-8dad-9e79aecf4bcf_1_GroupChat_Tablet_2732x2048.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/46/91/224691dd-1751-c82d-e5ca-a74ead2a7b44/1c99dc5c-2991-4a1d-8e68-c4e3a4fd447a_2_Stream_Tablet_2732x2048.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/fe/60/45fe60f4-8fad-152f-12d0-de5b9d509651/64f9f3ac-867f-48ce-9779-4e2c71124699_3_SeeWhos_Tablet_2732x2048.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/e6/72/95e67252-8600-abce-d2db-d5672a1a4fca/ce4b3b52-a43e-4d0d-8bd2-40b09a6f1849_4_HopIn_Tablet_2732x2048.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/0d/0e/720d0e1c-b7c4-a663-50b4-1a131cb730fe/89fff3fa-e9fe-445a-a53e-436824057379_5_ToDo_Tablet_2732x2048.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          }
+        ]
+      },
       "versions": [
         {
           "version": "308.0",
@@ -1274,11 +1319,17 @@
       "marketplaceID": "",
       "developerName": "zzanehip",
       "subtitle": "Recreating a fully functional version of iOS 4 in SwiftUI. ",
-      "localizedDescription": "404: Not Found",
+      "localizedDescription": "OldOS is a testament to the days of yesteryear, showcasing what iOS once was ten years ago. The ethos of the app is to merge the technologies of today with a pixel-perfect recreation of the user experience of the past. The vast majority of apps in OldOS are fully functional — meaning they seamlessly integrate with the data on your phone to deliver a live, emulator-esque experience. What does this mean? Well, you can play your music in iPod, get directions in Maps, surf the web in Safari, view the current weather in Weather, and much more. By the same token, no shortcuts were taken in fully fleshing out the operating system. You can change your background, adjust settings, search apps, et cetera. There are a few apps still not ready for primetime but don't worry, they're coming soon.\n\nWith OldOS, you no longer need to worry about securing a legacy iPhone to experience nostalgia — it's available on your daily driver.\n\nPart of the goal with OldOS is to enable anyone to understand how iOS works and demonstrate just how powerful SwiftUI truly is. For that reason, the entire app is open-sourced — enabling developers to learn about, modify, and add to the app. I thought building this over my last six or so months in high school and sharing it with the world would be a fun and productive endeavor.",
       "iconURL": "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/refs/heads/master/OldOS/OldOS/Assets.xcassets/AppIcon.appiconset/1024.png",
       "tintColor": "#007aff",
-      "category": "other",
-      "screenshots": [],
+      "category": "utilities",
+      "screenshots": [
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_1.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_2.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_3.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_4.jpg",
+        "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_5.jpg"
+      ],
       "versions": [
         {
           "version": "2.0_7",
@@ -1347,11 +1398,27 @@
       "marketplaceID": "",
       "developerName": "al051195",
       "subtitle": "A Revamp of the SwiftUI based SkiWizard Application.",
-      "localizedDescription": "404: Not Found",
+      "localizedDescription": "Sky Wizard is a weather information application, developed for iOS devices. The app is open source and developed using open metro api for weather updated and photon for reverse geocoding. Both the integrated api services are free for non-commercial use and required an api key based on the number of api calls.\n\nNote: The application is mainly designed for iOS and iPadOS devices and therefore the Apple Silicon Mac experience will be less optimized.",
       "iconURL": "https://raw.githubusercontent.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/refs/heads/master/SkyWizard-SwiftUI/Other/Assets.xcassets/wizard_face.imageset/wizard_face%403x.png",
       "tintColor": "#007aff",
-      "category": "other",
-      "screenshots": [],
+      "category": "utilities",
+      "screenshots": {
+        "iphone": [
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone1.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone2.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone3.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone4.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone5.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone6.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone7.png"
+        ],
+        "ipad": [
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad1.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad2.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad4.png",
+          "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad6.png"
+        ]
+      },
       "versions": [
         {
           "version": "2.2",
@@ -2416,11 +2483,28 @@
       "marketplaceID": "",
       "developerName": "level3tjg",
       "subtitle": "iOS Tweak - Filter out unwanted content from your Reddit feed",
-      "localizedDescription": "404: Not Found",
+      "localizedDescription": "Welcome to Reddit, the heart of the internet.\n\nReddit is a social network with something for everyone: trending topics, diverse discussions, and engaging communities and comment threads.\n\nRedditors have authentic and interesting conversations around all sorts of curated content. You’ll find gaming communities, bloggers, meme-makers, fandoms, travel enthusiasts, support groups, AI forums, news junkies, artists, and creators of all types.\n\nReddit has over 100,000 online communities (forums where members post and comment) dedicated to specific topics. Some of the most popular communities are:\n• r/AskReddit, where users can ask and answer questions\n• r/funny, which is full of humorous content\n• r/science, for scientific discussions and news\n• r/gifs, with funny animated gifs for your viewing pleasure\n\nOn Reddit you’ll find:\n• Thousands of community groups\nBreaking news, social media trends, sports highlights, TV fan theories, open AI discussions and personalized content, there's a community for everyone.\n\n• Loads of laughs\nFind memes, oddly satisfying videos, funny cat videos, and more to help you lose track of time.\n\n• AMAs, or \"Ask Me Anything\"\nCelebrities, politicians, and experts answer questions from users.\n\n• The best discussions on any topic\nReddit’s discussion threads are where community members jump in with humor and insights for just about anything; pop culture, sports, entertainment, or financial advice.\n\n• Get answers to anonymous questions \nAsk communities anything you want. Ask questions on relationships, mental health, parenting, career help, fitness plans, and more.\n\n• Anonymous profiles so you can do YOU\nConnect with people about any topic, join interactive community groups or threads, and chat with other redditors, all anonymously.\n\nVoting and Karma:\n\nInstead of likes and hearts, Reddit’s social network runs on upvotes or downvotes. Voting on posts and comments increase or decrease the creator’s karma, and helps popular and relevant posts rise to the top, while filtering out low-quality or irrelevant posts.\n\nWhile karma doesn't directly impact your ability to use Reddit, more karma can increase posts’ visibility and help you get noticed. Some communities require karma to post or comment, which helps prevent spam or low-quality content.",
       "iconURL": "https://raw.githubusercontent.com/Neoncat-OG/TrollStore-IPAs/main/icons/com.reddit.Reddit.png",
       "tintColor": "#a10c00",
-      "category": "other",
-      "screenshots": [],
+      "category": "social",
+      "screenshots": {
+        "iphone": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/c7/83/72c783de-8874-1735-4aa0-acdfe1c8c7f6/1242x2688_Color_1-items__U00281_U0029.jpg/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/af/35/cbaf35fd-3d64-e167-9a0f-630d6dd78256/1242x2688_Color_2__U00282_U0029.jpg/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/16/57/6d/16576d01-9889-5d5b-b1af-a4e570afc7f6/1242x2688_Color_3__U00282_U0029.jpg/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/81/6a/41816ab2-3f3f-f870-9407-de84711df72e/1242x2688_Color_4__U00282_U0029.jpg/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/6a/17/5f6a1714-4c03-c992-0d27-7e2bc875a0a5/1242x2688_Color_5__U00282_U0029.jpg/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/22/bb/ec/22bbec4a-f04b-aaec-e7fc-c7bd9d965041/1242x2688_Color_6__U00283_U0029.jpg/230x498bb.webp"
+        ],
+        "ipad": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e0/0d/b0/e00db03c-e10c-b883-4777-487ce4b46f46/2047x2732_Color_1-Items__U00282_U0029.jpg/480x640bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/6f/22/c2/6f22c252-bce7-ef3a-2b19-4cc179c70365/2047x2732_Color_2__U00282_U0029.jpg/480x640bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/71/2c/5e712c55-b850-5b6b-b397-78310957f75f/2047x2732_Color_3__U00282_U0029.jpg/480x640bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d4/87/cd/d487cd66-abfe-c91e-ff98-2d352335de82/2047x2732_Color_4__U00282_U0029.jpg/480x640bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/43/93/d7/4393d751-cfbd-39f9-e20a-fadfeb0566c8/2047x2732_Color_5__U00282_U0029.jpg/480x640bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/13/cd/6b/13cd6b54-e655-c658-108d-87361646b58c/2047x2732_Color_6__U00283_U0029.jpg/480x640bb.webp"
+        ]
+      },
       "versions": [
         {
           "version": "2025.37.0-1.1.8",
@@ -2497,12 +2581,60 @@
       "bundleIdentifier": "com.utmapp.utm",
       "marketplaceID": "",
       "developerName": "utmapp",
-      "subtitle": "Virtual machines for iOS and macOS",
-      "localizedDescription": "#  UTM\n[![Build](https://github.com/utmapp/UTM/workflows/Build/badge.svg?branch=main&event=push)][1]\n\n> It is possible to invent a single machine which can be used to compute any computable sequence.\n\n-- <cite>Alan Turing, 1936</cite>\n\nUTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/\n\n<p align=\"center\">\n  <img width=\"450px\" alt=\"UTM running on an iPhone\" src=\"screen.png\">\n  <br>\n  <img width=\"450px\" alt=\"UTM running on a MacBook\" src=\"screenmac.png\">\n</p>\n\n## Features\n\n* Full system emulation (MMU, devices, etc) using QEMU\n* 30+ processors supported including x86_64, ARM64, and RISC-V\n* VGA graphics mode using SPICE and QXL\n* Text terminal mode\n* USB devices\n* JIT based acceleration using QEMU TCG\n* Frontend designed from scratch for macOS 11 and iOS 11+ using the latest and greatest APIs\n* Create, manage, run VMs directly from your device\n\n## Additional macOS Features\n\n* Hardware accelerated virtualization using Hypervisor.framework and QEMU\n* Boot macOS guests with Virtualization.framework on macOS 12+\n\n## UTM SE\n\nUTM/QEMU requires dynamic code generation (JIT) for maximum performance. JIT on iOS devices require either a jailbroken device, or one of the various workarounds found for specific versions of iOS (see \"Install\" for more details).\n\nUTM SE (\"slow edition\") uses a [threaded interpreter][3] which performs better than a traditional interpreter but still slower than JIT. This technique is similar to what [iSH][4] does for dynamic execution. As a result, UTM SE does not require jailbreaking or any JIT workarounds and can be sideloaded as a regular app.\n\nTo optimize for size and build times, only the following architectures are included in UTM SE: ARM, PPC, RISC-V, and x86 (all with both 32-bit and 64-bit variants).\n\n## Install\n\nUTM (SE) for iOS: https://getutm.app/install/\n\nUTM is also available for macOS: https://mac.getutm.app/\n\n## Development\n\n### [macOS Development](Documentation/MacDevelopment.md)\n\n### [iOS Development](Documentation/iOSDevelopment.md)\n\n## Related\n\n* [iSH][4]: emulates a usermode Linux terminal interface for running x86 Linux applications on iOS\n* [a-shell][5]: packages common Unix commands and utilities built natively for iOS and accessible through a terminal interface\n\n## License\n\nUTM is distributed under the permissive Apache 2.0 license. However, it uses several (L)GPL components. Most are dynamically linked but the gstreamer plugins are statically linked and parts of the code are taken from qemu. Please be aware of this if you intend on redistributing this application.\n\nSome icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).\n\nAdditionally, UTM frontend depends on the following MIT/BSD License components:\n\n* [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)\n* [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm)\n* [ZIP Foundation](https://github.com/weichsel/ZIPFoundation)\n* [InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit)\n\nContinuous integration hosting is provided by [MacStadium](https://www.macstadium.com/opensource)\n\n[<img src=\"https://uploads-ssl.webflow.com/5ac3c046c82724970fc60918/5c019d917bba312af7553b49_MacStadium-developerlogo.png\" alt=\"MacStadium logo\" width=\"250\">](https://www.macstadium.com)\n\n  [1]: https://github.com/utmapp/UTM/actions?query=event%3Arelease+workflow%3ABuild\n  [2]: screen.png\n  [3]: https://github.com/ktemkin/qemu/blob/with_tcti/tcg/aarch64-tcti/README.md\n  [4]: https://github.com/ish-app/ish\n  [5]: https://github.com/holzschu/a-shell\n",
+      "subtitle": "Run classic software and games",
+      "localizedDescription": "UTM SE is a PC emulator that allows you to run classic software and old-school games.\n\n* Supports both VGA mode for graphics and terminal mode for text-only operating systems\n* Emulates x86, ARM, PPC, and RISC-V architectures\n* Run pre-built machines or create your own configuration from scratch\n* Built from QEMU, a powerful and widely used emulator ",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp",
       "tintColor": "#007aff",
-      "category": "other",
-      "screenshots": [],
+      "category": "utilities",
+      "screenshots": {
+        "iphone": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/91/e8/7b91e8d3-eabd-9946-83b7-c00a8909bfcc/13692a6f-519d-44a0-ab66-0dd0ce967a72_0x0ss.png/230x499bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/07/0c/48/070c4871-5267-4f39-3513-37a92c2d6d26/db33fddb-9299-4541-a10a-f6347426686b_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-19_at_15.33.25.png/230x499bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/4b/1c/614b1c50-1dd7-e6fd-4c88-c951412c74bc/badbada9-0872-452e-b1fd-fc55aa2223df_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-19_at_15.38.17.png/230x499bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/64/73/d76473d2-6ab0-283d-30ba-b11bc0dc2550/95fdfbdb-4602-44a9-a2c4-e6830a097f0b_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-19_at_15.39.24.png/230x499bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/4c/1f/f74c1f3d-a27d-5fbb-15b1-0127acff4739/20a15040-6758-403a-8c98-8f0e00e8ef3a_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-19_at_15.53.06.png/230x499bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/8a/f7/c08af72e-755f-ca6d-8b20-9eae49e1ed1d/2c3d21c5-b9fb-4958-a77e-1d0945e50919_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-19_at_15.43.51.png/230x499bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cf/65/38/cf653818-d581-c349-394e-83adefb01902/0b24ff92-40ca-488e-9c98-bf2192f39536_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-19_at_15.40.27.png/230x499bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/e7/b4/59e7b4ec-6474-5545-de24-0efac0c43952/908129eb-907d-4915-96fe-89fd57fadab0_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-19_at_15.33.34.png/230x499bb.webp"
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6b/41/b1/6b41b156-22d3-81f9-8f40-9e8089cf93bb/c02cc4c6-8407-4431-93b1-dd5540058b91_0x0ss-3.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4d/e3/dd/4de3dd5b-72c9-ad6b-7f16-0e6c5ef9c624/f77a21f4-0a50-42d5-a7a9-22a73136b07b_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-19_at_19.16.06.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/80/09/d0/8009d0a0-39ba-d13c-aead-0c2ac92819d9/40073cc6-1f81-4124-b63d-47c2d79b6af2_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-19_at_19.17.08.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e1/e0/a6/e1e0a63b-8e24-9e8c-7e05-2e2813e55e03/8cd5c170-2af8-445b-8568-d3fe80a45310_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-19_at_19.24.08.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9b/07/bd/9b07bd5c-f8db-c259-8005-664208a250cf/fb848294-039e-4ca4-a626-63d72e2a5ad5_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-19_at_19.20.39.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dc/57/e2/dc57e2da-bace-ebb3-d5e4-74d8c40ee8ad/0f1b3625-ba44-41eb-91a3-55bb5416d2e8_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-19_at_19.18.25.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/27/ba/47/27ba4793-d6fb-4262-b6b3-e5344a816b2c/90b42bea-b7b7-470b-9a06-49f5744a3b8e_0x0ss-6.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          }
+        ]
+      },
       "versions": [
         {
           "version": "4.7.4",
@@ -2651,11 +2783,11 @@
       "bundleIdentifier": "com.utmapp.utmse",
       "marketplaceID": "",
       "developerName": "utmapp",
-      "subtitle": "Virtual machines for iOS and macOS",
-      "localizedDescription": "#  UTM\n[![Build](https://github.com/utmapp/UTM/workflows/Build/badge.svg?branch=main&event=push)][1]\n\n> It is possible to invent a single machine which can be used to compute any computable sequence.\n\n-- <cite>Alan Turing, 1936</cite>\n\nUTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/\n\n<p align=\"center\">\n  <img width=\"450px\" alt=\"UTM running on an iPhone\" src=\"screen.png\">\n  <br>\n  <img width=\"450px\" alt=\"UTM running on a MacBook\" src=\"screenmac.png\">\n</p>\n\n## Features\n\n* Full system emulation (MMU, devices, etc) using QEMU\n* 30+ processors supported including x86_64, ARM64, and RISC-V\n* VGA graphics mode using SPICE and QXL\n* Text terminal mode\n* USB devices\n* JIT based acceleration using QEMU TCG\n* Frontend designed from scratch for macOS 11 and iOS 11+ using the latest and greatest APIs\n* Create, manage, run VMs directly from your device\n\n## Additional macOS Features\n\n* Hardware accelerated virtualization using Hypervisor.framework and QEMU\n* Boot macOS guests with Virtualization.framework on macOS 12+\n\n## UTM SE\n\nUTM/QEMU requires dynamic code generation (JIT) for maximum performance. JIT on iOS devices require either a jailbroken device, or one of the various workarounds found for specific versions of iOS (see \"Install\" for more details).\n\nUTM SE (\"slow edition\") uses a [threaded interpreter][3] which performs better than a traditional interpreter but still slower than JIT. This technique is similar to what [iSH][4] does for dynamic execution. As a result, UTM SE does not require jailbreaking or any JIT workarounds and can be sideloaded as a regular app.\n\nTo optimize for size and build times, only the following architectures are included in UTM SE: ARM, PPC, RISC-V, and x86 (all with both 32-bit and 64-bit variants).\n\n## Install\n\nUTM (SE) for iOS: https://getutm.app/install/\n\nUTM is also available for macOS: https://mac.getutm.app/\n\n## Development\n\n### [macOS Development](Documentation/MacDevelopment.md)\n\n### [iOS Development](Documentation/iOSDevelopment.md)\n\n## Related\n\n* [iSH][4]: emulates a usermode Linux terminal interface for running x86 Linux applications on iOS\n* [a-shell][5]: packages common Unix commands and utilities built natively for iOS and accessible through a terminal interface\n\n## License\n\nUTM is distributed under the permissive Apache 2.0 license. However, it uses several (L)GPL components. Most are dynamically linked but the gstreamer plugins are statically linked and parts of the code are taken from qemu. Please be aware of this if you intend on redistributing this application.\n\nSome icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).\n\nAdditionally, UTM frontend depends on the following MIT/BSD License components:\n\n* [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)\n* [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm)\n* [ZIP Foundation](https://github.com/weichsel/ZIPFoundation)\n* [InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit)\n\nContinuous integration hosting is provided by [MacStadium](https://www.macstadium.com/opensource)\n\n[<img src=\"https://uploads-ssl.webflow.com/5ac3c046c82724970fc60918/5c019d917bba312af7553b49_MacStadium-developerlogo.png\" alt=\"MacStadium logo\" width=\"250\">](https://www.macstadium.com)\n\n  [1]: https://github.com/utmapp/UTM/actions?query=event%3Arelease+workflow%3ABuild\n  [2]: screen.png\n  [3]: https://github.com/ktemkin/qemu/blob/with_tcti/tcg/aarch64-tcti/README.md\n  [4]: https://github.com/ish-app/ish\n  [5]: https://github.com/holzschu/a-shell\n",
+      "subtitle": "Run classic software and games",
+      "localizedDescription": "UTM SE is a PC emulator that allows you to run classic software and old-school games.\n\n* Supports both VGA mode for graphics and terminal mode for text-only operating systems\n* Emulates x86, ARM, PPC, and RISC-V architectures\n* Run pre-built machines or create your own configuration from scratch\n* Built from QEMU, a powerful and widely used emulator ",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp",
       "tintColor": "#007aff",
-      "category": "other",
+      "category": "utilities",
       "screenshots": [],
       "versions": [
         {
@@ -2806,11 +2938,42 @@
       "marketplaceID": "",
       "developerName": "utmapp",
       "subtitle": "Virtual machines for iOS and macOS",
-      "localizedDescription": "#  UTM\n[![Build](https://github.com/utmapp/UTM/workflows/Build/badge.svg?branch=main&event=push)][1]\n\n> It is possible to invent a single machine which can be used to compute any computable sequence.\n\n-- <cite>Alan Turing, 1936</cite>\n\nUTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/\n\n<p align=\"center\">\n  <img width=\"450px\" alt=\"UTM running on an iPhone\" src=\"screen.png\">\n  <br>\n  <img width=\"450px\" alt=\"UTM running on a MacBook\" src=\"screenmac.png\">\n</p>\n\n## Features\n\n* Full system emulation (MMU, devices, etc) using QEMU\n* 30+ processors supported including x86_64, ARM64, and RISC-V\n* VGA graphics mode using SPICE and QXL\n* Text terminal mode\n* USB devices\n* JIT based acceleration using QEMU TCG\n* Frontend designed from scratch for macOS 11 and iOS 11+ using the latest and greatest APIs\n* Create, manage, run VMs directly from your device\n\n## Additional macOS Features\n\n* Hardware accelerated virtualization using Hypervisor.framework and QEMU\n* Boot macOS guests with Virtualization.framework on macOS 12+\n\n## UTM SE\n\nUTM/QEMU requires dynamic code generation (JIT) for maximum performance. JIT on iOS devices require either a jailbroken device, or one of the various workarounds found for specific versions of iOS (see \"Install\" for more details).\n\nUTM SE (\"slow edition\") uses a [threaded interpreter][3] which performs better than a traditional interpreter but still slower than JIT. This technique is similar to what [iSH][4] does for dynamic execution. As a result, UTM SE does not require jailbreaking or any JIT workarounds and can be sideloaded as a regular app.\n\nTo optimize for size and build times, only the following architectures are included in UTM SE: ARM, PPC, RISC-V, and x86 (all with both 32-bit and 64-bit variants).\n\n## Install\n\nUTM (SE) for iOS: https://getutm.app/install/\n\nUTM is also available for macOS: https://mac.getutm.app/\n\n## Development\n\n### [macOS Development](Documentation/MacDevelopment.md)\n\n### [iOS Development](Documentation/iOSDevelopment.md)\n\n## Related\n\n* [iSH][4]: emulates a usermode Linux terminal interface for running x86 Linux applications on iOS\n* [a-shell][5]: packages common Unix commands and utilities built natively for iOS and accessible through a terminal interface\n\n## License\n\nUTM is distributed under the permissive Apache 2.0 license. However, it uses several (L)GPL components. Most are dynamically linked but the gstreamer plugins are statically linked and parts of the code are taken from qemu. Please be aware of this if you intend on redistributing this application.\n\nSome icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).\n\nAdditionally, UTM frontend depends on the following MIT/BSD License components:\n\n* [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)\n* [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm)\n* [ZIP Foundation](https://github.com/weichsel/ZIPFoundation)\n* [InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit)\n\nContinuous integration hosting is provided by [MacStadium](https://www.macstadium.com/opensource)\n\n[<img src=\"https://uploads-ssl.webflow.com/5ac3c046c82724970fc60918/5c019d917bba312af7553b49_MacStadium-developerlogo.png\" alt=\"MacStadium logo\" width=\"250\">](https://www.macstadium.com)\n\n  [1]: https://github.com/utmapp/UTM/actions?query=event%3Arelease+workflow%3ABuild\n  [2]: screen.png\n  [3]: https://github.com/ktemkin/qemu/blob/with_tcti/tcg/aarch64-tcti/README.md\n  [4]: https://github.com/ish-app/ish\n  [5]: https://github.com/holzschu/a-shell\n",
+      "localizedDescription": "Run Windows®, Ubuntu®, and other operating systems remotely from your Mac running UTM\n\nUTM Remote allows you to stream your virtual machines from your Mac to your iOS device. Requires UTM for Mac to use. ",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/61/02/796102aa-9d4b-902e-3ff6-db74ce99cb4b/Placeholder.mill/400x400bb-75.webp",
       "tintColor": "#007aff",
-      "category": "other",
-      "screenshots": [],
+      "category": "developer",
+      "screenshots": {
+        "iphone": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c0/2b/8b/c02b8b2d-ff1a-d8d4-39fe-3a304078f6ac/6091c102-3e15-4f83-b42d-8f22c3a73024_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-30_at_08.12.20.png/230x499bb.webp",
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/b4/a8/1e/b4a81eed-6257-11f9-2636-0858734a0d19/03dafbd2-7715-4493-b5e9-94830ed8821e_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-30_at_08.55.11.png/480x221bb.webp",
+            "width": 479,
+            "height": 221
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/38/a3/5d/38a35d20-2419-330c-6c2c-5c8e1b1f3bc9/b69e1211-3e88-48bd-8dbb-11c2d39e2e0d_Simulator_Screenshot_-_iPhone_15_Pro_Max_-_2024-04-30_at_08.58.18.png/480x221bb.webp",
+            "width": 479,
+            "height": 221
+          }
+        ],
+        "ipad": [
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ad/c5/b2/adc5b2e8-7189-d644-5838-013fa0986cc0/3e0c5a9a-50f7-45bb-9a47-d8e9c7dd7579_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-30_at_09.05.31.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/70/54/79705422-4dab-7c4f-4a08-0b648e3e96d5/5ac513e5-1792-4a83-85b5-09d555c4f587_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-30_at_09.05.41.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          },
+          {
+            "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/01/92/4e01928a-afae-af28-0833-1fa207d38046/c1e8da94-d7c1-4d02-b1c9-0f6b3ddaca55_Simulator_Screenshot_-_iPad_Pro__U002812.9-inch_U0029__U00286th_generation_U0029_-_2024-04-30_at_09.08.47.png/480x360bb.webp",
+            "width": 480,
+            "height": 360
+          }
+        ]
+      },
       "versions": [
         {
           "version": "4.7.4",
@@ -2959,11 +3122,11 @@
       "bundleIdentifier": "com.utmapp.utmhv",
       "marketplaceID": "",
       "developerName": "utmapp",
-      "subtitle": "Virtual machines for iOS and macOS",
-      "localizedDescription": "#  UTM\n[![Build](https://github.com/utmapp/UTM/workflows/Build/badge.svg?branch=main&event=push)][1]\n\n> It is possible to invent a single machine which can be used to compute any computable sequence.\n\n-- <cite>Alan Turing, 1936</cite>\n\nUTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/\n\n<p align=\"center\">\n  <img width=\"450px\" alt=\"UTM running on an iPhone\" src=\"screen.png\">\n  <br>\n  <img width=\"450px\" alt=\"UTM running on a MacBook\" src=\"screenmac.png\">\n</p>\n\n## Features\n\n* Full system emulation (MMU, devices, etc) using QEMU\n* 30+ processors supported including x86_64, ARM64, and RISC-V\n* VGA graphics mode using SPICE and QXL\n* Text terminal mode\n* USB devices\n* JIT based acceleration using QEMU TCG\n* Frontend designed from scratch for macOS 11 and iOS 11+ using the latest and greatest APIs\n* Create, manage, run VMs directly from your device\n\n## Additional macOS Features\n\n* Hardware accelerated virtualization using Hypervisor.framework and QEMU\n* Boot macOS guests with Virtualization.framework on macOS 12+\n\n## UTM SE\n\nUTM/QEMU requires dynamic code generation (JIT) for maximum performance. JIT on iOS devices require either a jailbroken device, or one of the various workarounds found for specific versions of iOS (see \"Install\" for more details).\n\nUTM SE (\"slow edition\") uses a [threaded interpreter][3] which performs better than a traditional interpreter but still slower than JIT. This technique is similar to what [iSH][4] does for dynamic execution. As a result, UTM SE does not require jailbreaking or any JIT workarounds and can be sideloaded as a regular app.\n\nTo optimize for size and build times, only the following architectures are included in UTM SE: ARM, PPC, RISC-V, and x86 (all with both 32-bit and 64-bit variants).\n\n## Install\n\nUTM (SE) for iOS: https://getutm.app/install/\n\nUTM is also available for macOS: https://mac.getutm.app/\n\n## Development\n\n### [macOS Development](Documentation/MacDevelopment.md)\n\n### [iOS Development](Documentation/iOSDevelopment.md)\n\n## Related\n\n* [iSH][4]: emulates a usermode Linux terminal interface for running x86 Linux applications on iOS\n* [a-shell][5]: packages common Unix commands and utilities built natively for iOS and accessible through a terminal interface\n\n## License\n\nUTM is distributed under the permissive Apache 2.0 license. However, it uses several (L)GPL components. Most are dynamically linked but the gstreamer plugins are statically linked and parts of the code are taken from qemu. Please be aware of this if you intend on redistributing this application.\n\nSome icons made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).\n\nAdditionally, UTM frontend depends on the following MIT/BSD License components:\n\n* [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)\n* [SwiftTerm](https://github.com/migueldeicaza/SwiftTerm)\n* [ZIP Foundation](https://github.com/weichsel/ZIPFoundation)\n* [InAppSettingsKit](https://github.com/futuretap/InAppSettingsKit)\n\nContinuous integration hosting is provided by [MacStadium](https://www.macstadium.com/opensource)\n\n[<img src=\"https://uploads-ssl.webflow.com/5ac3c046c82724970fc60918/5c019d917bba312af7553b49_MacStadium-developerlogo.png\" alt=\"MacStadium logo\" width=\"250\">](https://www.macstadium.com)\n\n  [1]: https://github.com/utmapp/UTM/actions?query=event%3Arelease+workflow%3ABuild\n  [2]: screen.png\n  [3]: https://github.com/ktemkin/qemu/blob/with_tcti/tcg/aarch64-tcti/README.md\n  [4]: https://github.com/ish-app/ish\n  [5]: https://github.com/holzschu/a-shell\n",
+      "subtitle": "Run classic software and games",
+      "localizedDescription": "UTM SE is a PC emulator that allows you to run classic software and old-school games.\n\n* Supports both VGA mode for graphics and terminal mode for text-only operating systems\n* Emulates x86, ARM, PPC, and RISC-V architectures\n* Run pre-built machines or create your own configuration from scratch\n* Built from QEMU, a powerful and widely used emulator ",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp",
       "tintColor": "#007aff",
-      "category": "other",
+      "category": "utilities",
       "screenshots": [],
       "versions": [
         {
@@ -3206,10 +3369,10 @@
       "marketplaceID": "",
       "developerName": "hugeBlack",
       "subtitle": "A simple AltSign wrapper app that allows you to enable \"Increased Memory Limit\" to your sideloaded apps without using Xcode",
-      "localizedDescription": "# Get More Ram\nA simple [StosSign](https://github.com/stossy11/StosSign) wrapper app that allows you to enable \"Increased Memory Limit\" for your sideloaded apps without using Xcode.\n\n# How to use\n1. Sideload this app\n2. Go to settings, sign in your account that you used to sign the app you want to enable \"Increased Memory Limit\"\n3. Go to \"App IDs\" page\n4. Tap Refresh\n5. Tap the app you want to enable \"Increased Memory Limit\"\n6. Tap \"Add Increased Memory Limit\"\n7. Reinstall the app from SideStore/AltStore\n8. Check if you have \"Increased Memory Limit\"\n\n# Credits\nStossy11 - For StosSign.\nSideStore - Anisette Data fetching codes are stolen from SideStore\n",
-      "iconURL": "https://i.imgur.com/cy22whi.jpeg",
+      "localizedDescription": "Get More Ram\nA simple StosSign wrapper app that allows you to enable \"Increased Memory Limit\" for your sideloaded apps without using Xcode.\n\nHow to use\n1. Sideload this app\n2. Go to settings, sign in your account that you used to sign the app you want to enable \"Increased Memory Limit\"\n3. Go to \"App IDs\" page\n4. Tap Refresh\n5. Tap the app you want to enable \"Increased Memory Limit\"\n6. Tap \"Add Increased Memory Limit\"\n7. Reinstall the app from SideStore/AltStore\n8. Check if you have \"Increased Memory Limit\"\n\nCredits\nStossy11 - For StosSign.\nSideStore - Anisette Data fetching codes are stolen from SideStore\n",
+      "iconURL": "https://static.vecteezy.com/system/resources/previews/022/610/495/non_2x/service-desktop-memory-cartoon-illustration-vector.jpg",
       "tintColor": "#717c44",
-      "category": "other",
+      "category": "developer",
       "screenshots": [],
       "versions": [
         {
