@@ -177,36 +177,49 @@
         "allowPrerelease": true,
         "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png"
     },
+
     {
-        "github": "utmapp/UTM",
-        "bundleID": "com.utmapp.utm",
-        "name": "UTM",
-        "keyword": "utm.ipa",
+        "github": "OnionBrowser/OnionBrowser",
+        "bundleID": "com.miketigas.OnionBrowser",
+        "name": "Onion Browser",
         "allowPrerelease": false,
-        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp"
     },
     {
-        "github": "utmapp/UTM",
-        "bundleID": "com.utmapp.utmse",
-        "name": "UTM SE",
-        "keyword": "utm-se",
+        "github": "rileytestut/Delta",
+        "bundleID": "com.rileytestut.Delta",
+        "name": "Delta Emulator",
         "allowPrerelease": false,
-        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/08/91/ed089193-2334-fd9b-752e-fc330791ee48/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/400x400ia-75.webp"
     },
     {
-        "github": "utmapp/UTM",
-        "bundleID": "com.utmapp.utmremote",
-        "name": "UTM Remote",
-        "keyword": "utm-remote",
-        "allowPrerelease": false,
-        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/79/61/02/796102aa-9d4b-902e-3ff6-db74ce99cb4b/Placeholder.mill/400x400bb-75.webp"
+        "github": "jailbreakdotparty/dirtyZero",
+        "bundleID": "com.jbdotparty.dirtyZero",
+        "name": "dirtyZero",
+        "allowPrerelease": true,
+        "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/dirtyZero/refs/heads/main/dirtyZero/Assets.xcassets/AppIcon.appiconset/dirtyZero.png"
     },
     {
-        "github": "utmapp/UTM",
-        "bundleID": "com.utmapp.utmhv",
-        "name": "UTM Hypervisor",
-        "keyword": "utm-hv",
+        "github": "jailbreakdotparty/Bridge",
+        "bundleID": "com.jailbreakdotparty.Bridge",
+        "name": "Bridge",
         "allowPrerelease": false,
-        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
+        "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/Bridge/refs/heads/v1/Bridge/Assets.xcassets/AppIcon.appiconset/BridgeIconRegular-min.png"
+    },
+    {
+        "github": "LiveContainer/LiveContainer",
+        "bundleID": "com.kdt.livecontainer",
+        "name": "LiveContainer",
+        "keyword": "LiveContainer.ipa",
+        "allowPrerelease": false,
+        "iconURL": "https://github.com/LiveContainer/LiveContainer/raw/main/screenshots/livecontainer_icon.png"
+    },
+    {
+        "github": "LiveContainer/LiveContainer",
+        "bundleID": "com.kdt.livecontainer",
+        "name": "LiveContainer + SideStore",
+        "keyword": "LiveContainer+SideStore.ipa",
+        "allowPrerelease": false,
+        "iconURL": "https://github.com/LiveContainer/LiveContainer/raw/main/screenshots/livecontainer_icon.png"
     }
 ]
