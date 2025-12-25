@@ -255,11 +255,11 @@
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a2/d4/c6/a2d4c6c3-797e-3e84-5d8b-297879593ef3/Placeholder.mill/400x400bb-75.webp"
     },
         {
-    "github": "Dan1elTheMan1el/LiveRedirect",
-    "bundleID": "danielthemaniel.DynamicRedirect",
-    "name": "LiveRedirect",
-    "allowPrerelease": false,
-    "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/main/DynamicRedirect%20Extension/images/icon-128.png"
+        "github": "Dan1elTheMan1el/LiveRedirect",
+        "bundleID": "danielthemaniel.DynamicRedirect",
+        "name": "LiveRedirect",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/main/DynamicRedirect%20Extension/images/icon-128.png"
     },
     {
         "github": "SideStore/SideStore",
@@ -280,6 +280,7 @@
         "bundleID": "com.leemin.nugget",
         "name": "Nugget (Mobile)",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/leminlimez/Nugget-Mobile/1881fdc2b721fd2675a2909e7fbc24769d11bb53/readme-images/icon.png"
     },
     {
