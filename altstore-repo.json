@@ -44,6 +44,13 @@
                     "localizedDescription": "v1.0 is here, let me know what you guys think! Sideload via Alt Store, Side Store, or Sideloadly.",
                     "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.0/pocket8.ipa",
                     "size": 14225314
+                },
+                {
+                    "version": "1.4",
+                    "date": "2025-12-26T09:50:34Z",
+                    "localizedDescription": "v1.4 adds native BBS Explorer, making it easy to discover and enjoy thousands of community-made indie games for free.\r\n\r\nFeatures:\r\n\r\n- Infinite Discovery: Scroll through the \"Featured\" and \"New\" sections of the Lexaloffle BBS without ever leaving the app.\r\n-  One-Tap Library: Found a masterpiece? Download it straight to your personal library to play offline anytime.\r\n\r\nDev Note:\r\nI was initially holding off on this, as I thought I would need zep's permission to use SPLORE and browse PICO-8 cartridges. The method I'm using, though, lets me wrap up web-scraping into a native-like experience, essentially acting as a simple browser on your phone. No need to take proprietary software, yay!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.4/pocket8.ipa",
+                    "size": 14233466
                 }
             ]
         },
@@ -1697,6 +1704,30 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "SparseBox",
+            "bundleIdentifier": "com.kdt.sparsebox",
+            "developerName": "khanhduytran0",
+            "subtitle": "On-device toolbox?",
+            "localizedDescription": "# SparseBox\n\nOn-device backup restoration?\n\n- [x] rewrote SparseRestore to swift\n\n> [!NOTE]\n> I have no interest in updating this project at the moment, see Releases for more info. PR welcome.\n\n## Installation\nSideStore is recommended as you will also be getting the pairing file and setting up VPN.\n\nDownload ipa from [Releases](https://github.com/khanhduytran0/SparseBox/releases), Actions tab or [nightly.link](https://nightly.link/khanhduytran0/SparseBox/workflows/build/main/artifact.zip)\n\nBefore opening SparseBox, you have to close SideStore from app switcher. This is because only one app can use VPN proxy at a time. Maybe changing port could solve this issue.\n\n## Thanks to\n- @SideStore: em_proxy and minimuxer\n- @JJTech0130: SparseRestore and backup exploit\n- @PoomSmart: MobileGestalt dump\n- @Lakr233: BBackupp\n- @libimobiledevice\n- [the sneakyf1shy apple intelligence tutorial](https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5#file-best_sae_trick-md)\n",
+            "iconURL": "https://github.com/khanhduytran0/SparseBox/blob/main/.swiftpm/playgrounds/DocumentThumbnail.png?raw=true",
+            "versions": [
+                {
+                    "version": "2.0",
+                    "date": "2025-12-12T11:18:31Z",
+                    "localizedDescription": "- Re-organized UI\r\n- Switched to idevice library\r\n- Added more MobileGestalt customization: SRD, Internal settings \r\n- Added support for BookRestore exploit (up to 26.2b1)\r\n\r\n> [!NOTE]\r\n> Bypass 3 app limit for SparseRestore devices is currently unavailable due to using idevice.",
+                    "downloadURL": "https://github.com/khanhduytran0/SparseBox/releases/download/2.0/SparseBox.ipa",
+                    "size": 9357334
+                },
+                {
+                    "version": "0.0.1",
+                    "date": "2025-05-25T15:13:53Z",
+                    "localizedDescription": "> [!WARNING]  \r\n> SparseBox is NOT supported on iOS 18.1b5+. I am not responsible for any damages if you run it on unsupported iOS versions.\r\n\r\n> [!NOTE]\r\n> I currently do not actively maintain this project. If possible, please consider using alternatives:\r\n> - MobileGestalt tweaks are very incomplete. Use [Nugget](https://github.com/leminlimez/Nugget)\r\n> - Bypass app limit require keeping device FMI off all the time. Instead use [LiveContainer](https://github.com/LiveContainer/LiveContainer).\r\n> - Enabling iPadOS causes many issues. Instead use [TrollPad](https://github.com/khanhduytran0/TrollPad) (jailbroken), [FrontBoardAppLauncher](https://github.com/khanhduytran0/FrontBoardAppLauncher) (TrollStore), [LiveContainer](https://github.com/LiveContainer/LiveContainer) multitask mode (up to latest iOS)",
+                    "downloadURL": "https://github.com/khanhduytran0/SparseBox/releases/download/0.0.1/com.kdt.sparsebox_0.0.1.ipa",
+                    "size": 7278525
+                }
+            ]
         },
         {
             "name": "Discord (BTLoader)",
@@ -4926,6 +4957,201 @@
             "patreon": {}
         },
         {
+            "name": "PureKFD",
+            "bundleIdentifier": "uwu.lrdsnow.purekfd",
+            "developerName": "Lrdsnow",
+            "subtitle": "An exploit based Jailed Package Manager for iOS 15.0-18.0/18.1b4",
+            "localizedDescription": "404: Not Found",
+            "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
+            "versions": [
+                {
+                    "version": "6.0.2",
+                    "date": "2024-11-23T07:05:41Z",
+                    "localizedDescription": "- more optimization\r\n- more syncing for accents\r\n- new repo\r\n- fixed individual tweak restore",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
+                    "size": 10806164
+                },
+                {
+                    "version": "6.0.1",
+                    "date": "2024-09-29T18:01:22Z",
+                    "localizedDescription": "- lego brick and art tape kinda app data fix (temporary)\r\n- defaults to SR now\r\n- fixed file picker & share sheet (maybe)\r\n\r\nPureRestore - PureKFD for MacOS:\r\n- requires /Library/Frameworks/Python.framework/Versions/3.12/lib/libpython3.12.dylib",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.1/PureKFD.ipa",
+                    "size": 10882263
+                },
+                {
+                    "version": "6.0",
+                    "date": "2024-09-22T07:16:15Z",
+                    "localizedDescription": "- full rewrite\r\n- all new ui\r\n- repo debugging\r\n- tweak debugging\r\n- SparseRestore support (for iOS 16.0-18.0/18.1b4)\r\n- tweak environment variables\r\n\r\n**I am not liable for data loss or if you bootloop**\r\n\r\nHow to Apply with SparseRestore: \r\n- get pairing file using a pc and [JitterbugPair](https://github.com/osy/Jitterbug/releases/tag/v1.3.1)\r\n- import pairing file into PureKFD using share sheet or file importer in settings\r\n- get [WireGuard](https://apps.apple.com/us/app/wireguard/id1441195209) and import the [SideStore WireGuard Config](https://github.com/sidestore/sidestore/releases/download/0.1.1/sidestore.conf)\r\n- go into purekfd and apply your tweaks!",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0/PureKFD.ipa",
+                    "size": 10025476
+                },
+                {
+                    "version": "5.2.1",
+                    "date": "2024-07-30T04:09:22Z",
+                    "localizedDescription": "- fix iOS 14 support",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.2.1/purekfd.ipa",
+                    "size": 24374136
+                },
+                {
+                    "version": "5.2",
+                    "date": "2024-02-08T18:00:32Z",
+                    "localizedDescription": "- Added Panic Detection\r\n- Changed Layout a bit\r\n- Uses [SwiftKFD](https://github.com/Lrdsnow/SwiftKFD) now\r\n- Other changes probably I can't remember lol",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.2/purekfd.ipa",
+                    "size": 47591689
+                },
+                {
+                    "version": "5.1",
+                    "date": "2024-01-18T10:10:27Z",
+                    "localizedDescription": "App Changes:\r\n- Made the app a shit ton faster by changing the way purekfd loads images\r\n- updated icons with higher quality ones\r\n- removed a crap ton of useless code\r\n\r\nKFD Changes:\r\n- updated kfund (added the patchfinder)",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.1/PureKFD.ipa",
+                    "size": 24524098
+                },
+                {
+                    "version": "5.0",
+                    "date": "2024-01-08T20:17:13Z",
+                    "localizedDescription": "Changes since 4.6:\r\n- Rewrote UI\r\n- Removed Misaka Support (enough repos are now purekfd based that its not needed plus it made purekfd fully open source)\r\n- Rewrote Application System\r\n- Added landa \r\n- and other changes I can't remember\r\n",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.0/purekfd.ipa",
+                    "size": 46623713
+                },
+                {
+                    "version": "5.0betaOSS",
+                    "date": "2024-01-07T07:01:34Z",
+                    "localizedDescription": "PureKFD no longer has any mention of misaka and no longer has any misaka repo support from here on out\r\n\r\nmost misaka repos have been converted to purekfd repos tho",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.0betaOSS/purekfd.ipa",
+                    "size": 21365065
+                },
+                {
+                    "version": "5.0beta_landa",
+                    "date": "2024-01-01T06:08:40Z",
+                    "localizedDescription": "Latest PureKFD Beta with Landa!\r\n\r\n[Supported devices](https://github.com/PureKFD/PureKFD/blob/beta/supported.md)",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.0beta_landa/purekfd.ipa",
+                    "size": 22856454
+                },
+                {
+                    "version": "4.6",
+                    "date": "2023-12-11T19:34:59Z",
+                    "localizedDescription": "#### App:\r\n- New icons!!\r\n- Now saves config to documents rather then user defaults\r\n- fixed trollstore entitlements (thx @asdfugil)\r\n- fixed device info\r\n#### Exploit:\r\n- more options for kfd\r\n- added userspace reboot for trollstore users (thx @asdfugil)",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.6/purekfd.ipa",
+                    "size": 33681766
+                },
+                {
+                    "version": "4.5",
+                    "date": "2023-12-09T16:50:02Z",
+                    "localizedDescription": "#### Exploit:\r\n- (KFD) MAJOR Stability Improvement it is recommended all users update to this version as in testing all tweaks applied every time flawlessly (thx to @asdfugil)\r\n#### Repo Management:\r\n- Fixed misaka.app repo\r\n\r\nWith this update it is recommended to not use sideloadly due to its signing issues",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.5/purekfd.ipa",
+                    "size": 15861998
+                },
+                {
+                    "version": "4.4",
+                    "date": "2023-12-08T20:11:49Z",
+                    "localizedDescription": "#### Exploit:\r\n- Increased possible page size (for iPads)\r\n- fixed kfd on iPadOS 16.4.1\r\n#### Repo Management:\r\n- Fixed downloading different versions of misaka tweaks\r\n- Updated default repos\r\n#### Misc:\r\n- Other small bugfixes",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.4/purekfd.ipa",
+                    "size": 28123389
+                },
+                {
+                    "version": "4.3",
+                    "date": "2023-12-07T19:02:32Z",
+                    "localizedDescription": "#### App:\r\n- Merged tipa and ipa\r\n#### UI:\r\n- Allow disabling list row theming \r\n#### Bugfixes:\r\n- Fixed repo loading\r\n- A lot more exploit checks\r\n- Removed check for iPads on kfd (so it should automatically use kfd on ipads with kfd)\r\n- and quite a lot more",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.3/purekfd.ipa",
+                    "size": 28115297
+                },
+                {
+                    "version": "4.2",
+                    "date": "2023-12-06T22:06:03Z",
+                    "localizedDescription": "### Filemanager:\r\n- No longer uses kfd redirects if unsandboxed (istg if misaka takes this :sob:)\r\n### Tweak application:\r\n- No longer uses kfd redirects if unsandboxed (istg if misaka takes this :sob:)\r\n- Added misaka_binary (fixes palette)\r\n- Added misaka_segment's iOSVer (fixing quite a bit of tweaks)\r\n### Repo System:\r\n- Made it more dynamic\r\n### Tweak Install:\r\n- Added basic queue system\r\n### App:\r\n- Added loading increasing performance on lower end devices\r\n- Increased general performance\r\n### Exploit:\r\n- Added M1/M2 support (thx to @dhinak, @emmikat, @lilmayofuksu and @noxwell who all worked directly on purekfd to fix it)\r\n- Added more puaf page options\r\n### Developer/Tests:\r\n- Added trollstore install (KFD only)\r\n- Added app manager (KFD only)\r\n- Added pip test",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.2/PureKFD.ipa",
+                    "size": 28068025
+                },
+                {
+                    "version": "4.1",
+                    "date": "2023-10-09T07:33:20Z",
+                    "localizedDescription": "#### File Manager:\r\n- Fixed on kfd\r\n- Added Copy & Pasting\r\n- Added UUID reading\r\n- Added File Info\r\n- Fixed Text & Plist Editing\r\n- Added extra checks so the picker shouldnt crash as much\r\n#### Browse/Repos:\r\n- Added Filters (hide types of tweaks/apps)\r\n- Added Cowabunga Locks support (And Cowabunga Repo Support)\r\n- Added Scarlet, ESign and Altstore Repo Support\r\n#### Tweaks:\r\n- Added Enterprise Signed App Install And JB App Install\r\n- Added Remove 3 app limit (MDC Only)\r\n#### Tweak Creator:\r\n- Added target file picker\r\n- Fixed PureKFD/Picasso Tweaks on MDC\r\n#### Prefs:\r\n- Improved Misaka -> PureKFD Pref Conversion\r\n#### Tweak Converter:\r\n- Added Tweak Converter\r\n- Only Supports Cowabunga Lock -> PureKFD\r\n#### App:\r\n- Added iOS 14 Support",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.1/PureKFD.ipa",
+                    "size": 29190358
+                },
+                {
+                    "version": "4.0",
+                    "date": "2023-10-01T23:41:21Z",
+                    "localizedDescription": "- Complete Overhaul",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.0/PureKFD.ipa",
+                    "size": 27842739
+                },
+                {
+                    "version": "3.5",
+                    "date": "2023-09-03T18:50:12Z",
+                    "localizedDescription": "Changes:\r\n- Cleaned up code\r\n- Added the cursed file browser\r\n- Combined Respring (Basically just a backboard respring)",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.5/PureKFD.ipa",
+                    "size": 3040538
+                },
+                {
+                    "version": "3.4",
+                    "date": "2023-08-29T23:09:14Z",
+                    "localizedDescription": "### Changes:\r\n- UI redesign\r\n- Search now signifies the package type & no longer crashes\r\n- Installed now shows what type of package it is and how likely it is to work\r\n- Fixed all of the Picasso prefs, fixing custom resolution & adding picker for SubType Setter (and potentially other packages)\r\n- Improved exploit reliability & stability\r\n\r\n### Will fix all misaka prefs (& operations hopefully) in v4!!!",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.4/PureKFD.ipa",
+                    "size": 2213036
+                },
+                {
+                    "version": "3.2",
+                    "date": "2023-08-25T23:22:54Z",
+                    "localizedDescription": "Changes:\r\n- Fixed picasso packages\r\n- Added share logs",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.2/PureKFD.ipa",
+                    "size": 1669727
+                },
+                {
+                    "version": "3.1",
+                    "date": "2023-08-25T10:30:25Z",
+                    "localizedDescription": "Changes:\r\n- Home Settings changes now stay even after close\r\n- Added 15.7.2-15.7.6 Support (PureKFD_IOSurface.ipa)\r\n- Fast af Apply (Near instant on 16.2+)\r\n- added more mdc support (ResSet16)\r\n- added cleanup and other bug fixes",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.1/PureKFD.ipa",
+                    "size": 1864118
+                },
+                {
+                    "version": "3.0",
+                    "date": "2023-08-24T11:26:02Z",
+                    "localizedDescription": "Changes:\r\n- Added 15.0-15.7.1 & 16.0-16.1.2 Support via MDC (PureKFD will automatically set the Exploit)\r\n- Added Logs\r\n- Shows Supported Versions but doesn't enforce them (For Misaka Packages)\r\n- Added Screenshots (For Misaka Packages)\r\n- Finally Fixed & Tested Remove Dynamic Island\r\n- Bugfixes",
+                    "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.0/PureKFD.ipa",
+                    "size": 1636661
+                }
+            ]
+        },
+        {
+            "name": "TrollInstallerX",
+            "bundleIdentifier": "com.Alfie.TrollInstallerX",
+            "developerName": "alfiecg24",
+            "subtitle": "A TrollStore installer for iOS 14.0 - 16.6.1",
+            "localizedDescription": "<div align=\"center\">\n    <h1>TrollInstallerX</h1>\n    <img src=\"Resources/Icon.png\" width=\"125\" height=\"125\" />\n</div>\n\n## Overview\nTrollInstallerX is a universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices.\n\nTrollInstallerX supports all devices running iOS 14.0 - 16.6.1, both arm64 and arm64e. It makes use of one of two different methods to install TrollStore, depending on what device and iOS you have. These methods are:\n\n* **Direct installation**: using the [kfd](https://github.com/felix-pb/kfd) kernel exploit, along with the [dmaFail](https://github.com/opa334/Dopamine/blob/2.x/Application/Dopamine/Exploits/dmaFail/dmaFail.c) PPL bypass on iOS 15.2+ arm64e devices, TrollInstallerX can install both TrollStore and its persistence helper directly onto the device without having to leave the installer.\n  * Supports iOS 14.0 - 16.6.1 (arm64) and iOS 14.0 - 16.5.1 (arm64e).\n    * **Note**: A15, A16, and M2 devices on iOS 16.5.1 do not support this method.\n    * **Note**: A8 devices are only supported on iOS 14.0 - 15.1 for the time being.\n\n* **Indirect installation**: Using the [kfd](https://github.com/felix-pb/kfd) kernel exploit, TrollInstallerX can replace a system application of your choice with the TrollStore persistence helper. This method only exists due to both the lack of a PPL bypass on iOS 16.6 and above, as well as the fact that dmaFail is non-functional on A15, A16, and M2 devices on iOS 16.5.1.\n  * Supports iOS 16.5.1 - 16.6.1 (arm64e).\n    * **Note**: This method is the only method that supports A15, A16, and M2 devices on iOS 16.5.1.\n\nBoth methods allow you to install a persistence helper into a removable system app. The reason that this is needed is due to the way that the CoreTrust bug (used by TrollStore) works - in certain circumstances, TrollStore and other apps installed by it will be reset to User registration, instead of System. You cannot open any of these apps until you have used the persistence helper to set them back to System registration.\n\n## Usage\nTrollInstallerX is extremely easy to use. Simply download the latest release from the [Releases](https://github.com/alfiecg24/TrollInstallerX/releases) page, and sideload it using your preferred method. Once installed, open the app and press the \"Install\" button. From there, TrollStore and/or its persistence helper will be installed onto your device.\n\nTrollInstallerX will automatically choose the best exploit for your device. However, in some cases, you may want to choose a specific exploit. To do this, simply open the settings view and select the exploit that you want to use. Once you have selected it, press the \"Install TrollStore\" button and TrollInstallerX will use the exploit you have chosen.\n\n**Note**: iOS 16.2 - 16.6.1 and iOS 15.7.2 - 15.8.2 require an internet connection in order for TrollInstallerX to download the kernelcache and patchfind it.\n\n## FAQ\n> Why am I stuck at \"Exploiting kernel\"?\n\nThis is a common issue with the kfd exploit. Simply reboot your device and try again.\n\n> Why can I not open/see TrollStore after a successful installation?\n\nDuring installation, you will have installed a persistence helper. Open your persistence helper and press \"refresh app registrations\" to fix TrollStore not being able to be opened.\n\n> Why did the app I selected for the persistence helper not become the persistence helper?\n\nIf you selected an app for the persistence helper and it did not change, it is likely that you already have a persistence helper installed. Open TrollStore and go to settings to see which app is set to the persistence helper.\n\n> Why am I getting an error about being unable to patchfind or being unable to download kernel?\n\nEither:\n- You're on a non-MacDirtyCow supported version, and are not connected to the internet, or;\n- You're using a Yellow iPhone 14 or Yellow iPhone 14 Plus on iOS 16.3 (20D50), in which case you should install `TrollInstallerX-20D50.ipa` from [here](https://github.com/alfiecg24/TrollInstallerX/releases/latest).\n\nAdditionally, if a file exists at `/TrollInstallerX.app/kernelcache`, TrollInstallerX will use that file instead of downloading the kernelcache. This can be useful if you have a slow or unreliable internet connection, or happen to have a device and version combination that has no public kernelcache available.\n\n> Why does TrollInstallerX say \"failed to install persistence helper\" using the indirect method?\n\nThe indirect method is not perfect, and sometimes it will fail to install the persistence helper. If this happens, simply shut down your device, turn it back on, and try again. If you repeatedly have issues with the same app, try using a different app.\n\n## Building\nTrollInstallerX is a regular Xcode project, but the project also contains a build script. To build it and produce an IPA, simply run the `build.sh` script in the root of the project. This will build the project and produce an IPA in the root of the project.\n\n## Credits\nTrollInstallerX wouldn't have been possible without the work of the following people:\n* [opa334](https://x.com/opa334dev) for [Dopamine](https://github.com/opa334/Dopamine), the dmaFail exploit and the kernel patchfinder\n* [felix-pb](https://github.com/felix-pb) for the kfd exploits\n* [Kaspersky](https://securelist.com/operation-triangulation-the-last-hardware-mystery/111669/) for Operation Triangulation\n* [kok3shidoll](https://github.com/kok3shidoll) for lots of work on arm64 support for Dopamine\n* [wh1te4ever](https://github.com/wh1te4ever) for [kfund](https://github.com/wh1te4ever/kfund)\n* [Zhuowei](https://github.com/zhuowei) for the tccd unsandboxing method\n* [xina520](https://x.com/xina520) for the kernel read/write-only privilege escalation method\n* [dhinakg](https://github.com/dhinakg) for the memory hogger, the MacDirtyCow kernelcache grabber method, [libpartial](https://github.com/dhinakg/partial) and help with [libgrabkernel2](https://github.com/alfiecg24/libgrabkernel2)\n* [staturnz](https://github.com/staturnzz) for work on the kernel patchfinder\n* [aaronp613](https://x.com/aaronp613) for the TrollInstallerX icon\n* [DTCalabro](https://github.com/DTCalabro) and [JJTech](https://github.com/JJTech0130) for improvements to the logging system\n* [MasterMike88](https://x.com/MasterMike88) for helping test and debug during development\n",
+            "iconURL": "https://raw.githubusercontent.com/alfiecg24/TrollInstallerX/refs/heads/main/Resources/Icon.png",
+            "versions": [
+                {
+                    "version": "1.0.3",
+                    "date": "2024-09-12T18:27:05Z",
+                    "localizedDescription": "# TrollInstallerX v1.0.3\r\n\r\n## Changes:\r\n* Update for Xcode 15.4+ compilation (fixes #25)\r\n* Added a temporary fix for yellow iPhone 14 (Plus) devices on iOS 16.3, please use `TrollInstallerX-20D50.ipa` (fixes #33)\r\n* Removing confusing logging around exploit deinitialisation (e.g. #11)\r\n* Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2 (should, in theory, fix #21)\r\n\r\n**Note**: A8 devices on iOS 15.2+ will not be supported until a future release of TrollInstallerX. Furthermore, support for arm64e (A12+) devices on early iOS 17.0 betas is not planned, unless someone else would like to implement it. You can now use [TrollRestore](https://github.com/JJTech0130/TrollRestore) for both of these cases.\r\n\r\n# DO NOT DOWNLOAD THE 20D50 IPA UNLESS YOU HAVE A YELLOW IPHONE 14 (PLUS) ON IOS 16.3.",
+                    "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX-20D50.ipa",
+                    "size": 27098183
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2024-04-08T18:13:21Z",
+                    "localizedDescription": "# TrollInstallerX v1.0.2\r\n\r\n## Changes:\r\n* Full support for iOS 17.0 beta 1 - 4 on arm64 devices - partially contributed to by @m1zole\r\n\r\n\r\n**Note**: arm64e support for the above versions is still being worked on.",
+                    "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.2/TrollInstallerX.ipa",
+                    "size": 6888282
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2024-04-06T15:20:57Z",
+                    "localizedDescription": "# TrollInstallerX v1.0.1\r\n\r\n## Changes:\r\n* Add success message at the end of the installation\r\n* Fix bug in supported version checking\r\n* Add (untested) support for early iOS 17.0 betas\r\n\r\n**Edit**: early iOS 17.0 betas currently won't work. A fix will come in v1.0.2.",
+                    "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.1/TrollInstallerX.ipa",
+                    "size": 6888465
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2024-04-04T18:19:46Z",
+                    "localizedDescription": "# TrollInstallerX v1.0.0\r\n\r\nTrollInstallerX is a reliable, fast and simple TrollStore installer. It has several features that set it apart from the other installers out there, detailed below. It supports iOS 14.0 - 16.6.1 on all devices (apart from a slight exception for A8 devices, which is only temporary). Certain versions have a slightly different installation method, which you can read about in the [README](https://github.com/alfiecg24/TrollInstallerX).\r\n\r\n## Features:\r\n* **Direct installation of TrollStore** - On supported versions, TrollInstallerX can install TrollStore directly to your home screen, as if you were to install it via the persistence helper.\r\n\r\n* **Persistence helper installation** - TrollInstallerX will properly install a persistence helper into a removable system app of your choice - this means one that doesn't rely on temperamental file overwrites, but rather one that TrollStore will recognise as a legitimate persistence helper. This method works on all versions supported by TrollInstallerX.\r\n\r\n* **Unprecedented reliability** - Thanks to the extremely reliable [XPF patchfinder](https://github.com/opa334/XPF) (used in Dopamine), TrollInstallerX has a very high success rate with exploitation. When possible, it will either use the on-disk kernelcache, or download a copy of it to patchfind. This is detailed below.\r\n\r\n* **libgrabkernel2** - The new [libgrabkernel2](https://github.com/alfiecg24/libgrabkernel2) library allows for downloading almost any kernelcache available for the devices supported by TrollInstallerX. \r\n\r\n* **MacDirtyCow kernelcache grabber** - On versions supported by MacDirtyCow, MacDirtyCow is used to unsandbox and TrollInstallerX simply uses the on-disk kernelcache instead.\r\n\r\n* **iOS 14 support** - iOS 14 is completely supported with TrollInstallerX. For arm64 devices on iOS 14, this is one of the few installers that supports them. However, TrollHelperOTA is still the recommended installation method for arm64e devices on iOS 14.\r\n\r\nInformation on how to use TrollInstallerX, as well as FAQs and credits, can be found in the README of this repository.",
+                    "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.0/TrollInstallerX.ipa",
+                    "size": 6885899
+                }
+            ]
+        },
+        {
             "name": "Delta Emulator",
             "bundleIdentifier": "com.rileytestut.Delta",
             "marketplaceID": "",
@@ -5142,6 +5368,180 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "Postbox",
+            "bundleIdentifier": "com.simplycode.PostBox",
+            "developerName": "PostBox-Team",
+            "subtitle": "\ud83d\udce6 Packaged and ready-to-go!",
+            "localizedDescription": "<div align=center>\n\n# PostBox-Releases\n```\n\ud83d\udce6 Packaged and ready-to-go!\n```\n\n",
+            "iconURL": "https://user-images.githubusercontent.com/43870235/187584648-d7fd4dc8-417f-487b-9379-f7bbf604a70c.png",
+            "versions": [
+                {
+                    "version": "beta-8.1",
+                    "date": "2022-08-28T07:43:04Z",
+                    "localizedDescription": "#### General\r\n\r\n- Added localization support for Simplified Chinese and Traditional Chinese\r\n- Refactored the word \u201cRepository\u201d to \u201cRepo\u201d\r\n- Changed some wording throughout the app\r\n- Improvements to many interface elements\r\n- Removed dynamic type support\r\n- Fixed issues in URL processing\r\n- Project clean up\r\n- Made app-wide animations snappier\r\n\r\n#### Home\r\n\r\n- Added update banner to notify if an update is available\r\n- Added ability to view repo loading progress when the app is refreshing\r\n- Added ability to change displayed time mode for \u201cRecently Updated Packages\u201d\r\n- Reduced \u201cRecently Updated Packages\u201d prefix from 50 to 20 to make interactions smoother\r\n- New loading animation during pull-to-refresh\r\n\r\n#### For You\r\n\r\n- Added ability to convert dead links into live links in stories\r\n- Improved card interface\r\n- Disabled some feeds by default\r\n- Fix minor edge case with auto hyperlinking\r\n\r\n#### Storyboard\r\n\r\n- Further refined the Storyboard interface\r\n- Added ability to import photos from device\r\n- Removed presets for further evaluation\r\n\r\n#### Packages\r\n\r\n- Added ability to highlight and copy text in depictions (Accelerated Depiction Rendering must be turned off)\r\n- Added new texts to explain the package extraction process\r\n- Added ability to dismiss keyboard in editing reviews\r\n- Added repo information to package depictions\r\n- Improved depiction header interface\r\n- Improved Review interface\r\n- Improved interface when installing packages\r\n\r\n#### Repos\r\n\r\n- Added back ability to remove repos from the app (I forgot to enable it in Beta 8)\r\n- Fixed crashing on iOS 15 and below when browsing repo\r\n- Fixed remove button being unresponsive on iOS 15 and below\r\n- Fixed time locale not taking in account of time zone\r\n\r\n#### Settings\r\n\r\n- New toggle icons\r\n- Added new app icons for PostBox\r\n- Improved Settings interface\r\n- Improved how Settings options operate throughout the app\r\n",
+                    "downloadURL": "https://github.com/PostBox-Team/PostBox-Releases/releases/download/beta-8.1/PostBox-0.8.1-beta.ipa",
+                    "size": 8499905
+                }
+            ]
+        },
+        {
+            "name": "Flappybird",
+            "bundleIdentifier": "org.brandonplank.flappybird",
+            "developerName": "brandonplank",
+            "subtitle": "A 1:1 Flappy Bird Clone written 100% in swift!",
+            "localizedDescription": "# FlappyBird\n## NOTICE\n> *AS OF 08/10/2024, this repository will replaced by [https://github.com/freehelpdesk/flappybird](https://github.com/freehelpdesk/flappybird), Please go there for the new cross-platform version of this clone. Thanks.*\n\nThis is an extremely close clone to the original FlappyBird by Dong Nguyen.\n\n## Demo\n<img src=\"demo/demo.gif\" width=\"200\">\n\n## Compatibility\nFlappyBird is compatible with the iPhone 6s and above on iOS 13 and later.\nCompatible with watchOS 6.0 and above.\n\n## Installation\nThe '.ipa' and '.dmg' for FlappyBird can be found on the [release page](https://github.com/crypticplank/flappybird/releases).\n\n## License\n- [MIT](https://choosealicense.com/licenses/mit/)\n- Copyright (c) 2019 - 2022 Brandon Plank, ThatcherDev (The FlappyBird Revision Team)\n\n## Notice\nWe do not own most of the Flappy Bird assets, or the Flappy Bird name, some of the assets\nwere extracted straight from the game. They are the work and copyright of original \ncreator Dong Nguyen and .GEARS games (http://www.dotgears.com/).\n\nI took this Tweet (https://twitter.com/dongatory/status/431060041009856512 /\nhttp://i.imgur.com/AcyWyqf.png) by Dong Nguyen, the creator of the game, as an open \ninvitation to reuse the game concept and assets in an open source project. \nThere is no intention to steal the game, or claim the Flappy Bird name as my own.\n\nIf the copyright holder would like for the assets to be removed, please open an \nissue to start the conversation.\n",
+            "iconURL": "https://raw.githubusercontent.com/brandonplank/flappybird/refs/heads/main/Flappy%20Bird/Assets.xcassets/AppIcon.appiconset/1024.png",
+            "versions": [
+                {
+                    "version": "4.3",
+                    "date": "2022-06-14T20:54:11Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/crypticplank/flappybird/compare/4.2.0...4.3\r\n* Removed Leaderboard\r\n* Removed Accounts\r\n* Removed Anti-Cheat",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
+                    "size": 2099365
+                },
+                {
+                    "version": "4.2.2",
+                    "date": "2022-06-11T23:28:05Z",
+                    "localizedDescription": "* Generic improvements\r\n* Add in-game version number\r\n* Add much needed launch screen fonts.",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.2.2/org.brandonplank.flappybird.ipa",
+                    "size": 2491387
+                },
+                {
+                    "version": "4.2.1",
+                    "date": "2022-06-11T17:47:03Z",
+                    "localizedDescription": "* Fix version",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.2.1/org.brandonplank.flappybird.ipa",
+                    "size": 2480239
+                },
+                {
+                    "version": "4.2.0",
+                    "date": "2022-06-07T22:17:41Z",
+                    "localizedDescription": "## iOS 16 Support",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.2.0/org.brandonplank.flappybird.ipa",
+                    "size": 2480238
+                },
+                {
+                    "version": "4.1.0",
+                    "date": "2021-12-16T01:44:48Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/crypticplank/flappybird/compare/3.9...4.1.0\r\n\r\n# FULL API CHANGES",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.1.0/org.brandonplank.flappybird.ipa",
+                    "size": 2325686
+                },
+                {
+                    "version": "4.0.6",
+                    "date": "2021-11-09T18:25:29Z",
+                    "localizedDescription": "* Fix leader-board deadlock\r\n* Decrease binary size by a lot!\r\n\r\nThanks @elihwyma for your assistance!",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.6/FlappyBirdiOS.ipa",
+                    "size": 2323936
+                },
+                {
+                    "version": "4.0.5",
+                    "date": "2021-10-08T21:25:36Z",
+                    "localizedDescription": "* Fix freeze on death.",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.5/FlappyBird-iOS.ipa",
+                    "size": 7361659
+                },
+                {
+                    "version": "4.0.4",
+                    "date": "2021-10-08T03:26:20Z",
+                    "localizedDescription": "# URGENT\r\n* Fixed critical encryption bug that caused people to get banned\r\n\r\n## Macos users\r\n* Run this after upgrade\r\n\r\n```\r\ndefaults delete org.brandonplank.flappybird15\r\n```",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.4/FlappyBird-iOS.ipa",
+                    "size": 7359508
+                },
+                {
+                    "version": "4.0.3",
+                    "date": "2021-10-06T21:53:08Z",
+                    "localizedDescription": "* Added more security to the main application",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.3/FlappyBird-iOS.ipa",
+                    "size": 7299321
+                },
+                {
+                    "version": "4.0.2",
+                    "date": "2021-10-03T17:52:19Z",
+                    "localizedDescription": "* Added a UI for signing up and logging in.",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.2/FlappyBird-iOS.ipa",
+                    "size": 7027746
+                },
+                {
+                    "version": "4.0.1",
+                    "date": "2021-10-03T01:58:40Z",
+                    "localizedDescription": "* Added much needed UI for the leaderboard\r\n\r\n# Things to still do\r\n* Need to add a UI for signup and logging in.",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.1/FlappyBird-iOS.ipa",
+                    "size": 5854471
+                },
+                {
+                    "version": "4.0",
+                    "date": "2021-10-02T15:19:04Z",
+                    "localizedDescription": "# New features\r\n* Google has been fully purged\r\n* Ads have been completely removed\r\n* Killswitch has been completely removed \r\n* New texture system\r\n* Custom login system\r\n\r\n## Bug fixes\r\n* Fix #17 \r\n* Fix #25 \r\n* Fix #24 \r\n* Fix #26 \r\n",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0/FlappyBird-iOS.ipa",
+                    "size": 5737412
+                },
+                {
+                    "version": "3.9",
+                    "date": "2021-06-08T21:11:23Z",
+                    "localizedDescription": "* Added official support to iOS 15\r\n* Removed support for iOS 10 - 12 (Did not have any choice, sorry :( )\r\n\r\n## Challenges\r\n* In Xcode 13.0, apple introduced a new swift compiler which made iOS < 13 support impossible. Sorry guys.\r\n\r\n## Small note\r\n* The size of the app has decreased a lot! I think this is from the new swift compiler.",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.9/org.brandonplank.flappybird.ipa",
+                    "size": 18934339
+                },
+                {
+                    "version": "watch1.0",
+                    "date": "2021-01-08T13:30:23Z",
+                    "localizedDescription": "### Flappy Bird port for the watch\r\n* no leaderboards for now\r\n* no google sign in for now\r\n* no sprite location detection for now\r\n* touch only registers when your finger lets off the screen(Help needed) ",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/watch1.0/FlappyBirdWatch.ipa",
+                    "size": 2345015
+                },
+                {
+                    "version": "3.8",
+                    "date": "2020-08-19T23:24:18Z",
+                    "localizedDescription": "* Fixed a crash that occurred on iOS < 13.0.\r\n* Fixed a crash specific to 32 bit devices.  ",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.8/org.brandonplank.flappybird.ipa",
+                    "size": 101445162
+                },
+                {
+                    "version": "3.7",
+                    "date": "2020-08-19T20:08:29Z",
+                    "localizedDescription": "* Added official iOS 14 support\r\n* Updated to AppAuth 1.4.0 (was 1.3.0)\r\n* Updated to Firebase 6.30.0 (was 6.24.0)\r\n* Updated to FirebaseAnalytics 6.7.2 (was 6.5.0)\r\n* Updated to FirebaseAuth 6.8.0 (was 6.5.3)\r\n* Updated to FirebaseCore 6.10.0 (was 6.7.0)\r\n* Updated to FirebaseCoreDiagnostics 1.5.0 (was 1.3.0)\r\n* Updated to FirebaseDatabase 6.5.0 (was 6.2.1)\r\n* Updated to FirebaseInstallations 1.6.0 (was 1.2.0)\r\n* Updated to Google-Mobile-Ads-SDK 7.64.0 (was 7.61.0)\r\n* Updated to GoogleAppMeasurement 6.7.2 (was 6.5.0)\r\n* Updated to GoogleDataTransport 7.2.0 (was 6.1.0)\r\n* Updated to GoogleUserMessagingPlatform (1.1.0)\r\n* Updated to GoogleUtilities 6.7.2 (was 6.6.0)\r\n* Updated to PromisesObjC 1.2.10 (was 1.2.8)\r\n* Updated to Then 2.7.0 (was 2.6.0)",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.7/org.brandonplank.flappybird.ipa",
+                    "size": 101441189
+                },
+                {
+                    "version": "3.6",
+                    "date": "2020-07-10T03:55:10Z",
+                    "localizedDescription": "* Fixed a critical logic flaw",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.6/org.brandonplank.flappybird.ipa",
+                    "size": 101342561
+                },
+                {
+                    "version": "3.5",
+                    "date": "2020-07-10T01:05:05Z",
+                    "localizedDescription": "* Fixed multiple crashes\r\n* Fixed multiple bugs in the UI",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.5/org.brandonplank.flappybird.ipa",
+                    "size": 101342867
+                },
+                {
+                    "version": "3.4",
+                    "date": "2020-07-03T00:13:22Z",
+                    "localizedDescription": "* Removed continuous ads on death ",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.4/org.brandonplank.flappybird.ipa",
+                    "size": 101220673
+                },
+                {
+                    "version": "3.3",
+                    "date": "2020-07-02T22:12:50Z",
+                    "localizedDescription": "* Fix memory leaks that could cause the app to crash",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.3/org.brandonplank.flappybird.ipa",
+                    "size": 101213464
+                },
+                {
+                    "version": "3.2",
+                    "date": "2020-07-02T06:42:23Z",
+                    "localizedDescription": "* Fix #9 \r\n* Fix so many bugs lmao, its really not funny\r\n",
+                    "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.2/org.brandonplank.flappybird.ipa",
+                    "size": 101205687
+                }
+            ]
         }
     ],
     "news": []
