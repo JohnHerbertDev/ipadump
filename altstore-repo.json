@@ -12,47 +12,66 @@
         {
             "name": "Pocket8",
             "bundleIdentifier": "com.jevon.pocket8",
+            "marketplaceID": "",
             "developerName": "jevonlipsey",
             "subtitle": "A Native iOS Emulator for the Pico-8 fantasy console.",
             "localizedDescription": "# Pocket8\n\nA native PICO-8 emulator for iOS that bridges the gap between web flexibility and native filesystem access!\n\n[Download the latest build.](https://github.com/jevonlipsey/pico-ios/releases/latest)\n\nhttps://github.com/user-attachments/assets/ec24f92e-d29a-4319-8293-439487d60b35\n\n## Features\n\n- **Native Persistence**: Implements a custom \"Handoff & Sync\" protocol ensuring 100% save-state integrity across app restarts.\n- **Quick Save & Load**: The **only** PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n<p align=\"center\">\n  <img src=\"assets/quickload.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n- **Adaptive Controls**: Custom Gameboy-esque controls with beautiful haptics. Emulator works in portrait and landscape modes.\n- **Smart Library**: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\n<p align=\"center\">\n  <img src=\"assets/libscroll-new.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n## Under the Hood: A Rant\n\nThe core engineering challenge was **reconciling the asynchronous nature of iOS file I/O with the synchronous requirements of the Emscripten/WASM virtual file system.**\n\nPICO-8 demands a synchronous file system. Bridging this gap required completely reverse-engineering the Emscripten boot sequence.\n\n- **Bootloader Hijacking:** The engine defaults to booting the standard \"JELPI\" demo cart. To bypass this, I had to intercept the `Module.preRun` lifecycle, manually injecting user code into the WASM heap and forcing the pointer to the correct entry point before the runtime could initialize.\n- **True State Persistence:** I architected a system that dumps the _entire simulated RAM_ (not just the cart data) into a serialized blob. I implemented **GZIP** compression to keep these memory snapshots lightweight, allowing for atomic, instant state restoration.\n\nIt\u2019s _not_ a browser wrapper; it\u2019s a custom runtime environment built for native iOS, enjoy the speeds!\n\n## Tech Stack\n\n![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)\n![Capacitor](https://img.shields.io/badge/Capacitor-1199EE?style=for-the-badge&logo=capacitor&logoColor=white)\n![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)\n![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)\n\n## Installation\n\nYou can sideload Pocket8 via AltStore, SideStore, or Sideloadly.\n\n### Auto-Update Source (Recommended)\nAdd the official source to **SideStore** or **AltStore** to get updates automatically (no computer needed!).\n\n1. Copy this URL: `https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/altstore.json`\n2. Open SideStore/AltStore -> **Sources** -> **+** -> **Add Source**.\n\n<p align=\"center\">\n  <img src=\"https://i.imgur.com/IEgMrg6.gif\" width=\"20%\" alt=\"Auto-Update Guide\" />\n</p>\n\n### Manual Install\n1. Download the `Pocket8.ipa` from [Releases](https://github.com/jevonlipsey/pico-ios/releases/latest).\n2. Sideload via **AltStore**, **SideStore**, or **Sideloadly**.\n3. Enable **Developer Mode** in iOS Settings (Settings > General > Device Management > Your Name).\n\n## Project Status\n\nThis is a solo dev project designed to push the limits of WebAssembly-to-Native bridging. While an App Store release is a future possibility that I'm gunning for, the current priority is maintaining an uncompromised, open-source experience for the PICO-8 community.\n\n### build from source\n```bash\nnpm install && npx cap sync && npx cap open ios\n```\n\n## How to Get Games\n\nPocket8 uses standard PICO-8 cartridges (`.p8` or `.p8.png`).\n\n1.  **Visit the BBS**: Go to [lexaloffle.com/bbs](https://www.lexaloffle.com/bbs/) or [itch.io](https://itch.io/games/tag-pico-8).\n2.  **Look for the Cart**: You need the **cartridge file**, not a zip or exe. Look for the little square image that looks like the game cover.\n3.  **Save It**:\n    - **Desktop**: Right-click the small \"Cart\" icon -> \"Save Image As\".\n    - **iOS**: Tap and hold the cart image -> \"Save to Files\".\n4.  **Import**: In Pocket8, tap the `+` icon and select your saved `.p8.png` file.\n\n**Pro Tip:** If you see a file named `thumb.png` or `cover.png ...`, that's usually just a picture. You specifically need the file that often ends in `.p8.png` and looks like a game cartridge.\n\n## Acknowledgements\n\n- **[Zep (Lexaloffle)](https://www.lexaloffle.com/pico-8.php)**: For creating the fantasy console and being awesome in general. PICO-8 is a masterpiece of design constraints, I'm so excited to bring it to iOS!\n\n- **You**: For actually reading the documentation. thanks for the support (:\n",
             "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
+                {
+                    "version": "1.4",
+                    "date": "2025-12-26T09:50:34Z",
+                    "localizedDescription": "v1.4 adds native BBS Explorer, making it easy to discover and enjoy thousands of community-made indie games for free.\r\n\r\nFeatures:\r\n\r\n- Infinite Discovery: Scroll through the \"Featured\" and \"New\" sections of the Lexaloffle BBS without ever leaving the app.\r\n-  One-Tap Library: Found a masterpiece? Download it straight to your personal library to play offline anytime.\r\n\r\nDev Note:\r\nI was initially holding off on this, as I thought I would need zep's permission to use SPLORE and browse PICO-8 cartridges. The method I'm using, though, lets me wrap up web-scraping into a native-like experience, essentially acting as a simple browser on your phone. No need to take proprietary software, yay!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.4/pocket8.ipa",
+                    "size": 14233466,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
                 {
                     "version": "1.3",
                     "date": "2025-12-25T20:15:35Z",
                     "localizedDescription": "- Critical Fix: D-Pad no longer gets stuck! (Celeste is now playable).\r\n\r\n- Added \"Swap X/O\" toggle in Settings. Suggested by [u/MaxOsirus](https://www.reddit.com/r/pico8/comments/1pvf4ji/comment/nvvpo7n/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\r\n\r\n- Added AltStore/SideStore Source support. Sideloaded app will auto-update when new builds come out!",
                     "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.3/pocket8.ipa",
-                    "size": 14226069
+                    "size": 14226069,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.2",
                     "date": "2025-12-25T14:13:14Z",
                     "localizedDescription": "Grinding small bug fixes I notice while Christmas is still hot.\r\n\r\nThis update focuses on game feel  and precision.\r\n\r\n### Precision Control Overhaul\r\n* **Input Hysteresis:** Implemented a dual-threshold system for the D-pad. Inputs are now sticky and wont unpress from a thumb slip.\r\n* **True 8-Way Support:** Switched to axis-independent logic. You can now reliably hold diagonals for tight movement.\r\n* **Deadzone Tuning:** Optimized the deadzone (10px) to prevent jitter.\r\n\r\n### UI Polish\r\n* **\"Jiggle Mode\":** can now **Long-Press** any cartridge to enter \"Wiggle Mode\" for deletion, matching native iOS behavior.\r\n* **Library Sorting:** Fixed the \"Recently Played\" sort order. Games now correctly bump to the top of the list when launched.\r\n* **Visual Feedback:** The virtual controller now visually highlights multiple directions simultaneously to match your input state.\r\n\r\n### Installation\r\nDownload `pocket8.ipa` below and install via **AltStore**, **SideStore**, or **Sideloadly**.\r\n\r\nMerry Christmas again everyone!",
                     "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.2/pocket8.ipa",
-                    "size": 14225560
+                    "size": 14225560,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.1",
                     "date": "2025-12-25T13:34:37Z",
                     "localizedDescription": "Added:\r\n- 8 way touch support for tight controls in games like Celeste\r\n- Hold to wiggle to replicate native iOS\r\n\r\nMerry fuggin christmas!",
                     "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.1/pocket8.ipa",
-                    "size": 14224917
+                    "size": 14224917,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0",
                     "date": "2025-12-25T13:05:41Z",
                     "localizedDescription": "v1.0 is here, let me know what you guys think! Sideload via Alt Store, Side Store, or Sideloadly.",
                     "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.0/pocket8.ipa",
-                    "size": 14225314
-                },
-                {
-                    "version": "1.4",
-                    "date": "2025-12-26T09:50:34Z",
-                    "localizedDescription": "v1.4 adds native BBS Explorer, making it easy to discover and enjoy thousands of community-made indie games for free.\r\n\r\nFeatures:\r\n\r\n- Infinite Discovery: Scroll through the \"Featured\" and \"New\" sections of the Lexaloffle BBS without ever leaving the app.\r\n-  One-Tap Library: Found a masterpiece? Download it straight to your personal library to play offline anytime.\r\n\r\nDev Note:\r\nI was initially holding off on this, as I thought I would need zep's permission to use SPLORE and browse PICO-8 cartridges. The method I'm using, though, lets me wrap up web-scraping into a native-like experience, essentially acting as a simple browser on your phone. No need to take proprietary software, yay!",
-                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.4/pocket8.ipa",
-                    "size": 14233466
+                    "size": 14225314,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Bridge",
@@ -538,222 +557,298 @@
         {
             "name": "iSH",
             "bundleIdentifier": "app.ish.ISH",
+            "marketplaceID": "",
             "developerName": "ish-app",
-            "subtitle": "Linux shell for iOS",
-            "localizedDescription": "404: Not Found",
+            "subtitle": "Linux in your pocket",
+            "localizedDescription": "A Linux-like shell on iOS. You can edit files with sed and cat, move them around, and more!\n\nhttps://github.com/ish-app/ish/ ",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7a/78/e3/7a78e31a-10c7-f56e-822d-c1edf05d66e2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/400x400ia-75.webp",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/36/04/e1/3604e16e-c5a7-dd5f-ea96-e52eafcc3134/7f303403-4a64-4d56-925f-1d43bcd47c44_iPhone_X-01systeminfo.png/300x650bb.webp"
+                ],
+                "ipad": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/17/31/aa/1731aa96-bd95-abe2-c0c4-b782cd4d35d7/3aa300ba-aa7b-457b-bba8-4539d541c673_iPad_Pro__U002812.9-inch_U0029__U00283rd_generation_U0029-01systeminfo.png/960x1280bb.webp"
+                ]
+            },
             "versions": [
                 {
                     "version": "builds/802",
                     "date": "2025-12-20T06:20:13Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/802/iSH.ipa",
-                    "size": 1471683
+                    "size": 1471683,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/801",
                     "date": "2025-12-06T06:18:21Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/801/iSH.ipa",
-                    "size": 4603459
+                    "size": 4603459,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/800",
                     "date": "2025-11-29T06:18:16Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/800/iSH.ipa",
-                    "size": 4603456
+                    "size": 4603456,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/799",
                     "date": "2025-11-28T06:25:36Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/799/iSH.ipa",
-                    "size": 4603464
+                    "size": 4603464,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/798",
                     "date": "2025-11-22T06:18:45Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/798/iSH.ipa",
-                    "size": 4603446
+                    "size": 4603446,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/797",
                     "date": "2025-11-15T06:18:52Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/797/iSH.ipa",
-                    "size": 4603453
+                    "size": 4603453,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/796",
                     "date": "2025-11-08T06:18:12Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/796/iSH.ipa",
-                    "size": 4603438
+                    "size": 4603438,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/795",
                     "date": "2025-11-01T06:17:17Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/795/iSH.ipa",
-                    "size": 4603435
+                    "size": 4603435,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/794",
                     "date": "2025-10-25T06:17:52Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/794/iSH.ipa",
-                    "size": 4603443
+                    "size": 4603443,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/793",
                     "date": "2025-10-18T06:18:15Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/793/iSH.ipa",
-                    "size": 4603439
+                    "size": 4603439,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/792",
                     "date": "2025-10-11T06:17:08Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/792/iSH.ipa",
-                    "size": 4603446
+                    "size": 4603446,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/791",
                     "date": "2025-10-04T06:17:03Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/791/iSH.ipa",
-                    "size": 4603444
+                    "size": 4603444,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/790",
                     "date": "2025-09-27T06:26:21Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/790/iSH.ipa",
-                    "size": 4603433
+                    "size": 4603433,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/789",
                     "date": "2025-09-20T06:18:10Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/789/iSH.ipa",
-                    "size": 4603441
+                    "size": 4603441,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/788",
                     "date": "2025-09-13T06:16:39Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/788/iSH.ipa",
-                    "size": 4603435
+                    "size": 4603435,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/787",
                     "date": "2025-09-06T06:17:10Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/787/iSH.ipa",
-                    "size": 4603433
+                    "size": 4603433,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/786",
                     "date": "2025-08-30T06:16:59Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/786/iSH.ipa",
-                    "size": 4603434
+                    "size": 4603434,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/785",
                     "date": "2025-08-09T06:17:43Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/785/iSH.ipa",
-                    "size": 4556888
+                    "size": 4556888,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/784",
                     "date": "2025-08-02T06:18:02Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/784/iSH.ipa",
-                    "size": 4556881
+                    "size": 4556881,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/783",
                     "date": "2025-07-27T06:17:53Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/783/iSH.ipa",
-                    "size": 4556880
+                    "size": 4556880,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/782",
                     "date": "2025-06-14T06:16:57Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/782/iSH.ipa",
-                    "size": 4556879
+                    "size": 4556879,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/781",
                     "date": "2025-06-07T06:17:21Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/781/iSH.ipa",
-                    "size": 4556877
+                    "size": 4556877,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/780",
                     "date": "2025-05-31T06:16:30Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/780/iSH.ipa",
-                    "size": 4556879
+                    "size": 4556879,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/779",
                     "date": "2025-05-24T06:16:19Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/779/iSH.ipa",
-                    "size": 4556886
+                    "size": 4556886,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/778",
                     "date": "2025-05-17T06:17:04Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/778/iSH.ipa",
-                    "size": 4556873
+                    "size": 4556873,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/777",
                     "date": "2025-05-10T06:17:00Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/777/iSH.ipa",
-                    "size": 4556880
+                    "size": 4556880,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/776",
                     "date": "2025-05-03T06:16:13Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/776/iSH.ipa",
-                    "size": 4556861
+                    "size": 4556861,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/775",
                     "date": "2025-05-02T06:17:57Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/775/iSH.ipa",
-                    "size": 4556871
+                    "size": 4556871,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/774",
                     "date": "2025-04-19T06:16:46Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/774/iSH.ipa",
-                    "size": 4565236
+                    "size": 4565236,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "builds/773",
                     "date": "2025-04-12T06:16:18Z",
                     "localizedDescription": "Automated daily build",
                     "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/773/iSH.ipa",
-                    "size": 4565240
+                    "size": 4565240,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Onion Browser",
@@ -1928,26 +2023,39 @@
         {
             "name": "SparseBox",
             "bundleIdentifier": "com.kdt.sparsebox",
+            "marketplaceID": "",
             "developerName": "khanhduytran0",
             "subtitle": "On-device toolbox?",
             "localizedDescription": "# SparseBox\n\nOn-device backup restoration?\n\n- [x] rewrote SparseRestore to swift\n\n> [!NOTE]\n> I have no interest in updating this project at the moment, see Releases for more info. PR welcome.\n\n## Installation\nSideStore is recommended as you will also be getting the pairing file and setting up VPN.\n\nDownload ipa from [Releases](https://github.com/khanhduytran0/SparseBox/releases), Actions tab or [nightly.link](https://nightly.link/khanhduytran0/SparseBox/workflows/build/main/artifact.zip)\n\nBefore opening SparseBox, you have to close SideStore from app switcher. This is because only one app can use VPN proxy at a time. Maybe changing port could solve this issue.\n\n## Thanks to\n- @SideStore: em_proxy and minimuxer\n- @JJTech0130: SparseRestore and backup exploit\n- @PoomSmart: MobileGestalt dump\n- @Lakr233: BBackupp\n- @libimobiledevice\n- [the sneakyf1shy apple intelligence tutorial](https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5#file-best_sae_trick-md)\n",
             "iconURL": "https://github.com/khanhduytran0/SparseBox/blob/main/.swiftpm/playgrounds/DocumentThumbnail.png?raw=true",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
                 {
                     "version": "2.0",
                     "date": "2025-12-12T11:18:31Z",
                     "localizedDescription": "- Re-organized UI\r\n- Switched to idevice library\r\n- Added more MobileGestalt customization: SRD, Internal settings \r\n- Added support for BookRestore exploit (up to 26.2b1)\r\n\r\n> [!NOTE]\r\n> Bypass 3 app limit for SparseRestore devices is currently unavailable due to using idevice.",
                     "downloadURL": "https://github.com/khanhduytran0/SparseBox/releases/download/2.0/SparseBox.ipa",
-                    "size": 9357334
+                    "size": 9357334,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.0.1",
                     "date": "2025-05-25T15:13:53Z",
                     "localizedDescription": "> [!WARNING]  \r\n> SparseBox is NOT supported on iOS 18.1b5+. I am not responsible for any damages if you run it on unsupported iOS versions.\r\n\r\n> [!NOTE]\r\n> I currently do not actively maintain this project. If possible, please consider using alternatives:\r\n> - MobileGestalt tweaks are very incomplete. Use [Nugget](https://github.com/leminlimez/Nugget)\r\n> - Bypass app limit require keeping device FMI off all the time. Instead use [LiveContainer](https://github.com/LiveContainer/LiveContainer).\r\n> - Enabling iPadOS causes many issues. Instead use [TrollPad](https://github.com/khanhduytran0/TrollPad) (jailbroken), [FrontBoardAppLauncher](https://github.com/khanhduytran0/FrontBoardAppLauncher) (TrollStore), [LiveContainer](https://github.com/LiveContainer/LiveContainer) multitask mode (up to latest iOS)",
                     "downloadURL": "https://github.com/khanhduytran0/SparseBox/releases/download/0.0.1/com.kdt.sparsebox_0.0.1.ipa",
-                    "size": 7278525
+                    "size": 7278525,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Discord (BTLoader)",
@@ -2563,6 +2671,48 @@
                     "size": 86233868,
                     "buildVersion": null,
                     "minOSVersion": null
+                },
+                {
+                    "version": "1.4.2",
+                    "date": "2023-10-20T05:21:59Z",
+                    "localizedDescription": "# Changes\r\n\r\n## \ud83c\udd95 Features\r\n\r\n- feat: extension on start event @monkeyWie (#239)\r\n\r\n## \ud83d\udc1b Bug Fixes\r\n\r\n- fix: http retry strategy @monkeyWie (#240)\r\n- fix: add system tray tooltip @monkeyWie (#237)\r\n\r\n## \ud83e\uddea Tests\r\n\r\n- test: add extension script error case @monkeyWie (#238)\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\r\n\r\n## \ud83c\udd95 \u65b0\u7279\u6027\r\n\r\n- feat: \u6269\u5c55\u652f\u6301 on start \u4e8b\u4ef6 @monkeyWie (#239)\r\n\r\n## \ud83d\udc1b Bug Fixes\r\n\r\n- fix: http\u4e0b\u8f7d\u91cd\u8bd5\u7b56\u7565 @monkeyWie (#240)\r\n- fix: \u6dfb\u52a0\u7cfb\u7edf\u6258\u76d8\u63d0\u793a\u6587\u672c  @monkeyWie (#237)\r\n\r\n## \ud83e\uddea Tests\r\n\r\n- test: \u6dfb\u52a0\u6269\u5c55\u811a\u672c\u8fd0\u884c\u9519\u8bef\u7684\u6d4b\u8bd5\u7528\u4f8b @monkeyWie (#238)",
+                    "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.4.2/Gopeed-v1.4.2-ios.ipa",
+                    "size": 86216607
+                },
+                {
+                    "version": "1.4.1",
+                    "date": "2023-10-18T03:45:22Z",
+                    "localizedDescription": "# Changes\r\n\r\n## \ud83c\udd95 Features\r\n\r\n- feat: support storage state on extension @monkeyWie (#235)\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\r\n\r\n## \ud83c\udd95 \u65b0\u7279\u6027\r\n\r\n- feat: \u6269\u5c55\u652f\u6301\u672c\u5730\u72b6\u6001\u5b58\u50a8 @monkeyWie (#235)\r\n",
+                    "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.4.1/Gopeed-v1.4.1-ios.ipa",
+                    "size": 86217571
+                },
+                {
+                    "version": "1.4.0",
+                    "date": "2023-10-17T05:32:07Z",
+                    "localizedDescription": "# Changes\r\n\r\n\u26a0\ufe0f This version has break changes, if it runs incorrectly after update you need to uninstall completely and reinstall it.\r\n\r\n## \ud83c\udd95 Features\r\n\r\n- feat: extension support @monkeyWie (#78)\r\n- feat: support arm/v6 and arm/v7 on docker @monkeyWie (#234)\r\n- feat: update zh-TW locale @ElliotCHEN37 (#225)\r\n\r\n## \u2692\ufe0f Development Kit\r\n\r\nAdd  [gopeed-js] (https://github.com/GopeedLab/gopeed-js) project to help development.\r\n\r\n## \ud83d\udcdd Docs\r\n\r\n- Upgraded the document site, please visit: [docs](https://docs.gopeed.com)\r\n- New RESTFull API document site, please visit: [OpenAPI](https://docs.gopeed.com/site/openapi/index.html)\r\n- New JavaScript SDK document site, please visit: [Reference](https://docs.gopeed.com/site/reference/index.html)\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\r\n\r\n\u26a0\ufe0f \u6b64\u7248\u672c\u6709\u7834\u574f\u6027\u6539\u52a8, \u5982\u679c\u5347\u7ea7\u4e4b\u540e\u8fd0\u884c\u6709\u95ee\u9898\uff0c\u9700\u8981\u5b8c\u5168\u5378\u8f7d\u518d\u91cd\u65b0\u5b89\u88c5\u3002\r\n\r\n## \ud83c\udd95 \u65b0\u7279\u6027\r\n\r\n- feat: \u6269\u5c55\u529f\u80fd\u652f\u6301 @monkeyWie (#78)\r\n- feat: docker\u652f\u6301 arm/v6 \u548c arm/v7 @monkeyWie (#234)\r\n- feat: \u66f4\u65b0\u53f0\u6e7e\u8bed\u8a00\u7ffb\u8bd1 @ElliotCHEN37 (#225)\r\n\r\n## \u2692\ufe0f \u5f00\u53d1\u5de5\u5177\r\n\r\n\u65b0\u589e[gopeed-js] (https://github.com/GopeedLab/gopeed-js) \u9879\u76ee\u5e2e\u52a9\u5f00\u53d1\u3002\r\n\r\n## \ud83d\udcdd \u6587\u6863\r\n\r\n- \u5168\u9762\u5347\u7ea7\u6587\u6863\u7f51\u7ad9, \u8bf7\u8bbf\u95ee: [docs](https://docs.gopeed.com)\r\n- \u5168\u65b0\u7684 RESTFul \u63a5\u53e3\u6587\u6863, \u8bf7\u8bbf\u95ee: [OpenAPI](https://docs.gopeed.com/site/openapi/index.html)\r\n- \u5168\u65b0\u7684 JavaScript SDK \u6587\u6863, \u8bf7\u8bbf\u95ee: [Reference](https://docs.gopeed.com/site/reference/index.html)",
+                    "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.4.0/Gopeed-v1.4.0-ios.ipa",
+                    "size": 86215545
+                },
+                {
+                    "version": "1.3.13",
+                    "date": "2023-10-08T09:01:56Z",
+                    "localizedDescription": "# Changes\r\n\r\n## \ud83c\udd95 Features\r\n\r\n- feat: auto recognize magnet uri @monkeyWie (#230)\r\n- feat: adapts to Android 14 @monkeyWie (#229)\r\n- feat: improve zh-TW translate @ElliotCHEN37 (#224)\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\r\n\r\n## \ud83c\udd95 \u65b0\u7279\u6027\r\n\r\n- feat: \u81ea\u52a8\u8bc6\u522b\u5e76\u8865\u5168 magnet \u94fe\u63a5 @monkeyWie (#230)\r\n- feat: \u9002\u914d Android 14 @monkeyWie (#229)\r\n- feat: \u6539\u5584\u53f0\u6e7e\u7ffb\u8bd1 @ElliotCHEN37 (#224)\r\n",
+                    "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.3.13/Gopeed-v1.3.13-ios.ipa",
+                    "size": 82770133
+                },
+                {
+                    "version": "1.3.12",
+                    "date": "2023-09-20T09:09:45Z",
+                    "localizedDescription": "#  Changes\r\n\r\n## \ud83c\udd95 Features\r\n\r\n- feat: file open on mobile @monkeyWie (#223)\r\n- feat: default  http User-Agent header @MrGlp (#216)\r\n- feat: add zh-TW.json translate @ElliotCHEN37 (#209)\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\r\n\r\n## \ud83c\udd95 \u65b0\u7279\u6027\r\n\r\n- feat: \u624b\u673a\u7aef\u652f\u6301\u6253\u5f00\u5df2\u4e0b\u8f7d\u7684\u6587\u4ef6 @monkeyWie (#223)\r\n- feat: http\u4e0b\u8f7d\u6dfb\u52a0\u9ed8\u8ba4ua @MrGlp (#216)\r\n- feat: \u65b0\u589e\u53f0\u6e7e\u7e41\u4f53\u652f\u6301 @ElliotCHEN37 (#209)\r\n",
+                    "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.3.12/Gopeed-v1.3.12-ios.ipa",
+                    "size": 82746114
+                },
+                {
+                    "version": "1.3.11",
+                    "date": "2023-09-04T06:47:18Z",
+                    "localizedDescription": "# Changes\r\n\r\n## \ud83c\udd95 Features\r\n\r\n- feat: iOS support @monkeyWie (#194)\r\n- feat: task file manage @monkeyWie (#196)\r\n- feat: auto get create url from clipboard @monkeyWie (#193)\r\n- feat: adjust size of resource dialog @monkeyWie (#192)\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\r\n\r\n## \ud83c\udd95 \u65b0\u7279\u6027\r\n\r\n- feat: \u652f\u6301 iOS @monkeyWie (#194)\r\n- feat: \u652f\u6301\u4efb\u52a1\u6587\u4ef6\u7ba1\u7406 @monkeyWie (#196)\r\n- feat: \u81ea\u52a8\u4ece\u526a\u8d34\u677f\u8bfb\u53d6\u4e0b\u8f7d\u8def\u5f84 @monkeyWie (#193)\r\n- feat: \u8c03\u6574\u89e3\u6790\u8d44\u6e90\u5f39\u7a97\u5927\u5c0f @monkeyWie (#192)\r\n",
+                    "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.3.11/Gopeed-v1.3.11-ios.ipa",
+                    "size": 82731772
                 }
             ],
             "appPermissions": {
@@ -3172,96 +3322,129 @@
         {
             "name": "LiveContainer Installer",
             "bundleIdentifier": "site.ashutoshportfolio.lcinstaller.app",
+            "marketplaceID": "",
             "developerName": "asrma7",
-            "subtitle": null,
+            "subtitle": "An awesome app.",
             "localizedDescription": "# LcInstaller\n\nLcInstaller is a **Flutter app** that makes installing apps into [LiveContainer](https://github.com/LiveContainer/LiveContainer) effortless.\n\nInstead of manually searching for `.ipa` files, downloading them, and then importing into LiveContainer, you can simply add **repos** (just like in ESign, Feather, etc.) and install apps directly.\n\n---\n\n## \u2728 Features\n\n* \ud83d\udcc2 Add and manage repos that host `.ipa` apps.\n* \u26a1 One-click install into LiveContainer using its URL scheme.\n* \ud83d\udd04 Easily update or switch apps without tedious manual steps.\n* \ud83c\udfa8 UI design inspired by [Feather](https://github.com/khcrysalis/Feather).\n\n---\n\n## \ud83d\udee0 Motivation\n\nI built this app because I love testing and updating different apps, but the **manual process** (search \u2192 download \u2192 import) was a pain.\n\nI originally used **Feather**, but after the revoke wave of certificates, I switched fully to **LiveContainer**. LcInstaller brings the simplicity of repo-based installs to LiveContainer.\n\n---\n\n## \u2699\ufe0f How It Works\n\nLcInstaller uses LiveContainer\u2019s custom URL scheme:\n\n```\nlivecontainer://install?url=https://example.com/app.ipa\n```\n\nWhen you tap install inside LcInstaller, it tells LiveContainer to fetch the `.ipa` directly and handle the installation.\n\n\u2705 You don\u2019t need to manage files, downloads, or imports yourself.\n\n---\n\n## \ud83d\udccc Important Notes\n\n* If you install **LcInstaller inside LiveContainer itself**, you must:\n\n  * Run it in **LiveContainer2**, **or**\n  * Run it in **multi-tasking mode**.\n\nThis ensures the main LiveContainer instance remains free to handle the actual install process.\n\n* Distribution through the App Store is not possible (it won\u2019t pass Apple review). You\u2019ll need to sideload the app.\n\n---\n\n## \ud83d\udce5 Installation\n\n1. Go to the [Releases](https://github.com/asrma7/LiveContainer-Installer/releases) page.\n2. Download the latest `.ipa` file.\n3. Install it via:\n\n   * **AltStore / SideStore / TrollStore**, or\n   * **LiveContainer** (just import the IPA directly).\n\n---\n\n## \u2764\ufe0f Credits\n\n* Inspired by [Feather](https://github.com/khcrysalis/Feather) app design.\n* Built with **Flutter**.\n\n---\n\n## \ud83d\udcc4 License\n\nMIT License \u2013 feel free to fork, improve, and contribute!",
             "iconURL": "https://raw.githubusercontent.com/asrma7/LiveContainer-installer/refs/heads/main/screenshots/AppIcon1024.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
                 {
                     "version": "1.2.1",
                     "date": "2025-11-09T00:24:51Z",
                     "localizedDescription": "\n- Fixed issue with incorrect latest version due to missing leading zero in version dates.",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.1/LcInstaller.ipa",
-                    "size": 8095982
+                    "size": 8095982,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.2.0",
                     "date": "2025-11-04T01:29:42Z",
                     "localizedDescription": "- Fixed issue with unsupported versionDate in some repositories like SpotCompiled causing app library to fail to load.\n- Added visual notification of Import and Export in Add Source Page.\n- Added template image for invalid image in source or app.",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.0/LcInstaller.ipa",
-                    "size": 8095146
+                    "size": 8095146,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.1.0",
                     "date": "2025-09-12T06:47:06Z",
                     "localizedDescription": "- Library page now shows installed apps and available updates.\n- Workaround implemented to track installed app. (Does not retrieve data from Live Container)",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.1.0/LcInstaller.ipa",
-                    "size": 8094727
+                    "size": 8094727,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0.1",
                     "date": "2025-09-12T02:20:33Z",
                     "localizedDescription": "- UI Improvement for larger Icons and better view\n- All Repository added within source page to view all apps",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.1/LcInstaller.ipa",
-                    "size": 8077929
+                    "size": 8077929,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0.0",
                     "date": "2025-09-09T09:02:06Z",
                     "localizedDescription": "- Implement AppViewPage where you can see details and screenshots of the app\n- Version History page to allow users to download older versions of the app\n- UI optimization\n- App loading speed optimization",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.0/LcInstaller.ipa",
-                    "size": 8076298
+                    "size": 8076298,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.1.6",
                     "date": "2025-09-09T05:40:06Z",
                     "localizedDescription": "- Fix issue with bottom navigation bar hiding apps\n- Optimize app loading logic to load app lists faster for repos with 1000+ apps\n- Removed database for apps and screenshots to store them in memory for better performance",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.6/LcInstaller.ipa",
-                    "size": 8056715
+                    "size": 8056715,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.1.5",
                     "date": "2025-09-08T01:52:28Z",
                     "localizedDescription": "- Fix issue with importing recommended sources",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.5/LcInstaller.ipa",
-                    "size": 8064425
+                    "size": 8064425,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.1.4",
                     "date": "2025-09-08T01:21:00Z",
                     "localizedDescription": "- Add functionality to import and export sources from common signers\n- Fix importing sidestore repositories",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.4/LcInstaller.ipa",
-                    "size": 8064207
+                    "size": 8064207,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.1.3",
                     "date": "2025-09-07T04:32:14Z",
                     "localizedDescription": "- Add feature to allow copying and deleting sources ",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.3/LcInstaller.ipa",
-                    "size": 8039782
+                    "size": 8039782,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.1.2",
                     "date": "2025-09-07T03:08:45Z",
                     "localizedDescription": "",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.2/LcInstaller.ipa",
-                    "size": 8037915
+                    "size": 8037915,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.1.1",
                     "date": "2025-09-07T00:43:31Z",
                     "localizedDescription": "",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.1/LcInstaller.ipa",
-                    "size": 8029521
+                    "size": 8029521,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.1.0",
                     "date": "2025-09-07T00:19:57Z",
                     "localizedDescription": "",
                     "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.0/LcInstaller.ipa",
-                    "size": 8029219
+                    "size": 8029219,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "dirtyZero",
@@ -4770,19 +4953,30 @@
         {
             "name": "ChatGPTwebV15",
             "bundleIdentifier": "com.akuma.chatgptv15",
+            "marketplaceID": "",
             "developerName": "Akuma1tko",
-            "subtitle": null,
+            "subtitle": "An awesome app.",
             "localizedDescription": "# ChatGPTWebV15\n[![Download v1.0.0](https://img.shields.io/badge/download-v1.0.0-blue)](https://github.com/Akuma1tko/ChatGPTwebV15/releases/tag/v1.0.0)\n\n\nA standalone iOS 15 wrapper for ChatGPT, featuring a manual cookie-injection login fix and a modern multi-account floating button UI.\n\n---\n\n## \ud83d\ude80 Features\n\n- **Manual login** via `__Secure-next-auth.session-token`  \n- **Multi-account support** (add, rename, delete)  \n- **Floating draggable button** (44\u00d744, white background, subtle shadow)  \n- **Modern bottom-sheet account manager** (inset-grouped style)  \n- **\u201cNo account\u201d** option to log out and start fresh  \n- **Idle fade**: button fades to 30% after 5 s of inactivity  \n- **Full-screen WebView**, portrait & landscape support  \n\n---\n\n## \ud83d\udce6 Installation\n  \n**Sideload** via AltStore, TrollStore, Cydia Impactor, etc.  \n\n---\n\n\n## \ud83d\udd11 First-Time Login\n\n1. On your desktop Chrome, go to **https://chatgpt.com** (or `https://chat.openai.com`) and sign in.  \n2. Click the **\u22ee** menu in the top-right \u2192 **More tools** \u2192 **Developer tools**  \n   *(or press **Ctrl + Shift + I** on Windows/Linux, **\u2318 + Option + I** on Mac)*  \n3. In DevTools, switch to the **Application** tab \u2192 **Storage** \u2192 **Cookies** \u2192 **chatgpt.com**  \n4. Find **`__Secure-next-auth.session-token`**, double-click its **Value**, press **\u2318 +A** (Select All) then **\u2318 +C** (Copy).  \n5. On your iOS 15 device, open **ChatGPTWebV15**, tap the floating button \u2192 **Add new\u2026**, paste the token \u2192 **Save**.  \n\nYour session will load immediately in the WebView.  \n\n\n---\n\n## \ud83d\udd04 Switching & Managing Accounts\n\n- **Tap** the floating app-icon button to open the account sheet.  \n- **No account** \u2192 wipes cookies and shows the logged-out page.  \n- **Add new\u2026** \u2192 name + paste a new token.  \n- **Tap an existing account** \u2192 instantly reloads with that session.  \n- **Swipe left** on any account in the sheet to **Rename** or **Delete**.  \n\nChanges are saved in Keychain; your **last selected** account is loaded automatically on app launch.\n\n---\n\n## \ud83d\ude4f Shout-Outs\n\nHuge thanks to the community members who helped shape this:\n\n- **WhatTheOnEarth**  \n- **colorzpe**  \n- **No_Count2837**  \n\nYour feedback and testing made this for everyone on iOS 15. Enjoy!  \n",
             "iconURL": "https://raw.githubusercontent.com/Akuma1tko/ChatGPTwebV15/refs/heads/main/Downloads/ChatGPTWebV15/ChatGPTWebView/appstore.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
                 {
                     "version": "1.0.0",
                     "date": "2025-07-13T19:20:26Z",
                     "localizedDescription": "## \ud83d\ude80 ChatGPTwebV15 v1.0.0\r\n\r\n\r\n- **iOS 15 Legacy Login**: Manual cookie\u2010injection fix for the broken OAuth flow.  \r\n- **Multi-Account Floating UI**: Add, rename, delete, switch sessions via a draggable, 44\u00d744 floating button.  \r\n- **Modern Bottom-Sheet Manager**: Sleek inset-grouped list\u2014swipe to rename/delete, \u201cNo account\u201d to log out, and \u201cAdd Account\u2026\u201d in one place.  \r\n- **Idle Fade**: Floating button auto-fades after 5 s of inactivity.  \r\n- **Full-Screen Landscape Support**: ChatGPT in a native WebView, portrait & landscape.\r\n\r\n---\r\n\r\n## \ud83d\udd11 First-Time Login\r\n\r\n1. On desktop Chrome, go to **https://chatgpt.com** and sign in.  \r\n2. Open **\u22ee \u2192 More tools \u2192 Developer tools** (or **Ctrl+Shift+I** / **\u2318\u2325I**).  \r\n3. In DevTools, go to **Application \u2192 Storage \u2192 Cookies \u2192 chatgpt.com**.  \r\n4. Copy the **Value** of `__Secure-next-auth.session-token` (long string starting with `ey\u2026`).  \r\n5. On your device, open **ChatGPTWebV15**, tap the floating button \u2192 **Add Account\u2026**, paste it \u2192 **Save**.\r\n\r\n---\r\n\r\n## \ud83d\ude4f Shout-Outs\r\n\r\nBig thanks to **WhatTheOnEarth**, **colorzpe**, and **No_Count2837** for all your work on iOS 15!\r\n\r\n",
                     "downloadURL": "https://github.com/Akuma1tko/ChatGPTwebV15/releases/download/v1.0.0/ChatGPTw15.ipa",
-                    "size": 2535472
+                    "size": 2535472,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "SideStore",
@@ -5179,197 +5373,265 @@
         {
             "name": "PureKFD",
             "bundleIdentifier": "uwu.lrdsnow.purekfd",
+            "marketplaceID": "",
             "developerName": "Lrdsnow",
             "subtitle": "An exploit based Jailed Package Manager for iOS 15.0-18.0/18.1b4",
             "localizedDescription": "404: Not Found",
             "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
                 {
                     "version": "6.0.2",
                     "date": "2024-11-23T07:05:41Z",
                     "localizedDescription": "- more optimization\r\n- more syncing for accents\r\n- new repo\r\n- fixed individual tweak restore",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.2/PureKFD.ipa",
-                    "size": 10806164
+                    "size": 10806164,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "6.0.1",
                     "date": "2024-09-29T18:01:22Z",
                     "localizedDescription": "- lego brick and art tape kinda app data fix (temporary)\r\n- defaults to SR now\r\n- fixed file picker & share sheet (maybe)\r\n\r\nPureRestore - PureKFD for MacOS:\r\n- requires /Library/Frameworks/Python.framework/Versions/3.12/lib/libpython3.12.dylib",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0.1/PureKFD.ipa",
-                    "size": 10882263
+                    "size": 10882263,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "6.0",
                     "date": "2024-09-22T07:16:15Z",
                     "localizedDescription": "- full rewrite\r\n- all new ui\r\n- repo debugging\r\n- tweak debugging\r\n- SparseRestore support (for iOS 16.0-18.0/18.1b4)\r\n- tweak environment variables\r\n\r\n**I am not liable for data loss or if you bootloop**\r\n\r\nHow to Apply with SparseRestore: \r\n- get pairing file using a pc and [JitterbugPair](https://github.com/osy/Jitterbug/releases/tag/v1.3.1)\r\n- import pairing file into PureKFD using share sheet or file importer in settings\r\n- get [WireGuard](https://apps.apple.com/us/app/wireguard/id1441195209) and import the [SideStore WireGuard Config](https://github.com/sidestore/sidestore/releases/download/0.1.1/sidestore.conf)\r\n- go into purekfd and apply your tweaks!",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/6.0/PureKFD.ipa",
-                    "size": 10025476
+                    "size": 10025476,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "5.2.1",
                     "date": "2024-07-30T04:09:22Z",
                     "localizedDescription": "- fix iOS 14 support",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.2.1/purekfd.ipa",
-                    "size": 24374136
+                    "size": 24374136,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "5.2",
                     "date": "2024-02-08T18:00:32Z",
                     "localizedDescription": "- Added Panic Detection\r\n- Changed Layout a bit\r\n- Uses [SwiftKFD](https://github.com/Lrdsnow/SwiftKFD) now\r\n- Other changes probably I can't remember lol",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.2/purekfd.ipa",
-                    "size": 47591689
+                    "size": 47591689,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "5.1",
                     "date": "2024-01-18T10:10:27Z",
                     "localizedDescription": "App Changes:\r\n- Made the app a shit ton faster by changing the way purekfd loads images\r\n- updated icons with higher quality ones\r\n- removed a crap ton of useless code\r\n\r\nKFD Changes:\r\n- updated kfund (added the patchfinder)",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.1/PureKFD.ipa",
-                    "size": 24524098
+                    "size": 24524098,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "5.0",
                     "date": "2024-01-08T20:17:13Z",
                     "localizedDescription": "Changes since 4.6:\r\n- Rewrote UI\r\n- Removed Misaka Support (enough repos are now purekfd based that its not needed plus it made purekfd fully open source)\r\n- Rewrote Application System\r\n- Added landa \r\n- and other changes I can't remember\r\n",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.0/purekfd.ipa",
-                    "size": 46623713
+                    "size": 46623713,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "5.0betaOSS",
                     "date": "2024-01-07T07:01:34Z",
                     "localizedDescription": "PureKFD no longer has any mention of misaka and no longer has any misaka repo support from here on out\r\n\r\nmost misaka repos have been converted to purekfd repos tho",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.0betaOSS/purekfd.ipa",
-                    "size": 21365065
+                    "size": 21365065,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "5.0beta_landa",
                     "date": "2024-01-01T06:08:40Z",
                     "localizedDescription": "Latest PureKFD Beta with Landa!\r\n\r\n[Supported devices](https://github.com/PureKFD/PureKFD/blob/beta/supported.md)",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/5.0beta_landa/purekfd.ipa",
-                    "size": 22856454
+                    "size": 22856454,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.6",
                     "date": "2023-12-11T19:34:59Z",
                     "localizedDescription": "#### App:\r\n- New icons!!\r\n- Now saves config to documents rather then user defaults\r\n- fixed trollstore entitlements (thx @asdfugil)\r\n- fixed device info\r\n#### Exploit:\r\n- more options for kfd\r\n- added userspace reboot for trollstore users (thx @asdfugil)",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.6/purekfd.ipa",
-                    "size": 33681766
+                    "size": 33681766,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.5",
                     "date": "2023-12-09T16:50:02Z",
                     "localizedDescription": "#### Exploit:\r\n- (KFD) MAJOR Stability Improvement it is recommended all users update to this version as in testing all tweaks applied every time flawlessly (thx to @asdfugil)\r\n#### Repo Management:\r\n- Fixed misaka.app repo\r\n\r\nWith this update it is recommended to not use sideloadly due to its signing issues",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.5/purekfd.ipa",
-                    "size": 15861998
+                    "size": 15861998,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.4",
                     "date": "2023-12-08T20:11:49Z",
                     "localizedDescription": "#### Exploit:\r\n- Increased possible page size (for iPads)\r\n- fixed kfd on iPadOS 16.4.1\r\n#### Repo Management:\r\n- Fixed downloading different versions of misaka tweaks\r\n- Updated default repos\r\n#### Misc:\r\n- Other small bugfixes",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.4/purekfd.ipa",
-                    "size": 28123389
+                    "size": 28123389,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.3",
                     "date": "2023-12-07T19:02:32Z",
                     "localizedDescription": "#### App:\r\n- Merged tipa and ipa\r\n#### UI:\r\n- Allow disabling list row theming \r\n#### Bugfixes:\r\n- Fixed repo loading\r\n- A lot more exploit checks\r\n- Removed check for iPads on kfd (so it should automatically use kfd on ipads with kfd)\r\n- and quite a lot more",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.3/purekfd.ipa",
-                    "size": 28115297
+                    "size": 28115297,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.2",
                     "date": "2023-12-06T22:06:03Z",
                     "localizedDescription": "### Filemanager:\r\n- No longer uses kfd redirects if unsandboxed (istg if misaka takes this :sob:)\r\n### Tweak application:\r\n- No longer uses kfd redirects if unsandboxed (istg if misaka takes this :sob:)\r\n- Added misaka_binary (fixes palette)\r\n- Added misaka_segment's iOSVer (fixing quite a bit of tweaks)\r\n### Repo System:\r\n- Made it more dynamic\r\n### Tweak Install:\r\n- Added basic queue system\r\n### App:\r\n- Added loading increasing performance on lower end devices\r\n- Increased general performance\r\n### Exploit:\r\n- Added M1/M2 support (thx to @dhinak, @emmikat, @lilmayofuksu and @noxwell who all worked directly on purekfd to fix it)\r\n- Added more puaf page options\r\n### Developer/Tests:\r\n- Added trollstore install (KFD only)\r\n- Added app manager (KFD only)\r\n- Added pip test",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.2/PureKFD.ipa",
-                    "size": 28068025
+                    "size": 28068025,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.1",
                     "date": "2023-10-09T07:33:20Z",
                     "localizedDescription": "#### File Manager:\r\n- Fixed on kfd\r\n- Added Copy & Pasting\r\n- Added UUID reading\r\n- Added File Info\r\n- Fixed Text & Plist Editing\r\n- Added extra checks so the picker shouldnt crash as much\r\n#### Browse/Repos:\r\n- Added Filters (hide types of tweaks/apps)\r\n- Added Cowabunga Locks support (And Cowabunga Repo Support)\r\n- Added Scarlet, ESign and Altstore Repo Support\r\n#### Tweaks:\r\n- Added Enterprise Signed App Install And JB App Install\r\n- Added Remove 3 app limit (MDC Only)\r\n#### Tweak Creator:\r\n- Added target file picker\r\n- Fixed PureKFD/Picasso Tweaks on MDC\r\n#### Prefs:\r\n- Improved Misaka -> PureKFD Pref Conversion\r\n#### Tweak Converter:\r\n- Added Tweak Converter\r\n- Only Supports Cowabunga Lock -> PureKFD\r\n#### App:\r\n- Added iOS 14 Support",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.1/PureKFD.ipa",
-                    "size": 29190358
+                    "size": 29190358,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0",
                     "date": "2023-10-01T23:41:21Z",
                     "localizedDescription": "- Complete Overhaul",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/4.0/PureKFD.ipa",
-                    "size": 27842739
+                    "size": 27842739,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.5",
                     "date": "2023-09-03T18:50:12Z",
                     "localizedDescription": "Changes:\r\n- Cleaned up code\r\n- Added the cursed file browser\r\n- Combined Respring (Basically just a backboard respring)",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.5/PureKFD.ipa",
-                    "size": 3040538
+                    "size": 3040538,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.4",
                     "date": "2023-08-29T23:09:14Z",
                     "localizedDescription": "### Changes:\r\n- UI redesign\r\n- Search now signifies the package type & no longer crashes\r\n- Installed now shows what type of package it is and how likely it is to work\r\n- Fixed all of the Picasso prefs, fixing custom resolution & adding picker for SubType Setter (and potentially other packages)\r\n- Improved exploit reliability & stability\r\n\r\n### Will fix all misaka prefs (& operations hopefully) in v4!!!",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.4/PureKFD.ipa",
-                    "size": 2213036
+                    "size": 2213036,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.2",
                     "date": "2023-08-25T23:22:54Z",
                     "localizedDescription": "Changes:\r\n- Fixed picasso packages\r\n- Added share logs",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.2/PureKFD.ipa",
-                    "size": 1669727
+                    "size": 1669727,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.1",
                     "date": "2023-08-25T10:30:25Z",
                     "localizedDescription": "Changes:\r\n- Home Settings changes now stay even after close\r\n- Added 15.7.2-15.7.6 Support (PureKFD_IOSurface.ipa)\r\n- Fast af Apply (Near instant on 16.2+)\r\n- added more mdc support (ResSet16)\r\n- added cleanup and other bug fixes",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.1/PureKFD.ipa",
-                    "size": 1864118
+                    "size": 1864118,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.0",
                     "date": "2023-08-24T11:26:02Z",
                     "localizedDescription": "Changes:\r\n- Added 15.0-15.7.1 & 16.0-16.1.2 Support via MDC (PureKFD will automatically set the Exploit)\r\n- Added Logs\r\n- Shows Supported Versions but doesn't enforce them (For Misaka Packages)\r\n- Added Screenshots (For Misaka Packages)\r\n- Finally Fixed & Tested Remove Dynamic Island\r\n- Bugfixes",
                     "downloadURL": "https://github.com/Lrdsnow/PureKFD/releases/download/3.0/PureKFD.ipa",
-                    "size": 1636661
+                    "size": 1636661,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "TrollInstallerX",
             "bundleIdentifier": "com.Alfie.TrollInstallerX",
+            "marketplaceID": "",
             "developerName": "alfiecg24",
             "subtitle": "A TrollStore installer for iOS 14.0 - 16.6.1",
             "localizedDescription": "<div align=\"center\">\n    <h1>TrollInstallerX</h1>\n    <img src=\"Resources/Icon.png\" width=\"125\" height=\"125\" />\n</div>\n\n## Overview\nTrollInstallerX is a universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices.\n\nTrollInstallerX supports all devices running iOS 14.0 - 16.6.1, both arm64 and arm64e. It makes use of one of two different methods to install TrollStore, depending on what device and iOS you have. These methods are:\n\n* **Direct installation**: using the [kfd](https://github.com/felix-pb/kfd) kernel exploit, along with the [dmaFail](https://github.com/opa334/Dopamine/blob/2.x/Application/Dopamine/Exploits/dmaFail/dmaFail.c) PPL bypass on iOS 15.2+ arm64e devices, TrollInstallerX can install both TrollStore and its persistence helper directly onto the device without having to leave the installer.\n  * Supports iOS 14.0 - 16.6.1 (arm64) and iOS 14.0 - 16.5.1 (arm64e).\n    * **Note**: A15, A16, and M2 devices on iOS 16.5.1 do not support this method.\n    * **Note**: A8 devices are only supported on iOS 14.0 - 15.1 for the time being.\n\n* **Indirect installation**: Using the [kfd](https://github.com/felix-pb/kfd) kernel exploit, TrollInstallerX can replace a system application of your choice with the TrollStore persistence helper. This method only exists due to both the lack of a PPL bypass on iOS 16.6 and above, as well as the fact that dmaFail is non-functional on A15, A16, and M2 devices on iOS 16.5.1.\n  * Supports iOS 16.5.1 - 16.6.1 (arm64e).\n    * **Note**: This method is the only method that supports A15, A16, and M2 devices on iOS 16.5.1.\n\nBoth methods allow you to install a persistence helper into a removable system app. The reason that this is needed is due to the way that the CoreTrust bug (used by TrollStore) works - in certain circumstances, TrollStore and other apps installed by it will be reset to User registration, instead of System. You cannot open any of these apps until you have used the persistence helper to set them back to System registration.\n\n## Usage\nTrollInstallerX is extremely easy to use. Simply download the latest release from the [Releases](https://github.com/alfiecg24/TrollInstallerX/releases) page, and sideload it using your preferred method. Once installed, open the app and press the \"Install\" button. From there, TrollStore and/or its persistence helper will be installed onto your device.\n\nTrollInstallerX will automatically choose the best exploit for your device. However, in some cases, you may want to choose a specific exploit. To do this, simply open the settings view and select the exploit that you want to use. Once you have selected it, press the \"Install TrollStore\" button and TrollInstallerX will use the exploit you have chosen.\n\n**Note**: iOS 16.2 - 16.6.1 and iOS 15.7.2 - 15.8.2 require an internet connection in order for TrollInstallerX to download the kernelcache and patchfind it.\n\n## FAQ\n> Why am I stuck at \"Exploiting kernel\"?\n\nThis is a common issue with the kfd exploit. Simply reboot your device and try again.\n\n> Why can I not open/see TrollStore after a successful installation?\n\nDuring installation, you will have installed a persistence helper. Open your persistence helper and press \"refresh app registrations\" to fix TrollStore not being able to be opened.\n\n> Why did the app I selected for the persistence helper not become the persistence helper?\n\nIf you selected an app for the persistence helper and it did not change, it is likely that you already have a persistence helper installed. Open TrollStore and go to settings to see which app is set to the persistence helper.\n\n> Why am I getting an error about being unable to patchfind or being unable to download kernel?\n\nEither:\n- You're on a non-MacDirtyCow supported version, and are not connected to the internet, or;\n- You're using a Yellow iPhone 14 or Yellow iPhone 14 Plus on iOS 16.3 (20D50), in which case you should install `TrollInstallerX-20D50.ipa` from [here](https://github.com/alfiecg24/TrollInstallerX/releases/latest).\n\nAdditionally, if a file exists at `/TrollInstallerX.app/kernelcache`, TrollInstallerX will use that file instead of downloading the kernelcache. This can be useful if you have a slow or unreliable internet connection, or happen to have a device and version combination that has no public kernelcache available.\n\n> Why does TrollInstallerX say \"failed to install persistence helper\" using the indirect method?\n\nThe indirect method is not perfect, and sometimes it will fail to install the persistence helper. If this happens, simply shut down your device, turn it back on, and try again. If you repeatedly have issues with the same app, try using a different app.\n\n## Building\nTrollInstallerX is a regular Xcode project, but the project also contains a build script. To build it and produce an IPA, simply run the `build.sh` script in the root of the project. This will build the project and produce an IPA in the root of the project.\n\n## Credits\nTrollInstallerX wouldn't have been possible without the work of the following people:\n* [opa334](https://x.com/opa334dev) for [Dopamine](https://github.com/opa334/Dopamine), the dmaFail exploit and the kernel patchfinder\n* [felix-pb](https://github.com/felix-pb) for the kfd exploits\n* [Kaspersky](https://securelist.com/operation-triangulation-the-last-hardware-mystery/111669/) for Operation Triangulation\n* [kok3shidoll](https://github.com/kok3shidoll) for lots of work on arm64 support for Dopamine\n* [wh1te4ever](https://github.com/wh1te4ever) for [kfund](https://github.com/wh1te4ever/kfund)\n* [Zhuowei](https://github.com/zhuowei) for the tccd unsandboxing method\n* [xina520](https://x.com/xina520) for the kernel read/write-only privilege escalation method\n* [dhinakg](https://github.com/dhinakg) for the memory hogger, the MacDirtyCow kernelcache grabber method, [libpartial](https://github.com/dhinakg/partial) and help with [libgrabkernel2](https://github.com/alfiecg24/libgrabkernel2)\n* [staturnz](https://github.com/staturnzz) for work on the kernel patchfinder\n* [aaronp613](https://x.com/aaronp613) for the TrollInstallerX icon\n* [DTCalabro](https://github.com/DTCalabro) and [JJTech](https://github.com/JJTech0130) for improvements to the logging system\n* [MasterMike88](https://x.com/MasterMike88) for helping test and debug during development\n",
             "iconURL": "https://raw.githubusercontent.com/alfiecg24/TrollInstallerX/refs/heads/main/Resources/Icon.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
                 {
                     "version": "1.0.3",
                     "date": "2024-09-12T18:27:05Z",
                     "localizedDescription": "# TrollInstallerX v1.0.3\r\n\r\n## Changes:\r\n* Update for Xcode 15.4+ compilation (fixes #25)\r\n* Added a temporary fix for yellow iPhone 14 (Plus) devices on iOS 16.3, please use `TrollInstallerX-20D50.ipa` (fixes #33)\r\n* Removing confusing logging around exploit deinitialisation (e.g. #11)\r\n* Fix arm64e devices on iOS 15.7.x that couldn't download the kernelcache by updating libgrabkernel2 (should, in theory, fix #21)\r\n\r\n**Note**: A8 devices on iOS 15.2+ will not be supported until a future release of TrollInstallerX. Furthermore, support for arm64e (A12+) devices on early iOS 17.0 betas is not planned, unless someone else would like to implement it. You can now use [TrollRestore](https://github.com/JJTech0130/TrollRestore) for both of these cases.\r\n\r\n# DO NOT DOWNLOAD THE 20D50 IPA UNLESS YOU HAVE A YELLOW IPHONE 14 (PLUS) ON IOS 16.3.",
                     "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX-20D50.ipa",
-                    "size": 27098183
+                    "size": 27098183,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0.2",
                     "date": "2024-04-08T18:13:21Z",
                     "localizedDescription": "# TrollInstallerX v1.0.2\r\n\r\n## Changes:\r\n* Full support for iOS 17.0 beta 1 - 4 on arm64 devices - partially contributed to by @m1zole\r\n\r\n\r\n**Note**: arm64e support for the above versions is still being worked on.",
                     "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.2/TrollInstallerX.ipa",
-                    "size": 6888282
+                    "size": 6888282,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0.1",
                     "date": "2024-04-06T15:20:57Z",
                     "localizedDescription": "# TrollInstallerX v1.0.1\r\n\r\n## Changes:\r\n* Add success message at the end of the installation\r\n* Fix bug in supported version checking\r\n* Add (untested) support for early iOS 17.0 betas\r\n\r\n**Edit**: early iOS 17.0 betas currently won't work. A fix will come in v1.0.2.",
                     "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.1/TrollInstallerX.ipa",
-                    "size": 6888465
+                    "size": 6888465,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0.0",
                     "date": "2024-04-04T18:19:46Z",
                     "localizedDescription": "# TrollInstallerX v1.0.0\r\n\r\nTrollInstallerX is a reliable, fast and simple TrollStore installer. It has several features that set it apart from the other installers out there, detailed below. It supports iOS 14.0 - 16.6.1 on all devices (apart from a slight exception for A8 devices, which is only temporary). Certain versions have a slightly different installation method, which you can read about in the [README](https://github.com/alfiecg24/TrollInstallerX).\r\n\r\n## Features:\r\n* **Direct installation of TrollStore** - On supported versions, TrollInstallerX can install TrollStore directly to your home screen, as if you were to install it via the persistence helper.\r\n\r\n* **Persistence helper installation** - TrollInstallerX will properly install a persistence helper into a removable system app of your choice - this means one that doesn't rely on temperamental file overwrites, but rather one that TrollStore will recognise as a legitimate persistence helper. This method works on all versions supported by TrollInstallerX.\r\n\r\n* **Unprecedented reliability** - Thanks to the extremely reliable [XPF patchfinder](https://github.com/opa334/XPF) (used in Dopamine), TrollInstallerX has a very high success rate with exploitation. When possible, it will either use the on-disk kernelcache, or download a copy of it to patchfind. This is detailed below.\r\n\r\n* **libgrabkernel2** - The new [libgrabkernel2](https://github.com/alfiecg24/libgrabkernel2) library allows for downloading almost any kernelcache available for the devices supported by TrollInstallerX. \r\n\r\n* **MacDirtyCow kernelcache grabber** - On versions supported by MacDirtyCow, MacDirtyCow is used to unsandbox and TrollInstallerX simply uses the on-disk kernelcache instead.\r\n\r\n* **iOS 14 support** - iOS 14 is completely supported with TrollInstallerX. For arm64 devices on iOS 14, this is one of the few installers that supports them. However, TrollHelperOTA is still the recommended installation method for arm64e devices on iOS 14.\r\n\r\nInformation on how to use TrollInstallerX, as well as FAQs and credits, can be found in the README of this repository.",
                     "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.0/TrollInstallerX.ipa",
-                    "size": 6885899
+                    "size": 6885899,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Delta Emulator",
@@ -5592,176 +5854,238 @@
         {
             "name": "Postbox",
             "bundleIdentifier": "com.simplycode.PostBox",
+            "marketplaceID": "",
             "developerName": "PostBox-Team",
             "subtitle": "\ud83d\udce6 Packaged and ready-to-go!",
             "localizedDescription": "<div align=center>\n\n# PostBox-Releases\n```\n\ud83d\udce6 Packaged and ready-to-go!\n```\n\n",
             "iconURL": "https://user-images.githubusercontent.com/43870235/187584648-d7fd4dc8-417f-487b-9379-f7bbf604a70c.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
                 {
                     "version": "beta-8.1",
                     "date": "2022-08-28T07:43:04Z",
                     "localizedDescription": "#### General\r\n\r\n- Added localization support for Simplified Chinese and Traditional Chinese\r\n- Refactored the word \u201cRepository\u201d to \u201cRepo\u201d\r\n- Changed some wording throughout the app\r\n- Improvements to many interface elements\r\n- Removed dynamic type support\r\n- Fixed issues in URL processing\r\n- Project clean up\r\n- Made app-wide animations snappier\r\n\r\n#### Home\r\n\r\n- Added update banner to notify if an update is available\r\n- Added ability to view repo loading progress when the app is refreshing\r\n- Added ability to change displayed time mode for \u201cRecently Updated Packages\u201d\r\n- Reduced \u201cRecently Updated Packages\u201d prefix from 50 to 20 to make interactions smoother\r\n- New loading animation during pull-to-refresh\r\n\r\n#### For You\r\n\r\n- Added ability to convert dead links into live links in stories\r\n- Improved card interface\r\n- Disabled some feeds by default\r\n- Fix minor edge case with auto hyperlinking\r\n\r\n#### Storyboard\r\n\r\n- Further refined the Storyboard interface\r\n- Added ability to import photos from device\r\n- Removed presets for further evaluation\r\n\r\n#### Packages\r\n\r\n- Added ability to highlight and copy text in depictions (Accelerated Depiction Rendering must be turned off)\r\n- Added new texts to explain the package extraction process\r\n- Added ability to dismiss keyboard in editing reviews\r\n- Added repo information to package depictions\r\n- Improved depiction header interface\r\n- Improved Review interface\r\n- Improved interface when installing packages\r\n\r\n#### Repos\r\n\r\n- Added back ability to remove repos from the app (I forgot to enable it in Beta 8)\r\n- Fixed crashing on iOS 15 and below when browsing repo\r\n- Fixed remove button being unresponsive on iOS 15 and below\r\n- Fixed time locale not taking in account of time zone\r\n\r\n#### Settings\r\n\r\n- New toggle icons\r\n- Added new app icons for PostBox\r\n- Improved Settings interface\r\n- Improved how Settings options operate throughout the app\r\n",
                     "downloadURL": "https://github.com/PostBox-Team/PostBox-Releases/releases/download/beta-8.1/PostBox-0.8.1-beta.ipa",
-                    "size": 8499905
+                    "size": 8499905,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Flappybird",
             "bundleIdentifier": "org.brandonplank.flappybird",
+            "marketplaceID": "",
             "developerName": "brandonplank",
             "subtitle": "A 1:1 Flappy Bird Clone written 100% in swift!",
             "localizedDescription": "# FlappyBird\n## NOTICE\n> *AS OF 08/10/2024, this repository will replaced by [https://github.com/freehelpdesk/flappybird](https://github.com/freehelpdesk/flappybird), Please go there for the new cross-platform version of this clone. Thanks.*\n\nThis is an extremely close clone to the original FlappyBird by Dong Nguyen.\n\n## Demo\n<img src=\"demo/demo.gif\" width=\"200\">\n\n## Compatibility\nFlappyBird is compatible with the iPhone 6s and above on iOS 13 and later.\nCompatible with watchOS 6.0 and above.\n\n## Installation\nThe '.ipa' and '.dmg' for FlappyBird can be found on the [release page](https://github.com/crypticplank/flappybird/releases).\n\n## License\n- [MIT](https://choosealicense.com/licenses/mit/)\n- Copyright (c) 2019 - 2022 Brandon Plank, ThatcherDev (The FlappyBird Revision Team)\n\n## Notice\nWe do not own most of the Flappy Bird assets, or the Flappy Bird name, some of the assets\nwere extracted straight from the game. They are the work and copyright of original \ncreator Dong Nguyen and .GEARS games (http://www.dotgears.com/).\n\nI took this Tweet (https://twitter.com/dongatory/status/431060041009856512 /\nhttp://i.imgur.com/AcyWyqf.png) by Dong Nguyen, the creator of the game, as an open \ninvitation to reuse the game concept and assets in an open source project. \nThere is no intention to steal the game, or claim the Flappy Bird name as my own.\n\nIf the copyright holder would like for the assets to be removed, please open an \nissue to start the conversation.\n",
             "iconURL": "https://raw.githubusercontent.com/brandonplank/flappybird/refs/heads/main/Flappy%20Bird/Assets.xcassets/AppIcon.appiconset/1024.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
             "versions": [
                 {
                     "version": "4.3",
                     "date": "2022-06-14T20:54:11Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/crypticplank/flappybird/compare/4.2.0...4.3\r\n* Removed Leaderboard\r\n* Removed Accounts\r\n* Removed Anti-Cheat",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.3/org.brandonplank.flappybird.ipa",
-                    "size": 2099365
+                    "size": 2099365,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.2.2",
                     "date": "2022-06-11T23:28:05Z",
                     "localizedDescription": "* Generic improvements\r\n* Add in-game version number\r\n* Add much needed launch screen fonts.",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.2.2/org.brandonplank.flappybird.ipa",
-                    "size": 2491387
+                    "size": 2491387,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.2.1",
                     "date": "2022-06-11T17:47:03Z",
                     "localizedDescription": "* Fix version",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.2.1/org.brandonplank.flappybird.ipa",
-                    "size": 2480239
+                    "size": 2480239,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.2.0",
                     "date": "2022-06-07T22:17:41Z",
                     "localizedDescription": "## iOS 16 Support",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.2.0/org.brandonplank.flappybird.ipa",
-                    "size": 2480238
+                    "size": 2480238,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.1.0",
                     "date": "2021-12-16T01:44:48Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/crypticplank/flappybird/compare/3.9...4.1.0\r\n\r\n# FULL API CHANGES",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.1.0/org.brandonplank.flappybird.ipa",
-                    "size": 2325686
+                    "size": 2325686,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0.6",
                     "date": "2021-11-09T18:25:29Z",
                     "localizedDescription": "* Fix leader-board deadlock\r\n* Decrease binary size by a lot!\r\n\r\nThanks @elihwyma for your assistance!",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.6/FlappyBirdiOS.ipa",
-                    "size": 2323936
+                    "size": 2323936,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0.5",
                     "date": "2021-10-08T21:25:36Z",
                     "localizedDescription": "* Fix freeze on death.",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.5/FlappyBird-iOS.ipa",
-                    "size": 7361659
+                    "size": 7361659,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0.4",
                     "date": "2021-10-08T03:26:20Z",
                     "localizedDescription": "# URGENT\r\n* Fixed critical encryption bug that caused people to get banned\r\n\r\n## Macos users\r\n* Run this after upgrade\r\n\r\n```\r\ndefaults delete org.brandonplank.flappybird15\r\n```",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.4/FlappyBird-iOS.ipa",
-                    "size": 7359508
+                    "size": 7359508,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0.3",
                     "date": "2021-10-06T21:53:08Z",
                     "localizedDescription": "* Added more security to the main application",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.3/FlappyBird-iOS.ipa",
-                    "size": 7299321
+                    "size": 7299321,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0.2",
                     "date": "2021-10-03T17:52:19Z",
                     "localizedDescription": "* Added a UI for signing up and logging in.",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.2/FlappyBird-iOS.ipa",
-                    "size": 7027746
+                    "size": 7027746,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0.1",
                     "date": "2021-10-03T01:58:40Z",
                     "localizedDescription": "* Added much needed UI for the leaderboard\r\n\r\n# Things to still do\r\n* Need to add a UI for signup and logging in.",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0.1/FlappyBird-iOS.ipa",
-                    "size": 5854471
+                    "size": 5854471,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0",
                     "date": "2021-10-02T15:19:04Z",
                     "localizedDescription": "# New features\r\n* Google has been fully purged\r\n* Ads have been completely removed\r\n* Killswitch has been completely removed \r\n* New texture system\r\n* Custom login system\r\n\r\n## Bug fixes\r\n* Fix #17 \r\n* Fix #25 \r\n* Fix #24 \r\n* Fix #26 \r\n",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/4.0/FlappyBird-iOS.ipa",
-                    "size": 5737412
+                    "size": 5737412,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.9",
                     "date": "2021-06-08T21:11:23Z",
                     "localizedDescription": "* Added official support to iOS 15\r\n* Removed support for iOS 10 - 12 (Did not have any choice, sorry :( )\r\n\r\n## Challenges\r\n* In Xcode 13.0, apple introduced a new swift compiler which made iOS < 13 support impossible. Sorry guys.\r\n\r\n## Small note\r\n* The size of the app has decreased a lot! I think this is from the new swift compiler.",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.9/org.brandonplank.flappybird.ipa",
-                    "size": 18934339
+                    "size": 18934339,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "watch1.0",
                     "date": "2021-01-08T13:30:23Z",
                     "localizedDescription": "### Flappy Bird port for the watch\r\n* no leaderboards for now\r\n* no google sign in for now\r\n* no sprite location detection for now\r\n* touch only registers when your finger lets off the screen(Help needed) ",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/watch1.0/FlappyBirdWatch.ipa",
-                    "size": 2345015
+                    "size": 2345015,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.8",
                     "date": "2020-08-19T23:24:18Z",
                     "localizedDescription": "* Fixed a crash that occurred on iOS < 13.0.\r\n* Fixed a crash specific to 32 bit devices.  ",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.8/org.brandonplank.flappybird.ipa",
-                    "size": 101445162
+                    "size": 101445162,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.7",
                     "date": "2020-08-19T20:08:29Z",
                     "localizedDescription": "* Added official iOS 14 support\r\n* Updated to AppAuth 1.4.0 (was 1.3.0)\r\n* Updated to Firebase 6.30.0 (was 6.24.0)\r\n* Updated to FirebaseAnalytics 6.7.2 (was 6.5.0)\r\n* Updated to FirebaseAuth 6.8.0 (was 6.5.3)\r\n* Updated to FirebaseCore 6.10.0 (was 6.7.0)\r\n* Updated to FirebaseCoreDiagnostics 1.5.0 (was 1.3.0)\r\n* Updated to FirebaseDatabase 6.5.0 (was 6.2.1)\r\n* Updated to FirebaseInstallations 1.6.0 (was 1.2.0)\r\n* Updated to Google-Mobile-Ads-SDK 7.64.0 (was 7.61.0)\r\n* Updated to GoogleAppMeasurement 6.7.2 (was 6.5.0)\r\n* Updated to GoogleDataTransport 7.2.0 (was 6.1.0)\r\n* Updated to GoogleUserMessagingPlatform (1.1.0)\r\n* Updated to GoogleUtilities 6.7.2 (was 6.6.0)\r\n* Updated to PromisesObjC 1.2.10 (was 1.2.8)\r\n* Updated to Then 2.7.0 (was 2.6.0)",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.7/org.brandonplank.flappybird.ipa",
-                    "size": 101441189
+                    "size": 101441189,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.6",
                     "date": "2020-07-10T03:55:10Z",
                     "localizedDescription": "* Fixed a critical logic flaw",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.6/org.brandonplank.flappybird.ipa",
-                    "size": 101342561
+                    "size": 101342561,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.5",
                     "date": "2020-07-10T01:05:05Z",
                     "localizedDescription": "* Fixed multiple crashes\r\n* Fixed multiple bugs in the UI",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.5/org.brandonplank.flappybird.ipa",
-                    "size": 101342867
+                    "size": 101342867,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.4",
                     "date": "2020-07-03T00:13:22Z",
                     "localizedDescription": "* Removed continuous ads on death ",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.4/org.brandonplank.flappybird.ipa",
-                    "size": 101220673
+                    "size": 101220673,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.3",
                     "date": "2020-07-02T22:12:50Z",
                     "localizedDescription": "* Fix memory leaks that could cause the app to crash",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.3/org.brandonplank.flappybird.ipa",
-                    "size": 101213464
+                    "size": 101213464,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.2",
                     "date": "2020-07-02T06:42:23Z",
                     "localizedDescription": "* Fix #9 \r\n* Fix so many bugs lmao, its really not funny\r\n",
                     "downloadURL": "https://github.com/brandonplank/flappybird/releases/download/3.2/org.brandonplank.flappybird.ipa",
-                    "size": 101205687
+                    "size": 101205687,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         }
     ],
     "news": []
