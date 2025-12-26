@@ -10,6 +10,44 @@
     "headerURL": "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/18e85263-afea-4d98-a16f-42554f815528/Wave1x1.png",
     "apps": [
         {
+            "name": "Pocket8",
+            "bundleIdentifier": "com.jevon.pocket8",
+            "developerName": "jevonlipsey",
+            "subtitle": "A Native iOS Emulator for the Pico-8 fantasy console.",
+            "localizedDescription": "# Pocket8\n\nA native PICO-8 emulator for iOS that bridges the gap between web flexibility and native filesystem access!\n\n[Download the latest build.](https://github.com/jevonlipsey/pico-ios/releases/latest)\n\nhttps://github.com/user-attachments/assets/ec24f92e-d29a-4319-8293-439487d60b35\n\n## Features\n\n- **Native Persistence**: Implements a custom \"Handoff & Sync\" protocol ensuring 100% save-state integrity across app restarts.\n- **Quick Save & Load**: The **only** PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n<p align=\"center\">\n  <img src=\"assets/quickload.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n- **Adaptive Controls**: Custom Gameboy-esque controls with beautiful haptics. Emulator works in portrait and landscape modes.\n- **Smart Library**: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\n<p align=\"center\">\n  <img src=\"assets/libscroll-new.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n## Under the Hood: A Rant\n\nThe core engineering challenge was **reconciling the asynchronous nature of iOS file I/O with the synchronous requirements of the Emscripten/WASM virtual file system.**\n\nPICO-8 demands a synchronous file system. Bridging this gap required completely reverse-engineering the Emscripten boot sequence.\n\n- **Bootloader Hijacking:** The engine defaults to booting the standard \"JELPI\" demo cart. To bypass this, I had to intercept the `Module.preRun` lifecycle, manually injecting user code into the WASM heap and forcing the pointer to the correct entry point before the runtime could initialize.\n- **True State Persistence:** I architected a system that dumps the _entire simulated RAM_ (not just the cart data) into a serialized blob. I implemented **GZIP** compression to keep these memory snapshots lightweight, allowing for atomic, instant state restoration.\n\nIt\u2019s _not_ a browser wrapper; it\u2019s a custom runtime environment built for native iOS, enjoy the speeds!\n\n## Tech Stack\n\n![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)\n![Capacitor](https://img.shields.io/badge/Capacitor-1199EE?style=for-the-badge&logo=capacitor&logoColor=white)\n![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)\n![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)\n\n## Installation\n\nYou can sideload Pocket8 via AltStore, SideStore, or Sideloadly.\n\n### Auto-Update Source (Recommended)\nAdd the official source to **SideStore** or **AltStore** to get updates automatically (no computer needed!).\n\n1. Copy this URL: `https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/altstore.json`\n2. Open SideStore/AltStore -> **Sources** -> **+** -> **Add Source**.\n\n<p align=\"center\">\n  <img src=\"https://i.imgur.com/IEgMrg6.gif\" width=\"20%\" alt=\"Auto-Update Guide\" />\n</p>\n\n### Manual Install\n1. Download the `Pocket8.ipa` from [Releases](https://github.com/jevonlipsey/pico-ios/releases/latest).\n2. Sideload via **AltStore**, **SideStore**, or **Sideloadly**.\n3. Enable **Developer Mode** in iOS Settings (Settings > General > Device Management > Your Name).\n\n## Project Status\n\nThis is a solo dev project designed to push the limits of WebAssembly-to-Native bridging. While an App Store release is a future possibility that I'm gunning for, the current priority is maintaining an uncompromised, open-source experience for the PICO-8 community.\n\n### build from source\n```bash\nnpm install && npx cap sync && npx cap open ios\n```\n\n## How to Get Games\n\nPocket8 uses standard PICO-8 cartridges (`.p8` or `.p8.png`).\n\n1.  **Visit the BBS**: Go to [lexaloffle.com/bbs](https://www.lexaloffle.com/bbs/) or [itch.io](https://itch.io/games/tag-pico-8).\n2.  **Look for the Cart**: You need the **cartridge file**, not a zip or exe. Look for the little square image that looks like the game cover.\n3.  **Save It**:\n    - **Desktop**: Right-click the small \"Cart\" icon -> \"Save Image As\".\n    - **iOS**: Tap and hold the cart image -> \"Save to Files\".\n4.  **Import**: In Pocket8, tap the `+` icon and select your saved `.p8.png` file.\n\n**Pro Tip:** If you see a file named `thumb.png` or `cover.png ...`, that's usually just a picture. You specifically need the file that often ends in `.p8.png` and looks like a game cartridge.\n\n## Acknowledgements\n\n- **[Zep (Lexaloffle)](https://www.lexaloffle.com/pico-8.php)**: For creating the fantasy console and being awesome in general. PICO-8 is a masterpiece of design constraints, I'm so excited to bring it to iOS!\n\n- **You**: For actually reading the documentation. thanks for the support (:\n",
+            "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
+            "versions": [
+                {
+                    "version": "1.3",
+                    "date": "2025-12-25T20:15:35Z",
+                    "localizedDescription": "- Critical Fix: D-Pad no longer gets stuck! (Celeste is now playable).\r\n\r\n- Added \"Swap X/O\" toggle in Settings. Suggested by [u/MaxOsirus](https://www.reddit.com/r/pico8/comments/1pvf4ji/comment/nvvpo7n/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\r\n\r\n- Added AltStore/SideStore Source support. Sideloaded app will auto-update when new builds come out!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.3/pocket8.ipa",
+                    "size": 14226069
+                },
+                {
+                    "version": "1.2",
+                    "date": "2025-12-25T14:13:14Z",
+                    "localizedDescription": "Grinding small bug fixes I notice while Christmas is still hot.\r\n\r\nThis update focuses on game feel  and precision.\r\n\r\n### Precision Control Overhaul\r\n* **Input Hysteresis:** Implemented a dual-threshold system for the D-pad. Inputs are now sticky and wont unpress from a thumb slip.\r\n* **True 8-Way Support:** Switched to axis-independent logic. You can now reliably hold diagonals for tight movement.\r\n* **Deadzone Tuning:** Optimized the deadzone (10px) to prevent jitter.\r\n\r\n### UI Polish\r\n* **\"Jiggle Mode\":** can now **Long-Press** any cartridge to enter \"Wiggle Mode\" for deletion, matching native iOS behavior.\r\n* **Library Sorting:** Fixed the \"Recently Played\" sort order. Games now correctly bump to the top of the list when launched.\r\n* **Visual Feedback:** The virtual controller now visually highlights multiple directions simultaneously to match your input state.\r\n\r\n### Installation\r\nDownload `pocket8.ipa` below and install via **AltStore**, **SideStore**, or **Sideloadly**.\r\n\r\nMerry Christmas again everyone!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.2/pocket8.ipa",
+                    "size": 14225560
+                },
+                {
+                    "version": "1.1",
+                    "date": "2025-12-25T13:34:37Z",
+                    "localizedDescription": "Added:\r\n- 8 way touch support for tight controls in games like Celeste\r\n- Hold to wiggle to replicate native iOS\r\n\r\nMerry fuggin christmas!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.1/pocket8.ipa",
+                    "size": 14224917
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-12-25T13:05:41Z",
+                    "localizedDescription": "v1.0 is here, let me know what you guys think! Sideload via Alt Store, Side Store, or Sideloadly.",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.0/pocket8.ipa",
+                    "size": 14225314
+                }
+            ]
+        },
+        {
             "name": "Bridge",
             "bundleIdentifier": "com.jailbreakdotparty.Bridge",
             "marketplaceID": "",
@@ -2881,6 +2919,100 @@
             "patreon": {}
         },
         {
+            "name": "LiveContainer Installer",
+            "bundleIdentifier": "site.ashutoshportfolio.lcinstaller.app",
+            "developerName": "asrma7",
+            "subtitle": null,
+            "localizedDescription": "# LcInstaller\n\nLcInstaller is a **Flutter app** that makes installing apps into [LiveContainer](https://github.com/LiveContainer/LiveContainer) effortless.\n\nInstead of manually searching for `.ipa` files, downloading them, and then importing into LiveContainer, you can simply add **repos** (just like in ESign, Feather, etc.) and install apps directly.\n\n---\n\n## \u2728 Features\n\n* \ud83d\udcc2 Add and manage repos that host `.ipa` apps.\n* \u26a1 One-click install into LiveContainer using its URL scheme.\n* \ud83d\udd04 Easily update or switch apps without tedious manual steps.\n* \ud83c\udfa8 UI design inspired by [Feather](https://github.com/khcrysalis/Feather).\n\n---\n\n## \ud83d\udee0 Motivation\n\nI built this app because I love testing and updating different apps, but the **manual process** (search \u2192 download \u2192 import) was a pain.\n\nI originally used **Feather**, but after the revoke wave of certificates, I switched fully to **LiveContainer**. LcInstaller brings the simplicity of repo-based installs to LiveContainer.\n\n---\n\n## \u2699\ufe0f How It Works\n\nLcInstaller uses LiveContainer\u2019s custom URL scheme:\n\n```\nlivecontainer://install?url=https://example.com/app.ipa\n```\n\nWhen you tap install inside LcInstaller, it tells LiveContainer to fetch the `.ipa` directly and handle the installation.\n\n\u2705 You don\u2019t need to manage files, downloads, or imports yourself.\n\n---\n\n## \ud83d\udccc Important Notes\n\n* If you install **LcInstaller inside LiveContainer itself**, you must:\n\n  * Run it in **LiveContainer2**, **or**\n  * Run it in **multi-tasking mode**.\n\nThis ensures the main LiveContainer instance remains free to handle the actual install process.\n\n* Distribution through the App Store is not possible (it won\u2019t pass Apple review). You\u2019ll need to sideload the app.\n\n---\n\n## \ud83d\udce5 Installation\n\n1. Go to the [Releases](https://github.com/asrma7/LiveContainer-Installer/releases) page.\n2. Download the latest `.ipa` file.\n3. Install it via:\n\n   * **AltStore / SideStore / TrollStore**, or\n   * **LiveContainer** (just import the IPA directly).\n\n---\n\n## \u2764\ufe0f Credits\n\n* Inspired by [Feather](https://github.com/khcrysalis/Feather) app design.\n* Built with **Flutter**.\n\n---\n\n## \ud83d\udcc4 License\n\nMIT License \u2013 feel free to fork, improve, and contribute!",
+            "iconURL": "https://raw.githubusercontent.com/asrma7/LiveContainer-installer/refs/heads/main/screenshots/AppIcon1024.png",
+            "versions": [
+                {
+                    "version": "1.2.1",
+                    "date": "2025-11-09T00:24:51Z",
+                    "localizedDescription": "\n- Fixed issue with incorrect latest version due to missing leading zero in version dates.",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.1/LcInstaller.ipa",
+                    "size": 8095982
+                },
+                {
+                    "version": "1.2.0",
+                    "date": "2025-11-04T01:29:42Z",
+                    "localizedDescription": "- Fixed issue with unsupported versionDate in some repositories like SpotCompiled causing app library to fail to load.\n- Added visual notification of Import and Export in Add Source Page.\n- Added template image for invalid image in source or app.",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.0/LcInstaller.ipa",
+                    "size": 8095146
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2025-09-12T06:47:06Z",
+                    "localizedDescription": "- Library page now shows installed apps and available updates.\n- Workaround implemented to track installed app. (Does not retrieve data from Live Container)",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.1.0/LcInstaller.ipa",
+                    "size": 8094727
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2025-09-12T02:20:33Z",
+                    "localizedDescription": "- UI Improvement for larger Icons and better view\n- All Repository added within source page to view all apps",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.1/LcInstaller.ipa",
+                    "size": 8077929
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-09-09T09:02:06Z",
+                    "localizedDescription": "- Implement AppViewPage where you can see details and screenshots of the app\n- Version History page to allow users to download older versions of the app\n- UI optimization\n- App loading speed optimization",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.0/LcInstaller.ipa",
+                    "size": 8076298
+                },
+                {
+                    "version": "0.1.6",
+                    "date": "2025-09-09T05:40:06Z",
+                    "localizedDescription": "- Fix issue with bottom navigation bar hiding apps\n- Optimize app loading logic to load app lists faster for repos with 1000+ apps\n- Removed database for apps and screenshots to store them in memory for better performance",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.6/LcInstaller.ipa",
+                    "size": 8056715
+                },
+                {
+                    "version": "0.1.5",
+                    "date": "2025-09-08T01:52:28Z",
+                    "localizedDescription": "- Fix issue with importing recommended sources",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.5/LcInstaller.ipa",
+                    "size": 8064425
+                },
+                {
+                    "version": "0.1.4",
+                    "date": "2025-09-08T01:21:00Z",
+                    "localizedDescription": "- Add functionality to import and export sources from common signers\n- Fix importing sidestore repositories",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.4/LcInstaller.ipa",
+                    "size": 8064207
+                },
+                {
+                    "version": "0.1.3",
+                    "date": "2025-09-07T04:32:14Z",
+                    "localizedDescription": "- Add feature to allow copying and deleting sources ",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.3/LcInstaller.ipa",
+                    "size": 8039782
+                },
+                {
+                    "version": "0.1.2",
+                    "date": "2025-09-07T03:08:45Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.2/LcInstaller.ipa",
+                    "size": 8037915
+                },
+                {
+                    "version": "0.1.1",
+                    "date": "2025-09-07T00:43:31Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.1/LcInstaller.ipa",
+                    "size": 8029521
+                },
+                {
+                    "version": "0.1.0",
+                    "date": "2025-09-07T00:19:57Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.0/LcInstaller.ipa",
+                    "size": 8029219
+                }
+            ]
+        },
+        {
             "name": "dirtyZero",
             "bundleIdentifier": "com.jbdotparty.dirtyZero",
             "marketplaceID": "",
@@ -4383,6 +4515,23 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "ChatGPTwebV15",
+            "bundleIdentifier": "com.akuma.chatgptv15",
+            "developerName": "Akuma1tko",
+            "subtitle": null,
+            "localizedDescription": "# ChatGPTWebV15\n[![Download v1.0.0](https://img.shields.io/badge/download-v1.0.0-blue)](https://github.com/Akuma1tko/ChatGPTwebV15/releases/tag/v1.0.0)\n\n\nA standalone iOS 15 wrapper for ChatGPT, featuring a manual cookie-injection login fix and a modern multi-account floating button UI.\n\n---\n\n## \ud83d\ude80 Features\n\n- **Manual login** via `__Secure-next-auth.session-token`  \n- **Multi-account support** (add, rename, delete)  \n- **Floating draggable button** (44\u00d744, white background, subtle shadow)  \n- **Modern bottom-sheet account manager** (inset-grouped style)  \n- **\u201cNo account\u201d** option to log out and start fresh  \n- **Idle fade**: button fades to 30% after 5 s of inactivity  \n- **Full-screen WebView**, portrait & landscape support  \n\n---\n\n## \ud83d\udce6 Installation\n  \n**Sideload** via AltStore, TrollStore, Cydia Impactor, etc.  \n\n---\n\n\n## \ud83d\udd11 First-Time Login\n\n1. On your desktop Chrome, go to **https://chatgpt.com** (or `https://chat.openai.com`) and sign in.  \n2. Click the **\u22ee** menu in the top-right \u2192 **More tools** \u2192 **Developer tools**  \n   *(or press **Ctrl + Shift + I** on Windows/Linux, **\u2318 + Option + I** on Mac)*  \n3. In DevTools, switch to the **Application** tab \u2192 **Storage** \u2192 **Cookies** \u2192 **chatgpt.com**  \n4. Find **`__Secure-next-auth.session-token`**, double-click its **Value**, press **\u2318 +A** (Select All) then **\u2318 +C** (Copy).  \n5. On your iOS 15 device, open **ChatGPTWebV15**, tap the floating button \u2192 **Add new\u2026**, paste the token \u2192 **Save**.  \n\nYour session will load immediately in the WebView.  \n\n\n---\n\n## \ud83d\udd04 Switching & Managing Accounts\n\n- **Tap** the floating app-icon button to open the account sheet.  \n- **No account** \u2192 wipes cookies and shows the logged-out page.  \n- **Add new\u2026** \u2192 name + paste a new token.  \n- **Tap an existing account** \u2192 instantly reloads with that session.  \n- **Swipe left** on any account in the sheet to **Rename** or **Delete**.  \n\nChanges are saved in Keychain; your **last selected** account is loaded automatically on app launch.\n\n---\n\n## \ud83d\ude4f Shout-Outs\n\nHuge thanks to the community members who helped shape this:\n\n- **WhatTheOnEarth**  \n- **colorzpe**  \n- **No_Count2837**  \n\nYour feedback and testing made this for everyone on iOS 15. Enjoy!  \n",
+            "iconURL": "https://raw.githubusercontent.com/Akuma1tko/ChatGPTwebV15/refs/heads/main/Downloads/ChatGPTWebV15/ChatGPTWebView/appstore.png",
+            "versions": [
+                {
+                    "version": "1.0.0",
+                    "date": "2025-07-13T19:20:26Z",
+                    "localizedDescription": "## \ud83d\ude80 ChatGPTwebV15 v1.0.0\r\n\r\n\r\n- **iOS 15 Legacy Login**: Manual cookie\u2010injection fix for the broken OAuth flow.  \r\n- **Multi-Account Floating UI**: Add, rename, delete, switch sessions via a draggable, 44\u00d744 floating button.  \r\n- **Modern Bottom-Sheet Manager**: Sleek inset-grouped list\u2014swipe to rename/delete, \u201cNo account\u201d to log out, and \u201cAdd Account\u2026\u201d in one place.  \r\n- **Idle Fade**: Floating button auto-fades after 5 s of inactivity.  \r\n- **Full-Screen Landscape Support**: ChatGPT in a native WebView, portrait & landscape.\r\n\r\n---\r\n\r\n## \ud83d\udd11 First-Time Login\r\n\r\n1. On desktop Chrome, go to **https://chatgpt.com** and sign in.  \r\n2. Open **\u22ee \u2192 More tools \u2192 Developer tools** (or **Ctrl+Shift+I** / **\u2318\u2325I**).  \r\n3. In DevTools, go to **Application \u2192 Storage \u2192 Cookies \u2192 chatgpt.com**.  \r\n4. Copy the **Value** of `__Secure-next-auth.session-token` (long string starting with `ey\u2026`).  \r\n5. On your device, open **ChatGPTWebV15**, tap the floating button \u2192 **Add Account\u2026**, paste it \u2192 **Save**.\r\n\r\n---\r\n\r\n## \ud83d\ude4f Shout-Outs\r\n\r\nBig thanks to **WhatTheOnEarth**, **colorzpe**, and **No_Count2837** for all your work on iOS 15!\r\n\r\n",
+                    "downloadURL": "https://github.com/Akuma1tko/ChatGPTwebV15/releases/download/v1.0.0/ChatGPTw15.ipa",
+                    "size": 2535472
+                }
+            ]
         },
         {
             "name": "SideStore",
