@@ -316,20 +316,23 @@
         "bundleID": "com.akuma.chatgptv15",
         "name": "ChatGPTwebV15",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/Akuma1tko/ChatGPTwebV15/refs/heads/main/Downloads/ChatGPTWebV15/ChatGPTWebView/appstore.png"
     },
     {
-    "github": "brandonplank/flappybird",
-    "bundleID": "org.brandonplank.flappybird",
-    "name": "Flappybird",
-    "allowPrerelease": false,
-    "iconURL": "https://raw.githubusercontent.com/brandonplank/flappybird/refs/heads/main/Flappy%20Bird/Assets.xcassets/AppIcon.appiconset/1024.png"
+        "github": "brandonplank/flappybird",
+        "bundleID": "org.brandonplank.flappybird",
+        "name": "Flappybird",
+        "allowPrerelease": false,
+        "checkGithub": false,
+        "iconURL": "https://raw.githubusercontent.com/brandonplank/flappybird/refs/heads/main/Flappy%20Bird/Assets.xcassets/AppIcon.appiconset/1024.png"
     },
     {
         "github": "PostBox-Team/PostBox-Releases",
         "bundleID": "com.simplycode.PostBox",
         "name": "Postbox",
         "allowPrerelease": true,
+        "checkGithub": false,
         "iconURL": "https://user-images.githubusercontent.com/43870235/187584648-d7fd4dc8-417f-487b-9379-f7bbf604a70c.png"
     },
     {
@@ -351,6 +354,7 @@
         "bundleID": "com.Alfie.TrollInstallerX",
         "name": "TrollInstallerX",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/alfiecg24/TrollInstallerX/refs/heads/main/Resources/Icon.png"
     },
     {
