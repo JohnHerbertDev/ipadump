@@ -296,5 +296,26 @@
         "name": "Maid",
         "allowPrerelease": false,
         "iconURL": "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/refs/heads/main/images/logo.png"
+    },
+    {
+        "github": "jevonlipsey/pico-ios",
+        "bundleID": "com.jevon.pocket8",
+        "name": "Pocket8",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png"
+    },
+    {
+        "github": "asrma7/LiveContainer-installer",
+        "bundleID": "site.ashutoshportfolio.lcinstaller.app",
+        "name": "LiveContainer Installer",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/asrma7/LiveContainer-installer/refs/heads/main/screenshots/AppIcon1024.png"
+    },
+    {
+        "github": "Akuma1tko/ChatGPTwebV15",
+        "bundleID": "com.akuma.chatgptv15",
+        "name": "ChatGPTwebV15",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Akuma1tko/ChatGPTwebV15/refs/heads/main/Downloads/ChatGPTWebV15/ChatGPTWebView/appstore.png"
     }
 ]
