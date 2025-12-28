@@ -348,6 +348,7 @@
         "name": "PureKFD",
         "allowPrerelease": false,
         "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png"
+        "checkGithub": false,
     },
     {
         "github": "alfiecg24/TrollInstallerX",
@@ -369,6 +370,7 @@
         "github": "PojavLauncherTeam/PojavLauncher_iOS",
         "bundleID": "net.kdt.pojavlauncher",
         "iconURL": "https://raw.githubusercontent.com/PojavLauncherTeam/PojavLauncher_iOS/refs/heads/main/Natives/resources/AppIcon60x60%402x.png",
+        "checkGithub": false,
         "allowPrerelease": false
     },
     {
@@ -376,6 +378,7 @@
         "github": "leminlimez/Cluckabunga",
         "bundleID": "com.leminlimez.Cluckabunga",
         "iconURL": "https://raw.githubusercontent.com/leminlimez/Cluckabunga/refs/heads/main/Chicken%20Butt/Assets.xcassets/AppIcon.appiconset/IMG_2137.png",
+        "checkGithub": false,
         "allowPrerelease": false
     },
     {
@@ -383,6 +386,7 @@
         "bundleID": "com.straight-tamago.mikotoX",
         "name": "mikotoX",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://onejailbreak.com/site/assets/files/1891/icon.64x0.webp"
     },
     {
@@ -390,6 +394,7 @@
         "github": "34306/TrollStar",
         "bundleID": "com.34306.trollforce",
         "iconURL": "https://raw.githubusercontent.com/34306/TrollStar/refs/heads/main/kfd/Assets.xcassets/AppIcon.appiconset/anya.png",
+        "checkGithub": false,
         "allowPrerelease": false
     },
     {
@@ -397,6 +402,7 @@
         "github": "opa334/Dopamine",
         "bundleID": "com.opa334.Dopamine",
         "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
+        "checkGithub": false,
         "allowPrerelease": false
     },
     {
@@ -404,7 +410,8 @@
         "bundleID": "com.mudsplasher.AppleGotTrolled",
         "name": "AppleGotTrolled",
         "allowPrerelease": true,
-        "iconURL": "https://media.havoc.app/66d4ecc6e95a6f1dee4b898c?w=1920&q=75"
+        "iconURL": "https://media.havoc.app/66d4ecc6e95a6f1dee4b898c?w=1920&q=75",
+        "checkGithub": false
     },
     {
         "name": "Taurine",
