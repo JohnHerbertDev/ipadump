@@ -347,8 +347,8 @@
         "bundleID": "uwu.lrdsnow.purekfd",
         "name": "PureKFD",
         "allowPrerelease": false,
-        "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png"
-        "checkGithub": false,
+        "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
+        "checkGithub": false
     },
     {
         "github": "alfiecg24/TrollInstallerX",
