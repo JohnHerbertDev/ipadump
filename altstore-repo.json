@@ -10,151 +10,6 @@
     "headerURL": "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/18e85263-afea-4d98-a16f-42554f815528/Wave1x1.png",
     "apps": [
         {
-            "name": "PancakeStore",
-            "bundleIdentifier": "com.jbdotparty.PancakeStore",
-            "marketplaceID": "",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "MuffinStore Jailed, with UI.",
-            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
-            "tintColor": "#c64000",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0",
-                    "date": "2025-12-20T20:14:48Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
-                    "size": 751441,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.1",
-                    "date": "2025-12-26T16:26:45Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
-                    "size": 777601
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Pocket8",
-            "bundleIdentifier": "com.jevon.pocket8",
-            "marketplaceID": "",
-            "developerName": "jevonlipsey",
-            "subtitle": "A Native iOS Emulator for the Pico-8 fantasy console.",
-            "localizedDescription": "# Pocket8\n\nA native PICO-8 emulator for iOS that bridges the gap between web flexibility and native filesystem access!\n\n[Download the latest build.](https://github.com/jevonlipsey/pico-ios/releases/latest)\n\nhttps://github.com/user-attachments/assets/ec24f92e-d29a-4319-8293-439487d60b35\n\n## Features\n\n- **Native Persistence**: Implements a custom \"Handoff & Sync\" protocol ensuring 100% save-state integrity across app restarts.\n- **Quick Save & Load**: The **only** PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n<p align=\"center\">\n  <img src=\"assets/quickload.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n- **Adaptive Controls**: Custom Gameboy-esque controls with beautiful haptics. Emulator works in portrait and landscape modes.\n- **Smart Library**: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\n<p align=\"center\">\n  <img src=\"assets/libscroll-new.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n## Under the Hood: A Rant\n\nThe core engineering challenge was **reconciling the asynchronous nature of iOS file I/O with the synchronous requirements of the Emscripten/WASM virtual file system.**\n\nPICO-8 demands a synchronous file system. Bridging this gap required completely reverse-engineering the Emscripten boot sequence.\n\n- **Bootloader Hijacking:** The engine defaults to booting the standard \"JELPI\" demo cart. To bypass this, I had to intercept the `Module.preRun` lifecycle, manually injecting user code into the WASM heap and forcing the pointer to the correct entry point before the runtime could initialize.\n- **True State Persistence:** I architected a system that dumps the _entire simulated RAM_ (not just the cart data) into a serialized blob. I implemented **GZIP** compression to keep these memory snapshots lightweight, allowing for atomic, instant state restoration.\n\nIt\u2019s _not_ a browser wrapper; it\u2019s a custom runtime environment built for native iOS, enjoy the speeds!\n\n## Tech Stack\n\n![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)\n![Capacitor](https://img.shields.io/badge/Capacitor-1199EE?style=for-the-badge&logo=capacitor&logoColor=white)\n![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)\n![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)\n\n## Installation\n\nYou can sideload Pocket8 via AltStore, SideStore, or Sideloadly.\n\n### Auto-Update Source (Recommended)\nAdd the official source to **SideStore** or **AltStore** to get updates automatically (no computer needed!).\n\n1. Copy this URL: `https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/altstore.json`\n2. Open SideStore/AltStore -> **Sources** -> **+** -> **Add Source**.\n\n<p align=\"center\">\n  <img src=\"https://i.imgur.com/IEgMrg6.gif\" width=\"20%\" alt=\"Auto-Update Guide\" />\n</p>\n\n### Manual Install\n1. Download the `Pocket8.ipa` from [Releases](https://github.com/jevonlipsey/pico-ios/releases/latest).\n2. Sideload via **AltStore**, **SideStore**, or **Sideloadly**.\n3. Enable **Developer Mode** in iOS Settings (Settings > General > Device Management > Your Name).\n\n## Project Status\n\nThis is a solo dev project designed to push the limits of WebAssembly-to-Native bridging. While an App Store release is a future possibility that I'm gunning for, the current priority is maintaining an uncompromised, open-source experience for the PICO-8 community.\n\n### build from source\n```bash\nnpm install && npx cap sync && npx cap open ios\n```\n\n## How to Get Games\n\nPocket8 uses standard PICO-8 cartridges (`.p8` or `.p8.png`).\n\n1.  **Visit the BBS**: Go to [lexaloffle.com/bbs](https://www.lexaloffle.com/bbs/) or [itch.io](https://itch.io/games/tag-pico-8).\n2.  **Look for the Cart**: You need the **cartridge file**, not a zip or exe. Look for the little square image that looks like the game cover.\n3.  **Save It**:\n    - **Desktop**: Right-click the small \"Cart\" icon -> \"Save Image As\".\n    - **iOS**: Tap and hold the cart image -> \"Save to Files\".\n4.  **Import**: In Pocket8, tap the `+` icon and select your saved `.p8.png` file.\n\n**Pro Tip:** If you see a file named `thumb.png` or `cover.png ...`, that's usually just a picture. You specifically need the file that often ends in `.p8.png` and looks like a game cartridge.\n\n## Acknowledgements\n\n- **[Zep (Lexaloffle)](https://www.lexaloffle.com/pico-8.php)**: For creating the fantasy console and being awesome in general. PICO-8 is a masterpiece of design constraints, I'm so excited to bring it to iOS!\n\n- **You**: For actually reading the documentation. thanks for the support (:\n",
-            "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
-            "tintColor": "#007aff",
-            "category": "other",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.4",
-                    "date": "2025-12-26T09:50:34Z",
-                    "localizedDescription": "v1.4 adds native BBS Explorer, making it easy to discover and enjoy thousands of community-made indie games for free.\r\n\r\nFeatures:\r\n\r\n- Infinite Discovery: Scroll through the \"Featured\" and \"New\" sections of the Lexaloffle BBS without ever leaving the app.\r\n-  One-Tap Library: Found a masterpiece? Download it straight to your personal library to play offline anytime.\r\n\r\nDev Note:\r\nI was initially holding off on this, as I thought I would need zep's permission to use SPLORE and browse PICO-8 cartridges. The method I'm using, though, lets me wrap up web-scraping into a native-like experience, essentially acting as a simple browser on your phone. No need to take proprietary software, yay!",
-                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.4/pocket8.ipa",
-                    "size": 14233466,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3",
-                    "date": "2025-12-25T20:15:35Z",
-                    "localizedDescription": "- Critical Fix: D-Pad no longer gets stuck! (Celeste is now playable).\r\n\r\n- Added \"Swap X/O\" toggle in Settings. Suggested by [u/MaxOsirus](https://www.reddit.com/r/pico8/comments/1pvf4ji/comment/nvvpo7n/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\r\n\r\n- Added AltStore/SideStore Source support. Sideloaded app will auto-update when new builds come out!",
-                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.3/pocket8.ipa",
-                    "size": 14226069,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2025-12-25T14:13:14Z",
-                    "localizedDescription": "Grinding small bug fixes I notice while Christmas is still hot.\r\n\r\nThis update focuses on game feel  and precision.\r\n\r\n### Precision Control Overhaul\r\n* **Input Hysteresis:** Implemented a dual-threshold system for the D-pad. Inputs are now sticky and wont unpress from a thumb slip.\r\n* **True 8-Way Support:** Switched to axis-independent logic. You can now reliably hold diagonals for tight movement.\r\n* **Deadzone Tuning:** Optimized the deadzone (10px) to prevent jitter.\r\n\r\n### UI Polish\r\n* **\"Jiggle Mode\":** can now **Long-Press** any cartridge to enter \"Wiggle Mode\" for deletion, matching native iOS behavior.\r\n* **Library Sorting:** Fixed the \"Recently Played\" sort order. Games now correctly bump to the top of the list when launched.\r\n* **Visual Feedback:** The virtual controller now visually highlights multiple directions simultaneously to match your input state.\r\n\r\n### Installation\r\nDownload `pocket8.ipa` below and install via **AltStore**, **SideStore**, or **Sideloadly**.\r\n\r\nMerry Christmas again everyone!",
-                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.2/pocket8.ipa",
-                    "size": 14225560,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2025-12-25T13:34:37Z",
-                    "localizedDescription": "Added:\r\n- 8 way touch support for tight controls in games like Celeste\r\n- Hold to wiggle to replicate native iOS\r\n\r\nMerry fuggin christmas!",
-                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.1/pocket8.ipa",
-                    "size": 14224917,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-12-25T13:05:41Z",
-                    "localizedDescription": "v1.0 is here, let me know what you guys think! Sideload via Alt Store, Side Store, or Sideloadly.",
-                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.0/pocket8.ipa",
-                    "size": 14225314,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Bridge",
-            "bundleIdentifier": "com.jailbreakdotparty.Bridge",
-            "marketplaceID": "",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "An internal system app opener & extractor for jailed iDevices running iOS 16 and later.",
-            "localizedDescription": "404: Not Found",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/Bridge/refs/heads/v1/Bridge/Assets.xcassets/AppIcon.appiconset/BridgeIconRegular-min.png",
-            "tintColor": "#8400fa",
-            "category": "other",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2",
-                    "date": "2025-12-24T19:37:38Z",
-                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n## New Features\r\n- **Custom Apps:** You can now add applications by their bundle identifier.\r\n\r\n## UI Improvements\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI/tree/main), which cleaned up the UI a lot.\r\n\r\n## QoL Improvements\r\n- Changed the Bundle ID (so if you have already installed Bridge, uninstall it beforehand).\r\n- Reduced the file size heavily by compressing various assets.\r\n\r\n**The documented internal system applications gist is now [public](https://gist.github.com/lunginspector/783adaa5e34b4063d38a90cb30ae0986)!**\r\nJoin the [jailbreak.party Discord!](https://jailbreak.party/discord)",
-                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.2/Bridge_v1.2.ipa",
-                    "size": 737446,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2025-11-08T17:35:32Z",
-                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n> [!WARNING]\r\n> If you are coming from Bridge v1.0 or earlier, **please use the updated helper shortcut by clicking on the link above!** Bridge v1.0 *probably* does not work with the new helper shortcut.\r\n\r\n## New Features\r\n- **Static Applists:** If you do not want to fetch an applist from your device, you can now use a pre-created one in setup. **This means that some of Bridge's functionality can now work with iOS 26.1 and above!** The only downside is that some of the applications listed may not actually exist on your device.\r\n\r\n## UI Improvements\r\n- Updated various UI elements for better consistency, especially in the Settings panel.\r\n- Removed & updated some warnings.\r\n\r\n## QoL Enhancements\r\n- **New Settings Toggles:** Reset Favorites List & Toggle Favorites Dropdown.\r\n- Apps are now counted & shown in the headers.\r\n- Empty lists will now auto-collapse.\r\n- New haptics have been added when clicking certain buttons.\r\n\r\n## Fixes\r\n- **iOS 16 Users:** The weird .plist appearing inside of /Applications should no longer appear (fixed in the updated helper shortcut).\r\n- Fixed an issue where resetting the application would not reset the favorites list or the settings.\r\n- Fixed Haptics not properly playing.\r\n\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
-                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.1/Bridge_v1.1.ipa",
-                    "size": 3705498,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-10-31T22:14:40Z",
-                    "localizedDescription": "- Bridge v1 takes the core functionality of v0 and improves it greatly. This is a full rewrite, with new functions and features that make this much better to use than previously.\r\n\r\n[REQUIRED: Setup Shortcut](https://jailbreak.party/bridge-helper)\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
-                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.0/Bridge_v1.0.ipa",
-                    "size": 3692382,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "NuvioStreaming",
             "bundleIdentifier": "com.nuvio.app",
             "marketplaceID": "",
@@ -307,6 +162,172 @@
                     "localizedDescription": "# Version 1.0.0 \u2013 Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it\u2019s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n\ud83d\ude4f A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
                     "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
                     "size": 30213962,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2025-12-27T22:16:36Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Added back **ExoPlayer as the primary player** for better **Dolby Vision (DV)** and **HDR** handling  \r\n  - Automatic fallback to **MPV Player** when required  \r\n- Users can now choose between **Auto** or **MPV** player modes  \r\n- Added **Auto / HW / HW+SW** decoding options for MPV  \r\n  - **Auto is recommended**  \r\n- Added **Video Output Renderer** option  \r\n  - GPU  \r\n  - GPU-next  \r\n\r\n### New Features\r\n- Added **Skip Intro** feature powered by **IntroDB**  \r\n- Added support for **Internal Subtitle customization** for both **MPV** and **ExoPlayer**  \r\n  - ExoPlayer customization is currently limited  \r\n\r\n### Stability & Fixes\r\n- Improved **StreamScreen error handling** to prevent crashes  \r\n- Minor bug fixes and internal improvements  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.2/Stable_1-3-2.ipa",
+                    "size": 35884924
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Pocket8",
+            "bundleIdentifier": "com.jevon.pocket8",
+            "marketplaceID": "",
+            "developerName": "jevonlipsey",
+            "subtitle": "A Native iOS Emulator for the Pico-8 fantasy console.",
+            "localizedDescription": "# Pocket8\n\nA native PICO-8 emulator for iOS that bridges the gap between web flexibility and native filesystem access!\n\n[Download the latest build.](https://github.com/jevonlipsey/pico-ios/releases/latest)\n\nhttps://github.com/user-attachments/assets/ec24f92e-d29a-4319-8293-439487d60b35\n\n## Features\n\n- **Native Persistence**: Implements a custom \"Handoff & Sync\" protocol ensuring 100% save-state integrity across app restarts.\n- **Quick Save & Load**: The **only** PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n<p align=\"center\">\n  <img src=\"assets/quickload.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n- **Adaptive Controls**: Custom Gameboy-esque controls with beautiful haptics. Emulator works in portrait and landscape modes.\n- **Smart Library**: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\n<p align=\"center\">\n  <img src=\"assets/libscroll-new.gif\" width=\"20%\" alt=\"libscroll\" />\n</p>\n\n## Under the Hood: A Rant\n\nThe core engineering challenge was **reconciling the asynchronous nature of iOS file I/O with the synchronous requirements of the Emscripten/WASM virtual file system.**\n\nPICO-8 demands a synchronous file system. Bridging this gap required completely reverse-engineering the Emscripten boot sequence.\n\n- **Bootloader Hijacking:** The engine defaults to booting the standard \"JELPI\" demo cart. To bypass this, I had to intercept the `Module.preRun` lifecycle, manually injecting user code into the WASM heap and forcing the pointer to the correct entry point before the runtime could initialize.\n- **True State Persistence:** I architected a system that dumps the _entire simulated RAM_ (not just the cart data) into a serialized blob. I implemented **GZIP** compression to keep these memory snapshots lightweight, allowing for atomic, instant state restoration.\n\nIt\u2019s _not_ a browser wrapper; it\u2019s a custom runtime environment built for native iOS, enjoy the speeds!\n\n## Tech Stack\n\n![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)\n![Capacitor](https://img.shields.io/badge/Capacitor-1199EE?style=for-the-badge&logo=capacitor&logoColor=white)\n![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)\n![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)\n\n## Installation\n\nYou can sideload Pocket8 via AltStore, SideStore, or Sideloadly.\n\n### Auto-Update Source (Recommended)\nAdd the official source to **SideStore** or **AltStore** to get updates automatically (no computer needed!).\n\n1. Copy this URL: `https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/altstore.json`\n2. Open SideStore/AltStore -> **Sources** -> **+** -> **Add Source**.\n\n<p align=\"center\">\n  <img src=\"https://i.imgur.com/IEgMrg6.gif\" width=\"20%\" alt=\"Auto-Update Guide\" />\n</p>\n\n### Manual Install\n1. Download the `Pocket8.ipa` from [Releases](https://github.com/jevonlipsey/pico-ios/releases/latest).\n2. Sideload via **AltStore**, **SideStore**, or **Sideloadly**.\n3. Enable **Developer Mode** in iOS Settings (Settings > General > Device Management > Your Name).\n\n## Project Status\n\nThis is a solo dev project designed to push the limits of WebAssembly-to-Native bridging. While an App Store release is a future possibility that I'm gunning for, the current priority is maintaining an uncompromised, open-source experience for the PICO-8 community.\n\n### build from source\n```bash\nnpm install && npx cap sync && npx cap open ios\n```\n\n## How to Get Games\n\nPocket8 uses standard PICO-8 cartridges (`.p8` or `.p8.png`).\n\n1.  **Visit the BBS**: Go to [lexaloffle.com/bbs](https://www.lexaloffle.com/bbs/) or [itch.io](https://itch.io/games/tag-pico-8).\n2.  **Look for the Cart**: You need the **cartridge file**, not a zip or exe. Look for the little square image that looks like the game cover.\n3.  **Save It**:\n    - **Desktop**: Right-click the small \"Cart\" icon -> \"Save Image As\".\n    - **iOS**: Tap and hold the cart image -> \"Save to Files\".\n4.  **Import**: In Pocket8, tap the `+` icon and select your saved `.p8.png` file.\n\n**Pro Tip:** If you see a file named `thumb.png` or `cover.png ...`, that's usually just a picture. You specifically need the file that often ends in `.p8.png` and looks like a game cartridge.\n\n## Acknowledgements\n\n- **[Zep (Lexaloffle)](https://www.lexaloffle.com/pico-8.php)**: For creating the fantasy console and being awesome in general. PICO-8 is a masterpiece of design constraints, I'm so excited to bring it to iOS!\n\n- **You**: For actually reading the documentation. thanks for the support (:\n",
+            "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
+            "tintColor": "#007aff",
+            "category": "other",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.4",
+                    "date": "2025-12-26T09:50:34Z",
+                    "localizedDescription": "v1.4 adds native BBS Explorer, making it easy to discover and enjoy thousands of community-made indie games for free.\r\n\r\nFeatures:\r\n\r\n- Infinite Discovery: Scroll through the \"Featured\" and \"New\" sections of the Lexaloffle BBS without ever leaving the app.\r\n-  One-Tap Library: Found a masterpiece? Download it straight to your personal library to play offline anytime.\r\n\r\nDev Note:\r\nI was initially holding off on this, as I thought I would need zep's permission to use SPLORE and browse PICO-8 cartridges. The method I'm using, though, lets me wrap up web-scraping into a native-like experience, essentially acting as a simple browser on your phone. No need to take proprietary software, yay!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.4/pocket8.ipa",
+                    "size": 14233466,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3",
+                    "date": "2025-12-25T20:15:35Z",
+                    "localizedDescription": "- Critical Fix: D-Pad no longer gets stuck! (Celeste is now playable).\r\n\r\n- Added \"Swap X/O\" toggle in Settings. Suggested by [u/MaxOsirus](https://www.reddit.com/r/pico8/comments/1pvf4ji/comment/nvvpo7n/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)\r\n\r\n- Added AltStore/SideStore Source support. Sideloaded app will auto-update when new builds come out!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.3/pocket8.ipa",
+                    "size": 14226069,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2025-12-25T14:13:14Z",
+                    "localizedDescription": "Grinding small bug fixes I notice while Christmas is still hot.\r\n\r\nThis update focuses on game feel  and precision.\r\n\r\n### Precision Control Overhaul\r\n* **Input Hysteresis:** Implemented a dual-threshold system for the D-pad. Inputs are now sticky and wont unpress from a thumb slip.\r\n* **True 8-Way Support:** Switched to axis-independent logic. You can now reliably hold diagonals for tight movement.\r\n* **Deadzone Tuning:** Optimized the deadzone (10px) to prevent jitter.\r\n\r\n### UI Polish\r\n* **\"Jiggle Mode\":** can now **Long-Press** any cartridge to enter \"Wiggle Mode\" for deletion, matching native iOS behavior.\r\n* **Library Sorting:** Fixed the \"Recently Played\" sort order. Games now correctly bump to the top of the list when launched.\r\n* **Visual Feedback:** The virtual controller now visually highlights multiple directions simultaneously to match your input state.\r\n\r\n### Installation\r\nDownload `pocket8.ipa` below and install via **AltStore**, **SideStore**, or **Sideloadly**.\r\n\r\nMerry Christmas again everyone!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.2/pocket8.ipa",
+                    "size": 14225560,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2025-12-25T13:34:37Z",
+                    "localizedDescription": "Added:\r\n- 8 way touch support for tight controls in games like Celeste\r\n- Hold to wiggle to replicate native iOS\r\n\r\nMerry fuggin christmas!",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.1/pocket8.ipa",
+                    "size": 14224917,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-12-25T13:05:41Z",
+                    "localizedDescription": "v1.0 is here, let me know what you guys think! Sideload via Alt Store, Side Store, or Sideloadly.",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.0/pocket8.ipa",
+                    "size": 14225314,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.4.1",
+                    "date": "2025-12-27T09:06:44Z",
+                    "localizedDescription": "Dpad corrections and optimizations.\r\n\r\n- Fixed cardinal directions being difficult to input. Diagonals were too easy, this has been eased.\r\n- Asymmetric ergonomics - up-left diagonal is easier to hit, its area has been widened to support natural motion of the thumb.\r\n- \"Finger Rolling' support added, as to push the face buttons without having to lift first. Suggested by u/Ruvalolowa.\r\n- Auto-save on pause/exit\r\n- blurs on buttons weren't on their own GPU layers, this has been fixed for a big performance increase.\r\n- input mapping was creating massive garbage, this has been fixed.\r\n- implemented silent-buffer to keep the iOS audio thread awake, greatly improving audio latency\r\n\r\nEnjoy!\r\n",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.4.1/pocket8.ipa",
+                    "size": 14234978
+                },
+                {
+                    "version": ".1.4.2",
+                    "date": "2025-12-27T11:30:02Z",
+                    "localizedDescription": "- added virtual joystick option in settings if you dont want to use the dpad\r\n- autosave every 10 minutes, added multiple manual saves support\r\n- more ui polish",
+                    "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v.1.4.2/pocket8.ipa",
+                    "size": 14236112
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "PancakeStore",
+            "bundleIdentifier": "com.jbdotparty.PancakeStore",
+            "marketplaceID": "",
+            "developerName": "jailbreakdotparty",
+            "subtitle": "MuffinStore Jailed, with UI.",
+            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
+            "tintColor": "#c64000",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2025-12-20T20:14:48Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
+                    "size": 751441,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2025-12-26T16:26:45Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
+                    "size": 777601
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Bridge",
+            "bundleIdentifier": "com.jailbreakdotparty.Bridge",
+            "marketplaceID": "",
+            "developerName": "jailbreakdotparty",
+            "subtitle": "An internal system app opener & extractor for jailed iDevices running iOS 16 and later.",
+            "localizedDescription": "404: Not Found",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/Bridge/refs/heads/v1/Bridge/Assets.xcassets/AppIcon.appiconset/BridgeIconRegular-min.png",
+            "tintColor": "#8400fa",
+            "category": "other",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2025-12-24T19:37:38Z",
+                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n## New Features\r\n- **Custom Apps:** You can now add applications by their bundle identifier.\r\n\r\n## UI Improvements\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI/tree/main), which cleaned up the UI a lot.\r\n\r\n## QoL Improvements\r\n- Changed the Bundle ID (so if you have already installed Bridge, uninstall it beforehand).\r\n- Reduced the file size heavily by compressing various assets.\r\n\r\n**The documented internal system applications gist is now [public](https://gist.github.com/lunginspector/783adaa5e34b4063d38a90cb30ae0986)!**\r\nJoin the [jailbreak.party Discord!](https://jailbreak.party/discord)",
+                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.2/Bridge_v1.2.ipa",
+                    "size": 737446,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2025-11-08T17:35:32Z",
+                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n> [!WARNING]\r\n> If you are coming from Bridge v1.0 or earlier, **please use the updated helper shortcut by clicking on the link above!** Bridge v1.0 *probably* does not work with the new helper shortcut.\r\n\r\n## New Features\r\n- **Static Applists:** If you do not want to fetch an applist from your device, you can now use a pre-created one in setup. **This means that some of Bridge's functionality can now work with iOS 26.1 and above!** The only downside is that some of the applications listed may not actually exist on your device.\r\n\r\n## UI Improvements\r\n- Updated various UI elements for better consistency, especially in the Settings panel.\r\n- Removed & updated some warnings.\r\n\r\n## QoL Enhancements\r\n- **New Settings Toggles:** Reset Favorites List & Toggle Favorites Dropdown.\r\n- Apps are now counted & shown in the headers.\r\n- Empty lists will now auto-collapse.\r\n- New haptics have been added when clicking certain buttons.\r\n\r\n## Fixes\r\n- **iOS 16 Users:** The weird .plist appearing inside of /Applications should no longer appear (fixed in the updated helper shortcut).\r\n- Fixed an issue where resetting the application would not reset the favorites list or the settings.\r\n- Fixed Haptics not properly playing.\r\n\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
+                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.1/Bridge_v1.1.ipa",
+                    "size": 3705498,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-10-31T22:14:40Z",
+                    "localizedDescription": "- Bridge v1 takes the core functionality of v0 and improves it greatly. This is a full rewrite, with new functions and features that make this much better to use than previously.\r\n\r\n[REQUIRED: Setup Shortcut](https://jailbreak.party/bridge-helper)\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
+                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.0/Bridge_v1.0.ipa",
+                    "size": 3692382,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
@@ -5171,6 +5192,149 @@
             "patreon": {}
         },
         {
+            "name": "Dopamine",
+            "bundleIdentifier": "com.opa334.Dopamine",
+            "developerName": "opa334",
+            "subtitle": "Dopamine is a semi-untethered jailbreak for iOS 15 and 16",
+            "localizedDescription": "404: Not Found",
+            "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
+            "versions": [
+                {
+                    "version": "2.4.5",
+                    "date": "2025-04-19T20:56:35Z",
+                    "localizedDescription": "- Revert compiler optimizations for libjailbreak since this broke 15.x arm64 support [2.4.4 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.5/Dopamine.ipa",
+                    "size": 53241819
+                },
+                {
+                    "version": "2.4.4",
+                    "date": "2025-04-19T14:54:32Z",
+                    "localizedDescription": "- Improve fix from 2.4.3 to also work in processes for which tweak injection has been disabled\r\n- Fix in-app respring button not working when jailbreak is hidden\r\n- Improve error message that appears when libgrabkernel2 does not work\r\n- Add password authentication for when changing mobile password (Contributed by @khcrysalis)\r\n- Add compiler optimizations to some jailbreak components\r\n- Update ChOma and XPF",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.4/Dopamine.ipa",
+                    "size": 53228002
+                },
+                {
+                    "version": "2.4.3",
+                    "date": "2025-03-15T22:08:52Z",
+                    "localizedDescription": "- Fix an issue where calling dlopen in a fork child would fail (on iOS 15) or crash the process (on iOS 16) (Fixes `perl` crashing when running `apt-file search <query>` on iOS 16) [2.4 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.3/Dopamine.ipa",
+                    "size": 53237456
+                },
+                {
+                    "version": "2.4.2",
+                    "date": "2025-03-09T20:42:14Z",
+                    "localizedDescription": "- Extend library validation bypass to also work when something manually invokes fcntl in the dyld_shared_cache\r\n- Remove stray macho magics from patched dyld, works around issues where third party software (e.g. Frida) would mistake the wrong page to be the start of dyld, causing it to fail in unpredictable ways (Regarding Frida, there is still an issue where it conflicts with the spinlock panic fix, but I don't think there is anything I can do on Dopamines end to fix it, the issue is being tracked [here](https://github.com/frida/frida-core/issues/1137)) (Credits to @tihmstar for helping with debugging)\r\n- Update bootstrap tarball (Better late than never?)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.2/Dopamine.ipa",
+                    "size": 53236821
+                },
+                {
+                    "version": "2.4.1",
+                    "date": "2025-02-16T19:18:08Z",
+                    "localizedDescription": "- Fix support for iOS 16.0.x [2.4 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
+                    "size": 50005508
+                },
+                {
+                    "version": "2.4",
+                    "date": "2025-02-16T15:04:51Z",
+                    "localizedDescription": "NOTE: Doing an OTA update to this version will reboot your device, requiring a rejailbreak afterwards, this is expected and unavoidable, because Dopamine <=2.3 has a bind mount that cannot possibly be unmounted without panicing the device.\r\n\r\n- Add a workaround for spinlock panics on iOS 15 arm64e that fully prevents them in all cases (except one, see below*)\r\n- Make \"Hide Jailbreak\" fully hide the jailbreak, to the point where it should be undetectable (see notes below)\r\n- Apply sandbox patches before linking, fixes issues when a process directly links against a library inside /var/jb\r\n- Improve and optimize library validation bypass\r\n- Slightly improve forkfix\r\n- Fix/reenable tweak injection into WebContent on iOS 16\r\n- Fix a rare system deadlock during \"Initializing Jailbreak\"\r\n\r\n**CAVEATS WITH \"HIDE JAILBREAK\":**\r\n- Once you have hidden the jailbreak once since the last userspace reboot, spinlock panics can happen again* if your device is affected by them (iOS 15 arm64e), this is because the spinlock workaround relies on a dyld hook, which has to be disabled to properly hide the jailbreak, there is not much that can be done about this, the only idea I had did not work when I tested it\r\n- When hiding the jailbreak, a few processes, such as apps where tweak injection has been disabled via Choicy, will crash, I was trying to fully fix this by deprecating the /usr/lib bind mount in favor of a namecache based solution, but that caused weird panics on iOS 16 (the code for this has been pushed to the `nofakelib` branch), so unless a fix for those can be found, there is nothing I can do about this\r\n\r\n**POTENTIAL CAVEATS WITH JAILBREAK DETECTION:**\r\n- Since Dopamine 2.4 has introduced a dyld hook and also redirects dyld to a different folder via symlink now, it might be slightly more detectable, even while tweak injection for an app is disabled, there is not much that can be done about this, but as explained in the change log, the \"Hide Jailbreak\" option now works better as a result of these changes",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4/Dopamine.ipa",
+                    "size": 50005102
+                },
+                {
+                    "version": "2.2.2",
+                    "date": "2024-08-10T17:11:38Z",
+                    "localizedDescription": "- Stop redirecting all `execve` calls to `posix_spawn`, fixes issues with certain sandbox profiles (e.g. `configd`) that block `posix_spawn` but allow `execve`, fixes WPA2/3 ENTERPRISE networks not working (these issues started in 2.2 but were not a regression, in earlier versions the exec call was not hooked properly which is why this wasn't noticed before)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2.2/Dopamine.ipa",
+                    "size": 49694581
+                },
+                {
+                    "version": "2.2.1",
+                    "date": "2024-07-30T22:00:36Z",
+                    "localizedDescription": "- Bump default jetsam multiplier back to 3x because apparently people don't read changelogs and that's why we can't have nice things (Most people should still be using 2x, but that's on their own to figure out now...)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2.1/Dopamine.ipa",
+                    "size": 49692070
+                },
+                {
+                    "version": "2.2",
+                    "date": "2024-07-28T11:07:03Z",
+                    "localizedDescription": "- Remove `DYLD_INTERPOSE` in favor of other hooking techniques, since `DYLD_INTERPOSE` was apparently causing memory usage to be much higher than what it should be\r\n- The jetsam multiplier can now be configured inside the Dopamine app, in previous Dopamine versions this was 3x everywhere with no option to configure it, due to the removal of the `DYLD_INTERPOSE`, the default setting has been able to be lowered to 2x\r\n- `NSTask` is now supported everywhere by default, unlike before where it was only supported inside tweak dylibs or when you called `dopamine_fix_NSTask` yourself\r\n- Due to the better hooking techniques, a lot of unnecessary code has been able to be removed\r\n- Fix kcall on iOS 15 arm64 not working from libkrw and iDownload\r\n- Fix `frida-ps -U` panicing the device (To be honest, I have no clue what change actually fixed this, the only thing I know is that it happens in older Dopamine versions and doesn't happen in 2.2 anymore)\r\n- Improve launchd crash reporter in various different ways\r\n- Code cleanup",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2/Dopamine.ipa",
+                    "size": 49691621
+                },
+                {
+                    "version": "2.1.7",
+                    "date": "2024-06-12T21:20:47Z",
+                    "localizedDescription": "- Remove `libkrw0` dependency of libkrw plug-in, should fix rejailbreaking when `libkrw0` has been uninstalled\r\n- Improve verbose logging, also log `stderr` to it\r\n",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa",
+                    "size": 49687727
+                },
+                {
+                    "version": "2.1.6",
+                    "date": "2024-06-12T15:38:03Z",
+                    "localizedDescription": "- Fix jailbreaking with developer mode disabled not working on iOS 16.0 - 16.3.1 arm64\r\n- Fix weightBufs not working on some device / version combinations\r\n- Fix libkrw physrw not working when kcall is not available\r\n- Improve libkrw packaging and error handling\r\n- Skip installing a bundled package if a newer version is installed already\r\n- When an update is available while unjailbroken, it will now be opened directly in TrollStore if it's URL scheme is enabled",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.6/Dopamine.ipa",
+                    "size": 49687245
+                },
+                {
+                    "version": "2.1.5",
+                    "date": "2024-05-27T14:45:03Z",
+                    "localizedDescription": "- Allow binaries to get custom pmap_cs trust level via the `jb.pmap_cs_custom_trust` entitlement, possible values: {`\"PMAP_CS_PROFILE_PREFLIGHT\"`, `\"PMAP_CS_COMPILATION_SERVICE\"`, `\"PMAP_CS_OOP_JIT\"` (iOS 16 only), `\"PMAP_CS_LOCAL_SIGNING\"`, `\"PMAP_CS_PROFILE_VALIDATED\"`, `\"PMAP_CS_APP_STORE\"`, `\"PMAP_CS_IN_LOADED_TRUST_CACHE\"`, `\"PMAP_CS_IN_STATIC_TRUST_CACHE\"`}, a lower trust level allows the process to be less restricted by PMAP_CS, this in practice fixes the EQE app and it's Lua recompiler not to work (but only if it has the entitlement, so make sure you use the newest EQE build)\r\n- Fix `posix_spawnattr_setarchpref_np` not being supported by the codesign bypass (#573)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.5/Dopamine.ipa",
+                    "size": 49680775
+                },
+                {
+                    "version": "2.1.4",
+                    "date": "2024-05-07T12:20:05Z",
+                    "localizedDescription": "- Only automatically fix up permissions of relevant directories inside `/var/jb/var/mobile`, rather than the entirety of it\r\n- Skip permission fix up if either `/var/jb/var` or `/var/jb/var/mobile` is a symbolic link, previously there was a bootloop risk when either of them point to the real `/var` or `/var/mobile`",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.4/Dopamine.ipa",
+                    "size": 49675799
+                },
+                {
+                    "version": "2.1.2",
+                    "date": "2024-05-02T17:29:03Z",
+                    "localizedDescription": "- Fix app switcher not displaying preview images of jailbreak apps in some cases [2.1 regression]\r\n- Sandbox: Allow writing to /var/jb/var/mobile system wide\r\n",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.2/Dopamine.ipa",
+                    "size": 49671105
+                },
+                {
+                    "version": "2.1.1",
+                    "date": "2024-04-30T23:50:56Z",
+                    "localizedDescription": "- Fix codesigning bypass failing on binaries/libraries that have an armv7s slice (Fixes Designer not working) [2.1 regression]\r\n- Fix sharing files to jailbreak apps not working in some instances [2.1 regression]\r\n- Fix string corruption in sandbox bypass, the fact I never noticed this before means it probably wasn't that bad of an issue (don't use strcat on uninitialized stack buffers!)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.1/Dopamine.ipa",
+                    "size": 49670197
+                },
+                {
+                    "version": "2.1",
+                    "date": "2024-04-30T17:15:02Z",
+                    "localizedDescription": "- Add support for A8(X) devices\r\n- Fix Dopamine app instantly crashing when installed using TrollStore on A8 devices\r\n- Add kcall implementation on arm64 iOS 15.x (this was needed for A8 support)\r\n- Use kcall for allocating page tables when available\r\n- Improve performance of some parts of the jailbreaking process by ~1000x (because A8 was getting stuck in them for multiple minutes.....)\r\n- Fix support for some obscure device / version combinations (e.g. A9 15.0.1, early 15.0 betas, etc...)\r\n- Add `weightBufs` and `multicast_bytecopy` as Kernel exploit options\r\n- Protect system files in preboot partition so users cannot delete them and cause the device to recovery loop\r\n- Add \"Allow JIT in Apps\" toggle, enabled by default, when enabled this will add `CS_DEBUGGED` to apps (Note: This has no effect on apps that have tweak injection disabled via Choicy)\r\n- Fix `/var/mobile/Library/Application Support/Containers/`, `/var/mobile/Library/SplashBoard/Snapshots/` getting polluted with some jailbreak files\r\n- Fix jailbreak apps disappearing after the system (or TrollStore) reloads the icon cache\r\n- Add back \"Change mobile password\" option in Dopamine settings\r\n- Revamp jbctl trustcache management, new commands: `jbctl trustcache info`, `jbctl trustcache clear`, `jbctl trustcache add`\r\n- Switch to libgrabkernel2 (@alfiecg24, @dhinakg), removes the requirement for Dopamine to be installed by TrollStore on beta versions\r\n- Fix smith not working on iOS 15\r\n- Order exploits by recommendation score, add \"(Recommended)\" to the best one\r\n\r\n\r\n30-04-2024 21:13 UTC: Build was reuploaded to fix issues with OTA updates on 15.x arm64, people who have already updated do not need it, so I decided to not make it a new update\r\n",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1/Dopamine.ipa",
+                    "size": 49669210
+                },
+                {
+                    "version": "2.0.11",
+                    "date": "2024-03-10T23:14:28Z",
+                    "localizedDescription": "- **Actually** fix relevant file path permissions when rejailbreaking (previously the method for this existed but was never called, sigh...), this should now actually automatically fix issues such as NewTerm / SSH not working",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.11/Dopamine.ipa",
+                    "size": 49682668
+                },
+                {
+                    "version": "2.0.10",
+                    "date": "2024-03-08T02:45:47Z",
+                    "localizedDescription": "- Fix jailbreaking not working when developer mode was disabled (Developer mode will now be automatically enabled in a non persistent way for the current boot)\r\n- Fix NECP connections failing after some time on arm64 (Apple Watch, VPN...)\r\n- Fix `terminusd` crashes on arm64, reenable injection into it and `nesessionmanager`\r\n- Automatically fix wrong permissions for `/private` and `/private/preboot` when jailbreaking\r\n- Fix app icons disappearing or no longer opening on OTA updates (Will only be fixed for future updates, not for the one to 2.0.10, also requires TrollStore 2.0.13)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.10/Dopamine.ipa",
+                    "size": 49682303
+                },
+                {
+                    "version": "2.0.9",
+                    "date": "2024-02-29T13:19:28Z",
+                    "localizedDescription": "- Fix a super bad security issue where app store apps would be allowed to obtain full system captabilities (root + phys r/w) that were otherwise only intended to be accessible by root processes, as a result of this Dopamine 2.0.0 - 2.0.8 have been pulled and are no longer recommended to be used by anyone\r\n- Fix an issue where the arm64 related fixes of 2.0.7 and 2.0.8 were only working when ellekit was installed and tweak injection was enabled\r\n- Disable injection into terminusd and nesessionmanager on arm64 in an attempt to resolve issues with crash loops and VPN apps still not working for some users\r\n- Immediately allow invalid pages on all processes that are spawned via `POSIX_SPAWN_START_SUSPENDED`, this fixes an issue where several Frida features would not work correctly\r\n- Actually fix support for early iOS 15.0 betas (2.0.8 changelog lied)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.9/Dopamine.ipa",
+                    "size": 49675263
+                }
+            ]
+        },
+        {
             "name": "Get More Ram",
             "bundleIdentifier": "com.stos.Entitlement",
             "marketplaceID": "",
@@ -5544,6 +5708,37 @@
             "patreon": {}
         },
         {
+            "name": "mikotoX",
+            "bundleIdentifier": "com.straight-tamago.mikotoX",
+            "developerName": "straight-tamago",
+            "subtitle": null,
+            "localizedDescription": "## mikotoX \u2013 The Ultimate Customization Tool\n## iOS /iPadOS 16.0 - 18.0 RC / 18.1 beta 3\n### Developers: [@little_34306](https://x.com/little_34306) | [@straight-tamago](https://x.com/straight_tamago)\n\n<kbd><img width=\"100\" alt=\"icon\" src=\"https://github.com/user-attachments/assets/fa574df5-3baf-40ee-904f-5086f3ad2e8e\"></kbd>\n\n<a href=\"https://github.com/straight-tamago/mikotoX/releases/latest\"><img src=\"https://img.shields.io/github/v/release/straight-tamago/mikotoX?color=d774d5\" /></a>  <a href=\"https://github.com/straight-tamago/mikotoX/releases\"><img src=\"https://img.shields.io/github/downloads/straight-tamago/mikotoX/total?color=d774d5\" /></a>\n\nTrollRestore brings numerous customization features to iOS devices, allowing you to tweak your system for a more personalized experience. **Use at your own risk**, as there is a high risk of bootlooping. **Make sure to backup your phone before use!**\n\n### Supported Features:  \n- **Dynamic Island 2796, 2556** (iOS 16.0+)\n- **Dynamic Island 2662 2868** (iOS 18.0RC+)\n- **Charge Limit** (iOS 17.0+)\n- **Boot Chime** (iOS 17.0+)\n- **Stage Manager** (iOS 16.0+)\n- **Shutter Sound** (iOS 16.0+)  \nPlease do not use camera silence for the purpose of voyeurism. For photographing pets, etc.\n- **Always-on Display (AoD)** (iOS 18.0+)\n- **Apple Pencil** (iOS 18.0+)\n- **Action Button** (iOS 17.0+)\n- **Internal Storage** (iOS 17.0+)\n- **SOS Collision** (iOS 18.0+)\n- **TapToWake** (iPhone SE 2/3, iOS 18.0+)\n- **Apple Intelligence** (iOS 18.1 Beta)\n- **Landscape FaceID** (iOS 17.0+)\n- **iPad Apps Support** (iOS 16.0+)\n- **Developer Mode & Metal HUD** (iOS 16.0+)\n- **CameraControl** (18.0 RC+)\n- **AoD Vibrancy** (18.0 RC+)\n- **Sleep Apnea** (18.0 RC+)\n\nSome more features will be added. Please look forward to it \u2764\ufe0f\n\n### Important Notes:\n- mikotoX modifies **MobileGestalt**, which can cause bootloop issues.\n- **Backup your device** before proceeding.\n\n### How to Use\nhttps://onejailbreak.com/blog/mikotox/\n\n### Change Logs:\n\n#### Version 1.0:\nInitial Release\n---\n\n@straight-tamago @34306 \nPlease use the tool responsibly and ensure you follow all precautions to avoid any issues!\n\n## Thanks to\n- @khanhduytran0 : SparseBox\n- @SideStore : em_proxy and minimuxer\n- @JJTech0130 : SparseRestore and backup exploit\n- @PoomSmart : MobileGestalt dump\n- @libimobiledevice\n- @onejailbreak_ : Icon\n\n",
+            "iconURL": "https://onejailbreak.com/site/assets/files/1891/icon.64x0.webp",
+            "versions": [
+                {
+                    "version": "1.3",
+                    "date": "2024-09-15T17:53:40Z",
+                    "localizedDescription": "# mikotoX v1.3\r\n<kbd><img width=\"100\" alt=\"icon\" src=\"https://github.com/user-attachments/assets/fa574df5-3baf-40ee-904f-5086f3ad2e8e\"></kbd>\r\n\r\n## Change Log\r\n- Added custom path editing (at your own risk)\r\n(changing the wrong path may cause bootloop)\r\n- Added flag state saving\r\n\r\n## How to support this project\r\nhttps://ko-fi.com/straight_tamago",
+                    "downloadURL": "https://github.com/straight-tamago/mikotoX/releases/download/1.3/com.straight-tamago.mikotoX-v1.3.ipa",
+                    "size": 7900832
+                },
+                {
+                    "version": "1.2",
+                    "date": "2024-09-14T20:27:39Z",
+                    "localizedDescription": "# New version available\r\nhttps://github.com/straight-tamago/mikotoX/releases/latest \r\n\r\n---\r\nRewrite. Improved stability",
+                    "downloadURL": "https://github.com/straight-tamago/mikotoX/releases/download/1.2/com.straight-tamago.mikotoX_0.0.1-28%2Bdebug.ipa",
+                    "size": 7865516
+                },
+                {
+                    "version": "1.1",
+                    "date": "2024-09-14T05:51:28Z",
+                    "localizedDescription": "# New version available\r\nhttps://github.com/straight-tamago/mikotoX/releases/latest \r\n\r\n---\r\n- Still in beta\r\n- Be careful while using it\r\n- Fixed checking OS version (disable function that not exist on old iOS)\r\n- idk, will update more in future (hopefully UI, and add some custom feature for user...)",
+                    "downloadURL": "https://github.com/straight-tamago/mikotoX/releases/download/1.1/com.straight-tamago.mikotoX_0.0.1-2%2Bdebug.ipa",
+                    "size": 7947568
+                }
+            ]
+        },
+        {
             "name": "TrollInstallerX",
             "bundleIdentifier": "com.Alfie.TrollInstallerX",
             "marketplaceID": "",
@@ -5815,6 +6010,158 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "TrollStar",
+            "bundleIdentifier": "com.34306.trollforce",
+            "developerName": "34306",
+            "subtitle": "fork kfund, short for my fun with kfd exploit. For TrollStar aka TrollStore installer",
+            "localizedDescription": "# kfund (Post-Exploitation)\nkfund, short for my [fun](kfd/fun) with kfd exploit. Original by @wh1te4ever, modify for TrollStore installation and called TrollStar by [34306 (me)](https://github.com/34306) and [straight-tamago](https://github.com/straight-tamago)\n\n## What are the supported OS versions and devices?\nProbably iOS 16.0 to 16.6.1 on all iOS/iPadOS (arm64/arm64e/M1/M2 supported)\n---\n\n## What you can do with this?\n#### Install TrollStore Helper to Tips\n---\n## Preview\n<img src=\"https://raw.githubusercontent.com/34306/TrollStar/main/Preview.PNG\">\n\n# kfd\n\nkfd, short for kernel file descriptor, is a project to read and write kernel memory on Apple\ndevices. It leverages various vulnerabilities that can be exploited to obtain dangling PTEs, which\nwill be referred to as a PUAF primitive, short for \"physical use-after-free\". Then, it reallocates\ncertain kernel objects inside those physical pages and manipulates them directly from user space\nthrough the dangling PTEs in order to achieve a KRKW primitive, short for \"kernel read/write\". The\nexploit code is fully contained in a library, [libkfd](kfd/libkfd.h), but the project also contains\nsimple executable wrappers for [iOS](kfd/ContentView.swift) and [macOS](macos_kfd.c).\n\n##  How to build and run kfd on an iPhone?\n\nIn Xcode, open the root folder of the project and connect your iOS device.\n\n- To build the project, select Product > Build (\u2318B).\n- To run the project, select Product > Run (\u2318R), then click on the \"kopen\" button in the app.\n\n---\n\n## Where to find detailed write-ups for the exploits?\n\nThis README presented a high-level overview of the kfd project. Once a PUAF primitive has been\nachieved, the rest of the exploit is generic. Therefore, I have hoisted the common part of the\nexploits in a dedicated write-up:\n\n- [Exploiting PUAFs](writeups/exploiting-puafs.md)\n\nIn addition, I have split the vulnerability-specific part of the exploits used to achieve the PUAF\nprimitive into distinct write-ups, listed below in chronological order of discovery:\n\n-   [PhysPuppet](writeups/physpuppet.md)\n-   [Smith](writeups/smith.md)\n\nHowever, please note that these write-ups have been written for an audience that is already familiar\nwith the XNU virtual memory system.\n",
+            "iconURL": "https://raw.githubusercontent.com/34306/TrollStar/refs/heads/main/kfd/Assets.xcassets/AppIcon.appiconset/anya.png",
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2024-01-22T14:03:14Z",
+                    "localizedDescription": "## Change log:\r\n- Remove kopen and kclose button (confuse to end users), change it to \"Click here to start\"\r\n- Fix typo\r\n- Fully open source TrollStar\r\n_____\r\nNo more change\r\n\r\n",
+                    "downloadURL": "https://github.com/34306/TrollStar/releases/download/1.2/TrollStar_1.2.ipa",
+                    "size": 1155049
+                },
+                {
+                    "version": "1.1",
+                    "date": "2024-01-14T01:12:04Z",
+                    "localizedDescription": "## Change log:\r\n- Added notification when kopen is running, added notification for install TrollHelper to Tips button.\r\n- Show success or error and some recommendation for install process.\r\n- Added 4096, 32768 pages options.\r\n- Fixing some overwrite issues to make it runs more reliable and stable.\r\n## Notice:\r\n- Don't try it on device that already installed TrollStore. It may broke your current TrollStore (this due to some process that's sToCkBuG)\r\n\r\n### Thanks @straight-tamago",
+                    "downloadURL": "https://github.com/34306/TrollStar/releases/download/1.1/TrollStar_1.1.ipa",
+                    "size": 1155628
+                },
+                {
+                    "version": "1.0",
+                    "date": "2024-01-13T16:49:52Z",
+                    "localizedDescription": "Initial release\r\nSpecial thanks @straight-tamago",
+                    "downloadURL": "https://github.com/34306/TrollStar/releases/download/1.0/TrollStar_1.0.ipa",
+                    "size": 934358
+                }
+            ]
+        },
+        {
+            "name": "AppleGotTrolled",
+            "bundleIdentifier": "com.mudsplasher.AppleGotTrolled",
+            "developerName": "MudSplasher",
+            "subtitle": "Installation method for iOS 17.0",
+            "localizedDescription": "# AppleGotTrolled \nTrollStore installation method for iOS 17.0 \n![Untitled215](https://github.com/MudSplasher/AppleGotTrolled/assets/150399924/bb124f21-eea6-48d3-9bed-4042f5097a7f)\n",
+            "iconURL": "https://media.havoc.app/66d4ecc6e95a6f1dee4b898c?w=1920&q=75",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2024-01-13T05:19:55Z",
+                    "localizedDescription": "First verison of AppleGotTrolled",
+                    "downloadURL": "https://github.com/MudSplasher/AppleGotTrolled/releases/download/1.0/AppleGotTrolled.ipa",
+                    "size": 37175
+                }
+            ]
+        },
+        {
+            "name": "Cluckabunga",
+            "bundleIdentifier": "com.leminlimez.Cluckabunga",
+            "developerName": "leminlimez",
+            "subtitle": "KFD Customization Tool for iOS 16.0-16.6b1",
+            "localizedDescription": "# Cluckabunga\nKFD Customization Tool for iOS 16.2-16.5 & 16.6b1\n\nIPA available in the [Releases](https://github.com/leminlimez/Cluckabunga/releases/latest) section.\n\nSupport me on [Ko-Fi](https://ko-fi.com/leminlimez).\n\n## Features\n- Springboard\n    - Hide dock\n    - Hide home bar\n    - Hide folder backgrounds\n\n- Locks\n    - Importing locks from TrollLock\n    - Custom number of frames + custom animation speeds (see below)\n \n- Explore\n    - Find and download themes for locks and passcodes!\n    - If you would like to submit your own works, please [join the discord](https://discord.gg/Cowabunga)\n \n- Other Tools\n    - Custom Fonts\n    - Settings App Customizer\n    - Apple Cards Changer\n    - Passcode Key Changer\n \n## Installing\nYou can install through AltStore, Sideloadly, or Xcode\n\n## Creating Custom Lock Animations\nLock animations are very simple to make. For the frames, each image must be named \"trollformation\" with a number afterwards (ie. trollformation1.png, trollformation2.png, trollformation3.png...). You can use up to 120 frames, though I am not sure of the exact size limit, which is probably much less.\n**If your animation is not exactly 40 frames or you want to customize the display length of each frame, you need to define the animations.** This is very simple to do:\n1. Create a json file named `animations.json`\n2. Define the values. Format: `\"Frame Number\": Time Interval`\nExample:\n```\n{\n    \"1\": 0,\n    \"2\": 0.025,\n    \"10\": 0.01,\n    \"15\": 0.025\n}\n```\n**Explanation:**\nYou do not need to state the length of each frame. The only time that absolutely needs to be defined is the first frame. If you did not set a time for the frame, Cowabunga will use the time from the last frame.\nThe `Time Interval` is how long the frame stays on the screen for.\n**Important:** The frame number must be a string (meaning in quotes) because of how json decoding works.\n\n## Building\nJust build like a normal Xcode project. Sign using your own team and bundle identifier. You can also build the IPA file with `ipabuild.sh`.\n\n## Credits\n- [Cowabunga](https://github.com/leminlimez/Cowabunga) for a lot of the code.\n- [Cardinal](https://github.com/leminlimez/Cardinal) for Card Changer.\n- Misaka for offsets.\n\n## Suggestions and support\nYou can either create an issue on this GitHub repo, or join our [Discord server](https://discord.gg/Cowabunga) where us, or other members, might help you.\n",
+            "iconURL": "https://raw.githubusercontent.com/leminlimez/Cluckabunga/refs/heads/main/Chicken%20Butt/Assets.xcassets/AppIcon.appiconset/IMG_2137.png",
+            "versions": [
+                {
+                    "version": "2.2.1",
+                    "date": "2023-09-20T16:55:20Z",
+                    "localizedDescription": "- Fixed status bar not resetting",
+                    "downloadURL": "https://github.com/leminlimez/Cluckabunga/releases/download/v2.2.1/Cluckabunga.ipa",
+                    "size": 8357737
+                },
+                {
+                    "version": "2.2",
+                    "date": "2023-09-18T16:18:00Z",
+                    "localizedDescription": "- Added status bar changer\r\n- Added ability to reset passcode keys in-app",
+                    "downloadURL": "https://github.com/leminlimez/Cluckabunga/releases/download/v2.2/Cluckabunga.ipa",
+                    "size": 8357765
+                },
+                {
+                    "version": "2.1.1",
+                    "date": "2023-09-08T22:13:19Z",
+                    "localizedDescription": "- Card Changer/Passcode Keys no longer ask to kopen when already kopened\r\n- Card Changer and Passcode Keys should no longer panic when switching between the 2",
+                    "downloadURL": "https://github.com/leminlimez/Cluckabunga/releases/download/v2.1.1/Chicken.Butt.ipa",
+                    "size": 8309840
+                },
+                {
+                    "version": "2.1",
+                    "date": "2023-09-08T21:02:43Z",
+                    "localizedDescription": "- Added Card Changer\r\n- Improved Passcode Key Changer Functionality (May Panic More)\r\n- Exporting Passcode Keys\r\n- Updated Offsets",
+                    "downloadURL": "https://github.com/leminlimez/Cluckabunga/releases/download/v2.1/Chicken.Butt.ipa",
+                    "size": 8309201
+                },
+                {
+                    "version": "2.0",
+                    "date": "2023-08-20T14:42:39Z",
+                    "localizedDescription": "- Rebranded to Cluckabunga\r\n- Added changing passcode keys\r\n- Added resolution changer (backboard respring type required)\r\n- Minor bug fixes",
+                    "downloadURL": "https://github.com/leminlimez/Cluckabunga/releases/download/v2.0/Cluckabunga.ipa",
+                    "size": 8258329
+                },
+                {
+                    "version": "1.1",
+                    "date": "2023-08-04T01:45:53Z",
+                    "localizedDescription": "- Added Dynamic Island and X Gestures\r\n- Added all Springboard Tools from Cowabunga MDC\r\n- Added exploit preferences\r\n- Added more offsets\r\n\r\n**iPhone 14 Users:** Try 17ull first\r\n**Everyone else:** Try 25ull first",
+                    "downloadURL": "https://github.com/leminlimez/Cluckabunga/releases/download/v1.1/Chicken.Butt.17ull.ipa",
+                    "size": 6405185
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2023-08-03T19:57:29Z",
+                    "localizedDescription": "- Initial Release\r\n\r\n**iPhone 14 Users:** Try 17ull first\r\n**Everyone else:** Try 25ull first\r\n\r\niPads are not supported at the moment\r\nIf you have your offsets and the app does not work, you can create a github issue",
+                    "downloadURL": "https://github.com/leminlimez/Cluckabunga/releases/download/v1.0.0/Chicken.Butt.17ull.ipa",
+                    "size": 6311848
+                }
+            ]
+        },
+        {
+            "name": "PojavLauncher",
+            "bundleIdentifier": "net.kdt.pojavlauncher",
+            "developerName": "PojavLauncherTeam",
+            "subtitle": "A Minecraft: Java Edition Launcher for Android and iOS based on Boardwalk. Succeeded by https://github.com/AngelAuraMC/Amethyst-iOS",
+            "localizedDescription": "# PojavLauncher for iOS\n[![Development build](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/actions/workflows/development.yml/badge.svg?branch=main)](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/actions/workflows/development.yml)\n[![Crowdin](https://badges.crowdin.net/pojavlauncher/localized.svg)](https://crowdin.com/project/pojavlauncher)\n[![Discord](https://img.shields.io/discord/724163890803638273.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/pojavlauncher-724163890803638273)\n\n## Important note\n\n**PojavLauncher has been discontinued** and is no longer supported. Its successor is available [here](https://github.com/AngelAuraMC/Amethyst-iOS).\n\n\n## Introduction\nPojavLauncher is a Minecraft: Java Edition launcher for Android, iOS, and iPadOS, based off of zhuowei's [Boardwalk](https://github.com/zhuowei/Boardwalk) project.\n* Supports most versions of Minecraft: Java Edition, from the very first beta to the newest snapshots.\n* Supports Forge, Fabric, OptiFine, and Quilt for you to customize the experience with supported mods.\n* Includes customizable on-screen controls, keyboard and mouse support, and game controller support.\n* Optimized for jailbroken and TrollStore devices to enable better capabilities.\n* Microsoft account and demo mode support for logging into Minecraft.\n* ...and much more!\n\nThis repository contains the code for our iOS and iPadOS port of PojavLauncher. Looking for [Android?](https://github.com/PojavLauncherTeam/PojavLauncher)\n\n## Getting started with PojavLauncher\nThe [PojavLauncher Website](https://pojavlauncherteam.github.io/INSTALL.html#ios) has extensive documentation on how to install, set up, and play! For those who wish to install quickly, here's the basics:\n\n### Requirements\nAt the minimum, you'll need one of the following devices on **iOS 14.0** and later:\n- iPhone 6s and later\n- iPad (5th generation) and later\n- iPad Air (2nd generation) and later\n- iPad mini (4th generation) and later\n- iPad Pro (all models)\n- iPod touch (7th generation)\n\nHowever, we recommend one of the following devices on **iOS 14.0** and later:\n- iPhone XS and later, excluding iPhone XR and iPhone SE (2nd generation)\n- iPad (10th generation) and later\n- iPad Air (4th generation) and later\n- iPad mini (6th generation) and later\n- iPad Pro (all models, except for 9.7-inch)\n\nRecommended devices provide a smoother and more enjoyable gameplay experience compared to other supported devices.\n- tvOS support is in development.\n- iOS 17.x and iOS 18.x is supported. However, a computer is required. These methods will ultilized usage of pymobiledevice3. Python 3.11.(x) must be properly set up on your computer. For more information, please check out the official Wiki: https://pojavlauncherteam.github.io/JIT.html#what-are-the-methods-to-enable-jit\n\n### Setting up to sideload\nPojavLauncher can be sideloaded in many ways. Our recommended solution is to install [TrollStore](https://github.com/opa334/TrollStore) if your iOS version supports it. Installing with TrollStore allows you to permenantly sign the application, automatically enable JIT, and increase memory limits.\n\nFor iOS/iPadOS 17.0: Unfortunately,the above process will not work. It is required that you must use [TrollRestore](https://github.com/JJTech0130/TrollRestore). Any versions above iOS/iPadOS 17.0 will NOT be supported (as of December 23, 2024).\n\nIf you cannot, [AltStore](https://altstore.io) and [SideStore](https://sidestore.io) are your next best options.\n- Signing services that do not use your UDID (and use distribution certificates) are not supported, as PojavLauncher requires capabilities they do not allow. However, if you do managed to gain access to a Development certificate, due to it having the necessary entitlement (being com.apple.security.get-task-allow) to attach a debugger to the running process (enabling JIT), you may use a Development certificate.\n  \n- Only install sideloading software and PojavLauncher from trusted sources. We are not responsible for any harm caused by using unofficial software.\n- Jailbreaks also benefit from permenant signing, autoJIT, and increased memory limits, however we do not recommend them for regular use.\n\n### Installing PojavLauncher\n#### Release build (TrollStore)\n1. Download an IPA of PojavLauncher in [Releases](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases).\n2. Open the package in TrollStore using the share menu.\n\n#### Release build (AltStore/SideStore trusted source)\n1. Add `PojavLauncher Repository` from the Trusted Sources menu.\n2. Tap `FREE` to begin installing.\n\n#### Nightly builds\n*These builds can contain game-breaking bugs. Use with caution.*\n1. Download an IPA build of PojavLauncher in the [Actions tab](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/actions).\n2. Open the downloaded IPA in your sideloading app to install.\n\n### Enabling JIT\nPojavLauncher makes use of **just-in-time compilation**, or JIT, to provide usable speeds for the end user. JIT is not supported on iOS without the application being debugged, so workarounds are required to enable it. You can use this chart to determine the best solution for you and your setup.\n| Application         | AltStore | SideStore | TrollStore | Jitterbug          | Jailbroken |\n|---------------------|----------|-----------|------------|--------------------|------------|\n| Requires ext-device | Yes      | No        | No         | If VPN unavailable | No         |\n| Requires Wi-Fi      | Yes      | Yes       | No         | Yes                | No         |\n| Auto enabled        | Yes(*)   | No        | Yes        | No                 | Yes        |\n\n(*) AltServer running on the local network is required.\n\n## Contributors\nPojavLauncher is amazing, and surprisingly stable, and it wouldn't be this way without the commmunity that helped and contribute to the project! Some notable names:\n\n@khanhduytran0 - Lead iOS port developer  \n@crystall1nedev - Lead iOS port developer  \n@artdeell  \n@Mathius-Boulay  \n@zhuowei  \n@jkcoxson   \n@Diatrus \n\n## Third party components and their licenses\n- [Caciocavallo](https://github.com/PojavLauncherTeam/caciocavallo): [GNU GPLv2 License](https://github.com/PojavLauncherTeam/caciocavallo/blob/master/LICENSE).\n- [jsr305](https://code.google.com/p/jsr-305): [3-Clause BSD License](http://opensource.org/licenses/BSD-3-Clause).\n- [Boardwalk](https://github.com/zhuowei/Boardwalk): [Apache 2.0 License](https://github.com/zhuowei/Boardwalk/blob/master/LICENSE) \n- [GL4ES](https://github.com/ptitSeb/gl4es) by @lunixbochs @ptitSeb: [MIT License](https://github.com/ptitSeb/gl4es/blob/master/LICENSE).\n- [Mesa 3D Graphics Library](https://gitlab.freedesktop.org/mesa/mesa): [MIT License](https://docs.mesa3d.org/license.html).\n- [MetalANGLE](https://github.com/khanhduytran0/metalangle) by @kakashidinho and ANGLE team: [BSD 2.0 License](https://github.com/kakashidinho/metalangle/blob/master/LICENSE).\n- [MoltenVK](https://github.com/KhronosGroup/MoltenVK): [Apache 2.0 License](https://github.com/KhronosGroup/MoltenVK/blob/master/LICENSE).\n- [openal-soft](https://github.com/kcat/openal-soft): [LGPLv2 License](https://github.com/kcat/openal-soft/blob/master/COPYING).\n- [Azul Zulu JDK](https://www.azul.com/downloads/?package=jdk): [GNU GPLv2 License](https://openjdk.java.net/legal/gplv2+ce.html).\n- [LWJGL3](https://github.com/PojavLauncherTeam/lwjgl3): [BSD-3 License](https://github.com/LWJGL/lwjgl3/blob/master/LICENSE.md).\n- [LWJGLX](https://github.com/PojavLauncherTeam/lwjglx) (LWJGL2 API compatibility layer for LWJGL3): unknown license.\n- [DBNumberedSlider](https://github.com/khanhduytran0/DBNumberedSlider): [Apache 2.0 License](https://github.com/immago/DBNumberedSlider/blob/master/LICENSE)\n- [fishhook](https://github.com/khanhduytran0/fishhook): [BSD-3 License](https://github.com/facebook/fishhook/blob/main/LICENSE).\n- [shaderc](https://github.com/khanhduytran0/shaderc) (used by Vulkan rendering mods): [Apache 2.0 License](https://github.com/google/shaderc/blob/main/LICENSE).\n- [NRFileManager](https://github.com/mozilla-mobile/firefox-ios/tree/b2f89ac40835c5988a1a3eb642982544e00f0f90/ThirdParty/NRFileManager): [MPL-2.0 License](https://www.mozilla.org/en-US/MPL/2.0)\n- [AltKit](https://github.com/rileytestut/AltKit)\n- [UnzipKit](https://github.com/abbeycode/UnzipKit): [BSD-2 License](https://github.com/abbeycode/UnzipKit/blob/master/LICENSE).\n- [DyldDeNeuralyzer](https://github.com/xpn/DyldDeNeuralyzer): bypasses Library Validation for loading external runtime\n- Thanks to [MCHeads](https://mc-heads.net) for providing Minecraft avatars.\n\n## Special thanks to MacStadium!\nThis project is listed under the MacStadium Open Source Program, which allows all of us developers to keep on moving forward even without physical access to a Mac.\n\n![](https://user-images.githubusercontent.com/55281754/183129754-c3736bb9-d528-4af7-9351-a12b3be7549e.png)\n\n<!-- sillysock was here -->\n",
+            "iconURL": "https://raw.githubusercontent.com/PojavLauncherTeam/PojavLauncher_iOS/refs/heads/main/Natives/resources/AppIcon60x60%402x.png",
+            "versions": [
+                {
+                    "version": "2.2",
+                    "date": "2023-05-06T20:56:25Z",
+                    "localizedDescription": "_Added in Minecraft 1.17, Deepslate makes up the foundation of a Minecraft world, just above bedrock. We chose this name because of the majority of changes in this version targeting core changes._\r\n\r\n----\r\nWith this release of PojavLauncher, we refined features, fixed bugs, and implemented small additions to existing ones to buff user experience. While there are not many notable changes to discuss here, there are some we can show:\r\n- Implemented a controller configurator\r\n- Increased reliability in various places\r\n- Added haptics to the on-screen controls\r\n- Switched to new input methods to speed up control times\r\n- Secured demo mode\r\n- Added new preferences to control more of the app\r\n- Resolve various issues with windowing in older versions\r\n- and many, many more!\r\n----\r\n\r\nThis is the last major release of PojavLauncher that will support iOS 12 and 13. Important security patches and bug fixes will be applied when required for a limited time, however take note that issues encountered will not be considered high priority. See more information in #547.\r\n\r\n---\r\nA full commit changelog is available [here](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/compare/v2.1.3...v2.2).\r\n",
+                    "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.2/net.kdt.pojavlauncher-2.2-ios.ipa",
+                    "size": 108175347
+                },
+                {
+                    "version": "2.1.3",
+                    "date": "2023-01-17T15:55:35Z",
+                    "localizedDescription": "This release of PojavLauncher contains bug fixes and improvements for our users:\r\n\r\n- **FIX** Minecraft Realms unable to register or log into existing Realms\r\n- **FIX** Unable to paste from clipboard with three-finger tap\r\n- **FIX** Modified version library priority\r\n- **FIX** Incorrect time zone\r\n- **FIX** Java Native Access library overrides and checksum verification\r\n- **FIX** Added fallback for AppSync Unified installation sandboxing issue\r\n- **FIX** Jailbroken iOS 15+ packaging\r\n\r\nThe rootless package attached to this release is designed for jailbreaks in /var/jb on iOS 15 and later, such as palera1n. Consult your setup to find out whether or not you need this.",
+                    "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1.3/net.kdt.pojavlauncher-2.1.3.ipa",
+                    "size": 109654128
+                },
+                {
+                    "version": "2.1.2",
+                    "date": "2023-01-02T09:42:57Z",
+                    "localizedDescription": "This release of PojavLauncher contains bug fixes and improvements for our users. We recommend immediately updating to be on a proper and stable code base.",
+                    "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1.2/net.kdt.pojavlauncher-2.1.2.ipa",
+                    "size": 109652551
+                },
+                {
+                    "version": "2.1.1",
+                    "date": "2022-12-18T23:29:11Z",
+                    "localizedDescription": "This version of PojavLauncher contains bug fixes and improvements for our users:\r\n\r\n- **FIX** iOS 12/13 Split View controller unable to open after close\r\n- **FIX** iOS 12 toolbar buttons not working\r\n- **FIX** System support warnings not being displayed\r\n- **FIX** Forge 1.16 hanging on launch",
+                    "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1.1/net.kdt.pojavlauncher-2.1.1.ipa",
+                    "size": 109652595
+                },
+                {
+                    "version": "2.1",
+                    "date": "2022-12-10T18:04:31Z",
+                    "localizedDescription": "_Added in Minecraft 1.19, a Sculk Catalyst is a block dropped by a Warden when killed, making up the biome of Deep Dark. We chose to use it for naming this release because of initial 1.19 support, as well as the monumental changes introduced in this release._\r\n\r\n----\r\n## Notable changes\r\n### PojavLauncher, meet iOS 16.\r\nA dream finally achieved, PojavLauncher 2.1 marks the first release to support **unjailbroken devices.** Enjoy the familiar PojavLauncher experience you know and love, now with the **latest iPhones and iPads** and **latest iOS software.**\r\n\r\n### UI. Beautifully redesigned.\r\nWorking to align the designs of iOS and Android, we've reimagined the user interface into an easy-to-use split view. **Tabs on the left, content on the right**. A **brand-new News screen** replaces the FAQ for always up-to-date information from the team. A **redesigned Settings screen** allows you to fine tune PojavLauncher - even in game. An **intuitive Log Output** screen can be displayed during runtime - allowing you to share line-by-line or all in, automatically presenting in the event of a crash.\r\n\r\n### Bring your own controls.\r\nWe began PojavLauncher by introducing touch controls. We improved on this by making them customizable in so many ways. And now - we've heightened them again, by **adding support for keyboard, mouse, and even controllers.** If it works with iOS, it will most likely work with PojavLauncher too.\r\n\r\n### New account types - so everyone can enjoy.\r\nDon't own Minecraft but want to enjoy? We've got you covered - **demo mode** comes to PojavLauncher. Sign in with a Microsoft account and try out Minecraft on your device. \r\n\r\n### Preparing for the future.\r\nOver this past year, we've seen a lot of changes with Minecraft. We've adapted PojavLauncher again and again, and continue to adapt with multiple changes, such as **removing Mojang login support.** With PojavLauncher 2.1, we begin a transition to **deprecate support for iOS 12 and 13**, focusing on future technologies.\r\n\r\n----\r\n\r\nTo our PojavLauncher iOS users,\r\nWe hope you enjoy this release as much as we enjoyed making it. Even though it's a .1, we really did make a lot of changes to make this a more complete launcher; we dramatically increased compatibility with 1.19 support and unjailbroken builds, improved customization with a brand new user interface and support for new input methods, added support for free users to enjoy the game, and have begun a major transition to our future. We appreciate you all for backing us throughout all of these years, and hope to continue providing that Java-Edition-in-your-pocket experience that you have come to know and love. \r\n\r\n\\- Eilionoir\r\n\r\n----\r\n\r\n_**A full changelog is also available in the News tab of the launcher.**_\r\n\r\n<details hidden>\r\n<summary><strong>Full changelog</strong></summary>\r\n<br>\r\n\r\n### System support changes\r\n* PojavLauncher now supports unjailbroken devices, with the following caveats:\r\n   * You will need a support app to launch with JIT enabled. JitStreamer integration is done to automate this task.\r\n   * Initial Wi-Fi connection is required to enable JIT. Cellular data isn\u2019t supported, Wi-Fi hotspot might be a workaround.\r\n   * RAM allocation is limited. Attempt to go beyond the limit will result in random crashes while loading world chunks.\r\n* TrollStore can now be used to install on supported devices and iOS versions\r\n   * All caveats above do not apply to TrollStore installations, even unjailbroken.\r\n* Last release to support devices with less than 2GB RAM\r\n* Last release to ship with a .deb package for jailbroken devices\r\n\r\n### New features\r\n* Added Demo mode support\r\n* Automatic Java version and Renderer selection\r\n* Cosmetica custom capes integration\r\n* Complete Controller support\r\n* Keyboard and mouse support deepened\r\n* Many settings that were missing from Android are added\r\n\r\n### Security\r\n* Patch log4shell exploit in client\r\n\r\n### User interface\r\n* Redesigned Launcher UI to match Android\r\n* The current login state will be shown in the title\r\n* Play button is greyed out when launching\r\n* Back button is hidden when launching\r\n* Custom controls UI completed!\r\n* The control button editor is now a movable window\r\n* When game crash occurs, Log Output will be shown for user to determine the problem in place\r\n* Multilingual support: you can contribute your translation through Crowdin\r\n* Support Stage Manager resizing and external displays\r\n* Support AirPlay\r\n* New switch to unlock iPadOS UI, allows iPhone users to unlock certain features that are only available on iPad (floating keyboard for example)\r\n\r\n### Fixes\r\n* Slight changes to error messages\r\n* Fix Makefile errors in `deploy` and `ipa`\r\n* Fix NullPointerException when launching \u22641.6.4\r\n* Fix NullPointerException when setting inherited fields\r\n* Fix \u201cShare your logs\u201d not working\r\n* Fix Forge, Fabric 1.17+ not launching\r\n* Fix postinst issue on Procursus\r\n\r\n### Issues\r\n* Installing with AppSync Unified will result in incorrect directories.\r\n* Nintendo Switch Joy-Con controllers are only officially supported since iOS 16.0\r\n* Mouse support requires iOS 14.0 or later, keyboards require iOS 13.4 or later\r\n* Old (pre-2.0) custom control .json files no longer work, remove to fix\r\n* This is the last release that will support Apple devices with less than 2GB of RAM.\r\n* This is the last release that will ship with a .deb package for jailbroken users.\r\n* Mojang login has been removed with this release due to the March 10th deadline\r\n</details>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+                    "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1/net.kdt.pojavlauncher-2.1.ipa",
+                    "size": 109651956
+                }
+            ]
         },
         {
             "name": "Postbox",
