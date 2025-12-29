@@ -6060,6 +6060,142 @@
             ]
         },
         {
+            "name": "Taurine",
+            "bundleIdentifier": "com.coolstar.taurine",
+            "developerName": "Odyssey-Team",
+            "subtitle": "iOS 14 semi-untethered jailbreak",
+            "localizedDescription": "# Taurine\n\niOS 14 semi-untethered jailbreak.\n\n# Supported Devices\n\nAll A8-A14 devices on iOS 14.0-14.3\n\n# License\n\nTaurine is licensed under the 4-Clause BSD License\n",
+            "iconURL": "https://raw.githubusercontent.com/Odyssey-Team/Taurine/refs/heads/main/Taurine/Assets.xcassets/AppIcon.appiconset/icon.png",
+            "versions": [
+                {
+                    "version": "1.1.7-3",
+                    "date": "2023-09-23T19:00:02Z",
+                    "localizedDescription": "Fix kfd change being implemented incorrectly",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-3/Taurine.1.1.7-3.ipa",
+                    "size": 32244737
+                },
+                {
+                    "version": "1.1.7-2",
+                    "date": "2023-09-20T05:45:26Z",
+                    "localizedDescription": "Fix A11 14.0 - 14.4.x failing with kfd",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7-2/Taurine.1.1.7-2.ipa",
+                    "size": 32244695
+                },
+                {
+                    "version": "1.1.7",
+                    "date": "2023-09-18T15:47:00Z",
+                    "localizedDescription": "The long awaited release of Taurine for iOS 14.8.1 is here, now you can jailbreak all of your devices from 14.0 up to 14.8.1!\r\nThis update includes a patch to allow Old ABI tweaks to work on iOS 14.5 (and its enabled by default) so everything should just work!\r\n![](https://cdn-images-1.medium.com/max/499/1*67VnoVW3Oh3DZpRJoEIPPQ.png)\r\n",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.7/Taurine_1.1.7.ipa",
+                    "size": 32244677
+                },
+                {
+                    "version": "1.1.6",
+                    "date": "2022-07-17T12:33:15Z",
+                    "localizedDescription": "- Backports DER entitlement fixes from Taurine15\r\n- Backports codesignature fixes from Taurine15\r\n- Backports various other fixes from Taurine15\r\n",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.6/Taurine-1.1.6.ipa",
+                    "size": 31938370
+                },
+                {
+                    "version": "1.1.5",
+                    "date": "2022-07-05T03:18:18Z",
+                    "localizedDescription": "- Fixed arm64e on 14.2 and 14.3",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.5/Taurine-1.1.5.ipa",
+                    "size": 33044786
+                },
+                {
+                    "version": "1.1.4",
+                    "date": "2022-07-04T22:52:38Z",
+                    "localizedDescription": "- Adds support for taurine-permanent (should work now on first try)\r\n- Backports Swift patchfinder from \\<currently unnamed iOS 15 jailbreak\\>\r\n- Backports IMG4 parser from \\<currently unnamed iOS 15 jailbreak\\> (removes img4tool and fixes Windows Defender false positive)\r\n- Adds support for iOS 15 DER entitlements to jailbreakd\r\n- Adds support for iOS 15.1 Hash Agility to jailbreakd",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.4/Taurine-1.1.4.ipa",
+                    "size": 33045191
+                },
+                {
+                    "version": "1.1.3",
+                    "date": "2022-03-20T05:18:40Z",
+                    "localizedDescription": "* Runs uicache for Sileo for first time users\r\n* Updates built-in libhooker to 1.6.9\r\n* Adds support for custom dyld shared caches",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.3/Taurine-1.1.3.ipa",
+                    "size": 32965554
+                },
+                {
+                    "version": "1.1.2",
+                    "date": "2022-02-18T13:50:10Z",
+                    "localizedDescription": "* Update Sileo to 2.3\r\n* Replace Packix with Havoc as default repo\r\n* Add stability Improvement from Odyssey 1.4.1",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.2/Taurine-1.1.2.ipa",
+                    "size": 32958768
+                },
+                {
+                    "version": "1.1.1",
+                    "date": "2021-09-04T07:35:05Z",
+                    "localizedDescription": "- Fixes issues with injection into cfprefsd\r\n- Re-enables tweak injection into cfprefsd\r\n- Reduces memory usage and improves performance system-wide\r\n",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.1/Taurine-1.1.1.ipa",
+                    "size": 33132976
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2021-08-25T08:40:47Z",
+                    "localizedDescription": "* Adds a patch to fix the boot loop issue in stock iOS (the /var corruption that previously would require users to wait for the next BSOD to use startup repair)\r\n* Adds battery level indicator to recovery UI\r\n* Increases AMFI timeout so there's less BSODs on older/slower devices\r\n* Adds support for custom in-app themes",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.1.0/Taurine-1.1.0.ipa",
+                    "size": 33132859
+                },
+                {
+                    "version": "1.0.7",
+                    "date": "2021-08-19T15:47:32Z",
+                    "localizedDescription": "* Includes new recovery utilities, including Startup Repair\r\n  * Startup Repair will fix any bootloop issues caused by a file being corrupted during userspace reboot\r\n  * Recovery menu can be manually activated by adding `/.libhooker_recovery` and then initiated via a userspace reboot\r\n",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.7/Taurine-1.0.7.ipa",
+                    "size": 33120764
+                },
+                {
+                    "version": "1.0.6",
+                    "date": "2021-06-11T21:53:37Z",
+                    "localizedDescription": "* Fixes BSOD looping issues on devices with 2 GB RAM (e.g. A9 or A10)\r\n* Fixes memory spiking issues when loading certain large apps (now only uses 20 KB of RAM whereas 1.0.5 RC could spike temporarily up to ~400 - 500 MB depending on the size of the app)\r\n* Improves performance and reliability in low memory situations\r\n\r\nNOTE: Use with Libhooker 1.6.2 or newer for best results.",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.6/Taurine-1.0.6.ipa",
+                    "size": 32956153
+                },
+                {
+                    "version": "1.0.5",
+                    "date": "2021-06-06T19:29:28Z",
+                    "localizedDescription": "* Applies a fix for amfid panics so that it should happen less often\r\n* BSODs dump info about the BSOD to /.last_bsod\r\n* Creating /.verbose_bsod will show a verbose BSOD instead\r\n* SpringBoard alert when tweaks are disabled (either in case of a BSOD or when they're disabled manually)",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.5/Taurine-1.0.5.ipa",
+                    "size": 32955278
+                },
+                {
+                    "version": "1.0.4",
+                    "date": "2021-04-15T09:47:10Z",
+                    "localizedDescription": "- Improves battery life\r\n- Fixes hangs when renaming certain tweak dylibs\r\n- Fixes userspace reboot failing for certain users\r\n- Fixes full system hangs for certain users",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.4/Taurine-1.0.4.ipa",
+                    "size": 31671275
+                },
+                {
+                    "version": "1.0.3",
+                    "date": "2021-04-09T12:35:39Z",
+                    "localizedDescription": "* Fixes CarPlay on Ford vehicles (or the FordPass app) crashing\r\n* Fixes the shell failing to spawn sometimes (e.g. when spamming open tab in NewTerm)\r\n* Fixes kernel panics on malformed shell commands\r\n* Updates bundled bootstrap",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.3/Taurine-1.0.3.ipa",
+                    "size": 31671782
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2021-04-06T22:38:02Z",
+                    "localizedDescription": "- Increase jetsam limits\r\n- Fix battery drain bug from 1.0.1\r\n- Redesigned userspace reboot screens!",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.2/Taurine-1.0.2.ipa",
+                    "size": 30203990
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2021-04-04T06:14:13Z",
+                    "localizedDescription": "* Fix sandbox issues with certain processes (e.g. WebContent)\r\n* Fix zombie processes on subsequent userspace reboot",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0.1/Taurine-1.0.1.ipa",
+                    "size": 28244226
+                },
+                {
+                    "version": "1.0",
+                    "date": "2021-04-01T16:14:27Z",
+                    "localizedDescription": "- Initial Taurine Release!",
+                    "downloadURL": "https://github.com/Odyssey-Team/Taurine/releases/download/1.0/Taurine-1.0.ipa",
+                    "size": 28244236
+                }
+            ]
+        },
+        {
             "name": "Cluckabunga",
             "bundleIdentifier": "com.leminlimez.Cluckabunga",
             "developerName": "leminlimez",
@@ -6160,6 +6296,128 @@
                     "localizedDescription": "_Added in Minecraft 1.19, a Sculk Catalyst is a block dropped by a Warden when killed, making up the biome of Deep Dark. We chose to use it for naming this release because of initial 1.19 support, as well as the monumental changes introduced in this release._\r\n\r\n----\r\n## Notable changes\r\n### PojavLauncher, meet iOS 16.\r\nA dream finally achieved, PojavLauncher 2.1 marks the first release to support **unjailbroken devices.** Enjoy the familiar PojavLauncher experience you know and love, now with the **latest iPhones and iPads** and **latest iOS software.**\r\n\r\n### UI. Beautifully redesigned.\r\nWorking to align the designs of iOS and Android, we've reimagined the user interface into an easy-to-use split view. **Tabs on the left, content on the right**. A **brand-new News screen** replaces the FAQ for always up-to-date information from the team. A **redesigned Settings screen** allows you to fine tune PojavLauncher - even in game. An **intuitive Log Output** screen can be displayed during runtime - allowing you to share line-by-line or all in, automatically presenting in the event of a crash.\r\n\r\n### Bring your own controls.\r\nWe began PojavLauncher by introducing touch controls. We improved on this by making them customizable in so many ways. And now - we've heightened them again, by **adding support for keyboard, mouse, and even controllers.** If it works with iOS, it will most likely work with PojavLauncher too.\r\n\r\n### New account types - so everyone can enjoy.\r\nDon't own Minecraft but want to enjoy? We've got you covered - **demo mode** comes to PojavLauncher. Sign in with a Microsoft account and try out Minecraft on your device. \r\n\r\n### Preparing for the future.\r\nOver this past year, we've seen a lot of changes with Minecraft. We've adapted PojavLauncher again and again, and continue to adapt with multiple changes, such as **removing Mojang login support.** With PojavLauncher 2.1, we begin a transition to **deprecate support for iOS 12 and 13**, focusing on future technologies.\r\n\r\n----\r\n\r\nTo our PojavLauncher iOS users,\r\nWe hope you enjoy this release as much as we enjoyed making it. Even though it's a .1, we really did make a lot of changes to make this a more complete launcher; we dramatically increased compatibility with 1.19 support and unjailbroken builds, improved customization with a brand new user interface and support for new input methods, added support for free users to enjoy the game, and have begun a major transition to our future. We appreciate you all for backing us throughout all of these years, and hope to continue providing that Java-Edition-in-your-pocket experience that you have come to know and love. \r\n\r\n\\- Eilionoir\r\n\r\n----\r\n\r\n_**A full changelog is also available in the News tab of the launcher.**_\r\n\r\n<details hidden>\r\n<summary><strong>Full changelog</strong></summary>\r\n<br>\r\n\r\n### System support changes\r\n* PojavLauncher now supports unjailbroken devices, with the following caveats:\r\n   * You will need a support app to launch with JIT enabled. JitStreamer integration is done to automate this task.\r\n   * Initial Wi-Fi connection is required to enable JIT. Cellular data isn\u2019t supported, Wi-Fi hotspot might be a workaround.\r\n   * RAM allocation is limited. Attempt to go beyond the limit will result in random crashes while loading world chunks.\r\n* TrollStore can now be used to install on supported devices and iOS versions\r\n   * All caveats above do not apply to TrollStore installations, even unjailbroken.\r\n* Last release to support devices with less than 2GB RAM\r\n* Last release to ship with a .deb package for jailbroken devices\r\n\r\n### New features\r\n* Added Demo mode support\r\n* Automatic Java version and Renderer selection\r\n* Cosmetica custom capes integration\r\n* Complete Controller support\r\n* Keyboard and mouse support deepened\r\n* Many settings that were missing from Android are added\r\n\r\n### Security\r\n* Patch log4shell exploit in client\r\n\r\n### User interface\r\n* Redesigned Launcher UI to match Android\r\n* The current login state will be shown in the title\r\n* Play button is greyed out when launching\r\n* Back button is hidden when launching\r\n* Custom controls UI completed!\r\n* The control button editor is now a movable window\r\n* When game crash occurs, Log Output will be shown for user to determine the problem in place\r\n* Multilingual support: you can contribute your translation through Crowdin\r\n* Support Stage Manager resizing and external displays\r\n* Support AirPlay\r\n* New switch to unlock iPadOS UI, allows iPhone users to unlock certain features that are only available on iPad (floating keyboard for example)\r\n\r\n### Fixes\r\n* Slight changes to error messages\r\n* Fix Makefile errors in `deploy` and `ipa`\r\n* Fix NullPointerException when launching \u22641.6.4\r\n* Fix NullPointerException when setting inherited fields\r\n* Fix \u201cShare your logs\u201d not working\r\n* Fix Forge, Fabric 1.17+ not launching\r\n* Fix postinst issue on Procursus\r\n\r\n### Issues\r\n* Installing with AppSync Unified will result in incorrect directories.\r\n* Nintendo Switch Joy-Con controllers are only officially supported since iOS 16.0\r\n* Mouse support requires iOS 14.0 or later, keyboards require iOS 13.4 or later\r\n* Old (pre-2.0) custom control .json files no longer work, remove to fix\r\n* This is the last release that will support Apple devices with less than 2GB of RAM.\r\n* This is the last release that will ship with a .deb package for jailbroken users.\r\n* Mojang login has been removed with this release due to the March 10th deadline\r\n</details>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
                     "downloadURL": "https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/download/v2.1/net.kdt.pojavlauncher-2.1.ipa",
                     "size": 109651956
+                }
+            ]
+        },
+        {
+            "name": "Odyssey",
+            "bundleIdentifier": "org.coolstar.odyssey",
+            "developerName": "Odyssey-Team",
+            "subtitle": "Odyssey Swift-based semi-untethered jailbreak",
+            "localizedDescription": "404: Not Found",
+            "iconURL": "https://raw.githubusercontent.com/Odyssey-Team/Odyssey/refs/heads/master/Odyssey/Assets.xcassets/AppIcon.appiconset/Icon-76.png",
+            "versions": [
+                {
+                    "version": "1.4.3",
+                    "date": "2023-04-04T04:01:02Z",
+                    "localizedDescription": "- Update Sileo to 2.3-1",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.3/Odyssey-1.4.3.ipa",
+                    "size": 27204395
+                },
+                {
+                    "version": "1.4.2",
+                    "date": "2022-02-18T14:56:25Z",
+                    "localizedDescription": "- Update Sileo to 2.3\r\n- Replace Packix with Havoc as default repo",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.4.2/Odyssey-1.4.2.ipa",
+                    "size": 27204977
+                },
+                {
+                    "version": "1.4.1",
+                    "date": "2021-09-22T07:35:06Z",
+                    "localizedDescription": "- Fixes issues with A12/A13 devices not jailbreaking successfully",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.1/Odyssey-1.4.1.ipa",
+                    "size": 27440566
+                },
+                {
+                    "version": "1.4.0",
+                    "date": "2021-09-15T23:36:13Z",
+                    "localizedDescription": "* Eliminates memory spikes while launching apps\r\n* Fixes large portion of full system freezing\r\n* Adds Odyssey crash handler (BSOD)\r\n* Adds Recovery Utilities that gets launched after a BSOD\r\n* Updates bundled Procursus \r\n* Updates bundled Sileo\r\n* Backports remount fix from Taurine\r\n* Backports bootloop fix from Taurine (iOS 13 does not seem to be affected by this issue, but the fix has been backported regardless)",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.4.0/Odyssey-1.4.0.ipa",
+                    "size": 27440718
+                },
+                {
+                    "version": "1.3.3",
+                    "date": "2021-04-15T22:00:54Z",
+                    "localizedDescription": "- Fixes Filza not launching\r\n- Fixes binaries signed with old ldid not spawning",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.3.3/Odyssey-1.3.3.ipa",
+                    "size": 22685520
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2021-04-15T09:48:52Z",
+                    "localizedDescription": "- Fixes crash with Ford vehicles with CarPlay\r\n- Fixes zsh failing to spawn sometimes\r\n- Uses cicuta_virosa as default exploit\r\n- Updates bundled Procursus strap with latest updates\r\n- Removes migration\r\n- Fixes UI crash in app when swiping left too fast on the menu\r\n- Removes oob_events\r\n- Exploit selector now has cicuta_virosa, FTSB and tardy0n\r\n- Fixes crash when entering malformed commands into a terminal",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.3.2/Odyssey-1.3.2.ipa",
+                    "size": 22686744
+                },
+                {
+                    "version": "1.3.0",
+                    "date": "2021-03-02T23:23:07Z",
+                    "localizedDescription": "- Adds userspace reboot support\r\n- Fixes issues with memory usage\r\n- Faster app launch times\r\n- General stability fixes\r\n\r\nPlease update libnotifications from [CokePokes' repo](http://cokepokes.github.io) to fix issues with Cr4shed.",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.3.0/Odyssey-1.3.0.ipa",
+                    "size": 21222741
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2020-11-27T02:41:17Z",
+                    "localizedDescription": "- Enabled A8/A9 support for 13.5.1-13.7 with oob_events (thanks to [simo](https://mobile.twitter.com/_simo36) for the exploit!)",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.2.2/Odyssey-1.2.2.ipa",
+                    "size": 21099395
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2020-11-24T13:49:09Z",
+                    "localizedDescription": "- Improves exploit reliability on 13.0 - 13.7 for all A10 and up devices.\r\n- A8(X)/A9(X) devices now default to the tardy0n exploit (13.0 - 13.5 only)\r\n- Issues were fixed with exploit reliability on A10 iPads.",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.2.1/Odyssey-1.2.1.ipa",
+                    "size": 21074551
+                },
+                {
+                    "version": "1.2",
+                    "date": "2020-11-20T10:41:10Z",
+                    "localizedDescription": "- Added support for all iOS devices between iOS 13.0-13.7 (thanks to [FreeTheSandbox](https://twitter.com/freethesandbox)!)\r\n- Improved exploit reliability on iOS 13.0-13.5",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.2/Odyssey-1.2.ipa",
+                    "size": 21076535
+                },
+                {
+                    "version": "1.1.2",
+                    "date": "2020-09-23T16:03:19Z",
+                    "localizedDescription": "- Further bug fixes and improvements over 1.1.1.",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.1.2/Odyssey-1.1.2.ipa",
+                    "size": 26660985
+                },
+                {
+                    "version": "1.1.1",
+                    "date": "2020-09-16T17:30:58Z",
+                    "localizedDescription": "* Fixes memory leak and freezing issues introduced in 1.1.0.",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.1.1/Odyssey-1.1.1.ipa",
+                    "size": 26665076
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2020-09-14T02:53:27Z",
+                    "localizedDescription": "* Fixes blackscreen issues after jailbreaking when certain packages are installed.\r\n* Includes custom theming support, with both images and custom colours.",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/1.1.0/Odyssey-1.1.0.ipa",
+                    "size": 26664981
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2020-09-04T10:10:45Z",
+                    "localizedDescription": "* Fixes intermittent kernel panics that could happen of \"unexpected exec of non-platform binary\"\r\n* Included Sileo build now properly asks for network connection on Chinese devices",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.0.2/Odyssey-1.0.2.ipa",
+                    "size": 26420268
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2020-08-29T07:10:02Z",
+                    "localizedDescription": "- Fixed SwiftZSTD linking issue causing sideloading issues.",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.0.1/Odyssey-1.0.1.ipa",
+                    "size": 26410817
+                },
+                {
+                    "version": "1.0",
+                    "date": "2020-08-29T07:08:40Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/Odyssey-Team/Odyssey/releases/download/v1.0/Odyssey-1.0.ipa",
+                    "size": 26055027
                 }
             ]
         },
