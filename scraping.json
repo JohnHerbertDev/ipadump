@@ -426,5 +426,89 @@
         "bundleID": "org.coolstar.odyssey",
         "iconURL": "https://raw.githubusercontent.com/Odyssey-Team/Odyssey/refs/heads/master/Odyssey/Assets.xcassets/AppIcon.appiconset/Icon-76.png",
         "allowPrerelease": false
+    },
+    {
+        "github": "sourcelocation/AirTroller",
+        "bundleID": "net.sourceloc.AirTroller",
+        "name": "AirTroller",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/sourcelocation/AirTroller/refs/heads/main/AirTroller/Assets.xcassets/AppIcon.appiconset/Artboard.png"
+    },
+    {
+        "github": "osy/Jitterbug",
+        "bundleID": "com.osy86.Jitterbug",
+        "name": "Jitterbug",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/osy/Jitterbug/refs/heads/main/Jitterbug/Assets.xcassets/AppIcon.appiconset/Icon.png"
+    },
+    {
+        "github": "Provenance-Emu/Provenance",
+        "bundleID": "org.provenance-emu.provenance",
+        "name": "Provenance",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Provenance-Emu/Provenance/refs/heads/develop/Cores/PPSSPP/cmake/assets/Icon%403x.png"
+    },
+    {
+        "github": "leminlimez/Cowabunga",
+        "bundleID": "com.leemin.Cowabunga",
+        "name": "Cowabunga",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/leminlimez/Cowabunga/refs/heads/main/Cowabunga/Assets.xcassets/AppIcons/AppIcon.appiconset/Cowabunga.png"
+    },
+    {
+        "github": "Lrdsnow/SimpleKFD",
+        "bundleID": "com.lrdsnow.test",
+        "name": "SimpleKFD",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Lrdsnow/SimpleKFD/refs/heads/main/kfd/Assets.xcassets/AppIcon.appiconset/icon.png"
+    },
+    {
+        "github": "Akylas/oss-weather",
+        "bundleID": "com.akylas.weather",
+        "name": "OSS Weather",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/master/Icon.png"
+    },
+    {
+        "github": "Akylas/alpimaps",
+        "bundleID": "akylas.alpi.maps",
+        "name": "Alpimaps",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Akylas/alpimaps/refs/heads/master/App_Resources/iOS/icon%403x.png"
+    },
+    {
+        "github": "yattee/yattee",
+        "bundleID": "stream.yattee.app",
+        "name": "Yattee",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/yattee/yattee/refs/heads/main/Shared/Assets.xcassets/AppIcon.appiconset/Icon-MacOS-128x128%401x.png"
+    },
+    {
+        "github": "guillermo-moran/ClassicPlayer",
+        "bundleID": "me.gmoran.ClassicPlayer",
+        "name": "ClassicPlayer",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/guillermo-moran/ClassicPlayer/refs/heads/master/ClassicPlayer_icon.png"
+    },
+    {
+        "github": "BearTS/actual-budget-app",
+        "bundleID": "com.actual.accounts",
+        "name": "Actual Budget App",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/BearTS/actual-budget-app/refs/heads/dev/iOSApp/Resources/Assets.xcassets/AppIcon.appiconset/dark-final.png"
+    },
+    {
+        "github": "YangJiiii/EnsWilde",
+        "bundleID": "com.yangjiii.EnsWilde",
+        "name": "EnsWilde",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png"
+    },
+    {
+        "github": "speedyfriend433/ReDyne",
+        "bundleID": "com.jian.ReDyne",
+        "name": "ReDyne",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/speedyfriend433/ReDyne/refs/heads/main/ReDyne/ReDyne/Assets.xcassets/AppIcon.appiconset/ReDyne%20icon%202.png"
     }
 ]
