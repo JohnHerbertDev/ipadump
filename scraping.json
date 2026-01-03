@@ -428,13 +428,6 @@
         "allowPrerelease": false
     },
     {
-        "github": "sourcelocation/AirTroller",
-        "bundleID": "net.sourceloc.AirTroller",
-        "name": "AirTroller",
-        "allowPrerelease": false,
-        "iconURL": "https://raw.githubusercontent.com/sourcelocation/AirTroller/refs/heads/main/AirTroller/Assets.xcassets/AppIcon.appiconset/Artboard.png"
-    },
-    {
         "github": "osy/Jitterbug",
         "bundleID": "com.osy86.Jitterbug",
         "name": "Jitterbug",
