@@ -10,6 +10,309 @@
     "headerURL": "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/18e85263-afea-4d98-a16f-42554f815528/Wave1x1.png",
     "apps": [
         {
+            "name": "iSH",
+            "bundleIdentifier": "app.ish.ISH",
+            "marketplaceID": "",
+            "developerName": "ish-app",
+            "subtitle": "Linux in your pocket",
+            "localizedDescription": "A Linux-like shell on iOS. You can edit files with sed and cat, move them around, and more!\n\nhttps://github.com/ish-app/ish/ ",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7a/78/e3/7a78e31a-10c7-f56e-822d-c1edf05d66e2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/400x400ia-75.webp",
+            "tintColor": "#5463b3",
+            "category": "developer",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/36/04/e1/3604e16e-c5a7-dd5f-ea96-e52eafcc3134/7f303403-4a64-4d56-925f-1d43bcd47c44_iPhone_X-01systeminfo.png/300x650bb.webp"
+                ],
+                "ipad": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/17/31/aa/1731aa96-bd95-abe2-c0c4-b782cd4d35d7/3aa300ba-aa7b-457b-bba8-4539d541c673_iPad_Pro__U002812.9-inch_U0029__U00283rd_generation_U0029-01systeminfo.png/960x1280bb.webp"
+                ]
+            },
+            "versions": [
+                {
+                    "version": "builds/802",
+                    "date": "2025-12-20T06:20:13Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/802/iSH.ipa",
+                    "size": 1471683,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/801",
+                    "date": "2025-12-06T06:18:21Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/801/iSH.ipa",
+                    "size": 4603459,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/800",
+                    "date": "2025-11-29T06:18:16Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/800/iSH.ipa",
+                    "size": 4603456,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/799",
+                    "date": "2025-11-28T06:25:36Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/799/iSH.ipa",
+                    "size": 4603464,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/798",
+                    "date": "2025-11-22T06:18:45Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/798/iSH.ipa",
+                    "size": 4603446,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/797",
+                    "date": "2025-11-15T06:18:52Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/797/iSH.ipa",
+                    "size": 4603453,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/796",
+                    "date": "2025-11-08T06:18:12Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/796/iSH.ipa",
+                    "size": 4603438,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/795",
+                    "date": "2025-11-01T06:17:17Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/795/iSH.ipa",
+                    "size": 4603435,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/794",
+                    "date": "2025-10-25T06:17:52Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/794/iSH.ipa",
+                    "size": 4603443,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/793",
+                    "date": "2025-10-18T06:18:15Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/793/iSH.ipa",
+                    "size": 4603439,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/792",
+                    "date": "2025-10-11T06:17:08Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/792/iSH.ipa",
+                    "size": 4603446,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/791",
+                    "date": "2025-10-04T06:17:03Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/791/iSH.ipa",
+                    "size": 4603444,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/790",
+                    "date": "2025-09-27T06:26:21Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/790/iSH.ipa",
+                    "size": 4603433,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/789",
+                    "date": "2025-09-20T06:18:10Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/789/iSH.ipa",
+                    "size": 4603441,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/788",
+                    "date": "2025-09-13T06:16:39Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/788/iSH.ipa",
+                    "size": 4603435,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/787",
+                    "date": "2025-09-06T06:17:10Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/787/iSH.ipa",
+                    "size": 4603433,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/786",
+                    "date": "2025-08-30T06:16:59Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/786/iSH.ipa",
+                    "size": 4603434,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/785",
+                    "date": "2025-08-09T06:17:43Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/785/iSH.ipa",
+                    "size": 4556888,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/784",
+                    "date": "2025-08-02T06:18:02Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/784/iSH.ipa",
+                    "size": 4556881,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/783",
+                    "date": "2025-07-27T06:17:53Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/783/iSH.ipa",
+                    "size": 4556880,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/782",
+                    "date": "2025-06-14T06:16:57Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/782/iSH.ipa",
+                    "size": 4556879,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/781",
+                    "date": "2025-06-07T06:17:21Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/781/iSH.ipa",
+                    "size": 4556877,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/780",
+                    "date": "2025-05-31T06:16:30Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/780/iSH.ipa",
+                    "size": 4556879,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/779",
+                    "date": "2025-05-24T06:16:19Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/779/iSH.ipa",
+                    "size": 4556886,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/778",
+                    "date": "2025-05-17T06:17:04Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/778/iSH.ipa",
+                    "size": 4556873,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/777",
+                    "date": "2025-05-10T06:17:00Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/777/iSH.ipa",
+                    "size": 4556880,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/776",
+                    "date": "2025-05-03T06:16:13Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/776/iSH.ipa",
+                    "size": 4556861,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/775",
+                    "date": "2025-05-02T06:17:57Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/775/iSH.ipa",
+                    "size": 4556871,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/774",
+                    "date": "2025-04-19T06:16:46Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/774/iSH.ipa",
+                    "size": 4565236,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/773",
+                    "date": "2025-04-12T06:16:18Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/773/iSH.ipa",
+                    "size": 4565240,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "builds/803",
+                    "date": "2026-01-03T06:21:05Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/803/iSH.ipa",
+                    "size": 4603467
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Discord (BTLoader)",
             "bundleIdentifier": "com.hammerandchisel.discord",
             "marketplaceID": "",
@@ -58,6 +361,15 @@
             },
             "versions": [
                 {
+                    "version": "305.1",
+                    "date": "2026-01-02T13:47:54Z",
+                    "localizedDescription": "\ud83c\udf89 | Download the latest stable build here.\r\n\r\n**_PS: For those who read these... which I doubt is many. We are staying on versions lower than 306. This is because 306 and onward has broken plugin settings pages. Which sadly only can be fixed by plugin devs stepping in, which they evidently have not. I can still do newer versions. But the vast majority never reads these messages and will assume the worst if it doesn't work out of the box. Sorry my fellow testers._**\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.1\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.1/bound.ipa",
+                    "size": 99214914,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
                     "version": "305.0",
                     "date": "2025-11-17T22:58:47Z",
                     "localizedDescription": "\u2705 | Download the latest stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
@@ -101,13 +413,6 @@
                     "size": 93827160,
                     "buildVersion": null,
                     "minOSVersion": null
-                },
-                {
-                    "version": "305.1",
-                    "date": "2026-01-02T13:47:54Z",
-                    "localizedDescription": "\ud83c\udf89 | Download the latest stable build here.\r\n\r\n**_PS: For those who read these... which I doubt is many. We are staying on versions lower than 306. This is because 306 and onward has broken plugin settings pages. Which sadly only can be fixed by plugin devs stepping in, which they evidently have not. I can still do newer versions. But the vast majority never reads these messages and will assume the worst if it doesn't work out of the box. Sorry my fellow testers._**\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.1\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.1/bound.ipa",
-                    "size": 99214914
                 }
             ],
             "appPermissions": {
@@ -121,13 +426,28 @@
             "bundleIdentifier": "com.nuvio.app",
             "marketplaceID": "",
             "developerName": "tapframe",
-            "subtitle": "A simple Media Hub",
-            "localizedDescription": "Nuvio Media Hub is a cross\u2011platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
+            "subtitle": "Streaming app for movies and TV shows",
+            "localizedDescription": "Nuvio is a comprehensive streaming application that provides access to a vast library of movies and TV shows.\nNuvio Media Hub is a cross\u2011platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
             "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
-            "tintColor": "#1500ff",
+            "tintColor": "#04dcfc",
             "category": "entertainment",
-            "screenshots": [],
+            "screenshots": [
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/seasonandepisode-portrait.png?raw=tru",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png?raw=true"
+            ],
             "versions": [
+                {
+                    "version": "1.3.3",
+                    "date": "2025-12-31T22:32:21Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - \u26a0\ufe0f It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
+                    "size": 36122947,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
                 {
                     "version": "1.3.2",
                     "date": "2025-12-27T22:16:36Z",
@@ -280,13 +600,6 @@
                     "size": 30213962,
                     "buildVersion": null,
                     "minOSVersion": null
-                },
-                {
-                    "version": "1.3.3",
-                    "date": "2025-12-31T22:32:21Z",
-                    "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - \u26a0\ufe0f It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
-                    "size": 36122947
                 }
             ],
             "appPermissions": {
@@ -308,6 +621,24 @@
             "screenshots": [],
             "versions": [
                 {
+                    "version": "V2.1",
+                    "date": "2025-12-31T05:29:04Z",
+                    "localizedDescription": "**Hot Fix**\r\n\r\nAfter my post to reddit I received a lot of useful feedback that I thought I would go ahead and implement. The following changes are below: \r\n\r\n**Stalker/MAC under construction it doesn't work right now**\r\n\r\n- New settings UI\r\n- Buttons to go forward or backward one channel\r\n\r\n- **Support for multiple playlists**\r\n\r\n- **Support for multiple EPGs**\r\n\r\n- Sort of in app updates. I can't really without a $99 a year dev account so right now it checks if you are up to date and if your not it will send you to the latest release tab in GitHub\r\n\r\n- **Completely revamped the speed of the player so channels will load much faster now closer to other apps like Smarters IPTV**\r\n\r\n- Slight refresh to the multi view section so channels don't reload every time a new channel is added.\r\n\r\n- mini player doesn't reload every time it is activated same for when the user goes back to full screen.",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.1/Nebulo_V2.1.8.ipa",
+                    "size": 5347319,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "V2.0",
+                    "date": "2025-12-30T06:07:00Z",
+                    "localizedDescription": "  \ud83d\ude80 Nebulo V2.0 - The Ultimate iOS IPTV Experience\r\n\r\n  Nebulo V2.0 is here! This is a complete rewrite and a massive leap forward,\r\n  bringing desktop-class features to your iPhone and iPad. With a stunning\r\n  glassmorphism UI, Multi-View support, and a dedicated Sports Center, Nebulo\r\n  defines how IPTV should look and feel on iOS.\r\n\r\n  \u2728 New Features\r\n\r\n  \ud83d\udcfa Multi-View Mode\r\n  Watch up to 4 streams simultaneously! Perfect for sports days or tracking\r\n  multiple news channels.\r\n   - Grid layout for 2x2 viewing.\r\n   - Seamlessly add channels from the player or context menus.\r\n   - Audio focus switching with a simple tap.\r\n\r\n  \u23ef\ufe0f All-New Custom Video Player\r\n  Built on top of AVKit for maximum performance and battery efficiency.\r\n   - Smart Picture-in-Picture (PiP): Now with refined logic\u2014PiP only activates\r\n     when you want it and automatically dismisses when you switch streams.\r\n   - Quick Switcher: Swipe up to surf channels without leaving the stream.\r\n   - Quality Indicators: Auto-detects 4K, 1080p, 720p, and SD streams.\r\n   - Mini Player: Keep watching in-app while browsing the guide.\r\n\r\n  \u26bd Sports Center & Smart EPG\r\n   - Sports Hub: A dedicated view to find live events quickly.\r\n   - Dynamic EPG: Live program updates with a \"Dynamic Island\" style loading\r\n     indicator.\r\n   - Smart Search: Find channels, categories, and current programs instantly.\r\n\r\n  \ud83c\udfa8 Stunning UI/UX\r\n   - Nebula Backgrounds: Dynamic, colorful backgrounds that breathe with the\r\n     app.\r\n   - Adaptive Layouts: Optimized interfaces for both iPhone (Standard) and iPad\r\n     (Sidebar/Landscape).\r\n   - Glassmorphism: Modern, translucent aesthetics throughout the app.\r\n\r\n  \ud83d\udee0 Under the Hood\r\n   - Performance: Significant optimizations in stream loading and memory\r\n     management.\r\n   - Stability: Fixed issues with background audio and stream switching.\r\n   - Stack: 100% SwiftUI & Combine.\r\n\r\n\r\n  Note: Requires a valid Xtream Codes, m3u, or stalker portal this is just an app it does not provide any of this.\r\n\r\n  ---\r\n\r\n  \u2764\ufe0f Support the Project\r\n\r\n  Nebulo is free and open-source. If you enjoy using it, consider buying me a\r\n  coffee!\r\n\r\n  <a href=\"https://buymeacoffee.com/mongoosemonke\">\r\n    <img\r\n  src=\"https://camo.githubusercontent.com/2103f6f19430c25368a3350117da5b736b008d\r\n  776858e772b226e642398555e0/68747470733a2f2f63646e2e6275796d6561636f666665652e6\r\n  36f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67\" alt=\"Buy Me\r\n  A Coffee\" width=\"160\">\r\n  </a>\r\n\r\n  ---\r\n\r\n  Found a bug? Open an issue!",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.0/NebuloV2.0.3.ipa",
+                    "size": 5238365,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
                     "version": "V1.1",
                     "date": "2025-12-16T22:37:47Z",
                     "localizedDescription": "This update brings a major new login method, significant video player upgrades, multiview, and highly requested UI fixes.\r\n\r\nNew Features\r\n * MAC Address / Stalker Portal Support: You can now login using a Portal URL and MAC Address (00:1A:79...). The app handles the handshake automatically.\r\n * Picture-in-Picture (PiP): Added a PiP toggle to the video player overlay. Watch your streams while using other apps!\r\n * Seek Controls: Added -10s and +10s buttons to the player overlay.\r\n * \"Jump to Live\" Button: The new LIVE indicator is now interactive. If you are behind, tap it to jump instantly to the latest point in the stream.\r\n *  Multiview: Added a multi-view section to watch up to 4 streams at the same time\r\n\r\nImprovements\r\n * Smart Search Fallback: If a specific game isn't found in Sports Center, the app now automatically searches for the broadcasting network (e.g., \"ESPN\") instead of showing zero results.\r\n * Sidebar Organization: Reordered sidebar items for better access: Recently Watched \u2192 Favorites \u2192 Sports Center \u2192 Multi-View \u2192 All Channels.\r\n * Update Logic: Added a \"Don't Ask Again\" option to the update alert to mute notifications for a specific version.\r\n * Login UI: Redesigned the login picker to support two lines of text, preventing cutoff on smaller screens.\r\n * More soccer leagues: Added more soccer leagues in the sports center section (Ligue 1, Serie A, Liga MX, and more)\r\n \r\nBug Fixes\r\n * Fixed Video Freezing: Completely rewrote the buffer logic to prevent the player from getting stuck on the first frame or freezing indefinitely during network stalls.\r\n * Fixed Multi-View Cropping: Streams in multi-view mode now show the full video picture instead of zooming in and cropping the edges.\r\n * Fixed Text Cutoff: Login instructions and titles now auto-shrink to fit any screen size without being cut off.\r\n \r\nHow to Install:\r\nDownload the .ipa file below and install via SideStore, AltStore, or TrollStore.\r\n",
@@ -324,20 +655,6 @@
                     "size": 2257619,
                     "buildVersion": null,
                     "minOSVersion": null
-                },
-                {
-                    "version": "V2.1",
-                    "date": "2025-12-31T05:29:04Z",
-                    "localizedDescription": "**Hot Fix**\r\n\r\nAfter my post to reddit I received a lot of useful feedback that I thought I would go ahead and implement. The following changes are below: \r\n\r\n**Stalker/MAC under construction it doesn't work right now**\r\n\r\n- New settings UI\r\n- Buttons to go forward or backward one channel\r\n\r\n- **Support for multiple playlists**\r\n\r\n- **Support for multiple EPGs**\r\n\r\n- Sort of in app updates. I can't really without a $99 a year dev account so right now it checks if you are up to date and if your not it will send you to the latest release tab in GitHub\r\n\r\n- **Completely revamped the speed of the player so channels will load much faster now closer to other apps like Smarters IPTV**\r\n\r\n- Slight refresh to the multi view section so channels don't reload every time a new channel is added.\r\n\r\n- mini player doesn't reload every time it is activated same for when the user goes back to full screen.",
-                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.1/Nebulo_V2.1.8.ipa",
-                    "size": 5347319
-                },
-                {
-                    "version": "V2.0",
-                    "date": "2025-12-30T06:07:00Z",
-                    "localizedDescription": "  \ud83d\ude80 Nebulo V2.0 - The Ultimate iOS IPTV Experience\r\n\r\n  Nebulo V2.0 is here! This is a complete rewrite and a massive leap forward,\r\n  bringing desktop-class features to your iPhone and iPad. With a stunning\r\n  glassmorphism UI, Multi-View support, and a dedicated Sports Center, Nebulo\r\n  defines how IPTV should look and feel on iOS.\r\n\r\n  \u2728 New Features\r\n\r\n  \ud83d\udcfa Multi-View Mode\r\n  Watch up to 4 streams simultaneously! Perfect for sports days or tracking\r\n  multiple news channels.\r\n   - Grid layout for 2x2 viewing.\r\n   - Seamlessly add channels from the player or context menus.\r\n   - Audio focus switching with a simple tap.\r\n\r\n  \u23ef\ufe0f All-New Custom Video Player\r\n  Built on top of AVKit for maximum performance and battery efficiency.\r\n   - Smart Picture-in-Picture (PiP): Now with refined logic\u2014PiP only activates\r\n     when you want it and automatically dismisses when you switch streams.\r\n   - Quick Switcher: Swipe up to surf channels without leaving the stream.\r\n   - Quality Indicators: Auto-detects 4K, 1080p, 720p, and SD streams.\r\n   - Mini Player: Keep watching in-app while browsing the guide.\r\n\r\n  \u26bd Sports Center & Smart EPG\r\n   - Sports Hub: A dedicated view to find live events quickly.\r\n   - Dynamic EPG: Live program updates with a \"Dynamic Island\" style loading\r\n     indicator.\r\n   - Smart Search: Find channels, categories, and current programs instantly.\r\n\r\n  \ud83c\udfa8 Stunning UI/UX\r\n   - Nebula Backgrounds: Dynamic, colorful backgrounds that breathe with the\r\n     app.\r\n   - Adaptive Layouts: Optimized interfaces for both iPhone (Standard) and iPad\r\n     (Sidebar/Landscape).\r\n   - Glassmorphism: Modern, translucent aesthetics throughout the app.\r\n\r\n  \ud83d\udee0 Under the Hood\r\n   - Performance: Significant optimizations in stream loading and memory\r\n     management.\r\n   - Stability: Fixed issues with background audio and stream switching.\r\n   - Stack: 100% SwiftUI & Combine.\r\n\r\n\r\n  Note: Requires a valid Xtream Codes, m3u, or stalker portal this is just an app it does not provide any of this.\r\n\r\n  ---\r\n\r\n  \u2764\ufe0f Support the Project\r\n\r\n  Nebulo is free and open-source. If you enjoy using it, consider buying me a\r\n  coffee!\r\n\r\n  <a href=\"https://buymeacoffee.com/mongoosemonke\">\r\n    <img\r\n  src=\"https://camo.githubusercontent.com/2103f6f19430c25368a3350117da5b736b008d\r\n  776858e772b226e642398555e0/68747470733a2f2f63646e2e6275796d6561636f666665652e6\r\n  36f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67\" alt=\"Buy Me\r\n  A Coffee\" width=\"160\">\r\n  </a>\r\n\r\n  ---\r\n\r\n  Found a bug? Open an issue!",
-                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.0/NebuloV2.0.3.ipa",
-                    "size": 5238365
                 }
             ],
             "appPermissions": {
@@ -354,7 +671,7 @@
             "subtitle": "A Native iOS Emulator for the Pico-8 fantasy console.",
             "localizedDescription": "Pocket8\nA native PICO-8 emulator for iOS that bridges the gap between web flexibility and native filesystem access!\n\nFeatures:\n- Native Persistence: Implements a custom \"Handoff & Sync\" protocol ensuring 100% save-state integrity across app restarts.\n- Quick Save & Load: The only PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n- Adaptive Controls: Custom Gameboy-esque controls with beautiful haptics. Emulator works in portrait and landscape modes.\n- Smart Library: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\nProject Status:\nThis is a solo dev project designed to push the limits of WebAssembly-to-Native bridging. While an App Store release is a future possibility that I'm gunning for, the current priority is maintaining an uncompromised, open-source experience for the PICO-8 community.\n\nHow to Get Games\nPocket8 uses standard PICO-8 cartridges\n1.  Visit the BBS**: Go to https://www.lexaloffle.com/bbs/ or https://itch.io/games/tag-pico-8\n2.  Look for the Cart: You need the cartridge file, not a zip or exe. Look for the little square image that looks like the game cover.\n3.  Save It:\n    - Desktop: Right-click the small \"Cart\" icon -> \"Save Image As\".\n    - iOS: Tap and hold the cart image -> \"Save to Files\".\n4.  Import: In Pocket8, tap the `+` icon and select your saved `.p8.png` file.\n\nPro Tip: If you see a file named `thumb.png` or `cover.png ...`, that's usually just a picture. You specifically need the file that often ends in `.p8.png` and looks like a game cartridge.",
             "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
-            "tintColor": "#007aff",
+            "tintColor": "#8100b9",
             "category": "entertainment",
             "screenshots": [],
             "versions": [
@@ -779,7 +1096,7 @@
             "subtitle": "An awesome app.",
             "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
             "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
-            "tintColor": "#007aff",
+            "tintColor": "#d99800",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -1079,302 +1396,6 @@
                     "localizedDescription": "## Changelog\r\n- initial release\r\n\r\n**Full Changelog**: https://github.com/khcrysalis/Feather/commits/v1.0",
                     "downloadURL": "https://github.com/khcrysalis/Feather/releases/download/v1.0/feather_v1.0.ipa",
                     "size": 12375230,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "iSH",
-            "bundleIdentifier": "app.ish.ISH",
-            "marketplaceID": "",
-            "developerName": "ish-app",
-            "subtitle": "Linux in your pocket",
-            "localizedDescription": "A Linux-like shell on iOS. You can edit files with sed and cat, move them around, and more!\n\nhttps://github.com/ish-app/ish/ ",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/7a/78/e3/7a78e31a-10c7-f56e-822d-c1edf05d66e2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/400x400ia-75.webp",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/36/04/e1/3604e16e-c5a7-dd5f-ea96-e52eafcc3134/7f303403-4a64-4d56-925f-1d43bcd47c44_iPhone_X-01systeminfo.png/300x650bb.webp"
-                ],
-                "ipad": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/17/31/aa/1731aa96-bd95-abe2-c0c4-b782cd4d35d7/3aa300ba-aa7b-457b-bba8-4539d541c673_iPad_Pro__U002812.9-inch_U0029__U00283rd_generation_U0029-01systeminfo.png/960x1280bb.webp"
-                ]
-            },
-            "versions": [
-                {
-                    "version": "builds/802",
-                    "date": "2025-12-20T06:20:13Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/802/iSH.ipa",
-                    "size": 1471683,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/801",
-                    "date": "2025-12-06T06:18:21Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/801/iSH.ipa",
-                    "size": 4603459,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/800",
-                    "date": "2025-11-29T06:18:16Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/800/iSH.ipa",
-                    "size": 4603456,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/799",
-                    "date": "2025-11-28T06:25:36Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/799/iSH.ipa",
-                    "size": 4603464,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/798",
-                    "date": "2025-11-22T06:18:45Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/798/iSH.ipa",
-                    "size": 4603446,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/797",
-                    "date": "2025-11-15T06:18:52Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/797/iSH.ipa",
-                    "size": 4603453,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/796",
-                    "date": "2025-11-08T06:18:12Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/796/iSH.ipa",
-                    "size": 4603438,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/795",
-                    "date": "2025-11-01T06:17:17Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/795/iSH.ipa",
-                    "size": 4603435,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/794",
-                    "date": "2025-10-25T06:17:52Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/794/iSH.ipa",
-                    "size": 4603443,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/793",
-                    "date": "2025-10-18T06:18:15Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/793/iSH.ipa",
-                    "size": 4603439,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/792",
-                    "date": "2025-10-11T06:17:08Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/792/iSH.ipa",
-                    "size": 4603446,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/791",
-                    "date": "2025-10-04T06:17:03Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/791/iSH.ipa",
-                    "size": 4603444,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/790",
-                    "date": "2025-09-27T06:26:21Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/790/iSH.ipa",
-                    "size": 4603433,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/789",
-                    "date": "2025-09-20T06:18:10Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/789/iSH.ipa",
-                    "size": 4603441,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/788",
-                    "date": "2025-09-13T06:16:39Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/788/iSH.ipa",
-                    "size": 4603435,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/787",
-                    "date": "2025-09-06T06:17:10Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/787/iSH.ipa",
-                    "size": 4603433,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/786",
-                    "date": "2025-08-30T06:16:59Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/786/iSH.ipa",
-                    "size": 4603434,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/785",
-                    "date": "2025-08-09T06:17:43Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/785/iSH.ipa",
-                    "size": 4556888,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/784",
-                    "date": "2025-08-02T06:18:02Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/784/iSH.ipa",
-                    "size": 4556881,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/783",
-                    "date": "2025-07-27T06:17:53Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/783/iSH.ipa",
-                    "size": 4556880,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/782",
-                    "date": "2025-06-14T06:16:57Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/782/iSH.ipa",
-                    "size": 4556879,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/781",
-                    "date": "2025-06-07T06:17:21Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/781/iSH.ipa",
-                    "size": 4556877,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/780",
-                    "date": "2025-05-31T06:16:30Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/780/iSH.ipa",
-                    "size": 4556879,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/779",
-                    "date": "2025-05-24T06:16:19Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/779/iSH.ipa",
-                    "size": 4556886,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/778",
-                    "date": "2025-05-17T06:17:04Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/778/iSH.ipa",
-                    "size": 4556873,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/777",
-                    "date": "2025-05-10T06:17:00Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/777/iSH.ipa",
-                    "size": 4556880,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/776",
-                    "date": "2025-05-03T06:16:13Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/776/iSH.ipa",
-                    "size": 4556861,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/775",
-                    "date": "2025-05-02T06:17:57Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/775/iSH.ipa",
-                    "size": 4556871,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/774",
-                    "date": "2025-04-19T06:16:46Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/774/iSH.ipa",
-                    "size": 4565236,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "builds/773",
-                    "date": "2025-04-12T06:16:18Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/773/iSH.ipa",
-                    "size": 4565240,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
@@ -2146,7 +2167,7 @@
             "subtitle": "Math Pioneers' official Math Practice App!",
             "localizedDescription": "MATHPRAC:\nMath Pioneers' official math practice app!\n",
             "iconURL": "https://github.com/sasobhabha/MathPrac/blob/main/MathPrac/Assets.xcassets/AppIcon.appiconset/mathprac.png?raw=true",
-            "tintColor": "#000000",
+            "tintColor": "#4f3737",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -2646,7 +2667,7 @@
             "subtitle": "Recreating a fully functional version of iOS 4 in SwiftUI. ",
             "localizedDescription": "OldOS is a testament to the days of yesteryear, showcasing what iOS once was ten years ago. The ethos of the app is to merge the technologies of today with a pixel-perfect recreation of the user experience of the past. The vast majority of apps in OldOS are fully functional \u2014 meaning they seamlessly integrate with the data on your phone to deliver a live, emulator-esque experience. What does this mean? Well, you can play your music in iPod, get directions in Maps, surf the web in Safari, view the current weather in Weather, and much more. By the same token, no shortcuts were taken in fully fleshing out the operating system. You can change your background, adjust settings, search apps, et cetera. There are a few apps still not ready for primetime but don't worry, they're coming soon.\n\nWith OldOS, you no longer need to worry about securing a legacy iPhone to experience nostalgia \u2014 it's available on your daily driver.\n\nPart of the goal with OldOS is to enable anyone to understand how iOS works and demonstrate just how powerful SwiftUI truly is. For that reason, the entire app is open-sourced \u2014 enabling developers to learn about, modify, and add to the app. I thought building this over my last six or so months in high school and sharing it with the world would be a fun and productive endeavor.",
             "iconURL": "https://raw.githubusercontent.com/zzanehip/The-OldOS-Project/refs/heads/master/OldOS/OldOS/Assets.xcassets/AppIcon.appiconset/1024.png",
-            "tintColor": "#007aff",
+            "tintColor": "#34404c",
             "category": "utilities",
             "screenshots": [
                 "https://github.com/zzanehip/The-OldOS-Project/raw/master/Images/Market_1.jpg",
@@ -3067,6 +3088,177 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "Fur Affinity",
+            "bundleIdentifier": "ceylo.FurAffinity",
+            "developerName": "Ceylo",
+            "subtitle": "Unofficial iOS app for furaffinity.net",
+            "localizedDescription": "",
+            "iconURL": "https://get.furaffinity.app/altstore/AppIconLG.heic",
+            "versions": [
+                {
+                    "version": "1.15.1",
+                    "date": "2025-11-29T10:38:59Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed submissions loading after 28th November furaffinity.net website update\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.15.1/FurAffinity-1.15.1-0c0d3ff.ipa",
+                    "size": 22693828
+                },
+                {
+                    "version": "1.15",
+                    "date": "2025-11-05T20:39:04Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Further improved iOS 26 integration\r\n- Updated app icon to support iOS 18 dark mode and iOS 26 transparent mode (https://github.com/Ceylo/FurAffinityApp/issues/15)\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a crash happening when deleting the last submission during a refresh (https://github.com/Ceylo/FurAffinityApp/issues/19)\r\n- Fixed submission previews still loading during scroll instead of being preloaded\r\n- Fixed the submission save control looking enabled too early on iOS 26\r\n- Fixed a crash when viewing a submission after clearing the app cache\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.15/FurAffinity-1.15-aefe23e.ipa",
+                    "size": 22693450
+                },
+                {
+                    "version": "1.14",
+                    "date": "2025-09-14T10:36:40Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- iOS 26 support: adopted Liquid Glass design\r\n- Submissions and submission previews are now displayed full width\r\n- The submissions feed now highlights the submission title rather than the author\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Note editor now allows the . (dot) and - (dash) characters in static name field\r\n- Fixes following furaffinity.net website updates:\r\n  - Fixed loading of users Watching and Watched By lists\r\n  - Fixed text color in dark mode on comments and submission and journal descriptions",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.14/FurAffinity-1.14-2a8463b.ipa",
+                    "size": 3039727
+                },
+                {
+                    "version": "1.13.1",
+                    "date": "2025-07-06T08:20:48Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed loading of submissions that contain tags considered as invalid since June 30th website update (https://github.com/Ceylo/FurAffinityApp/issues/17)",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.13.1/FurAffinity-1.13.1-549a33b.ipa",
+                    "size": 2634993
+                },
+                {
+                    "version": "1.13",
+                    "date": "2025-06-28T11:15:17Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\nVersion 1.13 is focused on social interactions!\r\n\r\n# \ud83d\udcf1 Features\r\n- The app fully embraces FA's Display Names update: Notes tab, Notes, User pages, shouts and comments now show both the Display Name and the user's static name, to better let you know who you're actually interacting with\r\n- The app now allows sending notes, either from the revamped Notes tab, when viewing a Note or from a user's page\r\n- The Notes tab now allows switching between your Inbox or Sent notes\r\n- The Notes tab gets a new filter control to only display unread notes\r\n- The toolbar is widely revisited with many more actions available from the top right icon:\r\n  - most pages now have a Share Link action\r\n  - submission pages also get a Favorite, Save Image, Share Image and Reply actions\r\n  - user pages get a Watch and Send a Note actions\r\n  - notes get a Reply action\r\n  - Notes tab gets Inbox, Sent and Send a Note actions\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- User page design is slightly revisited\r\n- Tapping a user icon in the Notes tab now opens the user's page\r\n- Error reporting has been improved: if posting a comment or sending a note fails, an alert gives a more useful error description\r\n- Reading a note now immediately marks it as read in the app\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.13/FurAffinity-1.13-fcc946e.ipa",
+                    "size": 2635002
+                },
+                {
+                    "version": "1.12.1",
+                    "date": "2025-06-18T20:23:58Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Around 17th June 2025, [furaffinity.net](https://www.furaffinity.net/) website was updated and removed the Gender information on submissions. This prevented submissions from displaying in the app and has now been resolved (issue #16).",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.12.1/FurAffinity-1.12.1-57dc12a.ipa",
+                    "size": 2564535
+                },
+                {
+                    "version": "1.12",
+                    "date": "2025-03-08T23:03:44Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Support for user gallery folders: a new folder icon is displayed in the toolbar when navigating to any user gallery or folder. It provides a menu to navigate to any other folder of this user\u2019s gallery, including to their Scraps.\r\n- When tapping on a shout or comment notification, in addition to opening the relevant page, the app will now scroll and highlight the relevant comment.\r\n- Submissions in the Submissions tab can now be removed one by one through a swipe action (issue #11).\r\n- Submissions display a new metadata control. It allows viewing all the submission metadata, such as image resolution, rating, category, view count, keywords and the folders to which this submission belongs. The folder items are interactive and can be used to navigate to the chosen folder.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- On 3rd March 2025, [furaffinity.net](https://www.furaffinity.net/) website was updated in order to support the new display name feature. This affected many parts of the app with missing information or the inability to load user profiles or notes, or missing notifications. This has been resolved (issue #12).\r\n- The app includes an auto-refresh feature for the Submissions feed, Notes and Notifications tab, when you open the app again and after some delay. This behavior was not working for the Notes and Notifications tab if the tab had never been opened since the app was launched. This is now resolved.",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.12/FurAffinity-1.12-7146d2d.ipa",
+                    "size": 2565738
+                },
+                {
+                    "version": "1.11",
+                    "date": "2025-01-10T22:47:02Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Improved submission fullscreen view: you can now use a single tap to display a submission zoomed in and in fullscreen. Then tap one more time to change again the zoom level.\r\n- The Notifications tab now displays a badge when you have notifications. By default, all supported types of notifications are taken into account, except journal notifications. You can change this behavior in the Settings tab.\r\n- Scrolling through a user's gallery, scraps or favorites now automatically loads the next page when needed. This effectively makes scrolling infinite as long as more content is available.\r\n- User's gallery, scraps and favorites now have a search field at the top. Combined with infinite loading, this effectively allows searching through a full gallery, scraps or favorites of any user. Search is case insensitive and done on the submissions title and author.\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- Submissions and journals where comments have been disabled is now reflected in the app: the comment icon has a different color and tapping it will inform that posting a comment is not possible.\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.11/FurAffinity-1.11-037de74.ipa",
+                    "size": 2468515
+                },
+                {
+                    "version": "1.10",
+                    "date": "2024-10-21T09:32:26Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Submissions featuring animated GIFs are now displayed animated. Downloading also preserves the animation\r\n- Avatars using an animated GIF are now displayed animated by default. A setting was added in case you prefer to disable avatar animations\r\n- Avatars and submission thumbnails are now loaded in advance, so you'll mostly not see them loading anymore\r\n- Scrolling through galleries and the submissions feed has again been made much smoother\r\n- User profiles now give access to the user's journals\r\n- In addition to swiping to the left, replying to comments is now also available through long press\r\n- Touching avatars in notifications now opens the corresponding user profile\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a rare case where the submission zoomable sheet could be opened before the full submission is actually loaded\r\n- Fixed a rare crash that could happen when deleting notifications one by one\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- \u26a0\ufe0f iOS 16 support has been removed, iOS 17.4 or later is now required\r\n- The top right action button in Notifications tab doesn't display the Nuke action anymore for types of notifications whose section is already empty\r\n- Logging out will now forget what was the last viewed submission. Logging in to the same or a different account will then display the latest submissions instead of going back to this last viewed submission\r\n- A new item in the Settings tab allows deleting cached files\r\n- Haptic feedback has been added when a download is successful, a submission is marked as favorite, a comment has been successfully submitted or when you watch a user\r\n- When Notifications and Notes tabs are empty, they can now be pulled to refresh",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.10/FurAffinity-1.10-2d0ba50.ipa",
+                    "size": 2375521
+                },
+                {
+                    "version": "1.9.1",
+                    "date": "2024-10-02T10:19:03Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n\r\n- Fix ability to refresh the submissions feed when it is empty (regression from 1.9.0, https://github.com/Ceylo/FurAffinityApp/issues/8)\r\n- Fix the submissions feed loading after app start when it tries to restore the feed position to a submission that is now gone, for instance after nuking all submission notifications (regression from 1.9.0, https://github.com/Ceylo/FurAffinityApp/issues/8)",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.9.1/FurAffinity-1.9.1-6606733.ipa",
+                    "size": 2209993
+                },
+                {
+                    "version": "1.9.0",
+                    "date": "2024-09-16T18:01:17Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Shout notifications are now displayed in the Notifications tab\r\n- User watch and \"watched by\" lists are now accessible from user profiles. Additionally, the watchlist features a search field allowing to look for a specific user\r\n- The scroll position of the submissions feed is now preserved when restarting the app\r\n- Speed improvements:\r\n    - Until furaffinity.net answers and provide the full data, user profiles now first display a preview content instead of a progress indicator\r\n    - A lot more avatars get cached and are thus available for early display\r\n    - Scrolling through favorites is much smoother\r\n    - Submissions or journals with many comments are loaded much faster\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fix new submissions notification bubble sometimes not dismissing\r\n- Fix navigation bar sometimes becoming bigger when navigating back\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- The login screen has been redesigned\r\n- Analytics have been migrated from \"Microsoft AppCenter\" to \"Amplitude\"",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.9.0/FurAffinity-1.9.0-75b71f0.ipa",
+                    "size": 2208262
+                },
+                {
+                    "version": "1.8.0",
+                    "date": "2024-07-03T10:53:19Z",
+                    "localizedDescription": "# Features\r\n- User view now gives access to the user's gallery, scraps, favorites and shouts. Users can also be followed or unfollowed.\r\n- Hide furaffinity.net latency on submissions loading by first displaying the thumbnail when possible\r\n- Display hidden/deleted comments in comment threads\r\n- Display journal comment notifications in the Notifications tab\r\n- Display the number of favorites and comments next to their respective controls in submissions\r\n- Notes sent by a deleted user are now properly displayed\r\n- New app icon designed by [BAKA.RASU](https://www.instagram.com/baka.rasu/) \ud83c\udf89\r\n- New AltStore source for easier installation and update! See [ReadMe](https://github.com/Ceylo/FurAffinityApp?tab=readme-ov-file#installation-with-altstore) for more details.\r\n\r\n# Misc\r\n- More resilient notifications loading\r\n- Preserve link color as chosen by FA users instead of forcing it to be blue\r\n- Many UI improvements, including in particular clearer comments UI through the use of bubbles\r\n\r\n# Bug fixes\r\n- Fix crash when deleting a notification\r\n- Fix transparent tab bar on iOS 17\r\n- Fixed temporarily incorrect contents layout when loading a submission, note or journal\r\n- Fix loading of the user view for banned users\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.8.0/FurAffinity-1.8.0-58b3697.ipa",
+                    "size": 1920345
+                },
+                {
+                    "version": "1.7.0",
+                    "date": "2023-05-11T20:22:39Z",
+                    "localizedDescription": "# Features\r\n- Extended in app navigation: opening links to journals now displays them within the app. Journals feature the same controls (including comments) as submissions, except the `Download` and `Favorite` controls.\r\n- New \"Notifications\" tab: this lists all submission comment and journal notifications from https://www.furaffinity.net/msg/others/ and lets you jump to the corresponding submission or journal from there.\r\n- The \"Notifications\" screen provides a control in top right to nuke all submission comment or journal notifications.\r\n- Draft comments on the current submission or journal are saved until posted. So you can freely go back and check the submission or journal details before continuing your own comment. Leaving the submission or journal will discard the draft.\r\n- The comment editor now displays the comment you're answering to.\r\n\r\n# Misc\r\n- Pages now display a progress indicator instead of staying empty while waiting for furaffinity.net servers to provide the target web page.\r\n- The Submissions tab will not automatically refresh anymore if it's not currently displayed (eg. you're on another tab or have opened some submission). This prevents scrolling away from your last seen submission in the feed.\r\n\r\n# Bug fixes\r\n- Links to pages that were supported for in app navigation now also work from comments.\r\n- Fix a \"loading failed\" message appearing when a user whose name contains special characters is involved in the target page.",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.7.0/FurAffinity-1.7.0-db72f89.ipa",
+                    "size": 1513038
+                },
+                {
+                    "version": "1.6.0",
+                    "date": "2023-03-30T21:55:51Z",
+                    "localizedDescription": "# Features\r\n- In app navigation:\r\n  - supported links now open a new native view within the app instead of opening the web browser\r\n  - navigation \"Back\" control now displays the name of the parent view\r\n  - keeping this \"Back\" control pressed allows moving back several navigation steps at once\r\n- Supported in app links include submissions and user pages\r\n  - Submission view is mostly identical to the previous version. It now displays when the submission was published.\r\n  - User page displays the user banner, avatar, name and profile description. It'll be later improved to give access to more content such as the user gallery.\r\n  - Most places where a user avatar is displayed can be touched to open this user's view.\r\n- New Profile tab: this new tab displays your own user page within the app.\r\n- The control to open the current view in your web browser is standardized to now always appears in the top right of the navigation bar\r\n- All displayed date & time label can now be touched to toggle between relative and absolute date & time\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.6.0/FurAffinity-1.6.0-3488177.ipa",
+                    "size": 1426768
+                },
+                {
+                    "version": "1.5.0",
+                    "date": "2023-01-23T22:42:11Z",
+                    "localizedDescription": "# Features\r\n- You can now post comments on submissions directly from the app:\r\n  - Post a new comment with the reply button next to the other controls.\r\n  - Reply to existing comments with a swipe gesture.\r\n- A menu is added in top-right corner of the submission feed.\r\n  - For now it only contains an entry to nuke all submission notifications and does the same as \"Nuke\" button from [submissions page](https://www.furaffinity.net/msg/submissions/) on FA. This answers issue https://github.com/Ceylo/FurAffinityApp/issues/3\r\n- A new Refresh button is added when the submissions feed is empty, since in this state there's no scrolling and no pull to refresh.\r\n- When the submissions feed is refreshed (either automatically or manually), there's now a notification even when no new submission is available. This better shows that the refresh was actually performed.\r\n- Each submission can now be pulled to be refreshed.\r\n- The Settings tab now displays a badge when an update is available.\r\n\r\n# Misc\r\n- The app now requires iOS 16.1 or later.\r\n- The app internal identifier was changed. Once installed it will be considered as a new app. You can safely delete previous versions of the app.\r\n- iPad layout is disabled, the app was already not adapted to iPad display size so this is just a _safety_ measure\r\n- A new [Privacy Policy document](https://github.com/Ceylo/FurAffinityApp/blob/main/Privacy%20Policy.md) was added",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.5.0/FurAffinity-1.5.0-9054c0a.ipa",
+                    "size": 1397023
+                },
+                {
+                    "version": "1.4.1",
+                    "date": "2022-12-11T14:29:13Z",
+                    "localizedDescription": "# Bugfixes\r\n- Fixed clipping of submissions description\r\n- Fixed avatar loading after November website update\r\n- Fixed comments loading after November website update\r\n- Fixed an issue in avatar caching that would provide expired avatars\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.4.1/FurAffinity-1.4.1-77e2338.ipa",
+                    "size": 1195266
+                },
+                {
+                    "version": "1.4.0",
+                    "date": "2022-10-31T18:55:26Z",
+                    "localizedDescription": "# Features\r\n- Comments are now displayed in Submission screen\r\n\r\n# Bugfixes\r\n- Submissions with updated title don't show up as new submission anymore\r\n- A message is now displayed in Submissions and Notes tab instead of an empty list when there's no note or submission to show \r\n\r\nHere's an example of how comments look for https://www.furaffinity.net/view/49593180/:\r\n<img src=\"https://user-images.githubusercontent.com/451334/199089993-f1b5470f-2c22-43b2-9c70-4b216563282e.jpg\" width=25% height=25%>\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.4.0/FurAffinity-1.4.0-42115fe.ipa",
+                    "size": 1110874
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2022-10-13T21:28:57Z",
+                    "localizedDescription": "- Application logs can now be exported from the Settings tab for debugging purpose",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.2/FurAffinity-1.3.2-729e6f7.ipa",
+                    "size": 1153463
+                },
+                {
+                    "version": "1.3.1",
+                    "date": "2022-10-02T16:29:13Z",
+                    "localizedDescription": "# Bugfixes\r\n- iOS 16: Fix scrolling behavior when refreshing: last submission before refresh remains on screen\r\n- iOS 16: Preserve session after killing the app",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.1/FurAffinity-1.3.1-827a647.ipa",
+                    "size": 1140936
+                },
+                {
+                    "version": "1.3.0",
+                    "date": "2022-10-01T12:28:24Z",
+                    "localizedDescription": "# Features & improvements\r\n- Handoff/Continuity support: if your iPhone and Mac are using to the same Apple ID, your Mac will display a web browser icon in the Dock while browsing a specific submission or note in this app ; clicking that icon will open the matching page from furaffinity.net in your web browser on your Mac\r\n- Notes tab now displays a badge when you have unread notes\r\n- Submissions can now be faved/unfaved from the app\r\n- Auto-refresh delay when opening the app is increased from 1mn to 15mn\r\n- Auto-refresh does not happen anymore when just switching tabs, you can still pull to refresh as you want\r\n- Auto-refresh on Submissions tab will only happen if it is scrolled to the top, to prevent losing current scroll position among submissions\r\n- Faster users' avatar loading: avatar URL is now cached for some days to reduce the number of network requests made to furaffinity.net. Avatar images remain cached automatically as before.\r\n\r\n# Bugfixes & admin features\r\n- Network requests to furaffinity.net now use a custom agent to be identifiable by Fur Affinity administrators\r\n- Fixed a crash happening when trying to read a submission that had been deleted in the meantime\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.0/FurAffinity-1.3.0-91b90cc.ipa",
+                    "size": 1135299
+                },
+                {
+                    "version": "1.2.0",
+                    "date": "2022-06-04T13:35:52Z",
+                    "localizedDescription": "- Fixed user icons loading\r\n- Notes can now be opened in web browser\r\n- Settings tab now displays app information and whether a new version is available",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.2.0/FurAffinity-1.2.0-4db20c2.ipa",
+                    "size": 8255546
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2022-04-14T17:48:04Z",
+                    "localizedDescription": "- Ability to list and read notes from inbox\n- Fixed a layout issue with text in submission details\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.1.0/FurAffinity-1.1.0-c2b6f85.ipa",
+                    "size": 5124122
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2022-04-07T18:32:52Z",
+                    "localizedDescription": "This is the initial release of FurAffinity iOS app. It features the following:\n- Ability to login with your furaffinity.net account\n- Display of the last submissions from your followed artists as a feed\n- Ability to view full resolution version of a submission, along with the description from the artist\n- Ability to share, download and open in your web browser a submission\n- Ability to zoom in the full resolution art\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.0.0/FurAffinity-1.0.0-cb403dc.ipa",
+                    "size": 4836124
+                }
+            ]
         },
         {
             "name": "Twitter (NeoFreeBird)",
@@ -3739,7 +3931,7 @@
             "developerName": "jailbreakdotparty",
             "subtitle": "Basic customization app using CVE-2025-24203. Patched in iOS 18.4.",
             "localizedDescription": "# dirtyZero\n**A simple customization toolbox that utilizes [CVE-2025-24203](https://project-zero.issues.chromium.org/issues/391518636).**\n\n[Download](https://github.com/jailbreakdotparty/dirtyZero/releases) \u2022 [Join our Discord!](https://discord.gg/XPj66zZ4gT)\n\n# Disclaimer\nAll file modifications are done in memory. If something goes wrong or you want to revert the tweaks, just force reboot your phone. Note that this toolbox, or any subsequent toolbox that uses this exploit, **cannot** write to files. It can only *temporaily* disable them.\n\n# Support Table\n| iOS Version | Support Status |\n| -------- | ------- |\n| iOS 16.0 - iOS 16.7.12  | Supported |\n| iOS 17.0 - iOS 17.7.5 | Supported |\n| iOS 17.7.6+ | Not Supported |\n| iOS 18.0 - iOS 18.3.2 | Supported |\n| iOS 18.4+ | Not Supported |\n\n# Available Tweaks\n  - Custom Tweaks\n    - Create your own tweaks by pressing the + button at the top right\n  - Home Screen\n    - Disable Dock Background\n    - Disable Folder Backgrounds\n    - Disable Widget Config BG\n    - Disable App Library BG (iOS 18 only)\n    - Disable Library Search BG\n    - Disable Spotlight Background\n    - Disable Delete Icon\n  - Lock Screen\n    - Disable Passcode Background\n    - Disable Lock Icon\n    - Disable Quick Action Icons (iOS 16 & 17 only)\n    - Disable Large Battery Icon (iOS 18 only)\n  - Alerts & Overlays\n    - Disable Notification & Widget BGs\n    - Recolor Notification Shadows (Blue)\n    - Disable Touch & Alert Backgrounds\n    - Disable Home Bar\n    - Disable Glassy Overlays\n    - Disable App Switcher BG\n  - Fonts & Icons\n    - Enable \ud835\udda7\ud835\uddbe\ud835\uddc5\ud835\uddcf\ud835\uddbe\ud835\uddcd\ud835\uddc2\ud835\uddbc\ud835\uddba Font\n    - Disable Emojis\n    - Disable Slider Icons\n    - Disable Ring Animations\n    - Disable Tethering Graphic\n  - Control Center\n    - Disable CC Module Background (iOS 18 only)\n    - Disable WiFi & Bluetooth Icons (iOS 16 & 17 only)\n    - Disable DND Icon\n    - Disable Screen Mirroring Module (iOS 16 & 17 only)\n    - Disable Orientation Lock Module (iOS 16 & 17 only)\n    - Disable Focus Module (iOS 16 & 17 only)\n  - Sound Effects\n    - Disable AirDrop Ping\n    - Disable Charge Sound\n    - Disable Low Battery Sound\n    - Disable Payment Sounds\n    - Disable Dialing Sounds\n > [!NOTE]\n> Enable in settings <br>\n> May break your system. If they do, force reboot your device\n  - Risky Tweaks\n    - Disable CC Background\n    - Disable ALL Accent Colors\n    - Break System Font\n    - Disable ALL Banners\n    - Break SpringBoard Labels\n    - Break System Labels\n\n# How do I respring after applying the tweaks?\n## Option 1: Use RespringApp\n1. Install [RespringApp](https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringapp/respringapp.ipa) using your preferred method of sideloading. If you signed RespringApp with PPQ Protection or AltStore/SideStore, enable \"Change Respring App Bundle ID\" in settings and type in the bundle id of RespringApp. You can find the bundle id in AltStore's/SideStore's \"View App IDs\" menu or with tools like [Antrag](https://github.com/khcrysalis/Antrag).\n2. In dirtyZero, click the orange \"Respring\" button.\n3. Profit \ud83d\udd25\n\n*This method brought to you by [`@nyaathea`](https://x.com/nyaathea). Due to the nature of the method, it is not possible to integrate this directly into the dirtyZero app, hence the seperate IPA. Note that you can also simply click the RespringApp application itself to respring.*\n\n**Option 2: Display & Text Size**\n1. Before applying the tweaks, go into Settings > Display & Brightness > Display Zoom\n2. Pick the option that's opposite of the one you're currently using.\n3. After, apply the tweaks.\n4. Go back into Settings > Display & Brightness > Display Zoom\n5. Pick the option that's opposite of the one you're currently using.\n\n\n# Credits\n- [Skadz](https://github.com/skadz108) for making this app.\n- [lunginspector](https://github.com/lunginspector) for the UI and numerous tweaks.\n- Ian Beer of Google Project Zero for discovering and publishing the exploit.\n",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/dirtyZero/refs/heads/main/dirtyZero/Assets.xcassets/AppIcon.appiconset/dirtyZero.png",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/dirtyZero/refs/heads/main/dirtyZero/Assets.xcassets/AppIcon.appiconset/dirtyZeroRegular-min.png",
             "tintColor": "#00841e",
             "category": "other",
             "screenshots": [],
@@ -4212,7 +4404,7 @@
             "subtitle": "An OSS weather app for iOS/Android",
             "localizedDescription": "404: Not Found",
             "iconURL": "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/master/Icon.png",
-            "tintColor": "#007aff",
+            "tintColor": "#d0cd41",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -4366,7 +4558,7 @@
             "subtitle": "Native iOS SwiftUI client for Actual Budget\u2014manage accounts, budgets, and transactions with a Summary widget and App Intents.",
             "localizedDescription": "# Actual Accounts iOS App\n\n> \u26a0\ufe0f **Note**: The Makefile in this repository is currently broken and not functional. Please use Xcode directly to build and run the app.\n\nA modern, native iOS app for managing your personal finances with the Actual Budget backend. Built with SwiftUI and designed for a clean, intuitive user experience.\n\n## Features\n\n### \ud83d\udcb0 **Financial Overview**\n- **Dashboard**: Quick insights with spending metrics and recent transactions\n- **Account Management**: View all your accounts with real-time balances\n- **Transaction Tracking**: Comprehensive transaction history with filtering\n- **Budget Planning**: Visual budget management with category breakdowns\n\n### \ud83e\uddea **Demo Mode**\n- **Sample Data**: Test the app with realistic demo data\n- **Toggle On/Off**: Switch between demo and real data seamlessly\n\n## Screenshots\n\n<table>\n  <tr>\n    <td align=\"center\">\n      <img src=\"Screenshots/dashboard.png\" alt=\"Dashboard\" width=\"220\" />\n      <div><sub>Dashboard</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/accounts.png\" alt=\"Accounts\" width=\"220\" />\n      <div><sub>Accounts</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/all_transactions.png\" alt=\"All Transactions\" width=\"220\" />\n      <div><sub>All Transactions</sub></div>\n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <img src=\"Screenshots/account_transactions.png\" alt=\"Account Transactions\" width=\"220\" />\n      <div><sub>Account Transactions</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/new_transaction.png\" alt=\"New Transaction\" width=\"220\" />\n      <div><sub>New Transaction</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/budget.png\" alt=\"Budget\" width=\"220\" />\n      <div><sub>Budget</sub></div>\n    </td>\n  </tr>\n</table>\n\n## Installation\n\n### Prerequisites\n1. Clone this repository\n2. Open `iOSApp/ActualAccounts.xcodeproj` in Xcode\n3. Ensure you have a valid Apple Developer account for device testing\n\n### Setup\n1. **Configure Actual Budget Backend**:\n   - Set up your Actual Budget server and [Actual Http API]((https://github.com/jhonderson/actual-http-api) )\n   - Note your API endpoint, API key, and sync ID\n\n2. **App Configuration**:\n   - Launch the app\n   - Go to Settings (via Accounts \u2192 gear icon)\n   - Enter your Actual Budget credentials:\n     - Base URL (e.g., `https://your-actual-server.com`)\n     - API Key\n     - Sync ID\n     - Budget Encryption Password (optional)\n\n3. **Alternative - Demo Mode**:\n   - Enable \"Demo Mode\" in Settings\n   - The app will show sample data for testing\n\n\n## API Integration\n\nThe app integrates with the Actual Budget API to provide real-time financial data:\n\n- **Authentication**: API key-based authentication\n- **Data Sync**: Real-time synchronization with Actual Budget server\n- **Offline Support**: Graceful handling of network issues\n- **Error Handling**: User-friendly error messages and retry mechanisms\n\n## Development\n\n### Building the App\n1. Open `iOSApp/ActualAccounts.xcodeproj` in Xcode\n2. Select your target device or simulator\n3. Build and run (\u2318+R)\n\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\n## License\n\nThis project is licensed under a custom \"Personal Use Only\" license - see the [LICENSE](LICENSE) file for details.\n\n**Quick Summary:**\n- \u2705 **Personal Use**: Free to use, modify, and learn from for personal purposes\n- \u2705 **Open Source**: Full source code available for viewing and study\n- \u274c **Commercial Use**: Not allowed for business, corporate, or commercial purposes\n- \u274c **Distribution**: Cannot be sold, licensed, or distributed commercially\n\nFor commercial licensing inquiries, please contact the author.\n\n## Acknowledgments\n\n- **Actual Budget**: The open-source budgeting backend that powers this app\n- **Actual Http API**: The open source http wrapper around the actual budget app, link [here](https://github.com/jhonderson/actual-http-api) \n- **SwiftUI Community**: For inspiration and best practices\n\n## Support\n\nFor support, feature requests, or bug reports:\n- Open an issue on GitHub\n- Check the documentation\n- Review the demo mode for feature examples\n\n---\n\n**Built with \u2764\ufe0f using SwiftUI and Actual Budget**",
             "iconURL": "https://raw.githubusercontent.com/BearTS/actual-budget-app/refs/heads/dev/iOSApp/Resources/Assets.xcassets/AppIcon.appiconset/dark-final.png",
-            "tintColor": "#007aff",
+            "tintColor": "#458a40",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -4394,6 +4586,100 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "qBitControl",
+            "bundleIdentifier": "MikeMichael225.qBitControl",
+            "developerName": "Michael-128",
+            "subtitle": "qBittorrent remote client for iOS devices.",
+            "localizedDescription": "",
+            "iconURL": "https://raw.githubusercontent.com/Michael-128/qBitControl/main/qBitControl/Assets.xcassets/AppIcon.appiconset/logo1.png",
+            "versions": [
+                {
+                    "version": "1.3.4",
+                    "date": "2025-10-02T17:12:20Z",
+                    "localizedDescription": "## Features\r\n- Add 'Advanced' page to 'Add Server' view & Add basic authentication (#74) [#74](https://github.com/Michael-128/qBitControl/pull/74) ([Michael](https://github.com/Michael-128/qBitControl/commit/3733dacb87bb18844ead5012a4f328b2366169cc))\r\n- Add animation when selecting torrents ([Michael-128](https://github.com/Michael-128/qBitControl/commit/2c5158589c65993e6aee5186b2e93e82395118dc))\r\n\r\n## Bug Fixes\r\n- iOS 26 UI issues with select multiple ([Michael-128](https://github.com/Michael-128/qBitControl/commit/e9f328f7519ff531db2d9afbc86921f7ac372ecf))\r\n\r\n## Code Refactoring\r\n- Extract TorrentListSelectionToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/5d7f9fbdb13740192ed546af6b79a6a77d5a903d))\r\n- Extract TorrentListDefaultToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/c9cb9bc211db600faf9fb62af9004f7ceb598229))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/1433ca2632acac4e0adc9172cc9ca8553fb46a9f))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/d368d4dcb9bddb78e19332200cf37e1869ae5e22))\r\n- Rewrite deprecated code ([Michael-128](https://github.com/Michael-128/qBitControl/commit/355bdd78216f6139af9bf54bc6a4226ba92bd65b))\r\n\r\n## Commits\r\n- 11d7c5d: Update README.md (Michael)\r\n- 2fa7305: Add AltStore source badges in README (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- 220ed78: Alternative README badges (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- d1bd427: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 4e2a51b: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 89325cc: Add torrent list scroll down behavior for iOS 28 (Michael-128)\r\n- a8561f2: Update to MacOS 26 & Xcode 26 (Michael)\r\n- df6e25b: Merge remote-tracking branch 'refs/remotes/origin/main' (Michael-128)\r\n- 9667fad: Improve tab view to meet standard of iOS 26 (Michael-128)",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.4/qBitControl.ipa",
+                    "size": 3870732
+                },
+                {
+                    "version": "1.3.3",
+                    "date": "2025-04-21T18:32:31Z",
+                    "localizedDescription": "## New:\r\n- Add Search Functionality to RSS Tab\r\n\r\n## Improvements:\r\n- Improve Charts in Stats Tab\r\n\r\n## Fixes:\r\n- Fix Translation Related Bugs\r\n- Update Translation\r\n- Add a Missing Uncategorized Option in Category Selection View\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.2...1.3.3",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.3/qBitControl.ipa",
+                    "size": 4321496
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2025-02-13T19:07:42Z",
+                    "localizedDescription": "## New:\r\n- Added New Category & Tag Selection System\r\n- Added RSS Feed & Folder Renaming & Deleting\r\n- Updated Translations\r\n\r\n## Improvements:\r\n- Enhance Tips when Adding Server (by: @MrNocole in https://github.com/Michael-128/qBitControl/pull/62)\r\n- Improve Naming to Match qBitttorrent\r\n\r\n## Fixes:\r\n-  Fixed Pause Option for qBittorrent 5.0.X in 'Torrent Add Sheet'\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.1...1.3.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.2/qBitControl.ipa",
+                    "size": 4222623
+                },
+                {
+                    "version": "1.3.1",
+                    "date": "2025-01-09T19:50:10Z",
+                    "localizedDescription": "## New:\r\n- Added RSS Support\r\n- Added 'Add Tracker' Option\r\n- Added Option to Download First & Last Pieces First\r\n- Added Force Start Option\r\n- Added 'Help with Translation' Button in About Section\r\n- Added Chinese Simplified Localization (by @peaynan)\r\n\r\n\r\n## Improvements:\r\n- Rearranged Torrent Details & Added ETA\r\n- Updated Localizations\r\n\r\n## Fixes:\r\n- Fixed Compatibility with qBittorrent 5.0.0 API\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.2...1.3.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.1/qBitControl.ipa",
+                    "size": 4178946
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2024-09-20T09:34:36Z",
+                    "localizedDescription": "## New:\r\n- Added Server Editing\r\n\r\n## Fixed:\r\n- Disabled Category Path Auto-Fill if Automatic Torrent Management is Enabled\r\n- Fixed Compatibility for Older qBittorrent Clients\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.1...1.2.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.2/qBitControl.ipa",
+                    "size": 4084813
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2024-09-03T15:30:20Z",
+                    "localizedDescription": "## New:\r\n- Improved 'Stats' View\r\n- Added 'About' Section\r\n\r\n## Fixed:\r\n- Torrent availability is now displayed correctly\r\n- Fixed password encoding\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2...1.2.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.1/qBitControl.ipa",
+                    "size": 4080368
+                },
+                {
+                    "version": "1.2",
+                    "date": "2024-07-25T16:33:34Z",
+                    "localizedDescription": "## New:\r\n- Added Torrent Priority Management \r\n- Added Sequential Download Option\r\n- Added MacCatalyst support (by: @vit9696)\r\n- Added Polish & Japanese Localizations\r\n- Allowed HTTP connections over the internet\r\n\r\n## Fixed:\r\n- Fixed incorrect ratio bug on stats page\r\n- Refactored a lot of code\r\n- Fix category save path not updating (by: @narenh)\r\n\r\n## New Contributors\r\nThank you @vit9696 and @narenh for contributing to the repository. Your efforts are greatly appreciated!\r\n- @vit9696 made their first contribution in https://github.com/Michael-128/qBitControl/pull/11\r\n- @narenh made their first contribution in https://github.com/Michael-128/qBitControl/pull/15\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.1...1.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2/qBitControl.ipa",
+                    "size": 4061844
+                },
+                {
+                    "version": "1.1",
+                    "date": "2024-01-17T12:13:53Z",
+                    "localizedDescription": "## New:\r\n- Reworked login system with support for multiple qBittorrent instances.\r\n- Magnet links are now redirected to qBitControl.\r\n- BitTorrent files can now be opened using qBitControl.\r\n\r\n## Fixed:\r\n- Fixed broken UI on iPad.\r\n- Fixed filtering torrents by tags.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.4...1.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.1/qBitControl.ipa",
+                    "size": 2538421
+                },
+                {
+                    "version": "1.0.4",
+                    "date": "2023-12-20T20:10:31Z",
+                    "localizedDescription": "## New:\r\n- Batch Torrent Management\r\n- Upload & Download Stats View\r\n- 'Clear Completed Torrents\u2019 Button\r\n- 'Pause Category\u2019 Button\r\n- Demo View\r\n\r\n## Fixed:\r\n- Flickering Menu\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.3...1.0.4",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.4/qBitControl.ipa",
+                    "size": 2595915
+                },
+                {
+                    "version": "1.0.3",
+                    "date": "2023-12-10T19:52:09Z",
+                    "localizedDescription": "## Changes:\r\n- Currently selected category is displayed as navigation title\r\n\r\n## Fixed:\r\n- The app couldn't differentiate between two torrents with the same name. The two torrents\u2019 details pages showed the same exact information of one of the torrents.\r\n- Infinite login bug.\r\n- Can't connect warning message appeared after local network access was allowed.\r\n- Fixed typos.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.2...1.0.3",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.3/qBitControl.ipa",
+                    "size": 1817965
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2023-12-05T09:20:10Z",
+                    "localizedDescription": "## Changes:\r\n- Moved log out button to a toolbar menu\r\n- Added pause all & resume all buttons\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/release...1.0.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.2/qBitControl.ipa",
+                    "size": 2448085
+                },
+                {
+                    "version": "release",
+                    "date": "2023-12-02T22:00:46Z",
+                    "localizedDescription": "qBittorrent client for iOS devices.\r\n\r\n## Features\r\n- Add torrents from magnet or file.\r\n- View progress, stats, peers, and trackers of your torrents.\r\n- Manage your torrents - pause/resume, recheck, reannounce and delete.\r\n- Browse torrents files\r\n- Search, sort, and filter torrents.\r\n- Dark mode and light mode\r\n",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release/qBitControl.ipa",
+                    "size": 2427940
+                }
+            ]
         },
         {
             "name": "Reddit Filter",
@@ -5837,6 +6123,23 @@
             "patreon": {}
         },
         {
+            "name": "WritetoSymlink",
+            "bundleIdentifier": "com.34306.writetosymlinked",
+            "developerName": "34306",
+            "subtitle": "Write to any where in /var/mobile/Containers/, running on iOS 16.0 - 18.5 (up to lastest since Apple said it's not security issues and you don't have to concern it). Okay :D",
+            "localizedDescription": "",
+            "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKynfNe5Ayeo2j3kVeQFTg-2Y4EGuV3vEoAg&s",
+            "versions": [
+                {
+                    "version": "1.0",
+                    "date": "2025-05-30T17:19:36Z",
+                    "localizedDescription": "follow step inside the app to make it works. Support iOS 16.0-18.5",
+                    "downloadURL": "https://github.com/34306/writetosymlinked/releases/download/1.0/writetosymlinked.ipa",
+                    "size": 75835
+                }
+            ]
+        },
+        {
             "name": "Maid",
             "bundleIdentifier": "com.danemadsen.maid",
             "marketplaceID": "",
@@ -5844,7 +6147,7 @@
             "subtitle": "Maid is a cross-platform Flutter app for interfacing with GGUF / llama.cpp models locally, and with Ollama and OpenAI models remotely. ",
             "localizedDescription": "<div align=\"center\" id=\"top\">\n  <img alt=\"logo\" height=\"200px\" src=\"images/logo-combined.svg\">\n</div>\n\n# Maid - Mobile Artificial Intelligence Distribution\n\n<div align=\"center\">\n\n[![Build Android](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-android.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-android.yml)\n[![Build iOS](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-ios.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-ios.yml)\n[![Build Linux](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-linux.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-linux.yml)\n[![Build MacOS](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-macos.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-macos.yml)\n[![Build Windows](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-windows.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-windows.yml)\n[![Build Web](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-web.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-web.yml)\n[![Release](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/release.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/release.yml)\n\n</div>\n\n<div align=\"center\">\n<a href=\"https://f-droid.org/packages/com.danemadsen.maid/\">\n  <img \n    src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n    alt=\"Get it on F-Droid\"\n    height=\"80\"\n  >\n</a>\n<a href=\"https://www.openapk.net/maid/com.danemadsen.maid/\">\n  <img \n    src=\"https://www.openapk.net/images/openapk-badge.png\"\n    alt=\"Get it on OpenAPK\"\n    height=\"80\"\n  >\n</a>\n<a href=\"https://www.androidfreeware.net/download-maid-apk.html\">\n  <img \n    src=\"https://www.androidfreeware.net/images/androidfreeware-badge.png\"\n    alt=\"Get it on Android Freeware\"\n    height=\"80\"\n  >\n</a>\n<a href=\"https://github.com/Mobile-Artificial-Intelligence/maid/releases/latest\">\n  <img\n    src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\"\n    alt=\"Get it on GitHub\"\n    width=\"210\" \n  />\n</a>\n<a href='https://play.google.com/store/apps/details?id=com.danemadsen.maid&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>\n  <img \n    src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'\n    alt='Get it on Google Play'\n    height=\"80\"\n  />\n</a>\n</div>\n\nMaid is a cross-platform free and an open-source application for interfacing with llama.cpp models locally, and remotely with Ollama, Mistral, Google Gemini and OpenAI models remotely. Maid supports sillytavern character cards to allow you to interact with all your favorite characters. Maid supports downloading a curated list of Models in-app directly from huggingface.\n\n## Cloning\nTo clone the repository, use the following command:\n\n```bash\ngit clone https://github.com/Mobile-Artificial-Intelligence/maid.git\n```\n\nMaids repository has flutter linked as a submodule. This is needed for reproducible fdroid builds.\nHowever, for development you may want to use a local install of flutter. Remove the flutter submodule by running the git command\n\n```bash\ngit submodule deinit -f packages/flutter\n```\n\n## Installing Build Dependencies\nTo install the dependencies on fedora based systems, use the following command:\n\n```bash\nsudo dnf install -y cmake ninja-build pkg-config gtk3-devel vulkan-devel\n```\n\nTo install the bdependencies on debian based systems, use the following command:\n\n```bash\nsudo apt-get install -y cmake ninja-build pkg-config libgtk-3-dev libvulkan-dev\n```\n\n## Platform Support\nWindows, MacOS, Linux, Android.\n[Releases page.](https://github.com/Mobile-Artificial-Intelligence/maid/releases)\nIOS Releases not available at this time.\n\n## Help Wanted\n- Write code comments\n- Documentation\n- Testing and Building on IOS\n- Spreading the word\n\n## Special Thanks and Related Projects\n- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)\n- [davidmigloz/langchain_dart](https://github.com/davidmigloz/langchain_dart)\n- [Mobile-Artificial-Intelligence/llama_sdk](https://github.com/Mobile-Artificial-Intelligence/llama_sdk)\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=Mobile-Artificial-Intelligence/maid&type=Date)](https://star-history.com/#Mobile-Artificial-Intelligence/maid&Date)\n\n## Contributors\n\n<a href=\"https://github.com/Mobile-Artificial-Intelligence/maid/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=Mobile-Artificial-Intelligence/maid&max=500&columns=20&anon=1\" />\n</a>\n\n## Testing\nMacOS version tested on a \nAndroid version tested on a Oneplus 10 Pro 11gb phone.\nAlso tested on Fedora Linux, Windows 11.\nTested with calypso 3b, orcamini 3b, minyllama 1.1b, phi 3, mistral 7b, mixtral 8x7b, llama 2 7B-Chat, llama 7B and many more.\n\n## Disclaimer\n\nMaid is distributed under the MIT licence and is provided without warranty of any kind, express or implied. Maid is not affiliated with Huggingface, Meta (Facebook), MistralAi, OpenAI, Google, Microsoft or any other company providing a model compatible with this application.\n\n\n## License\n\nThis project is licensed under the [MIT License](LICENSE).",
             "iconURL": "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/refs/heads/main/images/logo.png",
-            "tintColor": "#007aff",
+            "tintColor": "#9611ae",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -5917,7 +6220,7 @@
             "subtitle": "Dopamine is a semi-untethered jailbreak for iOS 15 and 16",
             "localizedDescription": "404: Not Found",
             "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
-            "tintColor": "#007aff",
+            "tintColor": "#457f18",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -6135,7 +6438,7 @@
             "subtitle": "iOS on-device version of Nugget",
             "localizedDescription": "![Artboard](https://github.com/leminlimez/Nugget-Mobile/blob/1881fdc2b721fd2675a2909e7fbc24769d11bb53/readme-images/icon.png)\n\n# Nugget (mobile)\nUnlock your device's full potential! Should work on all versions iOS 16.0 - 18.2 developer beta 2 (public beta 1).\n\nThis will not work on iOS 18.2 beta 2 or newer. Please do not make issues about this, it will not be fixed. You will have to use the [pc version of Nugget](https://github.com/leminlimez/Nugget) unless a fix comes in the future.\n\nA `.mobiledevicepairing` file and wireguard are required in order to use this. Read the [sections](#getting-your-mobiledevicepairing-file) below to see how to get those.\n\nIf you are having issues with minimuxer, see the [Solving Minimuxer Issues](#solving-minimuxer-issues) thread.\n\nThis uses the sparserestore exploit to write to files outside of the intended restore location, like mobilegestalt.\n\nNote: I am not responsible if your device bootloops, use this software with caution. Please back up your data before using!\n\n## Getting Your mobiledevicepairing File\nTo get the pairing file, use the following steps:\n1. Download `jitterbugpair` for your system from here: <https://github.com/osy/Jitterbug/releases/latest>\n    - **Note:** On mac or linux, you may have to run the terminal command `chmod +x ./jitterbugpair` in the same directory.\n2. Run the program by either double clicking it or using terminal/powershell\n3. Share the `.mobiledevicepairing` file to your iOS device\n4. Open the app and select the pairing file\n\nYou should only have to do this once unless you lose the file and delete the app's data.\n\n## Setting Up WireGuard\n1. Download [WireGuard](<https://apps.apple.com/us/app/wireguard/id1441195209>) on the iOS App Store.\n2. Download [SideStore's config file](https://github.com/sidestore/sidestore/releases/download/0.1.1/sidestore.conf) on your iOS device\n3. Share the config file to WireGuard using the share menu\n4. Enable it and run Nugget\n\n## Solving Minimuxer Issues\nIf you have used Cowabunga Lite before, you may experience issues with minimuxer. This is due to how it skipped the setup process.\nThese steps should solve the problem, however it is not an end-all be-all solution.\n1. Download [Nugget Python](https://github.com/leminlimez/Nugget) and follow the steps in the readme to install python and the requirements\n2. Connect your device and (in terminal) type `python3 fix-minimuxer.py` (or `python fix-minimuxer.py` if it doesn't work)\n\nYour device should reboot. After it reboots, try Nugget mobile now. If it still doesn't work, follow the steps below:\n\n3. After your device reboots, go to `[Settings] -> General -> Transfer or Reset iPhone`\n4. Tap `Reset` and then `Reset Location & Privacy`\n5. Nugget mobile should work now. If it doesn't, try getting a new pairing file.\n\nIf the steps above don't work for you, try using `Cowabunga Lite` and clicking the `Deep Clean` button, then try the steps again.\nIf not even that works, the only solution I know is to wipe the device (not ideal). I would recommend using [Nugget Python](https://github.com/leminlimez/Nugget) instead in this case.\n\n## Credits\n- [JJTech](https://github.com/JJTech0130) for Sparserestore/[TrollRestore](https://github.com/JJTech0130/TrollRestore)\n- khanhduytran for [Sparsebox](https://github.com/khanhduytran0/SparseBox)\n- [pymobiledevice3](https://github.com/doronz88/pymobiledevice3)\n- [disfordottie](https://x.com/disfordottie) for some global flag features\n- f1shy-dev for the old [AI Enabler](https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5#file-eligibility-plist)\n- [SideStore](https://sidestore.io/) for em_proxy and minimuxer\n- [libimobiledevice](https://libimobiledevice.org) for the restore library\n",
             "iconURL": "https://raw.githubusercontent.com/leminlimez/Nugget-Mobile/1881fdc2b721fd2675a2909e7fbc24769d11bb53/readme-images/icon.png",
-            "tintColor": "#007aff",
+            "tintColor": "#8511b0",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -6272,7 +6575,7 @@
             "subtitle": "An exploit based Jailed Package Manager for iOS 15.0-18.0/18.1b4",
             "localizedDescription": "404: Not Found",
             "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
-            "tintColor": "#007aff",
+            "tintColor": "#7813ae",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -6471,6 +6774,37 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "Artemis",
+            "bundleIdentifier": "com.github.auties00.artemis",
+            "developerName": "Auties00",
+            "subtitle": "Alternative iOS client for HIDIVE",
+            "localizedDescription": "",
+            "iconURL": "https://github.com/Auties00/Artemis/blob/main/Artemis/Assets.xcassets/AppIcon.appiconset/appstore.png?raw=true",
+            "versions": [
+                {
+                    "version": "3.0-19",
+                    "date": "2024-10-31T01:50:23Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/Auties00/Artemis/releases/download/3.0-19/Artemis.ipa",
+                    "size": 2839462
+                },
+                {
+                    "version": "2.0-16",
+                    "date": "2024-09-28T09:06:36Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/Auties00/Artemis/releases/download/2.0-16/artemis.ipa",
+                    "size": 1690606
+                },
+                {
+                    "version": "2.0",
+                    "date": "2024-09-06T10:35:22Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/Auties00/Artemis/releases/download/2.0/Artemis.ipa",
+                    "size": 1690819
+                }
+            ]
         },
         {
             "name": "mikotoX",
@@ -6827,7 +7161,7 @@
             "subtitle": "fork kfund, short for my fun with kfd exploit. For TrollStar aka TrollStore installer",
             "localizedDescription": "# kfund (Post-Exploitation)\nkfund, short for my [fun](kfd/fun) with kfd exploit. Original by @wh1te4ever, modify for TrollStore installation and called TrollStar by [34306 (me)](https://github.com/34306) and [straight-tamago](https://github.com/straight-tamago)\n\n## What are the supported OS versions and devices?\nProbably iOS 16.0 to 16.6.1 on all iOS/iPadOS (arm64/arm64e/M1/M2 supported)\n---\n\n## What you can do with this?\n#### Install TrollStore Helper to Tips\n---\n## Preview\n<img src=\"https://raw.githubusercontent.com/34306/TrollStar/main/Preview.PNG\">\n\n# kfd\n\nkfd, short for kernel file descriptor, is a project to read and write kernel memory on Apple\ndevices. It leverages various vulnerabilities that can be exploited to obtain dangling PTEs, which\nwill be referred to as a PUAF primitive, short for \"physical use-after-free\". Then, it reallocates\ncertain kernel objects inside those physical pages and manipulates them directly from user space\nthrough the dangling PTEs in order to achieve a KRKW primitive, short for \"kernel read/write\". The\nexploit code is fully contained in a library, [libkfd](kfd/libkfd.h), but the project also contains\nsimple executable wrappers for [iOS](kfd/ContentView.swift) and [macOS](macos_kfd.c).\n\n##  How to build and run kfd on an iPhone?\n\nIn Xcode, open the root folder of the project and connect your iOS device.\n\n- To build the project, select Product > Build (\u2318B).\n- To run the project, select Product > Run (\u2318R), then click on the \"kopen\" button in the app.\n\n---\n\n## Where to find detailed write-ups for the exploits?\n\nThis README presented a high-level overview of the kfd project. Once a PUAF primitive has been\nachieved, the rest of the exploit is generic. Therefore, I have hoisted the common part of the\nexploits in a dedicated write-up:\n\n- [Exploiting PUAFs](writeups/exploiting-puafs.md)\n\nIn addition, I have split the vulnerability-specific part of the exploits used to achieve the PUAF\nprimitive into distinct write-ups, listed below in chronological order of discovery:\n\n-   [PhysPuppet](writeups/physpuppet.md)\n-   [Smith](writeups/smith.md)\n\nHowever, please note that these write-ups have been written for an audience that is already familiar\nwith the XNU virtual memory system.\n",
             "iconURL": "https://raw.githubusercontent.com/34306/TrollStar/refs/heads/main/kfd/Assets.xcassets/AppIcon.appiconset/anya.png",
-            "tintColor": "#007aff",
+            "tintColor": "#bd5317",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -6873,7 +7207,7 @@
             "subtitle": "Installation method for iOS 17.0",
             "localizedDescription": "# AppleGotTrolled \nTrollStore installation method for iOS 17.0 \n![Untitled215](https://github.com/MudSplasher/AppleGotTrolled/assets/150399924/bb124f21-eea6-48d3-9bed-4042f5097a7f)\n",
             "iconURL": "https://media.havoc.app/66d4ecc6e95a6f1dee4b898c?w=1920&q=75",
-            "tintColor": "#007aff",
+            "tintColor": "#3a5979",
             "category": "other",
             "screenshots": [],
             "versions": [
@@ -8062,6 +8396,89 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "Scrcpy",
+            "bundleIdentifier": "me.wsen.scrcpy.ios",
+            "developerName": "wsvn53",
+            "subtitle": "Scrcpy-iOS.app is a remote control tool for Android Phones based on [https://github.com/Genymobile/scrcpy].",
+            "localizedDescription": "",
+            "iconURL": "https://raw.githubusercontent.com/wsvn53/scrcpy-ios/refs/heads/main/Scrcpy/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+            "versions": [
+                {
+                    "version": "2.5",
+                    "date": "2022-01-18T14:27:48Z",
+                    "localizedDescription": "Changes:\r\n\r\n* Support adb reverse fallback to adb forward when occur errors;\r\n\r\nYou may need to re-codesign your installation via the AltStore or Apple Developer Certificate.",
+                    "downloadURL": "https://github.com/wsvn53/scrcpy-ios/releases/download/v2.5/Scrcpy.ipa",
+                    "size": 7854526
+                },
+                {
+                    "version": "2.3",
+                    "date": "2022-01-10T14:44:30Z",
+                    "localizedDescription": "Changes:\r\n\r\n* New Feature: Support to Disconnect from home screen with long-press quick action;\r\n* New Feature: Add \"Show Detail Logs\" on extended menu item list;\r\n* BitRate: Use stepper to setup bitrate value for more options, maximum value is 30;\r\n* SSH Environment: Add some tricks to get full ssh envirment profile, in order to fix some ssh command execution issues;\r\n* Crashes: Fixed some crashes on iPad;\r\n\r\nYou may need to re-sign your installation via the AltStore or Apple Developer Certificate.",
+                    "downloadURL": "https://github.com/wsvn53/scrcpy-ios/releases/download/v2.3/Scrcpy.ipa",
+                    "size": 7851151
+                },
+                {
+                    "version": "2.2",
+                    "date": "2021-12-31T16:07:50Z",
+                    "localizedDescription": "Changes:\r\n\r\n- New feature: Copy URL Scheme for auto connect scrcpy, Clear form;\r\n- Fix crashes when disconnect ssh;\r\n- Optimize disconnect logic, optimize auto-connect logic to support for URL Scheme connect;\r\n\r\nYou may need to re-sign your installation via the AltStore or Apple Developer Certificate.\r\n",
+                    "downloadURL": "https://github.com/wsvn53/scrcpy-ios/releases/download/v2.2/Scrcpy.ipa",
+                    "size": 7848506
+                },
+                {
+                    "version": "2.1",
+                    "date": "2021-12-25T01:51:49Z",
+                    "localizedDescription": "Changes:\r\n\r\n- Fix \"Serail No\" option does not take effect;\r\n- Auto exit when entered in background and background time is exceed;\r\n\r\nYou may need to re-sign your installation via the AltStore or Apple Developer Certificate.\r\n",
+                    "downloadURL": "https://github.com/wsvn53/scrcpy-ios/releases/download/v2.1/Scrcpy.ipa",
+                    "size": 7845963
+                },
+                {
+                    "version": "2.0",
+                    "date": "2021-12-19T02:49:00Z",
+                    "localizedDescription": "This version has more significant code changes to adapt to core v1.21.\r\n\r\nChanges:\r\n\r\n* Upgrade Scrcpy core version to v1.21;\r\n* Optimized RunLoop CPU consumption, reduced from 10% to 2%;\r\n* Add Screen-Off option;\r\n* Optimized the rendering issue caused by hardware decoding session interruptions after returning from the background;\r\n\r\nYou may need to re-sign your installation via the AltStore or Apple Developer Certificate.",
+                    "downloadURL": "https://github.com/wsvn53/scrcpy-ios/releases/download/v2.0/Scrcpy.ipa",
+                    "size": 7847907
+                },
+                {
+                    "version": "1.6",
+                    "date": "2021-09-09T00:29:29Z",
+                    "localizedDescription": "Changes:\r\n\r\n* Support send clipboard from iOS device to remote Android device\r\n\r\nYou may need Re-CodeSign to install this ipa, or use AltStore to install it.\r\n",
+                    "downloadURL": "https://github.com/wsvn53/scrcpy-ios/releases/download/v1.6/Scrcpy.ipa",
+                    "size": 7755402
+                },
+                {
+                    "version": "1.0",
+                    "date": "2021-07-24T10:18:29Z",
+                    "localizedDescription": "Version: 1.0\r\nBuild Version: 2021072402\r\n\r\nNote: You cannot install this ipa directly, you need to setup Xcode and re-codesign it with your Apple Developer id.",
+                    "downloadURL": "https://github.com/wsvn53/scrcpy-ios/releases/download/v1.0/Scrcpy.ipa",
+                    "size": 8298266
+                }
+            ]
+        },
+        {
+            "name": "iDOS",
+            "bundleIdentifier": "com.litchie.idosgames",
+            "developerName": "litchie",
+            "subtitle": "iDOS - DOSBox port on iOS",
+            "localizedDescription": "",
+            "iconURL": "https://raw.githubusercontent.com/litchie/dospad/refs/heads/master/Resources/dpicon512.png",
+            "versions": [
+                {
+                    "version": "2.1",
+                    "date": "2020-10-20T07:44:53Z",
+                    "localizedDescription": "Game controller support.",
+                    "downloadURL": "https://github.com/litchie/dospad/releases/download/2.1/iDOS.ipa",
+                    "size": 5704322
+                },
+                {
+                    "version": "2.0",
+                    "date": "2020-10-06T03:59:39Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/litchie/dospad/releases/download/v2.0/iDOS-v2.0.ipa",
+                    "size": 5769975
+                }
+            ]
         }
     ],
     "news": []
