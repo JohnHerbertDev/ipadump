@@ -503,5 +503,47 @@
         "name": "ReDyne",
         "allowPrerelease": false,
         "iconURL": "https://raw.githubusercontent.com/speedyfriend433/ReDyne/refs/heads/main/ReDyne/ReDyne/Assets.xcassets/AppIcon.appiconset/ReDyne%20icon%202.png"
+    },
+    {
+        "github": "Auties00/Artemis",
+        "bundleID": "com.github.auties00.artemis",
+        "name": "Artemis",
+        "allowPrerelease": false,
+        "iconURL": "https://github.com/Auties00/Artemis/blob/main/Artemis/Assets.xcassets/AppIcon.appiconset/appstore.png?raw=true"
+    },
+    {
+        "github": "Michael-128/qBitControl",
+        "bundleID": "MikeMichael225.qBitControl",
+        "name": "qBitControl",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/Michael-128/qBitControl/main/qBitControl/Assets.xcassets/AppIcon.appiconset/logo1.png"
+    },
+    {
+        "github": "Ceylo/FurAffinityApp",
+        "bundleID": "ceylo.FurAffinity",
+        "name": "Fur Affinity",
+        "allowPrerelease": false,
+        "iconURL": "https://get.furaffinity.app/altstore/AppIconLG.heic"
+    },
+    {
+        "github": "litchie/dospad",
+        "bundleID": "com.litchie.idosgames",
+        "name": "iDOS",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/litchie/dospad/refs/heads/master/Resources/dpicon512.png"
+    },
+    {
+        "github": "wsvn53/scrcpy-ios",
+        "bundleID": "me.wsen.scrcpy.ios",
+        "name": "Scrcpy",
+        "allowPrerelease": false,
+        "iconURL": "https://raw.githubusercontent.com/wsvn53/scrcpy-ios/refs/heads/main/Scrcpy/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png"
+    },
+    {
+        "github": "34306/writetosymlinked",
+        "bundleID": "com.34306.writetosymlinked",
+        "name": "WritetoSymlink",
+        "allowPrerelease": false,
+        "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKynfNe5Ayeo2j3kVeQFTg-2Y4EGuV3vEoAg&s"
     }
 ]
