@@ -402,7 +402,6 @@
         "github": "opa334/Dopamine",
         "bundleID": "com.opa334.Dopamine",
         "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
-        "checkGithub": false,
         "allowPrerelease": false
     },
     {
