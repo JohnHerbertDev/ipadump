@@ -416,6 +416,7 @@
         "name": "Taurine",
         "github": "Odyssey-Team/Taurine",
         "bundleID": "com.coolstar.taurine",
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/Odyssey-Team/Taurine/refs/heads/main/Taurine/Assets.xcassets/AppIcon.appiconset/icon.png",
         "allowPrerelease": false
     },
@@ -423,6 +424,7 @@
         "name": "Odyssey",
         "github": "Odyssey-Team/Odyssey",
         "bundleID": "org.coolstar.odyssey",
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/Odyssey-Team/Odyssey/refs/heads/master/Odyssey/Assets.xcassets/AppIcon.appiconset/Icon-76.png",
         "allowPrerelease": false
     },
@@ -431,6 +433,7 @@
         "bundleID": "com.osy86.Jitterbug",
         "name": "Jitterbug",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/osy/Jitterbug/refs/heads/main/Jitterbug/Assets.xcassets/AppIcon.appiconset/Icon.png"
     },
     {
@@ -445,6 +448,7 @@
         "bundleID": "com.leemin.Cowabunga",
         "name": "Cowabunga",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/leminlimez/Cowabunga/refs/heads/main/Cowabunga/Assets.xcassets/AppIcons/AppIcon.appiconset/Cowabunga.png"
     },
     {
@@ -452,6 +456,7 @@
         "bundleID": "com.lrdsnow.test",
         "name": "SimpleKFD",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/Lrdsnow/SimpleKFD/refs/heads/main/kfd/Assets.xcassets/AppIcon.appiconset/icon.png"
     },
     {
@@ -473,6 +478,7 @@
         "bundleID": "stream.yattee.app",
         "name": "Yattee",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/yattee/yattee/refs/heads/main/Shared/Assets.xcassets/AppIcon.appiconset/Icon-MacOS-128x128%401x.png"
     },
     {
@@ -508,6 +514,7 @@
         "bundleID": "com.github.auties00.artemis",
         "name": "Artemis",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://github.com/Auties00/Artemis/blob/main/Artemis/Assets.xcassets/AppIcon.appiconset/appstore.png?raw=true"
     },
     {
@@ -529,6 +536,7 @@
         "bundleID": "com.litchie.idosgames",
         "name": "iDOS",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/litchie/dospad/refs/heads/master/Resources/dpicon512.png"
     },
     {
@@ -536,6 +544,7 @@
         "bundleID": "me.wsen.scrcpy.ios",
         "name": "Scrcpy",
         "allowPrerelease": false,
+        "checkGithub": false,
         "iconURL": "https://raw.githubusercontent.com/wsvn53/scrcpy-ios/refs/heads/main/Scrcpy/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png"
     },
     {
