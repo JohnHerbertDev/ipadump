@@ -28,6 +28,15 @@
             ],
             "versions": [
                 {
+                    "version": "1.3.4",
+                    "date": "2026-01-06T14:15:08Z",
+                    "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - \u26a0\ufe0f **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
+                    "size": 39686624,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
                     "version": "1.3.3",
                     "date": "2025-12-31T22:32:21Z",
                     "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - \u26a0\ufe0f It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
@@ -188,13 +197,41 @@
                     "size": 30213962,
                     "buildVersion": null,
                     "minOSVersion": null
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "EnsWilde",
+            "bundleIdentifier": "com.yangjiii.EnsWilde",
+            "marketplaceID": "",
+            "developerName": "YangJiiii",
+            "subtitle": "An awesome app.",
+            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
+            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
+            "tintColor": "#d99800",
+            "category": "other",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "EnsWilde",
+                    "date": "2025-12-26T14:35:03Z",
+                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
+                    "size": 37995810,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
-                    "version": "1.3.4",
-                    "date": "2026-01-06T14:15:08Z",
-                    "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - \u26a0\ufe0f **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
-                    "size": 39686624
+                    "version": "EnsWilde2.0",
+                    "date": "2026-01-05T15:30:18Z",
+                    "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable \u2013 experimental build) (enable it in Settings; password: **3105**)\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
+                    "size": 12242612
                 }
             ],
             "appPermissions": {
@@ -215,6 +252,15 @@
             "category": "other",
             "screenshots": [],
             "versions": [
+                {
+                    "version": "2.4.6",
+                    "date": "2026-01-04T11:58:03Z",
+                    "localizedDescription": "- Add the ability to have the device display a boot logo during userspace reboots (By default the background of the selected theme will be used, additionally there is an option to select a custom one)\r\n- Fix the issue that previously broke iOS 15 arm64 support when compiling libjailbreak with compiler optimizations, enable compiler optimizations for libjailbreak again\r\n- Fix a page table alignment bug in `pmap_map_in` that would never be triggered in practice unless a developer called it themselves with addresses not aligned to L2 boundaries\r\n- Several optimizations have been made to make rejailbreaking / userspace rebooting slightly faster\r\n\r\nThanks to @TheRealClarity for looking into some issues with boot logos on landscape iPads.",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.6/Dopamine.ipa",
+                    "size": 53694012,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
                 {
                     "version": "2.4.5",
                     "date": "2025-04-19T20:56:35Z",
@@ -385,13 +431,6 @@
                     "size": 49675263,
                     "buildVersion": null,
                     "minOSVersion": null
-                },
-                {
-                    "version": "2.4.6",
-                    "date": "2026-01-04T11:58:03Z",
-                    "localizedDescription": "- Add the ability to have the device display a boot logo during userspace reboots (By default the background of the selected theme will be used, additionally there is an option to select a custom one)\r\n- Fix the issue that previously broke iOS 15 arm64 support when compiling libjailbreak with compiler optimizations, enable compiler optimizations for libjailbreak again\r\n- Fix a page table alignment bug in `pmap_map_in` that would never be triggered in practice unless a developer called it themselves with addresses not aligned to L2 boundaries\r\n- Several optimizations have been made to make rejailbreaking / userspace rebooting slightly faster\r\n\r\nThanks to @TheRealClarity for looking into some issues with boot logos on landscape iPads.",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.6/Dopamine.ipa",
-                    "size": 53694012
                 }
             ],
             "appPermissions": {
@@ -2015,34 +2054,6 @@
                     "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
                     "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
                     "size": 751441,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "EnsWilde",
-            "bundleIdentifier": "com.yangjiii.EnsWilde",
-            "marketplaceID": "",
-            "developerName": "YangJiiii",
-            "subtitle": "An awesome app.",
-            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
-            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
-            "tintColor": "#d99800",
-            "category": "other",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "EnsWilde",
-                    "date": "2025-12-26T14:35:03Z",
-                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
-                    "size": 37995810,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
@@ -6945,7 +6956,7 @@
             "subtitle": "Alternative iOS client for HIDIVE",
             "localizedDescription": "Artemis is an alternative and open source streaming client for HIDIVE",
             "iconURL": "https://github.com/Auties00/Artemis/blob/main/Artemis/Assets.xcassets/AppIcon.appiconset/appstore.png?raw=true",
-            "tintColor": "0A84FF",
+            "tintColor": "#0A84FF",
             "category": "entertainment",
             "screenshots": [
                 "https://github.com/user-attachments/assets/88bd1a37-0f10-4fba-b6e9-6bf3174b87a8",
