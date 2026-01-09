@@ -1,0 +1,41 @@
+{
+  "name": "My Example Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
+  "apps": [
+    {
+      "name": "Epic Games Store",
+      "bundleIdentifier": "com.epicgames.store",
+      "marketplaceID": "6497405838",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/s0An7Bn.png",
+      "tintColor": "#4f8faf",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://store.epicgames.com/iOS/Org/o-5peactypc7y24yvvszgc2nzcw37ejn/ee6b47df8b6b497d976fba69865d67cd/97068ed8d180458ea831bc9298830753/ab3a61c5-6670-4a89-af9e-e72dfeeb8dea/",
+          "size": 17900000,
+          "version": "1.0.0",
+          "buildVersion": null,
+          "date": "2026-01-09T04:11:00+11:00",
+          "localizedDescription": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
