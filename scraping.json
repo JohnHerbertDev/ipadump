@@ -560,6 +560,19 @@
         "bundleID": "com.google.ios.youtube",
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/f9/94/76f994b5-7856-c69b-afe5-64fc7ca0b4ca/Placeholder.mill/400x400bb-75.webp",
         "allowPrerelease": false,
-        "checkGithub": true
+    },
+    {
+        "name": "Twitter (BHTwitter)",
+        "github": "BandarHL/BHTwitter",
+        "bundleID": "com.atebits.Tweetie3",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+        "allowPrerelease": false,
+    },
+    {
+        "name": "Instagram (BHInstagram)",
+        "github": "BandarHL/BHInstagram",
+        "bundleID": "com.burbn.instagram",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/98/ae/2298aecf-4e15-8f39-eb97-ddfce8bfd321/Placeholder.mill/400x400bb-75.webp",
+        "allowPrerelease": false,
     }
 ]
