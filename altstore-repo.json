@@ -29,6 +29,15 @@
             },
             "versions": [
                 {
+                    "version": "builds/804",
+                    "date": "2026-01-10T06:19:54Z",
+                    "localizedDescription": "Automated daily build",
+                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/804/iSH.ipa",
+                    "size": 4603471,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
                     "version": "builds/803",
                     "date": "2026-01-03T06:21:05Z",
                     "localizedDescription": "Automated daily build",
@@ -306,13 +315,6 @@
                     "size": 4565240,
                     "buildVersion": null,
                     "minOSVersion": null
-                },
-                {
-                    "version": "builds/804",
-                    "date": "2026-01-10T06:19:54Z",
-                    "localizedDescription": "Automated daily build",
-                    "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/804/iSH.ipa",
-                    "size": 4603471
                 }
             ],
             "appPermissions": {
@@ -1963,12 +1965,20 @@
             "bundleIdentifier": "com.jevon.pocket8",
             "marketplaceID": "",
             "developerName": "jevonlipsey",
-            "subtitle": "A Native iOS Emulator for the Pico-8 fantasy console.",
+            "subtitle": "A Native PICO-8 Emulator for iOS.",
             "localizedDescription": "Pocket8\nA native PICO-8 emulator for iOS that bridges the gap between web flexibility and native filesystem access!\n\nFeatures:\n- Native Persistence: Implements a custom \"Handoff & Sync\" protocol ensuring 100% save-state integrity across app restarts.\n- Quick Save & Load: The only PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n- Adaptive Controls: Custom Gameboy-esque controls with beautiful haptics. Emulator works in portrait and landscape modes.\n- Smart Library: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\nProject Status:\nThis is a solo dev project designed to push the limits of WebAssembly-to-Native bridging. While an App Store release is a future possibility that I'm gunning for, the current priority is maintaining an uncompromised, open-source experience for the PICO-8 community.\n\nHow to Get Games\nPocket8 uses standard PICO-8 cartridges\n1.  Visit the BBS**: Go to https://www.lexaloffle.com/bbs/ or https://itch.io/games/tag-pico-8\n2.  Look for the Cart: You need the cartridge file, not a zip or exe. Look for the little square image that looks like the game cover.\n3.  Save It:\n    - Desktop: Right-click the small \"Cart\" icon -> \"Save Image As\".\n    - iOS: Tap and hold the cart image -> \"Save to Files\".\n4.  Import: In Pocket8, tap the `+` icon and select your saved `.p8.png` file.\n\nPro Tip: If you see a file named `thumb.png` or `cover.png ...`, that's usually just a picture. You specifically need the file that often ends in `.p8.png` and looks like a game cartridge.",
             "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
-            "tintColor": "#8100b9",
+            "tintColor": "8e2de2",
             "category": "entertainment",
-            "screenshots": [],
+            "screenshots": [
+                "https://github.com/jevonlipsey/pico-ios/raw/main/assets/quickload.gif",
+                {
+                    "imageURL": "https://github.com/jevonlipsey/pico-ios/raw/main/assets/xzero-joystick.gif",
+                    "width": 1561,
+                    "height": 720
+                },
+                "https://github.com/jevonlipsey/pico-ios/raw/main/assets/libscroll-new.gif"
+            ],
             "versions": [
                 {
                     "version": "1.5",
@@ -2177,6 +2187,121 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "YouTube",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "developerName": "castdrian",
+            "subtitle": "A tweak collection for YouTube",
+            "localizedDescription": "",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/f9/94/76f994b5-7856-c69b-afe5-64fc7ca0b4ca/Placeholder.mill/400x400bb-75.webp",
+            "versions": [
+                {
+                    "version": "20.50.9",
+                    "date": "2025-12-23T11:18:32Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.46.3...v20.50.9",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.50.9/TubeTweaks_20.50.9.ipa",
+                    "size": 131871314
+                },
+                {
+                    "version": "20.46.3",
+                    "date": "2025-11-22T11:32:41Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.37.3...v20.46.3",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.46.3/TubeTweaks_20.46.3.ipa",
+                    "size": 131663074
+                },
+                {
+                    "version": "20.37.3",
+                    "date": "2025-09-16T11:28:29Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.36.3...v20.37.3",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.37.3/TubeTweaks_20.37.3.ipa",
+                    "size": 131658187
+                },
+                {
+                    "version": "20.36.3",
+                    "date": "2025-09-11T17:42:16Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.34.2...v20.36.3",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.36.3/TubeTweaks_20.36.3.ipa",
+                    "size": 128148428
+                },
+                {
+                    "version": "20.34.2",
+                    "date": "2025-08-26T18:18:13Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.21.6...v20.34.2",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.34.2/TubeTweaks_20.34.2.ipa",
+                    "size": 128417309
+                },
+                {
+                    "version": "20.33.2",
+                    "date": "2025-08-22T14:35:28Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.32.4...v20.33.2",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.33.2/TubeTweaks_20.33.2.ipa",
+                    "size": 127733434
+                },
+                {
+                    "version": "20.32.4",
+                    "date": "2025-08-11T19:53:23Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.29.3...v20.32.4",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.32.4/TubeTweaks_20.32.4.ipa",
+                    "size": 128484689
+                },
+                {
+                    "version": "20.29.3",
+                    "date": "2025-07-26T19:27:04Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.21.6...v20.29.3",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.29.3/TubeTweaks_20.29.3.ipa",
+                    "size": 128546040
+                },
+                {
+                    "version": "20.21.6",
+                    "date": "2025-05-31T21:07:49Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.14.2...v20.21.6",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.21.6/TubeTweaks_20.21.6.ipa",
+                    "size": 125934335
+                },
+                {
+                    "version": "20.14.2",
+                    "date": "2025-04-11T12:39:55Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.09.3...v20.14.2",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.14.2/TubeTweaks_20.14.2.ipa",
+                    "size": 118774569
+                },
+                {
+                    "version": "20.09.3",
+                    "date": "2025-03-08T21:33:15Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.49.7...v20.09.3",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.09.3/TubeTweaks_20.09.3.ipa",
+                    "size": 120047824
+                },
+                {
+                    "version": "19.49.7",
+                    "date": "2024-12-27T12:34:49Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.49.5...v19.49.7",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.49.7/TubeTweaks_19.49.7.ipa",
+                    "size": 116052770
+                },
+                {
+                    "version": "19.49.5",
+                    "date": "2024-12-16T18:43:32Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.49.3...v19.49.5",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.49.5/TubeTweaks_19.49.5.ipa",
+                    "size": 116048844
+                },
+                {
+                    "version": "19.49.3",
+                    "date": "2024-12-09T21:29:58Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.47.7...v19.49.3",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.49.3/TubeTweaks_19.49.3.ipa",
+                    "size": 116049534
+                },
+                {
+                    "version": "19.47.7",
+                    "date": "2024-12-08T11:27:58Z",
+                    "localizedDescription": "## What's Changed\n* merge upstream by @castdrian in https://github.com/castdrian/TubeTweaks/pull/2\n\n\n**Full Changelog**: https://github.com/castdrian/TubeTweaks/commits/v19.47.7",
+                    "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.47.7/TubeTweaks_19.47.7.ipa",
+                    "size": 115479183
+                }
+            ]
         },
         {
             "name": "Feather",
@@ -6541,6 +6666,201 @@
                 "privacy": {}
             },
             "patreon": {}
+        },
+        {
+            "name": "Instagram (BHInstagram)",
+            "bundleIdentifier": "com.burbn.instagram",
+            "developerName": "BandarHL",
+            "subtitle": "An awesome tweak for Instagram!",
+            "localizedDescription": "",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/98/ae/2298aecf-4e15-8f39-eb97-ddfce8bfd321/Placeholder.mill/400x400bb-75.webp",
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2025-05-14T03:04:51Z",
+                    "localizedDescription": "Update 2.1:\r\n- Fix downloading Reels in lasted versions.\r\n- Fix Removing Ads in Reels.",
+                    "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
+                    "size": 228416558
+                },
+                {
+                    "version": "1.1",
+                    "date": "2025-01-07T22:23:25Z",
+                    "localizedDescription": "- Fix duplicating download in button show up in the view.\r\n- Fix downloading photos and the right feed.",
+                    "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.1/BHInstagram-sideloaded.ipa",
+                    "size": 192380958
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-01-06T19:08:51Z",
+                    "localizedDescription": "big update",
+                    "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.0/BHInstagram-sideloaded.ipa",
+                    "size": 192381194
+                },
+                {
+                    "version": "0.0.1",
+                    "date": "2023-07-12T02:05:19Z",
+                    "localizedDescription": "- First release.",
+                    "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/0.0.1/Instagram_290.1_BHInstagram_0.0.1.ipa",
+                    "size": 129199510
+                }
+            ]
+        },
+        {
+            "name": "Twitter (BHTwitter)",
+            "bundleIdentifier": "com.atebits.Tweetie3",
+            "developerName": "BandarHL",
+            "subtitle": "Awesome tweak for Twitter",
+            "localizedDescription": "",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+            "versions": [
+                {
+                    "version": "4.4",
+                    "date": "2025-05-13T20:33:01Z",
+                    "localizedDescription": "Update BHTwitter 4.4:\r\n- Fix all the crashes in the newer versions.\r\n- Add the new tabs to the hide page.\r\n- New feature: DM replay later page and tags.\r\n- New feature: Upload 4K media.\r\n- New feature: Voice feature in posts and replies.\r\n- Update the localizations.\r\n- Remove unnecessary options.\r\n\r\nThanks for:\r\n- @actuallyaridan\r\n- @Tulugaak",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+                    "size": 167001383
+                },
+                {
+                    "version": "4.3",
+                    "date": "2024-02-10T18:04:33Z",
+                    "localizedDescription": "- Upload custom voice\r\n- Select URL host like fxtwitter or vxtwitter of tweet after copy.\r\n- remove unnecessary options.",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.3/BHTwitter-sideloaded.ipa",
+                    "size": 126768317
+                },
+                {
+                    "version": "4.2-1",
+                    "date": "2023-12-17T19:31:13Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
+                    "size": 130408354
+                },
+                {
+                    "version": "4.2",
+                    "date": "2023-12-14T05:59:08Z",
+                    "localizedDescription": "- Moved from Monkeydev to Theos\r\n- Convert all swift files to Objective-c.\r\n- Add new script to build BHTwitter project easily.\r\n- Support JB rootfull and rootless.\r\n- Fix crashing in downloading longer video and freezing using FFmpeg.\r\n- New option to hide bookmark button.",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
+                    "size": 130408247
+                },
+                {
+                    "version": "4.1",
+                    "date": "2023-12-08T18:17:14Z",
+                    "localizedDescription": "- Fix downloading video without sound using FFmpeg.\r\n- Add app icon changer (works just for JB and Trollstore)\r\n- Remove unnecessarily features.\r\n\r\n- [ffmpeg-kit](https://github.com/arthenica/ffmpeg-kit)",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.1/Twitter_10.19_BHTwitter_4.1.ipa",
+                    "size": 163435830
+                },
+                {
+                    "version": "4.0",
+                    "date": "2023-08-29T03:59:59Z",
+                    "localizedDescription": "- Add stopHidingTabBar\r\n- Add advanced search\r\n- Add change Background of direct msg\r\n- Fix removing trackingParams from URL\r\n- Fix show images as Full frame\r\n- Remove unnecessary options",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.0/BHTwitter-sideload.ipa",
+                    "size": 99532305
+                },
+                {
+                    "version": "3.9.1",
+                    "date": "2023-03-14T05:32:31Z",
+                    "localizedDescription": "What's new in the 3.9.1 update:\r\n- Add a new option to force Twitter to always use the following page.",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.9.1/Twitter_9.49_BHTwitter_3.9.1-TrollStore.ipa",
+                    "size": 96029159
+                },
+                {
+                    "version": "3.9",
+                    "date": "2023-03-06T15:41:56Z",
+                    "localizedDescription": "What's new in the 3.9 update:\r\n- Fix crash with TrollStore.\r\n- Add a new option to show the scroll bar again.\r\n\r\nThanks:\r\n@arandomdev ",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.9/Twitter_9.47_BHTwitter_3.9-TrollStore.ipa",
+                    "size": 95320317
+                },
+                {
+                    "version": "3.8",
+                    "date": "2023-03-04T05:58:15Z",
+                    "localizedDescription": "# What's new in the 3.8 update:\r\n- Fix crash with Twitter 9.47\r\n- Remove tweet source option\r\n- Add new feature to disable the new video player (Immersive Player)",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.8/Twitter_9.47_BHTwitter_3.8-TrollStore.ipa",
+                    "size": 87331404
+                },
+                {
+                    "version": "3.7",
+                    "date": "2023-01-13T15:32:28Z",
+                    "localizedDescription": "- New option to Remove tracking params from tweet URLs when it's copy\r\n- New option to Add forcing tweets to use full-frame images\r\n- Move Font hooking to Runtime\r\n- Fix crash with Twitter 9.40\r\n\r\nThanks, @ExTBH ",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.7/Twitter_9.40_BHTwitter_3.7-TrollStore.ipa",
+                    "size": 94807701
+                },
+                {
+                    "version": "3.6",
+                    "date": "2023-01-07T18:09:24Z",
+                    "localizedDescription": "- Fix unexpected crashes while copying from the profile.\r\n- New option to bring Tweet source back.",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.6/Twitter_9.39_BHTwitter_3.6-TrollStore.ipa",
+                    "size": 97136048
+                },
+                {
+                    "version": "3.5",
+                    "date": "2022-12-25T18:56:44Z",
+                    "localizedDescription": "- New option to hide views count\r\n- Fix save tweet as image issue",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.5/Twitter_9.38_BHTwitter_3.5-TrollStore.ipa",
+                    "size": 99440344
+                },
+                {
+                    "version": "3.4",
+                    "date": "2022-12-18T16:49:17Z",
+                    "localizedDescription": "- Fix crashes with Twitter 9.37.1",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.4/Twitter_9.37.1_BHTwitter_3.4.ipa",
+                    "size": 102340172
+                },
+                {
+                    "version": "3.3",
+                    "date": "2022-11-25T12:20:48Z",
+                    "localizedDescription": "- Fix downloading videos from multiple media tweet\r\n- Translate Custom tab bar ViewController\r\n- Translate Theme ViewController\r\n- Update FLEX",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.3/Twitter_9.34.6_BHTwitter_3.3.ipa",
+                    "size": 121791825
+                },
+                {
+                    "version": "3.2",
+                    "date": "2022-10-13T19:28:22Z",
+                    "localizedDescription": "- Fix Downloading videos\r\n- Fix Save tweet as image\r\n- Fix Like confirmation\r\n- Fix Hide spaces bar\r\n- Add Edit tweet feature [BETA]",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.2/Twitter_9.32_BHTwitter_3.2.ipa",
+                    "size": 119221084
+                },
+                {
+                    "version": "3.1",
+                    "date": "2022-09-10T21:05:40Z",
+                    "localizedDescription": "What's new with the 3.1 version:\r\n- Fix Ads tweet issues\r\n- Block Ads in the trending page",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.1/Twitter_9.27_BHTwitter_3.1.ipa",
+                    "size": 151421624
+                },
+                {
+                    "version": "3.0",
+                    "date": "2022-08-23T15:13:53Z",
+                    "localizedDescription": "What's new with the 3.0 version:\r\n- Add Hide Who to follow section\r\n- Add Hide Topics to follow section\r\n- Add Localization to the Tweak (Arabic, Japanese, Russian, Indonesian, zh-Hant)\r\n- Fix random crashes \r\n- Fix the location of Copy profile button when enabling Disable RTL option\r\n\r\n---\r\n**[IPA version contains Open Twitter Safari extension](https://github.com/BandarHL/OpenTwitterSafariExtension)**\r\n<img src=\"https://user-images.githubusercontent.com/31299470/186194865-ff9b21a6-ba5c-4bbd-8aa2-7b6be6178404.jpeg\" alt=\"drawing\" width=\"200\"/>\r\n",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.0/Twitter_9.26_BHTwitter_3.0.ipa",
+                    "size": 349854182
+                },
+                {
+                    "version": "2.9.9",
+                    "date": "2022-08-02T22:11:27Z",
+                    "localizedDescription": "What's new with the 2.9.9 version:\r\n- Add Status Tweet (vibe)\r\n- Fix bugs and performance improvement",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.9/Twitter_9.20_BHTwitter_2.9.9.ipa",
+                    "size": 300545115
+                },
+                {
+                    "version": "2.9.8",
+                    "date": "2022-07-27T23:04:17Z",
+                    "localizedDescription": "What's new with the 2.9.8 version:\r\n- Always open in Safari is back!\r\n- Add CoTweet\r\n- Fix crash in Twitter settings\r\n- Remove reply later (because Twitter delete it)\r\n- Remove voice in reply (because it's useless)\r\n- Add copy location\r\n- Rebuild Settings with Preferences and Cephei framework",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.8/Twitter_9.20_BHTwitter_2.9.8.ipa",
+                    "size": 161501645
+                },
+                {
+                    "version": "2.9.7",
+                    "date": "2022-07-05T14:23:51Z",
+                    "localizedDescription": "### What's new with the 2.9.7 version:\r\n- Add new feature: Theme like Twitter blue\r\n- Add a new feature: Hide spaces bar\r\n- Add a new feature: Disable RTL\r\n- Fix RTL issue with Save tweet as an image\r\n- Fix the colour issue with Save tweet as an image\r\n- Fix voice in DM feature\r\n- Fix issues with the Font feature\r\n- Fix Auto Highest Load feature",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.7/Twitter_9.15.2_BHTwitter_2.9.7.ipa",
+                    "size": 110188234
+                },
+                {
+                    "version": "2.9.6",
+                    "date": "2022-06-25T16:15:31Z",
+                    "localizedDescription": "### What's new with the 2.9.6 version:\r\n- New feature: Save tweets as images.\r\n- Fix Padlock feature issues.\r\n- Fix Tweet confirm option.",
+                    "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.6/Twitter_9.14_BHTwitter_2.9.6.ipa",
+                    "size": 106622520
+                }
+            ]
         },
         {
             "name": "Maid",
