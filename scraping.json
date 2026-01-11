@@ -553,5 +553,12 @@
         "name": "WritetoSymlink",
         "allowPrerelease": false,
         "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKynfNe5Ayeo2j3kVeQFTg-2Y4EGuV3vEoAg&s"
+    },
+    {
+        "name": "Pocket8",
+        "github": "jevonlipsey/pico-ios",
+        "bundleID": "com.jevon.pocket8",
+        "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
+        "allowPrerelease": false
     }
 ]
