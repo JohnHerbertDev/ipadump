@@ -553,5 +553,13 @@
         "name": "WritetoSymlink",
         "allowPrerelease": false,
         "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKynfNe5Ayeo2j3kVeQFTg-2Y4EGuV3vEoAg&s"
+    },
+    {
+        "name": "YouTube",
+        "github": "castdrian/TubeTweaks",
+        "bundleID": "com.google.ios.youtube",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/f9/94/76f994b5-7856-c69b-afe5-64fc7ca0b4ca/Placeholder.mill/400x400bb-75.webp",
+        "allowPrerelease": false,
+        "checkGithub": true
     }
 ]
