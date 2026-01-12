@@ -2,13 +2,216 @@
     "name": "Essential Repo",
     "subtitle": "All the apps you need",
     "description": "Welcome to my source! Here you'll find all of my apps.",
-    "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+    "iconURL": "https://apps.apple.com/assets/images/supports/supports-GameCenter@2x.png",
     "website": "",
     "patreonURL": "",
     "tintColor": "#08840a",
     "featuredApps": [],
     "headerURL": "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/18e85263-afea-4d98-a16f-42554f815528/Wave1x1.png",
     "apps": [
+        {
+            "name": "NuvioStreaming",
+            "bundleIdentifier": "com.nuvio.app",
+            "marketplaceID": "",
+            "developerName": "tapframe",
+            "subtitle": "Streaming app for movies and TV shows",
+            "localizedDescription": "Nuvio is a comprehensive streaming application that provides access to a vast library of movies and TV shows.\nNuvio Media Hub is a cross\u2011platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
+            "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
+            "tintColor": "#04dcfc",
+            "category": "entertainment",
+            "screenshots": [
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/seasonandepisode-portrait.png?raw=tru",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png?raw=true"
+            ],
+            "versions": [
+                {
+                    "version": "1.3.4",
+                    "date": "2026-01-06T14:15:08Z",
+                    "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - \u26a0\ufe0f **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
+                    "size": 39686624,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.3",
+                    "date": "2025-12-31T22:32:21Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - \u26a0\ufe0f It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
+                    "size": 36122947,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2025-12-27T22:16:36Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Added back **ExoPlayer as the primary player** for better **Dolby Vision (DV)** and **HDR** handling  \r\n  - Automatic fallback to **MPV Player** when required  \r\n- Users can now choose between **Auto** or **MPV** player modes  \r\n- Added **Auto / HW / HW+SW** decoding options for MPV  \r\n  - **Auto is recommended**  \r\n- Added **Video Output Renderer** option  \r\n  - GPU  \r\n  - GPU-next  \r\n\r\n### New Features\r\n- Added **Skip Intro** feature powered by **IntroDB**  \r\n- Added support for **Internal Subtitle customization** for both **MPV** and **ExoPlayer**  \r\n  - ExoPlayer customization is currently limited  \r\n\r\n### Stability & Fixes\r\n- Improved **StreamScreen error handling** to prevent crashes  \r\n- Minor bug fixes and internal improvements  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.2/Stable_1-3-2.ipa",
+                    "size": 35884924,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.0",
+                    "date": "2025-12-24T14:21:50Z",
+                    "localizedDescription": "# \u26a0\ufe0f Important Notice Before Updating to v1.3.0  \r\n\r\nBefore updating, please read this carefully.\r\n\r\nEspecially for **Android users**, this update is **not mandatory**.  \r\nWe have **completely migrated the internal player** from **ExoPlayer + VLC** to **MPV Player**.  \r\nBecause this is a major internal change, **unexpected bugs may occur**.\r\n\r\nThis update is **recommended only for users who are willing to test and provide feedback**.  \r\nYour feedback is important to help complete this migration and make it bug-free.\r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.3.0  \r\n\r\n## Android\r\n- Replaced internal player with **MPV Player** for better codec support  \r\n- Added toggles for **Software (SW) / Hardware (HW) decoding**  \r\n\r\n## Global\r\n- Dependency updates  \r\n- Minor bug fixes  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.0/Stable_1-3-0.ipa",
+                    "size": 35835616,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.11",
+                    "date": "2025-12-14T21:41:31Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
+                    "size": 36074020,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.10",
+                    "date": "2025-11-25T18:12:44Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week\u2019s section** card UI for a cleaner look  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
+                    "size": 54201010,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.9",
+                    "date": "2025-11-16T16:31:11Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
+                    "size": 54170603,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.8",
+                    "date": "2025-11-09T16:11:34Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
+                    "size": 54120130,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.7",
+                    "date": "2025-10-26T09:13:08Z",
+                    "localizedDescription": "# \u26a0\ufe0f Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings \u2192 Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > \u26a0\ufe0f This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you\u2019ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
+                    "size": 49189840,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.6",
+                    "date": "2025-10-21T11:23:31Z",
+                    "localizedDescription": "# Version 1.2.6 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge \u2013 Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
+                    "size": 48961527,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.5",
+                    "date": "2025-10-15T17:58:07Z",
+                    "localizedDescription": "# Version 1.2.5 \u2013 Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
+                    "size": 46750250,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.4",
+                    "date": "2025-10-11T21:39:45Z",
+                    "localizedDescription": "# Version 1.2.4 \u2013 Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
+                    "size": 44690634,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.3",
+                    "date": "2025-10-04T18:50:35Z",
+                    "localizedDescription": "# Version 1.2.3 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** \u2013 contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from \u201cH and MIN\u201d to \u201cH and M\u201d  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
+                    "size": 44424662,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2025-09-30T12:28:46Z",
+                    "localizedDescription": "# Version 1.2.2 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
+                    "size": 42388702,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2025-09-26T17:36:56Z",
+                    "localizedDescription": "# Version 1.2.1 \u2013 Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - \u26a0\ufe0f New users should use the respective **plugin repository link** to set up properly  \r\n\r\n\u26a0\ufe0f **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
+                    "size": 42367478,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.0",
+                    "date": "2025-09-22T15:52:55Z",
+                    "localizedDescription": "# Version 1.2.0 \u2013 Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app\u2019s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
+                    "size": 42350147,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1.1",
+                    "date": "2025-09-20T11:27:24Z",
+                    "localizedDescription": "# Version 1.1.1 \u2013 Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
+                    "size": 26625101,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2025-09-18T11:40:28Z",
+                    "localizedDescription": "# Version 1.1.0 \u2013 Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
+                    "size": 26624100,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-09-15T17:12:25Z",
+                    "localizedDescription": "# Version 1.0.0 \u2013 Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it\u2019s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n\ud83d\ude4f A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
+                    "size": 30213962,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.5",
+                    "date": "2026-01-11T18:43:44Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### ExoPlayer Subtitle Fixes\r\nThis update mainly focuses on fixing multiple subtitle-related issues in ExoPlayer:\r\n- Fixed issue where **only the first subtitle index** was being rendered  \r\n- Fixed subtitles **always showing background** due to Android native caption settings  \r\n- Fixed subtitles being **rendered inside the player view**  \r\n- Fixed **subtitle bottom offset** issues  \r\n- Merged PR **#391** by **@saifshaikh1805**  \r\n  - Fixes issue **#301**\r\n\r\n### KSPlayer Improvements\r\n- Improved **subtitle behavior** in KSPlayer  \r\n- Merged PR **#394** by **@AdityasahuX07**\r\n\r\n### Settings & Persistence\r\n- Implemented **save and load** functionality for **Discover settings**\r\n\r\nThis release improves subtitle rendering accuracy across players and adds better persistence for user preferences.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.5/Stable_1-3-5.ipa",
+                    "size": 38669923
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
         {
             "name": "iSH",
             "bundleIdentifier": "app.ish.ISH",
@@ -822,202 +1025,6 @@
                     "localizedDescription": "# Apollo for Reddit (with Artemis) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nArtemis .DEB Version: `1.4` \r\n\r\n**RELEASE 1.15.11-1.4:** (2023-10-11)\r\n- Initial release with Artemis `1.4` \r\n\t- Blocks requests to Statsig\r\n\t- Fix rare crash added in v1.3.1\r\n\t- Fix issue with some Imgur albums not loading\r\n\t- Now also blocks requests to Apollo\u2019s server, rather than just returning fake data\r\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.4/Apollo-1.15.11_Artemis-1.4.ipa",
                     "size": 108095419,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "NuvioStreaming",
-            "bundleIdentifier": "com.nuvio.app",
-            "marketplaceID": "",
-            "developerName": "tapframe",
-            "subtitle": "Streaming app for movies and TV shows",
-            "localizedDescription": "Nuvio is a comprehensive streaming application that provides access to a vast library of movies and TV shows.\nNuvio Media Hub is a cross\u2011platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
-            "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
-            "tintColor": "#04dcfc",
-            "category": "entertainment",
-            "screenshots": [
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png?raw=true",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png?raw=true",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/seasonandepisode-portrait.png?raw=tru",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png?raw=true",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png?raw=true"
-            ],
-            "versions": [
-                {
-                    "version": "1.3.4",
-                    "date": "2026-01-06T14:15:08Z",
-                    "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - \u26a0\ufe0f **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
-                    "size": 39686624,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.3",
-                    "date": "2025-12-31T22:32:21Z",
-                    "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - \u26a0\ufe0f It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
-                    "size": 36122947,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.2",
-                    "date": "2025-12-27T22:16:36Z",
-                    "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Added back **ExoPlayer as the primary player** for better **Dolby Vision (DV)** and **HDR** handling  \r\n  - Automatic fallback to **MPV Player** when required  \r\n- Users can now choose between **Auto** or **MPV** player modes  \r\n- Added **Auto / HW / HW+SW** decoding options for MPV  \r\n  - **Auto is recommended**  \r\n- Added **Video Output Renderer** option  \r\n  - GPU  \r\n  - GPU-next  \r\n\r\n### New Features\r\n- Added **Skip Intro** feature powered by **IntroDB**  \r\n- Added support for **Internal Subtitle customization** for both **MPV** and **ExoPlayer**  \r\n  - ExoPlayer customization is currently limited  \r\n\r\n### Stability & Fixes\r\n- Improved **StreamScreen error handling** to prevent crashes  \r\n- Minor bug fixes and internal improvements  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.2/Stable_1-3-2.ipa",
-                    "size": 35884924,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.0",
-                    "date": "2025-12-24T14:21:50Z",
-                    "localizedDescription": "# \u26a0\ufe0f Important Notice Before Updating to v1.3.0  \r\n\r\nBefore updating, please read this carefully.\r\n\r\nEspecially for **Android users**, this update is **not mandatory**.  \r\nWe have **completely migrated the internal player** from **ExoPlayer + VLC** to **MPV Player**.  \r\nBecause this is a major internal change, **unexpected bugs may occur**.\r\n\r\nThis update is **recommended only for users who are willing to test and provide feedback**.  \r\nYour feedback is important to help complete this migration and make it bug-free.\r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.3.0  \r\n\r\n## Android\r\n- Replaced internal player with **MPV Player** for better codec support  \r\n- Added toggles for **Software (SW) / Hardware (HW) decoding**  \r\n\r\n## Global\r\n- Dependency updates  \r\n- Minor bug fixes  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.0/Stable_1-3-0.ipa",
-                    "size": 35835616,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.11",
-                    "date": "2025-12-14T21:41:31Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
-                    "size": 36074020,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.10",
-                    "date": "2025-11-25T18:12:44Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week\u2019s section** card UI for a cleaner look  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
-                    "size": 54201010,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.9",
-                    "date": "2025-11-16T16:31:11Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
-                    "size": 54170603,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.8",
-                    "date": "2025-11-09T16:11:34Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
-                    "size": 54120130,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.7",
-                    "date": "2025-10-26T09:13:08Z",
-                    "localizedDescription": "# \u26a0\ufe0f Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings \u2192 Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > \u26a0\ufe0f This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you\u2019ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
-                    "size": 49189840,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.6",
-                    "date": "2025-10-21T11:23:31Z",
-                    "localizedDescription": "# Version 1.2.6 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge \u2013 Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
-                    "size": 48961527,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.5",
-                    "date": "2025-10-15T17:58:07Z",
-                    "localizedDescription": "# Version 1.2.5 \u2013 Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
-                    "size": 46750250,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.4",
-                    "date": "2025-10-11T21:39:45Z",
-                    "localizedDescription": "# Version 1.2.4 \u2013 Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
-                    "size": 44690634,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.3",
-                    "date": "2025-10-04T18:50:35Z",
-                    "localizedDescription": "# Version 1.2.3 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** \u2013 contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from \u201cH and MIN\u201d to \u201cH and M\u201d  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
-                    "size": 44424662,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.2",
-                    "date": "2025-09-30T12:28:46Z",
-                    "localizedDescription": "# Version 1.2.2 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
-                    "size": 42388702,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.1",
-                    "date": "2025-09-26T17:36:56Z",
-                    "localizedDescription": "# Version 1.2.1 \u2013 Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - \u26a0\ufe0f New users should use the respective **plugin repository link** to set up properly  \r\n\r\n\u26a0\ufe0f **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
-                    "size": 42367478,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.0",
-                    "date": "2025-09-22T15:52:55Z",
-                    "localizedDescription": "# Version 1.2.0 \u2013 Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app\u2019s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
-                    "size": 42350147,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1.1",
-                    "date": "2025-09-20T11:27:24Z",
-                    "localizedDescription": "# Version 1.1.1 \u2013 Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
-                    "size": 26625101,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1.0",
-                    "date": "2025-09-18T11:40:28Z",
-                    "localizedDescription": "# Version 1.1.0 \u2013 Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
-                    "size": 26624100,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-09-15T17:12:25Z",
-                    "localizedDescription": "# Version 1.0.0 \u2013 Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it\u2019s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n\ud83d\ude4f A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
-                    "size": 30213962,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
@@ -1968,7 +1975,7 @@
             "subtitle": "A Native PICO-8 Emulator for iOS.",
             "localizedDescription": "Pocket8\nA native PICO-8 emulator for iOS that bridges the gap between web flexibility and native filesystem access!\n\nFeatures:\n- Native Persistence: Implements a custom \"Handoff & Sync\" protocol ensuring 100% save-state integrity across app restarts.\n- Quick Save & Load: The only PICO-8 experience with instant save states. Freeze time and resume anywhere, across devices.\n\n- Adaptive Controls: Custom Gameboy-esque controls with beautiful haptics. Emulator works in portrait and landscape modes.\n- Smart Library: Automatically extracts cartridge labels and metadata, presenting your collection in a polished grid.\n\nProject Status:\nThis is a solo dev project designed to push the limits of WebAssembly-to-Native bridging. While an App Store release is a future possibility that I'm gunning for, the current priority is maintaining an uncompromised, open-source experience for the PICO-8 community.\n\nHow to Get Games\nPocket8 uses standard PICO-8 cartridges\n1.  Visit the BBS**: Go to https://www.lexaloffle.com/bbs/ or https://itch.io/games/tag-pico-8\n2.  Look for the Cart: You need the cartridge file, not a zip or exe. Look for the little square image that looks like the game cover.\n3.  Save It:\n    - Desktop: Right-click the small \"Cart\" icon -> \"Save Image As\".\n    - iOS: Tap and hold the cart image -> \"Save to Files\".\n4.  Import: In Pocket8, tap the `+` icon and select your saved `.p8.png` file.\n\nPro Tip: If you see a file named `thumb.png` or `cover.png ...`, that's usually just a picture. You specifically need the file that often ends in `.p8.png` and looks like a game cartridge.",
             "iconURL": "https://raw.githubusercontent.com/jevonlipsey/pico-ios/main/ios/App/App/Assets.xcassets/AppIcon.appiconset/1024.png",
-            "tintColor": "8e2de2",
+            "tintColor": "#8e2de2",
             "category": "entertainment",
             "screenshots": [
                 "https://github.com/jevonlipsey/pico-ios/raw/main/assets/quickload.gif",
@@ -2189,119 +2196,173 @@
             "patreon": {}
         },
         {
-            "name": "YouTube",
+            "name": "YouTube (TubeTweaks)",
             "bundleIdentifier": "com.google.ios.youtube",
-            "developerName": "castdrian",
+            "marketplaceID": "",
+            "developerName": "Google LLC and castdrian",
             "subtitle": "A tweak collection for YouTube",
-            "localizedDescription": "",
+            "localizedDescription": "Get the official YouTube app on iPhones and iPads. See what the world is watching -- from the hottest music videos to what\u2019s popular in gaming, fashion, beauty, news, learning and more. Subscribe to channels you love, create content of your own, share with friends, and watch on any device.\n\nWatch and subscribe\n\u25cf Browse personal recommendations on Home\n\u25cf See the latest from your favorite channels in Subscriptions\n\u25cf Look up videos you\u2019ve watched, liked, and saved for later in Library\n\nExplore different topics, what\u2019s popular, and on the rise (available in select countries)\n\u25cf Stay up to date on what\u2019s popular in music, gaming, beauty, news, learning and more\n\u25cf See what\u2019s trending on YouTube and around the world on Explore\n\u25cf Learn about the coolest Creators, Gamers, and Artists on the Rise (available in select countries)\n\nConnect with the YouTube community\n\u25cf Keep up with your favorites creators with Posts, Stories, Premieres, and Live streams\n\u25cf Join the conversation with comments and interact with creators and other community members\n\nCreate content from your mobile device\n\u25cf Create or upload your own videos directly in the app\n\u25cf Engage with your audience in real time with live streaming right from the app\n\nFind the experience that fits you and your family (available in select countries)\n\u25cf Every family has their own approach to online video. Learn about your options: the YouTube Kids app or a new parent supervised experience on YouTube at youtube.com/myfamily\n\nSupport creators you love with channel memberships (available in select countries)\n\u25cf Join channels that offer paid monthly memberships and support their work\n\u25cf Get access to exclusive perks from the channel & become part of their members community\n\u25cf Stand out in comments and live chats with a loyalty badge next to your username",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/f9/94/76f994b5-7856-c69b-afe5-64fc7ca0b4ca/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#b72826",
+            "category": "entertainment",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/db/ec/36dbecd1-9a85-d55a-e84b-8022ea777825/7a94f703-7c3e-4789-9bd7-ce80045fe7b6_iOS-6.5-in_1.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/41/55/e3/4155e384-a42d-6062-2007-282bb040363d/9bde600a-9d57-41c4-830b-3261fee4a323_iOS-6.5-in_2.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c0/16/8b/c0168b1e-2e37-25bb-8336-b896eabd3374/634cb861-844f-4310-9dca-1d395031a99e_iOS-6.5-in_3.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/e7/a1/cde7a135-8317-6194-d251-2bc40d54b8bf/8d366307-dd64-45f4-8cf3-d45be7dec00d_iOS-6.5-in_4.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c6/c1/f4/c6c1f493-99c1-37e6-7b34-fdceef94b082/84bdc830-e257-413c-b355-024445f557e5_iOS-6.5-in_5.jpg/230x498bb.webp"
+                ],
+                "ipad": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/30/e6/66/30e66644-4a71-ad11-d427-173b3a0910fd/mzl.opqovebo.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/ff/22/e0ff2203-1d10-7c2d-d3de-661822391a01/mzl.psvhzylv.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/93/11/d5/9311d5a9-3409-7916-d451-cde48c0b9ed7/mzl.vtudmpjc.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/55/10/02/551002fa-ef25-262f-a39e-93dbb1813d1e/mzl.xhdibzkx.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0b/66/8f/0b668f20-2162-7e7c-e5d6-fcdb605ffe2e/mzl.gjolrysm.png/480x640bb.webp"
+                ]
+            },
             "versions": [
                 {
                     "version": "20.50.9",
                     "date": "2025-12-23T11:18:32Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.46.3...v20.50.9",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.50.9/TubeTweaks_20.50.9.ipa",
-                    "size": 131871314
+                    "size": 131871314,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.46.3",
                     "date": "2025-11-22T11:32:41Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.37.3...v20.46.3",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.46.3/TubeTweaks_20.46.3.ipa",
-                    "size": 131663074
+                    "size": 131663074,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.37.3",
                     "date": "2025-09-16T11:28:29Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.36.3...v20.37.3",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.37.3/TubeTweaks_20.37.3.ipa",
-                    "size": 131658187
+                    "size": 131658187,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.36.3",
                     "date": "2025-09-11T17:42:16Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.34.2...v20.36.3",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.36.3/TubeTweaks_20.36.3.ipa",
-                    "size": 128148428
+                    "size": 128148428,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.34.2",
                     "date": "2025-08-26T18:18:13Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.21.6...v20.34.2",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.34.2/TubeTweaks_20.34.2.ipa",
-                    "size": 128417309
+                    "size": 128417309,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.33.2",
                     "date": "2025-08-22T14:35:28Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.32.4...v20.33.2",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.33.2/TubeTweaks_20.33.2.ipa",
-                    "size": 127733434
+                    "size": 127733434,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.32.4",
                     "date": "2025-08-11T19:53:23Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.29.3...v20.32.4",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.32.4/TubeTweaks_20.32.4.ipa",
-                    "size": 128484689
+                    "size": 128484689,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.29.3",
                     "date": "2025-07-26T19:27:04Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.21.6...v20.29.3",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.29.3/TubeTweaks_20.29.3.ipa",
-                    "size": 128546040
+                    "size": 128546040,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.21.6",
                     "date": "2025-05-31T21:07:49Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.14.2...v20.21.6",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.21.6/TubeTweaks_20.21.6.ipa",
-                    "size": 125934335
+                    "size": 125934335,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.14.2",
                     "date": "2025-04-11T12:39:55Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v20.09.3...v20.14.2",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.14.2/TubeTweaks_20.14.2.ipa",
-                    "size": 118774569
+                    "size": 118774569,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "20.09.3",
                     "date": "2025-03-08T21:33:15Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.49.7...v20.09.3",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v20.09.3/TubeTweaks_20.09.3.ipa",
-                    "size": 120047824
+                    "size": 120047824,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "19.49.7",
                     "date": "2024-12-27T12:34:49Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.49.5...v19.49.7",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.49.7/TubeTweaks_19.49.7.ipa",
-                    "size": 116052770
+                    "size": 116052770,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "19.49.5",
                     "date": "2024-12-16T18:43:32Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.49.3...v19.49.5",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.49.5/TubeTweaks_19.49.5.ipa",
-                    "size": 116048844
+                    "size": 116048844,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "19.49.3",
                     "date": "2024-12-09T21:29:58Z",
                     "localizedDescription": "**Full Changelog**: https://github.com/castdrian/TubeTweaks/compare/v19.47.7...v19.49.3",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.49.3/TubeTweaks_19.49.3.ipa",
-                    "size": 116049534
+                    "size": 116049534,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "19.47.7",
                     "date": "2024-12-08T11:27:58Z",
                     "localizedDescription": "## What's Changed\n* merge upstream by @castdrian in https://github.com/castdrian/TubeTweaks/pull/2\n\n\n**Full Changelog**: https://github.com/castdrian/TubeTweaks/commits/v19.47.7",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.47.7/TubeTweaks_19.47.7.ipa",
-                    "size": 115479183
+                    "size": 115479183,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Feather",
@@ -4217,7 +4278,33 @@
             "iconURL": "https://get.furaffinity.app/altstore/AppIconLG.heic",
             "tintColor": "#007aff",
             "category": "social",
-            "screenshots": [],
+            "screenshots": [
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/feed.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/submission.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/notifications.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/notes.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/note reply.heic",
+                    "width": 1170
+                }
+            ],
             "versions": [
                 {
                     "version": "1.15.1",
@@ -4442,7 +4529,7 @@
             "localizedDescription": "Welcome to Twitter, your trusted digital town square where conversations unfold in real time, and the world connects through breaking news, live events, podcasts, and everything in between.  \nWhether you're passionate about sports, tech, music, or politics, Twitter is your front-row seat to what\u2019s happening across the globe.  \nTwitter isn\u2019t just another social media app, it\u2019s the ultimate destination for staying well informed, sharing ideas, and building communities. With X, you\u2019re always in the loop with relevant trending topics and breaking news, delivered instantly to your screen, raw and unfiltered.  \nWhat You Can Do on X: \n\u2022 Follow breaking news from around the world before it hits the headlines, and stay ahead of the curve with real-time updates on trending topics and viral conversations. \n\u2022 Post your thoughts, photos, and videos with a global community. Join millions of users in shaping public dialogue across social, cultural, and political conversations. \n\u2022 Discover Grok, the AI assistant powered by X\u2019s real-time data. You can ask Grok to summarize trending news, explain videos, or give you more context about posts. \n\u2022 Stream live video or go live with Spaces, our audio feature that enables you to host discussions, hold interviews, or start your next live podcast. Whether you're streaming a concert, a live game, or your thoughts on a hot topic, Twitter keeps your audience engaged. \n\u2022 Watch videos: from live breaking news and sports clips to podcasts and gaming sessions that last up to 3 hours long. Many of the world\u2019s leading voices, in comedy, gaming, podcasting, and politics, all share their content on X. \n\u2022 Connect and chat privately with friends, followers, customers, or collaborators through Direct Messages. \n\u2022 Join and build communities tailored to your interests: from sports news, gaming, entertainment, crypto, entrepreneurship, tech, and more. \n\u2022 Subscribe to Twitter Premium to unlock exclusive features like a blue checkmark, boosted visibility, prioritized replies, fewer ads, longer videos, and post editing. Twitter Premium also gives you access to creator revenue sharing and the ability to offer exclusive content to subscribers.  \nWhy X? \nIn a world of constant change, Twitter is your real-time source to stay ahead of the curve, connect with people, and explore diverse perspectives. From breaking live news and trending memes to top podcasts and live streams from your favorite creators, Twitter brings it all together in one powerful social experience.",
             "iconURL": "https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/Branding/Icon.png",
             "tintColor": "#3594b7",
-            "category": "lifestyle",
+            "category": "social",
             "screenshots": {
                 "iphone": [
                     "https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/Branding/screenshots/IMG_9189.png",
@@ -6670,197 +6757,338 @@
         {
             "name": "Instagram (BHInstagram)",
             "bundleIdentifier": "com.burbn.instagram",
+            "marketplaceID": "",
             "developerName": "BandarHL",
-            "subtitle": "An awesome tweak for Instagram!",
-            "localizedDescription": "",
+            "subtitle": "Videos, creators & friends",
+            "localizedDescription": "Little moments lead to big friendships. Share yours on Instagram. \n\u2014 From Meta\n\nConnect with friends, find other fans, and see what people around you are up to and into. Explore your interests and post what's going on, from your daily moments to life's highlights.\n\nShare what you\u2019re up to and into:\n- Turn your life into a movie and discover short, entertaining videos on Instagram with Reels.\n- Keep up with friends on the fly with Stories and Notes that disappear after 24 hours.\n- Start group chats and share unfiltered moments with your Close Friends.\n- Share memories from recent events or trips in Feed.\n- Customize your posts with exclusive templates, music, stickers and filters.\n\nDive into your interests.\n- Watch videos from your favorite creators and discover new content that\u2019s personalized to your interests.\n- Get inspired by photos and videos from new accounts in Explore.\n- Discover brands and small businesses, and shop products that are relevant to your personal style.",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/98/ae/2298aecf-4e15-8f39-eb97-ddfce8bfd321/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#ab0e80",
+            "category": "social",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/65/51/29/655129d0-f367-0a3b-bd00-72eb1c160430/1_iOS_6.5.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/17/fc/41/17fc4196-2e16-b11a-f9b4-0be7b91f5548/2_iOS_6.5.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/d7/a1/44/d7a14471-1b67-ebbb-abbe-e6637bb9a959/3_iOS_6.5.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/49/20/7549203f-6aa8-0b74-c8d8-c469c6227d12/4_iOS_6.5.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/6b/bb/4a6bbb1d-e476-d568-219d-db7582e0ebf7/5_iOS_6.5.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/bc/94/8a/bc948a96-bae2-de18-1231-06df05976248/6_iOS_6.5.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/53/29/a7/5329a7a0-1991-e565-1ea7-fb6e181bdedc/7_iOS_6.5.jpg/230x498bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/41/2e/74/412e7483-fb2e-1cd1-3575-6f60d08fa423/13__Home.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/60/92/a8/6092a826-cde0-f494-4208-ae51ccd5570d/13__Reels_comments.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d5/32/23/d5322398-7a93-53b9-dc73-413f4e582792/13__Following_tab.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/23/70/a3/2370a39a-69fb-dab5-8a5d-bb1d0005f659/13__Direct.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/21/7e/29/217e29b5-94b3-7599-db9c-812c755c26a3/13__Stacked_Timeline.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/dd/0c/98/dd0c9887-f150-d373-75f0-103bdb43193c/13__Stories.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
             "versions": [
                 {
                     "version": "1.2",
                     "date": "2025-05-14T03:04:51Z",
                     "localizedDescription": "Update 2.1:\r\n- Fix downloading Reels in lasted versions.\r\n- Fix Removing Ads in Reels.",
                     "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.2/bhinsta_sideloaded.ipa",
-                    "size": 228416558
+                    "size": 228416558,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.1",
                     "date": "2025-01-07T22:23:25Z",
                     "localizedDescription": "- Fix duplicating download in button show up in the view.\r\n- Fix downloading photos and the right feed.",
                     "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.1/BHInstagram-sideloaded.ipa",
-                    "size": 192380958
+                    "size": 192380958,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0",
                     "date": "2025-01-06T19:08:51Z",
                     "localizedDescription": "big update",
                     "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/1.0/BHInstagram-sideloaded.ipa",
-                    "size": 192381194
+                    "size": 192381194,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "0.0.1",
                     "date": "2023-07-12T02:05:19Z",
                     "localizedDescription": "- First release.",
                     "downloadURL": "https://github.com/BandarHL/BHInstagram/releases/download/0.0.1/Instagram_290.1_BHInstagram_0.0.1.ipa",
-                    "size": 129199510
+                    "size": 129199510,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Twitter (BHTwitter)",
             "bundleIdentifier": "com.atebits.Tweetie3",
+            "marketplaceID": "",
             "developerName": "BandarHL",
-            "subtitle": "Awesome tweak for Twitter",
-            "localizedDescription": "",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/ba/89/09ba891e-c3e6-727c-e39f-8306a1691db8/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/200x200ia-75.webp",
+            "subtitle": "Breaking News & Social Media",
+            "localizedDescription": "BHTwitter, an awesome tweak for Twitter that enhances your experience with additional features and customization options. Get rid of ads, gain access to Twitter Blue features for free and much much more!\n\nWelcome to Twitter, your trusted digital town square where conversations unfold in real time, and the world connects through breaking news, live events, podcasts, and everything in between.  \nWhether you're passionate about sports, tech, music, or politics, Twitter is your front-row seat to what\u2019s happening across the globe.  \nTwitter isn\u2019t just another social media app, it\u2019s the ultimate destination for staying well informed, sharing ideas, and building communities. With X, you\u2019re always in the loop with relevant trending topics and breaking news, delivered instantly to your screen, raw and unfiltered.  \nWhat You Can Do on X: \n\u2022 Follow breaking news from around the world before it hits the headlines, and stay ahead of the curve with real-time updates on trending topics and viral conversations. \n\u2022 Post your thoughts, photos, and videos with a global community. Join millions of users in shaping public dialogue across social, cultural, and political conversations. \n\u2022 Discover Grok, the AI assistant powered by X\u2019s real-time data. You can ask Grok to summarize trending news, explain videos, or give you more context about posts. \n\u2022 Stream live video or go live with Spaces, our audio feature that enables you to host discussions, hold interviews, or start your next live podcast. Whether you're streaming a concert, a live game, or your thoughts on a hot topic, Twitter keeps your audience engaged. \n\u2022 Watch videos: from live breaking news and sports clips to podcasts and gaming sessions that last up to 3 hours long. Many of the world\u2019s leading voices, in comedy, gaming, podcasting, and politics, all share their content on X. \n\u2022 Connect and chat privately with friends, followers, customers, or collaborators through Direct Messages. \n\u2022 Join and build communities tailored to your interests: from sports news, gaming, entertainment, crypto, entrepreneurship, tech, and more. \n\u2022 Subscribe to Twitter Premium to unlock exclusive features like a blue checkmark, boosted visibility, prioritized replies, fewer ads, longer videos, and post editing. Twitter Premium also gives you access to creator revenue sharing and the ability to offer exclusive content to subscribers.  \nWhy X? \nIn a world of constant change, Twitter is your real-time source to stay ahead of the curve, connect with people, and explore diverse perspectives. From breaking live news and trending memes to top podcasts and live streams from your favorite creators, Twitter brings it all together in one powerful social experience.",
+            "iconURL": "https://raw.githubusercontent.com/actuallyaridan/NeoFreeBird/refs/heads/main/Branding/Icon.png",
+            "tintColor": "#3594b7",
+            "category": "social",
+            "screenshots": {
+                "iphone": [
+                    "https://github.com/BandarHL/BHTwitter/raw/master/1.png",
+                    "https://github.com/BandarHL/BHTwitter/raw/master/2.png",
+                    "https://github.com/BandarHL/BHTwitter/raw/master/3.png",
+                    "https://github.com/BandarHL/BHTwitter/raw/master/4.png",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e3/b9/c2/e3b9c257-0e45-1ab2-7bac-c8efed910580/1242x2688-1.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/b2/4a/a7/b24aa752-966d-c4b4-3b84-fb689666dbc8/1242x2688-2.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/1c/9b/2f/1c9b2f08-41ec-ebc6-76ed-c16f77d0efb6/1242x2688-3.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/75/8f/a1/758fa15a-c19d-40de-5f37-a79bed84ddc1/1242x2688-6.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/91/ad/d2/91add2f9-6b69-2d82-1a5b-d7156ce27de6/1242x2688-4.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8c/e8/77/8ce877c7-be9e-002a-42d0-33bf2b675cdf/1242x2688-7.jpg/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/01/82/60/01826001-d912-f7d5-aaeb-5c3f6526af72/1242x2688-8.jpg/230x498bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/49/08/bb/4908bb23-f894-6820-0813-7787e71e05f5/89eae6ec-850a-46e4-a590-bb462e354b1b_iPad_12.9_-_2.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/18/e2/1e/18e21ed5-e600-5886-4a64-440fd75966ad/c60cd26e-fd51-4459-8941-f5ac72fc19a0_iPad_12.9_-_3.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fa/25/15/fa2515f3-c9e0-7a00-b9c3-e91ac2a87a1f/abdab1ff-1d0a-4c36-96a5-b574c62f2d85_iPad_12.9_-_1.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
             "versions": [
                 {
                     "version": "4.4",
                     "date": "2025-05-13T20:33:01Z",
                     "localizedDescription": "Update BHTwitter 4.4:\r\n- Fix all the crashes in the newer versions.\r\n- Add the new tabs to the hide page.\r\n- New feature: DM replay later page and tags.\r\n- New feature: Upload 4K media.\r\n- New feature: Voice feature in posts and replies.\r\n- Update the localizations.\r\n- Remove unnecessary options.\r\n\r\nThanks for:\r\n- @actuallyaridan\r\n- @Tulugaak",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
-                    "size": 167001383
+                    "size": 167001383,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.3",
                     "date": "2024-02-10T18:04:33Z",
                     "localizedDescription": "- Upload custom voice\r\n- Select URL host like fxtwitter or vxtwitter of tweet after copy.\r\n- remove unnecessary options.",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.3/BHTwitter-sideloaded.ipa",
-                    "size": 126768317
+                    "size": 126768317,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.2-1",
                     "date": "2023-12-17T19:31:13Z",
                     "localizedDescription": "",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2-1/BHTwitter-sideloaded.ipa",
-                    "size": 130408354
+                    "size": 130408354,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.2",
                     "date": "2023-12-14T05:59:08Z",
                     "localizedDescription": "- Moved from Monkeydev to Theos\r\n- Convert all swift files to Objective-c.\r\n- Add new script to build BHTwitter project easily.\r\n- Support JB rootfull and rootless.\r\n- Fix crashing in downloading longer video and freezing using FFmpeg.\r\n- New option to hide bookmark button.",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.2/BHTwitter-sideloaded.ipa",
-                    "size": 130408247
+                    "size": 130408247,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.1",
                     "date": "2023-12-08T18:17:14Z",
                     "localizedDescription": "- Fix downloading video without sound using FFmpeg.\r\n- Add app icon changer (works just for JB and Trollstore)\r\n- Remove unnecessarily features.\r\n\r\n- [ffmpeg-kit](https://github.com/arthenica/ffmpeg-kit)",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.1/Twitter_10.19_BHTwitter_4.1.ipa",
-                    "size": 163435830
+                    "size": 163435830,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "4.0",
                     "date": "2023-08-29T03:59:59Z",
                     "localizedDescription": "- Add stopHidingTabBar\r\n- Add advanced search\r\n- Add change Background of direct msg\r\n- Fix removing trackingParams from URL\r\n- Fix show images as Full frame\r\n- Remove unnecessary options",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.0/BHTwitter-sideload.ipa",
-                    "size": 99532305
+                    "size": 99532305,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.9.1",
                     "date": "2023-03-14T05:32:31Z",
                     "localizedDescription": "What's new in the 3.9.1 update:\r\n- Add a new option to force Twitter to always use the following page.",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.9.1/Twitter_9.49_BHTwitter_3.9.1-TrollStore.ipa",
-                    "size": 96029159
+                    "size": 96029159,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.9",
                     "date": "2023-03-06T15:41:56Z",
                     "localizedDescription": "What's new in the 3.9 update:\r\n- Fix crash with TrollStore.\r\n- Add a new option to show the scroll bar again.\r\n\r\nThanks:\r\n@arandomdev ",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.9/Twitter_9.47_BHTwitter_3.9-TrollStore.ipa",
-                    "size": 95320317
+                    "size": 95320317,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.8",
                     "date": "2023-03-04T05:58:15Z",
                     "localizedDescription": "# What's new in the 3.8 update:\r\n- Fix crash with Twitter 9.47\r\n- Remove tweet source option\r\n- Add new feature to disable the new video player (Immersive Player)",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.8/Twitter_9.47_BHTwitter_3.8-TrollStore.ipa",
-                    "size": 87331404
+                    "size": 87331404,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.7",
                     "date": "2023-01-13T15:32:28Z",
                     "localizedDescription": "- New option to Remove tracking params from tweet URLs when it's copy\r\n- New option to Add forcing tweets to use full-frame images\r\n- Move Font hooking to Runtime\r\n- Fix crash with Twitter 9.40\r\n\r\nThanks, @ExTBH ",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.7/Twitter_9.40_BHTwitter_3.7-TrollStore.ipa",
-                    "size": 94807701
+                    "size": 94807701,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.6",
                     "date": "2023-01-07T18:09:24Z",
                     "localizedDescription": "- Fix unexpected crashes while copying from the profile.\r\n- New option to bring Tweet source back.",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.6/Twitter_9.39_BHTwitter_3.6-TrollStore.ipa",
-                    "size": 97136048
+                    "size": 97136048,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.5",
                     "date": "2022-12-25T18:56:44Z",
                     "localizedDescription": "- New option to hide views count\r\n- Fix save tweet as image issue",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.5/Twitter_9.38_BHTwitter_3.5-TrollStore.ipa",
-                    "size": 99440344
+                    "size": 99440344,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.4",
                     "date": "2022-12-18T16:49:17Z",
                     "localizedDescription": "- Fix crashes with Twitter 9.37.1",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.4/Twitter_9.37.1_BHTwitter_3.4.ipa",
-                    "size": 102340172
+                    "size": 102340172,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.3",
                     "date": "2022-11-25T12:20:48Z",
                     "localizedDescription": "- Fix downloading videos from multiple media tweet\r\n- Translate Custom tab bar ViewController\r\n- Translate Theme ViewController\r\n- Update FLEX",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.3/Twitter_9.34.6_BHTwitter_3.3.ipa",
-                    "size": 121791825
+                    "size": 121791825,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.2",
                     "date": "2022-10-13T19:28:22Z",
                     "localizedDescription": "- Fix Downloading videos\r\n- Fix Save tweet as image\r\n- Fix Like confirmation\r\n- Fix Hide spaces bar\r\n- Add Edit tweet feature [BETA]",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.2/Twitter_9.32_BHTwitter_3.2.ipa",
-                    "size": 119221084
+                    "size": 119221084,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.1",
                     "date": "2022-09-10T21:05:40Z",
                     "localizedDescription": "What's new with the 3.1 version:\r\n- Fix Ads tweet issues\r\n- Block Ads in the trending page",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.1/Twitter_9.27_BHTwitter_3.1.ipa",
-                    "size": 151421624
+                    "size": 151421624,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "3.0",
                     "date": "2022-08-23T15:13:53Z",
                     "localizedDescription": "What's new with the 3.0 version:\r\n- Add Hide Who to follow section\r\n- Add Hide Topics to follow section\r\n- Add Localization to the Tweak (Arabic, Japanese, Russian, Indonesian, zh-Hant)\r\n- Fix random crashes \r\n- Fix the location of Copy profile button when enabling Disable RTL option\r\n\r\n---\r\n**[IPA version contains Open Twitter Safari extension](https://github.com/BandarHL/OpenTwitterSafariExtension)**\r\n<img src=\"https://user-images.githubusercontent.com/31299470/186194865-ff9b21a6-ba5c-4bbd-8aa2-7b6be6178404.jpeg\" alt=\"drawing\" width=\"200\"/>\r\n",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/3.0/Twitter_9.26_BHTwitter_3.0.ipa",
-                    "size": 349854182
+                    "size": 349854182,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "2.9.9",
                     "date": "2022-08-02T22:11:27Z",
                     "localizedDescription": "What's new with the 2.9.9 version:\r\n- Add Status Tweet (vibe)\r\n- Fix bugs and performance improvement",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.9/Twitter_9.20_BHTwitter_2.9.9.ipa",
-                    "size": 300545115
+                    "size": 300545115,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "2.9.8",
                     "date": "2022-07-27T23:04:17Z",
                     "localizedDescription": "What's new with the 2.9.8 version:\r\n- Always open in Safari is back!\r\n- Add CoTweet\r\n- Fix crash in Twitter settings\r\n- Remove reply later (because Twitter delete it)\r\n- Remove voice in reply (because it's useless)\r\n- Add copy location\r\n- Rebuild Settings with Preferences and Cephei framework",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.8/Twitter_9.20_BHTwitter_2.9.8.ipa",
-                    "size": 161501645
+                    "size": 161501645,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "2.9.7",
                     "date": "2022-07-05T14:23:51Z",
                     "localizedDescription": "### What's new with the 2.9.7 version:\r\n- Add new feature: Theme like Twitter blue\r\n- Add a new feature: Hide spaces bar\r\n- Add a new feature: Disable RTL\r\n- Fix RTL issue with Save tweet as an image\r\n- Fix the colour issue with Save tweet as an image\r\n- Fix voice in DM feature\r\n- Fix issues with the Font feature\r\n- Fix Auto Highest Load feature",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.7/Twitter_9.15.2_BHTwitter_2.9.7.ipa",
-                    "size": 110188234
+                    "size": 110188234,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "2.9.6",
                     "date": "2022-06-25T16:15:31Z",
                     "localizedDescription": "### What's new with the 2.9.6 version:\r\n- New feature: Save tweets as images.\r\n- Fix Padlock feature issues.\r\n- Fix Tweet confirm option.",
                     "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/2.9.6/Twitter_9.14_BHTwitter_2.9.6.ipa",
-                    "size": 106622520
+                    "size": 106622520,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
-            ]
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
         },
         {
             "name": "Maid",
