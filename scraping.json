@@ -574,5 +574,33 @@
         "bundleID": "com.burbn.instagram",
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/98/ae/2298aecf-4e15-8f39-eb97-ddfce8bfd321/Placeholder.mill/400x400bb-75.webp",
         "allowPrerelease": false
+    }.
+    {
+        "name": "Asspp",
+        "github": "Lakr233/Asspp",
+        "bundleID": "wiki.qaq.Asspp",
+        "iconURL": "https://raw.githubusercontent.com/Lakr233/Asspp/refs/heads/main/Asspp/App/Assets.xcassets/AppIcon.appiconset/asspp_512.png",
+        "allowPrerelease": false
+    },
+    {
+        "name": "QuizGen",
+        "github": "sasobhabha/QuizGen",
+        "bundleID": "educhange.QuizGen",
+        "iconURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/placeholder.jpg",
+        "allowPrerelease": false
+    },
+    {
+        "name": "Layam",
+        "github": "sasobhabha/Layam",
+        "bundleID": "metronome.layam",
+        "iconURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/placeholder.jpg",
+        "allowPrerelease": false
+    },
+    {
+        "name": "Thunder for Lemmy",
+        "github": "thunder-app/thunder",
+        "bundleID": "com.hjiangsu.thunder",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/fe/14/1dfe1456-e4a9-2754-7af9-34d616932bee/Placeholder.mill/400x400bb-75.webp",
+        "allowPrerelease": false
     }
 ]
