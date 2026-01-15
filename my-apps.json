@@ -10,6 +10,135 @@
   "headerURL": "https://images.squarespace-cdn.com/content/v1/5e949a92e17d55230cd1d44f/18e85263-afea-4d98-a16f-42554f815528/Wave1x1.png",
   "apps": [
     {
+      "name": "NebuloIPTV",
+      "bundleIdentifier": "personal.Nebulo",
+      "marketplaceID": "",
+      "developerName": "mongoosemonke504",
+      "subtitle": "Constant releases of my clean IPTV app with a built in sports score center",
+      "localizedDescription": "A modern, high-performance IPTV player built for iOS using SwiftUI, AVKit, and Combine.\n\n✨ Features\nUniversal Login Support:\nXtream Codes API: Standard login for most providers.\nM3U / M3U8 Playlists: Powerful parser for local or remote playlist files.\nStalker Portal: Support for MAG-style portal links.\n🏀 Intelligent Sports Center:\nReal-Time Scores: Integration with ESPN API for live scores.\nSmart Search: Fuzzy matching logic automatically finds the best stream for a specific game (prioritizing 60fps/FHD streams).\nMulti-League Support: NBA, NFL, MLB, NHL, Premier League, UCL, Europa League, Ligue 1, and more.\n🎨 Nebula UI Engine:\nCustom, interactive animated background using SwiftUI `Canvas`.\nGlassmorphic design with adaptable layouts (Sidebar for iPad/Landscape, Standard for iPhone).\nFully customizable colors and animation speeds.\n⚡️ Advanced Player:\nPicture-in-Picture (PiP): Multitask while watching.\nAirPlay 2: Cast directly to Apple TV or compatible smart TVs.\nQuality Detection: Auto-tags streams as SD, HD, or 4K based on resolution.",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/00/af/ee00af75-4d23-3465-95e3-a4ea787abfe7/Placeholder.mill/400x400bb-75.webp",
+      "tintColor": "#007aff",
+      "category": "utilities",
+      "screenshots": [
+        "https://private-user-images.githubusercontent.com/249367002/531021449-89d2b1bf-bab3-463f-afa5-8cb366582626.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNDQ5LTg5ZDJiMWJmLWJhYjMtNDYzZi1hZmE1LThjYjM2NjU4MjYyNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05OGZhNmI2ODUyYjc3ZTc3Y2YxYjQ4YTA3YWJkNTVhY2M4MmQ5NTVjOTg3NzBjMDBjNTZkMzE4MmEzY2ExM2M0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.tYhDxlAZVxzBgjD2ZL6CMrTWArWeJvUrgMmBCwklNDA",
+        "https://private-user-images.githubusercontent.com/249367002/531021848-f4b1c02b-603f-4111-81a3-2b114199d306.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxODQ4LWY0YjFjMDJiLTYwM2YtNDExMS04MWEzLTJiMTE0MTk5ZDMwNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NDU2MDQ1N2NhNGQzNDRjMzgzOWMzNGZjMzhjZGEwNjdlMDY0MDljZTA3MmRiYzExY2QzNWNmMGNhNDVjYzQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4FHqvSE5fvXySbitrQmhOV4QuJ4XWhP9gMgkYBhuvFY",
+        "https://private-user-images.githubusercontent.com/249367002/531022014-290e074a-debe-4875-85c9-06310eceeb04.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIyMDE0LTI5MGUwNzRhLWRlYmUtNDg3NS04NWM5LTA2MzEwZWNlZWIwNC5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMWIyNDZjNTIwODFiMDY0Yzk5MDdiNTE0NGIxZGI1MGY2MzhlYzk4YzNmNWIxN2ExNDMwNjIyNjE3MDQ2NmY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.fEASoJFAZKAcSfL-T8-Quq58Ssaj9CcJIDJf3gSt0XE",
+        {
+          "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
+          "width": 2622,
+          "height": 1206
+        },
+        {
+          "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
+          "width": 2622,
+          "height": 1206
+        },
+        {
+          "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
+          "width": 2622,
+          "height": 1206
+        }
+      ],
+      "versions": [
+        {
+          "version": "V2.2",
+          "date": "2026-01-14T05:40:01Z",
+          "localizedDescription": "What's New in V2.4\r\n\r\n   * Redesigned Dashboard: A completely new home screen with Quick Access cards\r\n     for Favorites, Sports, and Recordings.\r\n   * Multi-Playlist & EPG Support: Log into multiple accounts and add custom\r\n     external EPG links to run simultaneously.\r\n   * Stream Recording: Built-in support to record live content and manage your\r\n     library directly in the app.\r\n   * Advanced Sports Logic: Improved smart-search logic to automatically match\r\n     games to the best available streams in the Sports section.\r\n   * Optimized Playback: Faster channel switching and smoother streaming\r\n     performance using updated VLC and KSPlayer engines.\r\n   * UI Customization: Fully adjustable button transparency and color settings,\r\n     plus custom nebula background effects.\r\n   * Captions: Added support for subtitles and closed captions on compatible\r\n     streams.\r\n   * In-App Updates: Check for and install the latest versions of Nebulo\r\n     directly from the settings menu.\r\n   * Performance: Extensive code cleanup and bug fixes for a faster, more stable\r\n     experience.\r\n",
+          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.2/Nebulo_V2.2.14.ipa",
+          "size": 56228678,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "V2.1",
+          "date": "2025-12-31T05:29:04Z",
+          "localizedDescription": "**Hot Fix**\r\n\r\nAfter my post to reddit I received a lot of useful feedback that I thought I would go ahead and implement. The following changes are below: \r\n\r\n**Stalker/MAC under construction it doesn't work right now**\r\n\r\n- New settings UI\r\n- Buttons to go forward or backward one channel\r\n\r\n- **Support for multiple playlists**\r\n\r\n- **Support for multiple EPGs**\r\n\r\n- Sort of in app updates. I can't really without a $99 a year dev account so right now it checks if you are up to date and if your not it will send you to the latest release tab in GitHub\r\n\r\n- **Completely revamped the speed of the player so channels will load much faster now closer to other apps like Smarters IPTV**\r\n\r\n- Slight refresh to the multi view section so channels don't reload every time a new channel is added.\r\n\r\n- mini player doesn't reload every time it is activated same for when the user goes back to full screen.",
+          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.1/Nebulo_V2.1.8.ipa",
+          "size": 5347319,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "V2.0",
+          "date": "2025-12-30T06:07:00Z",
+          "localizedDescription": "  🚀 Nebulo V2.0 - The Ultimate iOS IPTV Experience\r\n\r\n  Nebulo V2.0 is here! This is a complete rewrite and a massive leap forward,\r\n  bringing desktop-class features to your iPhone and iPad. With a stunning\r\n  glassmorphism UI, Multi-View support, and a dedicated Sports Center, Nebulo\r\n  defines how IPTV should look and feel on iOS.\r\n\r\n  ✨ New Features\r\n\r\n  📺 Multi-View Mode\r\n  Watch up to 4 streams simultaneously! Perfect for sports days or tracking\r\n  multiple news channels.\r\n   - Grid layout for 2x2 viewing.\r\n   - Seamlessly add channels from the player or context menus.\r\n   - Audio focus switching with a simple tap.\r\n\r\n  ⏯️ All-New Custom Video Player\r\n  Built on top of AVKit for maximum performance and battery efficiency.\r\n   - Smart Picture-in-Picture (PiP): Now with refined logic—PiP only activates\r\n     when you want it and automatically dismisses when you switch streams.\r\n   - Quick Switcher: Swipe up to surf channels without leaving the stream.\r\n   - Quality Indicators: Auto-detects 4K, 1080p, 720p, and SD streams.\r\n   - Mini Player: Keep watching in-app while browsing the guide.\r\n\r\n  ⚽ Sports Center & Smart EPG\r\n   - Sports Hub: A dedicated view to find live events quickly.\r\n   - Dynamic EPG: Live program updates with a \"Dynamic Island\" style loading\r\n     indicator.\r\n   - Smart Search: Find channels, categories, and current programs instantly.\r\n\r\n  🎨 Stunning UI/UX\r\n   - Nebula Backgrounds: Dynamic, colorful backgrounds that breathe with the\r\n     app.\r\n   - Adaptive Layouts: Optimized interfaces for both iPhone (Standard) and iPad\r\n     (Sidebar/Landscape).\r\n   - Glassmorphism: Modern, translucent aesthetics throughout the app.\r\n\r\n  🛠 Under the Hood\r\n   - Performance: Significant optimizations in stream loading and memory\r\n     management.\r\n   - Stability: Fixed issues with background audio and stream switching.\r\n   - Stack: 100% SwiftUI & Combine.\r\n\r\n\r\n  Note: Requires a valid Xtream Codes, m3u, or stalker portal this is just an app it does not provide any of this.\r\n\r\n  ---\r\n\r\n  ❤️ Support the Project\r\n\r\n  Nebulo is free and open-source. If you enjoy using it, consider buying me a\r\n  coffee!\r\n\r\n  <a href=\"https://buymeacoffee.com/mongoosemonke\">\r\n    <img\r\n  src=\"https://camo.githubusercontent.com/2103f6f19430c25368a3350117da5b736b008d\r\n  776858e772b226e642398555e0/68747470733a2f2f63646e2e6275796d6561636f666665652e6\r\n  36f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67\" alt=\"Buy Me\r\n  A Coffee\" width=\"160\">\r\n  </a>\r\n\r\n  ---\r\n\r\n  Found a bug? Open an issue!",
+          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.0/NebuloV2.0.3.ipa",
+          "size": 5238365,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "V1.1",
+          "date": "2025-12-16T22:37:47Z",
+          "localizedDescription": "This update brings a major new login method, significant video player upgrades, multiview, and highly requested UI fixes.\r\n\r\nNew Features\r\n * MAC Address / Stalker Portal Support: You can now login using a Portal URL and MAC Address (00:1A:79...). The app handles the handshake automatically.\r\n * Picture-in-Picture (PiP): Added a PiP toggle to the video player overlay. Watch your streams while using other apps!\r\n * Seek Controls: Added -10s and +10s buttons to the player overlay.\r\n * \"Jump to Live\" Button: The new LIVE indicator is now interactive. If you are behind, tap it to jump instantly to the latest point in the stream.\r\n *  Multiview: Added a multi-view section to watch up to 4 streams at the same time\r\n\r\nImprovements\r\n * Smart Search Fallback: If a specific game isn't found in Sports Center, the app now automatically searches for the broadcasting network (e.g., \"ESPN\") instead of showing zero results.\r\n * Sidebar Organization: Reordered sidebar items for better access: Recently Watched → Favorites → Sports Center → Multi-View → All Channels.\r\n * Update Logic: Added a \"Don't Ask Again\" option to the update alert to mute notifications for a specific version.\r\n * Login UI: Redesigned the login picker to support two lines of text, preventing cutoff on smaller screens.\r\n * More soccer leagues: Added more soccer leagues in the sports center section (Ligue 1, Serie A, Liga MX, and more)\r\n \r\nBug Fixes\r\n * Fixed Video Freezing: Completely rewrote the buffer logic to prevent the player from getting stuck on the first frame or freezing indefinitely during network stalls.\r\n * Fixed Multi-View Cropping: Streams in multi-view mode now show the full video picture instead of zooming in and cropping the edges.\r\n * Fixed Text Cutoff: Login instructions and titles now auto-shrink to fit any screen size without being cut off.\r\n \r\nHow to Install:\r\nDownload the .ipa file below and install via SideStore, AltStore, or TrollStore.\r\n",
+          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V1.1/Nebulo.V1.1.ipa",
+          "size": 2336382,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "Release",
+          "date": "2025-12-12T22:35:17Z",
+          "localizedDescription": "First iteration of my IPTV app",
+          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/Release/Nebulo.ipa",
+          "size": 2257619,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
+      "name": "EnsWilde",
+      "bundleIdentifier": "com.yangjiii.EnsWilde",
+      "marketplaceID": "",
+      "developerName": "YangJiiii",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
+      "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
+      "tintColor": "#d99800",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "EnsWilde2.1",
+          "date": "2026-01-13T13:39:34Z",
+          "localizedDescription": "## Improvements\r\n\r\n- Improved overall stability and success rate\r\n- Prevented file corruption during execution\r\n- Updated the user interface to reduce unexpected errors\r\n- Fixed the issue where the app required restarting when enabling VPN\r\n- Added a few small features to Mobile Gestalt\r\n## New Features\r\n\r\n### Apple Wallet\r\n- Added support for custom background images for Apple Wallet passes\r\n\r\n### Passcode Theme\r\n- Added the ability to change the passcode unlock screen image\r\n\r\n## How to Use\r\n\r\n### Apple Wallet\r\nIf you don’t have a Card ID yet:\r\n\r\n1. Remove the existing card from Wallet (if any)\r\n2. Tap Scan ID\r\n3. Scan your card\r\n4. Add the card to Wallet\r\n5. The app will automatically retrieve the Card ID\r\n\r\n### Passcode Theme\r\n\r\n1. Go to Theme Settings\r\n2. Select the appropriate language\r\n3. Select the appropriate Telephony option (priority: Telephony-10)\r\n\r\n## Download\r\n\r\nDownload passthm themes at:\r\nhttps://cowabun.ga/wallpapers\r\n",
+          "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1/EnsWilde.ipa",
+          "size": 12626172,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "EnsWilde2.0",
+          "date": "2026-01-05T15:30:18Z",
+          "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable – experimental build) (enable it in Settings; password: **3105**)\r\n",
+          "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
+          "size": 12242612,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "EnsWilde",
+          "date": "2025-12-26T14:35:03Z",
+          "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
+          "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
+          "size": 37995810,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
       "name": "iSH",
       "bundleIdentifier": "app.ish.ISH",
       "marketplaceID": "",
@@ -28,6 +157,15 @@
         ]
       },
       "versions": [
+        {
+          "version": "builds/805",
+          "date": "2026-01-13T06:21:11Z",
+          "localizedDescription": "Automated daily build",
+          "downloadURL": "https://github.com/ish-app/ish/releases/download/builds/805/iSH.ipa",
+          "size": 4603468,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
         {
           "version": "builds/804",
           "date": "2026-01-10T06:19:54Z",
@@ -324,6 +462,211 @@
       "patreon": {}
     },
     {
+      "name": "NuvioStreaming",
+      "bundleIdentifier": "com.nuvio.app",
+      "marketplaceID": "",
+      "developerName": "tapframe",
+      "subtitle": "Streaming app for movies and TV shows",
+      "localizedDescription": "Nuvio is a comprehensive streaming application that provides access to a vast library of movies and TV shows.\nNuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
+      "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
+      "tintColor": "#04dcfc",
+      "category": "entertainment",
+      "screenshots": [
+        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png?raw=true",
+        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png?raw=true",
+        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/seasonandepisode-portrait.png?raw=tru",
+        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png?raw=true",
+        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png?raw=true"
+      ],
+      "versions": [
+        {
+          "version": "1.3.5",
+          "date": "2026-01-11T18:43:44Z",
+          "localizedDescription": "## Update Notes\r\n\r\n### ExoPlayer Subtitle Fixes\r\nThis update mainly focuses on fixing multiple subtitle-related issues in ExoPlayer:\r\n- Fixed issue where **only the first subtitle index** was being rendered  \r\n- Fixed subtitles **always showing background** due to Android native caption settings  \r\n- Fixed subtitles being **rendered inside the player view**  \r\n- Fixed **subtitle bottom offset** issues  \r\n- Merged PR **#391** by **@saifshaikh1805**  \r\n  - Fixes issue **#301**\r\n\r\n### KSPlayer Improvements\r\n- Improved **subtitle behavior** in KSPlayer  \r\n- Merged PR **#394** by **@AdityasahuX07**\r\n\r\n### Settings & Persistence\r\n- Implemented **save and load** functionality for **Discover settings**\r\n\r\nThis release improves subtitle rendering accuracy across players and adds better persistence for user preferences.\r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.5/Stable_1-3-5.ipa",
+          "size": 38669923,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.3.4",
+          "date": "2026-01-06T14:15:08Z",
+          "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - ⚠️ **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
+          "size": 39686624,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.3.3",
+          "date": "2025-12-31T22:32:21Z",
+          "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - ⚠️ It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
+          "size": 36122947,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.3.2",
+          "date": "2025-12-27T22:16:36Z",
+          "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Added back **ExoPlayer as the primary player** for better **Dolby Vision (DV)** and **HDR** handling  \r\n  - Automatic fallback to **MPV Player** when required  \r\n- Users can now choose between **Auto** or **MPV** player modes  \r\n- Added **Auto / HW / HW+SW** decoding options for MPV  \r\n  - **Auto is recommended**  \r\n- Added **Video Output Renderer** option  \r\n  - GPU  \r\n  - GPU-next  \r\n\r\n### New Features\r\n- Added **Skip Intro** feature powered by **IntroDB**  \r\n- Added support for **Internal Subtitle customization** for both **MPV** and **ExoPlayer**  \r\n  - ExoPlayer customization is currently limited  \r\n\r\n### Stability & Fixes\r\n- Improved **StreamScreen error handling** to prevent crashes  \r\n- Minor bug fixes and internal improvements  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.2/Stable_1-3-2.ipa",
+          "size": 35884924,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.3.0",
+          "date": "2025-12-24T14:21:50Z",
+          "localizedDescription": "# ⚠️ Important Notice Before Updating to v1.3.0  \r\n\r\nBefore updating, please read this carefully.\r\n\r\nEspecially for **Android users**, this update is **not mandatory**.  \r\nWe have **completely migrated the internal player** from **ExoPlayer + VLC** to **MPV Player**.  \r\nBecause this is a major internal change, **unexpected bugs may occur**.\r\n\r\nThis update is **recommended only for users who are willing to test and provide feedback**.  \r\nYour feedback is important to help complete this migration and make it bug-free.\r\n\r\n---\r\n\r\n# Nuvio Media Hub – v1.3.0  \r\n\r\n## Android\r\n- Replaced internal player with **MPV Player** for better codec support  \r\n- Added toggles for **Software (SW) / Hardware (HW) decoding**  \r\n\r\n## Global\r\n- Dependency updates  \r\n- Minor bug fixes  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.0/Stable_1-3-0.ipa",
+          "size": 35835616,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.11",
+          "date": "2025-12-14T21:41:31Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
+          "size": 36074020,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.10",
+          "date": "2025-11-25T18:12:44Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week’s section** card UI for a cleaner look  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
+          "size": 54201010,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.9",
+          "date": "2025-11-16T16:31:11Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
+          "size": 54170603,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.8",
+          "date": "2025-11-09T16:11:34Z",
+          "localizedDescription": "# Nuvio Media Hub – v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
+          "size": 54120130,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.7",
+          "date": "2025-10-26T09:13:08Z",
+          "localizedDescription": "# ⚠️ Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings → Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub – v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > ⚠️ This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you’ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
+          "size": 49189840,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.6",
+          "date": "2025-10-21T11:23:31Z",
+          "localizedDescription": "# Version 1.2.6 – Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge – Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
+          "size": 48961527,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.5",
+          "date": "2025-10-15T17:58:07Z",
+          "localizedDescription": "# Version 1.2.5 – Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
+          "size": 46750250,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.4",
+          "date": "2025-10-11T21:39:45Z",
+          "localizedDescription": "# Version 1.2.4 – Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
+          "size": 44690634,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.3",
+          "date": "2025-10-04T18:50:35Z",
+          "localizedDescription": "# Version 1.2.3 – Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** – contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from “H and MIN” to “H and M”  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
+          "size": 44424662,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.2",
+          "date": "2025-09-30T12:28:46Z",
+          "localizedDescription": "# Version 1.2.2 – Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
+          "size": 42388702,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.1",
+          "date": "2025-09-26T17:36:56Z",
+          "localizedDescription": "# Version 1.2.1 – Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - ⚠️ New users should use the respective **plugin repository link** to set up properly  \r\n\r\n⚠️ **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
+          "size": 42367478,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.2.0",
+          "date": "2025-09-22T15:52:55Z",
+          "localizedDescription": "# Version 1.2.0 – Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n⚠️ **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app’s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
+          "size": 42350147,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.1.1",
+          "date": "2025-09-20T11:27:24Z",
+          "localizedDescription": "# Version 1.1.1 – Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n⚠️ **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
+          "size": 26625101,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.1.0",
+          "date": "2025-09-18T11:40:28Z",
+          "localizedDescription": "# Version 1.1.0 – Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n⚠️ **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
+          "size": 26624100,
+          "buildVersion": null,
+          "minOSVersion": null
+        },
+        {
+          "version": "1.0.0",
+          "date": "2025-09-15T17:12:25Z",
+          "localizedDescription": "# Version 1.0.0 – Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it’s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n🙏 A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
+          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
+          "size": 30213962,
+          "buildVersion": null,
+          "minOSVersion": null
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    },
+    {
       "name": "StikDebug",
       "bundleIdentifier": "com.stik.stikdebug",
       "marketplaceID": "",
@@ -370,7 +713,7 @@
       "marketplaceID": "",
       "developerName": "opa334",
       "subtitle": "Dopamine is a semi-untethered jailbreak for iOS 15 and 16",
-      "localizedDescription": "404: Not Found",
+      "localizedDescription": "A rootless semi-untethered jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
       "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
       "tintColor": "#457f18",
       "category": "other",
@@ -822,239 +1165,6 @@
           "localizedDescription": "# Apollo for Reddit (with Artemis) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nArtemis .DEB Version: `1.4` \r\n\r\n**RELEASE 1.15.11-1.4:** (2023-10-11)\r\n- Initial release with Artemis `1.4` \r\n\t- Blocks requests to Statsig\r\n\t- Fix rare crash added in v1.3.1\r\n\t- Fix issue with some Imgur albums not loading\r\n\t- Now also blocks requests to Apollo’s server, rather than just returning fake data\r\n",
           "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.4/Apollo-1.15.11_Artemis-1.4.ipa",
           "size": 108095419,
-          "buildVersion": null,
-          "minOSVersion": null
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {}
-    },
-    {
-      "name": "NuvioStreaming",
-      "bundleIdentifier": "com.nuvio.app",
-      "marketplaceID": "",
-      "developerName": "tapframe",
-      "subtitle": "Streaming app for movies and TV shows",
-      "localizedDescription": "Nuvio is a comprehensive streaming application that provides access to a vast library of movies and TV shows.\nNuvio Media Hub is a cross‑platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
-      "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
-      "tintColor": "#04dcfc",
-      "category": "entertainment",
-      "screenshots": [
-        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png?raw=true",
-        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png?raw=true",
-        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/seasonandepisode-portrait.png?raw=tru",
-        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png?raw=true",
-        "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png?raw=true"
-      ],
-      "versions": [
-        {
-          "version": "1.3.4",
-          "date": "2026-01-06T14:15:08Z",
-          "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - ⚠️ **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
-          "size": 39686624,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.3.3",
-          "date": "2025-12-31T22:32:21Z",
-          "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - ⚠️ It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
-          "size": 36122947,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.3.2",
-          "date": "2025-12-27T22:16:36Z",
-          "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Added back **ExoPlayer as the primary player** for better **Dolby Vision (DV)** and **HDR** handling  \r\n  - Automatic fallback to **MPV Player** when required  \r\n- Users can now choose between **Auto** or **MPV** player modes  \r\n- Added **Auto / HW / HW+SW** decoding options for MPV  \r\n  - **Auto is recommended**  \r\n- Added **Video Output Renderer** option  \r\n  - GPU  \r\n  - GPU-next  \r\n\r\n### New Features\r\n- Added **Skip Intro** feature powered by **IntroDB**  \r\n- Added support for **Internal Subtitle customization** for both **MPV** and **ExoPlayer**  \r\n  - ExoPlayer customization is currently limited  \r\n\r\n### Stability & Fixes\r\n- Improved **StreamScreen error handling** to prevent crashes  \r\n- Minor bug fixes and internal improvements  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.2/Stable_1-3-2.ipa",
-          "size": 35884924,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.3.0",
-          "date": "2025-12-24T14:21:50Z",
-          "localizedDescription": "# ⚠️ Important Notice Before Updating to v1.3.0  \r\n\r\nBefore updating, please read this carefully.\r\n\r\nEspecially for **Android users**, this update is **not mandatory**.  \r\nWe have **completely migrated the internal player** from **ExoPlayer + VLC** to **MPV Player**.  \r\nBecause this is a major internal change, **unexpected bugs may occur**.\r\n\r\nThis update is **recommended only for users who are willing to test and provide feedback**.  \r\nYour feedback is important to help complete this migration and make it bug-free.\r\n\r\n---\r\n\r\n# Nuvio Media Hub – v1.3.0  \r\n\r\n## Android\r\n- Replaced internal player with **MPV Player** for better codec support  \r\n- Added toggles for **Software (SW) / Hardware (HW) decoding**  \r\n\r\n## Global\r\n- Dependency updates  \r\n- Minor bug fixes  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.0/Stable_1-3-0.ipa",
-          "size": 35835616,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.11",
-          "date": "2025-12-14T21:41:31Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
-          "size": 36074020,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.10",
-          "date": "2025-11-25T18:12:44Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week’s section** card UI for a cleaner look  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
-          "size": 54201010,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.9",
-          "date": "2025-11-16T16:31:11Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
-          "size": 54170603,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.8",
-          "date": "2025-11-09T16:11:34Z",
-          "localizedDescription": "# Nuvio Media Hub – v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
-          "size": 54120130,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.7",
-          "date": "2025-10-26T09:13:08Z",
-          "localizedDescription": "# ⚠️ Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings → Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub – v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > ⚠️ This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you’ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
-          "size": 49189840,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.6",
-          "date": "2025-10-21T11:23:31Z",
-          "localizedDescription": "# Version 1.2.6 – Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge – Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
-          "size": 48961527,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.5",
-          "date": "2025-10-15T17:58:07Z",
-          "localizedDescription": "# Version 1.2.5 – Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
-          "size": 46750250,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.4",
-          "date": "2025-10-11T21:39:45Z",
-          "localizedDescription": "# Version 1.2.4 – Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
-          "size": 44690634,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.3",
-          "date": "2025-10-04T18:50:35Z",
-          "localizedDescription": "# Version 1.2.3 – Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** – contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from “H and MIN” to “H and M”  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
-          "size": 44424662,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.2",
-          "date": "2025-09-30T12:28:46Z",
-          "localizedDescription": "# Version 1.2.2 – Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
-          "size": 42388702,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.1",
-          "date": "2025-09-26T17:36:56Z",
-          "localizedDescription": "# Version 1.2.1 – Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - ⚠️ New users should use the respective **plugin repository link** to set up properly  \r\n\r\n⚠️ **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
-          "size": 42367478,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.2.0",
-          "date": "2025-09-22T15:52:55Z",
-          "localizedDescription": "# Version 1.2.0 – Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n⚠️ **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app’s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
-          "size": 42350147,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.1.1",
-          "date": "2025-09-20T11:27:24Z",
-          "localizedDescription": "# Version 1.1.1 – Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n⚠️ **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
-          "size": 26625101,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.1.0",
-          "date": "2025-09-18T11:40:28Z",
-          "localizedDescription": "# Version 1.1.0 – Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n⚠️ **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
-          "size": 26624100,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "1.0.0",
-          "date": "2025-09-15T17:12:25Z",
-          "localizedDescription": "# Version 1.0.0 – Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it’s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n🙏 A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
-          "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
-          "size": 30213962,
-          "buildVersion": null,
-          "minOSVersion": null
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {}
-    },
-    {
-      "name": "EnsWilde",
-      "bundleIdentifier": "com.yangjiii.EnsWilde",
-      "marketplaceID": "",
-      "developerName": "YangJiiii",
-      "subtitle": "An awesome app.",
-      "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
-      "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
-      "tintColor": "#d99800",
-      "category": "other",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "EnsWilde2.0",
-          "date": "2026-01-05T15:30:18Z",
-          "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable – experimental build) (enable it in Settings; password: **3105**)\r\n",
-          "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
-          "size": 12242612,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "EnsWilde",
-          "date": "2025-12-26T14:35:03Z",
-          "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
-          "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
-          "size": 37995810,
           "buildVersion": null,
           "minOSVersion": null
         }
@@ -1906,61 +2016,6 @@
       "patreon": {}
     },
     {
-      "name": "NebuloIPTV",
-      "bundleIdentifier": "personal.Nebulo",
-      "marketplaceID": "",
-      "developerName": "mongoosemonke504",
-      "subtitle": "Constant releases of my clean IPTV app with a built in sports score center",
-      "localizedDescription": "📺 IPTV Player - SwiftUI & AVKit\n\nA modern, high-performance IPTV player built for iOS using SwiftUI, AVKit, and Combine.\n\n✨ Features\n\n* **Universal Login Support:**\n    * **Xtream Codes API:** Standard login for most providers.\n    * **M3U / M3U8 Playlists:** Powerful parser for local or remote playlist files.\n    * **Stalker Portal:** Support for MAG-style portal links.\n* **🏀 Intelligent Sports Center:**\n    * **Real-Time Scores:** Integration with ESPN API for live scores.\n    * **Smart Search:** Fuzzy matching logic automatically finds the best stream for a specific game (prioritizing 60fps/FHD streams).\n    * **Multi-League Support:** NBA, NFL, MLB, NHL, Premier League, UCL, Europa League, Ligue 1, and more.\n* **🎨 Nebula UI Engine:**\n    * Custom, interactive animated background using SwiftUI `Canvas`.\n    * Glassmorphic design with adaptable layouts (Sidebar for iPad/Landscape, Standard for iPhone).\n    * Fully customizable colors and animation speeds.\n* **⚡️ Advanced Player:**\n    * **Picture-in-Picture (PiP):** Multitask while watching.\n    * **AirPlay 2:** Cast directly to Apple TV or compatible smart TVs.\n    * **Quality Detection:** Auto-tags streams as SD, HD, or 4K based on resolution.\n\n## 🛠️ Tech Stack\n\n* **Language:** Swift 5.10+\n* **Frameworks:** SwiftUI, Combine, AVKit, AVFoundation\n* **Architecture:** MVVM (Model-View-ViewModel)\n* **Concurrency:** Swift Async/Await (`Task`, `Actor`)\n* **Persistence:** `UserDefaults` (Settings, Favorites, Recents)\n\n## 🚀 Getting Started\n\n### Prerequisites\n* Xcode 15.0 or later\n* iOS 16.0 or later\n\n### Installation\n1. Download latest version from releases page\n2. Sideload\n\n## 🧩 Usage\n\n1.  **Login:** Choose your method (Xtream, M3U, or Stalker) and enter your credentials/URL.\n2.  **Browse:** Use the sidebar (iPad) or standard view (iPhone) to browse categories.\n3.  **Sports:** Navigate to the \"Sports Center\" tab to see live games. Tapping a game automatically searches your playlist for that specific match using the Smart Search engine.\n4.  **Settings:** Customize the \"Nebula\" background colors, toggle category visibility, or manage account settings.\n\n## 🤝 Contributing\n\nContributions are welcome! Please follow these steps:\n1.  Fork the project.\n2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).\n3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).\n4.  Push to the branch (`git push origin feature/AmazingFeature`).\n5.  Open a Pull Request.\n\n## ⚠️ Disclaimer\n\nThis application is a **video player**. It does **not** provide any content. Users must provide their own playlists or subscription details from a legal provider. The developers of this app do not condone piracy.\n\n## 📄 License\n\nDistributed under the MIT License. See `LICENSE` for more information.\n\n---\n\n### 💬 Community & Support\n\nJoin our Discord for updates, bug reports, and beta testing!\n[**Join the Discord Server**](https://discord.gg/qf7rcFfE)\n",
-      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/00/af/ee00af75-4d23-3465-95e3-a4ea787abfe7/Placeholder.mill/400x400bb-75.webp",
-      "tintColor": "#007aff",
-      "category": "other",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "V2.1",
-          "date": "2025-12-31T05:29:04Z",
-          "localizedDescription": "**Hot Fix**\r\n\r\nAfter my post to reddit I received a lot of useful feedback that I thought I would go ahead and implement. The following changes are below: \r\n\r\n**Stalker/MAC under construction it doesn't work right now**\r\n\r\n- New settings UI\r\n- Buttons to go forward or backward one channel\r\n\r\n- **Support for multiple playlists**\r\n\r\n- **Support for multiple EPGs**\r\n\r\n- Sort of in app updates. I can't really without a $99 a year dev account so right now it checks if you are up to date and if your not it will send you to the latest release tab in GitHub\r\n\r\n- **Completely revamped the speed of the player so channels will load much faster now closer to other apps like Smarters IPTV**\r\n\r\n- Slight refresh to the multi view section so channels don't reload every time a new channel is added.\r\n\r\n- mini player doesn't reload every time it is activated same for when the user goes back to full screen.",
-          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.1/Nebulo_V2.1.8.ipa",
-          "size": 5347319,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "V2.0",
-          "date": "2025-12-30T06:07:00Z",
-          "localizedDescription": "  🚀 Nebulo V2.0 - The Ultimate iOS IPTV Experience\r\n\r\n  Nebulo V2.0 is here! This is a complete rewrite and a massive leap forward,\r\n  bringing desktop-class features to your iPhone and iPad. With a stunning\r\n  glassmorphism UI, Multi-View support, and a dedicated Sports Center, Nebulo\r\n  defines how IPTV should look and feel on iOS.\r\n\r\n  ✨ New Features\r\n\r\n  📺 Multi-View Mode\r\n  Watch up to 4 streams simultaneously! Perfect for sports days or tracking\r\n  multiple news channels.\r\n   - Grid layout for 2x2 viewing.\r\n   - Seamlessly add channels from the player or context menus.\r\n   - Audio focus switching with a simple tap.\r\n\r\n  ⏯️ All-New Custom Video Player\r\n  Built on top of AVKit for maximum performance and battery efficiency.\r\n   - Smart Picture-in-Picture (PiP): Now with refined logic—PiP only activates\r\n     when you want it and automatically dismisses when you switch streams.\r\n   - Quick Switcher: Swipe up to surf channels without leaving the stream.\r\n   - Quality Indicators: Auto-detects 4K, 1080p, 720p, and SD streams.\r\n   - Mini Player: Keep watching in-app while browsing the guide.\r\n\r\n  ⚽ Sports Center & Smart EPG\r\n   - Sports Hub: A dedicated view to find live events quickly.\r\n   - Dynamic EPG: Live program updates with a \"Dynamic Island\" style loading\r\n     indicator.\r\n   - Smart Search: Find channels, categories, and current programs instantly.\r\n\r\n  🎨 Stunning UI/UX\r\n   - Nebula Backgrounds: Dynamic, colorful backgrounds that breathe with the\r\n     app.\r\n   - Adaptive Layouts: Optimized interfaces for both iPhone (Standard) and iPad\r\n     (Sidebar/Landscape).\r\n   - Glassmorphism: Modern, translucent aesthetics throughout the app.\r\n\r\n  🛠 Under the Hood\r\n   - Performance: Significant optimizations in stream loading and memory\r\n     management.\r\n   - Stability: Fixed issues with background audio and stream switching.\r\n   - Stack: 100% SwiftUI & Combine.\r\n\r\n\r\n  Note: Requires a valid Xtream Codes, m3u, or stalker portal this is just an app it does not provide any of this.\r\n\r\n  ---\r\n\r\n  ❤️ Support the Project\r\n\r\n  Nebulo is free and open-source. If you enjoy using it, consider buying me a\r\n  coffee!\r\n\r\n  <a href=\"https://buymeacoffee.com/mongoosemonke\">\r\n    <img\r\n  src=\"https://camo.githubusercontent.com/2103f6f19430c25368a3350117da5b736b008d\r\n  776858e772b226e642398555e0/68747470733a2f2f63646e2e6275796d6561636f666665652e6\r\n  36f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67\" alt=\"Buy Me\r\n  A Coffee\" width=\"160\">\r\n  </a>\r\n\r\n  ---\r\n\r\n  Found a bug? Open an issue!",
-          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.0/NebuloV2.0.3.ipa",
-          "size": 5238365,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "V1.1",
-          "date": "2025-12-16T22:37:47Z",
-          "localizedDescription": "This update brings a major new login method, significant video player upgrades, multiview, and highly requested UI fixes.\r\n\r\nNew Features\r\n * MAC Address / Stalker Portal Support: You can now login using a Portal URL and MAC Address (00:1A:79...). The app handles the handshake automatically.\r\n * Picture-in-Picture (PiP): Added a PiP toggle to the video player overlay. Watch your streams while using other apps!\r\n * Seek Controls: Added -10s and +10s buttons to the player overlay.\r\n * \"Jump to Live\" Button: The new LIVE indicator is now interactive. If you are behind, tap it to jump instantly to the latest point in the stream.\r\n *  Multiview: Added a multi-view section to watch up to 4 streams at the same time\r\n\r\nImprovements\r\n * Smart Search Fallback: If a specific game isn't found in Sports Center, the app now automatically searches for the broadcasting network (e.g., \"ESPN\") instead of showing zero results.\r\n * Sidebar Organization: Reordered sidebar items for better access: Recently Watched → Favorites → Sports Center → Multi-View → All Channels.\r\n * Update Logic: Added a \"Don't Ask Again\" option to the update alert to mute notifications for a specific version.\r\n * Login UI: Redesigned the login picker to support two lines of text, preventing cutoff on smaller screens.\r\n * More soccer leagues: Added more soccer leagues in the sports center section (Ligue 1, Serie A, Liga MX, and more)\r\n \r\nBug Fixes\r\n * Fixed Video Freezing: Completely rewrote the buffer logic to prevent the player from getting stuck on the first frame or freezing indefinitely during network stalls.\r\n * Fixed Multi-View Cropping: Streams in multi-view mode now show the full video picture instead of zooming in and cropping the edges.\r\n * Fixed Text Cutoff: Login instructions and titles now auto-shrink to fit any screen size without being cut off.\r\n \r\nHow to Install:\r\nDownload the .ipa file below and install via SideStore, AltStore, or TrollStore.\r\n",
-          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V1.1/Nebulo.V1.1.ipa",
-          "size": 2336382,
-          "buildVersion": null,
-          "minOSVersion": null
-        },
-        {
-          "version": "Release",
-          "date": "2025-12-12T22:35:17Z",
-          "localizedDescription": "First iteration of my IPTV app",
-          "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/Release/Nebulo.ipa",
-          "size": 2257619,
-          "buildVersion": null,
-          "minOSVersion": null
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {}
-    },
-    {
       "name": "Pocket8",
       "bundleIdentifier": "com.jevon.pocket8",
       "marketplaceID": "",
@@ -2194,7 +2249,7 @@
       "marketplaceID": "",
       "developerName": "Google LLC and castdrian",
       "subtitle": "A tweak collection for YouTube",
-      "localizedDescription": "Get the official YouTube app on iPhones and iPads. See what the world is watching -- from the hottest music videos to what’s popular in gaming, fashion, beauty, news, learning and more. Subscribe to channels you love, create content of your own, share with friends, and watch on any device.\n\nWatch and subscribe\n● Browse personal recommendations on Home\n● See the latest from your favorite channels in Subscriptions\n● Look up videos you’ve watched, liked, and saved for later in Library\n\nExplore different topics, what’s popular, and on the rise (available in select countries)\n● Stay up to date on what’s popular in music, gaming, beauty, news, learning and more\n● See what’s trending on YouTube and around the world on Explore\n● Learn about the coolest Creators, Gamers, and Artists on the Rise (available in select countries)\n\nConnect with the YouTube community\n● Keep up with your favorites creators with Posts, Stories, Premieres, and Live streams\n● Join the conversation with comments and interact with creators and other community members\n\nCreate content from your mobile device\n● Create or upload your own videos directly in the app\n● Engage with your audience in real time with live streaming right from the app\n\nFind the experience that fits you and your family (available in select countries)\n● Every family has their own approach to online video. Learn about your options: the YouTube Kids app or a new parent supervised experience on YouTube at youtube.com/myfamily\n\nSupport creators you love with channel memberships (available in select countries)\n● Join channels that offer paid monthly memberships and support their work\n● Get access to exclusive perks from the channel & become part of their members community\n● Stand out in comments and live chats with a loyalty badge next to your username",
+      "localizedDescription": "Get the unofficial YouTube app on iPhones and iPads. See what the world is watching -- from the hottest music videos to what’s popular in gaming, fashion, beauty, news, learning and more. Subscribe to channels you love, create content of your own, share with friends, and watch on any device.\n\nWatch and subscribe\n● Browse personal recommendations on Home\n● See the latest from your favorite channels in Subscriptions\n● Look up videos you’ve watched, liked, and saved for later in Library\n\nExplore different topics, what’s popular, and on the rise (available in select countries)\n● Stay up to date on what’s popular in music, gaming, beauty, news, learning and more\n● See what’s trending on YouTube and around the world on Explore\n● Learn about the coolest Creators, Gamers, and Artists on the Rise (available in select countries)\n\nConnect with the YouTube community\n● Keep up with your favorites creators with Posts, Stories, Premieres, and Live streams\n● Join the conversation with comments and interact with creators and other community members\n\nCreate content from your mobile device\n● Create or upload your own videos directly in the app\n● Engage with your audience in real time with live streaming right from the app\n\nFind the experience that fits you and your family (available in select countries)\n● Every family has their own approach to online video. Learn about your options: the YouTube Kids app or a new parent supervised experience on YouTube at youtube.com/myfamily\n\nSupport creators you love with channel memberships (available in select countries)\n● Join channels that offer paid monthly memberships and support their work\n● Get access to exclusive perks from the channel & become part of their members community\n● Stand out in comments and live chats with a loyalty badge next to your username",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/76/f9/94/76f994b5-7856-c69b-afe5-64fc7ca0b4ca/Placeholder.mill/400x400bb-75.webp",
       "tintColor": "#b72826",
       "category": "entertainment",
@@ -2366,8 +2421,13 @@
       "localizedDescription": "This app allows you to install and manage applications contained in a single app, using certificate pairs and various installation techniques to allow apps to install to your device. This is an entirely stock application and uses built-in features to be able to do this!\n\nFeatures:\n- User friendly, and clean UI.\n- Sign and install applications.\n- Supports [AltStore](https://faq.altstore.io/distribute-your-apps/make-a-source#apps) repositories.\n- View detailed information about apps and your certificates.\n- Configurable signing options mainly for modifying the app, such as appearance and allowing support for the files app.\n  - This includes patching apps for compatibility and Liquid Glass.\n- Tweak support for advanced users, using [Ellekit](https://github.com/tealbathingsuit/ellekit) for injection. \n  - Supports injecting `.deb` and `.dylib` files.\n- Actively maintained: always ensuring most apps get installed properly.\n- No tracking or analytics, ensuring user privacy.\n- Of course, open source and free.\n\n\nHow does it work?\nHow Feather works is a bit complicated, with having multiple ways to install, app management, tweaks, etc. However, I'll point out how the important features work here.\n\nTo start off, we need a validly signed IPA. We can achieve this with Zsign, using a provided IPA using a `.p12` and `.mobileprovision` pair.\n\nInstall (Server)\n- Use a locally hosted server for hosting the IPA files used for installation, including other assets such as icons, etc. \n  - On iOS 18, we need a few entitlements: `Associated Domains`, `Custom Network Protocol`, `MDM Managed Associated Domains`, `Network Extensions`\n- Make sure to include valid https SSL certificates as the next URL requires a valid HTTPS connection, for us we use [*.backloop.dev](https://backloop.dev/).\n- We then use `itms-services://?action=download-manifest&url=<PLIST_URL>` to attempt to initiate an install, by using `UIApplication.open`.\n\nHowever, due to the changes with iOS 18 with entitlements we will need to provide an alternative way of installing. We have two options here, a way to install locally fully using the local server (the one I have just shown) or use an external HTTPS server that serves as our middle man for our `PLIST_URL`, while having the files still local to us. Lets show the latter.\n\n- This time, lets not include https SSL certificates, rather just have a plain insecure local server.\n- Instead of a locally hosting our `PLIST_URL`, we use [plistserver](https://github.com/nekohaxx/plistserver) to host a server online specifically for retrieving it. This still requires a valid HTTPS connection.\n- Now, to even initiate the install (due to lack of entitlements from the former) we need to trick iOS into opening the `itms-services://` URL, we can do this by summoning a Safari webview to a locally hosted HTML page with a script to forcefully redirect us to that itms-services URL.\n\nSince itms-services initiates the install automatically, we don't need to do anything extra after the process. Though, what we do is monitor the streaming progress of the IPA being sent.\n\nInstall (Pairing)\n- Establish a heartbeat with a TCP provider (the app will need this for later).\n  - For it to be successful, we need a [pairing file](https://github.com/jkcoxson/idevice_pair) and a [VPN](https://apps.apple.com/us/app/localdevvpn/id6755608044).\n- Once we have these and the connection was successfully established, we can move on to the installation part.\n  - Before installing, we need to check for the connection to the socket that has been created, routed to `10.7.0.1`, if this succeeds we're ready.\n- When preparing for installation, we need to establish another connection but for `AFC` using the TCP provider.\n- Once the connection was established we need to created a staging directory to `/PublicStaging/` and upload our IPA there.\n- Then, using our connection to `AFC` we can command it to install that IPA directly. Similar to `ideviceinstaller`, but fully on your phone.\n\nDue to how it works right now we need both a VPN and a lockdownd pairing file, this means you will need a computer for its initial setup. Though, if you don't want to do these you can just use the server way of installing instead (but at a cost of less reliability). \n",
       "iconURL": "https://raw.githubusercontent.com/khcrysalis/Feather/refs/heads/main/Feather/Resources/Icons/Main/V1%403x.png",
       "tintColor": "#5a00d5",
-      "category": "other",
-      "screenshots": [],
+      "category": "developer",
+      "screenshots": [
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Library.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Repos.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Sign.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Store.png?raw=true"
+      ],
       "versions": [
         {
           "version": "2.5.0",
@@ -3333,7 +3393,7 @@
       "developerName": "sasobhabha",
       "subtitle": "Math Pioneers' official Math Practice App!",
       "localizedDescription": "MATHPRAC:\nMath Pioneers' official math practice app!\n",
-      "iconURL": "https://github.com/sasobhabha/MathPrac/blob/main/MathPrac/Assets.xcassets/AppIcon.appiconset/mathprac.png?raw=true",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/48/6e/cd/486ecd10-dbef-50f0-34f4-a76d2ec11be5/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "tintColor": "#4f3737",
       "category": "other",
       "screenshots": [],
@@ -3713,7 +3773,7 @@
       "developerName": "khanhduytran0",
       "subtitle": "On-device toolbox?",
       "localizedDescription": "On-device backup restoration?\n\nBefore opening SparseBox, you have to close SideStore from app switcher. This is because only one app can use VPN proxy at a time. Maybe changing port could solve this issue.",
-      "iconURL": "https://github.com/khanhduytran0/SparseBox/blob/main/.swiftpm/playgrounds/DocumentThumbnail.png?raw=true",
+      "iconURL": "https://onejailbreak.com/site/assets/files/2302/icon.64x0.webp",
       "tintColor": "#007aff",
       "category": "other",
       "screenshots": [],
@@ -3750,7 +3810,7 @@
       "developerName": "sasobhabha",
       "subtitle": "MathPrac for science",
       "localizedDescription": "# SciGen\nApp for Science Practice\n",
-      "iconURL": "https://raw.githubusercontent.com/sasobhabha/SciGen/refs/heads/main/SciGen/Assets.xcassets/AppIcon.appiconset/Icon-iOS-Default-1024x1024%401x.png",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/48/6e/cd/486ecd10-dbef-50f0-34f4-a76d2ec11be5/AppIcon-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
       "tintColor": "#3ca546",
       "category": "other",
       "screenshots": [],
@@ -5582,7 +5642,7 @@
       "marketplaceID": "",
       "developerName": "speedyfriend433",
       "subtitle": "A native decompiler app for iOS!",
-      "localizedDescription": "# ReDyne\n\n<div align=\"center\">\n\n**A Production-Grade iOS Decompiler & Reverse Engineering Suite**\n\n[![Platform](https://img.shields.io/badge/platform-iOS%2016.0%2B-blue.svg)](https://developer.apple.com/ios/)\n[![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org)\n[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)\n\n*Deep Mach-O analysis, ARM64/x86_64 disassembly, control flow graphs, and advanced reverse engineering tools — all native on iOS.*\n\n[Features](#features) • [Installation](#installation) • [Usage](#usage) • [Architecture](#architecture) • [Contributing](#contributing)\n\n</div>\n\n---\n\n## 🎯 Overview\n\nReDyne is a sophisticated, native iOS application for reverse engineering and analyzing Mach-O binaries (dylibs, frameworks, executables). Built from the ground up with production-grade C/Objective-C/Swift, it brings desktop-class decompilation capabilities to iOS devices.\n\n### Why ReDyne?\n\n- **🚀 Production-Grade**: Fully functional decompiler with enterprise-level code quality\n- **📱 Native iOS**: Optimized for iOS with a beautiful, intuitive interface\n- **⚡ High Performance**: C-based parsing engines for blazing-fast analysis\n- **🔍 Comprehensive**: 11+ analysis modules covering every aspect of Mach-O binaries\n- **🎨 Modern UI**: Clean, adaptive interface with Dark Mode support\n- **📊 Visual Analysis**: Interactive control flow graphs with zoom and pan\n- **🔐 Secure**: Security-scoped bookmarks for persistent file access\n\n---\n\n## ✨ Features\n\n### 📦 Mach-O Binary Analysis\n- **Universal Binary Support**: Automatic fat/thin binary detection\n- **Multi-Architecture**: ARM64, ARM64e, x86_64 support\n- **Architecture Selection**: Pick specific slice from universal binaries\n- **Magic Number Detection**: Comprehensive format validation\n- **Load Commands**: Complete parsing of all LC_* commands\n- **Segments & Sections**: Detailed segment/section analysis with flags\n\n### 🔍 Disassembly Engine\n- **ARM64 Disassembler**: Production-grade decoder with 100+ instruction types\n  - Data Processing (ADD, SUB, MOV, MOVZ, MOVN, MOVK)\n  - Load/Store (LDR, STR, LDP, STP, LDUR, STUR)\n  - Branches (B, BL, BR, BLR, RET, B.cond, CBZ, CBNZ, TBZ, TBNZ)\n  - Logical Operations (AND, ORR, EOR, BIC, ORN, EON)\n  - Multiply/Divide (MUL, MADD, MSUB, UDIV, SDIV)\n  - Compare (CMP, CMN, TST, CCMP)\n  - Shifts (LSL, LSR, ASR, ROR)\n  - SIMD/FP Operations\n  - System Instructions (MSR, MRS, NOP, WFE, WFI, barriers)\n- **x86_64 Disassembler**: Full support with ModR/M, SIB, REX prefixes\n- **Register Tracking**: Reads/writes analysis for data flow\n- **Branch Detection**: Automatic identification of control flow changes\n\n### 🔗 Cross-Reference Analysis\n- **Call Graphs**: 586+ calls detected per binary\n- **Jump Analysis**: 277+ jumps/branches tracked\n- **Data References**: Symbol and address resolution\n- **Symbolic Execution**: ADRP+ADD pattern recognition\n- **Page-Aligned Addresses**: Proper ARM64 address computation\n\n### 📊 Control Flow Graphs (CFG)\n- **Hierarchical Layout**: BFS-based level assignment\n- **Basic Block Analysis**: Automatic BB detection and splitting\n- **Edge Classification**: True/false branches, loop-backs, calls, returns\n- **Dominance Analysis**: Proper loop detection with back-edge identification\n- **Interactive Visualization**: Pinch-to-zoom (0.05x-3.0x), pan, auto-fit\n- **Dynamic Sizing**: Handles 1-158+ nodes without clipping\n- **Color-Coded**: Entry (blue), exit (red), conditional (orange)\n\n### 🧬 Symbol Analysis\n- **Symbol Table Parsing**: Complete nlist/nlist_64 support\n- **Symbol Types**: Functions, objects, sections, undefined\n- **Dynamic Symbols**: Import/export detection\n- **Name Demangling**: Swift/C++ symbol demangling\n- **Address Resolution**: Virtual-to-file offset mapping\n\n### 🎯 Objective-C Runtime\n- **Class Extraction**: Parse `__objc_classlist` sections\n- **Method Discovery**: Instance and class methods\n- **Property Analysis**: @property declarations\n- **Instance Variables**: ivar layouts\n- **Categories**: Category parsing with methods/properties\n- **Protocols**: Protocol conformance detection\n\n### 📥 Import/Export Tables\n- **Dyld Bind Info**: All 12 bind opcodes (DONE, SET_*, DO_BIND_*)\n- **Dyld Rebase Info**: All 9 rebase opcodes\n- **Export Trie**: Recursive traversal with ULEB128 decoding\n- **Weak Imports**: Weak binding detection\n- **Lazy Bindings**: Lazy symbol resolution tracking\n- **Library Dependencies**: Full dylib dependency tree\n\n### 🔐 Code Signature Inspector\n- **SuperBlob Parsing**: Proper blob index structure parsing\n- **CodeDirectory**: CDHash, Team ID, Signing ID extraction\n- **Entitlements**: XML entitlement parsing and formatting\n- **Requirements**: Code requirement validation\n- **Signature Type**: Ad-hoc vs Full signing detection\n- **Certificate Chain**: Signing authority tracking\n\n### 🎨 Export Formats\n- **TXT**: Clean, readable text format\n- **JSON**: Structured JSON with full metadata\n- **HTML**: Styled HTML with syntax highlighting\n- **PDF**: Multi-page PDF with professional typography\n- **Share Sheet**: Native iOS sharing integration\n\n### 🗂️ String Analysis\n- **C-String Extraction**: ASCII/UTF-8 string detection\n- **Minimum Length Filter**: Configurable string size\n- **Section-Aware**: Extract from `__cstring`, `__text`, etc.\n- **Encoding Detection**: Automatic charset recognition\n\n### 💾 Recent Files\n- **Security-Scoped Bookmarks**: Persistent file access\n- **Automatic Cleanup**: Stale bookmark refresh\n- **Swipe to Delete**: Easy management\n- **Path Display**: Full file path shown\n\n---\n\n## 🏗️ Architecture\n\n### Technology Stack\n\n**Core Parsing (C)**\n- `MachOParser.c` - Mach-O header/command parsing\n- `DisassemblyEngine.c` - ARM64/x86_64 instruction decoding\n- `SymbolTable.c` - Symbol table parsing\n- `DyldInfo.c` - Dyld bind/rebase/export parsing\n- `ObjCParser.c` - Objective-C runtime analysis\n- `CodeSignature.c` - Code signature parsing\n- `ControlFlowGraph.c` - CFG construction and analysis\n- `StringExtractor.c` - String extraction\n\n**Services (Objective-C)**\n- `MachOParserService.m` - Swift bridge for Mach-O parsing\n- `DisassemblerService.m` - Disassembly service with pseudocode\n- `ObjCParserBridge.m` - ObjC runtime bridge\n\n**Analysis (Swift)**\n- `CFGAnalyzer.swift` - Control flow graph analysis\n- `XrefAnalyzer.swift` - Cross-reference analysis with symbolic execution\n- `CFGModels.swift` - Graph layout algorithms\n\n**UI (Swift + UIKit)**\n- `FilePickerViewController` - File selection and recents\n- `DecompileViewController` - Main analysis orchestration\n- `ResultsViewController` - Multi-tab results display\n- `CFGViewController` - Interactive CFG visualization\n- `CFGGraphView` - Custom Core Graphics rendering\n\n### Design Patterns\n\n- **Bridge Pattern**: C ↔ Objective-C ↔ Swift interop\n- **Service Layer**: Decoupled parsing and analysis\n- **MVVM**: Clean separation of data and presentation\n- **Delegates**: UITableView, UIDocumentPicker protocols\n- **Factory Pattern**: Model object creation\n- **Strategy Pattern**: Multiple export formats\n\n### Performance Optimizations\n\n- **C-Based Parsers**: Maximum performance for binary parsing\n- **Lazy Loading**: Parse on-demand for large binaries\n- **Efficient Memory**: RAII patterns, proper cleanup\n- **Background Processing**: Async analysis with DispatchQueue\n- **View Recycling**: UITableView cell reuse\n- **Dynamic Layout**: Adaptive CFG sizing\n\n---\n\n## 📋 Requirements\n\n- **iOS**: 16.0 or later\n- **Device**: iPhone or iPad\n- **Storage**: ~50 MB app + space for analyzed files\n- **Architectures**: ARM64 (device), x86_64 (simulator)\n\n---\n\n## 🚀 Installation\n\n### Building from Source\n\n1. **Clone the Repository**\n   ```bash\n   git clone https://github.com/speedyfriend433/ReDyne.git\n   cd ReDyne\n   ```\n\n2. **Open in Xcode**\n   ```bash\n   open ReDyne.xcodeproj\n   ```\n\n3. **Configure Signing**\n   - Select your development team in Xcode\n   - Update bundle identifier if needed\n\n4. **Build and Run**\n   - Select your target device/simulator\n   - Press `Cmd+R` to build and run\n\n### Requirements for Building\n- Xcode 15.0+\n- macOS 14.0+ (Sonoma)\n- Active Apple Developer account (for device testing)\n\n---\n\n## 📖 Usage\n\n### Quick Start\n\n1. **Launch ReDyne** on your iOS device\n2. **Tap \"Select Mach-O File\"** to open the file picker\n3. **Choose a dylib/framework** to analyze\n4. **Wait for analysis** (typically 2-10 seconds)\n5. **Explore results** across 11 tabs:\n   - **File Info**: Basic file metadata\n   - **Mach-O Header**: Magic, CPU type, file type, flags\n   - **Segments**: Segment/section analysis\n   - **Symbols**: Symbol table entries\n   - **Disassembly**: Annotated ARM64/x86_64 code\n   - **Strings**: Extracted string constants\n   - **Functions**: Detected function boundaries\n   - **Xref**: Cross-reference analysis\n   - **ObjC Classes**: Objective-C runtime data\n   - **Imports/Exports**: Dyld binding information\n   - **Code Signature**: Signing details and entitlements\n   - **CFG**: Interactive control flow graphs\n\n### Advanced Features\n\n**Control Flow Graphs**\n- Tap any function to visualize its CFG\n- Pinch to zoom in/out (0.05x to 3.0x)\n- Drag to pan across large graphs\n- Tap nodes to inspect basic blocks\n\n**Export Data**\n- Tap the share button in any tab\n- Choose format: TXT, JSON, HTML, or PDF\n- Share via AirDrop, Messages, Mail, etc.\n\n**Recent Files**\n- Files automatically saved to recents\n- Swipe left to delete entries\n- Tap to re-open (works even after app restart!)\n\n**Universal Binary Selection**\n- For fat binaries, choose specific architecture\n- ARM64, ARM64e, x86_64 options shown\n- Analysis tailored to selected slice\n\n---\n\n## 🧪 Technical Details\n\n### Instruction Decoding\n\nReDyne implements production-grade instruction decoders with priority-based pattern matching:\n\n**ARM64 Decoder Priority:**\n1. B/BL (immediate branches)\n2. RET/BR/BLR (register branches)\n3. STP/LDP (stack operations)\n4. Data Processing (arithmetic, logical)\n5. Load/Store (memory access)\n6. Conditional branches\n7. SIMD/FP operations\n\n**Decoding Features:**\n- Precise bit-field extraction\n- Operand formatting (registers, immediates, addresses)\n- Branch target calculation\n- PC-relative address resolution\n- Register usage tracking\n\n### CFG Construction\n\n**Algorithm:**\n1. **Basic Block Detection**: Split at branches, calls, returns\n2. **Level Assignment**: BFS traversal for hierarchical layout\n3. **Node Positioning**: Center-based coordinate system\n4. **Edge Classification**: Analyze branch types\n5. **Loop Detection**: Dominance-based back-edge identification\n6. **Bounds Calculation**: Include node + edge dimensions\n7. **Dynamic Sizing**: Content-aware canvas growth\n\n**Layout Features:**\n- Automatic spacing adjustment\n- Edge overlap prevention\n- Node size adaptation\n- Loop-back edge handling\n\n### Security-Scoped Bookmarks\n\nReDyne uses iOS security-scoped bookmarks for persistent file access:\n\n```swift\n// On file pick\nlet bookmarkData = try url.bookmarkData(options: .minimalBookmark)\nUserDefaults.standard.saveFileBookmark(bookmarkData, for: path)\n\n// On file access\nlet url = try URL(resolvingBookmarkData: bookmarkData, options: .withoutUI)\nurl.startAccessingSecurityScopedResource()\n// ... use file\nurl.stopAccessingSecurityScopedResource()\n```\n\nThis allows files to be accessed even after app restart or device reboot.\n\n---\n\n## 🤝 Contributing\n\nContributions are welcome! Here's how you can help:\n\n### Bug Reports\n- Use GitHub Issues\n- Include iOS version, device model\n- Provide sample binary (if possible)\n- Describe expected vs actual behavior\n\n### Feature Requests\n- Open a GitHub Issue with [Feature Request] tag\n- Describe use case and benefit\n- Link to relevant documentation/specs\n\n### Pull Requests\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\n### Code Style\n- Follow existing patterns\n- C code: RAII, clear ownership\n- Swift: camelCase, clear types\n- Comments for complex logic\n- Update README if adding features\n\n---\n\n## 📝 License\n\nThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.\n\n```\nMIT License\n\nCopyright (c) 2025 speedyfriend433\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n```\n\n---\n\n## 👤 Author\n\n**speedyfriend433**\n- GitHub: [@speedyfriend433](https://github.com/speedyfriend433)\n- Email: speedyfriend433@gmail.com\n\n---\n\n## 🙏 Acknowledgments\n\n- **ARM Architecture Reference Manual** - Instruction encoding specifications\n- **Apple Mach-O Documentation** - File format details\n- **iOS Developer Community** - Testing and feedback\n- **Open Source Contributors** - Issue reports and PRs\n\n---\n\n## 📊 Statistics\n\n**Codebase:**\n- ~15,000 lines of C/Objective-C/Swift\n- 11 analysis modules\n- 100+ ARM64 instruction types\n- 50+ x86_64 instruction types\n- 12 dyld bind opcodes\n- 9 dyld rebase opcodes\n\n**Capabilities:**\n- Analyze 500KB dylib in ~3 seconds\n- Disassemble 485,000+ instructions\n- Generate CFGs with 158+ nodes\n- Detect 863+ cross-references\n- Parse 143+ exports per binary\n\n---\n\n## 🗺️ Roadmap\n\n**Planned Features:**\n- [x] Pseudocode generation\n- [x] Function renaming\n- [x] Binary patching\n- [ ] Class Dump (60% done)\n- [ ] Type reconstruction (50% done)\n- [ ] Comment annotations\n- [ ] Hex editor\n- [ ] Memory dump analysis\n- [ ] Universal Format support\n- [ ] Network analysis\n- [ ] Runtime C Decompiler & Branch\n\n---\n\n## 📸 Screenshots\n\n<img width=\"1179\" height=\"2556\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d9d80e82-0a6f-4412-b61b-e066e43df0b4\" />\n<img width=\"1179\" height=\"2556\" alt=\"image\" src=\"https://github.com/user-attachments/assets/693c8c4c-c51b-404e-af6d-621b9101e84e\" />\n\n\n---\n\n## 🐛 Known Issues\n\n- ⚠️ Very large binaries (>100MB) may cause memory pressure\n- ⚠️ Some complex ObjC runtime structures not yet parsed\n- ⚠️ x86_64 coverage is not 100% (ARM64 prioritized)\n\nSee [Issues](https://github.com/speedyfriend433/ReDyne/issues) for full list.\n\n---\n\n## 💬 Support\n\n- **Questions?** Open a [GitHub Discussion](https://github.com/speedyfriend433/ReDyne/discussions)\n- **Bug?** File an [Issue](https://github.com/speedyfriend433/ReDyne/issues)\n- **Email:** speedyfriend433@gmail.com\n\n---\n\n<div align=\"center\">\n\n**⭐ Star this repo if you find it useful! ⭐**\n\nMade with ❤️ for the iOS reverse engineering community\n\n</div>\n",
+      "localizedDescription": "ReDyne is a sophisticated, native iOS application for reverse engineering and analyzing Mach-O binaries (dylibs, frameworks, executables). Built from the ground up with production-grade C/Objective-C/Swift, it brings desktop-class decompilation capabilities to iOS devices.\n\n### Why ReDyne?\n- **🚀 Production-Grade**: Fully functional decompiler with enterprise-level code quality\n- **📱 Native iOS**: Optimized for iOS with a beautiful, intuitive interface\n- **⚡ High Performance**: C-based parsing engines for blazing-fast analysis\n- **🔍 Comprehensive**: 11+ analysis modules covering every aspect of Mach-O binaries\n- **🎨 Modern UI**: Clean, adaptive interface with Dark Mode support\n- **📊 Visual Analysis**: Interactive control flow graphs with zoom and pan\n- **🔐 Secure**: Security-scoped bookmarks for persistent file access\n\n---\n\n## ✨ Features\n### 📦 Mach-O Binary Analysis\n- **Universal Binary Support**: Automatic fat/thin binary detection\n- **Multi-Architecture**: ARM64, ARM64e, x86_64 support\n- **Architecture Selection**: Pick specific slice from universal binaries\n- **Magic Number Detection**: Comprehensive format validation\n- **Load Commands**: Complete parsing of all LC_* commands\n- **Segments & Sections**: Detailed segment/section analysis with flags\n\n### 🔍 Disassembly Engine\n- **ARM64 Disassembler**: Production-grade decoder with 100+ instruction types\n  - Data Processing (ADD, SUB, MOV, MOVZ, MOVN, MOVK)\n  - Load/Store (LDR, STR, LDP, STP, LDUR, STUR)\n  - Branches (B, BL, BR, BLR, RET, B.cond, CBZ, CBNZ, TBZ, TBNZ)\n  - Logical Operations (AND, ORR, EOR, BIC, ORN, EON)\n  - Multiply/Divide (MUL, MADD, MSUB, UDIV, SDIV)\n  - Compare (CMP, CMN, TST, CCMP)\n  - Shifts (LSL, LSR, ASR, ROR)\n  - SIMD/FP Operations\n  - System Instructions (MSR, MRS, NOP, WFE, WFI, barriers)\n- **x86_64 Disassembler**: Full support with ModR/M, SIB, REX prefixes\n- **Register Tracking**: Reads/writes analysis for data flow\n- **Branch Detection**: Automatic identification of control flow changes\n\n### 🔗 Cross-Reference Analysis\n- **Call Graphs**: 586+ calls detected per binary\n- **Jump Analysis**: 277+ jumps/branches tracked\n- **Data References**: Symbol and address resolution\n- **Symbolic Execution**: ADRP+ADD pattern recognition\n- **Page-Aligned Addresses**: Proper ARM64 address computation\n\n### 📊 Control Flow Graphs (CFG)\n- **Hierarchical Layout**: BFS-based level assignment\n- **Basic Block Analysis**: Automatic BB detection and splitting\n- **Edge Classification**: True/false branches, loop-backs, calls, returns\n- **Dominance Analysis**: Proper loop detection with back-edge identification\n- **Interactive Visualization**: Pinch-to-zoom (0.05x-3.0x), pan, auto-fit\n- **Dynamic Sizing**: Handles 1-158+ nodes without clipping\n- **Color-Coded**: Entry (blue), exit (red), conditional (orange)\n\n### 🧬 Symbol Analysis\n- **Symbol Table Parsing**: Complete nlist/nlist_64 support\n- **Symbol Types**: Functions, objects, sections, undefined\n- **Dynamic Symbols**: Import/export detection\n- **Name Demangling**: Swift/C++ symbol demangling\n- **Address Resolution**: Virtual-to-file offset mapping\n\n### 🎯 Objective-C Runtime\n- **Class Extraction**: Parse `__objc_classlist` sections\n- **Method Discovery**: Instance and class methods\n- **Property Analysis**: @property declarations\n- **Instance Variables**: ivar layouts\n- **Categories**: Category parsing with methods/properties\n- **Protocols**: Protocol conformance detection\n\n### 📥 Import/Export Tables\n- **Dyld Bind Info**: All 12 bind opcodes (DONE, SET_*, DO_BIND_*)\n- **Dyld Rebase Info**: All 9 rebase opcodes\n- **Export Trie**: Recursive traversal with ULEB128 decoding\n- **Weak Imports**: Weak binding detection\n- **Lazy Bindings**: Lazy symbol resolution tracking\n- **Library Dependencies**: Full dylib dependency tree\n\n### 🔐 Code Signature Inspector\n- **SuperBlob Parsing**: Proper blob index structure parsing\n- **CodeDirectory**: CDHash, Team ID, Signing ID extraction\n- **Entitlements**: XML entitlement parsing and formatting\n- **Requirements**: Code requirement validation\n- **Signature Type**: Ad-hoc vs Full signing detection\n- **Certificate Chain**: Signing authority tracking\n\n### 🎨 Export Formats\n- **TXT**: Clean, readable text format\n- **JSON**: Structured JSON with full metadata\n- **HTML**: Styled HTML with syntax highlighting\n- **PDF**: Multi-page PDF with professional typography\n- **Share Sheet**: Native iOS sharing integration\n\n### 🗂️ String Analysis\n- **C-String Extraction**: ASCII/UTF-8 string detection\n- **Minimum Length Filter**: Configurable string size\n- **Section-Aware**: Extract from `__cstring`, `__text`, etc.\n- **Encoding Detection**: Automatic charset recognition\n\n### 💾 Recent Files\n- **Security-Scoped Bookmarks**: Persistent file access\n- **Automatic Cleanup**: Stale bookmark refresh\n- **Swipe to Delete**: Easy management\n- **Path Display**: Full file path shown\n\n---\n\n## 🏗️ Architecture\n\n### Technology Stack\n\n**Core Parsing (C)**\n- `MachOParser.c` - Mach-O header/command parsing\n- `DisassemblyEngine.c` - ARM64/x86_64 instruction decoding\n- `SymbolTable.c` - Symbol table parsing\n- `DyldInfo.c` - Dyld bind/rebase/export parsing\n- `ObjCParser.c` - Objective-C runtime analysis\n- `CodeSignature.c` - Code signature parsing\n- `ControlFlowGraph.c` - CFG construction and analysis\n- `StringExtractor.c` - String extraction\n\n**Services (Objective-C)**\n- `MachOParserService.m` - Swift bridge for Mach-O parsing\n- `DisassemblerService.m` - Disassembly service with pseudocode\n- `ObjCParserBridge.m` - ObjC runtime bridge\n\n**Analysis (Swift)**\n- `CFGAnalyzer.swift` - Control flow graph analysis\n- `XrefAnalyzer.swift` - Cross-reference analysis with symbolic execution\n- `CFGModels.swift` - Graph layout algorithms\n\n**UI (Swift + UIKit)**\n- `FilePickerViewController` - File selection and recents\n- `DecompileViewController` - Main analysis orchestration\n- `ResultsViewController` - Multi-tab results display\n- `CFGViewController` - Interactive CFG visualization\n- `CFGGraphView` - Custom Core Graphics rendering\n\n### Design Patterns\n\n- **Bridge Pattern**: C ↔ Objective-C ↔ Swift interop\n- **Service Layer**: Decoupled parsing and analysis\n- **MVVM**: Clean separation of data and presentation\n- **Delegates**: UITableView, UIDocumentPicker protocols\n- **Factory Pattern**: Model object creation\n- **Strategy Pattern**: Multiple export formats\n\n### Performance Optimizations\n\n- **C-Based Parsers**: Maximum performance for binary parsing\n- **Lazy Loading**: Parse on-demand for large binaries\n- **Efficient Memory**: RAII patterns, proper cleanup\n- **Background Processing**: Async analysis with DispatchQueue\n- **View Recycling**: UITableView cell reuse\n- **Dynamic Layout**: Adaptive CFG sizing\n\n---\n\n## 📋 Requirements\n\n- **iOS**: 16.0 or later\n- **Device**: iPhone or iPad\n- **Storage**: ~50 MB app + space for analyzed files\n- **Architectures**: ARM64 (device), x86_64 (simulator)\n---\n\n## 📖 Usage\n\n### Quick Start\n\n1. **Launch ReDyne** on your iOS device\n2. **Tap \"Select Mach-O File\"** to open the file picker\n3. **Choose a dylib/framework** to analyze\n4. **Wait for analysis** (typically 2-10 seconds)\n5. **Explore results** across 11 tabs:\n   - **File Info**: Basic file metadata\n   - **Mach-O Header**: Magic, CPU type, file type, flags\n   - **Segments**: Segment/section analysis\n   - **Symbols**: Symbol table entries\n   - **Disassembly**: Annotated ARM64/x86_64 code\n   - **Strings**: Extracted string constants\n   - **Functions**: Detected function boundaries\n   - **Xref**: Cross-reference analysis\n   - **ObjC Classes**: Objective-C runtime data\n   - **Imports/Exports**: Dyld binding information\n   - **Code Signature**: Signing details and entitlements\n   - **CFG**: Interactive control flow graphs\n\n### Advanced Features\n\n**Control Flow Graphs**\n- Tap any function to visualize its CFG\n- Pinch to zoom in/out (0.05x to 3.0x)\n- Drag to pan across large graphs\n- Tap nodes to inspect basic blocks\n\n**Export Data**\n- Tap the share button in any tab\n- Choose format: TXT, JSON, HTML, or PDF\n- Share via AirDrop, Messages, Mail, etc.\n\n**Recent Files**\n- Files automatically saved to recents\n- Swipe left to delete entries\n- Tap to re-open (works even after app restart!)\n\n**Universal Binary Selection**\n- For fat binaries, choose specific architecture\n- ARM64, ARM64e, x86_64 options shown\n- Analysis tailored to selected slice\n\n---\n\n## 🧪 Technical Details\n\n### Instruction Decoding\n\nReDyne implements production-grade instruction decoders with priority-based pattern matching:\n\n**ARM64 Decoder Priority:**\n1. B/BL (immediate branches)\n2. RET/BR/BLR (register branches)\n3. STP/LDP (stack operations)\n4. Data Processing (arithmetic, logical)\n5. Load/Store (memory access)\n6. Conditional branches\n7. SIMD/FP operations\n\n**Decoding Features:**\n- Precise bit-field extraction\n- Operand formatting (registers, immediates, addresses)\n- Branch target calculation\n- PC-relative address resolution\n- Register usage tracking\n\n### CFG Construction\n\n**Algorithm:**\n1. **Basic Block Detection**: Split at branches, calls, returns\n2. **Level Assignment**: BFS traversal for hierarchical layout\n3. **Node Positioning**: Center-based coordinate system\n4. **Edge Classification**: Analyze branch types\n5. **Loop Detection**: Dominance-based back-edge identification\n6. **Bounds Calculation**: Include node + edge dimensions\n7. **Dynamic Sizing**: Content-aware canvas growth\n\n**Layout Features:**\n- Automatic spacing adjustment\n- Edge overlap prevention\n- Node size adaptation\n- Loop-back edge handling\n\n### Security-Scoped Bookmarks\n\nReDyne uses iOS security-scoped bookmarks for persistent file access:\n\n```swift\n// On file pick\nlet bookmarkData = try url.bookmarkData(options: .minimalBookmark)\nUserDefaults.standard.saveFileBookmark(bookmarkData, for: path)\n\n// On file access\nlet url = try URL(resolvingBookmarkData: bookmarkData, options: .withoutUI)\nurl.startAccessingSecurityScopedResource()\n// ... use file\nurl.stopAccessingSecurityScopedResource()\n```\n\nThis allows files to be accessed even after app restart or device reboot.",
       "iconURL": "https://raw.githubusercontent.com/speedyfriend433/ReDyne/refs/heads/main/ReDyne/ReDyne/Assets.xcassets/AppIcon.appiconset/ReDyne%20icon%202.png",
       "tintColor": "#007aff",
       "category": "other",
@@ -5654,12 +5714,23 @@
       "bundleIdentifier": "com.akylas.weather",
       "marketplaceID": "",
       "developerName": "Akylas",
-      "subtitle": "An OSS weather app for iOS/Android",
-      "localizedDescription": "404: Not Found",
+      "subtitle": "An OSS weather app",
+      "localizedDescription": "OSS Weather is a simple application to get clear and precise weather information from any place around the world. You get daily and minutely weather condition, plus precipitations map.\nData is provided by OpenWeatherMap, Open-Meteo or MeteoFrance.",
       "iconURL": "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/master/Icon.png",
       "tintColor": "#d0cd41",
-      "category": "other",
-      "screenshots": [],
+      "category": "lifestyle",
+      "screenshots": {
+        "iphone": [
+          "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/5a/ca/6f5aca39-ae97-df95-9960-f3a3b1083e8d/pr_source.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/31/7c/a0317cda-073a-77f4-068c-7afb519eae45/pr_source.png/230x498bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/35/36/59/35365963-e58e-9fbd-b6e0-5dad35f37a35/pr_source.png/230x498bb.webp"
+        ],
+        "ipad": [
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/89/56/9c/89569cb6-2070-3ee6-1993-906425aed54d/e7de298e-253c-42b2-9c9c-c8f415f8bf78_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.19.png/480x640bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/61/fa/b8/61fab880-a805-1b90-5c39-e87464aca370/7f25d14a-c4ad-4c6c-ba60-e68dc65dd525_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.26.png/480x640bb.webp",
+          "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/1e/8b/be/1e8bbe23-9a2e-1892-dfc0-0f366fc49162/4f131537-57f4-424d-a6ff-a82af2030584_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.36.png/480x640bb.webp"
+        ]
+      },
       "versions": [
         {
           "version": "ios/alpha/2.11.5/145",
@@ -5809,11 +5880,18 @@
       "marketplaceID": "",
       "developerName": "BearTS",
       "subtitle": "Native iOS SwiftUI client for Actual Budget—manage accounts, budgets, and transactions with a Summary widget and App Intents.",
-      "localizedDescription": "# Actual Accounts iOS App\n\n> ⚠️ **Note**: The Makefile in this repository is currently broken and not functional. Please use Xcode directly to build and run the app.\n\nA modern, native iOS app for managing your personal finances with the Actual Budget backend. Built with SwiftUI and designed for a clean, intuitive user experience.\n\n## Features\n\n### 💰 **Financial Overview**\n- **Dashboard**: Quick insights with spending metrics and recent transactions\n- **Account Management**: View all your accounts with real-time balances\n- **Transaction Tracking**: Comprehensive transaction history with filtering\n- **Budget Planning**: Visual budget management with category breakdowns\n\n### 🧪 **Demo Mode**\n- **Sample Data**: Test the app with realistic demo data\n- **Toggle On/Off**: Switch between demo and real data seamlessly\n\n## Screenshots\n\n<table>\n  <tr>\n    <td align=\"center\">\n      <img src=\"Screenshots/dashboard.png\" alt=\"Dashboard\" width=\"220\" />\n      <div><sub>Dashboard</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/accounts.png\" alt=\"Accounts\" width=\"220\" />\n      <div><sub>Accounts</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/all_transactions.png\" alt=\"All Transactions\" width=\"220\" />\n      <div><sub>All Transactions</sub></div>\n    </td>\n  </tr>\n  <tr>\n    <td align=\"center\">\n      <img src=\"Screenshots/account_transactions.png\" alt=\"Account Transactions\" width=\"220\" />\n      <div><sub>Account Transactions</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/new_transaction.png\" alt=\"New Transaction\" width=\"220\" />\n      <div><sub>New Transaction</sub></div>\n    </td>\n    <td align=\"center\">\n      <img src=\"Screenshots/budget.png\" alt=\"Budget\" width=\"220\" />\n      <div><sub>Budget</sub></div>\n    </td>\n  </tr>\n</table>\n\n## Installation\n\n### Prerequisites\n1. Clone this repository\n2. Open `iOSApp/ActualAccounts.xcodeproj` in Xcode\n3. Ensure you have a valid Apple Developer account for device testing\n\n### Setup\n1. **Configure Actual Budget Backend**:\n   - Set up your Actual Budget server and [Actual Http API]((https://github.com/jhonderson/actual-http-api) )\n   - Note your API endpoint, API key, and sync ID\n\n2. **App Configuration**:\n   - Launch the app\n   - Go to Settings (via Accounts → gear icon)\n   - Enter your Actual Budget credentials:\n     - Base URL (e.g., `https://your-actual-server.com`)\n     - API Key\n     - Sync ID\n     - Budget Encryption Password (optional)\n\n3. **Alternative - Demo Mode**:\n   - Enable \"Demo Mode\" in Settings\n   - The app will show sample data for testing\n\n\n## API Integration\n\nThe app integrates with the Actual Budget API to provide real-time financial data:\n\n- **Authentication**: API key-based authentication\n- **Data Sync**: Real-time synchronization with Actual Budget server\n- **Offline Support**: Graceful handling of network issues\n- **Error Handling**: User-friendly error messages and retry mechanisms\n\n## Development\n\n### Building the App\n1. Open `iOSApp/ActualAccounts.xcodeproj` in Xcode\n2. Select your target device or simulator\n3. Build and run (⌘+R)\n\n## Contributing\n\n1. Fork the repository\n2. Create a feature branch (`git checkout -b feature/amazing-feature`)\n3. Commit your changes (`git commit -m 'Add amazing feature'`)\n4. Push to the branch (`git push origin feature/amazing-feature`)\n5. Open a Pull Request\n\n## License\n\nThis project is licensed under a custom \"Personal Use Only\" license - see the [LICENSE](LICENSE) file for details.\n\n**Quick Summary:**\n- ✅ **Personal Use**: Free to use, modify, and learn from for personal purposes\n- ✅ **Open Source**: Full source code available for viewing and study\n- ❌ **Commercial Use**: Not allowed for business, corporate, or commercial purposes\n- ❌ **Distribution**: Cannot be sold, licensed, or distributed commercially\n\nFor commercial licensing inquiries, please contact the author.\n\n## Acknowledgments\n\n- **Actual Budget**: The open-source budgeting backend that powers this app\n- **Actual Http API**: The open source http wrapper around the actual budget app, link [here](https://github.com/jhonderson/actual-http-api) \n- **SwiftUI Community**: For inspiration and best practices\n\n## Support\n\nFor support, feature requests, or bug reports:\n- Open an issue on GitHub\n- Check the documentation\n- Review the demo mode for feature examples\n\n---\n\n**Built with ❤️ using SwiftUI and Actual Budget**",
+      "localizedDescription": "A modern, native iOS app for managing your personal finances with the Actual Budget backend. Built with SwiftUI and designed for a clean, intuitive user experience.\n\nFeatures\n💰 Financial Overview\n- Dashboard: Quick insights with spending metrics and recent transactions\n- Account Management: View all your accounts with real-time balances\n- Transaction Tracking: Comprehensive transaction history with filtering\n- Budget Planning: Visual budget management with category breakdowns\n\n🧪 Demo Mode\n- Sample Data: Test the app with realistic demo data\n- Toggle On/Off: Switch between demo and real data seamlessly\n\nSetup\n1. Configure Actual Budget Backend:\n   - Set up your Actual Budget server and [Actual Http API]((https://github.com/jhonderson/actual-http-api))\n   - Note your API endpoint, API key, and sync ID\n2. App Configuration:\n   - Launch the app\n   - Go to Settings (via Accounts → gear icon)\n   - Enter your Actual Budget credentials:\n     - Base URL (e.g., `https://your-actual-server.com`)\n     - API Key\n     - Sync ID\n     - Budget Encryption Password (optional)\n3. Alternative - Demo Mode:\n   - Enable \"Demo Mode\" in Settings\n   - The app will show sample data for testing\n\nAPI Integration\nThe app integrates with the Actual Budget API to provide real-time financial data:\n- Authentication: API key-based authentication\n- Data Sync: Real-time synchronization with Actual Budget server\n- Offline Support: Graceful handling of network issues\n- Error Handling: User-friendly error messages and retry mechanisms",
       "iconURL": "https://raw.githubusercontent.com/BearTS/actual-budget-app/refs/heads/dev/iOSApp/Resources/Assets.xcassets/AppIcon.appiconset/dark-final.png",
       "tintColor": "#458a40",
-      "category": "other",
-      "screenshots": [],
+      "category": "utilities",
+      "screenshots": [
+        "https://raw.githubusercontent.com/BearTS/actual-budget-app/dev/Screenshots/dashboard.png",
+        "https://github.com/BearTS/actual-budget-app/raw/dev/Screenshots/accounts.png",
+        "https://github.com/BearTS/actual-budget-app/raw/dev/Screenshots/all_transactions.png",
+        "https://github.com/BearTS/actual-budget-app/raw/dev/Screenshots/account_transactions.png",
+        "https://github.com/BearTS/actual-budget-app/raw/dev/Screenshots/new_transaction.png",
+        "https://github.com/BearTS/actual-budget-app/raw/dev/Screenshots/budget.png"
+      ],
       "versions": [
         {
           "version": "1.0.1",
@@ -6077,11 +6155,11 @@
       "bundleIdentifier": "thewonderofyou.syslog",
       "marketplaceID": "",
       "developerName": "khcrysalis",
-      "subtitle": "The iOS/iPadOS equivalent to macOS's Console.app, for stock devices.",
-      "localizedDescription": "# Protokolle\n\n[![GitHub Release](https://img.shields.io/github/v/release/khcrysalis/protokolle?include_prereleases)](https://github.com/khcrysalis/protokolle/releases)\n[![GitHub License](https://img.shields.io/github/license/khcrysalis/protokolle?color=%23C96FAD)](https://github.com/khcrysalis/protokolle/blob/main/LICENSE)\n\n|\t\t\t\t\t![Demo of streaming trace logs](demo.webp)\t\t\t\t\t\t |\n| :----------------------------------------------------------------------------------------: |\n| Demo of streaming trace logs from [Feather](https://github.com/khcrysalis/feather) |\n\nThe iOS/iPadOS equivalent to macOS's `Console.app`. This app uses [idevice](https://github.com/jkcoxson/idevice) and lockdownd pairing to stream messages from the trace relay, allowing you to see messages from other processes within iOS. Along with having advanced filtering and options for advanced debugging and performance.\n\n### Features\n\n- Stream system logs (messages)\n- View system logs with immense detail (i.e. `pid`, `name`, `message`, `sendor`, `date`, `type`).\n- Advanced filtering options for log types, keywords, and process ID's.\n- Performance options for logs, to prevent any excessive ram usage, and general usability of the app.\n- Ability to import/export logs to be viewed later.\n- Of course, open source and free.\n\n## Download\n\n<a href=\"https://apps.apple.com/us/app/protokolle/id6746388316\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg\" alt=\"Download on the App Store\" style=\"width: 200px; height: auto;\">\n</a>\n\n## How does it work?\n- Establish a heartbeat with a TCP provider (the app will need this for later).\n  - For it to be successful, we need a pairing file from [JitterbugPair](https://github.com/osy/Jitterbug/releases) and a [VPN](https://apps.apple.com/us/app/stosvpn/id6744003051).\n  - Once we have these and the connection was successfully established, we can move on to the streaming part.\n  - Before streaming, we need to check for the connection to the socket that has been created, routed to `10.7.0.1`, if this succeeds we're ready.\n- When preparing the stream, we need to establish another connection but for `syslog_relay` using our TCP provider and heartbeat provider.\n- Then using out connection use a loop to get each message and feed it to a delegate, where its used to update our UI.\n\nDue to how it works right now we need both a VPN and a lockdownd pairing file, this means you will need a computer for its initial setup.\n\n## Building\n\n#### Minimum requirements\n\n- Xcode 16\n- Swift 5.9\n- iOS 16\n\n1. Clone repository\n    ```sh\n    git clone https://github.com/khcrysalis/Protokolle\n    ```\n\n2. Compile\n    ```sh\n    cd Protokolle\n    gmake\n    ```\n\n3. Updating\n    ```sh\n    git pull\n    ```\n\nUsing the makefile will automatically create an adhoc ipa inside the packages directory, using this to debug or report issues is not recommend. When making a pull request or reporting issues, it's generally advised you've used Xcode to debug your changes properly.\n\n## Sponsors\n\n| Thanks to all my [sponsors](https://github.com/sponsors/khcrysalis)!! |\n|:-:|\n| <img src=\"https://raw.githubusercontent.com/khcrysalis/github-sponsor-graph/main/graph.png\"> |\n| _**\"samara is cute\" - Vendicated**_ |\n\n## Acknowledgements\n\n- [Samara](https://github.com/khcrysalis) - The maker\n- [Antoine](https://github.com/NSAntoine/Antoine) - Code for filtering, refresh, and the sole reason why I even made this.\n- [idevice](https://github.com/jkcoxson/idevice) - Backend functionality, uses `os_trace_relay` to retrieve messages.\n\n## License \n\nThis project is licensed under the GPL-3.0 license. You can see the full details of the license [here](https://github.com/khcrysalis/Feather/blob/main/LICENSE). Code from Antoine is going to be under MIT, if you figure out where that is.\n\nBy contributing to this project, you agree to license your code under the GPL-3.0 license as well (including agreeing to license exceptions), ensuring that your work, like all other contributions, remains freely accessible and open.\n",
+      "subtitle": "Mobile Console app",
+      "localizedDescription": "Protokolle is a console app specifically designed to be used on mobile.\n\nFeatures\n• Stream system logs (messages)\n• View system logs with immense detail (i.e. pid, name, message, sendor, date, type).\n• Advanced filtering options for log types, keywords, and process ID's.\n• Performance options for logs, to prevent any excessive ram usage, and general usability of the app.\n• Ability to import/export logs to be viewed later.",
       "iconURL": "https://raw.githubusercontent.com/khcrysalis/Protokolle/refs/heads/main/Protokolle/Resources/Assets.xcassets/AppIcon.appiconset/Protokalle.png",
       "tintColor": "#318e30",
-      "category": "other",
+      "category": "developer",
       "screenshots": [],
       "versions": [
         {
@@ -6543,7 +6621,7 @@
       "marketplaceID": "",
       "developerName": "Akuma1tko",
       "subtitle": "An awesome app.",
-      "localizedDescription": "# ChatGPTWebV15\n[![Download v1.0.0](https://img.shields.io/badge/download-v1.0.0-blue)](https://github.com/Akuma1tko/ChatGPTwebV15/releases/tag/v1.0.0)\n\n\nA standalone iOS 15 wrapper for ChatGPT, featuring a manual cookie-injection login fix and a modern multi-account floating button UI.\n\n---\n\n## 🚀 Features\n\n- **Manual login** via `__Secure-next-auth.session-token`  \n- **Multi-account support** (add, rename, delete)  \n- **Floating draggable button** (44×44, white background, subtle shadow)  \n- **Modern bottom-sheet account manager** (inset-grouped style)  \n- **“No account”** option to log out and start fresh  \n- **Idle fade**: button fades to 30% after 5 s of inactivity  \n- **Full-screen WebView**, portrait & landscape support  \n\n---\n\n## 📦 Installation\n  \n**Sideload** via AltStore, TrollStore, Cydia Impactor, etc.  \n\n---\n\n\n## 🔑 First-Time Login\n\n1. On your desktop Chrome, go to **https://chatgpt.com** (or `https://chat.openai.com`) and sign in.  \n2. Click the **⋮** menu in the top-right → **More tools** → **Developer tools**  \n   *(or press **Ctrl + Shift + I** on Windows/Linux, **⌘ + Option + I** on Mac)*  \n3. In DevTools, switch to the **Application** tab → **Storage** → **Cookies** → **chatgpt.com**  \n4. Find **`__Secure-next-auth.session-token`**, double-click its **Value**, press **⌘ +A** (Select All) then **⌘ +C** (Copy).  \n5. On your iOS 15 device, open **ChatGPTWebV15**, tap the floating button → **Add new…**, paste the token → **Save**.  \n\nYour session will load immediately in the WebView.  \n\n\n---\n\n## 🔄 Switching & Managing Accounts\n\n- **Tap** the floating app-icon button to open the account sheet.  \n- **No account** → wipes cookies and shows the logged-out page.  \n- **Add new…** → name + paste a new token.  \n- **Tap an existing account** → instantly reloads with that session.  \n- **Swipe left** on any account in the sheet to **Rename** or **Delete**.  \n\nChanges are saved in Keychain; your **last selected** account is loaded automatically on app launch.\n\n---\n\n## 🙏 Shout-Outs\n\nHuge thanks to the community members who helped shape this:\n\n- **WhatTheOnEarth**  \n- **colorzpe**  \n- **No_Count2837**  \n\nYour feedback and testing made this for everyone on iOS 15. Enjoy!  \n",
+      "localizedDescription": "A standalone iOS 15 wrapper for ChatGPT, featuring a manual cookie-injection login fix and a modern multi-account floating button UI.\n\n🚀 Features\n- Manual login via `__Secure-next-auth.session-token`  \n- Multi-account support (add, rename, delete)  \n- Floating draggable button (44×44, white background, subtle shadow)  \n- Modern bottom-sheet account manager (inset-grouped style)  \n- “No account” option to log out and start fresh  \n- Idle fade: button fades to 30% after 5 s of inactivity  \n- Full-screen WebView, portrait & landscape support  \n\n🔑 First-Time Login\n1. On your desktop Chrome, go to https://chatgpt.com (or `https://chat.openai.com`) and sign in.  \n2. Click the ⋮ menu in the top-right → More tools → Developer tools  \n   (or press Ctrl + Shift + I on Windows/Linux, ⌘ + Option + I on Mac) \n3. In DevTools, switch to the Application tab → Storage → Cookies → chatgpt.com  \n4. Find `__Secure-next-auth.session-token`, double-click its Value, press ⌘ +A (Select All) then ⌘ +C (Copy).  \n5. On your iOS 15 device, open ChatGPTWebV15, tap the floating button → Add new…, paste the token → Save.  \n\nYour session will load immediately in the WebView.  \n🔄 Switching & Managing Accounts\n- Tap the floating app-icon button to open the account sheet.  \n- No account → wipes cookies and shows the logged-out page.  \n- Add new… → name + paste a new token.  \n- Tap an existing account → instantly reloads with that session.  \n- Swipe left on any account in the sheet to Rename or Delete.  \n\nChanges are saved in Keychain; your last selected account is loaded automatically on app launch.",
       "iconURL": "https://raw.githubusercontent.com/Akuma1tko/ChatGPTwebV15/refs/heads/main/Downloads/ChatGPTWebV15/ChatGPTWebView/appstore.png",
       "tintColor": "#007aff",
       "category": "other",
@@ -6571,10 +6649,10 @@
       "marketplaceID": "",
       "developerName": "SideStore",
       "subtitle": "SideStore is a fork of AltStore that doesn't require an AltServer.",
-      "localizedDescription": "# SideStore\n\n> SideStore is an *untethered, community driven* alternative app store for non-jailbroken iOS devices \n\n[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)\n[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)\n[![Nightly SideStore build](https://github.com/SideStore/SideStore/actions/workflows/nightly.yml/badge.svg)](https://github.com/SideStore/SideStore/actions/workflows/nightly.yml)\n[![.github/workflows/beta.yml](https://github.com/SideStore/SideStore/actions/workflows/beta.yml/badge.svg)](https://github.com/SideStore/SideStore/actions/workflows/beta.yml)\n[![Discord](https://img.shields.io/discord/949183273383395328?label=Discord)](https://discord.gg/sidestore)\n\n![Alt](https://repobeats.axiom.co/api/embed/3a329ce95955690b9a9366f8d5598626a847d96c.svg \"Repobeats analytics image\")\n\nSideStore is an iOS application that allows you to sideload apps onto your iOS device with just your Apple ID. SideStore resigns apps with your personal development certificate, and then uses a [specially designed VPN](https://github.com/jkcoxson/em_proxy) in order to trick iOS into installing them. SideStore will periodically \"refresh\" your apps in the background, to keep their normal 7-day development period from expiring.\n\nSideStore's goal is to provide an untethered sideloading experience. It's a community driven fork of [AltStore](https://github.com/rileytestut/AltStore), and has already implemented some of the community's most-requested features.\n\n(Contributions are welcome! 🙂)\n\n## Requirements\n- Xcode 15\n- iOS 15+\n- Rustup (`brew install rustup`)\n\nWhy iOS 15? Targeting such a recent version of iOS allows us to accelerate development, especially since not many developers have older devices to test on. This is corrobated by the fact that SwiftUI support is much better, allowing us to transistion to a more modern UI codebase.\n## Project Overview\n\n### SideStore\nSideStore is a just regular, sandboxed iOS application. The AltStore app target contains the vast majority of SideStore's functionality, including all the logic for downloading and updating apps through SideStore. SideStore makes heavy use of standard iOS frameworks and technologies most iOS developers are familiar with.\n\n### EM Proxy\n[SideServer mobile](https://github.com/jkcoxson/em_proxy) powers the defining feature of SideStore: untethered app installation. By leveraging an App Store app with additional entitlements (WireGuard or StosVPN) to create the VPN tunnel for us, it allows SideStore to take advantage of [Jitterbug](https://github.com/osy/Jitterbug)'s loopback method without requiring a paid developer account.\n\n### Minimuxer\n[Minimuxer](https://github.com/jkcoxson/minimuxer) is a lockdown muxer that can run inside iOS’s sandbox. It replicates Apple’s usbmuxd protocol on MacOS to “discover” devices to interface with wireguard On-Device.\n\n### Roxas\n[Roxas](https://github.com/rileytestut/roxas) is Riley Testut's internal framework from AltStore used across many of their iOS projects, developed to simplify a variety of common tasks used in iOS development.\n\nWe're hoping to eventually eliminate our dependency on it, as it increases the amount of unnecessary Objective-C in the project.\n\n## Contributing/Compilation Instructions\n\nPlease see [CONTRIBUTING.md](./CONTRIBUTING.md)\n\n## Licensing\n\nThis project is licensed under the **AGPLv3 license**.\n",
+      "localizedDescription": "SideStore is an *untethered, community driven* alternative app store for non-jailbroken iOS devices \n\nSideStore is an iOS application that allows you to sideload apps onto your iOS device with just your Apple ID. SideStore resigns apps with your personal development certificate, and then uses a [specially designed VPN](https://github.com/jkcoxson/em_proxy) in order to trick iOS into installing them. SideStore will periodically \"refresh\" your apps in the background, to keep their normal 7-day development period from expiring.\n\nSideStore's goal is to provide an untethered sideloading experience. It's a community driven fork of [AltStore](https://github.com/rileytestut/AltStore), and has already implemented some of the community's most-requested features.\n\nRequirements\n- Xcode 15\n- iOS 15+\n- Rustup (`brew install rustup`)\n\nWhy iOS 15? Targeting such a recent version of iOS allows us to accelerate development, especially since not many developers have older devices to test on. This is corrobated by the fact that SwiftUI support is much better, allowing us to transistion to a more modern UI codebase.\n\nSideStore\nSideStore is a just regular, sandboxed iOS application. The AltStore app target contains the vast majority of SideStore's functionality, including all the logic for downloading and updating apps through SideStore. SideStore makes heavy use of standard iOS frameworks and technologies most iOS developers are familiar with.",
       "iconURL": "https://raw.githubusercontent.com/SideStore/SideStore/refs/heads/develop/AltWidget/Assets.xcassets/SideStore.imageset/1024.png",
       "tintColor": "#5f08c1",
-      "category": "other",
+      "category": "developer",
       "screenshots": [],
       "versions": [
         {
@@ -7089,11 +7167,18 @@
       "marketplaceID": "",
       "developerName": "Mobile-Artificial-Intelligence",
       "subtitle": "Maid is a cross-platform Flutter app for interfacing with GGUF / llama.cpp models locally, and with Ollama and OpenAI models remotely. ",
-      "localizedDescription": "<div align=\"center\" id=\"top\">\n  <img alt=\"logo\" height=\"200px\" src=\"images/logo-combined.svg\">\n</div>\n\n# Maid - Mobile Artificial Intelligence Distribution\n\n<div align=\"center\">\n\n[![Build Android](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-android.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-android.yml)\n[![Build iOS](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-ios.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-ios.yml)\n[![Build Linux](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-linux.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-linux.yml)\n[![Build MacOS](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-macos.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-macos.yml)\n[![Build Windows](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-windows.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-windows.yml)\n[![Build Web](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-web.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/build-web.yml)\n[![Release](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/release.yml/badge.svg)](https://github.com/Mobile-Artificial-Intelligence/maid/actions/workflows/release.yml)\n\n</div>\n\n<div align=\"center\">\n<a href=\"https://f-droid.org/packages/com.danemadsen.maid/\">\n  <img \n    src=\"https://fdroid.gitlab.io/artwork/badge/get-it-on.png\"\n    alt=\"Get it on F-Droid\"\n    height=\"80\"\n  >\n</a>\n<a href=\"https://www.openapk.net/maid/com.danemadsen.maid/\">\n  <img \n    src=\"https://www.openapk.net/images/openapk-badge.png\"\n    alt=\"Get it on OpenAPK\"\n    height=\"80\"\n  >\n</a>\n<a href=\"https://www.androidfreeware.net/download-maid-apk.html\">\n  <img \n    src=\"https://www.androidfreeware.net/images/androidfreeware-badge.png\"\n    alt=\"Get it on Android Freeware\"\n    height=\"80\"\n  >\n</a>\n<a href=\"https://github.com/Mobile-Artificial-Intelligence/maid/releases/latest\">\n  <img\n    src=\"https://raw.githubusercontent.com/NeoApplications/Neo-Backup/refs/heads/main/badge_github.png\"\n    alt=\"Get it on GitHub\"\n    width=\"210\" \n  />\n</a>\n<a href='https://play.google.com/store/apps/details?id=com.danemadsen.maid&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>\n  <img \n    src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'\n    alt='Get it on Google Play'\n    height=\"80\"\n  />\n</a>\n</div>\n\nMaid is a cross-platform free and an open-source application for interfacing with llama.cpp models locally, and remotely with Ollama, Mistral, Google Gemini and OpenAI models remotely. Maid supports sillytavern character cards to allow you to interact with all your favorite characters. Maid supports downloading a curated list of Models in-app directly from huggingface.\n\n## Cloning\nTo clone the repository, use the following command:\n\n```bash\ngit clone https://github.com/Mobile-Artificial-Intelligence/maid.git\n```\n\nMaids repository has flutter linked as a submodule. This is needed for reproducible fdroid builds.\nHowever, for development you may want to use a local install of flutter. Remove the flutter submodule by running the git command\n\n```bash\ngit submodule deinit -f packages/flutter\n```\n\n## Installing Build Dependencies\nTo install the dependencies on fedora based systems, use the following command:\n\n```bash\nsudo dnf install -y cmake ninja-build pkg-config gtk3-devel vulkan-devel\n```\n\nTo install the bdependencies on debian based systems, use the following command:\n\n```bash\nsudo apt-get install -y cmake ninja-build pkg-config libgtk-3-dev libvulkan-dev\n```\n\n## Platform Support\nWindows, MacOS, Linux, Android.\n[Releases page.](https://github.com/Mobile-Artificial-Intelligence/maid/releases)\nIOS Releases not available at this time.\n\n## Help Wanted\n- Write code comments\n- Documentation\n- Testing and Building on IOS\n- Spreading the word\n\n## Special Thanks and Related Projects\n- [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)\n- [davidmigloz/langchain_dart](https://github.com/davidmigloz/langchain_dart)\n- [Mobile-Artificial-Intelligence/llama_sdk](https://github.com/Mobile-Artificial-Intelligence/llama_sdk)\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=Mobile-Artificial-Intelligence/maid&type=Date)](https://star-history.com/#Mobile-Artificial-Intelligence/maid&Date)\n\n## Contributors\n\n<a href=\"https://github.com/Mobile-Artificial-Intelligence/maid/graphs/contributors\">\n  <img src=\"https://contrib.rocks/image?repo=Mobile-Artificial-Intelligence/maid&max=500&columns=20&anon=1\" />\n</a>\n\n## Testing\nMacOS version tested on a \nAndroid version tested on a Oneplus 10 Pro 11gb phone.\nAlso tested on Fedora Linux, Windows 11.\nTested with calypso 3b, orcamini 3b, minyllama 1.1b, phi 3, mistral 7b, mixtral 8x7b, llama 2 7B-Chat, llama 7B and many more.\n\n## Disclaimer\n\nMaid is distributed under the MIT licence and is provided without warranty of any kind, express or implied. Maid is not affiliated with Huggingface, Meta (Facebook), MistralAi, OpenAI, Google, Microsoft or any other company providing a model compatible with this application.\n\n\n## License\n\nThis project is licensed under the [MIT License](LICENSE).",
+      "localizedDescription": "Maid is a cross-platform free and an open-source application for interfacing with llama.cpp models locally, and remotely with Ollama, Mistral, Google Gemini and OpenAI models remotely. Maid supports sillytavern character cards to allow you to interact with all your favorite characters. Maid supports downloading a curated list of Models in-app directly from huggingface.",
       "iconURL": "https://raw.githubusercontent.com/Mobile-Artificial-Intelligence/maid/refs/heads/main/images/logo.png",
       "tintColor": "#9611ae",
-      "category": "other",
-      "screenshots": [],
+      "category": "utilities",
+      "screenshots": [
+        "https://play-lh.googleusercontent.com/YgvASlNFN4-LKs-cBPs_sYYNYKTlQJSEtqVOm35NdDV7vxdDpJMsOD05FaWGhPiyPn0=w1052-h592",
+        "https://play-lh.googleusercontent.com/t72j0xIGRzpX02_FHD6eVi41R5bYT6CAIdYa3jS_FY-5pIIudvyV0fXJtNOGzJi9sj4=w1052-h592",
+        "https://play-lh.googleusercontent.com/Wh--jsWJUIhDLz7rFvM6u_cTVvLb6MoFjdpdNoy7pqk6JR9dn84YPv8XddqnwnWkoC4u=w1052-h592",
+        "https://play-lh.googleusercontent.com/Pu9qFFe6mjTiGXli3vpYKDFzNwF6pD--z2adVYWOgnJCJdrKVOP5iNchqfuNYtj99Qk=w1052-h592",
+        "https://play-lh.googleusercontent.com/-5BxgNrgVGqjMM38bD3JW2HgCQKyAOaHqNtXH4QB4b8JKzD1fCyUxTGLXQxBeIbMOg=w1052-h592",
+        "https://play-lh.googleusercontent.com/eJ2MNiLzqKSdq7fnVlSEYDROc5Guxf4CmG4FeFZIHlDHVyK2XXP-SsDhzyvva8HRDdbm=w1052-h592"
+      ],
       "versions": [
         {
           "version": "2.0.7",
