@@ -1,34 +1,46 @@
 import requests
 import json
 import time
+import os
 from datetime import datetime, timezone
 
 # -------------------------
 # CONFIG
 # -------------------------
 MAX_RETRIES = 5
-BACKOFF_BASE = 2  # seconds
+BACKOFF_BASE = 2
 REQUEST_TIMEOUT = 20
+PER_PAGE = 100
 
+API_TOKEN = os.getenv("API_TOKEN")  # from GitHub Actions secret
+
+# -------------------------
+# SESSION
+# -------------------------
 session = requests.Session()
-session.headers.update({
+headers = {
     "Accept": "application/vnd.github+json",
     "User-Agent": "githubscrape/1.0"
-})
+}
+
+if GITHUB_TOKEN:
+    headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+session.headers.update(headers)
 
 # -------------------------
 # HELPERS
 # -------------------------
-def buffered_get(url):
+def buffered_get(url, raw=False):
     """
     Buffered GET with retries, rate-limit handling, and backoff.
-    Returns JSON dict/list or None.
+    Returns JSON or text or None.
     """
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = session.get(url, timeout=REQUEST_TIMEOUT)
 
-            # Rate limit or abuse detection
+            # Rate limit handling
             if response.status_code in (403, 429):
                 wait = BACKOFF_BASE ** attempt
                 print(f"⏳ Rate limited ({response.status_code}), retrying in {wait}s: {url}")
@@ -39,7 +51,7 @@ def buffered_get(url):
                 print(f"⚠️ HTTP {response.status_code} for {url}")
                 return None
 
-            return response.json()
+            return response.text if raw else response.json()
 
         except requests.exceptions.RequestException as e:
             wait = BACKOFF_BASE ** attempt
@@ -50,11 +62,28 @@ def buffered_get(url):
     return None
 
 
+def fetch_all_releases(repo):
+    """
+    Fetch ALL releases using pagination.
+    """
+    releases = []
+    page = 1
+
+    while True:
+        url = f"https://api.github.com/repos/{repo}/releases?per_page={PER_PAGE}&page={page}"
+        batch = buffered_get(url)
+
+        if not isinstance(batch, list) or not batch:
+            break
+
+        releases.extend(batch)
+        page += 1
+
+    return releases
+
+
 def find_app(apps, bundleID):
-    for app in apps:
-        if app["bundleIdentifier"] == bundleID:
-            return app
-    return None
+    return next((a for a in apps if a["bundleIdentifier"] == bundleID), None)
 
 
 def version_exists(versions, version):
@@ -79,7 +108,6 @@ def is_valid_ipa(asset):
 
     blocked = ["visionos", "tvos"]
     return not any(b in name or b in url for b in blocked)
-
 
 # -------------------------
 # LOAD DATA
@@ -106,9 +134,9 @@ for repo_info in scraping:
     # -------------------------
     # FETCH RELEASES
     # -------------------------
-    releases = buffered_get(f"https://api.github.com/repos/{repo}/releases")
+    releases = fetch_all_releases(repo)
 
-    if not isinstance(releases, list):
+    if not releases:
         print(f"⚠️ Failed to fetch releases for {repo}")
         continue
 
@@ -119,9 +147,6 @@ for repo_info in scraping:
             continue
 
         assets = release.get("assets", [])
-        if not assets:
-            continue
-
         selected_asset = None
 
         if keyword:
@@ -173,20 +198,17 @@ for repo_info in scraping:
         print(f"⚠️ No valid IPA releases for {bundleID}, skipping")
         continue
 
-    repo_data = buffered_get(f"https://api.github.com/repos/{repo}")
-    if not repo_data:
-        print(f"⚠️ Missing repo metadata for {repo}")
-        continue
-
+    repo_data = buffered_get(f"https://api.github.com/repos/{repo}") or {}
     readme = buffered_get(
-        f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md"
+        f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md",
+        raw=True
     ) or ""
 
     app = {
         "name": repo_info["name"],
         "bundleIdentifier": bundleID,
         "developerName": repo_data.get("owner", {}).get("login", repo.split("/")[0]),
-        "subtitle": repo_data.get("description"),
+        "subtitle": repo_data.get("description", ""),
         "localizedDescription": readme,
         "iconURL": repo_info.get("iconURL", ""),
         "versions": new_versions
