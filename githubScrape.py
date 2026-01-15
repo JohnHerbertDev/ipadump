@@ -23,8 +23,8 @@ headers = {
     "User-Agent": "githubscrape/1.0"
 }
 
-if GITHUB_TOKEN:
-    headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+if API_TOKEN:
+    headers["Authorization"] = f"Bearer {API_TOKEN}"
 
 session.headers.update(headers)
 
