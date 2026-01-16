@@ -13,7 +13,6 @@ REQUEST_TIMEOUT = 20
 PER_PAGE = 100
 
 API_TOKEN = os.getenv("API_TOKEN")
-CACHE_FILE = "release-cache.json"
 
 # -------------------------
 # SESSION
@@ -30,32 +29,24 @@ if API_TOKEN:
 session.headers.update(headers)
 
 # -------------------------
-# LOAD CACHE
-# -------------------------
-if os.path.exists(CACHE_FILE):
-    release_cache = json.load(open(CACHE_FILE))
-else:
-    release_cache = {}
-
-# -------------------------
 # HELPERS
 # -------------------------
-def buffered_get(url, raw=False):
+def buffered_get(url):
     for attempt in range(1, MAX_RETRIES + 1):
         try:
-            response = session.get(url, timeout=REQUEST_TIMEOUT)
+            r = session.get(url, timeout=REQUEST_TIMEOUT)
 
-            if response.status_code in (403, 429):
+            if r.status_code in (403, 429):
                 wait = BACKOFF_BASE ** attempt
-                print(f"⏳ Rate limited ({response.status_code}), retrying in {wait}s: {url}")
+                print(f"⏳ Rate limited ({r.status_code}), retrying in {wait}s: {url}")
                 time.sleep(wait)
                 continue
 
-            if response.status_code >= 400:
-                print(f"⚠️ HTTP {response.status_code} for {url}")
+            if r.status_code >= 400:
+                print(f"⚠️ HTTP {r.status_code} for {url}")
                 return None
 
-            return response.text if raw else response.json()
+            return r.json()
 
         except requests.exceptions.RequestException as e:
             wait = BACKOFF_BASE ** attempt
@@ -64,6 +55,27 @@ def buffered_get(url, raw=False):
 
     print(f"❌ Failed after {MAX_RETRIES} retries: {url}")
     return None
+
+
+def fetch_releases(repo, full=False):
+    releases = []
+    page = 1
+    max_pages = None if full else 1
+
+    while True:
+        url = f"https://api.github.com/repos/{repo}/releases?per_page={PER_PAGE}&page={page}"
+        batch = buffered_get(url)
+
+        if not isinstance(batch, list) or not batch:
+            break
+
+        releases.extend(batch)
+
+        page += 1
+        if max_pages and page > max_pages:
+            break
+
+    return releases
 
 
 def find_app(apps, bundleID):
@@ -96,8 +108,11 @@ def is_valid_ipa(asset):
 # -------------------------
 # LOAD DATA
 # -------------------------
-myApps = json.load(open("my-apps.json"))
-scraping = json.load(open("scraping.json"))
+with open("my-apps.json", "r") as f:
+    myApps = json.load(f)
+
+with open("scraping.json", "r") as f:
+    scraping = json.load(f)
 
 # -------------------------
 # MAIN LOOP
@@ -105,65 +120,64 @@ scraping = json.load(open("scraping.json"))
 for repo_info in scraping:
     repo = repo_info["github"]
     bundleID = repo_info["bundleID"]
-    keyword = repo_info.get("keyword")
-    allow_prerelease = repo_info.get("allowPrerelease", False)
+    name = repo_info["name"]
 
     if not repo_info.get("checkGithub", True):
-        print(f"⏭️ Skipping GitHub check for {repo_info['name']}")
+        print(f"⏭️ Skipping GitHub check for {name}")
         continue
 
+    allow_prerelease = repo_info.get("allowPrerelease", False)
+    keyword = repo_info.get("keyword")
     keyword = keyword.lower() if keyword else None
+    full_pages = repo_info.get("checkpage", False)
+
     existing_app = find_app(myApps["apps"], bundleID)
 
-    cached_tag = release_cache.get(repo)
+    releases = fetch_releases(repo, full=full_pages)
+
+    if not releases:
+        print(f"⚠️ Failed to fetch releases for {repo}")
+        continue
+
     new_versions = []
-    page = 1
-    stop_scanning = False
 
-    # -------------------------
-    # FETCH RELEASES (PAGE 1 ONLY by default)
-    # -------------------------
-    while True:
-        url = f"https://api.github.com/repos/{repo}/releases?per_page={PER_PAGE}&page={page}"
-        releases = buffered_get(url)
+    for release in releases:
+        if release.get("prerelease", False) and not allow_prerelease:
+            continue
 
-        if not isinstance(releases, list) or not releases:
-            break
+        assets = release.get("assets", [])
+        selected = None
 
-        for release in releases:
-            tag = release["tag_name"].lstrip("v")
-
-            # 🔥 CACHE HIT → STOP EVERYTHING
-            if cached_tag == tag:
-                stop_scanning = True
-                break
-
-            if release.get("prerelease", False) and not allow_prerelease:
+        for asset in assets:
+            if not is_valid_ipa(asset):
                 continue
 
-            for asset in release.get("assets", []):
-                if not is_valid_ipa(asset):
-                    continue
+            if keyword and not (
+                keyword in asset["name"].lower()
+                or keyword in asset["browser_download_url"].lower()
+            ):
+                continue
 
-                if keyword and keyword not in asset["name"].lower() and keyword not in asset["browser_download_url"].lower():
-                    continue
-
-                new_versions.append({
-                    "version": tag,
-                    "date": release["published_at"],
-                    "localizedDescription": release.get("body", ""),
-                    "downloadURL": asset["browser_download_url"],
-                    "size": asset["size"]
-                })
-                break
-
-        if stop_scanning or not repo_info.get("checkpage", False):
+            selected = asset
             break
 
-        page += 1
+        if not selected:
+            continue
+
+        new_versions.append({
+            "version": release["tag_name"].lstrip("v"),
+            "date": release["published_at"],
+            "localizedDescription": release.get("body", ""),
+            "downloadURL": selected["browser_download_url"],
+            "size": selected["size"]
+        })
+
+    if not new_versions:
+        print(f"No new versions for {bundleID}")
+        continue
 
     # -------------------------
-    # EXISTING APP
+    # UPDATE OR CREATE APP
     # -------------------------
     if existing_app:
         added = 0
@@ -172,41 +186,38 @@ for repo_info in scraping:
                 existing_app["versions"].append(v)
                 added += 1
 
-        if added:
-            release_cache[repo] = new_versions[0]["version"]
-            print(f"Updated {bundleID}: added {added} new version(s)")
-        else:
-            print(f"No new versions for {bundleID}")
+        print(
+            f"Updated {bundleID}: added {added} new version(s)"
+            if added else f"No new versions for {bundleID}"
+        )
 
-        continue
+    else:
+        repo_data = buffered_get(f"https://api.github.com/repos/{repo}") or {}
 
-    # -------------------------
-    # NEW APP
-    # -------------------------
-    if not new_versions:
-        print(f"⚠️ No valid IPA releases for {bundleID}, skipping")
-        continue
+        app = {
+            "name": name,
+            "bundleIdentifier": bundleID,
+            "developerName": repo_data.get("owner", {}).get("login", repo.split("/")[0]),
+            "subtitle": repo_data.get("description", ""),
+            "localizedDescription": "",
+            "iconURL": repo_info.get("iconURL", ""),
+            "versions": new_versions
+        }
 
-    repo_data = buffered_get(f"https://api.github.com/repos/{repo}") or {}
-
-    app = {
-        "name": repo_info["name"],
-        "bundleIdentifier": bundleID,
-        "developerName": repo_data.get("owner", {}).get("login", repo.split("/")[0]),
-        "subtitle": repo_data.get("description", ""),
-        "localizedDescription": "",
-        "iconURL": repo_info.get("iconURL", ""),
-        "versions": new_versions
-    }
-
-    myApps["apps"].append(app)
-    release_cache[repo] = new_versions[0]["version"]
-    print(f"Added new app: {bundleID}")
+        myApps["apps"].append(app)
+        print(f"Added new app: {bundleID}")
 
 # -------------------------
-# FINALIZE
+# FINALIZE & WRITE FILES
 # -------------------------
 myApps["apps"].sort(key=latest_release_date, reverse=True)
 
-json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
-json.dump(release_cache, open(CACHE_FILE, "w"), indent=2)
+# ✅ Persist source of truth
+with open("my-apps.json", "w") as f:
+    json.dump(myApps, f, indent=4)
+
+# ✅ Generate AltStore repo
+with open("altstore-repo.json", "w") as f:
+    json.dump(myApps, f, indent=4)
+
+print("✅ my-apps.json and altstore-repo.json updated successfully")
