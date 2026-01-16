@@ -11,9 +11,9 @@ MAX_RETRIES = 5
 BACKOFF_BASE = 2
 REQUEST_TIMEOUT = 20
 PER_PAGE = 100
-DEFAULT_MAX_PAGES = 1  # 🔒 hard limit unless overridden
 
 API_TOKEN = os.getenv("API_TOKEN")
+CACHE_FILE = "release-cache.json"
 
 # -------------------------
 # SESSION
@@ -30,33 +30,24 @@ if API_TOKEN:
 session.headers.update(headers)
 
 # -------------------------
+# LOAD CACHE
+# -------------------------
+if os.path.exists(CACHE_FILE):
+    release_cache = json.load(open(CACHE_FILE))
+else:
+    release_cache = {}
+
+# -------------------------
 # HELPERS
 # -------------------------
-def buffered_get(url):
-    """
-    GET with retries + proper GitHub rate-limit handling.
-    """
+def buffered_get(url, raw=False):
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = session.get(url, timeout=REQUEST_TIMEOUT)
 
-            # ✅ GitHub rate limit handling
-            if response.status_code == 403:
-                reset = response.headers.get("X-RateLimit-Reset")
-                if reset:
-                    wait = max(0, int(reset) - int(time.time()))
-                    print(f"⏳ GitHub rate limit hit, sleeping {wait}s")
-                    time.sleep(wait + 1)
-                    continue
-
+            if response.status_code in (403, 429):
                 wait = BACKOFF_BASE ** attempt
-                print(f"⏳ 403 retry in {wait}s: {url}")
-                time.sleep(wait)
-                continue
-
-            if response.status_code == 429:
-                wait = BACKOFF_BASE ** attempt
-                print(f"⏳ 429 retry in {wait}s: {url}")
+                print(f"⏳ Rate limited ({response.status_code}), retrying in {wait}s: {url}")
                 time.sleep(wait)
                 continue
 
@@ -64,7 +55,7 @@ def buffered_get(url):
                 print(f"⚠️ HTTP {response.status_code} for {url}")
                 return None
 
-            return response.json()
+            return response.text if raw else response.json()
 
         except requests.exceptions.RequestException as e:
             wait = BACKOFF_BASE ** attempt
@@ -73,28 +64,6 @@ def buffered_get(url):
 
     print(f"❌ Failed after {MAX_RETRIES} retries: {url}")
     return None
-
-
-def fetch_releases(repo, max_pages):
-    """
-    Fetch releases with a hard page limit.
-    """
-    releases = []
-
-    for page in range(1, max_pages + 1):
-        url = f"https://api.github.com/repos/{repo}/releases?per_page={PER_PAGE}&page={page}"
-        batch = buffered_get(url)
-
-        if not isinstance(batch, list) or not batch:
-            break
-
-        releases.extend(batch)
-
-        # stop early if fewer than PER_PAGE
-        if len(batch) < PER_PAGE:
-            break
-
-    return releases
 
 
 def find_app(apps, bundleID):
@@ -146,54 +115,52 @@ for repo_info in scraping:
     keyword = keyword.lower() if keyword else None
     existing_app = find_app(myApps["apps"], bundleID)
 
-    # 🔒 page limit logic
-    max_pages = DEFAULT_MAX_PAGES
-    if repo_info.get("checkpage", False):
-        max_pages = 10  # effectively unlimited but still capped
-
-    # -------------------------
-    # FETCH RELEASES
-    # -------------------------
-    releases = fetch_releases(repo, max_pages)
-
-    if not releases:
-        print(f"⚠️ Failed to fetch releases for {repo}")
-        continue
-
+    cached_tag = release_cache.get(repo)
     new_versions = []
+    page = 1
+    stop_scanning = False
 
-    for release in releases:
-        if release.get("prerelease", False) and not allow_prerelease:
-            continue
+    # -------------------------
+    # FETCH RELEASES (PAGE 1 ONLY by default)
+    # -------------------------
+    while True:
+        url = f"https://api.github.com/repos/{repo}/releases?per_page={PER_PAGE}&page={page}"
+        releases = buffered_get(url)
 
-        assets = release.get("assets", [])
-        selected_asset = None
+        if not isinstance(releases, list) or not releases:
+            break
 
-        if keyword:
-            for asset in assets:
-                if is_valid_ipa(asset) and (
-                    keyword in asset["name"].lower()
-                    or keyword in asset["browser_download_url"].lower()
-                ):
-                    selected_asset = asset
-                    break
+        for release in releases:
+            tag = release["tag_name"].lstrip("v")
 
-        if not selected_asset:
-            for asset in assets:
-                if is_valid_ipa(asset):
-                    selected_asset = asset
-                    break
+            # 🔥 CACHE HIT → STOP EVERYTHING
+            if cached_tag == tag:
+                stop_scanning = True
+                break
 
-        if not selected_asset:
-            continue
+            if release.get("prerelease", False) and not allow_prerelease:
+                continue
 
-        new_versions.append({
-            "version": release["tag_name"].lstrip("v"),
-            "date": release["published_at"],
-            "localizedDescription": release.get("body", ""),
-            "downloadURL": selected_asset["browser_download_url"],
-            "size": selected_asset["size"]
-        })
+            for asset in release.get("assets", []):
+                if not is_valid_ipa(asset):
+                    continue
+
+                if keyword and keyword not in asset["name"].lower() and keyword not in asset["browser_download_url"].lower():
+                    continue
+
+                new_versions.append({
+                    "version": tag,
+                    "date": release["published_at"],
+                    "localizedDescription": release.get("body", ""),
+                    "downloadURL": asset["browser_download_url"],
+                    "size": asset["size"]
+                })
+                break
+
+        if stop_scanning or not repo_info.get("checkpage", False):
+            break
+
+        page += 1
 
     # -------------------------
     # EXISTING APP
@@ -205,14 +172,16 @@ for repo_info in scraping:
                 existing_app["versions"].append(v)
                 added += 1
 
-        print(
-            f"Updated {bundleID}: added {added} new version(s)"
-            if added else f"No new versions for {bundleID}"
-        )
+        if added:
+            release_cache[repo] = new_versions[0]["version"]
+            print(f"Updated {bundleID}: added {added} new version(s)")
+        else:
+            print(f"No new versions for {bundleID}")
+
         continue
 
     # -------------------------
-    # NEW APP (NO README FETCH)
+    # NEW APP
     # -------------------------
     if not new_versions:
         print(f"⚠️ No valid IPA releases for {bundleID}, skipping")
@@ -225,16 +194,19 @@ for repo_info in scraping:
         "bundleIdentifier": bundleID,
         "developerName": repo_data.get("owner", {}).get("login", repo.split("/")[0]),
         "subtitle": repo_data.get("description", ""),
-        "localizedDescription": repo_data.get("description", ""),
+        "localizedDescription": "",
         "iconURL": repo_info.get("iconURL", ""),
         "versions": new_versions
     }
 
     myApps["apps"].append(app)
+    release_cache[repo] = new_versions[0]["version"]
     print(f"Added new app: {bundleID}")
 
 # -------------------------
 # FINALIZE
 # -------------------------
 myApps["apps"].sort(key=latest_release_date, reverse=True)
+
 json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
+json.dump(release_cache, open(CACHE_FILE, "w"), indent=2)
