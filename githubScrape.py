@@ -11,8 +11,9 @@ MAX_RETRIES = 5
 BACKOFF_BASE = 2
 REQUEST_TIMEOUT = 20
 PER_PAGE = 100
+DEFAULT_MAX_PAGES = 1  # 🔒 hard limit unless overridden
 
-API_TOKEN = os.getenv("API_TOKEN")  # from GitHub Actions secret
+API_TOKEN = os.getenv("API_TOKEN")
 
 # -------------------------
 # SESSION
@@ -31,19 +32,31 @@ session.headers.update(headers)
 # -------------------------
 # HELPERS
 # -------------------------
-def buffered_get(url, raw=False):
+def buffered_get(url):
     """
-    Buffered GET with retries, rate-limit handling, and backoff.
-    Returns JSON or text or None.
+    GET with retries + proper GitHub rate-limit handling.
     """
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = session.get(url, timeout=REQUEST_TIMEOUT)
 
-            # Rate limit handling
-            if response.status_code in (403, 429):
+            # ✅ GitHub rate limit handling
+            if response.status_code == 403:
+                reset = response.headers.get("X-RateLimit-Reset")
+                if reset:
+                    wait = max(0, int(reset) - int(time.time()))
+                    print(f"⏳ GitHub rate limit hit, sleeping {wait}s")
+                    time.sleep(wait + 1)
+                    continue
+
                 wait = BACKOFF_BASE ** attempt
-                print(f"⏳ Rate limited ({response.status_code}), retrying in {wait}s: {url}")
+                print(f"⏳ 403 retry in {wait}s: {url}")
+                time.sleep(wait)
+                continue
+
+            if response.status_code == 429:
+                wait = BACKOFF_BASE ** attempt
+                print(f"⏳ 429 retry in {wait}s: {url}")
                 time.sleep(wait)
                 continue
 
@@ -51,7 +64,7 @@ def buffered_get(url, raw=False):
                 print(f"⚠️ HTTP {response.status_code} for {url}")
                 return None
 
-            return response.text if raw else response.json()
+            return response.json()
 
         except requests.exceptions.RequestException as e:
             wait = BACKOFF_BASE ** attempt
@@ -62,14 +75,13 @@ def buffered_get(url, raw=False):
     return None
 
 
-def fetch_all_releases(repo):
+def fetch_releases(repo, max_pages):
     """
-    Fetch ALL releases using pagination.
+    Fetch releases with a hard page limit.
     """
     releases = []
-    page = 1
 
-    while True:
+    for page in range(1, max_pages + 1):
         url = f"https://api.github.com/repos/{repo}/releases?per_page={PER_PAGE}&page={page}"
         batch = buffered_get(url)
 
@@ -77,7 +89,10 @@ def fetch_all_releases(repo):
             break
 
         releases.extend(batch)
-        page += 1
+
+        # stop early if fewer than PER_PAGE
+        if len(batch) < PER_PAGE:
+            break
 
     return releases
 
@@ -131,10 +146,15 @@ for repo_info in scraping:
     keyword = keyword.lower() if keyword else None
     existing_app = find_app(myApps["apps"], bundleID)
 
+    # 🔒 page limit logic
+    max_pages = DEFAULT_MAX_PAGES
+    if repo_info.get("checkpage", False):
+        max_pages = 10  # effectively unlimited but still capped
+
     # -------------------------
     # FETCH RELEASES
     # -------------------------
-    releases = fetch_all_releases(repo)
+    releases = fetch_releases(repo, max_pages)
 
     if not releases:
         print(f"⚠️ Failed to fetch releases for {repo}")
@@ -192,24 +212,20 @@ for repo_info in scraping:
         continue
 
     # -------------------------
-    # NEW APP
+    # NEW APP (NO README FETCH)
     # -------------------------
     if not new_versions:
         print(f"⚠️ No valid IPA releases for {bundleID}, skipping")
         continue
 
     repo_data = buffered_get(f"https://api.github.com/repos/{repo}") or {}
-    readme = buffered_get(
-        f"https://raw.githubusercontent.com/{repo}/refs/heads/main/README.md",
-        raw=True
-    ) or ""
 
     app = {
         "name": repo_info["name"],
         "bundleIdentifier": bundleID,
         "developerName": repo_data.get("owner", {}).get("login", repo.split("/")[0]),
         "subtitle": repo_data.get("description", ""),
-        "localizedDescription": readme,
+        "localizedDescription": repo_data.get("description", ""),
         "iconURL": repo_info.get("iconURL", ""),
         "versions": new_versions
     }
@@ -221,5 +237,4 @@ for repo_info in scraping:
 # FINALIZE
 # -------------------------
 myApps["apps"].sort(key=latest_release_date, reverse=True)
-
 json.dump(myApps, open("altstore-repo.json", "w"), indent=4)
