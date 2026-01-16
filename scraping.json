@@ -602,5 +602,21 @@
         "bundleID": "com.hjiangsu.thunder",
         "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/1d/fe/14/1dfe1456-e4a9-2754-7af9-34d616932bee/Placeholder.mill/400x400bb-75.webp",
         "allowPrerelease": false
+    },
+    {
+        "name": "Misaka26",
+        "github": "straight-tamago/misaka26",
+        "bundleID": "com.straight-tamago.misakaRS",
+        "iconURL": "https://cdn.discordapp.com/icons/1156843198799421490/3d2997733ec6f56bcfadf51671443a36.webp?size=160",
+        "allowPrerelease": false,
+        "checkpage": true
+    },
+    {
+        "name": "Spotify (Eevee)",
+        "github": "meownyaaa/EeveeIPA",
+        "bundleID": "com.spotify.client",
+        "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/d0/d3/0bd0d39f-9a33-eb69-6cfe-ecd01a38c2b0/Placeholder.mill/400x400bb-75.webp",
+        "allowPrerelease": false,
+        "checkpage": true
     }
 ]
