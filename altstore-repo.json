@@ -10,6 +10,59 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "EnsWilde",
+            "bundleIdentifier": "com.yangjiii.EnsWilde",
+            "marketplaceID": "",
+            "developerName": "YangJiiii",
+            "subtitle": "An awesome app.",
+            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
+            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
+            "tintColor": "#d99800",
+            "category": "other",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "EnsWilde2.1",
+                    "date": "2026-01-13T13:39:34Z",
+                    "localizedDescription": "## Improvements\r\n\r\n- Improved overall stability and success rate\r\n- Prevented file corruption during execution\r\n- Updated the user interface to reduce unexpected errors\r\n- Fixed the issue where the app required restarting when enabling VPN\r\n- Added a few small features to Mobile Gestalt\r\n## New Features\r\n\r\n### Apple Wallet\r\n- Added support for custom background images for Apple Wallet passes\r\n\r\n### Passcode Theme\r\n- Added the ability to change the passcode unlock screen image\r\n\r\n## How to Use\r\n\r\n### Apple Wallet\r\nIf you don\u2019t have a Card ID yet:\r\n\r\n1. Remove the existing card from Wallet (if any)\r\n2. Tap Scan ID\r\n3. Scan your card\r\n4. Add the card to Wallet\r\n5. The app will automatically retrieve the Card ID\r\n\r\n### Passcode Theme\r\n\r\n1. Go to Theme Settings\r\n2. Select the appropriate language\r\n3. Select the appropriate Telephony option (priority: Telephony-10)\r\n\r\n## Download\r\n\r\nDownload passthm themes at:\r\nhttps://cowabun.ga/wallpapers\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1/EnsWilde.ipa",
+                    "size": 12626172,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.0",
+                    "date": "2026-01-05T15:30:18Z",
+                    "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable \u2013 experimental build) (enable it in Settings; password: **3105**)\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
+                    "size": 12242612,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde",
+                    "date": "2025-12-26T14:35:03Z",
+                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
+                    "size": 37995810,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.1.1",
+                    "date": "2026-01-15T14:06:49Z",
+                    "localizedDescription": "- Added supported device warnings ( IOS 18 - IOS 26.2 Beta 1 )\r\n- Improved zPatch Custom for better functionality\r\n- Updated Mobile Gestalt",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.1/EnsWilde.ipa",
+                    "size": 12684781
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "NebuloIPTV",
             "bundleIdentifier": "personal.Nebulo",
             "marketplaceID": "",
@@ -82,52 +135,6 @@
                     "localizedDescription": "First iteration of my IPTV app",
                     "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/Release/Nebulo.ipa",
                     "size": 2257619,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "EnsWilde",
-            "bundleIdentifier": "com.yangjiii.EnsWilde",
-            "marketplaceID": "",
-            "developerName": "YangJiiii",
-            "subtitle": "An awesome app.",
-            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
-            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
-            "tintColor": "#d99800",
-            "category": "other",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "EnsWilde2.1",
-                    "date": "2026-01-13T13:39:34Z",
-                    "localizedDescription": "## Improvements\r\n\r\n- Improved overall stability and success rate\r\n- Prevented file corruption during execution\r\n- Updated the user interface to reduce unexpected errors\r\n- Fixed the issue where the app required restarting when enabling VPN\r\n- Added a few small features to Mobile Gestalt\r\n## New Features\r\n\r\n### Apple Wallet\r\n- Added support for custom background images for Apple Wallet passes\r\n\r\n### Passcode Theme\r\n- Added the ability to change the passcode unlock screen image\r\n\r\n## How to Use\r\n\r\n### Apple Wallet\r\nIf you don\u2019t have a Card ID yet:\r\n\r\n1. Remove the existing card from Wallet (if any)\r\n2. Tap Scan ID\r\n3. Scan your card\r\n4. Add the card to Wallet\r\n5. The app will automatically retrieve the Card ID\r\n\r\n### Passcode Theme\r\n\r\n1. Go to Theme Settings\r\n2. Select the appropriate language\r\n3. Select the appropriate Telephony option (priority: Telephony-10)\r\n\r\n## Download\r\n\r\nDownload passthm themes at:\r\nhttps://cowabun.ga/wallpapers\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1/EnsWilde.ipa",
-                    "size": 12626172,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde2.0",
-                    "date": "2026-01-05T15:30:18Z",
-                    "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable \u2013 experimental build) (enable it in Settings; password: **3105**)\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
-                    "size": 12242612,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde",
-                    "date": "2025-12-26T14:35:03Z",
-                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
-                    "size": 37995810,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
@@ -13205,51 +13212,6 @@
                 "privacy": {}
             },
             "patreon": {}
-        },
-        {
-            "name": "Asspp",
-            "bundleIdentifier": "wiki.qaq.Asspp",
-            "developerName": "Lakr233",
-            "subtitle": "The App Store for your multi-account eco system.",
-            "localizedDescription": "# Asspp\n\nSeamless multi-account App Store management.\n\n[\u7b80\u4f53\u4e2d\u6587 \ud83c\udde8\ud83c\uddf3](./Resources/i18n/zh-Hans/README.md)\n\nFor a command-line or library version of Asspp, check out [ApplePackage](https://github.com/Lakr233/ApplePackage).\n\n## \ud83d\udc40 Preview\n\n![Preview](./Resources/Screenshots/README_PREVIEW_iPhone.png)\n![Preview Mac](./Resources/Screenshots/README_PREVIEW_MAC.png)\n\n## \ud83c\udf1f Key Features\n\n- **Multi-Account**: Supports multiple Apple IDs\n- **Region Selection**: Choose your App Store region\n- **App Search**: Search for apps by keywords\n- **App Download**: Download apps from the App Store\n- **IPA Install**: Install IPAs on non-jailbroken devices\n- **IPA Sharing**: Share IPA files easily\n- **Historical Versions**: Download previous app versions\n- **Free App Purchase**: Purchase free apps\n\n## \ud83d\udcdd Requirements\n\n### Prerequisites\n\n- [iOS App Signer](https://dantheman827.github.io/ios-app-signer/)\n- Self-signed certificate for `app.localhost.qaq.wiki` (install in Settings)\n\n### Troubleshooting\n\n- For issues like [#1](https://github.com/Lakr233/Asspp/issues/1), use the provided signing tool.\n- If installation fails, ensure the certificate is properly installed.\n- For app crashes or exits, verify you've signed into your App Store account and that your device system version is supported.\n\n### Installation Methods Comparison\n\n| Aspect                  | Local Installation                     | AirDrop Installation                                                      |\n| ----------------------- | -------------------------------------- | ------------------------------------------------------------------------- |\n| Devices Required        | Single device                          | Two devices                                                               |\n| App Store Compatibility | Undetectable\\*                         | Compatible                                                                |\n| Auto-Updates            | No                                     | Yes                                                                       |\n| Prerequisites           | Install and trust certificate manually | Target device logged in with matching account, at least one app installed |\n| Internet Required       | Yes                                    | No                                                                        |\n\n- This installation method does not register the software with the App Store, so it cannot auto-update. Manual updates can retain data, but subsequent installations cannot use this software, and this method cannot overwrite existing apps.\n\n## \ud83d\ude80 Usage\n\n# iPhone\n\n- Visit the Releases page (https://github.com/Lakr233/Asspp/releases) and download the latest Asspp.ipa\n- Re-sign the IPA with a signing tool, then install it\n- Or use this Shortcut: https://www.icloud.com/shortcuts/d3c28f125b724a2da136d560fcf360dc\n  > Copy the link and run it, or add the shortcut to your share sheet; when opening the link choose \"Open in Sidestore\"\n\n# Mac\n\n- Visit the Releases page (https://github.com/Lakr233/Asspp/releases) and download the latest Asspp.zip\n- Unzip and open Asspp.app\n\n### First Run and Trusting the App (Recommended)\n\n1. Try double-clicking to open the app. If you see \"App can\u2019t be opened because the developer cannot be verified\" or a similar message:\n   - In Finder, locate Asspp.app, Control-click (or right-click) the app and choose \"Open\", then click \"Open\" again in the dialog. This will create a one-time trust exception for the app.\n2. If Control-clicking does not work or the app is still blocked:\n   - Open System Settings -> Privacy & Security (or System Preferences -> Security & Privacy on older macOS). In the General/Security section, look for the blocked app and click \"Open Anyway\" or \"Allow\". You may need to enter an administrator password.\n3. Recommendation: Download from this repository's Releases and verify the release details to ensure the source is trusted before trusting and opening the app.\n\n> These steps follow macOS Gatekeeper practices and help minimize security risks while allowing you to run unsigned or self-signed apps.\n\n\n## \ud83d\udccb Prebuilt Package\n\nCheck the [Releases](https://github.com/Lakr233/Asspp/releases) page.\n\n\n## Star History\n\n[![Star History Chart](https://api.star-history.com/svg?repos=Lakr233/Asspp&type=date&legend=top-left)](https://www.star-history.com/#Lakr233/Asspp&type=date&legend=top-left)\n\n## \ud83e\uddd1\u200d\u2696\ufe0f License\n\nStarting from version 2.2.16, the project is licensed under [MIT](./LICENSE).\n\n## \ud83e\udd70 Acknowledgments\n\n- [ipatool](https://github.com/majd/ipatool)\n- [ipatool-ios](https://github.com/dlevi309/ipatool-ios)\n- [localhost.direct](https://get.localhost.direct/)\n\n`ipatool-ios` and `localhost.direct` are no longer used in the project.\n\n---\n\nCopyright \u00a9 2025 Lakr Aream. All Rights Reserved.\n",
-            "iconURL": "https://raw.githubusercontent.com/Lakr233/Asspp/refs/heads/main/Asspp/App/Assets.xcassets/AppIcon.appiconset/asspp_512.png",
-            "versions": [
-                {
-                    "version": "3.0.25",
-                    "date": "2025-10-16T21:15:10Z",
-                    "localizedDescription": "## What's Changed\r\n* Fix macOS login sheet by @LiYanan2004 in https://github.com/Lakr233/Asspp/pull/48\r\n* Update macOS password field style\r\n* Update macOS installer with more detailed error information\r\n* Update App icons with more accurate corner radius\r\n\r\n## New Contributors\r\n* @LiYanan2004 made their first contribution in https://github.com/Lakr233/Asspp/pull/48\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/3.0.24...3.0.25",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.25/Asspp.ipa",
-                    "size": 10917639
-                },
-                {
-                    "version": "3.0.24",
-                    "date": "2025-10-10T07:56:08Z",
-                    "localizedDescription": "## What's Changed\r\n* macOS Support\r\n\r\n--- \r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n\r\n- \u652f\u6301 macOS\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.20...3.0.24",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.24/Asspp.ipa",
-                    "size": 10915165
-                },
-                {
-                    "version": "2.3.20",
-                    "date": "2025-09-19T19:40:57Z",
-                    "localizedDescription": "## Release Notes\r\n* Added SideStore source\r\n* Added support for dark icons\r\n* Fixed the auto-pop issue on iOS 16 ~ iOS 18\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20\r\n\r\n---\r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n* \u652f\u6301 SideStore \u6e90\r\n* \u521d\u6b65\u9002\u914d\u6df1\u8272\u56fe\u6807\r\n* \u4fee\u590d iOS 16 ~ iOS 18 \u9875\u9762\u81ea\u52a8\u8fd4\u56de\u7684\u95ee\u9898\r\n\r\n**\u5b8c\u6574\u53d8\u66f4**\uff1ahttps://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.20/Asspp.ipa",
-                    "size": 10219280
-                },
-                {
-                    "version": "2.3.18",
-                    "date": "2025-09-17T03:40:02Z",
-                    "localizedDescription": "## What's Changed\r\n* Adopt Liquid Glass by @bo2themax in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n## New Contributors\r\n* @bo2themax made their first contribution in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.2.16...2.3.18",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.18/Asspp.ipa",
-                    "size": 9951832
-                },
-                {
-                    "version": "2.2.16",
-                    "date": "2025-09-16T06:58:25Z",
-                    "localizedDescription": "# Release Notes: From 1.x to 2.2.16\r\n\r\nThis release enhances functionality, stability, and user experience.\r\n\r\n## New Features\r\n- You can now view and download historical versions of apps.\r\n\r\n## Improvements\r\n- Improved search experience.\r\n- Improved handling of server-provided instructions.\r\n- Improved user experience on iOS 26.\r\n\r\n## Changes\r\n- On-device installer now uses a new certificate valid for 2 years.\r\n- Complete redesign of API backend with updated APIs.\r\n\r\n## Bug Fixes\r\n- Fixed issues with account login.\r\n- Fixed application purchasing issues.\r\n- Fixed downloading issues with improved cookie handling.\r\n- Resolved logical issues with two-factor authentication.\r\n\r\n## Other Changes\r\n- Updated files and configs for new features.\r\n\r\nWe hope you enjoy the new release!\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**New Contributors**: @bo2themax, @lbr77\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\uff1a\u4ece 1.x \u5230 2.2.16\r\n\r\n\u672c\u6b21\u66f4\u65b0\u589e\u5f3a\u4e86\u529f\u80fd\u6027\u3001\u7a33\u5b9a\u6027\u4e0e\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u65b0\u529f\u80fd\r\n- \u73b0\u5728\u60a8\u53ef\u4ee5\u67e5\u770b\u5e76\u4e0b\u8f7d\u5e94\u7528\u7684\u5386\u53f2\u7248\u672c\u4e86\u3002\r\n\r\n## \u6539\u8fdb\r\n- \u4f18\u5316\u4e86\u641c\u7d22\u4f53\u9a8c\u3002\r\n- \u6539\u8fdb\u4e86\u5bf9\u670d\u52a1\u5668\u6307\u4ee4\u7684\u5904\u7406\u3002\r\n- \u6539\u5584\u4e86\u5728 iOS 26 \u4e0a\u7684\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u53d8\u66f4\r\n- \u8bbe\u5907\u7aef\u5b89\u88c5\u5668\u73b0\u5df2\u4f7f\u7528\u65b0\u7684\u8bc1\u4e66\uff0c\u6709\u6548\u671f\u4e3a 2 \u5e74\u3002\r\n- \u5f7b\u5e95\u91cd\u6784\u4e86 API \u540e\u7aef\uff0c\u5e76\u66f4\u65b0\u4e86\u76f8\u5173\u63a5\u53e3\u3002\r\n\r\n## \u95ee\u9898\u4fee\u590d\r\n- \u4fee\u590d\u4e86\u8d26\u6237\u767b\u5f55\u76f8\u5173\u7684\u95ee\u9898\u3002\r\n- \u4fee\u590d\u4e86\u5e94\u7528\u8d2d\u4e70\u65f6\u9047\u5230\u7684\u95ee\u9898\u3002\r\n- \u901a\u8fc7\u6539\u8fdb Cookie \u5904\u7406\uff0c\u4fee\u590d\u4e86\u4e0b\u8f7d\u95ee\u9898\u3002\r\n- \u89e3\u51b3\u4e86\u4e24\u6b65\u9a8c\u8bc1\u4e2d\u7684\u903b\u8f91\u95ee\u9898\u3002\r\n\r\n## \u5176\u4ed6\u53d8\u66f4\r\n- \u4e3a\u652f\u6301\u65b0\u529f\u80fd\uff0c\u66f4\u65b0\u4e86\u76f8\u5173\u6587\u4ef6\u4e0e\u914d\u7f6e\u3002\r\n\r\n\u5e0c\u671b\u60a8\u559c\u6b22\u8fd9\u6b21\u66f4\u65b0\uff01\r\n\r\n**\u5b8c\u6574\u66f4\u65b0\u65e5\u5fd7**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**\u65b0\u8d21\u732e\u8005**: @bo2themax, @lbr77\r\n",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.2.16/Asspp.ipa",
-                    "size": 9912930
-                }
-            ]
         },
         {
             "name": "Alpimaps",
