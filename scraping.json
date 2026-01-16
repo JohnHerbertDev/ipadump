@@ -123,7 +123,7 @@
     {
         "github": "KRTirtho/spotube",
         "bundleID": "oss.krtirtho.spotube.stable",
-        "name": "Spotify (Spotube)",
+        "name": "Spotube",
         "allowPrerelease": false,
         "iconURL": "https://github.com/KRTirtho/spotube/blob/master/assets/branding/spotube-logo-macos.png?raw=true"
     },
