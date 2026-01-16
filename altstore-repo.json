@@ -10,17 +10,211 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Spotify (Eevee)",
+            "bundleIdentifier": "com.spotify.client",
+            "developerName": "meownyaaa",
+            "subtitle": "My own repository with latest and last supported for iOS 15.",
+            "localizedDescription": "",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/d0/d3/0bd0d39f-9a33-eb69-6cfe-ecd01a38c2b0/Placeholder.mill/400x400bb-75.webp",
+            "versions": [
+                {
+                    "version": "9.1.12-new",
+                    "date": "2026-01-15T20:05:31Z",
+                    "localizedDescription": "# Changelog\r\n- update to spotify 9.1.12\r\n- update to swift 6.5.0\r\n- Re added Musixmatch lyrics option\r\n\r\ni am losing motivation, the tweak provided by Meeep1 is broken when being put through the action and required me to mess around with both the \"official\" IPA and my own IPA to get the working EeveeSpotify.dylib into mine. this took 3 hours because iOS is such a pain in the ass to mess around with and is overall just confusing. i would fix it myself if i could \r\n\r\n\r\ndlopen(/private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Spotify, 0x0109): Symbol not found: _$s13SwiftProtobuf7DecoderP14decodeMapField9fieldType5valueyAA01_b7MessageE0Vyqd__qd_0_Gm_SDy04BaseH0Qyd__qd_0_GztKAA0e3KeyH0Rd__SHRd_0_AA0J0Rd_0_r0_lFTj\r\n\u00a0 Referenced from: <06368551-DF9E-38E6-AB86-B9BA2AF98489> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/EeveeSpotify.dylib\r\n\u00a0 Expected in: \u00a0 \u00a0 <E93D670B-A598-3CDD-9FD2-0113BCFF5C2C> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.12-new/EeveeSpotify-9.1.12-Swift-6.5.0.ipa",
+                    "size": 89697212
+                },
+                {
+                    "version": "9.1.6-new",
+                    "date": "2026-01-02T07:09:23Z",
+                    "localizedDescription": "# Changelog\r\n- update to spotify 9.1.6\r\n- update to swift 6.4.8(?)\r\nThis version uses a [different repo]( https://github.com/Meeep1/EeveeSpotifyRevivedPublic) for the tweak as the original EeveeSpotify was discontinued, and lyrics do not work properly.\r\nSigning in also seems to be spotty. If you cannot sign in, install 9.1.0 first to sign in then update.",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.6-new/sidestore.ipa",
+                    "size": 95808186
+                },
+                {
+                    "version": "patch-38",
+                    "date": "2025-12-26T03:19:40Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/patch-38/sidestore.ipa",
+                    "size": 95159030
+                },
+                {
+                    "version": "9.1.0-SideStore",
+                    "date": "2025-11-29T02:21:56Z",
+                    "localizedDescription": "# Changelog\r\n- update to 9.1.0",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.0-SideStore/sidestore.ipa",
+                    "size": 94526238
+                },
+                {
+                    "version": "9.0.98-SideStore",
+                    "date": "2025-11-23T19:28:37Z",
+                    "localizedDescription": "# Changelog\r\n- update to 9.0.98",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.98-SideStore/sidestore.ipa",
+                    "size": 93921078
+                },
+                {
+                    "version": "9.0.96-SideStore",
+                    "date": "2025-11-13T14:26:18Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.96\r\n- Fixed lyrics not displaying for local tracks\r\n- Fixed blank lyrics on app launch\r\n- Possibly fixed \"Songs play in random order\" (Reset Data in EeveeSpotify settings)",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.96-SideStore/sidestore.ipa",
+                    "size": 93219642
+                },
+                {
+                    "version": "9.0.48-6.2.2",
+                    "date": "2025-11-13T14:27:00Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.96\r\n- Fixed lyrics not displaying for local tracks\r\n- Fixed blank lyrics on app launch\r\n- Possibly fixed \"Songs play in random order\" (Reset Data in EeveeSpotify settings)",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.2.2/sidestore.ipa",
+                    "size": 82359516
+                },
+                {
+                    "version": "9.0.94-SideStore",
+                    "date": "2025-11-09T22:45:01Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.94\r\n- Fixed \"Songs now play in a random order\" (again)\r\n- Fixed Musixmatch sending too many requests (causing unauthorized errors due to captcha and slow lyrics loading)\r\n- Fixed lyrics not appearing for songs that don't have lyrics on Spotify",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.94-SideStore/sidestore.ipa",
+                    "size": 93213518
+                },
+                {
+                    "version": "masterful-gambit",
+                    "date": "2025-11-09T08:39:32Z",
+                    "localizedDescription": "# Changelog\r\n- crashes, crashes, more crashes!",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/masterful-gambit/broken.ipa",
+                    "size": 93209471
+                },
+                {
+                    "version": "9.0.91-SideStore",
+                    "date": "2025-11-02T11:15:46Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.91 (the new architecture and lyrics, huge thanks to everyone who donated!)\r\n- Fixed the plan overview screen\r\n- Fixed very high and lossless quality pop-ups\r\n- Fixed the issue with \"Recently played artists\" turning back on (https://github.com/whoeevee/EeveeSpotifyReborn/issues/128)\r\n- Possibly fixed crashes related to lyrics\r\n- Updated Italian localization by @Andrea-Filice\r\n- Update to 9.0.91\r\n- Update to Swift 6,2",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.91-SideStore/sidestore.ipa",
+                    "size": 94759402
+                },
+                {
+                    "version": "patch-27",
+                    "date": "2025-11-02T11:21:16Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.91 (the new architecture and lyrics, huge thanks to everyone who donated!)\r\n- Fixed the plan overview screen\r\n- Fixed very high and lossless quality pop-ups\r\n- Fixed the issue with \"Recently played artists\" turning back on (https://github.com/whoeevee/EeveeSpotifyReborn/issues/128)\r\n- Possibly fixed crashes related to lyrics\r\n- Updated Italian localization by @Andrea-Filice\r\n- Update to Swift 6,2",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/patch-27/sidestore.ipa",
+                    "size": 82350911
+                },
+                {
+                    "version": "9.0.48-6.1.6",
+                    "date": "2025-10-17T06:02:08Z",
+                    "localizedDescription": "# Changelog\r\n- Update to Swift 6.1.6",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.1.6/sidestore.ipa",
+                    "size": 82340487
+                },
+                {
+                    "version": "9.0.86-Swift-6.1.6",
+                    "date": "2025-10-10T15:02:48Z",
+                    "localizedDescription": "# Changelock\r\n- \"Songs play in a random order\" should be fully fixed (reset data in the EeveeSpotify settings beforehand)\r\n- Update to Swift 6.1.6",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.86-Swift-6.1.6/sidestore.ipa",
+                    "size": 94049938
+                },
+                {
+                    "version": "9.0.86-SideStore",
+                    "date": "2025-10-08T17:43:11Z",
+                    "localizedDescription": "#Changelog\r\n- update to 9.0.86",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.86-SideStore/sidestore.ipa",
+                    "size": 94049027
+                },
+                {
+                    "version": "9.0.84-SideStore",
+                    "date": "2025-10-03T11:56:58Z",
+                    "localizedDescription": "# Changelog\r\n- 9.0.84 \r\n- minor swift update?",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.84-SideStore/sidestore.ipa",
+                    "size": 90503410
+                },
+                {
+                    "version": "9.0.82-SideStore",
+                    "date": "2025-09-29T14:49:01Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.82-SideStore/sidestore.ipa",
+                    "size": 90001645
+                },
+                {
+                    "version": "9.0.82",
+                    "date": "2025-09-29T06:01:59Z",
+                    "localizedDescription": "# Changelog\r\n\r\n- Fixed \"Songs play in random order\" (if this occurs after some time, reset data in the EeveeSpotify settings so far)\r\n- Fixed queue reordering\r\n- Update to 9.0.82",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.82/patched.ipa",
+                    "size": 92031228
+                },
+                {
+                    "version": "9.0.80-6.1.5",
+                    "date": "2025-09-26T01:26:45Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.80-6.1.5/patched.ipa",
+                    "size": 91490852
+                },
+                {
+                    "version": "9.0.48-6.1.5",
+                    "date": "2025-09-26T01:28:29Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.1.5/patched.ipa",
+                    "size": 84213006
+                },
+                {
+                    "version": "9.0.80",
+                    "date": "2025-09-20T06:34:59Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.80/patched.ipa",
+                    "size": 91489386
+                },
+                {
+                    "version": "nowatchkit-9.0.78",
+                    "date": "2025-09-19T18:20:35Z",
+                    "localizedDescription": "From now on, the IPAs used in workflows will have Payload/Watch aka WatchKit removed so people can sideload it on its own instead of needing LiveContainer.",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/nowatchkit-9.0.78/NoWatchKit-patched.ipa",
+                    "size": 91457593
+                },
+                {
+                    "version": "nowatchkit-9.0.48",
+                    "date": "2025-09-19T18:20:03Z",
+                    "localizedDescription": "From now on, the IPAs used in workflows will have Payload/Watch aka WatchKit removed so people can sideload it on its own instead of needing LiveContainer.",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/nowatchkit-9.0.48/NoWatchKit-patched.ipa",
+                    "size": 84211429
+                },
+                {
+                    "version": "9.0.78",
+                    "date": "2025-09-12T17:46:02Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/meownyaaa/EeveeIPA/compare/latest-8...latest-1",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.78/patched.ipa",
+                    "size": 116925110
+                },
+                {
+                    "version": "latest-8",
+                    "date": "2025-08-31T04:20:04Z",
+                    "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/latest-8/patched.ipa",
+                    "size": 116159961
+                },
+                {
+                    "version": "15-1",
+                    "date": "2025-08-31T04:07:38Z",
+                    "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/15-1/patched.ipa",
+                    "size": 84208719
+                }
+            ]
+        },
+        {
             "name": "EnsWilde",
             "bundleIdentifier": "com.yangjiii.EnsWilde",
             "marketplaceID": "",
             "developerName": "YangJiiii",
             "subtitle": "An awesome app.",
-            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING\nDISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the **EnsWilde** app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
+            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING - DISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the EnsWilde app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
             "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
             "tintColor": "#d99800",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
+                {
+                    "version": "EnsWilde2.1.1",
+                    "date": "2026-01-15T14:06:49Z",
+                    "localizedDescription": "- Added supported device warnings ( IOS 18 - IOS 26.2 Beta 1 )\r\n- Improved zPatch Custom for better functionality\r\n- Updated Mobile Gestalt",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.1/EnsWilde.ipa",
+                    "size": 12684781,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
                 {
                     "version": "EnsWilde2.1",
                     "date": "2026-01-13T13:39:34Z",
@@ -47,13 +241,6 @@
                     "size": 37995810,
                     "buildVersion": null,
                     "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde2.1.1",
-                    "date": "2026-01-15T14:06:49Z",
-                    "localizedDescription": "- Added supported device warnings ( IOS 18 - IOS 26.2 Beta 1 )\r\n- Improved zPatch Custom for better functionality\r\n- Updated Mobile Gestalt",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.1/EnsWilde.ipa",
-                    "size": 12684781
                 }
             ],
             "appPermissions": {
@@ -6719,7 +6906,7 @@
             "localizedDescription": "A rootless semi-untethered jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
             "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
             "tintColor": "#457f18",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -8537,21 +8724,27 @@
                     "date": "2020-11-10T16:28:25Z",
                     "localizedDescription": "UTM 2.0 includes a redesign of the frontend for iOS 14 and introduces support for macOS 11. Due API limitations, the new design will **not** be available for iOS 13 and below. That means any feature that depends on the new design will also **not** be back-ported to iOS 13. Launching UTM 2.0 on iOS 14 will show the new design and launching UTM 2.0 on iOS 13 and below will show the old design. UTM 2.0 also updates the QEMU backend from 4.2.0 to 5.1.0 (for all supported iOS versions).\r\n\r\nInstallation instructions differ depending on what version of iOS you are running:\r\n\r\n* iOS 11-13: You can install and run UTM using any version of AltStore (recommended) or [iOS App Signer][2].\r\n* iOS 14: You must either be jailbroken or follow the [tethered launch][3] instructions every time you launch UTM.\r\n* iOS 14.2: You can use either the beta AltStore (1.4.2) or [iOS App Signer][2]. Note A11 and older devices are not supported by this method and must be jailbroken or use tethered launch.\r\n\r\nAs always, please report all bugs to [Github](https://github.com/utmapp/UTM/issues)\r\n\r\n## Changes\r\n* Deleting a drive now actually deletes the data\r\n* Booting Linux kernel works again (#515)\r\n* Fixed default settings not being loaded including default cursor settings\r\n* (macOS) Fixed internal error on startup\r\n\r\n## Known Issues\r\n\r\n* AltStore cannot install UTM on iOS 14: make sure you are running AltStore 1.4.2 or higher. At time of writing, 1.4.2 beta is only available to AltStore Patreon beta testers. For those without access, you can use [iOS App Signer][2].\r\n* Cannot import any drives/ISO: there is a bug in iOS where an invalid \"application-identifier\" entitlement causes the file picker to not work. A fix for iOS App Signer is [submitted][4] and can be manually compiled.\r\n* Starting a VM goes to a black screen on iOS 14: you need to sign UTM with a \"development\" certificate. If you used a 3rd party signing service, it is probably signed with the wrong certificate. If you signed UTM yourself, make sure you chose a \"development\" certificate and in iOS App Signer, \"No get-task-allow\" is unchecked.\r\n\r\nPlease check the full list on [Github][1] and help report any bug you find that is not listed.\r\n\r\n[1]: https://github.com/utmapp/UTM/issues\r\n[2]: https://dantheman827.github.io/ios-app-signer/\r\n[3]: https://github.com/utmapp/UTM/blob/master/Documentation/TetheredLaunch.md\r\n[4]: https://github.com/DanTheMan827/ios-app-signer/pull/163",
                     "downloadURL": "https://github.com/utmapp/UTM/releases/download/v2.0.9/UTM.ipa",
-                    "size": 204235870
+                    "size": 204235870,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "2.0.8",
                     "date": "2020-11-05T23:03:23Z",
                     "localizedDescription": "UTM 2.0 includes a redesign of the frontend for iOS 14 and introduces support for macOS 11. Due API limitations, the new design will **not** be available for iOS 13 and below. That means any feature that depends on the new design will also **not** be back-ported to iOS 13. Launching UTM 2.0 on iOS 14 will show the new design and launching UTM 2.0 on iOS 13 and below will show the old design. UTM 2.0 also updates the QEMU backend from 4.2.0 to 5.1.0 (for all supported iOS versions).\r\n\r\nInstallation instructions differ depending on what version of iOS you are running:\r\n\r\n* iOS 11-13: You can install and run UTM using any version of AltStore (recommended) or [iOS App Signer][2].\r\n* iOS 14: You must either be jailbroken or follow the [tethered launch][3] instructions every time you launch UTM.\r\n* iOS 14.2: You can use either the beta AltStore (1.4.2) or [iOS App Signer][2]. Note some people report issues with this, please [post the device model you're running if it does not work][4].\r\n\r\nNotice to users of previous versions: If you are running an older version of UTM (v1 or v2 beta), please note that because the bundle identifier has changed, it will install as a new app and AltStore will not show an update for your existing app. You should manually move your VMs to the new app. We are also retiring the distinction of beta vs release. Since we don't have dedicated testers or a QA team, it is misleading to label something as 'beta' or 'release' when every build incrementally improves upon the last one.\r\n\r\nAs always, please report all bugs to [Github](https://github.com/utmapp/UTM/issues)\r\n\r\nOne more thing... macOS 11 universal builds will now be included in the releases. Be warned that currently the macOS builds are still very unstable.\r\n\r\n## Changes (from last update)\r\n* Fix port forwarding (broken in last update)\r\n* (iOS 14) Add confirmation popup for delete/clone/stop operations\r\n* (iOS 14) Fix issue on iPad where a delete VM still shows its details page\r\n\r\n## Changes (highlights since v1.0)\r\n\r\n* (iOS 14) Brand new UI for the home view and configuration views\r\n* (iOS 14) Advanced mode: bypass QEMU arguments generated by configuration and pass args directly (#381)\r\n* (iOS 14) Sort VMs on home view (#356)\r\n* QEMU updated from 4.2.0 to 5.1.0\r\n* Removable drives and changing discs while VM is running (#109)\r\n* Jailbroken devices can use more JIT memory (#67)\r\n\r\n## Known Issues\r\n\r\nPlease check the full list on [Github][1] and help report any bug you find that is not listed.\r\n\r\n[1]: https://github.com/utmapp/UTM/issues\r\n[2]: https://dantheman827.github.io/ios-app-signer/\r\n[3]: https://github.com/utmapp/UTM/blob/master/Documentation/TetheredLaunch.md\r\n[4]: https://github.com/utmapp/UTM/issues/516",
                     "downloadURL": "https://github.com/utmapp/UTM/releases/download/v2.0.8/UTM.ipa",
-                    "size": 204234908
+                    "size": 204234908,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
                     "version": "1.0",
                     "date": "2020-06-19T08:04:26Z",
                     "localizedDescription": "Happy WWDC! \ud83c\udf89\r\n\r\n## Changes\r\n* Improved contrast of buttons and spinner\r\n* Added pull-to-refresh on home screen\r\n* Fix alignment and display issues with activity indicator popup\r\n\r\n## Known Issues\r\n\r\nPlease check the full list on [Github][1] and help report any bug you find that is not listed.\r\n\r\n[1]: https://github.com/utmapp/UTM/issues",
                     "downloadURL": "https://github.com/utmapp/UTM/releases/download/v1.0/UTM.ipa",
-                    "size": 130602898
+                    "size": 130602898,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 }
             ],
             "appPermissions": {
@@ -9883,7 +10076,7 @@
             "localizedDescription": "An internal system app opener & extractor for jailed iDevices running iOS 16 and later.",
             "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/Bridge/refs/heads/v1/Bridge/Assets.xcassets/AppIcon.appiconset/BridgeIconRegular-min.png",
             "tintColor": "#8400fa",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -11072,7 +11265,7 @@
             "localizedDescription": "MATHPRAC:\nMath Pioneers' official math practice app!\n",
             "iconURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/placeholder.jpg",
             "tintColor": "#4f3737",
-            "category": "other",
+            "category": "utilities",
             "screenshots": [],
             "versions": [
                 {
@@ -11163,7 +11356,7 @@
             "localizedDescription": "404: Not Found",
             "iconURL": "https://github.com/moffatman/chan/blob/master/assets/appicon.png?raw=true",
             "tintColor": "#009c12",
-            "category": "other",
+            "category": "social",
             "screenshots": [],
             "versions": [
                 {
@@ -11452,7 +11645,7 @@
             "localizedDescription": "On-device backup restoration?\n\nBefore opening SparseBox, you have to close SideStore from app switcher. This is because only one app can use VPN proxy at a time. Maybe changing port could solve this issue.",
             "iconURL": "https://onejailbreak.com/site/assets/files/2302/icon.64x0.webp",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -11489,7 +11682,7 @@
             "localizedDescription": "# SciGen\nApp for Science Practice\n",
             "iconURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/placeholder.jpg",
             "tintColor": "#3ca546",
-            "category": "other",
+            "category": "utilities",
             "screenshots": [],
             "versions": [
                 {
@@ -11716,9 +11909,9 @@
             "developerName": "GopeedLab",
             "subtitle": "A modern download manager that supports all platforms.  Built with Golang and Flutter.",
             "localizedDescription": "Gopeed (full name Go Speed), a high-speed downloader developed by `Golang` + `Flutter`, supports (HTTP, BitTorrent, Magnet) protocol, and supports all platforms. In addition to basic download functions, Gopeed is also a highly customizable downloader that supports implementing more features through integration with [APIs](https://docs.gopeed.com/dev-api.html) or installation and development of [extensions](https://docs.gopeed.com/dev-extension.html).",
-            "iconURL": "https://raw.githubusercontent.com/GopeedLab/gopeed/refs/heads/main/ui/flutter/assets/icon/icon_macos_1024.png",
+            "iconURL": "https://github.com/GopeedLab/gopeed/blob/main/ui/flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png?raw=true",
             "tintColor": "#07a700",
-            "category": "other",
+            "category": "utilities",
             "screenshots": [],
             "versions": [
                 {
@@ -12466,11 +12659,27 @@
             "marketplaceID": "",
             "developerName": "Provenance-Emu",
             "subtitle": "iOS & tvOS multi-emulator frontend, supporting various Atari, Bandai, NEC, Nintendo, Sega, SNK and Sony console systems\u2026 Get Started:  https://wiki.provenance-emu.com  | ",
-            "localizedDescription": "404: Not Found",
+            "localizedDescription": "Provenance EMU is a multi-console emulator for many vintage arcade and console systems.\n\nSystems:\n- Atari\n  - Atari 2600\n  - Atari 5200\n  - Atari 7800\n  - Atari 8bit Computer\n  - Atari Jaguar\n  - Atari Lynx\n\n- Bandai\n  - WonderSwan\n\n- CBS\n  - CBS ColecoVision\n\n- Enterprise\n  - Enterprise 128\n\n- IBM\n  - IBM PC DOS\n\n- Magnavox\n  - Magnavox Odyssey2\n\n- Mattel\n  - Mattel Intellivision\n\n- NEC\n  - PC98\n  - PCFX\n  - SuperGrafx\n  - TurboGrafx-16\n  - TurboGrafx-CD\n\n- Nintendo\n  - 3DS\n  - DS\n  - Famicom Disk System\n  - Game Boy\n  - Game Boy Advance\n  - Game Boy Color\n  - GameCube\n  - NES\n  - Nintendo 64\n  - Pok\u00e9mon mini\n  - Super Nintendo\n  - Virtual Boy\n\n- Panasonic\n  - 3DO\n\n- Philiips\n  - CDi\n\n- Sega\n  - 32X\n  - Dreamcast\n  - Game Gear\n  - Genesis\n  - Master System\n  - Saturn\n  - Sega CD\n  - SG-1000\n\n- Smith Engineering\n  - Vectrex\n\n- SNK\n  - Neo Geo\n  - Neo Geo Pocket\n  - Neo Geo Pocket Color\n\n- Sony\n  - PlayStation\n  - PlayStation Portable\n\n- Various\n  - Game Music\n\n- Watara\n  - Supervision\n\n- ZX\n  - ZX Spectrum\n\n----- Legal Notice ----- \nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/\nPrivacy Policy: https://provenance-emu.com/privacy/ ",
             "iconURL": "https://raw.githubusercontent.com/Provenance-Emu/Provenance/refs/heads/develop/Cores/PPSSPP/cmake/assets/Icon%403x.png",
             "tintColor": "#007aff",
-            "category": "other",
-            "screenshots": [],
+            "category": "games",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9f/26/f2/9f26f298-5f77-ee69-745a-7b7bdb0d0fd6/image1.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/d8/67/b4/d867b49e-203f-1172-6287-667e16913966/image2.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8e/dd/6a/8edd6aad-2e5a-564c-d8b4-8dc82a86cddd/image3.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ea/03/c7/ea03c780-4aac-d272-d172-22a0d4456a2e/image4.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cb/1a/95/cb1a955b-7fe9-6d0d-7f16-cad22d64e48a/image5.png/230x499bb.webp"
+                ],
+                "ipad": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/cb/75/80/cb75808d-ab00-b023-ab47-27bd3d03ab7b/en-US_display_13_01.jpeg/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c2/de/68/c2de6886-5cb3-9d68-aa4b-16b5ddfa836e/0x0ss2.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/56/15/5e56152d-6a65-1f3c-8bfa-7c8d33ef7f03/0x0ss-2.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/61/c0/32/61c03291-b84b-0b84-8ddc-1e9e130ab056/0x0ss.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f7/93/c4/f793c414-bdb8-524f-933e-35ec87d0a8a9/en-US_display_13_06.jpeg/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/74/ac/d4/74acd4f4-1a12-f08e-0db1-60197a20a3c1/en-US_display_13_09.jpeg/480x640bb.webp"
+                ]
+            },
             "versions": [
                 {
                     "version": "3.2.1",
@@ -12650,7 +12859,7 @@
             "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
             "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -12679,7 +12888,7 @@
             "patreon": {}
         },
         {
-            "name": "Spotify (Spotube)",
+            "name": "Spotube",
             "bundleIdentifier": "oss.krtirtho.spotube.stable",
             "marketplaceID": "",
             "developerName": "KRTirtho",
@@ -12687,7 +12896,7 @@
             "localizedDescription": "404: Not Found",
             "iconURL": "https://github.com/KRTirtho/spotube/blob/master/assets/branding/spotube-logo-macos.png?raw=true",
             "tintColor": "#0013d0",
-            "category": "other",
+            "category": "entertainment",
             "screenshots": [],
             "versions": [
                 {
@@ -12850,7 +13059,7 @@
             "localizedDescription": "LcInstaller\nLcInstaller is a Flutter app that makes installing apps into LiveContainer effortless.\n\nInstead of manually searching for .ipa files, downloading them, and then importing into LiveContainer, you can simply add **repos** (just like in ESign, Feather, etc.) and install apps directly.\n\n\u2728 Features\n* \ud83d\udcc2 Add and manage repos that host `.ipa` apps.\n* \u26a1 One-click install into LiveContainer using its URL scheme.\n* \ud83d\udd04 Easily update or switch apps without tedious manual steps.\n\n\u2699\ufe0f How It Works\nLcInstaller uses LiveContainer\u2019s custom URL scheme:\nWhen you tap install inside LcInstaller, it tells LiveContainer to fetch the `.ipa` directly and handle the installation.\n\n\u2705 You don\u2019t need to manage files, downloads, or imports yourself.\n\n\ud83d\udccc Important Notes\nIf you install LcInstaller inside LiveContainer itself, you must:\n  * Run it in LiveContainer2, or\n  * Run it in multi-tasking mode.\n\nThis ensures the main LiveContainer instance remains free to handle the actual install process.",
             "iconURL": "https://raw.githubusercontent.com/asrma7/LiveContainer-installer/refs/heads/main/screenshots/AppIcon1024.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -12977,7 +13186,7 @@
             "localizedDescription": "# dirtyZero\n**A simple customization toolbox that utilizes [CVE-2025-24203](https://project-zero.issues.chromium.org/issues/391518636).**\n\n[Download](https://github.com/jailbreakdotparty/dirtyZero/releases) \u2022 [Join our Discord!](https://discord.gg/XPj66zZ4gT)\n\n# Disclaimer\nAll file modifications are done in memory. If something goes wrong or you want to revert the tweaks, just force reboot your phone. Note that this toolbox, or any subsequent toolbox that uses this exploit, **cannot** write to files. It can only *temporaily* disable them.\n\n# Support Table\n| iOS Version | Support Status |\n| -------- | ------- |\n| iOS 16.0 - iOS 16.7.12  | Supported |\n| iOS 17.0 - iOS 17.7.5 | Supported |\n| iOS 17.7.6+ | Not Supported |\n| iOS 18.0 - iOS 18.3.2 | Supported |\n| iOS 18.4+ | Not Supported |\n\n# Available Tweaks\n  - Custom Tweaks\n    - Create your own tweaks by pressing the + button at the top right\n  - Home Screen\n    - Disable Dock Background\n    - Disable Folder Backgrounds\n    - Disable Widget Config BG\n    - Disable App Library BG (iOS 18 only)\n    - Disable Library Search BG\n    - Disable Spotlight Background\n    - Disable Delete Icon\n  - Lock Screen\n    - Disable Passcode Background\n    - Disable Lock Icon\n    - Disable Quick Action Icons (iOS 16 & 17 only)\n    - Disable Large Battery Icon (iOS 18 only)\n  - Alerts & Overlays\n    - Disable Notification & Widget BGs\n    - Recolor Notification Shadows (Blue)\n    - Disable Touch & Alert Backgrounds\n    - Disable Home Bar\n    - Disable Glassy Overlays\n    - Disable App Switcher BG\n  - Fonts & Icons\n    - Enable \ud835\udda7\ud835\uddbe\ud835\uddc5\ud835\uddcf\ud835\uddbe\ud835\uddcd\ud835\uddc2\ud835\uddbc\ud835\uddba Font\n    - Disable Emojis\n    - Disable Slider Icons\n    - Disable Ring Animations\n    - Disable Tethering Graphic\n  - Control Center\n    - Disable CC Module Background (iOS 18 only)\n    - Disable WiFi & Bluetooth Icons (iOS 16 & 17 only)\n    - Disable DND Icon\n    - Disable Screen Mirroring Module (iOS 16 & 17 only)\n    - Disable Orientation Lock Module (iOS 16 & 17 only)\n    - Disable Focus Module (iOS 16 & 17 only)\n  - Sound Effects\n    - Disable AirDrop Ping\n    - Disable Charge Sound\n    - Disable Low Battery Sound\n    - Disable Payment Sounds\n    - Disable Dialing Sounds\n > [!NOTE]\n> Enable in settings <br>\n> May break your system. If they do, force reboot your device\n  - Risky Tweaks\n    - Disable CC Background\n    - Disable ALL Accent Colors\n    - Break System Font\n    - Disable ALL Banners\n    - Break SpringBoard Labels\n    - Break System Labels\n\n# How do I respring after applying the tweaks?\n## Option 1: Use RespringApp\n1. Install [RespringApp](https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringapp/respringapp.ipa) using your preferred method of sideloading. If you signed RespringApp with PPQ Protection or AltStore/SideStore, enable \"Change Respring App Bundle ID\" in settings and type in the bundle id of RespringApp. You can find the bundle id in AltStore's/SideStore's \"View App IDs\" menu or with tools like [Antrag](https://github.com/khcrysalis/Antrag).\n2. In dirtyZero, click the orange \"Respring\" button.\n3. Profit \ud83d\udd25\n\n*This method brought to you by [`@nyaathea`](https://x.com/nyaathea). Due to the nature of the method, it is not possible to integrate this directly into the dirtyZero app, hence the seperate IPA. Note that you can also simply click the RespringApp application itself to respring.*\n\n**Option 2: Display & Text Size**\n1. Before applying the tweaks, go into Settings > Display & Brightness > Display Zoom\n2. Pick the option that's opposite of the one you're currently using.\n3. After, apply the tweaks.\n4. Go back into Settings > Display & Brightness > Display Zoom\n5. Pick the option that's opposite of the one you're currently using.\n\n\n# Credits\n- [Skadz](https://github.com/skadz108) for making this app.\n- [lunginspector](https://github.com/lunginspector) for the UI and numerous tweaks.\n- Ian Beer of Google Project Zero for discovering and publishing the exploit.\n",
             "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/dirtyZero/refs/heads/main/dirtyZero/Assets.xcassets/AppIcon.appiconset/dirtyZeroRegular-min.png",
             "tintColor": "#00841e",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -13086,7 +13295,7 @@
             "localizedDescription": "404: Not Found",
             "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "games",
             "screenshots": [],
             "versions": [
                 {
@@ -13214,6 +13423,51 @@
             "patreon": {}
         },
         {
+            "name": "Asspp",
+            "bundleIdentifier": "wiki.qaq.Asspp",
+            "developerName": "Lakr233",
+            "subtitle": "The App Store for your multi-account eco system.",
+            "localizedDescription": "",
+            "iconURL": "https://raw.githubusercontent.com/Lakr233/Asspp/refs/heads/main/Asspp/App/Assets.xcassets/AppIcon.appiconset/asspp_512.png",
+            "versions": [
+                {
+                    "version": "3.0.25",
+                    "date": "2025-10-16T21:15:10Z",
+                    "localizedDescription": "## What's Changed\r\n* Fix macOS login sheet by @LiYanan2004 in https://github.com/Lakr233/Asspp/pull/48\r\n* Update macOS password field style\r\n* Update macOS installer with more detailed error information\r\n* Update App icons with more accurate corner radius\r\n\r\n## New Contributors\r\n* @LiYanan2004 made their first contribution in https://github.com/Lakr233/Asspp/pull/48\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/3.0.24...3.0.25",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.25/Asspp.ipa",
+                    "size": 10917639
+                },
+                {
+                    "version": "3.0.24",
+                    "date": "2025-10-10T07:56:08Z",
+                    "localizedDescription": "## What's Changed\r\n* macOS Support\r\n\r\n--- \r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n\r\n- \u652f\u6301 macOS\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.20...3.0.24",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.24/Asspp.ipa",
+                    "size": 10915165
+                },
+                {
+                    "version": "2.3.20",
+                    "date": "2025-09-19T19:40:57Z",
+                    "localizedDescription": "## Release Notes\r\n* Added SideStore source\r\n* Added support for dark icons\r\n* Fixed the auto-pop issue on iOS 16 ~ iOS 18\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20\r\n\r\n---\r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n* \u652f\u6301 SideStore \u6e90\r\n* \u521d\u6b65\u9002\u914d\u6df1\u8272\u56fe\u6807\r\n* \u4fee\u590d iOS 16 ~ iOS 18 \u9875\u9762\u81ea\u52a8\u8fd4\u56de\u7684\u95ee\u9898\r\n\r\n**\u5b8c\u6574\u53d8\u66f4**\uff1ahttps://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.20/Asspp.ipa",
+                    "size": 10219280
+                },
+                {
+                    "version": "2.3.18",
+                    "date": "2025-09-17T03:40:02Z",
+                    "localizedDescription": "## What's Changed\r\n* Adopt Liquid Glass by @bo2themax in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n## New Contributors\r\n* @bo2themax made their first contribution in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.2.16...2.3.18",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.18/Asspp.ipa",
+                    "size": 9951832
+                },
+                {
+                    "version": "2.2.16",
+                    "date": "2025-09-16T06:58:25Z",
+                    "localizedDescription": "# Release Notes: From 1.x to 2.2.16\r\n\r\nThis release enhances functionality, stability, and user experience.\r\n\r\n## New Features\r\n- You can now view and download historical versions of apps.\r\n\r\n## Improvements\r\n- Improved search experience.\r\n- Improved handling of server-provided instructions.\r\n- Improved user experience on iOS 26.\r\n\r\n## Changes\r\n- On-device installer now uses a new certificate valid for 2 years.\r\n- Complete redesign of API backend with updated APIs.\r\n\r\n## Bug Fixes\r\n- Fixed issues with account login.\r\n- Fixed application purchasing issues.\r\n- Fixed downloading issues with improved cookie handling.\r\n- Resolved logical issues with two-factor authentication.\r\n\r\n## Other Changes\r\n- Updated files and configs for new features.\r\n\r\nWe hope you enjoy the new release!\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**New Contributors**: @bo2themax, @lbr77\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\uff1a\u4ece 1.x \u5230 2.2.16\r\n\r\n\u672c\u6b21\u66f4\u65b0\u589e\u5f3a\u4e86\u529f\u80fd\u6027\u3001\u7a33\u5b9a\u6027\u4e0e\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u65b0\u529f\u80fd\r\n- \u73b0\u5728\u60a8\u53ef\u4ee5\u67e5\u770b\u5e76\u4e0b\u8f7d\u5e94\u7528\u7684\u5386\u53f2\u7248\u672c\u4e86\u3002\r\n\r\n## \u6539\u8fdb\r\n- \u4f18\u5316\u4e86\u641c\u7d22\u4f53\u9a8c\u3002\r\n- \u6539\u8fdb\u4e86\u5bf9\u670d\u52a1\u5668\u6307\u4ee4\u7684\u5904\u7406\u3002\r\n- \u6539\u5584\u4e86\u5728 iOS 26 \u4e0a\u7684\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u53d8\u66f4\r\n- \u8bbe\u5907\u7aef\u5b89\u88c5\u5668\u73b0\u5df2\u4f7f\u7528\u65b0\u7684\u8bc1\u4e66\uff0c\u6709\u6548\u671f\u4e3a 2 \u5e74\u3002\r\n- \u5f7b\u5e95\u91cd\u6784\u4e86 API \u540e\u7aef\uff0c\u5e76\u66f4\u65b0\u4e86\u76f8\u5173\u63a5\u53e3\u3002\r\n\r\n## \u95ee\u9898\u4fee\u590d\r\n- \u4fee\u590d\u4e86\u8d26\u6237\u767b\u5f55\u76f8\u5173\u7684\u95ee\u9898\u3002\r\n- \u4fee\u590d\u4e86\u5e94\u7528\u8d2d\u4e70\u65f6\u9047\u5230\u7684\u95ee\u9898\u3002\r\n- \u901a\u8fc7\u6539\u8fdb Cookie \u5904\u7406\uff0c\u4fee\u590d\u4e86\u4e0b\u8f7d\u95ee\u9898\u3002\r\n- \u89e3\u51b3\u4e86\u4e24\u6b65\u9a8c\u8bc1\u4e2d\u7684\u903b\u8f91\u95ee\u9898\u3002\r\n\r\n## \u5176\u4ed6\u53d8\u66f4\r\n- \u4e3a\u652f\u6301\u65b0\u529f\u80fd\uff0c\u66f4\u65b0\u4e86\u76f8\u5173\u6587\u4ef6\u4e0e\u914d\u7f6e\u3002\r\n\r\n\u5e0c\u671b\u60a8\u559c\u6b22\u8fd9\u6b21\u66f4\u65b0\uff01\r\n\r\n**\u5b8c\u6574\u66f4\u65b0\u65e5\u5fd7**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**\u65b0\u8d21\u732e\u8005**: @bo2themax, @lbr77\r\n",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.2.16/Asspp.ipa",
+                    "size": 9912930
+                }
+            ]
+        },
+        {
             "name": "Alpimaps",
             "bundleIdentifier": "akylas.alpi.maps",
             "marketplaceID": "",
@@ -13222,7 +13476,7 @@
             "localizedDescription": "404: Not Found",
             "iconURL": "https://raw.githubusercontent.com/Akylas/alpimaps/refs/heads/master/App_Resources/iOS/icon%403x.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "lifestyle",
             "screenshots": [],
             "versions": [
                 {
@@ -13376,7 +13630,7 @@
             "localizedDescription": "ReDyne is a sophisticated, native iOS application for reverse engineering and analyzing Mach-O binaries (dylibs, frameworks, executables). Built from the ground up with production-grade C/Objective-C/Swift, it brings desktop-class decompilation capabilities to iOS devices.\n\n### Why ReDyne?\n- **\ud83d\ude80 Production-Grade**: Fully functional decompiler with enterprise-level code quality\n- **\ud83d\udcf1 Native iOS**: Optimized for iOS with a beautiful, intuitive interface\n- **\u26a1 High Performance**: C-based parsing engines for blazing-fast analysis\n- **\ud83d\udd0d Comprehensive**: 11+ analysis modules covering every aspect of Mach-O binaries\n- **\ud83c\udfa8 Modern UI**: Clean, adaptive interface with Dark Mode support\n- **\ud83d\udcca Visual Analysis**: Interactive control flow graphs with zoom and pan\n- **\ud83d\udd10 Secure**: Security-scoped bookmarks for persistent file access\n\n---\n\n## \u2728 Features\n### \ud83d\udce6 Mach-O Binary Analysis\n- **Universal Binary Support**: Automatic fat/thin binary detection\n- **Multi-Architecture**: ARM64, ARM64e, x86_64 support\n- **Architecture Selection**: Pick specific slice from universal binaries\n- **Magic Number Detection**: Comprehensive format validation\n- **Load Commands**: Complete parsing of all LC_* commands\n- **Segments & Sections**: Detailed segment/section analysis with flags\n\n### \ud83d\udd0d Disassembly Engine\n- **ARM64 Disassembler**: Production-grade decoder with 100+ instruction types\n  - Data Processing (ADD, SUB, MOV, MOVZ, MOVN, MOVK)\n  - Load/Store (LDR, STR, LDP, STP, LDUR, STUR)\n  - Branches (B, BL, BR, BLR, RET, B.cond, CBZ, CBNZ, TBZ, TBNZ)\n  - Logical Operations (AND, ORR, EOR, BIC, ORN, EON)\n  - Multiply/Divide (MUL, MADD, MSUB, UDIV, SDIV)\n  - Compare (CMP, CMN, TST, CCMP)\n  - Shifts (LSL, LSR, ASR, ROR)\n  - SIMD/FP Operations\n  - System Instructions (MSR, MRS, NOP, WFE, WFI, barriers)\n- **x86_64 Disassembler**: Full support with ModR/M, SIB, REX prefixes\n- **Register Tracking**: Reads/writes analysis for data flow\n- **Branch Detection**: Automatic identification of control flow changes\n\n### \ud83d\udd17 Cross-Reference Analysis\n- **Call Graphs**: 586+ calls detected per binary\n- **Jump Analysis**: 277+ jumps/branches tracked\n- **Data References**: Symbol and address resolution\n- **Symbolic Execution**: ADRP+ADD pattern recognition\n- **Page-Aligned Addresses**: Proper ARM64 address computation\n\n### \ud83d\udcca Control Flow Graphs (CFG)\n- **Hierarchical Layout**: BFS-based level assignment\n- **Basic Block Analysis**: Automatic BB detection and splitting\n- **Edge Classification**: True/false branches, loop-backs, calls, returns\n- **Dominance Analysis**: Proper loop detection with back-edge identification\n- **Interactive Visualization**: Pinch-to-zoom (0.05x-3.0x), pan, auto-fit\n- **Dynamic Sizing**: Handles 1-158+ nodes without clipping\n- **Color-Coded**: Entry (blue), exit (red), conditional (orange)\n\n### \ud83e\uddec Symbol Analysis\n- **Symbol Table Parsing**: Complete nlist/nlist_64 support\n- **Symbol Types**: Functions, objects, sections, undefined\n- **Dynamic Symbols**: Import/export detection\n- **Name Demangling**: Swift/C++ symbol demangling\n- **Address Resolution**: Virtual-to-file offset mapping\n\n### \ud83c\udfaf Objective-C Runtime\n- **Class Extraction**: Parse `__objc_classlist` sections\n- **Method Discovery**: Instance and class methods\n- **Property Analysis**: @property declarations\n- **Instance Variables**: ivar layouts\n- **Categories**: Category parsing with methods/properties\n- **Protocols**: Protocol conformance detection\n\n### \ud83d\udce5 Import/Export Tables\n- **Dyld Bind Info**: All 12 bind opcodes (DONE, SET_*, DO_BIND_*)\n- **Dyld Rebase Info**: All 9 rebase opcodes\n- **Export Trie**: Recursive traversal with ULEB128 decoding\n- **Weak Imports**: Weak binding detection\n- **Lazy Bindings**: Lazy symbol resolution tracking\n- **Library Dependencies**: Full dylib dependency tree\n\n### \ud83d\udd10 Code Signature Inspector\n- **SuperBlob Parsing**: Proper blob index structure parsing\n- **CodeDirectory**: CDHash, Team ID, Signing ID extraction\n- **Entitlements**: XML entitlement parsing and formatting\n- **Requirements**: Code requirement validation\n- **Signature Type**: Ad-hoc vs Full signing detection\n- **Certificate Chain**: Signing authority tracking\n\n### \ud83c\udfa8 Export Formats\n- **TXT**: Clean, readable text format\n- **JSON**: Structured JSON with full metadata\n- **HTML**: Styled HTML with syntax highlighting\n- **PDF**: Multi-page PDF with professional typography\n- **Share Sheet**: Native iOS sharing integration\n\n### \ud83d\uddc2\ufe0f String Analysis\n- **C-String Extraction**: ASCII/UTF-8 string detection\n- **Minimum Length Filter**: Configurable string size\n- **Section-Aware**: Extract from `__cstring`, `__text`, etc.\n- **Encoding Detection**: Automatic charset recognition\n\n### \ud83d\udcbe Recent Files\n- **Security-Scoped Bookmarks**: Persistent file access\n- **Automatic Cleanup**: Stale bookmark refresh\n- **Swipe to Delete**: Easy management\n- **Path Display**: Full file path shown\n\n---\n\n## \ud83c\udfd7\ufe0f Architecture\n\n### Technology Stack\n\n**Core Parsing (C)**\n- `MachOParser.c` - Mach-O header/command parsing\n- `DisassemblyEngine.c` - ARM64/x86_64 instruction decoding\n- `SymbolTable.c` - Symbol table parsing\n- `DyldInfo.c` - Dyld bind/rebase/export parsing\n- `ObjCParser.c` - Objective-C runtime analysis\n- `CodeSignature.c` - Code signature parsing\n- `ControlFlowGraph.c` - CFG construction and analysis\n- `StringExtractor.c` - String extraction\n\n**Services (Objective-C)**\n- `MachOParserService.m` - Swift bridge for Mach-O parsing\n- `DisassemblerService.m` - Disassembly service with pseudocode\n- `ObjCParserBridge.m` - ObjC runtime bridge\n\n**Analysis (Swift)**\n- `CFGAnalyzer.swift` - Control flow graph analysis\n- `XrefAnalyzer.swift` - Cross-reference analysis with symbolic execution\n- `CFGModels.swift` - Graph layout algorithms\n\n**UI (Swift + UIKit)**\n- `FilePickerViewController` - File selection and recents\n- `DecompileViewController` - Main analysis orchestration\n- `ResultsViewController` - Multi-tab results display\n- `CFGViewController` - Interactive CFG visualization\n- `CFGGraphView` - Custom Core Graphics rendering\n\n### Design Patterns\n\n- **Bridge Pattern**: C \u2194 Objective-C \u2194 Swift interop\n- **Service Layer**: Decoupled parsing and analysis\n- **MVVM**: Clean separation of data and presentation\n- **Delegates**: UITableView, UIDocumentPicker protocols\n- **Factory Pattern**: Model object creation\n- **Strategy Pattern**: Multiple export formats\n\n### Performance Optimizations\n\n- **C-Based Parsers**: Maximum performance for binary parsing\n- **Lazy Loading**: Parse on-demand for large binaries\n- **Efficient Memory**: RAII patterns, proper cleanup\n- **Background Processing**: Async analysis with DispatchQueue\n- **View Recycling**: UITableView cell reuse\n- **Dynamic Layout**: Adaptive CFG sizing\n\n---\n\n## \ud83d\udccb Requirements\n\n- **iOS**: 16.0 or later\n- **Device**: iPhone or iPad\n- **Storage**: ~50 MB app + space for analyzed files\n- **Architectures**: ARM64 (device), x86_64 (simulator)\n---\n\n## \ud83d\udcd6 Usage\n\n### Quick Start\n\n1. **Launch ReDyne** on your iOS device\n2. **Tap \"Select Mach-O File\"** to open the file picker\n3. **Choose a dylib/framework** to analyze\n4. **Wait for analysis** (typically 2-10 seconds)\n5. **Explore results** across 11 tabs:\n   - **File Info**: Basic file metadata\n   - **Mach-O Header**: Magic, CPU type, file type, flags\n   - **Segments**: Segment/section analysis\n   - **Symbols**: Symbol table entries\n   - **Disassembly**: Annotated ARM64/x86_64 code\n   - **Strings**: Extracted string constants\n   - **Functions**: Detected function boundaries\n   - **Xref**: Cross-reference analysis\n   - **ObjC Classes**: Objective-C runtime data\n   - **Imports/Exports**: Dyld binding information\n   - **Code Signature**: Signing details and entitlements\n   - **CFG**: Interactive control flow graphs\n\n### Advanced Features\n\n**Control Flow Graphs**\n- Tap any function to visualize its CFG\n- Pinch to zoom in/out (0.05x to 3.0x)\n- Drag to pan across large graphs\n- Tap nodes to inspect basic blocks\n\n**Export Data**\n- Tap the share button in any tab\n- Choose format: TXT, JSON, HTML, or PDF\n- Share via AirDrop, Messages, Mail, etc.\n\n**Recent Files**\n- Files automatically saved to recents\n- Swipe left to delete entries\n- Tap to re-open (works even after app restart!)\n\n**Universal Binary Selection**\n- For fat binaries, choose specific architecture\n- ARM64, ARM64e, x86_64 options shown\n- Analysis tailored to selected slice\n\n---\n\n## \ud83e\uddea Technical Details\n\n### Instruction Decoding\n\nReDyne implements production-grade instruction decoders with priority-based pattern matching:\n\n**ARM64 Decoder Priority:**\n1. B/BL (immediate branches)\n2. RET/BR/BLR (register branches)\n3. STP/LDP (stack operations)\n4. Data Processing (arithmetic, logical)\n5. Load/Store (memory access)\n6. Conditional branches\n7. SIMD/FP operations\n\n**Decoding Features:**\n- Precise bit-field extraction\n- Operand formatting (registers, immediates, addresses)\n- Branch target calculation\n- PC-relative address resolution\n- Register usage tracking\n\n### CFG Construction\n\n**Algorithm:**\n1. **Basic Block Detection**: Split at branches, calls, returns\n2. **Level Assignment**: BFS traversal for hierarchical layout\n3. **Node Positioning**: Center-based coordinate system\n4. **Edge Classification**: Analyze branch types\n5. **Loop Detection**: Dominance-based back-edge identification\n6. **Bounds Calculation**: Include node + edge dimensions\n7. **Dynamic Sizing**: Content-aware canvas growth\n\n**Layout Features:**\n- Automatic spacing adjustment\n- Edge overlap prevention\n- Node size adaptation\n- Loop-back edge handling\n\n### Security-Scoped Bookmarks\n\nReDyne uses iOS security-scoped bookmarks for persistent file access:\n\n```swift\n// On file pick\nlet bookmarkData = try url.bookmarkData(options: .minimalBookmark)\nUserDefaults.standard.saveFileBookmark(bookmarkData, for: path)\n\n// On file access\nlet url = try URL(resolvingBookmarkData: bookmarkData, options: .withoutUI)\nurl.startAccessingSecurityScopedResource()\n// ... use file\nurl.stopAccessingSecurityScopedResource()\n```\n\nThis allows files to be accessed even after app restart or device reboot.",
             "iconURL": "https://raw.githubusercontent.com/speedyfriend433/ReDyne/refs/heads/main/ReDyne/ReDyne/Assets.xcassets/AppIcon.appiconset/ReDyne%20icon%202.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -14071,7 +14325,7 @@
             "localizedDescription": "# Pocket Poster\nCustom PosterBoard animated wallpapers for iOS 17.0+\n\nCommunity-made wallpapers can be found on the [official Cowabun.ga site](https://cowabun.ga/wallpapers). Join the [Cowabunga Discord Server](https://discord.gg/cowabunga) for additional help.\n\n## Getting Started\nSince there is no way to read files currently, you will need a computer to get the App Hash/UUID.\n\nDownload [Nugget](https://github.com/leminlimez/Nugget) on your computer and plug in your phone. Then, navigate to the `Settings` page and click the `Pocket Poster Helper` button. Inside Pocket Poster, click the `Detect` button inside of settings.\n\n## Credits\n- Translations crowdsourced using [POEditor][POEditorJoin]. Thank you everyone who assisted in the translation effort!\n- [PosterRestore][PosterRestoreDiscord] for their help with PosterBoard\n- [dootskyre][dootskyreX] for the fallback shortcut\n- [Nathan](https://github.com/verygenericname) and [DuyKhanhTran](https://github.com/khanhduytran0) for the exploit\n\n[POEditorJoin]: https://poeditor.com/join/project/MPZOsunwVj\n[PosterRestoreDiscord]: https://discord.gg/gWtzTVhMvh\n[dootskyreX]: https://x.com/dootskyre\n",
             "iconURL": "https://raw.githubusercontent.com/leminlimez/Pocket-Poster/refs/heads/main/Pocket%20Poster/Assets.xcassets/AppIcon.appiconset/pocket_poster.png",
             "tintColor": "#b321b1",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -14135,7 +14389,7 @@
             "localizedDescription": "<div align=\"center\">\n   <img width=\"217\" height=\"217\" src=\"./screenshots/livecontainer_icon.png\" alt=\"Logo\">\n</div>\n   \n\n<div align=\"center\">\n  <h1><b>LiveContainer</b></h1>\n  <p><i>An app launcher that runs iOS apps without actually installing them! </i></p>\n</div>\n<h6 align=\"center\">\n\n[![Crowdin](https://badges.crowdin.net/livecontainer/localized.svg)](https://crowdin.com/project/livecontainer)\n\n# LiveContainer\n\n- LiveContainer is an app launcher (not emulator or hypervisor) that allows you to run iOS apps inside it.\n- Allows you to install unlimited apps (3 app/10 app id free developer account limit does not apply here) with only one app & app id. You can also have multiple versions of an app installed with multiple data containers.\n- When JIT is available, codesign is entirely bypassed, no need to sign your apps before installing. Otherwise, your app will be signed with the same certificate used by LiveContainer.\n\n> [!CAUTION]\n> **Important Notice Regarding Third-Party Builds of LiveContainer**\n>\n> We have recently noticed the appearance of certain closed-source third-party builds of LiveContainer. Please be aware that all your apps are installed within LiveContainer, which means these third-party builds **have full access to your data, including sensitive information such as keychain items and login credentials**. \n> \n> Furthermore, please note that we do not provide any support for issues of these third-party builds.\n\n>[!Note]\nIt\u2019s recommended to follow the following steps to set up JIT-Less mode for using LiveContainer without JIT. If you encounter any issues, please review #265 first before reporting them.\n\n\n# Installation\n\n## Requirements\n\n- iOS/iPadOS 15+\n   + Multitasking requires iOS/iPadOS 16.0+\n- AltStore 2.0+ / SideStore 0.6.0+\n\n## Downloads\n### Stable:\n<a href=\"https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/apps.json&exclude=livecontainer\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/AltSource_Blue.png?raw=true\" alt=\"Add AltSource\" width=\"200\">\n</a>\n<a href=\"https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer.ipa\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/Download_Blue.png?raw=true\" alt=\"Download .ipa\" width=\"200\">\n</a>\n\n### Nightly:\n<a href=\"https://celloserenity.github.io/altdirect/?url=https://github.com/LiveContainer/LiveContainer/releases/download/nightly/apps_nightly.json&exclude=livecontainer\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/AltSource_Blue.png?raw=true\" alt=\"Add AltSource\" width=\"200\">\n</a>\n<a href=\"https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/Download_Blue.png?raw=true\" alt=\"Download .ipa\" width=\"200\">\n</a>\n\n## Installation\n- It is recommended to setup JIT-Less mode, in which LiveContainer signs your apps with your certificate from AltStore/SideStore (see the instructions below).\n\n### JIT-Less mode (Without JIT \\[recommended])\nThese steps can be bypassed if you don't mind enabling JIT for your app every time, but it is not recommended. Without JIT, guest apps need to be codesigned, which requires retrieving the certificate and password from AltStore/SideStore.\n\n>[!Note] \nJIT-Less mode does not mean you can't enable JIT for your apps. Instead, it means JIT is not required to launch an app. If you want to use JIT, see the instructions below in \"JIT Support\" section. \nIf something goes wrong, please check \"JIT-Less Mode Diagnose\" for more information.\n\n#### Method 1 (Requires AltStore 2.2.1+ / SideStore 0.6.2+ \\[recommended])\n- Open Settings in LiveContainer \n- Tap \"Import Certificate from AltStore/SideStore\"\n- AltStore/SideStore will be opened and ask if you want to export the certificate. If you don't see the prompt, keep AltStore/SideStore open in the background and tap \"Import Certificate from AltStore/SideStore\" again.\n- Press \"Export\" in SideStore or set a password and export in AltStore\n- Tap \"JIT-Less Mode Diagnose\" and tap \"Test JIT-Less Mode\"\n- If it says \"JIT-Less Mode Test Passed\", you are good to go!\n>[!Note] \nIf you reinstall AltStore/SideStore using AltServer, you will need to go through these steps again or risk needing to reinstall the app.\n\n### Installing Apps\n- Open LiveContainer, tap the plus icon in the upper right hand corner and select IPA files to install.\n- Choose the app you want to open in the next launch.\n- You can long-press the app to manage it.\n\n### Add to Home Screen\nLong press the app and you will see 2 ways to add your app to home screen:\n1. **Launch URL**: Copy the provided URL, create a shortcut that opens the app, and add it to your home screen. You\u2019ll need to create a separate shortcut for each app.\n2. **Create App Clip**: Install an App Clip MDM profile, which adds the app to your home screen. Note that launching the app includes an extra jump, and the App Clip will remain in the app switcher.\n\n### Multiple LiveContainers\nUsing two LiveContainers allows you to run two different apps simultaneously, with *almost* seamless data transfer between the LiveContainers.\n\nTo install a second LiveContainer, go to Settings and tap \"Install Another LiveContainer.\"\n\nThe first LiveContainer (blue icon) always launches by default.\nIf an app is already running in the first container, you'll be prompted to either open it in the second LiveContainer (gray icon) or terminate the current app and relaunch it in the first. If the app is already running in the second container, it will switch automatically.\nTo use an app in the second container, you must convert this app to a shared app. You can do that by opening the first LiveContainer (blue), long press on your app, open the settings of your app and then \"Convert to Shared App\". After that, you can launch your app using LiveContainer2 (grey).\n\n### Multitasking\nYou can now launch multiple apps simultaneously in in-app virtual windows. These windows can be resized, scaled, and even displayed using the native Picture-in-Picture (PiP) feature. On iPads, apps can run in native window mode, displaying each app in a separate system window. And if you wish, you can choose to run apps in multitasking mode by default in settings.\n\nTo use multitasking:\n1. Convert the app you want to multitask into a **shared app**.\n2. Hold its banner and tap **\"Multitask\"**.\n\n>[!Note]\n>1. To use multitasking, ensure you select **\"Keep App Extensions\"** when installing via SideStore/AltStore.  \n>2. If you want to enable JIT for multitasked apps, you\u2019ll need a JIT enabler that supports attaching by PID. (StikDebug)\n\n### Fix File Picker & Local Notification\nSome apps may experience issues with their file pickers or not be able to apply for notification permission in LiveContainer. To resolve this, enable \"Fix File Picker\" & \"Fix Local Notifications\" accordingly in the app-specific settings.\n\n### \"Open In App\" Support\n- Tap the link icon in the top-right corner of the \"Apps\" tab and input the URL. LiveContainer will detect the appropriate app and ask if you want to launch it.\n- What's more, you can share a web page to LiveContainer using [this shortcut](https://www.icloud.com/shortcuts/44ea82ce7ed8469ea24198c375db09a0). Be sure to add this shortcut to \"Favorites\" in share sheet actions.\n\n### JIT Support\nCheck out section 5.8 in [LiveContainer FAQ](https://github.com/LiveContainer/LiveContainer/issues/265)\n\n### Installing external tweaks\nLiveContainer comes with its own TweakLoader, which automatically load CydiaSubstrate and tweaks. TweakLoader is injected to every app you install. You can override `TweakLoader.dylib` symlink with your own implementation if you wish.\n\n.dylib files in `Tweaks` folder are global, they are loaded to all apps. You can create app-specific tweaks folder and switch between them instantly.\n\nTo install tweaks, you can use the built-in tweak manager in LiveContainer, which will automatically sign tweaks as you import. Otherwise, you can manually add them and then use the tweak manager to sign them.\n\n### Hiding Apps\nLiveContainer offers three levels of app hiding:\n- **Lock Apps**: In the app-specific settings, you can lock an app, requiring Face ID or a password to launch it.\n- **Hide Locked Apps**: Once locked, you can hide the app. It will appear as a placeholder in the \"Hidden Apps\" section, and authentication is needed to view or launch it.\n- **Strict Hiding Mode**: For complete invisibility, enable \"Strict Hiding Mode\" in LiveContainer's settings after authentication. Hidden apps will no longer appear in the interface. To access them, triple-tap the \"x Apps in total\" text on the main screen and authenticate to unlock the apps when you relaunch LiveContainer.\n\n## Compatibility\nUnfortunately, not all apps work in LiveContainer, so we have a [compatibility list](https://github.com/LiveContainer/LiveContainer/labels/compatibility) to tell if there is apps that have issues. If they aren't on this list, then it's likely going run. However, if it doesn't work, please make an [issue](https://github.com/LiveContainer/LiveContainer/issues/new/choose) about it.\n\n## Building\nOpen Xcode, edit `DEVELOPMENT_TEAM[config=Debug]` in `xcconfigs/Global.xcconfig` to your team id and compile.\n\n## Project structure\n### Main executable\n- Core of LiveContainer\n- Contains the logic of setting up guest environment and loading guest app.\n- If no app is selected, it loads LiveContainerSwiftUI.\n\n### LiveContainerSwiftUI\n- SwiftUI rewrite of LiveContainerUI (by @hugeBlack)\n- Language file `Localizable.xcstrings` is in here for multilingual support. To help us translate LiveContainer, please visit [our crowdin project](https://crowdin.com/project/livecontainer)\n\n### MultitaskSupport\n- Contains the implementation of multitasking feature.\n- Based on [FrontBoardAppLauncher](https://github.com/khanhduytran0/FrontBoardAppLauncher)\n\n### SideStore\n- Supporting code for SideStore's app refreshing integration\n\n### TweakLoader\n- A simple tweak injector, which loads CydiaSubstrate and loads tweaks.\n- Injected to every app you install in LiveContainer.\n\n### ZSign\n- The app signer shipped with LiveContainer.\n- Originally made by [zhlynn](https://github.com/zhlynn/zsign).\n- LiveContainer uses [Feather's](https://github.com/khcrysalis/Feather) version of ZSign modified by khcrysalis.\n- Changes are made to meet LiveContainer's needs.\n\n## How does it work?\n\n### Patching guest executable\n- Patch `__PAGEZERO` segment:\n  + Change `vmaddr` to `0xFFFFC000` (`0x100000000 - 0x4000`)\n  + Change `vmsize` to `0x4000`\n- Change `MH_EXECUTE` to `MH_DYLIB`.\n- Inject a load command to load `TweakLoader.dylib`\n\n### Patching `@executable_path`\n- Hook `dyld4::APIs::_NSGetExecutablePath`\n- Call `_NSGetExecutablePath`\n- Replace `config.process.mainExecutablePath`\n  - Calculate address of `config.process.mainExecutablePath` using `dyld4::APIs` instance (passed as first parameter)\n  - Use `builtin_vm_protect` or TPRO unlock to make it writable\n  - Replace the address with one we have control of\n- Put the original `dyld4::APIs::_NSGetExecutablePath` back\n\n> Old Method\n>- Call `_NSGetExecutablePath` with an invalid buffer pointer input -> SIGSEGV\n>- Do some [magic stuff](https://github.com/khanhduytran0/LiveContainer/blob/5ef1e6a/main.m#L74-L115) to overwrite the contents of executable_path.\n\n### Patching `NSBundle.mainBundle`\n- This property is overwritten with the guest app's bundle.\n\n### Bypassing Library Validation\n- JIT is optional to bypass codesigning. In JIT-less mode, all executables are signed so this does not apply.\n- Derived from [Restoring Dyld Memory Loading](https://blog.xpnsec.com/restoring-dyld-memory-loading)\n\n### dlopening the executable\n- Call `dlopen` with the guest app's executable\n- TweakLoader loads all tweaks in the selected folder\n- Find the entry point\n- Jump to the entry point\n- The guest app's entry point calls `UIApplicationMain` and start up like any other iOS apps.\n\n### Multi-Account support & Keychain Semi-Separation\n[128 keychain access groups](./entitlements.xml) are created and LiveContainer allocates them randomly to each container of the same app. So you can create 128 container with different keychain access groups.\n\n## Limitations\n- Entitlements from the guest app are not applied to the host app. This isn't a big deal since sideloaded apps requires only basic entitlements.\n- App Permissions are globally applied.\n- Guest app containers are not sandboxed. This means one guest app can access other guest apps' data.\n- App extensions aren't supported. they cannot be registered because: LiveContainer is sandboxed, SpringBoard doesn't know what apps are installed in LiveContainer, and they take up App ID.\n- Multitasking can be achieved by using multiple LiveContainer and the multitasking feature. However, while we were able to fix physical keyboard input issue on iPadOS (https://github.com/LiveContainer/LiveContainer/issues/524), iPhone Mirroring uses different checks which still broke it (https://github.com/LiveContainer/LiveContainer/issues/793).\n- Remote push notification will not work\n- Querying custom URL schemes might not work(?)\n\n## TODO\n- Use ChOma instead of custom MachO parser\n\n## License\n[Apache License 2.0](https://github.com/khanhduytran0/LiveContainer/blob/main/LICENSE)\n\n## Credits\n- [xpn's blogpost: Restoring Dyld Memory Loading](https://blog.xpnsec.com/restoring-dyld-memory-loading)\n- [LinusHenze's CFastFind](https://github.com/pinauten/PatchfinderUtils/blob/master/Sources/CFastFind/CFastFind.c): [MIT license](https://github.com/pinauten/PatchfinderUtils/blob/master/LICENSE)\n- [litehook](https://github.com/opa334/litehook): [MIT license](https://github.com/opa334/litehook/blob/main/LICENSE)\n- @haxi0 & @m1337v for icon\n- @Vishram1123 for the initial shortcut implementation.\n- @hugeBlack for SwiftUI contribution\n- @Staubgeborener for automatic AltStore/SideStore source updater\n- @fkunn1326 for improved app hiding\n- @slds1 for dynamic color feature\n- @Vishram1123 for iOS 26+ JIT Script Support\n- @StephenDev0 for AltStore source support\n",
             "iconURL": "https://github.com/LiveContainer/LiveContainer/raw/main/screenshots/livecontainer_icon.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "utilities",
             "screenshots": [],
             "versions": [
                 {
@@ -14271,7 +14525,7 @@
             "localizedDescription": "<div align=\"center\">\n   <img width=\"217\" height=\"217\" src=\"./screenshots/livecontainer_icon.png\" alt=\"Logo\">\n</div>\n   \n\n<div align=\"center\">\n  <h1><b>LiveContainer</b></h1>\n  <p><i>An app launcher that runs iOS apps without actually installing them! </i></p>\n</div>\n<h6 align=\"center\">\n\n[![Crowdin](https://badges.crowdin.net/livecontainer/localized.svg)](https://crowdin.com/project/livecontainer)\n\n# LiveContainer\n\n- LiveContainer is an app launcher (not emulator or hypervisor) that allows you to run iOS apps inside it.\n- Allows you to install unlimited apps (3 app/10 app id free developer account limit does not apply here) with only one app & app id. You can also have multiple versions of an app installed with multiple data containers.\n- When JIT is available, codesign is entirely bypassed, no need to sign your apps before installing. Otherwise, your app will be signed with the same certificate used by LiveContainer.\n\n> [!CAUTION]\n> **Important Notice Regarding Third-Party Builds of LiveContainer**\n>\n> We have recently noticed the appearance of certain closed-source third-party builds of LiveContainer. Please be aware that all your apps are installed within LiveContainer, which means these third-party builds **have full access to your data, including sensitive information such as keychain items and login credentials**. \n> \n> Furthermore, please note that we do not provide any support for issues of these third-party builds.\n\n>[!Note]\nIt\u2019s recommended to follow the following steps to set up JIT-Less mode for using LiveContainer without JIT. If you encounter any issues, please review #265 first before reporting them.\n\n\n# Installation\n\n## Requirements\n\n- iOS/iPadOS 15+\n   + Multitasking requires iOS/iPadOS 16.0+\n- AltStore 2.0+ / SideStore 0.6.0+\n\n## Downloads\n### Stable:\n<a href=\"https://celloserenity.github.io/altdirect/?url=https://raw.githubusercontent.com/LiveContainer/LiveContainer/refs/heads/main/apps.json&exclude=livecontainer\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/AltSource_Blue.png?raw=true\" alt=\"Add AltSource\" width=\"200\">\n</a>\n<a href=\"https://github.com/LiveContainer/LiveContainer/releases/latest/download/LiveContainer.ipa\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/Download_Blue.png?raw=true\" alt=\"Download .ipa\" width=\"200\">\n</a>\n\n### Nightly:\n<a href=\"https://celloserenity.github.io/altdirect/?url=https://github.com/LiveContainer/LiveContainer/releases/download/nightly/apps_nightly.json&exclude=livecontainer\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/AltSource_Blue.png?raw=true\" alt=\"Add AltSource\" width=\"200\">\n</a>\n<a href=\"https://github.com/LiveContainer/LiveContainer/releases/download/nightly/LiveContainer.ipa\" target=\"_blank\">\n   <img src=\"https://github.com/CelloSerenity/altdirect/blob/main/assets/png/Download_Blue.png?raw=true\" alt=\"Download .ipa\" width=\"200\">\n</a>\n\n## Installation\n- It is recommended to setup JIT-Less mode, in which LiveContainer signs your apps with your certificate from AltStore/SideStore (see the instructions below).\n\n### JIT-Less mode (Without JIT \\[recommended])\nThese steps can be bypassed if you don't mind enabling JIT for your app every time, but it is not recommended. Without JIT, guest apps need to be codesigned, which requires retrieving the certificate and password from AltStore/SideStore.\n\n>[!Note] \nJIT-Less mode does not mean you can't enable JIT for your apps. Instead, it means JIT is not required to launch an app. If you want to use JIT, see the instructions below in \"JIT Support\" section. \nIf something goes wrong, please check \"JIT-Less Mode Diagnose\" for more information.\n\n#### Method 1 (Requires AltStore 2.2.1+ / SideStore 0.6.2+ \\[recommended])\n- Open Settings in LiveContainer \n- Tap \"Import Certificate from AltStore/SideStore\"\n- AltStore/SideStore will be opened and ask if you want to export the certificate. If you don't see the prompt, keep AltStore/SideStore open in the background and tap \"Import Certificate from AltStore/SideStore\" again.\n- Press \"Export\" in SideStore or set a password and export in AltStore\n- Tap \"JIT-Less Mode Diagnose\" and tap \"Test JIT-Less Mode\"\n- If it says \"JIT-Less Mode Test Passed\", you are good to go!\n>[!Note] \nIf you reinstall AltStore/SideStore using AltServer, you will need to go through these steps again or risk needing to reinstall the app.\n\n### Installing Apps\n- Open LiveContainer, tap the plus icon in the upper right hand corner and select IPA files to install.\n- Choose the app you want to open in the next launch.\n- You can long-press the app to manage it.\n\n### Add to Home Screen\nLong press the app and you will see 2 ways to add your app to home screen:\n1. **Launch URL**: Copy the provided URL, create a shortcut that opens the app, and add it to your home screen. You\u2019ll need to create a separate shortcut for each app.\n2. **Create App Clip**: Install an App Clip MDM profile, which adds the app to your home screen. Note that launching the app includes an extra jump, and the App Clip will remain in the app switcher.\n\n### Multiple LiveContainers\nUsing two LiveContainers allows you to run two different apps simultaneously, with *almost* seamless data transfer between the LiveContainers.\n\nTo install a second LiveContainer, go to Settings and tap \"Install Another LiveContainer.\"\n\nThe first LiveContainer (blue icon) always launches by default.\nIf an app is already running in the first container, you'll be prompted to either open it in the second LiveContainer (gray icon) or terminate the current app and relaunch it in the first. If the app is already running in the second container, it will switch automatically.\nTo use an app in the second container, you must convert this app to a shared app. You can do that by opening the first LiveContainer (blue), long press on your app, open the settings of your app and then \"Convert to Shared App\". After that, you can launch your app using LiveContainer2 (grey).\n\n### Multitasking\nYou can now launch multiple apps simultaneously in in-app virtual windows. These windows can be resized, scaled, and even displayed using the native Picture-in-Picture (PiP) feature. On iPads, apps can run in native window mode, displaying each app in a separate system window. And if you wish, you can choose to run apps in multitasking mode by default in settings.\n\nTo use multitasking:\n1. Convert the app you want to multitask into a **shared app**.\n2. Hold its banner and tap **\"Multitask\"**.\n\n>[!Note]\n>1. To use multitasking, ensure you select **\"Keep App Extensions\"** when installing via SideStore/AltStore.  \n>2. If you want to enable JIT for multitasked apps, you\u2019ll need a JIT enabler that supports attaching by PID. (StikDebug)\n\n### Fix File Picker & Local Notification\nSome apps may experience issues with their file pickers or not be able to apply for notification permission in LiveContainer. To resolve this, enable \"Fix File Picker\" & \"Fix Local Notifications\" accordingly in the app-specific settings.\n\n### \"Open In App\" Support\n- Tap the link icon in the top-right corner of the \"Apps\" tab and input the URL. LiveContainer will detect the appropriate app and ask if you want to launch it.\n- What's more, you can share a web page to LiveContainer using [this shortcut](https://www.icloud.com/shortcuts/44ea82ce7ed8469ea24198c375db09a0). Be sure to add this shortcut to \"Favorites\" in share sheet actions.\n\n### JIT Support\nCheck out section 5.8 in [LiveContainer FAQ](https://github.com/LiveContainer/LiveContainer/issues/265)\n\n### Installing external tweaks\nLiveContainer comes with its own TweakLoader, which automatically load CydiaSubstrate and tweaks. TweakLoader is injected to every app you install. You can override `TweakLoader.dylib` symlink with your own implementation if you wish.\n\n.dylib files in `Tweaks` folder are global, they are loaded to all apps. You can create app-specific tweaks folder and switch between them instantly.\n\nTo install tweaks, you can use the built-in tweak manager in LiveContainer, which will automatically sign tweaks as you import. Otherwise, you can manually add them and then use the tweak manager to sign them.\n\n### Hiding Apps\nLiveContainer offers three levels of app hiding:\n- **Lock Apps**: In the app-specific settings, you can lock an app, requiring Face ID or a password to launch it.\n- **Hide Locked Apps**: Once locked, you can hide the app. It will appear as a placeholder in the \"Hidden Apps\" section, and authentication is needed to view or launch it.\n- **Strict Hiding Mode**: For complete invisibility, enable \"Strict Hiding Mode\" in LiveContainer's settings after authentication. Hidden apps will no longer appear in the interface. To access them, triple-tap the \"x Apps in total\" text on the main screen and authenticate to unlock the apps when you relaunch LiveContainer.\n\n## Compatibility\nUnfortunately, not all apps work in LiveContainer, so we have a [compatibility list](https://github.com/LiveContainer/LiveContainer/labels/compatibility) to tell if there is apps that have issues. If they aren't on this list, then it's likely going run. However, if it doesn't work, please make an [issue](https://github.com/LiveContainer/LiveContainer/issues/new/choose) about it.\n\n## Building\nOpen Xcode, edit `DEVELOPMENT_TEAM[config=Debug]` in `xcconfigs/Global.xcconfig` to your team id and compile.\n\n## Project structure\n### Main executable\n- Core of LiveContainer\n- Contains the logic of setting up guest environment and loading guest app.\n- If no app is selected, it loads LiveContainerSwiftUI.\n\n### LiveContainerSwiftUI\n- SwiftUI rewrite of LiveContainerUI (by @hugeBlack)\n- Language file `Localizable.xcstrings` is in here for multilingual support. To help us translate LiveContainer, please visit [our crowdin project](https://crowdin.com/project/livecontainer)\n\n### MultitaskSupport\n- Contains the implementation of multitasking feature.\n- Based on [FrontBoardAppLauncher](https://github.com/khanhduytran0/FrontBoardAppLauncher)\n\n### SideStore\n- Supporting code for SideStore's app refreshing integration\n\n### TweakLoader\n- A simple tweak injector, which loads CydiaSubstrate and loads tweaks.\n- Injected to every app you install in LiveContainer.\n\n### ZSign\n- The app signer shipped with LiveContainer.\n- Originally made by [zhlynn](https://github.com/zhlynn/zsign).\n- LiveContainer uses [Feather's](https://github.com/khcrysalis/Feather) version of ZSign modified by khcrysalis.\n- Changes are made to meet LiveContainer's needs.\n\n## How does it work?\n\n### Patching guest executable\n- Patch `__PAGEZERO` segment:\n  + Change `vmaddr` to `0xFFFFC000` (`0x100000000 - 0x4000`)\n  + Change `vmsize` to `0x4000`\n- Change `MH_EXECUTE` to `MH_DYLIB`.\n- Inject a load command to load `TweakLoader.dylib`\n\n### Patching `@executable_path`\n- Hook `dyld4::APIs::_NSGetExecutablePath`\n- Call `_NSGetExecutablePath`\n- Replace `config.process.mainExecutablePath`\n  - Calculate address of `config.process.mainExecutablePath` using `dyld4::APIs` instance (passed as first parameter)\n  - Use `builtin_vm_protect` or TPRO unlock to make it writable\n  - Replace the address with one we have control of\n- Put the original `dyld4::APIs::_NSGetExecutablePath` back\n\n> Old Method\n>- Call `_NSGetExecutablePath` with an invalid buffer pointer input -> SIGSEGV\n>- Do some [magic stuff](https://github.com/khanhduytran0/LiveContainer/blob/5ef1e6a/main.m#L74-L115) to overwrite the contents of executable_path.\n\n### Patching `NSBundle.mainBundle`\n- This property is overwritten with the guest app's bundle.\n\n### Bypassing Library Validation\n- JIT is optional to bypass codesigning. In JIT-less mode, all executables are signed so this does not apply.\n- Derived from [Restoring Dyld Memory Loading](https://blog.xpnsec.com/restoring-dyld-memory-loading)\n\n### dlopening the executable\n- Call `dlopen` with the guest app's executable\n- TweakLoader loads all tweaks in the selected folder\n- Find the entry point\n- Jump to the entry point\n- The guest app's entry point calls `UIApplicationMain` and start up like any other iOS apps.\n\n### Multi-Account support & Keychain Semi-Separation\n[128 keychain access groups](./entitlements.xml) are created and LiveContainer allocates them randomly to each container of the same app. So you can create 128 container with different keychain access groups.\n\n## Limitations\n- Entitlements from the guest app are not applied to the host app. This isn't a big deal since sideloaded apps requires only basic entitlements.\n- App Permissions are globally applied.\n- Guest app containers are not sandboxed. This means one guest app can access other guest apps' data.\n- App extensions aren't supported. they cannot be registered because: LiveContainer is sandboxed, SpringBoard doesn't know what apps are installed in LiveContainer, and they take up App ID.\n- Multitasking can be achieved by using multiple LiveContainer and the multitasking feature. However, while we were able to fix physical keyboard input issue on iPadOS (https://github.com/LiveContainer/LiveContainer/issues/524), iPhone Mirroring uses different checks which still broke it (https://github.com/LiveContainer/LiveContainer/issues/793).\n- Remote push notification will not work\n- Querying custom URL schemes might not work(?)\n\n## TODO\n- Use ChOma instead of custom MachO parser\n\n## License\n[Apache License 2.0](https://github.com/khanhduytran0/LiveContainer/blob/main/LICENSE)\n\n## Credits\n- [xpn's blogpost: Restoring Dyld Memory Loading](https://blog.xpnsec.com/restoring-dyld-memory-loading)\n- [LinusHenze's CFastFind](https://github.com/pinauten/PatchfinderUtils/blob/master/Sources/CFastFind/CFastFind.c): [MIT license](https://github.com/pinauten/PatchfinderUtils/blob/master/LICENSE)\n- [litehook](https://github.com/opa334/litehook): [MIT license](https://github.com/opa334/litehook/blob/main/LICENSE)\n- @haxi0 & @m1337v for icon\n- @Vishram1123 for the initial shortcut implementation.\n- @hugeBlack for SwiftUI contribution\n- @Staubgeborener for automatic AltStore/SideStore source updater\n- @fkunn1326 for improved app hiding\n- @slds1 for dynamic color feature\n- @Vishram1123 for iOS 26+ JIT Script Support\n- @StephenDev0 for AltStore source support\n",
             "iconURL": "https://github.com/LiveContainer/LiveContainer/raw/main/screenshots/livecontainer_icon.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "utilities",
             "screenshots": [],
             "versions": [
                 {
@@ -14407,7 +14661,7 @@
             "localizedDescription": "<p align=\"center\">\n  <img src=\"DynamicRedirect%20Extension/images/icon-128.png\" alt=\"LiveRedirector icon\" width=\"96\" height=\"96\" />\n</p>\n\n# LiveRedirector\n\nOpen matching webpages in [LiveContainer](https://github.com/LiveContainer/LiveContainer) from Safari on iOS using a lightweight Safari Web Extension.\n\n# Note: iOS 26 broke the Safari extension when sideloading, so use the following guide to setup the new userscript:\n\n- Install [Userscripts](https://apps.apple.com/ca/app/userscripts/id1463298887) for free from the App Store\n- Identify your Userscripts directory\n- Install the [LiveRedirector shortcut](https://shortcuty.app/api/shortcuts/e9035be5-0dbd-41d0-99c6-3b2f46bcfa45/get) and select the Userscripts folder during setup\n- Use the shortcut to configure userscript settings\n\n# iOS 18:\n\n## What it does\n- Lets you maintain a list of URL or domain patterns (e.g., `discord.com/invite`, `youtube.com`).\n- When a visited page matches, the content script encodes the full URL as Base64 and redirects to:\n  `livecontainer://open-web-page?url=<base64>`\n- Manage patterns directly in the extension popup (add, delete, import, export).\n\n## Using the extension\n\n**Important: Sideload with app extensions enabled to use extension!**\n\n- Add a pattern such as `discord.com/invite` or just `github.com`.\n- Visit a matching page; you should be redirected to the LiveContainer URL.\n- Import/Export via clipboard (JSON or newline list). The popup performs clipboard reads/writes only on user action.\n\n### Pattern matching rules\n- Host only: `github.com` matches any path on that host (and subdomains).\n- Host + path: `discord.com/invite` matches any URL whose path starts with `/invite`.\n- Scheme-agnostic patterns are supported: `//discord.com/invite` or `*://discord.com/invite`.\n- Exact/full-URL and prefix matches (with scheme) also work.\n\n## Permissions\n- `storage` for saving URL patterns locally.\n- `clipboardRead`/`clipboardWrite` for import/export in the popup (user-initiated only).\n- `<all_urls>` to allow matching on all pages (content script runs at `document_start`).\n\n## Notes\n- Mostly written by ChatGPT for personal use, do not expect troubleshooting support\n- This is not affiliated with LiveContainer. Do not message the developers for any issue you encounter using this extension.\n",
             "iconURL": "https://raw.githubusercontent.com/Dan1elTheMan1el/LiveRedirect/main/DynamicRedirect%20Extension/images/icon-128.png",
             "tintColor": "#027e98",
-            "category": "other",
+            "category": "utilities",
             "screenshots": [],
             "versions": [
                 {
@@ -14444,7 +14698,7 @@
             "localizedDescription": "Contains ads, please use adblocker",
             "iconURL": "https://avatars.githubusercontent.com/u/96971772?s=200&v=4",
             "tintColor": "#9d9d9d",
-            "category": "other",
+            "category": "entertainment",
             "screenshots": [],
             "versions": [
                 {
@@ -14472,7 +14726,7 @@
             "localizedDescription": "A standalone iOS 15 wrapper for ChatGPT, featuring a manual cookie-injection login fix and a modern multi-account floating button UI.\n\n\ud83d\ude80 Features\n- Manual login via `__Secure-next-auth.session-token`  \n- Multi-account support (add, rename, delete)  \n- Floating draggable button (44\u00d744, white background, subtle shadow)  \n- Modern bottom-sheet account manager (inset-grouped style)  \n- \u201cNo account\u201d option to log out and start fresh  \n- Idle fade: button fades to 30% after 5 s of inactivity  \n- Full-screen WebView, portrait & landscape support  \n\n\ud83d\udd11 First-Time Login\n1. On your desktop Chrome, go to https://chatgpt.com (or `https://chat.openai.com`) and sign in.  \n2. Click the \u22ee menu in the top-right \u2192 More tools \u2192 Developer tools  \n   (or press Ctrl + Shift + I on Windows/Linux, \u2318 + Option + I on Mac) \n3. In DevTools, switch to the Application tab \u2192 Storage \u2192 Cookies \u2192 chatgpt.com  \n4. Find `__Secure-next-auth.session-token`, double-click its Value, press \u2318 +A (Select All) then \u2318 +C (Copy).  \n5. On your iOS 15 device, open ChatGPTWebV15, tap the floating button \u2192 Add new\u2026, paste the token \u2192 Save.  \n\nYour session will load immediately in the WebView.  \n\ud83d\udd04 Switching & Managing Accounts\n- Tap the floating app-icon button to open the account sheet.  \n- No account \u2192 wipes cookies and shows the logged-out page.  \n- Add new\u2026 \u2192 name + paste a new token.  \n- Tap an existing account \u2192 instantly reloads with that session.  \n- Swipe left on any account in the sheet to Rename or Delete.  \n\nChanges are saved in Keychain; your last selected account is loaded automatically on app launch.",
             "iconURL": "https://raw.githubusercontent.com/Akuma1tko/ChatGPTwebV15/refs/heads/main/Downloads/ChatGPTWebV15/ChatGPTWebView/appstore.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "utilities",
             "screenshots": [],
             "versions": [
                 {
@@ -14654,7 +14908,7 @@
             "localizedDescription": "This is an awesome app only available on AltStore.",
             "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKynfNe5Ayeo2j3kVeQFTg-2Y4EGuV3vEoAg&s",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -15126,7 +15380,7 @@
             "localizedDescription": "Nugget (mobile)\nUnlock your device's full potential! Should work on all versions iOS 16.0 - 18.2 developer beta 2 (public beta 1).\n\nThis will not work on iOS 18.2 beta 2 or newer. Please do not make issues about this, it will not be fixed. You will have to use the [pc version of Nugget](https://github.com/leminlimez/Nugget) unless a fix comes in the future.\n\nA `.mobiledevicepairing` file and wireguard are required in order to use this. Read the [sections](#getting-your-mobiledevicepairing-file) below to see how to get those.\n\nIf you are having issues with minimuxer, see the [Solving Minimuxer Issues](#solving-minimuxer-issues) thread.\n\nThis uses the sparserestore exploit to write to files outside of the intended restore location, like mobilegestalt.\n\nNote: I am not responsible if your device bootloops, use this software with caution. Please back up your data before using!\n\n## Getting Your mobiledevicepairing File\nTo get the pairing file, use the following steps:\n1. Download `jitterbugpair` for your system from here: <https://github.com/osy/Jitterbug/releases/latest>\n    - **Note:** On mac or linux, you may have to run the terminal command `chmod +x ./jitterbugpair` in the same directory.\n2. Run the program by either double clicking it or using terminal/powershell\n3. Share the `.mobiledevicepairing` file to your iOS device\n4. Open the app and select the pairing file\n\nYou should only have to do this once unless you lose the file and delete the app's data.\n\n## Setting Up WireGuard\n1. Download [WireGuard](<https://apps.apple.com/us/app/wireguard/id1441195209>) on the iOS App Store.\n2. Download [SideStore's config file](https://github.com/sidestore/sidestore/releases/download/0.1.1/sidestore.conf) on your iOS device\n3. Share the config file to WireGuard using the share menu\n4. Enable it and run Nugget\n\n## Solving Minimuxer Issues\nIf you have used Cowabunga Lite before, you may experience issues with minimuxer. This is due to how it skipped the setup process.\nThese steps should solve the problem, however it is not an end-all be-all solution.\n1. Download [Nugget Python](https://github.com/leminlimez/Nugget) and follow the steps in the readme to install python and the requirements\n2. Connect your device and (in terminal) type `python3 fix-minimuxer.py` (or `python fix-minimuxer.py` if it doesn't work)\n\nYour device should reboot. After it reboots, try Nugget mobile now. If it still doesn't work, follow the steps below:\n\n3. After your device reboots, go to `[Settings] -> General -> Transfer or Reset iPhone`\n4. Tap `Reset` and then `Reset Location & Privacy`\n5. Nugget mobile should work now. If it doesn't, try getting a new pairing file.\n\nIf the steps above don't work for you, try using `Cowabunga Lite` and clicking the `Deep Clean` button, then try the steps again.\nIf not even that works, the only solution I know is to wipe the device (not ideal). I would recommend using [Nugget Python](https://github.com/leminlimez/Nugget) instead in this case.\n\n## Credits\n- [JJTech](https://github.com/JJTech0130) for Sparserestore/[TrollRestore](https://github.com/JJTech0130/TrollRestore)\n- khanhduytran for [Sparsebox](https://github.com/khanhduytran0/SparseBox)\n- [pymobiledevice3](https://github.com/doronz88/pymobiledevice3)\n- [disfordottie](https://x.com/disfordottie) for some global flag features\n- f1shy-dev for the old [AI Enabler](https://gist.github.com/f1shy-dev/23b4a78dc283edd30ae2b2e6429129b5#file-eligibility-plist)\n- [SideStore](https://sidestore.io/) for em_proxy and minimuxer\n- [libimobiledevice](https://libimobiledevice.org) for the restore library\n",
             "iconURL": "https://raw.githubusercontent.com/leminlimez/Nugget-Mobile/1881fdc2b721fd2675a2909e7fbc24769d11bb53/readme-images/icon.png",
             "tintColor": "#8511b0",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -15181,7 +15435,7 @@
             "localizedDescription": "404: Not Found",
             "iconURL": "https://raw.githubusercontent.com/Ferrite-iOS/Ferrite/refs/heads/next/Ferrite/Assets.xcassets/AppIcon.appiconset/Ferrite-lg.png",
             "tintColor": "#8b1700",
-            "category": "other",
+            "category": "entertainment",
             "screenshots": [],
             "versions": [
                 {
@@ -15261,9 +15515,9 @@
             "developerName": "Lrdsnow",
             "subtitle": "An exploit based Jailed Package Manager for iOS 15.0-18.0/18.1b4",
             "localizedDescription": "404: Not Found",
-            "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/Icon.png",
+            "iconURL": "https://raw.githubusercontent.com/Lrdsnow/PureKFD/refs/heads/v6/PureKFD/Assets.xcassets/AppIcon.appiconset/icon.png",
             "tintColor": "#7813ae",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -15523,7 +15777,7 @@
             "localizedDescription": "## mikotoX \u2013 The Ultimate Customization Tool\n## iOS /iPadOS 16.0 - 18.0 RC / 18.1 beta 3\n### Developers: [@little_34306](https://x.com/little_34306) | [@straight-tamago](https://x.com/straight_tamago)\n\n<kbd><img width=\"100\" alt=\"icon\" src=\"https://github.com/user-attachments/assets/fa574df5-3baf-40ee-904f-5086f3ad2e8e\"></kbd>\n\n<a href=\"https://github.com/straight-tamago/mikotoX/releases/latest\"><img src=\"https://img.shields.io/github/v/release/straight-tamago/mikotoX?color=d774d5\" /></a>  <a href=\"https://github.com/straight-tamago/mikotoX/releases\"><img src=\"https://img.shields.io/github/downloads/straight-tamago/mikotoX/total?color=d774d5\" /></a>\n\nTrollRestore brings numerous customization features to iOS devices, allowing you to tweak your system for a more personalized experience. **Use at your own risk**, as there is a high risk of bootlooping. **Make sure to backup your phone before use!**\n\n### Supported Features:  \n- **Dynamic Island 2796, 2556** (iOS 16.0+)\n- **Dynamic Island 2662 2868** (iOS 18.0RC+)\n- **Charge Limit** (iOS 17.0+)\n- **Boot Chime** (iOS 17.0+)\n- **Stage Manager** (iOS 16.0+)\n- **Shutter Sound** (iOS 16.0+)  \nPlease do not use camera silence for the purpose of voyeurism. For photographing pets, etc.\n- **Always-on Display (AoD)** (iOS 18.0+)\n- **Apple Pencil** (iOS 18.0+)\n- **Action Button** (iOS 17.0+)\n- **Internal Storage** (iOS 17.0+)\n- **SOS Collision** (iOS 18.0+)\n- **TapToWake** (iPhone SE 2/3, iOS 18.0+)\n- **Apple Intelligence** (iOS 18.1 Beta)\n- **Landscape FaceID** (iOS 17.0+)\n- **iPad Apps Support** (iOS 16.0+)\n- **Developer Mode & Metal HUD** (iOS 16.0+)\n- **CameraControl** (18.0 RC+)\n- **AoD Vibrancy** (18.0 RC+)\n- **Sleep Apnea** (18.0 RC+)\n\nSome more features will be added. Please look forward to it \u2764\ufe0f\n\n### Important Notes:\n- mikotoX modifies **MobileGestalt**, which can cause bootloop issues.\n- **Backup your device** before proceeding.\n\n### How to Use\nhttps://onejailbreak.com/blog/mikotox/\n\n### Change Logs:\n\n#### Version 1.0:\nInitial Release\n---\n\n@straight-tamago @34306 \nPlease use the tool responsibly and ensure you follow all precautions to avoid any issues!\n\n## Thanks to\n- @khanhduytran0 : SparseBox\n- @SideStore : em_proxy and minimuxer\n- @JJTech0130 : SparseRestore and backup exploit\n- @PoomSmart : MobileGestalt dump\n- @libimobiledevice\n- @onejailbreak_ : Icon\n\n",
             "iconURL": "https://onejailbreak.com/site/assets/files/1891/icon.64x0.webp",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -15569,7 +15823,7 @@
             "localizedDescription": "Overview\nTrollInstallerX is a universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices.\n\nTrollInstallerX supports all devices running iOS 14.0 - 16.6.1, both arm64 and arm64e. It makes use of one of two different methods to install TrollStore, depending on what device and iOS you have. These methods are:\n\n* **Direct installation**: using the [kfd](https://github.com/felix-pb/kfd) kernel exploit, along with the [dmaFail](https://github.com/opa334/Dopamine/blob/2.x/Application/Dopamine/Exploits/dmaFail/dmaFail.c) PPL bypass on iOS 15.2+ arm64e devices, TrollInstallerX can install both TrollStore and its persistence helper directly onto the device without having to leave the installer.\n  * Supports iOS 14.0 - 16.6.1 (arm64) and iOS 14.0 - 16.5.1 (arm64e).\n    * **Note**: A15, A16, and M2 devices on iOS 16.5.1 do not support this method.\n    * **Note**: A8 devices are only supported on iOS 14.0 - 15.1 for the time being.\n\n* **Indirect installation**: Using the [kfd](https://github.com/felix-pb/kfd) kernel exploit, TrollInstallerX can replace a system application of your choice with the TrollStore persistence helper. This method only exists due to both the lack of a PPL bypass on iOS 16.6 and above, as well as the fact that dmaFail is non-functional on A15, A16, and M2 devices on iOS 16.5.1.\n  * Supports iOS 16.5.1 - 16.6.1 (arm64e).\n    * **Note**: This method is the only method that supports A15, A16, and M2 devices on iOS 16.5.1.\n\nBoth methods allow you to install a persistence helper into a removable system app. The reason that this is needed is due to the way that the CoreTrust bug (used by TrollStore) works - in certain circumstances, TrollStore and other apps installed by it will be reset to User registration, instead of System. You cannot open any of these apps until you have used the persistence helper to set them back to System registration.\n\n## Usage\nTrollInstallerX is extremely easy to use. Simply download the latest release from the [Releases](https://github.com/alfiecg24/TrollInstallerX/releases) page, and sideload it using your preferred method. Once installed, open the app and press the \"Install\" button. From there, TrollStore and/or its persistence helper will be installed onto your device.\n\nTrollInstallerX will automatically choose the best exploit for your device. However, in some cases, you may want to choose a specific exploit. To do this, simply open the settings view and select the exploit that you want to use. Once you have selected it, press the \"Install TrollStore\" button and TrollInstallerX will use the exploit you have chosen.\n\n**Note**: iOS 16.2 - 16.6.1 and iOS 15.7.2 - 15.8.2 require an internet connection in order for TrollInstallerX to download the kernelcache and patchfind it.\n\n## FAQ\n> Why am I stuck at \"Exploiting kernel\"?\n\nThis is a common issue with the kfd exploit. Simply reboot your device and try again.\n\n> Why can I not open/see TrollStore after a successful installation?\n\nDuring installation, you will have installed a persistence helper. Open your persistence helper and press \"refresh app registrations\" to fix TrollStore not being able to be opened.\n\n> Why did the app I selected for the persistence helper not become the persistence helper?\n\nIf you selected an app for the persistence helper and it did not change, it is likely that you already have a persistence helper installed. Open TrollStore and go to settings to see which app is set to the persistence helper.\n\n> Why am I getting an error about being unable to patchfind or being unable to download kernel?\n\nEither:\n- You're on a non-MacDirtyCow supported version, and are not connected to the internet, or;\n- You're using a Yellow iPhone 14 or Yellow iPhone 14 Plus on iOS 16.3 (20D50), in which case you should install `TrollInstallerX-20D50.ipa` from [here](https://github.com/alfiecg24/TrollInstallerX/releases/latest).\n\nAdditionally, if a file exists at `/TrollInstallerX.app/kernelcache`, TrollInstallerX will use that file instead of downloading the kernelcache. This can be useful if you have a slow or unreliable internet connection, or happen to have a device and version combination that has no public kernelcache available.\n\n> Why does TrollInstallerX say \"failed to install persistence helper\" using the indirect method?\n\nThe indirect method is not perfect, and sometimes it will fail to install the persistence helper. If this happens, simply shut down your device, turn it back on, and try again. If you repeatedly have issues with the same app, try using a different app.\n\n## Building\nTrollInstallerX is a regular Xcode project, but the project also contains a build script. To build it and produce an IPA, simply run the `build.sh` script in the root of the project. This will build the project and produce an IPA in the root of the project.\n\n## Credits\nTrollInstallerX wouldn't have been possible without the work of the following people:\n* [opa334](https://x.com/opa334dev) for [Dopamine](https://github.com/opa334/Dopamine), the dmaFail exploit and the kernel patchfinder\n* [felix-pb](https://github.com/felix-pb) for the kfd exploits\n* [Kaspersky](https://securelist.com/operation-triangulation-the-last-hardware-mystery/111669/) for Operation Triangulation\n* [kok3shidoll](https://github.com/kok3shidoll) for lots of work on arm64 support for Dopamine\n* [wh1te4ever](https://github.com/wh1te4ever) for [kfund](https://github.com/wh1te4ever/kfund)\n* [Zhuowei](https://github.com/zhuowei) for the tccd unsandboxing method\n* [xina520](https://x.com/xina520) for the kernel read/write-only privilege escalation method\n* [dhinakg](https://github.com/dhinakg) for the memory hogger, the MacDirtyCow kernelcache grabber method, [libpartial](https://github.com/dhinakg/partial) and help with [libgrabkernel2](https://github.com/alfiecg24/libgrabkernel2)\n* [staturnz](https://github.com/staturnzz) for work on the kernel patchfinder\n* [aaronp613](https://x.com/aaronp613) for the TrollInstallerX icon\n* [DTCalabro](https://github.com/DTCalabro) and [JJTech](https://github.com/JJTech0130) for improvements to the logging system\n* [MasterMike88](https://x.com/MasterMike88) for helping test and debug during development\n",
             "iconURL": "https://raw.githubusercontent.com/alfiecg24/TrollInstallerX/refs/heads/main/Resources/Icon.png",
             "tintColor": "#007aff",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
@@ -15624,7 +15878,7 @@
             "localizedDescription": "Delta is an all-in-one emulator for iOS and iPadOS. Delta builds upon the strengths of its predecessor, GBA4iOS, while expanding to include support for more game systems such as NES, SNES, N64, and DS.\n\nFEATURES\n\nSupported Game Systems\n\u2022 Nintendo Entertainment System\n\u2022 Super Nintendo Entertainment System\n\u2022 Nintendo 64\n\u2022 Game Boy (Color)\n\u2022 Game Boy Advance\n\u2022 Nintendo DS\n\u2022 And plenty more to come!\n\nOnline Multiplayer\n\u2022 Play online-compatible Nintendo DS games with friends around the world!\n\u2022 Connect via community Nintendo WFC servers\n\u2022 Choose one of the default servers, or provide a custom DNS\n\nController Support\n\u2022 Nintendo Switch Pro controllers, Joy-Cons\n\u2022 Nintendo Switch Online controllers (NES, SNES, N64)\n\u2022 PS4, PS5\n\u2022 Xbox One S, Xbox Series X\n\u2022 MFi game controllers\n\u2022 Bluetooth & wired keyboards\n\nSave States\n\u2022 Save and load save states for any game from the pause menu.\n\u2022 Lock save states to prevent them from being accidentally overwritten.\n\u2022 Automatically makes backup save states to ensure you never lose your progress.\n\u2022 Support for \u201cQuick Saves,\u201d save states that can be quickly saved/loaded with a single button press (requires external controller).\n\nCheats\n\u2022 Supports various types of cheat codes for each supported system:\n\u2022 NES: Game Genie\n\u2022 SNES: Game Genie, Pro Action Replay\n\u2022 N64: GameShark\n\u2022 GBC: Game Genie, GameShark\n\u2022 GBA: Action Replay, Code Breaker, GameShark\n\u2022 DS: Action Replay\n\nDelta Sync\n\u2022 Sync your games, game saves, save states, cheats, controller skins, and controller mappings between devices.\n\u2022 View version histories of everything you sync and optionally restore them to earlier versions.\n\u2022 Supports both Google Drive and Dropbox.\n\nCustom Controller Skins\n\u2022 Beautiful built-in controller skins for all systems.\n\u2022 Import controller skins made by others, or even make your own to share with the world!\n\nHold Button\n\u2022 Choose buttons for Delta to hold down on your behalf, freeing up your thumbs to press other buttons instead.\n\u2022 Perfect for games that typically require one button be held down constantly (e.g. run button in Mario games, or the A button in Mario Kart).\n\nFast Forward\n\u2022 Speed through slower parts of games by running the game much faster than normal.\n\u2022 Easily enable or disable from the pause menu, or optionally with a mapped button on an external controller.\n\n3D/Haptic Touch\n\u2022 Use 3D or Haptic Touch to \u201cpeek\u201d at games, save states, and cheat codes.\n\u2022 App icon shortcuts allow quick access to your most recently played games, or optionally customize the shortcuts to always include certain games.\n\nGame Artwork\n\u2022 Automatically displays appropriate box art for imported games.\n\u2022 Change a game\u2019s artwork to anything you want, or select from the built-in game artwork database.\n\nMisc.\n\u2022 Gyroscope support (WarioWare: Twisted! only)\n\u2022 Microphone support (DS only)\n\u2022 Support for delta:// URL scheme to jump directly into a specific game.\n\nDelta Terms of Use: https://altstore.io/terms\n\n**Delta is in no way affiliated with Nintendo. The name \"Nintendo\" and all associated game console names are registered trademarks of Nintendo Co., Ltd.** ",
             "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/08/91/ed089193-2334-fd9b-752e-fc330791ee48/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-sRGB-85-220.png/400x400ia-75.webp",
             "tintColor": "#7309ac",
-            "category": "other",
+            "category": "games",
             "screenshots": [],
             "versions": [
                 {
@@ -15733,7 +15987,7 @@
             "localizedDescription": "Step into Winston's embracing world! Winston is an elegant, open-source, native crafted Reddit client for iOS that pushes user experience to the next level.",
             "iconURL": "https://winston.cafe/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fside-winston.8749b15f.png&w=1920&q=75",
             "tintColor": "#d59701",
-            "category": "other",
+            "category": "social",
             "screenshots": [],
             "versions": [
                 {
@@ -15842,7 +16096,7 @@
             "localizedDescription": "Features\n* Native user interface built with [SwiftUI](https://developer.apple.com/swiftui/) with customization settings\n* Player queue and history\n* Player component with custom controls, gestures and support for 4K playback\n* Fullscreen, Picture in Picture and background audio playback\n* [SponsorBlock](https://sponsor.ajay.app/), configurable categories to skip",
             "iconURL": "https://raw.githubusercontent.com/yattee/yattee/refs/heads/main/Shared/Assets.xcassets/AppIcon.appiconset/Icon-MacOS-128x128%401x.png",
             "tintColor": "#862000",
-            "category": "other",
+            "category": "entertainment",
             "screenshots": [],
             "versions": [
                 {
@@ -15870,7 +16124,7 @@
             "localizedDescription": "# kfund (Post-Exploitation)\nkfund, short for my [fun](kfd/fun) with kfd exploit. Original by @wh1te4ever, modify for TrollStore installation and called TrollStar by [34306 (me)](https://github.com/34306) and [straight-tamago](https://github.com/straight-tamago)\n\n## What are the supported OS versions and devices?\nProbably iOS 16.0 to 16.6.1 on all iOS/iPadOS (arm64/arm64e/M1/M2 supported)\n---\n\n## What you can do with this?\n#### Install TrollStore Helper to Tips\n---\n## Preview\n<img src=\"https://raw.githubusercontent.com/34306/TrollStar/main/Preview.PNG\">\n\n# kfd\nkfd, short for kernel file descriptor, is a project to read and write kernel memory on Apple\ndevices. It leverages various vulnerabilities that can be exploited to obtain dangling PTEs, which\nwill be referred to as a PUAF primitive, short for \"physical use-after-free\". Then, it reallocates\ncertain kernel objects inside those physical pages and manipulates them directly from user space\nthrough the dangling PTEs in order to achieve a KRKW primitive, short for \"kernel read/write\". The\nexploit code is fully contained in a library, [libkfd](kfd/libkfd.h), but the project also contains\nsimple executable wrappers for [iOS](kfd/ContentView.swift) and [macOS](macos_kfd.c).\n",
             "iconURL": "https://raw.githubusercontent.com/34306/TrollStar/refs/heads/main/kfd/Assets.xcassets/AppIcon.appiconset/anya.png",
             "tintColor": "#bd5317",
-            "category": "other",
+            "category": "developer",
             "screenshots": [],
             "versions": [
                 {
