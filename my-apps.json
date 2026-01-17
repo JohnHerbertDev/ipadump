@@ -10,6 +10,68 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "EnsWilde",
+            "bundleIdentifier": "com.yangjiii.EnsWilde",
+            "marketplaceID": "",
+            "developerName": "YangJiiii",
+            "subtitle": "An awesome app.",
+            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING - DISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the EnsWilde app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
+            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
+            "tintColor": "#d99800",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "EnsWilde2.1.1",
+                    "date": "2026-01-15T14:06:49Z",
+                    "localizedDescription": "- Added supported device warnings ( IOS 18 - IOS 26.2 Beta 1 )\r\n- Improved zPatch Custom for better functionality\r\n- Updated Mobile Gestalt",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.1/EnsWilde.ipa",
+                    "size": 12684781,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.1",
+                    "date": "2026-01-13T13:39:34Z",
+                    "localizedDescription": "## Improvements\r\n\r\n- Improved overall stability and success rate\r\n- Prevented file corruption during execution\r\n- Updated the user interface to reduce unexpected errors\r\n- Fixed the issue where the app required restarting when enabling VPN\r\n- Added a few small features to Mobile Gestalt\r\n## New Features\r\n\r\n### Apple Wallet\r\n- Added support for custom background images for Apple Wallet passes\r\n\r\n### Passcode Theme\r\n- Added the ability to change the passcode unlock screen image\r\n\r\n## How to Use\r\n\r\n### Apple Wallet\r\nIf you don\u2019t have a Card ID yet:\r\n\r\n1. Remove the existing card from Wallet (if any)\r\n2. Tap Scan ID\r\n3. Scan your card\r\n4. Add the card to Wallet\r\n5. The app will automatically retrieve the Card ID\r\n\r\n### Passcode Theme\r\n\r\n1. Go to Theme Settings\r\n2. Select the appropriate language\r\n3. Select the appropriate Telephony option (priority: Telephony-10)\r\n\r\n## Download\r\n\r\nDownload passthm themes at:\r\nhttps://cowabun.ga/wallpapers\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1/EnsWilde.ipa",
+                    "size": 12626172,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.0",
+                    "date": "2026-01-05T15:30:18Z",
+                    "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable \u2013 experimental build) (enable it in Settings; password: **3105**)\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
+                    "size": 12242612,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde",
+                    "date": "2025-12-26T14:35:03Z",
+                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
+                    "size": 37995810,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.1.2",
+                    "date": "2026-01-16T15:12:39Z",
+                    "localizedDescription": "Minor edits Passcode Theme\r\n\r\n- Added multilingual support. Priority order if one option doesn\u2019t work: Other Language \u2192 English \u2192 system language.\r\n- Fixed issues where image sizes were too small or too large.\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.2/EnsWilde.ipa",
+                    "size": 12750118
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Spotify (Eevee)",
             "bundleIdentifier": "com.spotify.client",
             "marketplaceID": "",
@@ -292,61 +354,6 @@
                     "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
                     "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/15-1/patched.ipa",
                     "size": 84208719,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "EnsWilde",
-            "bundleIdentifier": "com.yangjiii.EnsWilde",
-            "marketplaceID": "",
-            "developerName": "YangJiiii",
-            "subtitle": "An awesome app.",
-            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING - DISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the EnsWilde app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
-            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
-            "tintColor": "#d99800",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "EnsWilde2.1.1",
-                    "date": "2026-01-15T14:06:49Z",
-                    "localizedDescription": "- Added supported device warnings ( IOS 18 - IOS 26.2 Beta 1 )\r\n- Improved zPatch Custom for better functionality\r\n- Updated Mobile Gestalt",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.1/EnsWilde.ipa",
-                    "size": 12684781,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde2.1",
-                    "date": "2026-01-13T13:39:34Z",
-                    "localizedDescription": "## Improvements\r\n\r\n- Improved overall stability and success rate\r\n- Prevented file corruption during execution\r\n- Updated the user interface to reduce unexpected errors\r\n- Fixed the issue where the app required restarting when enabling VPN\r\n- Added a few small features to Mobile Gestalt\r\n## New Features\r\n\r\n### Apple Wallet\r\n- Added support for custom background images for Apple Wallet passes\r\n\r\n### Passcode Theme\r\n- Added the ability to change the passcode unlock screen image\r\n\r\n## How to Use\r\n\r\n### Apple Wallet\r\nIf you don\u2019t have a Card ID yet:\r\n\r\n1. Remove the existing card from Wallet (if any)\r\n2. Tap Scan ID\r\n3. Scan your card\r\n4. Add the card to Wallet\r\n5. The app will automatically retrieve the Card ID\r\n\r\n### Passcode Theme\r\n\r\n1. Go to Theme Settings\r\n2. Select the appropriate language\r\n3. Select the appropriate Telephony option (priority: Telephony-10)\r\n\r\n## Download\r\n\r\nDownload passthm themes at:\r\nhttps://cowabun.ga/wallpapers\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1/EnsWilde.ipa",
-                    "size": 12626172,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde2.0",
-                    "date": "2026-01-05T15:30:18Z",
-                    "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable \u2013 experimental build) (enable it in Settings; password: **3105**)\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
-                    "size": 12242612,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde",
-                    "date": "2025-12-26T14:35:03Z",
-                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
-                    "size": 37995810,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
