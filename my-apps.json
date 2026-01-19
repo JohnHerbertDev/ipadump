@@ -65,6 +65,13 @@
                     "size": 37995810,
                     "buildVersion": null,
                     "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde3.0",
+                    "date": "2026-01-18T07:14:23Z",
+                    "localizedDescription": "- **No longer requires StikDebug:** You only need to enable LocalDevVPN for it to work.\r\n- **App improvements:** Enhanced application performance and stability.",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.0/EnsWilde.ipa",
+                    "size": 12773718
                 }
             ],
             "appPermissions": {
