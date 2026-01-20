@@ -72,6 +72,13 @@
                     "localizedDescription": "- **No longer requires StikDebug:** You only need to enable LocalDevVPN for it to work.\r\n- **App improvements:** Enhanced application performance and stability.",
                     "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.0/EnsWilde.ipa",
                     "size": 12773718
+                },
+                {
+                    "version": "EnsWilde3.1",
+                    "date": "2026-01-19T15:53:10Z",
+                    "localizedDescription": "## \u2705 Update Notes\r\n\r\n### Fixed\r\n- DDI issue has been resolved\r\n\r\n### Improvements\r\n- Added multi-language support\r\n\r\n### New Features\r\n- UI Theme option added  \r\n  - Allows disabling the Liquid Glass effect for a cleaner and smoother interface\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.1/EnsWilde.ipa",
+                    "size": 13311776
                 }
             ],
             "appPermissions": {
