@@ -10,6 +10,122 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Discord (BTLoader)",
+            "bundleIdentifier": "com.hammerandchisel.discord",
+            "marketplaceID": "",
+            "developerName": "CloudySn0w",
+            "subtitle": "Group Chat That\u2019s Fun & Games",
+            "localizedDescription": "\ud83d\udca7 BTLoader\nTweak to inject into Discord and perform various tasks.\n\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\n",
+            "iconURL": "https://github.com/CloudySn0w/BTLoader/blob/main/assets/logo/icon.png?raw=true",
+            "tintColor": "#a40300",
+            "category": "social",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/66/c5/2f66c537-1c12-e60e-195b-7dd3772eb3ca/baaf0ea6-bf25-48e8-bbcb-6f860eda5f96_1_GroupChat_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/3b/7c/ca3b7c22-1c65-8337-204c-4c6fb6c15950/932d11eb-9349-4c32-a611-4c9b4384017b_2_Stream_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/cb/15/77cb1519-aa19-6d48-af24-af61402e6acf/49f0b8ee-61f9-4fdc-a043-2f7904783cb5_3_SeeWhos_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/5f/09/475f0927-4563-b286-0ffe-fcd035db41f5/4e3c518b-f980-4622-8b2f-924f8e67117d_4_HopIn_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/53/a1/5f53a16e-a2f6-a1a7-4f0f-5b770676f1b4/e4df6caa-49a5-4503-8213-19bec0fc5b99_5_ToDo_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/af/30/ffaf30de-6ce2-5c06-398b-63aac988cd56/Hero_Image__U0028for_Apple_store_U0029_Server__U0028no_members_list_U0029_1242x2688_EN.png/230x498bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/f1/22/c3f1225c-ebf2-d5c3-5716-3852c1d30754/bf95ff77-d012-475f-8dad-9e79aecf4bcf_1_GroupChat_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/46/91/224691dd-1751-c82d-e5ca-a74ead2a7b44/1c99dc5c-2991-4a1d-8e68-c4e3a4fd447a_2_Stream_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/fe/60/45fe60f4-8fad-152f-12d0-de5b9d509651/64f9f3ac-867f-48ce-9779-4e2c71124699_3_SeeWhos_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/e6/72/95e67252-8600-abce-d2db-d5672a1a4fca/ce4b3b52-a43e-4d0d-8bd2-40b09a6f1849_4_HopIn_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/0d/0e/720d0e1c-b7c4-a663-50b4-1a131cb730fe/89fff3fa-e9fe-445a-a53e-436824057379_5_ToDo_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "305.1",
+                    "date": "2026-01-02T13:47:54Z",
+                    "localizedDescription": "\ud83c\udf89 | Download the latest stable build here.\r\n\r\n**_PS: For those who read these... which I doubt is many. We are staying on versions lower than 306. This is because 306 and onward has broken plugin settings pages. Which sadly only can be fixed by plugin devs stepping in, which they evidently have not. I can still do newer versions. But the vast majority never reads these messages and will assume the worst if it doesn't work out of the box. Sorry my fellow testers._**\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.1\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.1/bound.ipa",
+                    "size": 99214914,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "305.0",
+                    "date": "2025-11-17T22:58:47Z",
+                    "localizedDescription": "\u2705 | Download the latest stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.0/bound.ipa",
+                    "size": 99213527,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "303.0",
+                    "date": "2025-11-03T23:29:45Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!_\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v303.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v303.0/bound.ipa",
+                    "size": 95698547,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "301.0",
+                    "date": "2025-10-14T21:32:57Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v301.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v301.0/bound.ipa",
+                    "size": 94377178,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "297.0",
+                    "date": "2025-09-15T19:50:59Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v297.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v297.0/bound.ipa",
+                    "size": 93338979,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "294.0",
+                    "date": "2025-08-26T16:32:50Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n*PS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.*\r\n\r\n*Also I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.*\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v294.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
+                    "size": 93827160,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "313.0",
+                    "date": "2026-01-28T15:34:11Z",
+                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\r\n\r\n**_PS: I\u2019m reiterating this. This release WILL have the plugin setting page issue for older plugins. I thought some of you wanted a newer version so I made a build._** \u203c\ufe0f\u203c\ufe0f\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v313.0\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v313.0/bound.ipa",
+                    "size": 95683987
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Fur Affinity",
             "bundleIdentifier": "ceylo.FurAffinity",
             "marketplaceID": "",
@@ -10633,115 +10749,6 @@
                     "localizedDescription": "Happy WWDC! \ud83c\udf89\r\n\r\n## Changes\r\n* Improved contrast of buttons and spinner\r\n* Added pull-to-refresh on home screen\r\n* Fix alignment and display issues with activity indicator popup\r\n\r\n## Known Issues\r\n\r\nPlease check the full list on [Github][1] and help report any bug you find that is not listed.\r\n\r\n[1]: https://github.com/utmapp/UTM/issues",
                     "downloadURL": "https://github.com/utmapp/UTM/releases/download/v1.0/UTM.ipa",
                     "size": 130602898,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Discord (BTLoader)",
-            "bundleIdentifier": "com.hammerandchisel.discord",
-            "marketplaceID": "",
-            "developerName": "CloudySn0w",
-            "subtitle": "Group Chat That\u2019s Fun & Games",
-            "localizedDescription": "\ud83d\udca7 BTLoader\nTweak to inject into Discord and perform various tasks.\n\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\n",
-            "iconURL": "https://github.com/CloudySn0w/BTLoader/blob/main/assets/logo/icon.png?raw=true",
-            "tintColor": "#a40300",
-            "category": "social",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/66/c5/2f66c537-1c12-e60e-195b-7dd3772eb3ca/baaf0ea6-bf25-48e8-bbcb-6f860eda5f96_1_GroupChat_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/3b/7c/ca3b7c22-1c65-8337-204c-4c6fb6c15950/932d11eb-9349-4c32-a611-4c9b4384017b_2_Stream_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/cb/15/77cb1519-aa19-6d48-af24-af61402e6acf/49f0b8ee-61f9-4fdc-a043-2f7904783cb5_3_SeeWhos_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/5f/09/475f0927-4563-b286-0ffe-fcd035db41f5/4e3c518b-f980-4622-8b2f-924f8e67117d_4_HopIn_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/53/a1/5f53a16e-a2f6-a1a7-4f0f-5b770676f1b4/e4df6caa-49a5-4503-8213-19bec0fc5b99_5_ToDo_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/af/30/ffaf30de-6ce2-5c06-398b-63aac988cd56/Hero_Image__U0028for_Apple_store_U0029_Server__U0028no_members_list_U0029_1242x2688_EN.png/230x498bb.webp"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/f1/22/c3f1225c-ebf2-d5c3-5716-3852c1d30754/bf95ff77-d012-475f-8dad-9e79aecf4bcf_1_GroupChat_Tablet_2732x2048.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/46/91/224691dd-1751-c82d-e5ca-a74ead2a7b44/1c99dc5c-2991-4a1d-8e68-c4e3a4fd447a_2_Stream_Tablet_2732x2048.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/fe/60/45fe60f4-8fad-152f-12d0-de5b9d509651/64f9f3ac-867f-48ce-9779-4e2c71124699_3_SeeWhos_Tablet_2732x2048.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/e6/72/95e67252-8600-abce-d2db-d5672a1a4fca/ce4b3b52-a43e-4d0d-8bd2-40b09a6f1849_4_HopIn_Tablet_2732x2048.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/0d/0e/720d0e1c-b7c4-a663-50b4-1a131cb730fe/89fff3fa-e9fe-445a-a53e-436824057379_5_ToDo_Tablet_2732x2048.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "305.1",
-                    "date": "2026-01-02T13:47:54Z",
-                    "localizedDescription": "\ud83c\udf89 | Download the latest stable build here.\r\n\r\n**_PS: For those who read these... which I doubt is many. We are staying on versions lower than 306. This is because 306 and onward has broken plugin settings pages. Which sadly only can be fixed by plugin devs stepping in, which they evidently have not. I can still do newer versions. But the vast majority never reads these messages and will assume the worst if it doesn't work out of the box. Sorry my fellow testers._**\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.1\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.1/bound.ipa",
-                    "size": 99214914,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "305.0",
-                    "date": "2025-11-17T22:58:47Z",
-                    "localizedDescription": "\u2705 | Download the latest stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.0/bound.ipa",
-                    "size": 99213527,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "303.0",
-                    "date": "2025-11-03T23:29:45Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!_\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v303.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v303.0/bound.ipa",
-                    "size": 95698547,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "301.0",
-                    "date": "2025-10-14T21:32:57Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v301.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v301.0/bound.ipa",
-                    "size": 94377178,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "297.0",
-                    "date": "2025-09-15T19:50:59Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v297.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v297.0/bound.ipa",
-                    "size": 93338979,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "294.0",
-                    "date": "2025-08-26T16:32:50Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n*PS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.*\r\n\r\n*Also I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.*\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v294.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
-                    "size": 93827160,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
