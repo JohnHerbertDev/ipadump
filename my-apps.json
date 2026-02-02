@@ -10,6 +10,188 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "NebuloIPTV",
+            "bundleIdentifier": "personal.Nebulo",
+            "marketplaceID": "",
+            "developerName": "mongoosemonke504",
+            "subtitle": "Constant releases of my clean IPTV app with a built in sports score center",
+            "localizedDescription": "A modern, high-performance IPTV player built for iOS using SwiftUI, AVKit, and Combine.\n\n\u2728 Features\nUniversal Login Support:\nXtream Codes API: Standard login for most providers.\nM3U / M3U8 Playlists: Powerful parser for local or remote playlist files.\nStalker Portal: Support for MAG-style portal links.\n\ud83c\udfc0 Intelligent Sports Center:\nReal-Time Scores: Integration with ESPN API for live scores.\nSmart Search: Fuzzy matching logic automatically finds the best stream for a specific game (prioritizing 60fps/FHD streams).\nMulti-League Support: NBA, NFL, MLB, NHL, Premier League, UCL, Europa League, Ligue 1, and more.\n\ud83c\udfa8 Nebula UI Engine:\nCustom, interactive animated background using SwiftUI `Canvas`.\nGlassmorphic design with adaptable layouts (Sidebar for iPad/Landscape, Standard for iPhone).\nFully customizable colors and animation speeds.\n\u26a1\ufe0f Advanced Player:\nPicture-in-Picture (PiP): Multitask while watching.\nAirPlay 2: Cast directly to Apple TV or compatible smart TVs.\nQuality Detection: Auto-tags streams as SD, HD, or 4K based on resolution.",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/00/af/ee00af75-4d23-3465-95e3-a4ea787abfe7/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#007aff",
+            "category": "utilities",
+            "screenshots": [
+                "https://private-user-images.githubusercontent.com/249367002/531021449-89d2b1bf-bab3-463f-afa5-8cb366582626.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNDQ5LTg5ZDJiMWJmLWJhYjMtNDYzZi1hZmE1LThjYjM2NjU4MjYyNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05OGZhNmI2ODUyYjc3ZTc3Y2YxYjQ4YTA3YWJkNTVhY2M4MmQ5NTVjOTg3NzBjMDBjNTZkMzE4MmEzY2ExM2M0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.tYhDxlAZVxzBgjD2ZL6CMrTWArWeJvUrgMmBCwklNDA",
+                "https://private-user-images.githubusercontent.com/249367002/531021848-f4b1c02b-603f-4111-81a3-2b114199d306.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxODQ4LWY0YjFjMDJiLTYwM2YtNDExMS04MWEzLTJiMTE0MTk5ZDMwNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NDU2MDQ1N2NhNGQzNDRjMzgzOWMzNGZjMzhjZGEwNjdlMDY0MDljZTA3MmRiYzExY2QzNWNmMGNhNDVjYzQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4FHqvSE5fvXySbitrQmhOV4QuJ4XWhP9gMgkYBhuvFY",
+                "https://private-user-images.githubusercontent.com/249367002/531022014-290e074a-debe-4875-85c9-06310eceeb04.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIyMDE0LTI5MGUwNzRhLWRlYmUtNDg3NS04NWM5LTA2MzEwZWNlZWIwNC5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMWIyNDZjNTIwODFiMDY0Yzk5MDdiNTE0NGIxZGI1MGY2MzhlYzk4YzNmNWIxN2ExNDMwNjIyNjE3MDQ2NmY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.fEASoJFAZKAcSfL-T8-Quq58Ssaj9CcJIDJf3gSt0XE",
+                {
+                    "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
+                    "width": 2622,
+                    "height": 1206
+                },
+                {
+                    "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
+                    "width": 2622,
+                    "height": 1206
+                },
+                {
+                    "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
+                    "width": 2622,
+                    "height": 1206
+                }
+            ],
+            "versions": [
+                {
+                    "version": "V2.2",
+                    "date": "2026-01-14T05:40:01Z",
+                    "localizedDescription": "What's New in V2.4\r\n\r\n   * Redesigned Dashboard: A completely new home screen with Quick Access cards\r\n     for Favorites, Sports, and Recordings.\r\n   * Multi-Playlist & EPG Support: Log into multiple accounts and add custom\r\n     external EPG links to run simultaneously.\r\n   * Stream Recording: Built-in support to record live content and manage your\r\n     library directly in the app.\r\n   * Advanced Sports Logic: Improved smart-search logic to automatically match\r\n     games to the best available streams in the Sports section.\r\n   * Optimized Playback: Faster channel switching and smoother streaming\r\n     performance using updated VLC and KSPlayer engines.\r\n   * UI Customization: Fully adjustable button transparency and color settings,\r\n     plus custom nebula background effects.\r\n   * Captions: Added support for subtitles and closed captions on compatible\r\n     streams.\r\n   * In-App Updates: Check for and install the latest versions of Nebulo\r\n     directly from the settings menu.\r\n   * Performance: Extensive code cleanup and bug fixes for a faster, more stable\r\n     experience.\r\n",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.2/Nebulo_V2.2.14.ipa",
+                    "size": 56228678,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "V2.1",
+                    "date": "2025-12-31T05:29:04Z",
+                    "localizedDescription": "**Hot Fix**\r\n\r\nAfter my post to reddit I received a lot of useful feedback that I thought I would go ahead and implement. The following changes are below: \r\n\r\n**Stalker/MAC under construction it doesn't work right now**\r\n\r\n- New settings UI\r\n- Buttons to go forward or backward one channel\r\n\r\n- **Support for multiple playlists**\r\n\r\n- **Support for multiple EPGs**\r\n\r\n- Sort of in app updates. I can't really without a $99 a year dev account so right now it checks if you are up to date and if your not it will send you to the latest release tab in GitHub\r\n\r\n- **Completely revamped the speed of the player so channels will load much faster now closer to other apps like Smarters IPTV**\r\n\r\n- Slight refresh to the multi view section so channels don't reload every time a new channel is added.\r\n\r\n- mini player doesn't reload every time it is activated same for when the user goes back to full screen.",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.1/Nebulo_V2.1.8.ipa",
+                    "size": 5347319,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "V2.0",
+                    "date": "2025-12-30T06:07:00Z",
+                    "localizedDescription": "  \ud83d\ude80 Nebulo V2.0 - The Ultimate iOS IPTV Experience\r\n\r\n  Nebulo V2.0 is here! This is a complete rewrite and a massive leap forward,\r\n  bringing desktop-class features to your iPhone and iPad. With a stunning\r\n  glassmorphism UI, Multi-View support, and a dedicated Sports Center, Nebulo\r\n  defines how IPTV should look and feel on iOS.\r\n\r\n  \u2728 New Features\r\n\r\n  \ud83d\udcfa Multi-View Mode\r\n  Watch up to 4 streams simultaneously! Perfect for sports days or tracking\r\n  multiple news channels.\r\n   - Grid layout for 2x2 viewing.\r\n   - Seamlessly add channels from the player or context menus.\r\n   - Audio focus switching with a simple tap.\r\n\r\n  \u23ef\ufe0f All-New Custom Video Player\r\n  Built on top of AVKit for maximum performance and battery efficiency.\r\n   - Smart Picture-in-Picture (PiP): Now with refined logic\u2014PiP only activates\r\n     when you want it and automatically dismisses when you switch streams.\r\n   - Quick Switcher: Swipe up to surf channels without leaving the stream.\r\n   - Quality Indicators: Auto-detects 4K, 1080p, 720p, and SD streams.\r\n   - Mini Player: Keep watching in-app while browsing the guide.\r\n\r\n  \u26bd Sports Center & Smart EPG\r\n   - Sports Hub: A dedicated view to find live events quickly.\r\n   - Dynamic EPG: Live program updates with a \"Dynamic Island\" style loading\r\n     indicator.\r\n   - Smart Search: Find channels, categories, and current programs instantly.\r\n\r\n  \ud83c\udfa8 Stunning UI/UX\r\n   - Nebula Backgrounds: Dynamic, colorful backgrounds that breathe with the\r\n     app.\r\n   - Adaptive Layouts: Optimized interfaces for both iPhone (Standard) and iPad\r\n     (Sidebar/Landscape).\r\n   - Glassmorphism: Modern, translucent aesthetics throughout the app.\r\n\r\n  \ud83d\udee0 Under the Hood\r\n   - Performance: Significant optimizations in stream loading and memory\r\n     management.\r\n   - Stability: Fixed issues with background audio and stream switching.\r\n   - Stack: 100% SwiftUI & Combine.\r\n\r\n\r\n  Note: Requires a valid Xtream Codes, m3u, or stalker portal this is just an app it does not provide any of this.\r\n\r\n  ---\r\n\r\n  \u2764\ufe0f Support the Project\r\n\r\n  Nebulo is free and open-source. If you enjoy using it, consider buying me a\r\n  coffee!\r\n\r\n  <a href=\"https://buymeacoffee.com/mongoosemonke\">\r\n    <img\r\n  src=\"https://camo.githubusercontent.com/2103f6f19430c25368a3350117da5b736b008d\r\n  776858e772b226e642398555e0/68747470733a2f2f63646e2e6275796d6561636f666665652e6\r\n  36f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67\" alt=\"Buy Me\r\n  A Coffee\" width=\"160\">\r\n  </a>\r\n\r\n  ---\r\n\r\n  Found a bug? Open an issue!",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.0/NebuloV2.0.3.ipa",
+                    "size": 5238365,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "V1.1",
+                    "date": "2025-12-16T22:37:47Z",
+                    "localizedDescription": "This update brings a major new login method, significant video player upgrades, multiview, and highly requested UI fixes.\r\n\r\nNew Features\r\n * MAC Address / Stalker Portal Support: You can now login using a Portal URL and MAC Address (00:1A:79...). The app handles the handshake automatically.\r\n * Picture-in-Picture (PiP): Added a PiP toggle to the video player overlay. Watch your streams while using other apps!\r\n * Seek Controls: Added -10s and +10s buttons to the player overlay.\r\n * \"Jump to Live\" Button: The new LIVE indicator is now interactive. If you are behind, tap it to jump instantly to the latest point in the stream.\r\n *  Multiview: Added a multi-view section to watch up to 4 streams at the same time\r\n\r\nImprovements\r\n * Smart Search Fallback: If a specific game isn't found in Sports Center, the app now automatically searches for the broadcasting network (e.g., \"ESPN\") instead of showing zero results.\r\n * Sidebar Organization: Reordered sidebar items for better access: Recently Watched \u2192 Favorites \u2192 Sports Center \u2192 Multi-View \u2192 All Channels.\r\n * Update Logic: Added a \"Don't Ask Again\" option to the update alert to mute notifications for a specific version.\r\n * Login UI: Redesigned the login picker to support two lines of text, preventing cutoff on smaller screens.\r\n * More soccer leagues: Added more soccer leagues in the sports center section (Ligue 1, Serie A, Liga MX, and more)\r\n \r\nBug Fixes\r\n * Fixed Video Freezing: Completely rewrote the buffer logic to prevent the player from getting stuck on the first frame or freezing indefinitely during network stalls.\r\n * Fixed Multi-View Cropping: Streams in multi-view mode now show the full video picture instead of zooming in and cropping the edges.\r\n * Fixed Text Cutoff: Login instructions and titles now auto-shrink to fit any screen size without being cut off.\r\n \r\nHow to Install:\r\nDownload the .ipa file below and install via SideStore, AltStore, or TrollStore.\r\n",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V1.1/Nebulo.V1.1.ipa",
+                    "size": 2336382,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "Release",
+                    "date": "2025-12-12T22:35:17Z",
+                    "localizedDescription": "First iteration of my IPTV app",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/Release/Nebulo.ipa",
+                    "size": 2257619,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "V2.3",
+                    "date": "2026-02-01T23:41:23Z",
+                    "localizedDescription": "### **What's New in V2.3?**\r\n\r\n### **Major Improvements**\r\n- **Expanded Sports Section:** New categories for soccer and more sports added\r\n       - Settings to customize sports tabs, press and hold on a game for more options, language and resolution tags added, improved the searching for game.\r\n\r\n- **Stronger recording abilities:** The user can now record in the background when the phone is off, can now watch another stream while one is recording, recording will start again if app is force quit, replaced the recording function with one that can fill in any gaps leading to a much more stable experience.\r\n\r\n- **Fixed KSPlayer bug:** KSPlayer is much more reliable now with some bug fixes.\r\n\r\n- **Increased Multi-view reliability:** Multi-view should now work smoother with bug fixed. Made the layout much cleaner and more optimized\r\n\r\n### **UI/UX Improvements**\r\n- **Significantly Quicker Startup:** After logging in for the first time, loading is much faster and the epg updates either manually or once every 24 hours.\r\n\r\n- **Smart Progress Bar:** Progress bar is accurate after the first time it loads.\r\n\r\n- **Settings Upgrades:** \r\n       - Added a \"System Up to Date\" confirmation for manual update checks.\r\n       - Consolidated EPG loading status into the main overlay.\r\n       - Added a \"System Up to Date\" confirmation for manual update checks.\r\n\r\n### **Bug Fixes and Stability**\r\n- **EPG Parsing:** EPG parsing is faster and more efficient.\r\n- **KSPlayer Stalling:** KSPlayer would stop working after 30 seconds but it is much more stable now\r\n- **Memory Optimization:** Fixed memory leaks in the recording manager that would mess things up and crash app.\r\n\r\n### **Under the Hood**\r\n- **Update Checker Connected to GitHub:** Checks github to see if any updates have been released.\r\n- **FFmpegKit:** Switched to a more stable and up to date version of FFmpegKit which helped to fix KSPlayer's stability issues.",
+                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.3/Nebulo_V2.3.ipa",
+                    "size": 56279112
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "EnsWilde",
+            "bundleIdentifier": "com.yangjiii.EnsWilde",
+            "marketplaceID": "",
+            "developerName": "YangJiiii",
+            "subtitle": "An awesome app.",
+            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING - DISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the EnsWilde app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
+            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
+            "tintColor": "#d99800",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "EnsWilde2.1.2",
+                    "date": "2026-01-16T15:12:39Z",
+                    "localizedDescription": "Minor edits Passcode Theme\r\n\r\n- Added multilingual support. Priority order if one option doesn\u2019t work: Other Language \u2192 English \u2192 system language.\r\n- Fixed issues where image sizes were too small or too large.\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.2/EnsWilde.ipa",
+                    "size": 12750118,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.1.1",
+                    "date": "2026-01-15T14:06:49Z",
+                    "localizedDescription": "- Added supported device warnings ( IOS 18 - IOS 26.2 Beta 1 )\r\n- Improved zPatch Custom for better functionality\r\n- Updated Mobile Gestalt",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.1/EnsWilde.ipa",
+                    "size": 12684781,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.1",
+                    "date": "2026-01-13T13:39:34Z",
+                    "localizedDescription": "## Improvements\r\n\r\n- Improved overall stability and success rate\r\n- Prevented file corruption during execution\r\n- Updated the user interface to reduce unexpected errors\r\n- Fixed the issue where the app required restarting when enabling VPN\r\n- Added a few small features to Mobile Gestalt\r\n## New Features\r\n\r\n### Apple Wallet\r\n- Added support for custom background images for Apple Wallet passes\r\n\r\n### Passcode Theme\r\n- Added the ability to change the passcode unlock screen image\r\n\r\n## How to Use\r\n\r\n### Apple Wallet\r\nIf you don\u2019t have a Card ID yet:\r\n\r\n1. Remove the existing card from Wallet (if any)\r\n2. Tap Scan ID\r\n3. Scan your card\r\n4. Add the card to Wallet\r\n5. The app will automatically retrieve the Card ID\r\n\r\n### Passcode Theme\r\n\r\n1. Go to Theme Settings\r\n2. Select the appropriate language\r\n3. Select the appropriate Telephony option (priority: Telephony-10)\r\n\r\n## Download\r\n\r\nDownload passthm themes at:\r\nhttps://cowabun.ga/wallpapers\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1/EnsWilde.ipa",
+                    "size": 12626172,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde2.0",
+                    "date": "2026-01-05T15:30:18Z",
+                    "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable \u2013 experimental build) (enable it in Settings; password: **3105**)\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
+                    "size": 12242612,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde",
+                    "date": "2025-12-26T14:35:03Z",
+                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
+                    "size": 37995810,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "EnsWilde3.0",
+                    "date": "2026-01-18T07:14:23Z",
+                    "localizedDescription": "- **No longer requires StikDebug:** You only need to enable LocalDevVPN for it to work.\r\n- **App improvements:** Enhanced application performance and stability.",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.0/EnsWilde.ipa",
+                    "size": 12773718
+                },
+                {
+                    "version": "EnsWilde3.1",
+                    "date": "2026-01-19T15:53:10Z",
+                    "localizedDescription": "## \u2705 Update Notes\r\n\r\n### Fixed\r\n- DDI issue has been resolved\r\n\r\n### Improvements\r\n- Added multi-language support\r\n\r\n### New Features\r\n- UI Theme option added  \r\n  - Allows disabling the Liquid Glass effect for a cleaner and smoother interface\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.1/EnsWilde.ipa",
+                    "size": 13311776
+                },
+                {
+                    "version": "EnsWilde3.1.1",
+                    "date": "2026-01-22T11:37:58Z",
+                    "localizedDescription": "# Changelog\r\n\r\n## Bug Fixes\r\n- Fixed an issue where **rdar** was not working in **Mobile Gestalt**\r\n\r\n## New Features\r\n- Added a **Themes Store** to download passcode themes  \r\n  - You can also create your own custom theme  \r\n  - Contact me if you want your theme to be added\r\n\r\n## Language Support\r\n- Added **multi-language support**  \r\n  - If you want to contribute a new language, please contact me",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.1.1/EnsWilde.ipa",
+                    "size": 13564791
+                },
+                {
+                    "version": "EnsWilde3.1.2",
+                    "date": "2026-02-01T14:58:19Z",
+                    "localizedDescription": "# Fixes & Improvements\r\n\r\n## Bug Fixes\r\n- Fixed **StkJIT Code = -1** and **StkJIT Code = -60**\r\n- Fixed application **crash caused by outdated or invalid pairing files**\r\n  - A warning message is now shown instead of crashing when an old pairing file is detected\r\n\r\n## Testing & Verification\r\n- Tested and confirmed working on **LiveContainer**\r\n- Signed using a **personal certificate**\r\n\r\n---\r\nThank you for using and supporting the project.\r\n",
+                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.1.2/EnsWilde.ipa",
+                    "size": 13615407
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "dirtyZero",
             "bundleIdentifier": "com.jbdotparty.dirtyZero",
             "marketplaceID": "",
@@ -1450,91 +1632,6 @@
             "patreon": {}
         },
         {
-            "name": "EnsWilde",
-            "bundleIdentifier": "com.yangjiii.EnsWilde",
-            "marketplaceID": "",
-            "developerName": "YangJiiii",
-            "subtitle": "An awesome app.",
-            "localizedDescription": "EnsWilde is a tool utilizing `itunesstored` & `bookassetd` exploits, designed for iPhone and iPad running the latest **iOS Version 26.2b1**.\n\nIt operates as a standalone on-device application, functioning independently like modern apps. It leverages the `sparserestore` exploit to write data to files situated outside of the intended restore location.\n\nWARNING - DISCLAIMER:\nI am not responsible if your device enters a bootloop. Use this software with caution.\nPlease back up your data before using!\n\nFeatures\nDisable call recording notification sound:\nTurns off the audible warning when recording calls.\nMore features coming soon: Development is ongoing to add new capabilities.\n\nGetting Your .mobiledevicepairing File\nTo generate the necessary pairing file, follow these steps:\n\n1.  Download `jitterbugpair` for your specific operating system here: [Jitterbug Releases](https://github.com/osy/Jitterbug/releases/latest)\n    * Note: On Mac or Linux, you may need to run the following terminal command in the file's directory to make it executable:\n        ```bash\n        chmod +x ./jitterbugpair\n        ```\n2.  Run the program by double-clicking it or executing it via Terminal/PowerShell.\n3.  Share the generated `.mobiledevicepairing` file to your iOS device (via AirDrop, Files, etc.).\n4.  Open the EnsWilde app and select the pairing file.\n\nYou should only have to do this once, unless you lose the file or delete the app's data.*\n\nSetting Up VPN\n1.  Download LocaldevVPN or Stikdebug from the iOS App Store.\n2.  Enable the VPN within that app.\n3.  Launch EnsWilde.",
-            "iconURL": "https://raw.githubusercontent.com/YangJiiii/EnsWilde/refs/heads/main/MyApp_Dark_1024.png",
-            "tintColor": "#d99800",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "EnsWilde2.1.2",
-                    "date": "2026-01-16T15:12:39Z",
-                    "localizedDescription": "Minor edits Passcode Theme\r\n\r\n- Added multilingual support. Priority order if one option doesn\u2019t work: Other Language \u2192 English \u2192 system language.\r\n- Fixed issues where image sizes were too small or too large.\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.2/EnsWilde.ipa",
-                    "size": 12750118,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde2.1.1",
-                    "date": "2026-01-15T14:06:49Z",
-                    "localizedDescription": "- Added supported device warnings ( IOS 18 - IOS 26.2 Beta 1 )\r\n- Improved zPatch Custom for better functionality\r\n- Updated Mobile Gestalt",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1.1/EnsWilde.ipa",
-                    "size": 12684781,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde2.1",
-                    "date": "2026-01-13T13:39:34Z",
-                    "localizedDescription": "## Improvements\r\n\r\n- Improved overall stability and success rate\r\n- Prevented file corruption during execution\r\n- Updated the user interface to reduce unexpected errors\r\n- Fixed the issue where the app required restarting when enabling VPN\r\n- Added a few small features to Mobile Gestalt\r\n## New Features\r\n\r\n### Apple Wallet\r\n- Added support for custom background images for Apple Wallet passes\r\n\r\n### Passcode Theme\r\n- Added the ability to change the passcode unlock screen image\r\n\r\n## How to Use\r\n\r\n### Apple Wallet\r\nIf you don\u2019t have a Card ID yet:\r\n\r\n1. Remove the existing card from Wallet (if any)\r\n2. Tap Scan ID\r\n3. Scan your card\r\n4. Add the card to Wallet\r\n5. The app will automatically retrieve the Card ID\r\n\r\n### Passcode Theme\r\n\r\n1. Go to Theme Settings\r\n2. Select the appropriate language\r\n3. Select the appropriate Telephony option (priority: Telephony-10)\r\n\r\n## Download\r\n\r\nDownload passthm themes at:\r\nhttps://cowabun.ga/wallpapers\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.1/EnsWilde.ipa",
-                    "size": 12626172,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde2.0",
-                    "date": "2026-01-05T15:30:18Z",
-                    "localizedDescription": "Updated to the new UI for version 2.0\r\nImproved stability\r\nFixed an app crash when the pairing file is corrupted or when updating to a new pairing file\r\n\r\n- Allow editing the MobileGestalt file\r\n- zPatch Custom feature (unstable \u2013 experimental build) (enable it in Settings; password: **3105**)\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde2.0/EnsWilde.ipa",
-                    "size": 12242612,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde",
-                    "date": "2025-12-26T14:35:03Z",
-                    "localizedDescription": "Release the first version\r\n\r\n- Support Disable Call Recording\r\n- More features will be added/updated",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde/EnsWilde.ipa",
-                    "size": 37995810,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "EnsWilde3.0",
-                    "date": "2026-01-18T07:14:23Z",
-                    "localizedDescription": "- **No longer requires StikDebug:** You only need to enable LocalDevVPN for it to work.\r\n- **App improvements:** Enhanced application performance and stability.",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.0/EnsWilde.ipa",
-                    "size": 12773718
-                },
-                {
-                    "version": "EnsWilde3.1",
-                    "date": "2026-01-19T15:53:10Z",
-                    "localizedDescription": "## \u2705 Update Notes\r\n\r\n### Fixed\r\n- DDI issue has been resolved\r\n\r\n### Improvements\r\n- Added multi-language support\r\n\r\n### New Features\r\n- UI Theme option added  \r\n  - Allows disabling the Liquid Glass effect for a cleaner and smoother interface\r\n",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.1/EnsWilde.ipa",
-                    "size": 13311776
-                },
-                {
-                    "version": "EnsWilde3.1.1",
-                    "date": "2026-01-22T11:37:58Z",
-                    "localizedDescription": "# Changelog\r\n\r\n## Bug Fixes\r\n- Fixed an issue where **rdar** was not working in **Mobile Gestalt**\r\n\r\n## New Features\r\n- Added a **Themes Store** to download passcode themes  \r\n  - You can also create your own custom theme  \r\n  - Contact me if you want your theme to be added\r\n\r\n## Language Support\r\n- Added **multi-language support**  \r\n  - If you want to contribute a new language, please contact me",
-                    "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.1.1/EnsWilde.ipa",
-                    "size": 13564791
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "Spotify (Eevee)",
             "bundleIdentifier": "com.spotify.client",
             "marketplaceID": "",
@@ -1817,89 +1914,6 @@
                     "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
                     "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/15-1/patched.ipa",
                     "size": 84208719,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "NebuloIPTV",
-            "bundleIdentifier": "personal.Nebulo",
-            "marketplaceID": "",
-            "developerName": "mongoosemonke504",
-            "subtitle": "Constant releases of my clean IPTV app with a built in sports score center",
-            "localizedDescription": "A modern, high-performance IPTV player built for iOS using SwiftUI, AVKit, and Combine.\n\n\u2728 Features\nUniversal Login Support:\nXtream Codes API: Standard login for most providers.\nM3U / M3U8 Playlists: Powerful parser for local or remote playlist files.\nStalker Portal: Support for MAG-style portal links.\n\ud83c\udfc0 Intelligent Sports Center:\nReal-Time Scores: Integration with ESPN API for live scores.\nSmart Search: Fuzzy matching logic automatically finds the best stream for a specific game (prioritizing 60fps/FHD streams).\nMulti-League Support: NBA, NFL, MLB, NHL, Premier League, UCL, Europa League, Ligue 1, and more.\n\ud83c\udfa8 Nebula UI Engine:\nCustom, interactive animated background using SwiftUI `Canvas`.\nGlassmorphic design with adaptable layouts (Sidebar for iPad/Landscape, Standard for iPhone).\nFully customizable colors and animation speeds.\n\u26a1\ufe0f Advanced Player:\nPicture-in-Picture (PiP): Multitask while watching.\nAirPlay 2: Cast directly to Apple TV or compatible smart TVs.\nQuality Detection: Auto-tags streams as SD, HD, or 4K based on resolution.",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ee/00/af/ee00af75-4d23-3465-95e3-a4ea787abfe7/Placeholder.mill/400x400bb-75.webp",
-            "tintColor": "#007aff",
-            "category": "utilities",
-            "screenshots": [
-                "https://private-user-images.githubusercontent.com/249367002/531021449-89d2b1bf-bab3-463f-afa5-8cb366582626.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNDQ5LTg5ZDJiMWJmLWJhYjMtNDYzZi1hZmE1LThjYjM2NjU4MjYyNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05OGZhNmI2ODUyYjc3ZTc3Y2YxYjQ4YTA3YWJkNTVhY2M4MmQ5NTVjOTg3NzBjMDBjNTZkMzE4MmEzY2ExM2M0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.tYhDxlAZVxzBgjD2ZL6CMrTWArWeJvUrgMmBCwklNDA",
-                "https://private-user-images.githubusercontent.com/249367002/531021848-f4b1c02b-603f-4111-81a3-2b114199d306.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxODQ4LWY0YjFjMDJiLTYwM2YtNDExMS04MWEzLTJiMTE0MTk5ZDMwNi5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NDU2MDQ1N2NhNGQzNDRjMzgzOWMzNGZjMzhjZGEwNjdlMDY0MDljZTA3MmRiYzExY2QzNWNmMGNhNDVjYzQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4FHqvSE5fvXySbitrQmhOV4QuJ4XWhP9gMgkYBhuvFY",
-                "https://private-user-images.githubusercontent.com/249367002/531022014-290e074a-debe-4875-85c9-06310eceeb04.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIyMDE0LTI5MGUwNzRhLWRlYmUtNDg3NS04NWM5LTA2MzEwZWNlZWIwNC5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMWIyNDZjNTIwODFiMDY0Yzk5MDdiNTE0NGIxZGI1MGY2MzhlYzk4YzNmNWIxN2ExNDMwNjIyNjE3MDQ2NmY1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.fEASoJFAZKAcSfL-T8-Quq58Ssaj9CcJIDJf3gSt0XE",
-                {
-                    "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
-                    "width": 2622,
-                    "height": 1206
-                },
-                {
-                    "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
-                    "width": 2622,
-                    "height": 1206
-                },
-                {
-                    "imageURL": "https://private-user-images.githubusercontent.com/249367002/531021614-33214bb6-b0e4-4adf-871d-5bb79a37e6ce.PNG?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njg0NDY1ODEsIm5iZiI6MTc2ODQ0NjI4MSwicGF0aCI6Ii8yNDkzNjcwMDIvNTMxMDIxNjE0LTMzMjE0YmI2LWIwZTQtNGFkZi04NzFkLTViYjc5YTM3ZTZjZS5QTkc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMTE1JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDExNVQwMzA0NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZWFmNDM0NmQ1ZTBkMjEzNjQyYmQ4NjFlMjBlYTk3NGU1ZmM5NDdkODk1MGU1Nzg0YmFjNmZhZjllZDEwM2JjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.MtwTsIJeDuU1zTfGcTufJWbT3TDoV_N3uBeWj8CRXco",
-                    "width": 2622,
-                    "height": 1206
-                }
-            ],
-            "versions": [
-                {
-                    "version": "V2.2",
-                    "date": "2026-01-14T05:40:01Z",
-                    "localizedDescription": "What's New in V2.4\r\n\r\n   * Redesigned Dashboard: A completely new home screen with Quick Access cards\r\n     for Favorites, Sports, and Recordings.\r\n   * Multi-Playlist & EPG Support: Log into multiple accounts and add custom\r\n     external EPG links to run simultaneously.\r\n   * Stream Recording: Built-in support to record live content and manage your\r\n     library directly in the app.\r\n   * Advanced Sports Logic: Improved smart-search logic to automatically match\r\n     games to the best available streams in the Sports section.\r\n   * Optimized Playback: Faster channel switching and smoother streaming\r\n     performance using updated VLC and KSPlayer engines.\r\n   * UI Customization: Fully adjustable button transparency and color settings,\r\n     plus custom nebula background effects.\r\n   * Captions: Added support for subtitles and closed captions on compatible\r\n     streams.\r\n   * In-App Updates: Check for and install the latest versions of Nebulo\r\n     directly from the settings menu.\r\n   * Performance: Extensive code cleanup and bug fixes for a faster, more stable\r\n     experience.\r\n",
-                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.2/Nebulo_V2.2.14.ipa",
-                    "size": 56228678,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "V2.1",
-                    "date": "2025-12-31T05:29:04Z",
-                    "localizedDescription": "**Hot Fix**\r\n\r\nAfter my post to reddit I received a lot of useful feedback that I thought I would go ahead and implement. The following changes are below: \r\n\r\n**Stalker/MAC under construction it doesn't work right now**\r\n\r\n- New settings UI\r\n- Buttons to go forward or backward one channel\r\n\r\n- **Support for multiple playlists**\r\n\r\n- **Support for multiple EPGs**\r\n\r\n- Sort of in app updates. I can't really without a $99 a year dev account so right now it checks if you are up to date and if your not it will send you to the latest release tab in GitHub\r\n\r\n- **Completely revamped the speed of the player so channels will load much faster now closer to other apps like Smarters IPTV**\r\n\r\n- Slight refresh to the multi view section so channels don't reload every time a new channel is added.\r\n\r\n- mini player doesn't reload every time it is activated same for when the user goes back to full screen.",
-                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.1/Nebulo_V2.1.8.ipa",
-                    "size": 5347319,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "V2.0",
-                    "date": "2025-12-30T06:07:00Z",
-                    "localizedDescription": "  \ud83d\ude80 Nebulo V2.0 - The Ultimate iOS IPTV Experience\r\n\r\n  Nebulo V2.0 is here! This is a complete rewrite and a massive leap forward,\r\n  bringing desktop-class features to your iPhone and iPad. With a stunning\r\n  glassmorphism UI, Multi-View support, and a dedicated Sports Center, Nebulo\r\n  defines how IPTV should look and feel on iOS.\r\n\r\n  \u2728 New Features\r\n\r\n  \ud83d\udcfa Multi-View Mode\r\n  Watch up to 4 streams simultaneously! Perfect for sports days or tracking\r\n  multiple news channels.\r\n   - Grid layout for 2x2 viewing.\r\n   - Seamlessly add channels from the player or context menus.\r\n   - Audio focus switching with a simple tap.\r\n\r\n  \u23ef\ufe0f All-New Custom Video Player\r\n  Built on top of AVKit for maximum performance and battery efficiency.\r\n   - Smart Picture-in-Picture (PiP): Now with refined logic\u2014PiP only activates\r\n     when you want it and automatically dismisses when you switch streams.\r\n   - Quick Switcher: Swipe up to surf channels without leaving the stream.\r\n   - Quality Indicators: Auto-detects 4K, 1080p, 720p, and SD streams.\r\n   - Mini Player: Keep watching in-app while browsing the guide.\r\n\r\n  \u26bd Sports Center & Smart EPG\r\n   - Sports Hub: A dedicated view to find live events quickly.\r\n   - Dynamic EPG: Live program updates with a \"Dynamic Island\" style loading\r\n     indicator.\r\n   - Smart Search: Find channels, categories, and current programs instantly.\r\n\r\n  \ud83c\udfa8 Stunning UI/UX\r\n   - Nebula Backgrounds: Dynamic, colorful backgrounds that breathe with the\r\n     app.\r\n   - Adaptive Layouts: Optimized interfaces for both iPhone (Standard) and iPad\r\n     (Sidebar/Landscape).\r\n   - Glassmorphism: Modern, translucent aesthetics throughout the app.\r\n\r\n  \ud83d\udee0 Under the Hood\r\n   - Performance: Significant optimizations in stream loading and memory\r\n     management.\r\n   - Stability: Fixed issues with background audio and stream switching.\r\n   - Stack: 100% SwiftUI & Combine.\r\n\r\n\r\n  Note: Requires a valid Xtream Codes, m3u, or stalker portal this is just an app it does not provide any of this.\r\n\r\n  ---\r\n\r\n  \u2764\ufe0f Support the Project\r\n\r\n  Nebulo is free and open-source. If you enjoy using it, consider buying me a\r\n  coffee!\r\n\r\n  <a href=\"https://buymeacoffee.com/mongoosemonke\">\r\n    <img\r\n  src=\"https://camo.githubusercontent.com/2103f6f19430c25368a3350117da5b736b008d\r\n  776858e772b226e642398555e0/68747470733a2f2f63646e2e6275796d6561636f666665652e6\r\n  36f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67\" alt=\"Buy Me\r\n  A Coffee\" width=\"160\">\r\n  </a>\r\n\r\n  ---\r\n\r\n  Found a bug? Open an issue!",
-                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V2.0/NebuloV2.0.3.ipa",
-                    "size": 5238365,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "V1.1",
-                    "date": "2025-12-16T22:37:47Z",
-                    "localizedDescription": "This update brings a major new login method, significant video player upgrades, multiview, and highly requested UI fixes.\r\n\r\nNew Features\r\n * MAC Address / Stalker Portal Support: You can now login using a Portal URL and MAC Address (00:1A:79...). The app handles the handshake automatically.\r\n * Picture-in-Picture (PiP): Added a PiP toggle to the video player overlay. Watch your streams while using other apps!\r\n * Seek Controls: Added -10s and +10s buttons to the player overlay.\r\n * \"Jump to Live\" Button: The new LIVE indicator is now interactive. If you are behind, tap it to jump instantly to the latest point in the stream.\r\n *  Multiview: Added a multi-view section to watch up to 4 streams at the same time\r\n\r\nImprovements\r\n * Smart Search Fallback: If a specific game isn't found in Sports Center, the app now automatically searches for the broadcasting network (e.g., \"ESPN\") instead of showing zero results.\r\n * Sidebar Organization: Reordered sidebar items for better access: Recently Watched \u2192 Favorites \u2192 Sports Center \u2192 Multi-View \u2192 All Channels.\r\n * Update Logic: Added a \"Don't Ask Again\" option to the update alert to mute notifications for a specific version.\r\n * Login UI: Redesigned the login picker to support two lines of text, preventing cutoff on smaller screens.\r\n * More soccer leagues: Added more soccer leagues in the sports center section (Ligue 1, Serie A, Liga MX, and more)\r\n \r\nBug Fixes\r\n * Fixed Video Freezing: Completely rewrote the buffer logic to prevent the player from getting stuck on the first frame or freezing indefinitely during network stalls.\r\n * Fixed Multi-View Cropping: Streams in multi-view mode now show the full video picture instead of zooming in and cropping the edges.\r\n * Fixed Text Cutoff: Login instructions and titles now auto-shrink to fit any screen size without being cut off.\r\n \r\nHow to Install:\r\nDownload the .ipa file below and install via SideStore, AltStore, or TrollStore.\r\n",
-                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/V1.1/Nebulo.V1.1.ipa",
-                    "size": 2336382,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "Release",
-                    "date": "2025-12-12T22:35:17Z",
-                    "localizedDescription": "First iteration of my IPTV app",
-                    "downloadURL": "https://github.com/mongoosemonke504/NebuloIPTV/releases/download/Release/Nebulo.ipa",
-                    "size": 2257619,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
