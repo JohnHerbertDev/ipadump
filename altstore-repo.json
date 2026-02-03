@@ -10,6 +10,313 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Spotify (Eevee)",
+            "bundleIdentifier": "com.spotify.client",
+            "marketplaceID": "",
+            "developerName": "meownyaaa",
+            "subtitle": "Songs, Playlists & Audiobooks",
+            "localizedDescription": "With the Spotify app, you can explore an extensive library of music and podcasts for free. Curate the best playlists and stream millions of free songs, albums, and original podcasts on your phone or tablet. Subscribe to Spotify Premium to download and listen offline wherever you are, and unlock our catalog of audiobooks.\n\nWhy choose Spotify as your go-to music and podcast app? Here, you can:\n\u2022 Listen to over 100 million songs and 6 million podcast titles\n\u2022 Explore our selection of specially-crafted artist playlists\n\u2022 Easily search for your favorite songs, albums, artists, and podcasts\n\u2022 Discover personalized music recommendations tailored to your unique taste\n\u2022 Subscribe to your favorite free podcasts so you never miss an episode, and even curate your own podcast library\n\nSpotify Free is more than a music player - find the sounds you love and stream music and podcasts online, for free. Enjoy personalized playlists or curate and share your own, discover the hottest new releases, explore upcoming events from your favorites, and more.\n\n\u2022 Stream millions of free songs and podcasts\n\u2022 Create playlists with your favorite music\n\u2022 Share songs and playlists with friends and family (feature restrictions may apply in some regions)\n\u2022 Discover personalized playlists made just for you, and collaborate on playlists with your friends\n\u2022 Enjoy your personal Discover Weekly playlist every week\n\u2022 Stay in the know with the Release Radar and New Music Friday playlists\n\u2022 Find nearby events and gigs by your favorite artists\n\u2022 See your most played songs, genres, artists, and more with yearly Spotify Wrapped\n\u2022 Stream music across your devices with Spotify\n\u2022 Use Spotify Connect and enjoy listening on smart speakers, desktop, laptop, smart TV, Chromecast, PlayStation\u00ae, Xbox\u00ae, smartwatch, in your car, and more - limited number of device models apply",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/d0/d3/0bd0d39f-9a33-eb69-6cfe-ecd01a38c2b0/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#4bb451",
+            "category": "entertainment",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/58/0d/28580d62-47f7-d6ce-aa73-69e3dbe21642/IOS_-_6.5_-_S01_-_EN_-_US.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/fb/21/13fb2184-8c5c-190c-86af-582bb5430446/IOS_-_6.5_-_S02_-_EN_-_US.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/5d/d5/635dd568-ba3b-a0a1-2916-52497dec2ad6/IOS_-_6.5_-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/07/b2/5b07b2d7-b990-cf1c-1154-350d877c00a0/IOS_-_6.5_-_S03_-_EN_-_US.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/3e/94/a23e94b6-1401-de71-817e-5a33b4d821a9/IOS_-_6.5_-_S04_-_EN_-_US.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/9a/47/fd9a47d4-029b-eb3b-2a39-a6de9b515aae/IOS_-_6.5_-_S05_-_EN_-_US.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/01/1a/ed011a26-bdbe-0c99-160b-2a79eadb857d/IOS_-_6.5_-_S06_-_EN_-_US.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/ad/72/e8ad72c3-9abc-f028-485f-22d787ab03e4/IOS_-_6.5_-_S07_-_EN_-_US.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/d1/a4/0dd1a46a-3e03-e522-7ec4-a8e6c3cc84da/IOS_-_6.5_-_S08_-_EN_-_US.png/230x498bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/77/26/f57726a8-9d53-3a59-a5ab-a267c7ff6356/IOS_-_Ipad_13__-_S01_-_EN_-_US.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/34/5e/4a345e06-7088-d4f6-b30e-b8a61f43cb9e/IOS_-_Ipad_13__-_S02_-_EN_-_US.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/75/3d/4c753da9-30d5-ceec-4bbe-26b3f1e6eb09/IOS_-_Ipad_13__-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/40/f1/3340f1f3-f2b0-b53a-490a-d8ada00f07a5/IOS_-_Ipad_13__-_S03_-_EN_-_US.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/9e/cc/4c9ecc99-7dda-90de-d859-c6b70604c399/IOS_-_Ipad_13__-_S04_-_EN_-_US.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/f2/cf/6ff2cffe-9324-d323-6242-553b524556f6/IOS_-_Ipad_13__-_S05_-_EN_-_US.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/c0/c7/a4c0c752-950d-70e6-ddbb-66a577947d66/IOS_-_Ipad_13__-_S06_-_EN_-_US.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "9.1.12-new",
+                    "date": "2026-01-15T20:05:31Z",
+                    "localizedDescription": "# Changelog\r\n- update to spotify 9.1.12\r\n- update to swift 6.5.0\r\n- Re added Musixmatch lyrics option\r\n\r\ni am losing motivation, the tweak provided by Meeep1 is broken when being put through the action and required me to mess around with both the \"official\" IPA and my own IPA to get the working EeveeSpotify.dylib into mine. this took 3 hours because iOS is such a pain in the ass to mess around with and is overall just confusing. i would fix it myself if i could \r\n\r\n\r\ndlopen(/private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Spotify, 0x0109): Symbol not found: _$s13SwiftProtobuf7DecoderP14decodeMapField9fieldType5valueyAA01_b7MessageE0Vyqd__qd_0_Gm_SDy04BaseH0Qyd__qd_0_GztKAA0e3KeyH0Rd__SHRd_0_AA0J0Rd_0_r0_lFTj\r\n\u00a0 Referenced from: <06368551-DF9E-38E6-AB86-B9BA2AF98489> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/EeveeSpotify.dylib\r\n\u00a0 Expected in: \u00a0 \u00a0 <E93D670B-A598-3CDD-9FD2-0113BCFF5C2C> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.12-new/EeveeSpotify-9.1.12-Swift-6.5.0.ipa",
+                    "size": 89697212,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.1.6-new",
+                    "date": "2026-01-02T07:09:23Z",
+                    "localizedDescription": "# Changelog\r\n- update to spotify 9.1.6\r\n- update to swift 6.4.8(?)\r\nThis version uses a [different repo]( https://github.com/Meeep1/EeveeSpotifyRevivedPublic) for the tweak as the original EeveeSpotify was discontinued, and lyrics do not work properly.\r\nSigning in also seems to be spotty. If you cannot sign in, install 9.1.0 first to sign in then update.",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.6-new/sidestore.ipa",
+                    "size": 95808186,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "patch-38",
+                    "date": "2025-12-26T03:19:40Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/patch-38/sidestore.ipa",
+                    "size": 95159030,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.1.0-SideStore",
+                    "date": "2025-11-29T02:21:56Z",
+                    "localizedDescription": "# Changelog\r\n- update to 9.1.0",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.0-SideStore/sidestore.ipa",
+                    "size": 94526238,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.98-SideStore",
+                    "date": "2025-11-23T19:28:37Z",
+                    "localizedDescription": "# Changelog\r\n- update to 9.0.98",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.98-SideStore/sidestore.ipa",
+                    "size": 93921078,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.48-6.2.2",
+                    "date": "2025-11-13T14:27:00Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.96\r\n- Fixed lyrics not displaying for local tracks\r\n- Fixed blank lyrics on app launch\r\n- Possibly fixed \"Songs play in random order\" (Reset Data in EeveeSpotify settings)",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.2.2/sidestore.ipa",
+                    "size": 82359516,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.96-SideStore",
+                    "date": "2025-11-13T14:26:18Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.96\r\n- Fixed lyrics not displaying for local tracks\r\n- Fixed blank lyrics on app launch\r\n- Possibly fixed \"Songs play in random order\" (Reset Data in EeveeSpotify settings)",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.96-SideStore/sidestore.ipa",
+                    "size": 93219642,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.94-SideStore",
+                    "date": "2025-11-09T22:45:01Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.94\r\n- Fixed \"Songs now play in a random order\" (again)\r\n- Fixed Musixmatch sending too many requests (causing unauthorized errors due to captcha and slow lyrics loading)\r\n- Fixed lyrics not appearing for songs that don't have lyrics on Spotify",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.94-SideStore/sidestore.ipa",
+                    "size": 93213518,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "masterful-gambit",
+                    "date": "2025-11-09T08:39:32Z",
+                    "localizedDescription": "# Changelog\r\n- crashes, crashes, more crashes!",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/masterful-gambit/broken.ipa",
+                    "size": 93209471,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "patch-27",
+                    "date": "2025-11-02T11:21:16Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.91 (the new architecture and lyrics, huge thanks to everyone who donated!)\r\n- Fixed the plan overview screen\r\n- Fixed very high and lossless quality pop-ups\r\n- Fixed the issue with \"Recently played artists\" turning back on (https://github.com/whoeevee/EeveeSpotifyReborn/issues/128)\r\n- Possibly fixed crashes related to lyrics\r\n- Updated Italian localization by @Andrea-Filice\r\n- Update to Swift 6,2",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/patch-27/sidestore.ipa",
+                    "size": 82350911,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.91-SideStore",
+                    "date": "2025-11-02T11:15:46Z",
+                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.91 (the new architecture and lyrics, huge thanks to everyone who donated!)\r\n- Fixed the plan overview screen\r\n- Fixed very high and lossless quality pop-ups\r\n- Fixed the issue with \"Recently played artists\" turning back on (https://github.com/whoeevee/EeveeSpotifyReborn/issues/128)\r\n- Possibly fixed crashes related to lyrics\r\n- Updated Italian localization by @Andrea-Filice\r\n- Update to 9.0.91\r\n- Update to Swift 6,2",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.91-SideStore/sidestore.ipa",
+                    "size": 94759402,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.48-6.1.6",
+                    "date": "2025-10-17T06:02:08Z",
+                    "localizedDescription": "# Changelog\r\n- Update to Swift 6.1.6",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.1.6/sidestore.ipa",
+                    "size": 82340487,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.86-Swift-6.1.6",
+                    "date": "2025-10-10T15:02:48Z",
+                    "localizedDescription": "# Changelock\r\n- \"Songs play in a random order\" should be fully fixed (reset data in the EeveeSpotify settings beforehand)\r\n- Update to Swift 6.1.6",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.86-Swift-6.1.6/sidestore.ipa",
+                    "size": 94049938,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.86-SideStore",
+                    "date": "2025-10-08T17:43:11Z",
+                    "localizedDescription": "#Changelog\r\n- update to 9.0.86",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.86-SideStore/sidestore.ipa",
+                    "size": 94049027,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.84-SideStore",
+                    "date": "2025-10-03T11:56:58Z",
+                    "localizedDescription": "# Changelog\r\n- 9.0.84 \r\n- minor swift update?",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.84-SideStore/sidestore.ipa",
+                    "size": 90503410,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.82-SideStore",
+                    "date": "2025-09-29T14:49:01Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.82-SideStore/sidestore.ipa",
+                    "size": 90001645,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.82",
+                    "date": "2025-09-29T06:01:59Z",
+                    "localizedDescription": "# Changelog\r\n\r\n- Fixed \"Songs play in random order\" (if this occurs after some time, reset data in the EeveeSpotify settings so far)\r\n- Fixed queue reordering\r\n- Update to 9.0.82",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.82/patched.ipa",
+                    "size": 92031228,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.48-6.1.5",
+                    "date": "2025-09-26T01:28:29Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.1.5/patched.ipa",
+                    "size": 84213006,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.80-6.1.5",
+                    "date": "2025-09-26T01:26:45Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.80-6.1.5/patched.ipa",
+                    "size": 91490852,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.80",
+                    "date": "2025-09-20T06:34:59Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.80/patched.ipa",
+                    "size": 91489386,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "nowatchkit-9.0.78",
+                    "date": "2025-09-19T18:20:35Z",
+                    "localizedDescription": "From now on, the IPAs used in workflows will have Payload/Watch aka WatchKit removed so people can sideload it on its own instead of needing LiveContainer.",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/nowatchkit-9.0.78/NoWatchKit-patched.ipa",
+                    "size": 91457593,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "nowatchkit-9.0.48",
+                    "date": "2025-09-19T18:20:03Z",
+                    "localizedDescription": "From now on, the IPAs used in workflows will have Payload/Watch aka WatchKit removed so people can sideload it on its own instead of needing LiveContainer.",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/nowatchkit-9.0.48/NoWatchKit-patched.ipa",
+                    "size": 84211429,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.0.78",
+                    "date": "2025-09-12T17:46:02Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/meownyaaa/EeveeIPA/compare/latest-8...latest-1",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.78/patched.ipa",
+                    "size": 116925110,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "latest-8",
+                    "date": "2025-08-31T04:20:04Z",
+                    "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/latest-8/patched.ipa",
+                    "size": 116159961,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "15-1",
+                    "date": "2025-08-31T04:07:38Z",
+                    "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/15-1/patched.ipa",
+                    "size": 84208719,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "9.1.16-new",
+                    "date": "2026-02-02T17:32:02Z",
+                    "localizedDescription": "# Changelog\r\n- Change repos AGAIN\r\n- Update to 9.1.16\r\n- Update to Swift 6.5.1\r\n\r\nBuilt at [meowra1n/new](https://github.com/meowra1n/new/)\r\n\r\nFork used https://github.com/[elbing/EeveeSpotifyRevivedPublic](https://github.com/elbing/EeveeSpotifyRevivedPublic)\r\n",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.16-new/sidestore.ipa",
+                    "size": 94724657
+                },
+                {
+                    "version": "ios-15-latest",
+                    "date": "2026-02-02T17:43:59Z",
+                    "localizedDescription": "# Changelog\r\n- rip iOS 15 tweak updates, spotify crashes with newest tweak.",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/ios-15-latest/sidestore.ipa",
+                    "size": 82359512
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "NebuloIPTV",
             "bundleIdentifier": "personal.Nebulo",
             "marketplaceID": "",
@@ -1623,299 +1930,6 @@
                     "localizedDescription": "# Release Notes: v1.6.1\r\n\r\n<p align=\"center\">\r\n  <img\r\n    width=\"256\"\r\n    height=\"256\"\r\n    alt=\"icon\"\r\n    src=\"https://github.com/user-attachments/assets/dc4871de-e270-44f6-9a7d-97c92b666e9e\"\r\n  />\r\n</p>\r\n\r\n\r\n## What's New\r\n\r\n- controller support tested and working on both platforms for gameplay, test out the app on your android handhelds now!\r\n- fixed rescan library on every home page visit\r\n- added manual rescan library to settings (try this if 1.6 messed with your library)\r\n- added pull from top to refresh in library. \r\n- File transparency: All app files will be stored in 'Documents/Pocket8' for Android and 'On My iPhone > Pocket8' for iOS.\r\n- (android) added import existing folder for those with existing game libraries. this indexes the game locations from your external folders to the app's library.\r\n- added file/library cleaning settings: clear external games, factory reset library.\r\n- fixes to controller support on home page- should be fully navigable with controller.\r\n- css optimizations for dpad, attempting to address issue #16 but still need feedback for those on older iOS hardware.\r\n- visual branding updates to align with PICO-8 licensing and aesthetics\r\n- in-player: REMOVED home button, as SELECT button serves the same purpose\r\n- updated build number for accuracy (10) and signed the android apk\r\n\r\n## Known Issues & Future Plans:\r\n\r\nthese are high priority issues that im working on asap.\r\n\r\n- further improving controller latency - it works decently for most games, but youre not gonna be performing pixel perfect frame dashes in celeste just yet. theres some web engine limitations with this that i'm still experimenting against.\r\n- i've only confirmed working Xbox/Dualsense/Gamesir controllers. Nintendo layouts are a bit funky still, I believe. \r\n- want to implement drag and hold to paste p8.png images straight to library and, in general, easier ways to get from finding a cart -> playing.\r\n- filesystem is a bit hacky still as i'm new to scoped storage on the android side, putting everything in Documents/Pocket8 aims to bring the most transparency as possible, but im still working on it!\r\n- much more :o check issues!\r\n\r\n\r\n## Dev Note:\r\n\r\nhey guys, apologies for the delayed update. I wanted to get this out ASAP despite the known issues as I feel controller support was a big one that allows for the community to play on a lot more of their devices. this fix aims to add more polish to the layouts across all screen sizes and make the app more snappy before i make the big jump to the official runtime provided by zep on the ios side. theres still some scoped storage complications im dealing with, so please bare with me for that!\r\n\r\ni returned to school last monday for my final semester, so updates will roll out a bit more slowly as im prepping for my grad school interviews and whatnot. i'll still be making continuous updates and aim to make this experience as great as possible. we've just hit over 2k total downloads and im wonderfully grateful to have a community benefit from my work- especially those who take the time to open issues and actually hope to see out the future of pocket8.\r\n\r\nthanks everyone for the support towards this project!!",
                     "downloadURL": "https://github.com/jevonlipsey/pico-ios/releases/download/v1.6.1/pocket8.ipa",
                     "size": 19479442
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Spotify (Eevee)",
-            "bundleIdentifier": "com.spotify.client",
-            "marketplaceID": "",
-            "developerName": "meownyaaa",
-            "subtitle": "Songs, Playlists & Audiobooks",
-            "localizedDescription": "With the Spotify app, you can explore an extensive library of music and podcasts for free. Curate the best playlists and stream millions of free songs, albums, and original podcasts on your phone or tablet. Subscribe to Spotify Premium to download and listen offline wherever you are, and unlock our catalog of audiobooks.\n\nWhy choose Spotify as your go-to music and podcast app? Here, you can:\n\u2022 Listen to over 100 million songs and 6 million podcast titles\n\u2022 Explore our selection of specially-crafted artist playlists\n\u2022 Easily search for your favorite songs, albums, artists, and podcasts\n\u2022 Discover personalized music recommendations tailored to your unique taste\n\u2022 Subscribe to your favorite free podcasts so you never miss an episode, and even curate your own podcast library\n\nSpotify Free is more than a music player - find the sounds you love and stream music and podcasts online, for free. Enjoy personalized playlists or curate and share your own, discover the hottest new releases, explore upcoming events from your favorites, and more.\n\n\u2022 Stream millions of free songs and podcasts\n\u2022 Create playlists with your favorite music\n\u2022 Share songs and playlists with friends and family (feature restrictions may apply in some regions)\n\u2022 Discover personalized playlists made just for you, and collaborate on playlists with your friends\n\u2022 Enjoy your personal Discover Weekly playlist every week\n\u2022 Stay in the know with the Release Radar and New Music Friday playlists\n\u2022 Find nearby events and gigs by your favorite artists\n\u2022 See your most played songs, genres, artists, and more with yearly Spotify Wrapped\n\u2022 Stream music across your devices with Spotify\n\u2022 Use Spotify Connect and enjoy listening on smart speakers, desktop, laptop, smart TV, Chromecast, PlayStation\u00ae, Xbox\u00ae, smartwatch, in your car, and more - limited number of device models apply",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0b/d0/d3/0bd0d39f-9a33-eb69-6cfe-ecd01a38c2b0/Placeholder.mill/400x400bb-75.webp",
-            "tintColor": "#4bb451",
-            "category": "entertainment",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/28/58/0d/28580d62-47f7-d6ce-aa73-69e3dbe21642/IOS_-_6.5_-_S01_-_EN_-_US.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/13/fb/21/13fb2184-8c5c-190c-86af-582bb5430446/IOS_-_6.5_-_S02_-_EN_-_US.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/63/5d/d5/635dd568-ba3b-a0a1-2916-52497dec2ad6/IOS_-_6.5_-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5b/07/b2/5b07b2d7-b990-cf1c-1154-350d877c00a0/IOS_-_6.5_-_S03_-_EN_-_US.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a2/3e/94/a23e94b6-1401-de71-817e-5a33b4d821a9/IOS_-_6.5_-_S04_-_EN_-_US.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/fd/9a/47/fd9a47d4-029b-eb3b-2a39-a6de9b515aae/IOS_-_6.5_-_S05_-_EN_-_US.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ed/01/1a/ed011a26-bdbe-0c99-160b-2a79eadb857d/IOS_-_6.5_-_S06_-_EN_-_US.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/e8/ad/72/e8ad72c3-9abc-f028-485f-22d787ab03e4/IOS_-_6.5_-_S07_-_EN_-_US.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/0d/d1/a4/0dd1a46a-3e03-e522-7ec4-a8e6c3cc84da/IOS_-_6.5_-_S08_-_EN_-_US.png/230x498bb.webp"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f5/77/26/f57726a8-9d53-3a59-a5ab-a267c7ff6356/IOS_-_Ipad_13__-_S01_-_EN_-_US.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4a/34/5e/4a345e06-7088-d4f6-b30e-b8a61f43cb9e/IOS_-_Ipad_13__-_S02_-_EN_-_US.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/75/3d/4c753da9-30d5-ceec-4bbe-26b3f1e6eb09/IOS_-_Ipad_13__-_S02_-__U005bEnglish__U0028US_U0029_U005d.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/33/40/f1/3340f1f3-f2b0-b53a-490a-d8ada00f07a5/IOS_-_Ipad_13__-_S03_-_EN_-_US.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4c/9e/cc/4c9ecc99-7dda-90de-d859-c6b70604c399/IOS_-_Ipad_13__-_S04_-_EN_-_US.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6f/f2/cf/6ff2cffe-9324-d323-6242-553b524556f6/IOS_-_Ipad_13__-_S05_-_EN_-_US.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a4/c0/c7/a4c0c752-950d-70e6-ddbb-66a577947d66/IOS_-_Ipad_13__-_S06_-_EN_-_US.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "9.1.12-new",
-                    "date": "2026-01-15T20:05:31Z",
-                    "localizedDescription": "# Changelog\r\n- update to spotify 9.1.12\r\n- update to swift 6.5.0\r\n- Re added Musixmatch lyrics option\r\n\r\ni am losing motivation, the tweak provided by Meeep1 is broken when being put through the action and required me to mess around with both the \"official\" IPA and my own IPA to get the working EeveeSpotify.dylib into mine. this took 3 hours because iOS is such a pain in the ass to mess around with and is overall just confusing. i would fix it myself if i could \r\n\r\n\r\ndlopen(/private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Spotify, 0x0109): Symbol not found: _$s13SwiftProtobuf7DecoderP14decodeMapField9fieldType5valueyAA01_b7MessageE0Vyqd__qd_0_Gm_SDy04BaseH0Qyd__qd_0_GztKAA0e3KeyH0Rd__SHRd_0_AA0J0Rd_0_r0_lFTj\r\n\u00a0 Referenced from: <06368551-DF9E-38E6-AB86-B9BA2AF98489> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/EeveeSpotify.dylib\r\n\u00a0 Expected in: \u00a0 \u00a0 <E93D670B-A598-3CDD-9FD2-0113BCFF5C2C> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.12-new/EeveeSpotify-9.1.12-Swift-6.5.0.ipa",
-                    "size": 89697212,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.1.6-new",
-                    "date": "2026-01-02T07:09:23Z",
-                    "localizedDescription": "# Changelog\r\n- update to spotify 9.1.6\r\n- update to swift 6.4.8(?)\r\nThis version uses a [different repo]( https://github.com/Meeep1/EeveeSpotifyRevivedPublic) for the tweak as the original EeveeSpotify was discontinued, and lyrics do not work properly.\r\nSigning in also seems to be spotty. If you cannot sign in, install 9.1.0 first to sign in then update.",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.6-new/sidestore.ipa",
-                    "size": 95808186,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "patch-38",
-                    "date": "2025-12-26T03:19:40Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/patch-38/sidestore.ipa",
-                    "size": 95159030,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.1.0-SideStore",
-                    "date": "2025-11-29T02:21:56Z",
-                    "localizedDescription": "# Changelog\r\n- update to 9.1.0",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.0-SideStore/sidestore.ipa",
-                    "size": 94526238,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.98-SideStore",
-                    "date": "2025-11-23T19:28:37Z",
-                    "localizedDescription": "# Changelog\r\n- update to 9.0.98",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.98-SideStore/sidestore.ipa",
-                    "size": 93921078,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.48-6.2.2",
-                    "date": "2025-11-13T14:27:00Z",
-                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.96\r\n- Fixed lyrics not displaying for local tracks\r\n- Fixed blank lyrics on app launch\r\n- Possibly fixed \"Songs play in random order\" (Reset Data in EeveeSpotify settings)",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.2.2/sidestore.ipa",
-                    "size": 82359516,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.96-SideStore",
-                    "date": "2025-11-13T14:26:18Z",
-                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.96\r\n- Fixed lyrics not displaying for local tracks\r\n- Fixed blank lyrics on app launch\r\n- Possibly fixed \"Songs play in random order\" (Reset Data in EeveeSpotify settings)",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.96-SideStore/sidestore.ipa",
-                    "size": 93219642,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.94-SideStore",
-                    "date": "2025-11-09T22:45:01Z",
-                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.94\r\n- Fixed \"Songs now play in a random order\" (again)\r\n- Fixed Musixmatch sending too many requests (causing unauthorized errors due to captcha and slow lyrics loading)\r\n- Fixed lyrics not appearing for songs that don't have lyrics on Spotify",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.94-SideStore/sidestore.ipa",
-                    "size": 93213518,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "masterful-gambit",
-                    "date": "2025-11-09T08:39:32Z",
-                    "localizedDescription": "# Changelog\r\n- crashes, crashes, more crashes!",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/masterful-gambit/broken.ipa",
-                    "size": 93209471,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "patch-27",
-                    "date": "2025-11-02T11:21:16Z",
-                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.91 (the new architecture and lyrics, huge thanks to everyone who donated!)\r\n- Fixed the plan overview screen\r\n- Fixed very high and lossless quality pop-ups\r\n- Fixed the issue with \"Recently played artists\" turning back on (https://github.com/whoeevee/EeveeSpotifyReborn/issues/128)\r\n- Possibly fixed crashes related to lyrics\r\n- Updated Italian localization by @Andrea-Filice\r\n- Update to Swift 6,2",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/patch-27/sidestore.ipa",
-                    "size": 82350911,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.91-SideStore",
-                    "date": "2025-11-02T11:15:46Z",
-                    "localizedDescription": "# Changelog\r\n- Added support for Spotify 9.0.91 (the new architecture and lyrics, huge thanks to everyone who donated!)\r\n- Fixed the plan overview screen\r\n- Fixed very high and lossless quality pop-ups\r\n- Fixed the issue with \"Recently played artists\" turning back on (https://github.com/whoeevee/EeveeSpotifyReborn/issues/128)\r\n- Possibly fixed crashes related to lyrics\r\n- Updated Italian localization by @Andrea-Filice\r\n- Update to 9.0.91\r\n- Update to Swift 6,2",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.91-SideStore/sidestore.ipa",
-                    "size": 94759402,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.48-6.1.6",
-                    "date": "2025-10-17T06:02:08Z",
-                    "localizedDescription": "# Changelog\r\n- Update to Swift 6.1.6",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.1.6/sidestore.ipa",
-                    "size": 82340487,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.86-Swift-6.1.6",
-                    "date": "2025-10-10T15:02:48Z",
-                    "localizedDescription": "# Changelock\r\n- \"Songs play in a random order\" should be fully fixed (reset data in the EeveeSpotify settings beforehand)\r\n- Update to Swift 6.1.6",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.86-Swift-6.1.6/sidestore.ipa",
-                    "size": 94049938,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.86-SideStore",
-                    "date": "2025-10-08T17:43:11Z",
-                    "localizedDescription": "#Changelog\r\n- update to 9.0.86",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.86-SideStore/sidestore.ipa",
-                    "size": 94049027,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.84-SideStore",
-                    "date": "2025-10-03T11:56:58Z",
-                    "localizedDescription": "# Changelog\r\n- 9.0.84 \r\n- minor swift update?",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.84-SideStore/sidestore.ipa",
-                    "size": 90503410,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.82-SideStore",
-                    "date": "2025-09-29T14:49:01Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.82-SideStore/sidestore.ipa",
-                    "size": 90001645,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.82",
-                    "date": "2025-09-29T06:01:59Z",
-                    "localizedDescription": "# Changelog\r\n\r\n- Fixed \"Songs play in random order\" (if this occurs after some time, reset data in the EeveeSpotify settings so far)\r\n- Fixed queue reordering\r\n- Update to 9.0.82",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.82/patched.ipa",
-                    "size": 92031228,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.48-6.1.5",
-                    "date": "2025-09-26T01:28:29Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.48-6.1.5/patched.ipa",
-                    "size": 84213006,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.80-6.1.5",
-                    "date": "2025-09-26T01:26:45Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.80-6.1.5/patched.ipa",
-                    "size": 91490852,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.80",
-                    "date": "2025-09-20T06:34:59Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.80/patched.ipa",
-                    "size": 91489386,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "nowatchkit-9.0.78",
-                    "date": "2025-09-19T18:20:35Z",
-                    "localizedDescription": "From now on, the IPAs used in workflows will have Payload/Watch aka WatchKit removed so people can sideload it on its own instead of needing LiveContainer.",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/nowatchkit-9.0.78/NoWatchKit-patched.ipa",
-                    "size": 91457593,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "nowatchkit-9.0.48",
-                    "date": "2025-09-19T18:20:03Z",
-                    "localizedDescription": "From now on, the IPAs used in workflows will have Payload/Watch aka WatchKit removed so people can sideload it on its own instead of needing LiveContainer.",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/nowatchkit-9.0.48/NoWatchKit-patched.ipa",
-                    "size": 84211429,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "9.0.78",
-                    "date": "2025-09-12T17:46:02Z",
-                    "localizedDescription": "**Full Changelog**: https://github.com/meownyaaa/EeveeIPA/compare/latest-8...latest-1",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.0.78/patched.ipa",
-                    "size": 116925110,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "latest-8",
-                    "date": "2025-08-31T04:20:04Z",
-                    "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/latest-8/patched.ipa",
-                    "size": 116159961,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "15-1",
-                    "date": "2025-08-31T04:07:38Z",
-                    "localizedDescription": "# Changelog\r\n\r\n- Updated Polish localization by @HackZy01\r\n- Updated Japanese localization by @naolad\r\n- Updated German localization by @wlxddd\r\n\r\n2025/08/28",
-                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/15-1/patched.ipa",
-                    "size": 84208719,
-                    "buildVersion": null,
-                    "minOSVersion": null
                 }
             ],
             "appPermissions": {
