@@ -14824,6 +14824,13 @@
                     "size": 191991,
                     "buildVersion": null,
                     "minOSVersion": null
+                },
+                {
+                    "version": "1.0",
+                    "date": "2023-07-17T01:33:49Z",
+                    "localizedDescription": "### This version is outdated. Please go to [Actions](https://github.com/khanhduytran0/LiveContainer/actions) for latest features.\r\n\r\nInitial release.",
+                    "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/1.0/com.kdt.livecontainer.ipa",
+                    "size": 31173
                 }
             ],
             "appPermissions": {
