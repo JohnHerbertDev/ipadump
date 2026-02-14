@@ -10,47 +10,52 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
-            "name": "Discord (BTLoader)",
-            "bundleIdentifier": "com.hammerandchisel.discord",
+            "name": "Onion Browser",
+            "bundleIdentifier": "com.miketigas.OnionBrowser",
             "marketplaceID": "",
-            "developerName": "CloudySn0w",
-            "subtitle": "Group Chat That\u2019s Fun & Games",
-            "localizedDescription": "\ud83d\udca7 BTLoader\nTweak to inject into Discord and perform various tasks.\n\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\n",
-            "iconURL": "https://github.com/CloudySn0w/BTLoader/blob/main/assets/logo/icon.png?raw=true",
-            "tintColor": "#a40300",
-            "category": "social",
+            "developerName": "OnionBrowser",
+            "subtitle": "Secure, anonymous web with Tor",
+            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#a74dff",
+            "category": "utilities",
             "screenshots": {
                 "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/66/c5/2f66c537-1c12-e60e-195b-7dd3772eb3ca/baaf0ea6-bf25-48e8-bbcb-6f860eda5f96_1_GroupChat_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/3b/7c/ca3b7c22-1c65-8337-204c-4c6fb6c15950/932d11eb-9349-4c32-a611-4c9b4384017b_2_Stream_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/cb/15/77cb1519-aa19-6d48-af24-af61402e6acf/49f0b8ee-61f9-4fdc-a043-2f7904783cb5_3_SeeWhos_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/5f/09/475f0927-4563-b286-0ffe-fcd035db41f5/4e3c518b-f980-4622-8b2f-924f8e67117d_4_HopIn_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/53/a1/5f53a16e-a2f6-a1a7-4f0f-5b770676f1b4/e4df6caa-49a5-4503-8213-19bec0fc5b99_5_ToDo_Tile_EN_6-5.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/af/30/ffaf30de-6ce2-5c06-398b-63aac988cd56/Hero_Image__U0028for_Apple_store_U0029_Server__U0028no_members_list_U0029_1242x2688_EN.png/230x498bb.webp"
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
                 ],
                 "ipad": [
                     {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/f1/22/c3f1225c-ebf2-d5c3-5716-3852c1d30754/bf95ff77-d012-475f-8dad-9e79aecf4bcf_1_GroupChat_Tablet_2732x2048.png/480x360bb.webp",
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
                         "width": 480,
                         "height": 360
                     },
                     {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/46/91/224691dd-1751-c82d-e5ca-a74ead2a7b44/1c99dc5c-2991-4a1d-8e68-c4e3a4fd447a_2_Stream_Tablet_2732x2048.png/480x360bb.webp",
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
                         "width": 480,
                         "height": 360
                     },
                     {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/fe/60/45fe60f4-8fad-152f-12d0-de5b9d509651/64f9f3ac-867f-48ce-9779-4e2c71124699_3_SeeWhos_Tablet_2732x2048.png/480x360bb.webp",
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
                         "width": 480,
                         "height": 360
                     },
                     {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/e6/72/95e67252-8600-abce-d2db-d5672a1a4fca/ce4b3b52-a43e-4d0d-8bd2-40b09a6f1849_4_HopIn_Tablet_2732x2048.png/480x360bb.webp",
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
                         "width": 480,
                         "height": 360
                     },
                     {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/0d/0e/720d0e1c-b7c4-a663-50b4-1a131cb730fe/89fff3fa-e9fe-445a-a53e-436824057379_5_ToDo_Tablet_2732x2048.png/480x360bb.webp",
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
                         "width": 480,
                         "height": 360
                     }
@@ -58,72 +63,200 @@
             },
             "versions": [
                 {
-                    "version": "305.1",
-                    "date": "2026-01-02T13:47:54Z",
-                    "localizedDescription": "\ud83c\udf89 | Download the latest stable build here.\r\n\r\n**_PS: For those who read these... which I doubt is many. We are staying on versions lower than 306. This is because 306 and onward has broken plugin settings pages. Which sadly only can be fixed by plugin devs stepping in, which they evidently have not. I can still do newer versions. But the vast majority never reads these messages and will assume the worst if it doesn't work out of the box. Sorry my fellow testers._**\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.1\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.1/bound.ipa",
-                    "size": 99214914,
+                    "version": "3.3.2",
+                    "date": "2025-12-19T17:30:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
+                    "size": 34189973,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "305.0",
-                    "date": "2025-11-17T22:58:47Z",
-                    "localizedDescription": "\u2705 | Download the latest stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.0/bound.ipa",
-                    "size": 99213527,
+                    "version": "3.3.1",
+                    "date": "2025-11-24T12:58:14Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
+                    "size": 33379151,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "303.0",
-                    "date": "2025-11-03T23:29:45Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!_\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v303.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v303.0/bound.ipa",
-                    "size": 95698547,
+                    "version": "3.3.0",
+                    "date": "2025-11-10T11:30:32Z",
+                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
+                    "size": 32041275,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "301.0",
-                    "date": "2025-10-14T21:32:57Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v301.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v301.0/bound.ipa",
-                    "size": 94377178,
+                    "version": "3.2.5",
+                    "date": "2025-10-14T14:08:26Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
+                    "size": 31834099,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "297.0",
-                    "date": "2025-09-15T19:50:59Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v297.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v297.0/bound.ipa",
-                    "size": 93338979,
+                    "version": "3.2.4",
+                    "date": "2025-09-22T11:17:43Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
+                    "size": 31757993,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "294.0",
-                    "date": "2025-08-26T16:32:50Z",
-                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n*PS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.*\r\n\r\n*Also I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.*\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v294.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
-                    "size": 93827160,
+                    "version": "3.2.3",
+                    "date": "2025-08-04T14:02:39Z",
+                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
+                    "size": 31910782,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "313.0",
-                    "date": "2026-01-28T15:34:11Z",
-                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\r\n\r\n**_PS: I\u2019m reiterating this. This release WILL have the plugin setting page issue for older plugins. I thought some of you wanted a newer version so I made a build._** \u203c\ufe0f\u203c\ufe0f\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v313.0\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v313.0/bound.ipa",
-                    "size": 95683987
+                    "version": "3.2.2",
+                    "date": "2025-07-07T14:11:32Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
+                    "size": 31490068,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
-                    "version": "315.0",
-                    "date": "2026-02-11T17:57:17Z",
-                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\r\n\r\n\u26a0\ufe0f **_PS: Just reminding everyone again. This testing release still has the known issue with plugin settings pages on some plugins. I know some of you have been asking for a newer version anyway. So I put together this testing build for you once again._** \u26a0\ufe0f\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v315.0\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
-                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v315.0/bound.ipa",
-                    "size": 95112829
+                    "version": "3.2.1",
+                    "date": "2025-06-03T11:29:10Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
+                    "size": 30624177,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.0",
+                    "date": "2025-02-28T16:51:52Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
+                    "size": 30741203,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2024-11-28T11:06:30Z",
+                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
+                    "size": 30084277,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2024-08-07T12:47:23Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
+                    "size": 29631768,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2024-06-03T10:52:56Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
+                    "size": 29620102,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2024-03-31T21:21:37Z",
+                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
+                    "size": 28667469,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2024-01-30T12:22:11Z",
+                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
+                    "size": 31497187,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2023-10-25T10:44:15Z",
+                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
+                    "size": 30722541,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.3",
+                    "date": "2023-09-27T10:31:03Z",
+                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
+                    "size": 14185165,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.2",
+                    "date": "2023-07-17T11:16:33Z",
+                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
+                    "size": 13898686,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2023-06-26T14:37:51Z",
+                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
+                    "size": 13893448,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2023-06-14T10:59:46Z",
+                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
+                    "size": 13891464,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.3",
+                    "date": "2022-12-14T15:04:20Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
+                    "size": 198031926,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.2",
+                    "date": "2022-09-29T11:35:58Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
+                    "size": 197374069,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.3",
+                    "date": "2026-02-13T14:48:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.22.\r\n- Updated Lyrebird to 0.8.1.\r\n- Added experimental DNSTT support.\r\n- Added additional source of bridges.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.3/OnionBrowser.ipa",
+                    "size": 34461313
                 }
             ],
             "appPermissions": {
@@ -438,6 +571,417 @@
                     "localizedDescription": "# Changelog \r\n- \r\n- ",
                     "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.18-new/sidestore.ipa",
                     "size": 97002880
+                },
+                {
+                    "version": "9.1.22-new",
+                    "date": "2026-02-13T13:41:28Z",
+                    "localizedDescription": "# Changelog\r\n- Update to 9.1.22\r\n- Update Tweak to 6.5.3\r\n- EeveeSpotify settings are now in a gear in the top right corner of the Settings page of Spotify, if it doesn't show, change your app language to English.\r\n<img width=\"1112\" height=\"1280\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ad071108-873c-414f-bc9f-1ad513400f31\" />\r\n\r\n<b>\r\n\r\n<img width=\"305\" height=\"21\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7a75bae5-1859-4bba-9413-136d7d822df5\" /> fuck github im not reuploading the patched ipa\r\n",
+                    "downloadURL": "https://github.com/meownyaaa/EeveeIPA/releases/download/9.1.22-new/EeveeSpotify-9.1.22-Swift-6.5.3.ipa",
+                    "size": 97464947
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Apollo",
+            "bundleIdentifier": "com.christianselig.Apollo",
+            "marketplaceID": "",
+            "developerName": "Christian Selig",
+            "subtitle": "Apollo enhanced with ImprovedCustomApi",
+            "localizedDescription": "Apollo is a beautiful and powerful Reddit app designed for fast navigation, customizability, and a seamless browsing experience. Built with iOS design guidelines in mind, Apollo fits right at home on your device and offers a super-charged Media Viewer, fully customizable gestures, and much more. This version of Apollo has been tweaked with ImprovedCustomApi, which allows the app to use your own Reddit API credentials. \n\nThis project is not affiliated with Apollo or Christian Selig.",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a1/d8/a6/a1d8a63c-1534-2a04-b0fe-3de6e9c800b9/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/400x400ia-75.webp",
+            "tintColor": "#007aff",
+            "category": "social",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/03/5a/1c/035a1c5c-fcd1-a113-12b9-7f7c7d13b493/7912bf71-70d7-4790-88c3-a9caa6cbc758_iphoneother.png/300x650bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/58/7f/47/587f47d2-d8c0-67e6-c008-e5458a2e87e7/mzl.azcxfmst.png/300x650bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/4a/b3/9d/4ab39d3f-3787-c53b-faae-a7e578d0653f/mzl.ddqfbulv.png/300x650bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/59/50/7c/59507c1f-e1f0-059c-7ff2-f4e9925ea01a/mzl.fbxtlazi.png/300x650bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/10/97/a3/1097a3e3-c9c3-642e-72fe-1aed5d5b9b9c/mzl.znmzbdok.png/300x650bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cf/5e/e2/cf5ee2a9-dac2-3a8b-f8ff-d9aeb9b3ed38/mzl.rudpegvu.png/300x650bb.webp"
+                ],
+                "ipad": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/2f/1b/cc/2f1bccc0-17d1-0069-b7af-dbec7879204b/pr_source.png/960x1280bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/aa/0c/23/aa0c235f-f502-08d0-bc96-ca12cfd62bd9/pr_source.png/960x1280bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7e/35/b6/7e35b6ac-a7c0-3c51-c43f-934029b87517/pr_source.png/960x1280bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/81/53/4d/81534d25-c81f-b7f1-4cdc-71110ef88bc6/pr_source.png/960x1280bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/1d/14/7b1d146b-7b77-0b9a-f6c7-fd1ba95038ea/pr_source.png/960x1280bb.webp"
+                ]
+            },
+            "versions": [
+                {
+                    "version": "1.15.11_1.3.2",
+                    "date": "2026-01-08T02:08:52Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.3.2`\n\n## Release Notes\n- Fix crashes in Custom API settings on iOS 14 (issue: #10, PR: #88)\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.3.2/Apollo-1.15.11_ImprovedCustomApi-1.3.2.ipa",
+                    "size": 114715662,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.3.0",
+                    "date": "2025-12-29T02:22:28Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.3.0`\n\n## Release Notes\n- Backup and restore most Apollo and tweak settings (in Settings > General > Custom API) (issue: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/83, PR: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/84)\r\n    - Settings are exported as a .zip file with 2 plist files: `preferences.plist` (most Apollo and tweak settings) and `group.plist` (filters, theme settings)\r\n    - Restoring settings **does not** restore or affect existing account logins. This means on a clean install, accounts need to be re-added manually. The backup .zip contains an `accounts.txt` with all account usernames for reference.\r\n- Update Custom API Settings layout\r\n\r\n<img width=\"350\" alt=\"B60DCF75-89FD-4C65-B7D9-4FD330AB6759_1_201_a\" src=\"https://github.com/user-attachments/assets/9397c3d1-adaf-4fbb-b077-d4e1e1408f3f\" />\r\n\r\n\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.3.0/Apollo-1.15.11_ImprovedCustomApi-1.3.0.ipa",
+                    "size": 114709570,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.2.6",
+                    "date": "2025-11-09T02:46:32Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.6`\n\n## Release Notes\n- Fix video downloads failing on certain v.redd.it videos (issue: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/75, PR: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/76)\r\n    - Context: recently, Reddit started using [CMAF media format](https://developer.apple.com/documentation/http-live-streaming/about-the-common-media-application-format-with-http-live-streaming-hls) for serving video content, which Apollo does not natively support downloading for.\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.6/Apollo-1.15.11_ImprovedCustomApi-1.2.6.ipa",
+                    "size": 114656964,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.2.5",
+                    "date": "2025-10-19T02:03:31Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.5`\n\n## Release Notes\n- Fix occassional crashes when scrolling on iOS 26 with Liquid Glass patch (thanks @dankrichtofen for the original implementation)\r\n  - To apply Liquid Glass patch: see [instructions](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi?tab=readme-ov-file#ios-26-liquid-glass-patch) or [original issue](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/63)\r\n- Fix crashes when tapping share URL link buttons on iOS 26\r\n    - Note that this is **not** a full fix. Tapping the link button now navigates to a webview on iOS 26. As a workaround, tap the inline text (see [this comment](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/62#issuecomment-3247359652)).\r\n- Fix debug logging on iOS 26\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.5/Apollo-1.15.11_ImprovedCustomApi-1.2.5.ipa",
+                    "size": 114654390,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.2.4",
+                    "date": "2025-08-24T02:06:24Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.4`\n\n## Release Notes\n- Fix RedGIFs links loading without sound (again) (#65, #66)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.4/Apollo-1.15.11_ImprovedCustomApi-1.2.4.ipa",
+                    "size": 114652528,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.2.3",
+                    "date": "2025-04-09T01:51:05Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.3`\n\n## Release Notes\n- Fix issue with Imgur multi-image uploads consistently failing (#51). Note that multi-image uploads still fail on the first attempt but should succeed on the next attempt.\r\n- Update Custom API settings with link to [new GitHub discussion](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/discussions/60) where you can share your own subreddit sources with others.\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.3/Apollo-1.15.11_ImprovedCustomApi-1.2.3.ipa",
+                    "size": 114651442,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.2.2",
+                    "date": "2025-03-06T08:33:31Z",
+                    "localizedDescription": "Apollo version: `1.15.11`\nImprovedCustomApi version: `1.2.2`\n\n## Release Notes\n- Fix video downloads failing on certain v.redd.it videos (#25, #55)\r\n\r\nNote that the `.deb` file is significantly larger due to some new external dependencies needed to fix the issue (FFmpegKit).\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.2/Apollo-1.15.11_ImprovedCustomApi-1.2.2.ipa",
+                    "size": 114650898,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.2.1",
+                    "date": "2025-01-04T08:01:48Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\nApollo .IPA Version: `1.15.11`\r\nImprovedCustomApi .DEB Version: `1.2.1`\r\n\r\n**RELEASE `1.15.11`-`1.2.1`:** (2025/01/04)\r\n- Updated ImprovedCustomApi from `[1.1.8](https://github.com/Balackburn/Apollo/releases/tag/v1.15.11_1.1.8)` to `1.2.1`\r\n  - - Custom random and trending subreddits - you can now specify an external URL to use as the source for random and trending subreddits (in Settings > General > Custom API)\\r\\n    - Sources should be a plaintext file with one subreddit name per line, without the  prefix (see examples below)\\r\\n    - Default trending source (data from [gummysearch.com](https://gummysearch.com/tools/top-subreddits/)): https://jeffreyca.github.io/subreddits/trending-gummy-daily.txt\\r\\n    - Default /r/random source: https://jeffreyca.github.io/subreddits/popular.txt\\r\\n    - New setting to customize how many trending subreddits to show (requires app restart)\\r\\n    - New setting to show a dedicated RandNSFW button (requires app restart)\\r\\n- Minor UI updates to the settings view\\r\\n- URL optimizations (#52) - thanks @ryannair05!\r\n\r\n# Known issues\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n- Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.1/Apollo-1.15.11_improvedcustomapi-1.2.1.ipa",
+                    "size": 108107473,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.1.8",
+                    "date": "2024-12-08T12:18:12Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.8`\n\n**RELEASE `1.15.11`-`1.1.8`:** (2024/12/08)\n- Updated ImprovedCustomApi from `1.1.7b` to `1.1.8`\n  - - Fix RedGIFs links loading without sound (#48) - thank you @iCrazeiOS!\\r\\n\n\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.1.8/Apollo-1.15.11_improvedcustomapi-1.1.8.ipa",
+                    "size": 108103275,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.1.7b",
+                    "date": "2024-11-02T05:56:30Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\nApollo .IPA Version: `1.15.11`\r\nImprovedCustomApi .DEB Version: `1.1.7b`\r\n\r\n**RELEASE `1.15.11`-`1.1.7b`:** (2024/11/02)\r\n- Updated ImprovedCustomApi from `1.1.7` to `1.1.7b`\r\n  -  Add rootless package support to Theos build workflow (https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/46) - thanks @darkxdd\\r\\n\\r\\n(There are no functionality changes in this release)\r\n\r\n# Known issues\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n- Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.1.7b/Apollo-1.15.11_improvedcustomapi-1.1.7b.ipa",
+                    "size": 108102952,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.1.7",
+                    "date": "2024-10-20T01:10:52Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.7`\n\n**RELEASE `1.15.11`-`1.1.7`:** (2024/10/20)\n- Updated ImprovedCustomApi from `1.1.6` to `1.1.7`\n  - Improve parsing  and  links\r\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.7/Apollo-1.15.11_improvedcustomapi-1.1.7.ipa",
+                    "size": 108281478,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.1.6",
+                    "date": "2024-10-06T01:09:56Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.6`\n\n**RELEASE `1.15.11`-`1.1.6`:** (2024/10/06)\n- Updated ImprovedCustomApi from `1.1.5b` to `1.1.6`\n  - - Fix issue with share URLs not working after device locks\r\n- Remove unused code for handling Imgur links\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.6/Apollo-1.15.11_improvedcustomapi-1.1.6.ipa",
+                    "size": 108282728,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.1.5b",
+                    "date": "2024-09-20T00:28:59Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.5b`\n\n**RELEASE `1.15.11`-`1.1.5b`:** (2024/09/20)\n- Updated ImprovedCustomApi from `1.1.4` to `1.1.5b`\n  - - Fix rare crashing issue\r\n- Include tweak version in Custom API settings view\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.5b/Apollo-1.15.11_improvedcustomapi-1.1.5b.ipa",
+                    "size": 108282519,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.1.4",
+                    "date": "2024-08-30T01:00:59Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.4`\n\n**RELEASE `1.15.11`-`1.1.4`:** (2024/09/18)\n- Updated ImprovedCustomApi from `1.1.3` to `1.1.4`\n  - - Improve share URL and Imgur link parsing (specifically URLs formatted like: )\r\n- Fix crashing issue when loading content\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.4/Apollo-1.15.11_improvedcustomapi-1.1.4.ipa",
+                    "size": 108282530,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.1.3",
+                    "date": "2024-08-24T12:10:24Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.3`\n\n**RELEASE `1.15.11`-`1.1.3`:** (2024/08/24)\n- Updated ImprovedCustomApi from `1.1.2` to `1.1.3`\n  - Fix issue with some newer Imgur images and albums not loading properly (#35)\r\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.3/Apollo-1.15.11_improvedcustomapi-1.1.3.ipa",
+                    "size": 108281984,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.1.2",
+                    "date": "2024-08-02T07:24:21Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.2`\n\n**RELEASE `1.15.11`-`1.1.2`:** (2024/08/03)\n- Updated ImprovedCustomApi from `1.1.1` to `1.1.2`\n  - Update user agent to fix multireddit search (#33) - thanks @paradoxally and @blvdmd!\r\n\r\n[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36](https://useragents.io/uas/mozilla-5-0-macintosh-intel-mac-os-x-10-15-7-applewebkit-537-36-khtml-like-gecko-chrome-91-0-4472-114-safari-537-36-gzipgfe_2497d28276f9d0c8d383700f3c2f7c9e)\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.2/Apollo-1.15.11_improvedcustomapi-1.1.2.ipa",
+                    "size": 108281925,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.1.1",
+                    "date": "2024-07-31T19:21:54Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.1.1` \r\n\r\n**RELEASE 1.15.11-1.1.1:** (2024-07-31)\r\n- Working hybrid implementation of the \"New Comments Highlighter\" Ultra feature - it's a custom implementation so it may not behave exactly like the original. Enable the feature in Settings -> General -> Custom API, not Settings -> General as it crashes the app.\r\n- Add [FLEX integration](https://github.com/FLEXTool/FLEX) for debugging purposes. Use at your own risk! Requires app restart after enabling in Settings -> General -> Custom API.\r\n        Note: the .deb package is larger in size as a result\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.1/Apollo-1.15.11_improvedcustomapi-1.1.1.ipa",
+                    "size": 108681149,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.0.12",
+                    "date": "2024-07-26T18:49:20Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.12` \r\n\r\n**RELEASE 1.15.11-1.0.11:** (2024-07-26)\r\n- Updated ImprovedCustomApi from `1.0.11` to `1.0.12` \r\n    - Use a more generic user agent independent of bundle ID for requests to Reddit\r\n\r\n[Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1](https://useragents.io/explore/platforms/ios/maker/apple-inc-b93/uas/mozilla-5-0-iphone-cpu-iphone-os-17-5-1-like-mac-os-x-applewebkit-605-1-15-khtml-like-gecko-version-17-5-mobile-15e148-safari-604-1_2f39fc840d9054105730c511db1920b7)\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.12/Apollo-1.15.11_improvedcustomapi-1.0.12.ipa",
+                    "size": 108152923,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.0.11",
+                    "date": "2024-02-28T12:33:18Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.11` \r\n\r\n**RELEASE 1.15.11-1.0.11:** (2024-02-28)\r\n- Updated ImprovedCustomApi from `1.0.10` to `1.0.11` \r\n    - Fix issue with Imgur uploads consistently failing. Note that multi-image uploads may still fail on the first attempt.\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.11/Apollo-1.15.11_improvedcustomapi-1.0.11.ipa",
+                    "size": 108157689,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.0.10",
+                    "date": "2024-01-23T12:32:35Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.10` \r\n\r\n**RELEASE 1.15.11-1.0.9:** (2024-01-23)\r\n- Updated ImprovedCustomApi from `1.0.9` to `1.0.10` \r\n   - Add support for /u/ share links (e.g. `reddit.com/u/username/s/xxxxxx`)\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.10/Apollo-1.15.11_improvedcustomapi-1.0.10.ipa",
+                    "size": 108157865,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.0.9",
+                    "date": "2023-12-30T08:52:04Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.9` \r\n\r\n**RELEASE 1.15.11-1.0.9:** (2023-12-30)\r\n- Updated ImprovedCustomApi from `1.0.8` to `1.0.9` \r\n   - Randomize \"trending subreddits\" list so it doesn't show iOS, Clock, Time, IfYouDontMind all the time - thanks @iCrazeiOS!\r\n      - Context: There isn't an official Reddit API to get the currently trending subreddits. Apollo has a hardcoded mapping of dates to trending subreddits in this file called trending-subreddits.plist that is bundled inside the .ipa. The last date entry is 2023-9-9, which is why Apollo has been falling back to the default iOS, Clock, Time, IfYouDontMind subreddits lately.\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.9/Apollo-1.15.11_improvedcustomapi-1.0.9.ipa",
+                    "size": 108157858,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.0.8",
+                    "date": "2023-12-16T15:09:37Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.8` \r\n\r\n**RELEASE 1.15.11-1.0.8:** (2023-12-16)\r\n- Updated ImprovedCustomApi from `1.0.7` to `1.0.8` \r\n   - Lower minimum iOS version requirement to 14.0\r\n   - Toggleable settings for blocking announcements and some Ultra settings (not fully working, see https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/1). These are the same as the previous experimental builds.\r\n        - All toggles are located in Settings -> General -> Custom API\r\n        - New Comments Highlightifier shows new comment count badge, but doesn't highlight comments inside a thread\r\n        - Subreddit Weather and Time widget doesn't seem to work (not showing or loads infinitely)\r\n \r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.8/Apollo-1.15.11_improvedcustomapi-1.0.8.ipa",
+                    "size": 108157000,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.0.7",
+                    "date": "2023-12-08T12:08:07Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.7` \r\n\r\n**RELEASE 1.15.11-1.0.7:** (2023-12-08)\r\n- Updated ImprovedCustomApi from `1.0.5` to `1.0.7` \r\n   - Add support for resolving Reddit media share links (https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F) (https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/9) - thanks @mmshivesh!\r\n   - Add toggleable settings for blocking announcements and some Ultra settings (not working)\r\n   - Lower minimum iOS version requirement\r\n \r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.7/Apollo-1.15.11_improvedcustomapi-1.0.7.ipa",
+                    "size": 108156033,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.0.5",
+                    "date": "2023-12-04T10:09:25Z",
+                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.5` \r\n\r\n**RELEASE 1.15.11-1.0.5:** (2023-12-04)\r\n- Initial release with ImprovedCustomApi `1.0.5` instead of Artemis\r\n   - Fix crash when tapping on spoiler tag\r\n \r\n# **Features**\r\n- Use Apollo for Reddit with your own Reddit and Imgur API keys\r\n- Working Imgur integration (view, delete, and upload single images and multi-image albums)\r\n- Handle x.com links as Twitter links so that they can be opened in the Twitter app\r\n- Suppress unwanted messages on app startup (wallpaper popup, in-app announcements, etc)\r\n- Support new share link format (reddit.com/r/subreddit/s/xxxxxx) so they open like any other post and not in a browser\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n- Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.5/Apollo-1.15.15_improvedcustomapi-1.0.5.ipa",
+                    "size": 108155800,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11-1.4",
+                    "date": "2023-10-11T22:15:35Z",
+                    "localizedDescription": "# Apollo for Reddit (with Artemis) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nArtemis .DEB Version: `1.4` \r\n\r\n**RELEASE 1.15.11-1.4:** (2023-10-11)\r\n- Initial release with Artemis `1.4` \r\n\t- Blocks requests to Statsig\r\n\t- Fix rare crash added in v1.3.1\r\n\t- Fix issue with some Imgur albums not loading\r\n\t- Now also blocks requests to Apollo\u2019s server, rather than just returning fake data\r\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.4/Apollo-1.15.11_Artemis-1.4.ipa",
+                    "size": 108095419,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15.11_1.4.1",
+                    "date": "2026-01-30T17:02:57Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.4.1`\n\n## Release Notes\n- Fix certain Streamable links not loading in media view (https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/95)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.4.1/Apollo-1.15.11_ImprovedCustomApi-1.4.1.ipa",
+                    "size": 114717040
+                },
+                {
+                    "version": "1.15.11_1.4.2",
+                    "date": "2026-02-07T06:48:10Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.4.2`\n\n## Release Notes\n- Update default trending subreddit source to `https://jeffreyca.github.io/subreddits/trending-subriff-blended.txt` ([source](https://github.com/JeffreyCA/subreddits?tab=readme-ov-file#trending-subriff-blendedtxt))\r\n    - Previous source has been discontinued\r\n- Fix certain GIFs playing at 2x speed on 120Hz displays (#97)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.4.2/Apollo-1.15.11_ImprovedCustomApi-1.4.2.ipa",
+                    "size": 114716971
+                },
+                {
+                    "version": "1.15.11_1.4.3",
+                    "date": "2026-02-13T07:04:28Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.4.3`\n\n## Release Notes\n- Fix inline Giphy GIFs not loading in comments (#99)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.4.3/Apollo-1.15.11_ImprovedCustomApi-1.4.3.ipa",
+                    "size": 114720080
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Discord (BTLoader)",
+            "bundleIdentifier": "com.hammerandchisel.discord",
+            "marketplaceID": "",
+            "developerName": "CloudySn0w",
+            "subtitle": "Group Chat That\u2019s Fun & Games",
+            "localizedDescription": "\ud83d\udca7 BTLoader\nTweak to inject into Discord and perform various tasks.\n\nWe at BTLoader wish to clarify that while BTLoader is intended to load Ra1n upon its release, this functionality is not yet available. Consequently, BTLoader currently loads the Kettu Bundle.\n",
+            "iconURL": "https://github.com/CloudySn0w/BTLoader/blob/main/assets/logo/icon.png?raw=true",
+            "tintColor": "#a40300",
+            "category": "social",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2f/66/c5/2f66c537-1c12-e60e-195b-7dd3772eb3ca/baaf0ea6-bf25-48e8-bbcb-6f860eda5f96_1_GroupChat_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ca/3b/7c/ca3b7c22-1c65-8337-204c-4c6fb6c15950/932d11eb-9349-4c32-a611-4c9b4384017b_2_Stream_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/77/cb/15/77cb1519-aa19-6d48-af24-af61402e6acf/49f0b8ee-61f9-4fdc-a043-2f7904783cb5_3_SeeWhos_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/47/5f/09/475f0927-4563-b286-0ffe-fcd035db41f5/4e3c518b-f980-4622-8b2f-924f8e67117d_4_HopIn_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5f/53/a1/5f53a16e-a2f6-a1a7-4f0f-5b770676f1b4/e4df6caa-49a5-4503-8213-19bec0fc5b99_5_ToDo_Tile_EN_6-5.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/ff/af/30/ffaf30de-6ce2-5c06-398b-63aac988cd56/Hero_Image__U0028for_Apple_store_U0029_Server__U0028no_members_list_U0029_1242x2688_EN.png/230x498bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/c3/f1/22/c3f1225c-ebf2-d5c3-5716-3852c1d30754/bf95ff77-d012-475f-8dad-9e79aecf4bcf_1_GroupChat_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/22/46/91/224691dd-1751-c82d-e5ca-a74ead2a7b44/1c99dc5c-2991-4a1d-8e68-c4e3a4fd447a_2_Stream_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/45/fe/60/45fe60f4-8fad-152f-12d0-de5b9d509651/64f9f3ac-867f-48ce-9779-4e2c71124699_3_SeeWhos_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/95/e6/72/95e67252-8600-abce-d2db-d5672a1a4fca/ce4b3b52-a43e-4d0d-8bd2-40b09a6f1849_4_HopIn_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/72/0d/0e/720d0e1c-b7c4-a663-50b4-1a131cb730fe/89fff3fa-e9fe-445a-a53e-436824057379_5_ToDo_Tablet_2732x2048.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "305.1",
+                    "date": "2026-01-02T13:47:54Z",
+                    "localizedDescription": "\ud83c\udf89 | Download the latest stable build here.\r\n\r\n**_PS: For those who read these... which I doubt is many. We are staying on versions lower than 306. This is because 306 and onward has broken plugin settings pages. Which sadly only can be fixed by plugin devs stepping in, which they evidently have not. I can still do newer versions. But the vast majority never reads these messages and will assume the worst if it doesn't work out of the box. Sorry my fellow testers._**\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.1\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.1/bound.ipa",
+                    "size": 99214914,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "305.0",
+                    "date": "2025-11-17T22:58:47Z",
+                    "localizedDescription": "\u2705 | Download the latest stable build here.\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v305.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v305.0/bound.ipa",
+                    "size": 99213527,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "303.0",
+                    "date": "2025-11-03T23:29:45Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: For those who noticed\u2014Kettu now officially supports iOS with properly fixed themes! My friend https://github.com/bwlok also made improvements, so BTLoader runs better than ever. KettuTweak is simply for jailbroken users. BTLoader will continue providing builds for the foreseeable future. Go show Cocobo1 some love for their work on Kettu for iOS!_\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v303.0\r\n- BTLoader: v1.0.1\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v303.0/bound.ipa",
+                    "size": 95698547,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "301.0",
+                    "date": "2025-10-14T21:32:57Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: Waited out the 301 release. Hopefully now BTLoader loads Kettu by default rather than Revenge. Make sure now to join the Kettu server and show some love!._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v301.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v301.0/bound.ipa",
+                    "size": 94377178,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "297.0",
+                    "date": "2025-09-15T19:50:59Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n_PS: The next testing release is likely to be version 300. We hope it works as always. Also, I just realised we have like 92 stars. That\u2019s genuinely insane! Thank you all for being here! Never expected it to become this popular._\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v297.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v297.0/bound.ipa",
+                    "size": 93338979,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "294.0",
+                    "date": "2025-08-26T16:32:50Z",
+                    "localizedDescription": "\u26a0\ufe0f OLD | Download the old stable build here.\r\n\r\n*PS: I recently realised that I hadn\u2019t been keeping the stable build properly up to date and was mainly pushing out occasional testing releases instead. I\u2019ve decided to fix that and bring the stable release in line. Based on what I\u2019ve seen, version 294 is currently the recommended one to be on. I\u2019ll continue releasing and personally testing the experimental builds as well. While the outlook for sideloading isn\u2019t looking particularly bright at the moment, I\u2019ll keep working on and using this app for as long as it\u2019s useful to me.*\r\n\r\n*Also I will try to update the build script as soon as I get the energy so that it uploads the DEB file here for y'all to use.*\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v294.0\r\n- BTLoader: v1.0.0\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v294.0/bound.ipa",
+                    "size": 93827160,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "313.0",
+                    "date": "2026-01-28T15:34:11Z",
+                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\r\n\r\n**_PS: I\u2019m reiterating this. This release WILL have the plugin setting page issue for older plugins. I thought some of you wanted a newer version so I made a build._** \u203c\ufe0f\u203c\ufe0f\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v313.0\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v313.0/bound.ipa",
+                    "size": 95683987
+                },
+                {
+                    "version": "315.0",
+                    "date": "2026-02-11T17:57:17Z",
+                    "localizedDescription": "\u26a0\ufe0f | Download the latest testing build here.\r\n\r\n\u26a0\ufe0f **_PS: Just reminding everyone again. This testing release still has the known issue with plugin settings pages on some plugins. I know some of you have been asking for a newer version anyway. So I put together this testing build for you once again._** \u26a0\ufe0f\r\n\r\n## Downloads\r\n\r\n- **bound.ipa**: BTLoader with Bound name and icon\r\n- **discord.ipa**: BTLoader with original Discord name and icon\r\n- **DEB**: Rootless package for jailbroken devices\r\n\r\n## Versions\r\n\r\n- Discord: v315.0\r\n- BTLoader: v1.0.2\r\n\r\n## Features\r\n\r\n- TrollStore compatibility  \r\n- Optimized for size and performance\r\n",
+                    "downloadURL": "https://github.com/CloudySn0w/BTLoader/releases/download/v315.0/bound.ipa",
+                    "size": 95112829
                 }
             ],
             "appPermissions": {
@@ -795,280 +1339,6 @@
                     "localizedDescription": "<table>\r\n  <tbody>\r\n    <tr>\r\n      <td rowspan=\"4\">\ud83e\ude9f Windows</td>\r\n      <td rowspan=\"2\"><code>EXE</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-windows-amd64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-windows-arm64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\"><code>Portable</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-windows-amd64-portable.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-windows-arm64-portable.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"3\">\ud83c\udf4e MacOS</td>\r\n      <td rowspan=\"3\"><code>DMG</code></td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-macos.dmg\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-macos-amd64.dmg\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-macos-arm64.dmg\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"6\">\ud83d\udc27 Linux</td>\r\n      <td><code>Flathub</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://flathub.org/apps/com.gopeed.Gopeed\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td><code>SNAP</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://snapcraft.io/gopeed\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\"><code>DEB</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-linux-amd64.deb\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-linux-arm64.deb\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\"><code>AppImage</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-linux-amd64.AppImage\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-linux-arm64.AppImage\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"4\">\ud83e\udd16 Android</td>\r\n      <td rowspan=\"4\"><code>APK</code></td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-android.apk\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>armeabi-v7a</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-android-armeabi-v7a.apk\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64-v8a</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-android-arm64-v8a.apk\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>x86_64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-android-x86_64.apk\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>\ud83d\udcf1 iOS</td>\r\n      <td><code>IPA</code></td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=Gopeed-v1.9.1-ios.ipa\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>\ud83d\udc33 Docker</td>\r\n      <td>-</td>\r\n      <td>universal</td>\r\n      <td><a href=\"https://hub.docker.com/r/liwei2633/gopeed\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\">\ud83d\udcbe Qnap</td>\r\n      <td rowspan=\"2\"><code>QPKG</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-v1.9.1-qnap-amd64.qpkg\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-v1.9.1-qnap-arm64.qpkg\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"8\">\ud83c\udf10 Web</td>\r\n      <td rowspan=\"3\"><code>Windows</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-windows-amd64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-windows-arm64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>386</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-windows-386.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"2\"><code>MacOS</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-macos-amd64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-macos-arm64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td rowspan=\"3\"><code>Linux</code></td>\r\n      <td>amd64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-linux-amd64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>arm64</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-linux-arm64.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n    <tr>\r\n      <td>386</td>\r\n      <td><a href=\"https://gopeed.com/api/download?tpl=gopeed-web-v1.9.1-linux-386.zip\">\ud83d\udce5</a></td>\r\n    </tr>\r\n  </tbody>\r\n</table>\r\n\r\n# Release notes\r\n\r\n## \ud83c\udd95 Features\r\n\r\n- feat: support  post-task script hooks @copilot-swe-agent (#1265)\r\n- feat: implement task patching functionality @monkeyWie (#1267)\r\n\r\n## \ud83d\udc1b Bug Fixes\r\n\r\n- fix: low FPS on Windows @monkeyWie (#1279)\r\n- fix: add missing lib to Windows ARM64 bundle @monkeyWie (#1273)\r\n- fix: gbk filename encoding in ZIP extraction @copilot-swe-agent (#1260)\r\n- fix: improve retry handling for expired HTTP redirect url @monkeyWie (#1263)\r\n- fix: hide window when waking-up via deep link on macOS @monkeyWie (#1262)\r\n\r\n## \ud83d\ude80 CI/CD\r\n\r\n- ci: docker image optimization @1lkei (#1274)\r\n- ci: upgrade flutter version on windows arm @monkeyWie (#1269)\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\r\n\r\n## \ud83c\udd95 \u65b0\u7279\u6027\r\n\r\n- feat: \u652f\u6301\u4efb\u52a1\u5b8c\u6210\u540e\u6267\u884c\u811a\u672c @copilot-swe-agent (#1265)\r\n- feat: \u5b9e\u73b0\u4efb\u52a1\u66f4\u65b0\u529f\u80fd @monkeyWie (#1267)\r\n\r\n## \ud83d\udc1b Bug \u4fee\u590d\r\n\r\n- fix: windows \u4e0a\u5e27\u7387\u964d\u4f4e\u7684\u95ee\u9898 @monkeyWie (#1279)\r\n- fix: \u6dfb\u52a0 windows arm64 \u4fbf\u643a\u7248\u7f3a\u5931\u7684\u5e93 @monkeyWie (#1273)\r\n- fix: zip \u89e3\u538b\u91cc gbk \u6587\u4ef6\u540d\u7f16\u7801\u95ee\u9898 @copilot-swe-agent (#1260)\r\n- fix: \u6539\u5584HTTP\u91cd\u5b9a\u5411\u94fe\u63a5\u4e0b\u8f7d\u91cd\u8bd5\u7b56\u7565 @monkeyWie (#1263)\r\n- fix: \u5728 macOS \u4e0a\u901a\u8fc7\u6df1\u5ea6\u94fe\u63a5\u5524\u9192\u65f6\u9690\u85cf\u7a97\u53e3 @monkeyWie (#1262)\r\n\r\n## \ud83d\ude80 CI/CD\r\n\r\n- ci: docker \u955c\u50cf\u4f18\u5316 @1lkei (#1274)\r\n- ci: \u5347\u7ea7 windows arm flutter \u7248\u672c @monkeyWie (#1269)\r\n",
                     "downloadURL": "https://github.com/GopeedLab/gopeed/releases/download/v1.9.1/Gopeed-v1.9.1-ios.ipa",
                     "size": 26853719
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Apollo",
-            "bundleIdentifier": "com.christianselig.Apollo",
-            "marketplaceID": "",
-            "developerName": "Christian Selig",
-            "subtitle": "Apollo enhanced with ImprovedCustomApi",
-            "localizedDescription": "Apollo is a beautiful and powerful Reddit app designed for fast navigation, customizability, and a seamless browsing experience. Built with iOS design guidelines in mind, Apollo fits right at home on your device and offers a super-charged Media Viewer, fully customizable gestures, and much more. This version of Apollo has been tweaked with ImprovedCustomApi, which allows the app to use your own Reddit API credentials. \n\nThis project is not affiliated with Apollo or Christian Selig.",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/a1/d8/a6/a1d8a63c-1534-2a04-b0fe-3de6e9c800b9/AppIcon-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-85-220.png/400x400ia-75.webp",
-            "tintColor": "#007aff",
-            "category": "social",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource122/v4/03/5a/1c/035a1c5c-fcd1-a113-12b9-7f7c7d13b493/7912bf71-70d7-4790-88c3-a9caa6cbc758_iphoneother.png/300x650bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/58/7f/47/587f47d2-d8c0-67e6-c008-e5458a2e87e7/mzl.azcxfmst.png/300x650bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/4a/b3/9d/4ab39d3f-3787-c53b-faae-a7e578d0653f/mzl.ddqfbulv.png/300x650bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/59/50/7c/59507c1f-e1f0-059c-7ff2-f4e9925ea01a/mzl.fbxtlazi.png/300x650bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/10/97/a3/1097a3e3-c9c3-642e-72fe-1aed5d5b9b9c/mzl.znmzbdok.png/300x650bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/cf/5e/e2/cf5ee2a9-dac2-3a8b-f8ff-d9aeb9b3ed38/mzl.rudpegvu.png/300x650bb.webp"
-                ],
-                "ipad": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/2f/1b/cc/2f1bccc0-17d1-0069-b7af-dbec7879204b/pr_source.png/960x1280bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/aa/0c/23/aa0c235f-f502-08d0-bc96-ca12cfd62bd9/pr_source.png/960x1280bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/7e/35/b6/7e35b6ac-a7c0-3c51-c43f-934029b87517/pr_source.png/960x1280bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple122/v4/81/53/4d/81534d25-c81f-b7f1-4cdc-71110ef88bc6/pr_source.png/960x1280bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7b/1d/14/7b1d146b-7b77-0b9a-f6c7-fd1ba95038ea/pr_source.png/960x1280bb.webp"
-                ]
-            },
-            "versions": [
-                {
-                    "version": "1.15.11_1.3.2",
-                    "date": "2026-01-08T02:08:52Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.3.2`\n\n## Release Notes\n- Fix crashes in Custom API settings on iOS 14 (issue: #10, PR: #88)\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.3.2/Apollo-1.15.11_ImprovedCustomApi-1.3.2.ipa",
-                    "size": 114715662,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.3.0",
-                    "date": "2025-12-29T02:22:28Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.3.0`\n\n## Release Notes\n- Backup and restore most Apollo and tweak settings (in Settings > General > Custom API) (issue: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/83, PR: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/84)\r\n    - Settings are exported as a .zip file with 2 plist files: `preferences.plist` (most Apollo and tweak settings) and `group.plist` (filters, theme settings)\r\n    - Restoring settings **does not** restore or affect existing account logins. This means on a clean install, accounts need to be re-added manually. The backup .zip contains an `accounts.txt` with all account usernames for reference.\r\n- Update Custom API Settings layout\r\n\r\n<img width=\"350\" alt=\"B60DCF75-89FD-4C65-B7D9-4FD330AB6759_1_201_a\" src=\"https://github.com/user-attachments/assets/9397c3d1-adaf-4fbb-b077-d4e1e1408f3f\" />\r\n\r\n\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.3.0/Apollo-1.15.11_ImprovedCustomApi-1.3.0.ipa",
-                    "size": 114709570,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.2.6",
-                    "date": "2025-11-09T02:46:32Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.6`\n\n## Release Notes\n- Fix video downloads failing on certain v.redd.it videos (issue: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/75, PR: https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/76)\r\n    - Context: recently, Reddit started using [CMAF media format](https://developer.apple.com/documentation/http-live-streaming/about-the-common-media-application-format-with-http-live-streaming-hls) for serving video content, which Apollo does not natively support downloading for.\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.6/Apollo-1.15.11_ImprovedCustomApi-1.2.6.ipa",
-                    "size": 114656964,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.2.5",
-                    "date": "2025-10-19T02:03:31Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.5`\n\n## Release Notes\n- Fix occassional crashes when scrolling on iOS 26 with Liquid Glass patch (thanks @dankrichtofen for the original implementation)\r\n  - To apply Liquid Glass patch: see [instructions](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi?tab=readme-ov-file#ios-26-liquid-glass-patch) or [original issue](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/63)\r\n- Fix crashes when tapping share URL link buttons on iOS 26\r\n    - Note that this is **not** a full fix. Tapping the link button now navigates to a webview on iOS 26. As a workaround, tap the inline text (see [this comment](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/62#issuecomment-3247359652)).\r\n- Fix debug logging on iOS 26\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.5/Apollo-1.15.11_ImprovedCustomApi-1.2.5.ipa",
-                    "size": 114654390,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.2.4",
-                    "date": "2025-08-24T02:06:24Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.4`\n\n## Release Notes\n- Fix RedGIFs links loading without sound (again) (#65, #66)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.4/Apollo-1.15.11_ImprovedCustomApi-1.2.4.ipa",
-                    "size": 114652528,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.2.3",
-                    "date": "2025-04-09T01:51:05Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.2.3`\n\n## Release Notes\n- Fix issue with Imgur multi-image uploads consistently failing (#51). Note that multi-image uploads still fail on the first attempt but should succeed on the next attempt.\r\n- Update Custom API settings with link to [new GitHub discussion](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/discussions/60) where you can share your own subreddit sources with others.\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.3/Apollo-1.15.11_ImprovedCustomApi-1.2.3.ipa",
-                    "size": 114651442,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.2.2",
-                    "date": "2025-03-06T08:33:31Z",
-                    "localizedDescription": "Apollo version: `1.15.11`\nImprovedCustomApi version: `1.2.2`\n\n## Release Notes\n- Fix video downloads failing on certain v.redd.it videos (#25, #55)\r\n\r\nNote that the `.deb` file is significantly larger due to some new external dependencies needed to fix the issue (FFmpegKit).\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.2/Apollo-1.15.11_ImprovedCustomApi-1.2.2.ipa",
-                    "size": 114650898,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.2.1",
-                    "date": "2025-01-04T08:01:48Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\nApollo .IPA Version: `1.15.11`\r\nImprovedCustomApi .DEB Version: `1.2.1`\r\n\r\n**RELEASE `1.15.11`-`1.2.1`:** (2025/01/04)\r\n- Updated ImprovedCustomApi from `[1.1.8](https://github.com/Balackburn/Apollo/releases/tag/v1.15.11_1.1.8)` to `1.2.1`\r\n  - - Custom random and trending subreddits - you can now specify an external URL to use as the source for random and trending subreddits (in Settings > General > Custom API)\\r\\n    - Sources should be a plaintext file with one subreddit name per line, without the  prefix (see examples below)\\r\\n    - Default trending source (data from [gummysearch.com](https://gummysearch.com/tools/top-subreddits/)): https://jeffreyca.github.io/subreddits/trending-gummy-daily.txt\\r\\n    - Default /r/random source: https://jeffreyca.github.io/subreddits/popular.txt\\r\\n    - New setting to customize how many trending subreddits to show (requires app restart)\\r\\n    - New setting to show a dedicated RandNSFW button (requires app restart)\\r\\n- Minor UI updates to the settings view\\r\\n- URL optimizations (#52) - thanks @ryannair05!\r\n\r\n# Known issues\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n- Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.2.1/Apollo-1.15.11_improvedcustomapi-1.2.1.ipa",
-                    "size": 108107473,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.1.8",
-                    "date": "2024-12-08T12:18:12Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.8`\n\n**RELEASE `1.15.11`-`1.1.8`:** (2024/12/08)\n- Updated ImprovedCustomApi from `1.1.7b` to `1.1.8`\n  - - Fix RedGIFs links loading without sound (#48) - thank you @iCrazeiOS!\\r\\n\n\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.1.8/Apollo-1.15.11_improvedcustomapi-1.1.8.ipa",
-                    "size": 108103275,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.1.7b",
-                    "date": "2024-11-02T05:56:30Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\nApollo .IPA Version: `1.15.11`\r\nImprovedCustomApi .DEB Version: `1.1.7b`\r\n\r\n**RELEASE `1.15.11`-`1.1.7b`:** (2024/11/02)\r\n- Updated ImprovedCustomApi from `1.1.7` to `1.1.7b`\r\n  -  Add rootless package support to Theos build workflow (https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/46) - thanks @darkxdd\\r\\n\\r\\n(There are no functionality changes in this release)\r\n\r\n# Known issues\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n- Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.1.7b/Apollo-1.15.11_improvedcustomapi-1.1.7b.ipa",
-                    "size": 108102952,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.1.7",
-                    "date": "2024-10-20T01:10:52Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.7`\n\n**RELEASE `1.15.11`-`1.1.7`:** (2024/10/20)\n- Updated ImprovedCustomApi from `1.1.6` to `1.1.7`\n  - Improve parsing  and  links\r\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.7/Apollo-1.15.11_improvedcustomapi-1.1.7.ipa",
-                    "size": 108281478,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.1.6",
-                    "date": "2024-10-06T01:09:56Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.6`\n\n**RELEASE `1.15.11`-`1.1.6`:** (2024/10/06)\n- Updated ImprovedCustomApi from `1.1.5b` to `1.1.6`\n  - - Fix issue with share URLs not working after device locks\r\n- Remove unused code for handling Imgur links\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.6/Apollo-1.15.11_improvedcustomapi-1.1.6.ipa",
-                    "size": 108282728,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.1.5b",
-                    "date": "2024-09-20T00:28:59Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.5b`\n\n**RELEASE `1.15.11`-`1.1.5b`:** (2024/09/20)\n- Updated ImprovedCustomApi from `1.1.4` to `1.1.5b`\n  - - Fix rare crashing issue\r\n- Include tweak version in Custom API settings view\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.5b/Apollo-1.15.11_improvedcustomapi-1.1.5b.ipa",
-                    "size": 108282519,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.1.4",
-                    "date": "2024-08-30T01:00:59Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.4`\n\n**RELEASE `1.15.11`-`1.1.4`:** (2024/09/18)\n- Updated ImprovedCustomApi from `1.1.3` to `1.1.4`\n  - - Improve share URL and Imgur link parsing (specifically URLs formatted like: )\r\n- Fix crashing issue when loading content\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.4/Apollo-1.15.11_improvedcustomapi-1.1.4.ipa",
-                    "size": 108282530,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.1.3",
-                    "date": "2024-08-24T12:10:24Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.3`\n\n**RELEASE `1.15.11`-`1.1.3`:** (2024/08/24)\n- Updated ImprovedCustomApi from `1.1.2` to `1.1.3`\n  - Fix issue with some newer Imgur images and albums not loading properly (#35)\r\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.3/Apollo-1.15.11_improvedcustomapi-1.1.3.ipa",
-                    "size": 108281984,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.1.2",
-                    "date": "2024-08-02T07:24:21Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\nApollo .IPA Version: `1.15.11`\nImprovedCustomApi .DEB Version: `1.1.2`\n\n**RELEASE `1.15.11`-`1.1.2`:** (2024/08/03)\n- Updated ImprovedCustomApi from `1.1.1` to `1.1.2`\n  - Update user agent to fix multireddit search (#33) - thanks @paradoxally and @blvdmd!\r\n\r\n[Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36](https://useragents.io/uas/mozilla-5-0-macintosh-intel-mac-os-x-10-15-7-applewebkit-537-36-khtml-like-gecko-chrome-91-0-4472-114-safari-537-36-gzipgfe_2497d28276f9d0c8d383700f3c2f7c9e)\n# Known issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.2/Apollo-1.15.11_improvedcustomapi-1.1.2.ipa",
-                    "size": 108281925,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.1.1",
-                    "date": "2024-07-31T19:21:54Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.1.1` \r\n\r\n**RELEASE 1.15.11-1.1.1:** (2024-07-31)\r\n- Working hybrid implementation of the \"New Comments Highlighter\" Ultra feature - it's a custom implementation so it may not behave exactly like the original. Enable the feature in Settings -> General -> Custom API, not Settings -> General as it crashes the app.\r\n- Add [FLEX integration](https://github.com/FLEXTool/FLEX) for debugging purposes. Use at your own risk! Requires app restart after enabling in Settings -> General -> Custom API.\r\n        Note: the .deb package is larger in size as a result\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.1.1/Apollo-1.15.11_improvedcustomapi-1.1.1.ipa",
-                    "size": 108681149,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.0.12",
-                    "date": "2024-07-26T18:49:20Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.12` \r\n\r\n**RELEASE 1.15.11-1.0.11:** (2024-07-26)\r\n- Updated ImprovedCustomApi from `1.0.11` to `1.0.12` \r\n    - Use a more generic user agent independent of bundle ID for requests to Reddit\r\n\r\n[Mozilla/5.0 (iPhone; CPU iPhone OS 17_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1](https://useragents.io/explore/platforms/ios/maker/apple-inc-b93/uas/mozilla-5-0-iphone-cpu-iphone-os-17-5-1-like-mac-os-x-applewebkit-605-1-15-khtml-like-gecko-version-17-5-mobile-15e148-safari-604-1_2f39fc840d9054105730c511db1920b7)\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.12/Apollo-1.15.11_improvedcustomapi-1.0.12.ipa",
-                    "size": 108152923,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.0.11",
-                    "date": "2024-02-28T12:33:18Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.11` \r\n\r\n**RELEASE 1.15.11-1.0.11:** (2024-02-28)\r\n- Updated ImprovedCustomApi from `1.0.10` to `1.0.11` \r\n    - Fix issue with Imgur uploads consistently failing. Note that multi-image uploads may still fail on the first attempt.\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.11/Apollo-1.15.11_improvedcustomapi-1.0.11.ipa",
-                    "size": 108157689,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.0.10",
-                    "date": "2024-01-23T12:32:35Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.10` \r\n\r\n**RELEASE 1.15.11-1.0.9:** (2024-01-23)\r\n- Updated ImprovedCustomApi from `1.0.9` to `1.0.10` \r\n   - Add support for /u/ share links (e.g. `reddit.com/u/username/s/xxxxxx`)\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.10/Apollo-1.15.11_improvedcustomapi-1.0.10.ipa",
-                    "size": 108157865,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.0.9",
-                    "date": "2023-12-30T08:52:04Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.9` \r\n\r\n**RELEASE 1.15.11-1.0.9:** (2023-12-30)\r\n- Updated ImprovedCustomApi from `1.0.8` to `1.0.9` \r\n   - Randomize \"trending subreddits\" list so it doesn't show iOS, Clock, Time, IfYouDontMind all the time - thanks @iCrazeiOS!\r\n      - Context: There isn't an official Reddit API to get the currently trending subreddits. Apollo has a hardcoded mapping of dates to trending subreddits in this file called trending-subreddits.plist that is bundled inside the .ipa. The last date entry is 2023-9-9, which is why Apollo has been falling back to the default iOS, Clock, Time, IfYouDontMind subreddits lately.\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.9/Apollo-1.15.11_improvedcustomapi-1.0.9.ipa",
-                    "size": 108157858,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.0.8",
-                    "date": "2023-12-16T15:09:37Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.8` \r\n\r\n**RELEASE 1.15.11-1.0.8:** (2023-12-16)\r\n- Updated ImprovedCustomApi from `1.0.7` to `1.0.8` \r\n   - Lower minimum iOS version requirement to 14.0\r\n   - Toggleable settings for blocking announcements and some Ultra settings (not fully working, see https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/issues/1). These are the same as the previous experimental builds.\r\n        - All toggles are located in Settings -> General -> Custom API\r\n        - New Comments Highlightifier shows new comment count badge, but doesn't highlight comments inside a thread\r\n        - Subreddit Weather and Time widget doesn't seem to work (not showing or loads infinitely)\r\n \r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.8/Apollo-1.15.11_improvedcustomapi-1.0.8.ipa",
-                    "size": 108157000,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.0.7",
-                    "date": "2023-12-08T12:08:07Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.7` \r\n\r\n**RELEASE 1.15.11-1.0.7:** (2023-12-08)\r\n- Updated ImprovedCustomApi from `1.0.5` to `1.0.7` \r\n   - Add support for resolving Reddit media share links (https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2F) (https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/9) - thanks @mmshivesh!\r\n   - Add toggleable settings for blocking announcements and some Ultra settings (not working)\r\n   - Lower minimum iOS version requirement\r\n \r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n  - Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.7/Apollo-1.15.11_improvedcustomapi-1.0.7.ipa",
-                    "size": 108156033,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.0.5",
-                    "date": "2023-12-04T10:09:25Z",
-                    "localizedDescription": "# Apollo for Reddit (with ImprovedCustomApi) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nImprovedCustomApi .DEB Version: `1.0.5` \r\n\r\n**RELEASE 1.15.11-1.0.5:** (2023-12-04)\r\n- Initial release with ImprovedCustomApi `1.0.5` instead of Artemis\r\n   - Fix crash when tapping on spoiler tag\r\n \r\n# **Features**\r\n- Use Apollo for Reddit with your own Reddit and Imgur API keys\r\n- Working Imgur integration (view, delete, and upload single images and multi-image albums)\r\n- Handle x.com links as Twitter links so that they can be opened in the Twitter app\r\n- Suppress unwanted messages on app startup (wallpaper popup, in-app announcements, etc)\r\n- Support new share link format (reddit.com/r/subreddit/s/xxxxxx) so they open like any other post and not in a browser\r\n\r\n# **Known issues**\r\n- Apollo Ultra features may cause app to crash\r\n- Imgur multi-image upload\r\n- Uploads usually fail on the first attempt but subsequent retries should succeed\r\n- Share URLs in private messages and long-tapping them still open in the in-app browser\r\n\r\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.0.5/Apollo-1.15.15_improvedcustomapi-1.0.5.ipa",
-                    "size": 108155800,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11-1.4",
-                    "date": "2023-10-11T22:15:35Z",
-                    "localizedDescription": "# Apollo for Reddit (with Artemis) Release Information\r\n\r\nApollo .IPA Version: `1.15.11`  \r\nArtemis .DEB Version: `1.4` \r\n\r\n**RELEASE 1.15.11-1.4:** (2023-10-11)\r\n- Initial release with Artemis `1.4` \r\n\t- Blocks requests to Statsig\r\n\t- Fix rare crash added in v1.3.1\r\n\t- Fix issue with some Imgur albums not loading\r\n\t- Now also blocks requests to Apollo\u2019s server, rather than just returning fake data\r\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11-1.4/Apollo-1.15.11_Artemis-1.4.ipa",
-                    "size": 108095419,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15.11_1.4.1",
-                    "date": "2026-01-30T17:02:57Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.4.1`\n\n## Release Notes\n- Fix certain Streamable links not loading in media view (https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/pull/95)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.4.1/Apollo-1.15.11_ImprovedCustomApi-1.4.1.ipa",
-                    "size": 114717040
-                },
-                {
-                    "version": "1.15.11_1.4.2",
-                    "date": "2026-02-07T06:48:10Z",
-                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.4.2`\n\n## Release Notes\n- Update default trending subreddit source to `https://jeffreyca.github.io/subreddits/trending-subriff-blended.txt` ([source](https://github.com/JeffreyCA/subreddits?tab=readme-ov-file#trending-subriff-blendedtxt))\r\n    - Previous source has been discontinued\r\n- Fix certain GIFs playing at 2x speed on 120Hz displays (#97)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
-                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.4.2/Apollo-1.15.11_ImprovedCustomApi-1.4.2.ipa",
-                    "size": 114716971
                 }
             ],
             "appPermissions": {
@@ -11489,255 +11759,6 @@
                     "localizedDescription": "## What's Changed\n* merge upstream by @castdrian in https://github.com/castdrian/TubeTweaks/pull/2\n\n\n**Full Changelog**: https://github.com/castdrian/TubeTweaks/commits/v19.47.7",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.47.7/TubeTweaks_19.47.7.ipa",
                     "size": 115479183,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Onion Browser",
-            "bundleIdentifier": "com.miketigas.OnionBrowser",
-            "marketplaceID": "",
-            "developerName": "OnionBrowser",
-            "subtitle": "Secure, anonymous web with Tor",
-            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
-            "tintColor": "#a74dff",
-            "category": "utilities",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "3.3.2",
-                    "date": "2025-12-19T17:30:32Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
-                    "size": 34189973,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.1",
-                    "date": "2025-11-24T12:58:14Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
-                    "size": 33379151,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.0",
-                    "date": "2025-11-10T11:30:32Z",
-                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
-                    "size": 32041275,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.5",
-                    "date": "2025-10-14T14:08:26Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
-                    "size": 31834099,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.4",
-                    "date": "2025-09-22T11:17:43Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
-                    "size": 31757993,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.3",
-                    "date": "2025-08-04T14:02:39Z",
-                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
-                    "size": 31910782,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.2",
-                    "date": "2025-07-07T14:11:32Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
-                    "size": 31490068,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.1",
-                    "date": "2025-06-03T11:29:10Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
-                    "size": 30624177,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.0",
-                    "date": "2025-02-28T16:51:52Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
-                    "size": 30741203,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2024-11-28T11:06:30Z",
-                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
-                    "size": 30084277,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2024-08-07T12:47:23Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
-                    "size": 29631768,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2024-06-03T10:52:56Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
-                    "size": 29620102,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2024-03-31T21:21:37Z",
-                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
-                    "size": 28667469,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2024-01-30T12:22:11Z",
-                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
-                    "size": 31497187,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2023-10-25T10:44:15Z",
-                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
-                    "size": 30722541,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.3",
-                    "date": "2023-09-27T10:31:03Z",
-                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
-                    "size": 14185165,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.2",
-                    "date": "2023-07-17T11:16:33Z",
-                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
-                    "size": 13898686,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2023-06-26T14:37:51Z",
-                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
-                    "size": 13893448,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2023-06-14T10:59:46Z",
-                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
-                    "size": 13891464,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.3",
-                    "date": "2022-12-14T15:04:20Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
-                    "size": 198031926,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.2",
-                    "date": "2022-09-29T11:35:58Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
-                    "size": 197374069,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
