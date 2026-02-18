@@ -289,6 +289,147 @@
                     "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.4.4`\n\n## Release Notes\nFix certain GIFs showing up as `Processing img <id>` in comments (#102)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.4.4/Apollo-1.15.11_ImprovedCustomApi-1.4.4.ipa",
                     "size": 114722249
+                },
+                {
+                    "version": "1.15.11_1.4.5",
+                    "date": "2026-02-17T20:15:39Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.4.5`\n\n## Release Notes\nPrevent certain crashes when Reddit API goes down (#105)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.4.5/Apollo-1.15.11_ImprovedCustomApi-1.4.5.ipa",
+                    "size": 114721749
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "LiveContainer Installer",
+            "bundleIdentifier": "site.ashutoshportfolio.lcinstaller.app",
+            "marketplaceID": "",
+            "developerName": "asrma7",
+            "subtitle": "An awesome app.",
+            "localizedDescription": "LcInstaller\nLcInstaller is a Flutter app that makes installing apps into LiveContainer effortless.\n\nInstead of manually searching for .ipa files, downloading them, and then importing into LiveContainer, you can simply add **repos** (just like in ESign, Feather, etc.) and install apps directly.\n\n\u2728 Features\n* \ud83d\udcc2 Add and manage repos that host `.ipa` apps.\n* \u26a1 One-click install into LiveContainer using its URL scheme.\n* \ud83d\udd04 Easily update or switch apps without tedious manual steps.\n\n\u2699\ufe0f How It Works\nLcInstaller uses LiveContainer\u2019s custom URL scheme:\nWhen you tap install inside LcInstaller, it tells LiveContainer to fetch the `.ipa` directly and handle the installation.\n\n\u2705 You don\u2019t need to manage files, downloads, or imports yourself.\n\n\ud83d\udccc Important Notes\nIf you install LcInstaller inside LiveContainer itself, you must:\n  * Run it in LiveContainer2, or\n  * Run it in multi-tasking mode.\n\nThis ensures the main LiveContainer instance remains free to handle the actual install process.",
+            "iconURL": "https://raw.githubusercontent.com/asrma7/LiveContainer-installer/refs/heads/main/screenshots/AppIcon1024.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2.1",
+                    "date": "2025-11-09T00:24:51Z",
+                    "localizedDescription": "\n- Fixed issue with incorrect latest version due to missing leading zero in version dates.",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.1/LcInstaller.ipa",
+                    "size": 8095982,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.0",
+                    "date": "2025-11-04T01:29:42Z",
+                    "localizedDescription": "- Fixed issue with unsupported versionDate in some repositories like SpotCompiled causing app library to fail to load.\n- Added visual notification of Import and Export in Add Source Page.\n- Added template image for invalid image in source or app.",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.0/LcInstaller.ipa",
+                    "size": 8095146,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2025-09-12T06:47:06Z",
+                    "localizedDescription": "- Library page now shows installed apps and available updates.\n- Workaround implemented to track installed app. (Does not retrieve data from Live Container)",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.1.0/LcInstaller.ipa",
+                    "size": 8094727,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2025-09-12T02:20:33Z",
+                    "localizedDescription": "- UI Improvement for larger Icons and better view\n- All Repository added within source page to view all apps",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.1/LcInstaller.ipa",
+                    "size": 8077929,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-09-09T09:02:06Z",
+                    "localizedDescription": "- Implement AppViewPage where you can see details and screenshots of the app\n- Version History page to allow users to download older versions of the app\n- UI optimization\n- App loading speed optimization",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.0/LcInstaller.ipa",
+                    "size": 8076298,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1.6",
+                    "date": "2025-09-09T05:40:06Z",
+                    "localizedDescription": "- Fix issue with bottom navigation bar hiding apps\n- Optimize app loading logic to load app lists faster for repos with 1000+ apps\n- Removed database for apps and screenshots to store them in memory for better performance",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.6/LcInstaller.ipa",
+                    "size": 8056715,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1.5",
+                    "date": "2025-09-08T01:52:28Z",
+                    "localizedDescription": "- Fix issue with importing recommended sources",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.5/LcInstaller.ipa",
+                    "size": 8064425,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1.4",
+                    "date": "2025-09-08T01:21:00Z",
+                    "localizedDescription": "- Add functionality to import and export sources from common signers\n- Fix importing sidestore repositories",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.4/LcInstaller.ipa",
+                    "size": 8064207,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1.3",
+                    "date": "2025-09-07T04:32:14Z",
+                    "localizedDescription": "- Add feature to allow copying and deleting sources ",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.3/LcInstaller.ipa",
+                    "size": 8039782,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1.2",
+                    "date": "2025-09-07T03:08:45Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.2/LcInstaller.ipa",
+                    "size": 8037915,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1.1",
+                    "date": "2025-09-07T00:43:31Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.1/LcInstaller.ipa",
+                    "size": 8029521,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1.0",
+                    "date": "2025-09-07T00:19:57Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.0/LcInstaller.ipa",
+                    "size": 8029219,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2026-02-17T16:15:25Z",
+                    "localizedDescription": "\n- Improvement of add source to skip duplicate urls instead of cancelling the import.",
+                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.2/LcInstaller.ipa",
+                    "size": 8292824
                 }
             ],
             "appPermissions": {
@@ -13463,133 +13604,6 @@
                     "localizedDescription": "Nightly release includes newest features but may contain bugs\r\n\r\nIt is preferred to use the stable version unless you know what you're doing",
                     "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/nightly/Spotube-iOS.ipa",
                     "size": 45847083,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "LiveContainer Installer",
-            "bundleIdentifier": "site.ashutoshportfolio.lcinstaller.app",
-            "marketplaceID": "",
-            "developerName": "asrma7",
-            "subtitle": "An awesome app.",
-            "localizedDescription": "LcInstaller\nLcInstaller is a Flutter app that makes installing apps into LiveContainer effortless.\n\nInstead of manually searching for .ipa files, downloading them, and then importing into LiveContainer, you can simply add **repos** (just like in ESign, Feather, etc.) and install apps directly.\n\n\u2728 Features\n* \ud83d\udcc2 Add and manage repos that host `.ipa` apps.\n* \u26a1 One-click install into LiveContainer using its URL scheme.\n* \ud83d\udd04 Easily update or switch apps without tedious manual steps.\n\n\u2699\ufe0f How It Works\nLcInstaller uses LiveContainer\u2019s custom URL scheme:\nWhen you tap install inside LcInstaller, it tells LiveContainer to fetch the `.ipa` directly and handle the installation.\n\n\u2705 You don\u2019t need to manage files, downloads, or imports yourself.\n\n\ud83d\udccc Important Notes\nIf you install LcInstaller inside LiveContainer itself, you must:\n  * Run it in LiveContainer2, or\n  * Run it in multi-tasking mode.\n\nThis ensures the main LiveContainer instance remains free to handle the actual install process.",
-            "iconURL": "https://raw.githubusercontent.com/asrma7/LiveContainer-installer/refs/heads/main/screenshots/AppIcon1024.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.1",
-                    "date": "2025-11-09T00:24:51Z",
-                    "localizedDescription": "\n- Fixed issue with incorrect latest version due to missing leading zero in version dates.",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.1/LcInstaller.ipa",
-                    "size": 8095982,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.0",
-                    "date": "2025-11-04T01:29:42Z",
-                    "localizedDescription": "- Fixed issue with unsupported versionDate in some repositories like SpotCompiled causing app library to fail to load.\n- Added visual notification of Import and Export in Add Source Page.\n- Added template image for invalid image in source or app.",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.2.0/LcInstaller.ipa",
-                    "size": 8095146,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1.0",
-                    "date": "2025-09-12T06:47:06Z",
-                    "localizedDescription": "- Library page now shows installed apps and available updates.\n- Workaround implemented to track installed app. (Does not retrieve data from Live Container)",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.1.0/LcInstaller.ipa",
-                    "size": 8094727,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.1",
-                    "date": "2025-09-12T02:20:33Z",
-                    "localizedDescription": "- UI Improvement for larger Icons and better view\n- All Repository added within source page to view all apps",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.1/LcInstaller.ipa",
-                    "size": 8077929,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-09-09T09:02:06Z",
-                    "localizedDescription": "- Implement AppViewPage where you can see details and screenshots of the app\n- Version History page to allow users to download older versions of the app\n- UI optimization\n- App loading speed optimization",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v1.0.0/LcInstaller.ipa",
-                    "size": 8076298,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1.6",
-                    "date": "2025-09-09T05:40:06Z",
-                    "localizedDescription": "- Fix issue with bottom navigation bar hiding apps\n- Optimize app loading logic to load app lists faster for repos with 1000+ apps\n- Removed database for apps and screenshots to store them in memory for better performance",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.6/LcInstaller.ipa",
-                    "size": 8056715,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1.5",
-                    "date": "2025-09-08T01:52:28Z",
-                    "localizedDescription": "- Fix issue with importing recommended sources",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.5/LcInstaller.ipa",
-                    "size": 8064425,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1.4",
-                    "date": "2025-09-08T01:21:00Z",
-                    "localizedDescription": "- Add functionality to import and export sources from common signers\n- Fix importing sidestore repositories",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.4/LcInstaller.ipa",
-                    "size": 8064207,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1.3",
-                    "date": "2025-09-07T04:32:14Z",
-                    "localizedDescription": "- Add feature to allow copying and deleting sources ",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.3/LcInstaller.ipa",
-                    "size": 8039782,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1.2",
-                    "date": "2025-09-07T03:08:45Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.2/LcInstaller.ipa",
-                    "size": 8037915,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1.1",
-                    "date": "2025-09-07T00:43:31Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.1/LcInstaller.ipa",
-                    "size": 8029521,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1.0",
-                    "date": "2025-09-07T00:19:57Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/asrma7/LiveContainer-installer/releases/download/v0.1.0/LcInstaller.ipa",
-                    "size": 8029219,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
