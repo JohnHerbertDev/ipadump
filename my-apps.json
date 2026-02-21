@@ -10,6 +10,88 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Asspp",
+            "bundleIdentifier": "wiki.qaq.Asspp",
+            "marketplaceID": "",
+            "developerName": "Lakr233",
+            "subtitle": "The App Store for your multi-account eco system.",
+            "localizedDescription": "Seamless multi-account App Store management.\nKey Features\n- Multi-Account: Supports multiple Apple IDs\n- Region Selection: Choose your App Store region\n- App Search: Search for apps by keywords\n- App Download: Download apps from the App Store\n- IPA Install: Install IPAs on non-jailbroken devices\n- IPA Sharing: Share IPA files easily\n- Historical Versions: Download previous app versions\n- Free App Purchase: Purchase free apps",
+            "iconURL": "https://raw.githubusercontent.com/Lakr233/Asspp/refs/heads/main/Asspp/App/Assets.xcassets/AppIcon.appiconset/asspp_512.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": {
+                "iphone": [
+                    "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_iPhone.png"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_MAC.png",
+                        "width": 3006,
+                        "height": 1654
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "3.0.25",
+                    "date": "2025-10-16T21:15:10Z",
+                    "localizedDescription": "## What's Changed\r\n* Fix macOS login sheet by @LiYanan2004 in https://github.com/Lakr233/Asspp/pull/48\r\n* Update macOS password field style\r\n* Update macOS installer with more detailed error information\r\n* Update App icons with more accurate corner radius\r\n\r\n## New Contributors\r\n* @LiYanan2004 made their first contribution in https://github.com/Lakr233/Asspp/pull/48\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/3.0.24...3.0.25",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.25/Asspp.ipa",
+                    "size": 10917639,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.24",
+                    "date": "2025-10-10T07:56:08Z",
+                    "localizedDescription": "## What's Changed\r\n* macOS Support\r\n\r\n--- \r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n\r\n- \u652f\u6301 macOS\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.20...3.0.24",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.24/Asspp.ipa",
+                    "size": 10915165,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.20",
+                    "date": "2025-09-19T19:40:57Z",
+                    "localizedDescription": "## Release Notes\r\n* Added SideStore source\r\n* Added support for dark icons\r\n* Fixed the auto-pop issue on iOS 16 ~ iOS 18\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20\r\n\r\n---\r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n* \u652f\u6301 SideStore \u6e90\r\n* \u521d\u6b65\u9002\u914d\u6df1\u8272\u56fe\u6807\r\n* \u4fee\u590d iOS 16 ~ iOS 18 \u9875\u9762\u81ea\u52a8\u8fd4\u56de\u7684\u95ee\u9898\r\n\r\n**\u5b8c\u6574\u53d8\u66f4**\uff1ahttps://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.20/Asspp.ipa",
+                    "size": 10219280,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.18",
+                    "date": "2025-09-17T03:40:02Z",
+                    "localizedDescription": "## What's Changed\r\n* Adopt Liquid Glass by @bo2themax in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n## New Contributors\r\n* @bo2themax made their first contribution in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.2.16...2.3.18",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.18/Asspp.ipa",
+                    "size": 9951832,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.2.16",
+                    "date": "2025-09-16T06:58:25Z",
+                    "localizedDescription": "# Release Notes: From 1.x to 2.2.16\r\n\r\nThis release enhances functionality, stability, and user experience.\r\n\r\n## New Features\r\n- You can now view and download historical versions of apps.\r\n\r\n## Improvements\r\n- Improved search experience.\r\n- Improved handling of server-provided instructions.\r\n- Improved user experience on iOS 26.\r\n\r\n## Changes\r\n- On-device installer now uses a new certificate valid for 2 years.\r\n- Complete redesign of API backend with updated APIs.\r\n\r\n## Bug Fixes\r\n- Fixed issues with account login.\r\n- Fixed application purchasing issues.\r\n- Fixed downloading issues with improved cookie handling.\r\n- Resolved logical issues with two-factor authentication.\r\n\r\n## Other Changes\r\n- Updated files and configs for new features.\r\n\r\nWe hope you enjoy the new release!\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**New Contributors**: @bo2themax, @lbr77\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\uff1a\u4ece 1.x \u5230 2.2.16\r\n\r\n\u672c\u6b21\u66f4\u65b0\u589e\u5f3a\u4e86\u529f\u80fd\u6027\u3001\u7a33\u5b9a\u6027\u4e0e\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u65b0\u529f\u80fd\r\n- \u73b0\u5728\u60a8\u53ef\u4ee5\u67e5\u770b\u5e76\u4e0b\u8f7d\u5e94\u7528\u7684\u5386\u53f2\u7248\u672c\u4e86\u3002\r\n\r\n## \u6539\u8fdb\r\n- \u4f18\u5316\u4e86\u641c\u7d22\u4f53\u9a8c\u3002\r\n- \u6539\u8fdb\u4e86\u5bf9\u670d\u52a1\u5668\u6307\u4ee4\u7684\u5904\u7406\u3002\r\n- \u6539\u5584\u4e86\u5728 iOS 26 \u4e0a\u7684\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u53d8\u66f4\r\n- \u8bbe\u5907\u7aef\u5b89\u88c5\u5668\u73b0\u5df2\u4f7f\u7528\u65b0\u7684\u8bc1\u4e66\uff0c\u6709\u6548\u671f\u4e3a 2 \u5e74\u3002\r\n- \u5f7b\u5e95\u91cd\u6784\u4e86 API \u540e\u7aef\uff0c\u5e76\u66f4\u65b0\u4e86\u76f8\u5173\u63a5\u53e3\u3002\r\n\r\n## \u95ee\u9898\u4fee\u590d\r\n- \u4fee\u590d\u4e86\u8d26\u6237\u767b\u5f55\u76f8\u5173\u7684\u95ee\u9898\u3002\r\n- \u4fee\u590d\u4e86\u5e94\u7528\u8d2d\u4e70\u65f6\u9047\u5230\u7684\u95ee\u9898\u3002\r\n- \u901a\u8fc7\u6539\u8fdb Cookie \u5904\u7406\uff0c\u4fee\u590d\u4e86\u4e0b\u8f7d\u95ee\u9898\u3002\r\n- \u89e3\u51b3\u4e86\u4e24\u6b65\u9a8c\u8bc1\u4e2d\u7684\u903b\u8f91\u95ee\u9898\u3002\r\n\r\n## \u5176\u4ed6\u53d8\u66f4\r\n- \u4e3a\u652f\u6301\u65b0\u529f\u80fd\uff0c\u66f4\u65b0\u4e86\u76f8\u5173\u6587\u4ef6\u4e0e\u914d\u7f6e\u3002\r\n\r\n\u5e0c\u671b\u60a8\u559c\u6b22\u8fd9\u6b21\u66f4\u65b0\uff01\r\n\r\n**\u5b8c\u6574\u66f4\u65b0\u65e5\u5fd7**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**\u65b0\u8d21\u732e\u8005**: @bo2themax, @lbr77\r\n",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.2.16/Asspp.ipa",
+                    "size": 9912930,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.1.1",
+                    "date": "2026-02-20T17:26:46Z",
+                    "localizedDescription": "### New Features\n- **macOS Installed Apps tab** \u2014 view and update apps on connected devices\n- **In-app logging** \u2014 built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** \u2014 IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** \u2014 login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
+                    "size": 13586686
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Onion Browser",
             "bundleIdentifier": "com.miketigas.OnionBrowser",
             "marketplaceID": "",
@@ -14040,81 +14122,6 @@
                     "localizedDescription": "Pre-beta for Discord.",
                     "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b1/Non-Jailbroken.ipa",
                     "size": 13147368,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Asspp",
-            "bundleIdentifier": "wiki.qaq.Asspp",
-            "marketplaceID": "",
-            "developerName": "Lakr233",
-            "subtitle": "The App Store for your multi-account eco system.",
-            "localizedDescription": "Seamless multi-account App Store management.\nKey Features\n- Multi-Account: Supports multiple Apple IDs\n- Region Selection: Choose your App Store region\n- App Search: Search for apps by keywords\n- App Download: Download apps from the App Store\n- IPA Install: Install IPAs on non-jailbroken devices\n- IPA Sharing: Share IPA files easily\n- Historical Versions: Download previous app versions\n- Free App Purchase: Purchase free apps",
-            "iconURL": "https://raw.githubusercontent.com/Lakr233/Asspp/refs/heads/main/Asspp/App/Assets.xcassets/AppIcon.appiconset/asspp_512.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": {
-                "iphone": [
-                    "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_iPhone.png"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_MAC.png",
-                        "width": 3006,
-                        "height": 1654
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "3.0.25",
-                    "date": "2025-10-16T21:15:10Z",
-                    "localizedDescription": "## What's Changed\r\n* Fix macOS login sheet by @LiYanan2004 in https://github.com/Lakr233/Asspp/pull/48\r\n* Update macOS password field style\r\n* Update macOS installer with more detailed error information\r\n* Update App icons with more accurate corner radius\r\n\r\n## New Contributors\r\n* @LiYanan2004 made their first contribution in https://github.com/Lakr233/Asspp/pull/48\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/3.0.24...3.0.25",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.25/Asspp.ipa",
-                    "size": 10917639,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.24",
-                    "date": "2025-10-10T07:56:08Z",
-                    "localizedDescription": "## What's Changed\r\n* macOS Support\r\n\r\n--- \r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n\r\n- \u652f\u6301 macOS\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.20...3.0.24",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.24/Asspp.ipa",
-                    "size": 10915165,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.20",
-                    "date": "2025-09-19T19:40:57Z",
-                    "localizedDescription": "## Release Notes\r\n* Added SideStore source\r\n* Added support for dark icons\r\n* Fixed the auto-pop issue on iOS 16 ~ iOS 18\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20\r\n\r\n---\r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n* \u652f\u6301 SideStore \u6e90\r\n* \u521d\u6b65\u9002\u914d\u6df1\u8272\u56fe\u6807\r\n* \u4fee\u590d iOS 16 ~ iOS 18 \u9875\u9762\u81ea\u52a8\u8fd4\u56de\u7684\u95ee\u9898\r\n\r\n**\u5b8c\u6574\u53d8\u66f4**\uff1ahttps://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.20/Asspp.ipa",
-                    "size": 10219280,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.18",
-                    "date": "2025-09-17T03:40:02Z",
-                    "localizedDescription": "## What's Changed\r\n* Adopt Liquid Glass by @bo2themax in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n## New Contributors\r\n* @bo2themax made their first contribution in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.2.16...2.3.18",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.18/Asspp.ipa",
-                    "size": 9951832,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.2.16",
-                    "date": "2025-09-16T06:58:25Z",
-                    "localizedDescription": "# Release Notes: From 1.x to 2.2.16\r\n\r\nThis release enhances functionality, stability, and user experience.\r\n\r\n## New Features\r\n- You can now view and download historical versions of apps.\r\n\r\n## Improvements\r\n- Improved search experience.\r\n- Improved handling of server-provided instructions.\r\n- Improved user experience on iOS 26.\r\n\r\n## Changes\r\n- On-device installer now uses a new certificate valid for 2 years.\r\n- Complete redesign of API backend with updated APIs.\r\n\r\n## Bug Fixes\r\n- Fixed issues with account login.\r\n- Fixed application purchasing issues.\r\n- Fixed downloading issues with improved cookie handling.\r\n- Resolved logical issues with two-factor authentication.\r\n\r\n## Other Changes\r\n- Updated files and configs for new features.\r\n\r\nWe hope you enjoy the new release!\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**New Contributors**: @bo2themax, @lbr77\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\uff1a\u4ece 1.x \u5230 2.2.16\r\n\r\n\u672c\u6b21\u66f4\u65b0\u589e\u5f3a\u4e86\u529f\u80fd\u6027\u3001\u7a33\u5b9a\u6027\u4e0e\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u65b0\u529f\u80fd\r\n- \u73b0\u5728\u60a8\u53ef\u4ee5\u67e5\u770b\u5e76\u4e0b\u8f7d\u5e94\u7528\u7684\u5386\u53f2\u7248\u672c\u4e86\u3002\r\n\r\n## \u6539\u8fdb\r\n- \u4f18\u5316\u4e86\u641c\u7d22\u4f53\u9a8c\u3002\r\n- \u6539\u8fdb\u4e86\u5bf9\u670d\u52a1\u5668\u6307\u4ee4\u7684\u5904\u7406\u3002\r\n- \u6539\u5584\u4e86\u5728 iOS 26 \u4e0a\u7684\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u53d8\u66f4\r\n- \u8bbe\u5907\u7aef\u5b89\u88c5\u5668\u73b0\u5df2\u4f7f\u7528\u65b0\u7684\u8bc1\u4e66\uff0c\u6709\u6548\u671f\u4e3a 2 \u5e74\u3002\r\n- \u5f7b\u5e95\u91cd\u6784\u4e86 API \u540e\u7aef\uff0c\u5e76\u66f4\u65b0\u4e86\u76f8\u5173\u63a5\u53e3\u3002\r\n\r\n## \u95ee\u9898\u4fee\u590d\r\n- \u4fee\u590d\u4e86\u8d26\u6237\u767b\u5f55\u76f8\u5173\u7684\u95ee\u9898\u3002\r\n- \u4fee\u590d\u4e86\u5e94\u7528\u8d2d\u4e70\u65f6\u9047\u5230\u7684\u95ee\u9898\u3002\r\n- \u901a\u8fc7\u6539\u8fdb Cookie \u5904\u7406\uff0c\u4fee\u590d\u4e86\u4e0b\u8f7d\u95ee\u9898\u3002\r\n- \u89e3\u51b3\u4e86\u4e24\u6b65\u9a8c\u8bc1\u4e2d\u7684\u903b\u8f91\u95ee\u9898\u3002\r\n\r\n## \u5176\u4ed6\u53d8\u66f4\r\n- \u4e3a\u652f\u6301\u65b0\u529f\u80fd\uff0c\u66f4\u65b0\u4e86\u76f8\u5173\u6587\u4ef6\u4e0e\u914d\u7f6e\u3002\r\n\r\n\u5e0c\u671b\u60a8\u559c\u6b22\u8fd9\u6b21\u66f4\u65b0\uff01\r\n\r\n**\u5b8c\u6574\u66f4\u65b0\u65e5\u5fd7**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**\u65b0\u8d21\u732e\u8005**: @bo2themax, @lbr77\r\n",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.2.16/Asspp.ipa",
-                    "size": 9912930,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
