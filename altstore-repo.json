@@ -10,6 +10,50 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "DLiPA",
+            "bundleIdentifier": "com.ahmedbafkir.dlipa",
+            "marketplaceID": "",
+            "developerName": "AhmedBafkir",
+            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
+            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
+            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2025-11-16T17:59:20Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
+                    "size": 480115,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-06-07T17:24:30Z",
+                    "localizedDescription": "Initial Release.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
+                    "size": 480247,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2026-02-22T21:04:04Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
+                    "size": 471971
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Asspp",
             "bundleIdentifier": "wiki.qaq.Asspp",
             "marketplaceID": "",
@@ -13771,43 +13815,6 @@
                     "localizedDescription": "Prebuilt IPA for Provenance 1.3.2 on iOS & tvOS. Install with Cydia Impactor or some other re-signing tool.\n",
                     "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/1.3.2/Provenance-iOS-Release.ipa",
                     "size": 19808392,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "DLiPA",
-            "bundleIdentifier": "com.ahmedbafkir.dlipa",
-            "marketplaceID": "",
-            "developerName": "AhmedBafkir",
-            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
-            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
-            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2025-11-16T17:59:20Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
-                    "size": 480115,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-06-07T17:24:30Z",
-                    "localizedDescription": "Initial Release.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
-                    "size": 480247,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
