@@ -10,6 +10,41 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Layam",
+            "bundleIdentifier": "metronome.layam",
+            "marketplaceID": "",
+            "developerName": "sasobhabha",
+            "subtitle": "The best free carnatic classical music metronome",
+            "localizedDescription": "The best free carnatic classical music metronome\n",
+            "iconURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/placeholder.jpg",
+            "tintColor": "#007aff",
+            "category": "utilities",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1",
+                    "date": "2026-01-13T04:52:12Z",
+                    "localizedDescription": "v1",
+                    "downloadURL": "https://github.com/sasobhabha/Layam/releases/download/v1/Layam.ipa",
+                    "size": 6004148,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2",
+                    "date": "2026-03-04T05:28:27Z",
+                    "localizedDescription": "Changed UI, Tanpura feature added",
+                    "downloadURL": "https://github.com/sasobhabha/Layam/releases/download/v2/Layamv2.ipa",
+                    "size": 6051325
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "NuvioStreaming",
             "bundleIdentifier": "com.nuvio.app",
             "marketplaceID": "",
@@ -9666,34 +9701,6 @@
                     "localizedDescription": "v1",
                     "downloadURL": "https://github.com/sasobhabha/QuizGen/releases/download/v1/QuizGen.ipa",
                     "size": 6572671,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Layam",
-            "bundleIdentifier": "metronome.layam",
-            "marketplaceID": "",
-            "developerName": "sasobhabha",
-            "subtitle": "The best free carnatic classical music metronome",
-            "localizedDescription": "The best free carnatic classical music metronome\n",
-            "iconURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/placeholder.jpg",
-            "tintColor": "#007aff",
-            "category": "utilities",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1",
-                    "date": "2026-01-13T04:52:12Z",
-                    "localizedDescription": "v1",
-                    "downloadURL": "https://github.com/sasobhabha/Layam/releases/download/v1/Layam.ipa",
-                    "size": 6004148,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
