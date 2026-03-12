@@ -10,6 +10,283 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Onion Browser",
+            "bundleIdentifier": "com.miketigas.OnionBrowser",
+            "marketplaceID": "",
+            "developerName": "OnionBrowser",
+            "subtitle": "Secure, anonymous web with Tor",
+            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#a74dff",
+            "category": "utilities",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "3.3.2",
+                    "date": "2025-12-19T17:30:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
+                    "size": 34189973,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.1",
+                    "date": "2025-11-24T12:58:14Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
+                    "size": 33379151,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.0",
+                    "date": "2025-11-10T11:30:32Z",
+                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
+                    "size": 32041275,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.5",
+                    "date": "2025-10-14T14:08:26Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
+                    "size": 31834099,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.4",
+                    "date": "2025-09-22T11:17:43Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
+                    "size": 31757993,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.3",
+                    "date": "2025-08-04T14:02:39Z",
+                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
+                    "size": 31910782,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.2",
+                    "date": "2025-07-07T14:11:32Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
+                    "size": 31490068,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.1",
+                    "date": "2025-06-03T11:29:10Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
+                    "size": 30624177,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.0",
+                    "date": "2025-02-28T16:51:52Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
+                    "size": 30741203,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2024-11-28T11:06:30Z",
+                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
+                    "size": 30084277,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2024-08-07T12:47:23Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
+                    "size": 29631768,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2024-06-03T10:52:56Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
+                    "size": 29620102,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2024-03-31T21:21:37Z",
+                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
+                    "size": 28667469,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2024-01-30T12:22:11Z",
+                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
+                    "size": 31497187,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2023-10-25T10:44:15Z",
+                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
+                    "size": 30722541,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.3",
+                    "date": "2023-09-27T10:31:03Z",
+                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
+                    "size": 14185165,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.2",
+                    "date": "2023-07-17T11:16:33Z",
+                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
+                    "size": 13898686,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2023-06-26T14:37:51Z",
+                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
+                    "size": 13893448,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2023-06-14T10:59:46Z",
+                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
+                    "size": 13891464,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.3",
+                    "date": "2022-12-14T15:04:20Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
+                    "size": 198031926,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.2",
+                    "date": "2022-09-29T11:35:58Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
+                    "size": 197374069,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.3",
+                    "date": "2026-02-13T14:48:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.22.\r\n- Updated Lyrebird to 0.8.1.\r\n- Added experimental DNSTT support.\r\n- Added additional source of bridges.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.3/OnionBrowser.ipa",
+                    "size": 34461313
+                },
+                {
+                    "version": "3.3.4",
+                    "date": "2026-02-19T16:39:17Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.5.\r\n- Fixed bug where certificate info sometimes wouldn't show.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.4/OnionBrowser.ipa",
+                    "size": 34456665
+                },
+                {
+                    "version": "3.3.5",
+                    "date": "2026-03-06T12:52:12Z",
+                    "localizedDescription": "- Improved DNSTT support for challenged countries.\r\n- Fixed bug where URL call from another app wasn't recognized on cold start.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.5/OnionBrowser.ipa",
+                    "size": 35812185
+                },
+                {
+                    "version": "3.3.6",
+                    "date": "2026-03-11T17:06:59Z",
+                    "localizedDescription": "- Improved DNSTT shutdown.\r\n- Updated to Snowflake 2.12.1.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.6/OnionBrowser.ipa",
+                    "size": 35924914
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "StikDebug",
             "bundleIdentifier": "com.stik.stikdebug",
             "marketplaceID": "",
@@ -722,276 +999,6 @@
                     "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v2.0.0`\n\n## Release Notes\n\ud83c\udf89 ***Massive*** update that enables Ultra features like saved categories, new app icons and Pixel Pals! This also brings new features like recently read posts and fixes for some longstanding Apollo bugs.\r\n\r\nThe Custom API settings view has also been redesigned and is now accessible directly from Settings.\r\n\r\n> [!NOTE]\r\n> Ultra features that rely on push notifications **still do not work**, and are unlikely to ever be supported.\r\n\r\n| | | |\r\n|:--:|:--:|:--:|\r\n| <img src=\"https://github.com/user-attachments/assets/c7d8cae4-93d8-41e6-89d7-b35d264b2ceb\" alt=\"Settings\" width=\"200\"> | <img src=\"https://github.com/user-attachments/assets/c70ee993-dc15-4986-86e4-ea75f7f48324\" alt=\"Custom API Settings\" width=\"200\"> | <img src=\"https://github.com/user-attachments/assets/e1769f1f-28d7-4df0-b691-a7c0ab31ef87\" alt=\"Recently Read\" width=\"200\"> |\r\n\r\n### Saved Categories\r\n- To enable saved categories, set \"Allow Saved Categories\" in Settings > General > Other\r\n- New \"Saved Categories\" section in Settings tab to edit and delete saved categories\r\n- Fixed: Saved category names are now consistently sorted in menus\r\n- **Note:** Saved categories are global, while saved items are tied to individual accounts\r\n\r\n### Recently Read\r\n- New \"Recently Read\" button in Profile tab to view and clear all recently read posts\r\n- \"Disable Marking Posts Read\" **must be unchecked** in Settings > General > Mark Read / Hiding Posts\r\n- **Note:** Recently read is global (not account-specific)\r\n\r\n### Media Playback\r\n- New \"Unmute Videos in Comments\" setting (Settings > General > Custom API)\r\n    - **Default**: Default Apollo behaviour\r\n    - **Remember from Fullscreen Player**: If you unmute a video in the fullscreen player, it stays unmuted when you navigate into comments\r\n    - **Always**: Header videos are always automatically unmuted after opening comments \r\n- New \"Preferred GIF Fallback Format\" setting (Settings > General > Custom API)\r\n    - Choose between GIF or MP4 when Apollo fetches certain animated images from Reddit API\r\n    - Try setting to \"GIF\" if you find certain animated images get stuck with loading spinner\r\n\r\n### Other Issues Fixed\r\n- Interacting with Ultra features and settings no longer causes app to crash\r\n    - \"New Comments Highlightifier\" can be toggled normally in Settings > General, and is removed from Custom API settings\r\n- Fix multi-image Imgur uploads failing the first time\r\n- Fix share links opening in webview on iOS 26\r\n- Fix album image count label placement on newer iPhone models\r\n- Fix \"Processing img\" in self-posts\r\n- Liquid Glass: fix clipping when collapsing long comment chains\r\n- Add support for YouTube Shorts links\r\n- Various video playback fixes and improvements\r\n\r\n### Pixel Pals\r\n- Pixel Pals are now available on newer iPhone models\r\n- Unlock hidden \"Artificial Superintelligence\" Pixel Pal\r\n\r\n### App Icons & Themes\r\n- Unlock hidden \"Chumbus\" theme\r\n- Unlock all app icons, including:\r\n    - Community Icon Pack\r\n    - SPCA Animals Pack\r\n    - Ultra Icons\r\n    - <details>\r\n      <summary>22 Sekrit Icons (click to expand)</summary>\r\n\r\n        - Beans (Black Friday 2022)\r\n        - Sloth-kun\r\n        - iJustine / Wrapping Paper\r\n        - America!\r\n        - Super America\r\n        - UK / Hugh Laurie\r\n        - Yo. Jonathan Here. (TLD Today)\r\n        - ApolloBook Pro\r\n        - Wallpapers\r\n        - ATP\r\n        - Phil Schiller\r\n        - Canada D'Eh\r\n        - Ukraine\r\n        - Ernest\r\n        - Sus (Among Us)\r\n        - Dave2D\r\n        - MKBHD (Keith)\r\n        - Peachy (Neon Peach)\r\n        - Linus Tech Tips\r\n        - Andru Edwards\r\n        - Everything Apple Pro (Icons Drop Test) - does not show up in App Icons. To set, go to **Settings > About**, shake device, and input `everythingapplepro`.\r\n        - Rene Ritchie\r\n        - Snazzy Labs\r\n      </details>\r\n\r\n> [!NOTE]\r\n> Most of the credit goes to GitHub Copilot and Claude Code, which did most of the investigation and code generation. Models used: Claude Opus 4.6, OpenAI GPT-5.3-Codex and GPT-5.4.\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.0.0/Apollo-1.15.11_ImprovedCustomApi-2.0.0.ipa",
                     "size": 114784907
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Onion Browser",
-            "bundleIdentifier": "com.miketigas.OnionBrowser",
-            "marketplaceID": "",
-            "developerName": "OnionBrowser",
-            "subtitle": "Secure, anonymous web with Tor",
-            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
-            "tintColor": "#a74dff",
-            "category": "utilities",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "3.3.2",
-                    "date": "2025-12-19T17:30:32Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
-                    "size": 34189973,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.1",
-                    "date": "2025-11-24T12:58:14Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
-                    "size": 33379151,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.0",
-                    "date": "2025-11-10T11:30:32Z",
-                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
-                    "size": 32041275,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.5",
-                    "date": "2025-10-14T14:08:26Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
-                    "size": 31834099,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.4",
-                    "date": "2025-09-22T11:17:43Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
-                    "size": 31757993,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.3",
-                    "date": "2025-08-04T14:02:39Z",
-                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
-                    "size": 31910782,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.2",
-                    "date": "2025-07-07T14:11:32Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
-                    "size": 31490068,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.1",
-                    "date": "2025-06-03T11:29:10Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
-                    "size": 30624177,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.0",
-                    "date": "2025-02-28T16:51:52Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
-                    "size": 30741203,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2024-11-28T11:06:30Z",
-                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
-                    "size": 30084277,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2024-08-07T12:47:23Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
-                    "size": 29631768,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2024-06-03T10:52:56Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
-                    "size": 29620102,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2024-03-31T21:21:37Z",
-                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
-                    "size": 28667469,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2024-01-30T12:22:11Z",
-                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
-                    "size": 31497187,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2023-10-25T10:44:15Z",
-                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
-                    "size": 30722541,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.3",
-                    "date": "2023-09-27T10:31:03Z",
-                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
-                    "size": 14185165,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.2",
-                    "date": "2023-07-17T11:16:33Z",
-                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
-                    "size": 13898686,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2023-06-26T14:37:51Z",
-                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
-                    "size": 13893448,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2023-06-14T10:59:46Z",
-                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
-                    "size": 13891464,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.3",
-                    "date": "2022-12-14T15:04:20Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
-                    "size": 198031926,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.2",
-                    "date": "2022-09-29T11:35:58Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
-                    "size": 197374069,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.3",
-                    "date": "2026-02-13T14:48:32Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.22.\r\n- Updated Lyrebird to 0.8.1.\r\n- Added experimental DNSTT support.\r\n- Added additional source of bridges.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.3/OnionBrowser.ipa",
-                    "size": 34461313
-                },
-                {
-                    "version": "3.3.4",
-                    "date": "2026-02-19T16:39:17Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.5.\r\n- Fixed bug where certificate info sometimes wouldn't show.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.4/OnionBrowser.ipa",
-                    "size": 34456665
-                },
-                {
-                    "version": "3.3.5",
-                    "date": "2026-03-06T12:52:12Z",
-                    "localizedDescription": "- Improved DNSTT support for challenged countries.\r\n- Fixed bug where URL call from another app wasn't recognized on cold start.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.5/OnionBrowser.ipa",
-                    "size": 35812185
                 }
             ],
             "appPermissions": {
