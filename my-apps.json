@@ -10,6 +10,174 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Alpimaps",
+            "bundleIdentifier": "akylas.alpi.maps",
+            "marketplaceID": "",
+            "developerName": "Akylas",
+            "subtitle": "Offline map app iOS/Android",
+            "localizedDescription": "Alpi Maps is an outdoor companion app\n\nMap features:\n- enjoy more that 50 different map styles\n- enjoy more that 20 different map overlay styles like ski trails\n- enable / disable HD map for each style\n- combine map styles with opacity to create your own map\n- enjoy Google Maps style, traffic layers and buildings\n- enjoy rotating and tilting map\n- use the Google Maps gestures you love so much like the double tap and drag to zoom!\n- see slopes percentages (based on hill-shading data source offline/online)\n\nGPS features:\n- follow your location on the map\n- choose wether to follow your location or only query your location when needed for the lowest battery consumption\n- choose the accuracy of the GPS for even lower battery consumption\n- access useful information about your position like altitude, orientation, sunset, sunrise...\n- track your position on any computed itinerary to see where you are at\n- see where you are from any point on the map : distance, orientation and altitude\n- share your location with a screenshot of the map\n- get navigation directions\n\nMarkers features:\n- add a marker from any point on the map\n- find the altitude of any point on the map\n\nOffline features:\n- everything map you see is cached. Prepare your hike in advance, look where you are going and access your maps offline while hiking.\n- every single marker and all its details are available offline\n- offline itinerary profile\n- get navigation directions of saved itineraries\n- use your phone airplane mode to make sure you don't sure too much battery (network search can drain your battery), and still access your data.\n\nSearch features:\n- Alpi Maps use the Here/Photon APIs to query data.\n- use the search as you type feature to quickly look for something in your markers or anywhere in the world\n- then use the search to look for businesses, restaurants, ... in the region you are currently seeing\n\nOther features:\n- Compass tool\n- Moon / Sun information tool\n- GPS Satellites testing tool (useful to understand why you get a slow GPS fix)\n- Altitude based pressure\n- View on lockscreen mode\n- Keep screen alive mode",
+            "iconURL": "https://raw.githubusercontent.com/Akylas/alpimaps/refs/heads/master/App_Resources/iOS/icon%403x.png",
+            "tintColor": "#007aff",
+            "category": "lifestyle",
+            "screenshots": [
+                "https://play-lh.googleusercontent.com/hfCulyXdjS8EUnzaWm3FsD8Bb88QGD4RkRxZ2n7pa8BGr3p8SB3-1ibyj6N9L6zthDA=w1052-h592",
+                "https://play-lh.googleusercontent.com/Ks-Kx3aABzRut64WUX6d-V0kT6k2PoP8uH10BMK3jagpQqukdKCtk1lHguisjcpBlw=w1052-h592",
+                "https://play-lh.googleusercontent.com/ok1qx6U4hn-chWPd22Jp4NgVkmFNwVVOK5r204vsOzW--S1681Hco20QEZHYuvWJVqus=w1052-h592",
+                "https://play-lh.googleusercontent.com/aF32FKEP9OKIXoZiktSBYkDy9HjTaKpS0JdRoEj7vl-oyZAVXY0Ev4AeoEwT_gAoLA=w1052-h592",
+                "https://play-lh.googleusercontent.com/gYchlPL59VL4EhqcZ4F1Tv9bQqa-zCudtiqvjCKZS4fYV22Dy22Wdlbh6j44A9y7eA=w1052-h592",
+                "https://play-lh.googleusercontent.com/dFIcgFEJ_kgqur3EXWHJAzJ3WomGyQqiy_QS7uPBde94cLQ9LMmuAZehQTrUBC82LXY=w1052-h592"
+            ],
+            "versions": [
+                {
+                    "version": "ios/alpha/3.0.3/241",
+                    "date": "2025-10-16T15:46:14Z",
+                    "localizedDescription": "### Bug fixes\n- crashes and font scale fixes (https://github.com/Akylas/alpimaps/commit/2e0a95ef07d95ee0ee254b85231761432c120b9a)\n- download area popover fix (https://github.com/Akylas/alpimaps/commit/3b28cd5bc31732c627f8711ccc546206a24f23e8)\n- some direction panel fixes and improvements (https://github.com/Akylas/alpimaps/commit/eb79713a72185155b0e942613f002ce156c1f42f)\n- item info view wrong title size (https://github.com/Akylas/alpimaps/commit/dada92d5ccacf081025de02a01ad396369441a01)\n- some fixes around data sources (addition, search, options...) (https://github.com/Akylas/alpimaps/commit/71fe369b4e6d3ba1879dafd628c2d61401765b20)\n- chart fix on axis (https://github.com/Akylas/alpimaps/commit/6ab8e72e1a3bcf9483058cc3800ea1e6f3d0eef1)",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.3/241/alpimaps.ipa",
+                    "size": 62927088,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/3.0.2/240",
+                    "date": "2025-10-06T17:27:45Z",
+                    "localizedDescription": "### Bug fixes\n- ensure styles are built for ios production (https://github.com/Akylas/alpimaps/commit/eecaf00aceeb96c6e8fb18b103e53c11c73e517d)",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.2/240/alpimaps.ipa",
+                    "size": 60536925,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/3.0.1/239",
+                    "date": "2025-10-04T20:54:58Z",
+                    "localizedDescription": "### Bug fixes\n- error where map style would not be found (https://github.com/Akylas/alpimaps/commit/de0a92c024d16a65497827f14ad60e0f891a8c4c)",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.1/239/alpimaps.ipa",
+                    "size": 59622320,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/3.0.0/238",
+                    "date": "2025-10-04T15:35:41Z",
+                    "localizedDescription": "### Features\n- moved to OpenFreeMap instead of AmericanaOSM (https://github.com/Akylas/alpimaps/commit/0600b8be59f5631be8d8b21ee82de4f73c13883c)\n\n### Bug fixes\n- identify and allow to hide caravan sites (https://github.com/Akylas/alpimaps/commit/db2a474875da0ee6f3ddfa789fd2afc40c9d4915)\n- settings improvements (https://github.com/Akylas/alpimaps/commit/57e0fe9aa1f6896c6849c62dfaaeeb33322a5895)\n- empty tiles when using world mbtiles (https://github.com/Akylas/alpimaps/commit/3f772e7411b31abc8205210a784d50df97db8427)\n- elevation chart fixes (https://github.com/Akylas/alpimaps/commit/25ece152b86d5fd65f4a6a874eb3fd952f023d45)\n- photon does not use bbox anymore (https://github.com/Akylas/alpimaps/commit/7ef8dd6c45c7da449038f750b3d58786e71fb60c)\n- many crash, issues fixes (https://github.com/Akylas/alpimaps/commit/8ae79e412a9e0a37054ff395a540c218207e2dfd)\n- new units system (https://github.com/Akylas/alpimaps/commit/e3983fb4df189dee4b6fb135acfe7c2b0ed8017b)\n- better checkbox all over the app (https://github.com/Akylas/alpimaps/commit/63c8879544bd4798efe3522b240abfc8d6ce8f45)\n- status bar color fix (https://github.com/Akylas/alpimaps/commit/1c849e0f20fe1757ed09929ff53b21be4d68dac8)\n- Translations update by @Adolfo, @ubuntu, @Ldm, @gmail, @Yurt, @oxisol, @proton, @Allan, @anotheragency, @SlotSun, @Micka, @outlook, @marvel, @qq, @Alice, @Ettore, @googlemail",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.0/238/alpimaps.ipa",
+                    "size": 59621398,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.2.0/237",
+                    "date": "2025-06-10T19:43:00Z",
+                    "localizedDescription": "### Features\n- ascent detection in elevation profile (https://github.com/Akylas/alpimaps/commit/b562626015c38d2d59c33e6d4dc7087debf06902)\n- ascent detection in elevation profile (https://github.com/Akylas/alpimaps/commit/ff53daa152cd3392be85965e63edb190eb07f69e)\n\n### Bug fixes\n- long press awake button to toggle full brightness (https://github.com/Akylas/alpimaps/commit/16a569c467bd055108d2a0b1c2fc7c1397a42f40)\n- lower min zoom while watching location (https://github.com/Akylas/alpimaps/commit/3a0142baa8a3e3bb872942d937708f3db7b1915f)\n- another geo settings fix (https://github.com/Akylas/alpimaps/commit/3648f2ecef992c3ab5b7b394f5e95e2b221a5bbe)\n- more style options (https://github.com/Akylas/alpimaps/commit/bf9be76cafeeac7a50293153a778dbee31adca28)\n- improved navigation mode (https://github.com/Akylas/alpimaps/commit/9e1832b0f5617147942ecf507823907978f50896)\n- improved navigation mode (https://github.com/Akylas/alpimaps/commit/dd6ad7ad8f355feb1136c92c29dd521b8827298b)\n- new screen off auto refresh featurefor Hisense A9 (https://github.com/Akylas/alpimaps/commit/7995215782370d193b77d69eabe5daa8b9fd996d)\n- setting to disable accuracy marker (https://github.com/Akylas/alpimaps/commit/dfe4961c01c4f8d25f7c79e10f04b963dd79cfbe)\n- setting to change elevation chart filter number (https://github.com/Akylas/alpimaps/commit/5f6d91a7097f7c3f5f997b5ca72c4b264b35f138)\n- allow to set icon size (https://github.com/Akylas/alpimaps/commit/6157b18ec1bb704d3a568dc30fc3dfe6e47c3841)\n- exclude_unpaved for bicycle (https://github.com/Akylas/alpimaps/commit/35a1af53431027fabe978cc268b668db023ae690)\n- allow to prompt for value on settings slider (https://github.com/Akylas/alpimaps/commit/6b17903094c9d3caf192ccf4c70d8c5979c0e799)\n- option to draw on route live data (https://github.com/Akylas/alpimaps/commit/6701611638ce1ea6eacf6be63abc9c4553dc678e)\n- trying to fix location info speed drawing (https://github.com/Akylas/alpimaps/commit/aaae1c13f8b51193b13042a31c9b7e77224da4b6)\n- allow to lock item (https://github.com/Akylas/alpimaps/commit/16079a6369bf4297be0a86efd996eb36c8415ee4)\n- Translations update by @Ettore, @googlemail, @Micka, @outlook, @Amalia, @gmail, @mahmoud, @SlotSun, @gmkeebiy, @sharklasers, @Dejan, @ssantos, @web, @abdelbasset, @users, @lorisobi, @Adolfo, @ubuntu, @FW, @slmail, @Manuela, @sky",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.2.0/237/alpimaps.ipa",
+                    "size": 59908771,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.1.1/236",
+                    "date": "2025-02-26T18:10:51Z",
+                    "localizedDescription": "### Bug fixes\n- improved navigation mode (with settings in `directions` settings section) (https://github.com/Akylas/alpimaps/commit/24be652d6e130cf2e5f630a8102388b1facda2e6)\n- new option to emphasis drinking water points and springs (https://github.com/Akylas/alpimaps/commit/faebefc8d22b047b8ce6f185554bf0427797a136)",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.1.1/236/alpimaps.ipa",
+                    "size": 59854245,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.1.0/235",
+                    "date": "2025-02-24T10:08:49Z",
+                    "localizedDescription": "### Features\n- new design for \"show search results on map\". It comes with more details and features (https://github.com/Akylas/alpimaps/commit/fa707722bc3feaa36fec3ad7565c7a770c8f4da2)\n- you can now search \"around\" a saved route (https://github.com/Akylas/alpimaps/commit/691e59dc537a9c7c0da5feb6b87e6f9de54f7e33)\n- you can now specify your own valhalla instance for online directions/elevation/stats (https://github.com/Akylas/alpimaps/commit/bd3889a46f011a8dc094da9c8b44a52debd94e1a)\n- allow to use custom tiles url for americanaosm (https://github.com/Akylas/alpimaps/commit/505a4877bcb639b3eef757b50dbdcc9f57b3b744)\n\n### Bug fixes\n- timezone offset fix for some locations (https://github.com/Akylas/alpimaps/commit/e7eebb9e271fbdd22e67b9ac90f5e69a9a797c15)\n- hiding contour lines was not working (https://github.com/Akylas/alpimaps/commit/037c60a0b5ee5dd0467f24b138c678c691fbcb24)\n- some addresses were wrongly formatted as being in the US (https://github.com/Akylas/alpimaps/commit/fabe6669dca781f47cf64c7e8b92b0944e66a540)\n- smaller directions button (https://github.com/Akylas/alpimaps/commit/3d80d3cba8c5116a43ee3029487691663d06886b)\n- Map options bottom sheet fix (https://github.com/Akylas/alpimaps/commit/30858c7eb232a32b57800ba37e202bd24f0430b0)\n- map saved markers not showing icon (https://github.com/Akylas/alpimaps/commit/4b7ea53050259c8a2f9f59254de12a65ac29cd45)\n- new city min zoom option for vector tiles style (https://github.com/Akylas/alpimaps/commit/551fda495bd799c572508aa0c1be82f6f812d7ce)\n- better export GPX/GeoJSON (https://github.com/Akylas/alpimaps/commit/b4bf340c943453ccc6c4e3c0c1afbaf74b112825)\n- reduce size of profile data (https://github.com/Akylas/alpimaps/commit/c143ce8f4c236ad5ddaac9d8a05c374791cc95c8)\n- navigation mode button for when watching location (https://github.com/Akylas/alpimaps/commit/10fe54a852b455db704ed0bc6a13311d2582a4b7)\n- some style fixes (https://github.com/Akylas/alpimaps/commit/b91875a440c588be89c9b9e8a43e4e47bf3cfde2)\n- export GeoJSON was adding elevation twice (https://github.com/Akylas/alpimaps/commit/05d58a8fc0a7460bb4bb67e9b5c3d0d13567474b)\n- default GPX/GeoJSON export name use time iso string (https://github.com/Akylas/alpimaps/commit/3073d51ca4edcf0266c58491e82a0d58bc1af3a5)\n- Translations update by @protonmail, @Micka, @outlook, @mevius, @gmail, @SlotSun, @Ettore, @googlemail, @K, @seznam, @ajou, @FW, @slmail, @Cassian, @epicraft",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.1.0/235/alpimaps.ipa",
+                    "size": 59854837,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.9/234",
+                    "date": "2025-01-22T17:31:35Z",
+                    "localizedDescription": "### Features\n- longpress the slope button when active to show legend ([75aa02e](/75aa02ebd7e58cd6e05c9dd202c079c96a92c5f5))\n- basic 3dmap available as new \"button\" on map selection. Available only with offline elevation data ([1573db2](/1573db2570b4c0504f496a4c250767b3a97d7748))\n\n### Bug fixes\n- bottomsheet buttons bar was not scrollable (in case there are many buttons) ([dc45eda](/dc45eda8d13b370ce5e32be5878d65962f61020b))",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.9/234/alpimaps.ipa",
+                    "size": 59243020,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.7/230",
+                    "date": "2024-12-19T17:05:33Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.7/230/alpimaps.ipa",
+                    "size": 51983044,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.5/228",
+                    "date": "2024-12-11T17:39:58Z",
+                    "localizedDescription": "### Bug fixes\r\n- elevation chart better handling of scroll ([39ce4d6](/39ce4d6161649d7adb5c001ab9e80cb934b592d7))\r\n- error on astronomy ([1edda52](/1edda52c95c364af301f7ef97aad70e611cdefe9))\r\n- error on opening settings ([c27a3ae](/c27a3ae500d4117d19be986de17986275454eaae))",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.5/228/alpimaps.ipa",
+                    "size": 51867182,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.4/227",
+                    "date": "2024-12-07T20:08:30Z",
+                    "localizedDescription": "### Features\n- offline valhalla custom locale support ([0c2f63a](/0c2f63af08743f230757438802c787134ed531ac))\n\n### Bug fixes\n- cancel request on search cancel ([a97d94b](/a97d94b9dea940bb0c917d065419da78ee0a86aa))",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.4/227/alpimaps.ipa",
+                    "size": 54015093,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.3/226",
+                    "date": "2024-11-18T15:47:47Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.3/226/alpimaps.ipa",
+                    "size": 53849942,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.2/225",
+                    "date": "2024-11-12T21:34:52Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.2/225/alpimaps.ipa",
+                    "size": 53960641,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.1/224",
+                    "date": "2024-11-12T16:38:56Z",
+                    "localizedDescription": "### Bug fixes\n- inner style (routes, items, transit...) now have a eink version ([61743f7](/61743f7b9116ee56e2d80eee555b3e8d19bc05bb))\n- new map style parameters ([2f5ae05](/2f5ae055350d18dfb8faaef53bf658fc362ff5f0))\n- settings icon not updating correctly on dark mode change ([5b40f0c](/5b40f0cb15cf2a7278fbb8a3e2c1bb9be7e6d2e1))",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.1/224/alpimaps.ipa",
+                    "size": 53644324,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.0.0/222",
+                    "date": "2024-11-08T21:34:52Z",
+                    "localizedDescription": "### Features\n- get local time from anywhere in the world. astronomy view will show local data + current time+ more daylight related infos ([3e54c5e](/3e54c5ecf4c5adab2632e4d26240768343894cdb))\n- new show admin boundaries features ([0eb7d5e](/0eb7d5ef819916ccffd39ff7d12f222f1cc59713))\n- new eink theme for eink devices ([1b2cbcd](/1b2cbcdf053b314d335621f2d0ab6acb05bcb440))\n- download area is now working (in layer option menu). Added a new button to force a layer to only use cache data ([34fee94](/34fee94e5a8d3d2c1534addfc125eadd1d29b665))\n- new map font scale option to scale all labels on map ([b1ec0a6](/b1ec0a6787089c5ee7fcb03e4dba0f0836f789ea))\n- new map options bottom sheet available through  a long press on the \u22ee button ([a9d5b92](/a9d5b92c0f4753fa27925f67a3965d4b24abcbb3))\n- new default source using vector tiles! It opens almost all Alpimaps features to everyone! If you dont get it by default on next app start you can add the source `AmericanaOSM` (you can remove the openstreetmap source) ([aa57bb7](/aa57bb75f42921714f0867b42241843987060051))\n- allow customizing valhalla offline routing service ([ec24d85](/ec24d85d2fa8af7447f2526e1652a86d9ab6c25d))\n\n### Bug fixes\n- item info fix ([bb1c3d3](/bb1c3d397bd0e317e98a24d4d66e71aba82a9b16))\n- item info fixes ([b76ec23](/b76ec232deffdb1f9080d3de6cffc43dc5b4893d))\n- disable transit lines button on error ([c2b801e](/c2b801e3155a629ccbf30ee756c856f6f851ecca))\n- elevation chart fixes ([628a15b](/628a15b5b07bf35598a2a12a2effa718ef3288e6))\n- file pickers fix ([bdd80e5](/bdd80e5cfe1348b5f00aaf20e695dd58a6b336c9))\n- item search fix ([f2ad7b5](/f2ad7b579e5f7bdda11f0fcd176ad77daf1958bb))\n- map interaction fix while following user position. ([bba0570](/bba0570a49dee0002bf18f582822aad4f5802f62))\n- style update ([a331c27](/a331c2735d88ab48924a41c46f898e56b416bb2b))\n- wikipedia button almost always available ([5cd819f](/5cd819fe78b224dd4655ee177572fff14f0ff1e3))\n- expandable directionpane ([1098c9a](/1098c9a4c55e9b7cf89193848b2679639f01dab5))\n- some astronomy view improvements ([7221c79](/7221c79bd82a43c840d0a40bfd931de7e1da7539))\n- map item info view improved with more OSM keys ([17f60b1](/17f60b114c43ca8c1b60b955e65b590a975b7a92))\n- untranslated strings are now using english instead of translation key ([f2e475d](/f2e475db45a4ac420d2a641378f51bc40eff4cd4))\n- import/export settings fix ([ebbcf48](/ebbcf48e21e37993465bb446742df6f9c9ce767b))\n- import GPX fix ([8032512](/8032512948bc91a4e8a6cbe902003acf3cb32db7))\n- ensure app urls are handled when everything is ready ([dddc620](/dddc6207f1b1dc18011fd414eef2eccacd5f50e9))\n- broken hillshade shaders ([7398163](/7398163c152be7c9feccd22432b2cc76f849ffb4))\n- improved eink map style ([b7cdf01](/b7cdf01e677a5fa52e28ff48a645102dfd9d17e8))\n- correctly format opening hours with 24h format ([ae74b7e](/ae74b7e1b27604e9999b8541effff2effce41848))\n- route thumbnail fix ([a2c377b](/a2c377b9bf2f457b63958371c3ef47861be02216))\n- multiple item edit fixes ([fe3e273](/fe3e273ae13fbee195a903fffbdecf6d3d14c95f))\n- multiple routes compute: add default settings route ([014b4c4](/014b4c4f0deacb800e4839504f0c0633c7384dfd))\n- hide wikipedia button for routes ([19cf6e0](/19cf6e08b21949ee764ce006954b122a055ac784))\n- action menu in items list not working ([1d9ef25](/1d9ef25c6c10e1d2be36f6dcbf8bf61879ce2653))\n- style improvements ([21e7c15](/21e7c15365b6a7b87835e773ad34ba3d12698dcd))\n- faster item selection on map ([ed52656](/ed52656d73897e74d021e34cf519b6b1aa571d54))\n- long press on directions \"search\" will force only compute ([14093c4](/14093c485edc13777764b4c938ae87aaa1550d90))\n- better saving of map position upon restart ([64b130f](/64b130fd4ba14bf4820a5ce85c43ac45cd1f7e22))\n- allow to change contour lines opacity with a long press on the contour lines button ([6368223](/6368223a5fefcfbfc25cbe440cfcef8ceb61f522))\n- impossibility to remove openstreetmap layer ([f5eb88f](/f5eb88f7bc3f85653e59279652070a98c0b7b313))\n- prevent removing last layer ([e445b73](/e445b73355d6fdf3a737650e309257f36b539d91))\n- share item fix ([afa8883](/afa88830dd3465db758c2ba746259b20e555516d))\n- a lot of transit fixes ([843674f](/843674f15f28998689f9762148d2ae303233dc12))\n- contour style fix ([2aabac9](/2aabac9ff7df36b73b7038b31506b7371ffb451e))\n- style improvements for latest map data ([ab0764a](/ab0764a8b45f5e3b716d27abe56f8d806b6261d2))\n- max_hiking_difficulty to 6 for all profiles to ensure we use all available paths ([d3f582a](/d3f582a35db5768b5782b025f2ddded08ef1d63b))\n- added options to disable address geocoding ([e132f0a](/e132f0a1929b09ec2e399e2a0ccc7f3f70a7f54e))\n- a lot of fixes for the items list page ([9c23b6b](/9c23b6b1d9abfd81aeee1d5fe729b720f7700b86))\n- direction panel improvements ([1d496a4](/1d496a414a6c54f50525b5755905e78ef4b03a9a))\n- cleaner Settings page ([498c5ab](/498c5abef35c85f27941b49edd6db48483daeee1))\n- online routing fix ([f117261](/f117261f813e7e3237cac838152429dc5e2e99b3))\n- more items list fixes ([dc046f7](/dc046f7635afab1315e3646a757af0069882a8b4))\n- differentiate languages variants based on the locale ([7c7bd6e](/7c7bd6e9c24bffacdc5626b2ff618cacd89132ee))\n- new Americana OSM vector tile data source ([9d94e91](/9d94e91482cbcb48eb2f2eb28d82b1b2305dff61))\n- when selecting a park, highlight it on the map ([26e3fba](/26e3fba33d8a62eefe4a4fa423e4ceb22142f032))\n- Sadly the shared AmericanaOSM instance limit got reached very quickly. I cant share mine anymore. Instead i explain in the readme and in the app how to create your own instance and use it. ([e4f8cb1](/e4f8cb1a11bbe03b50c40c1c29c1f12434f3f67b))\n- dynamic color support and color theme (with eink) ([7636b9f](/7636b9ff407de5a747a079ea49948e8ec4e1f314))",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.0/222/alpimaps.ipa",
+                    "size": 53527287,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/3.0.4/242",
+                    "date": "2026-03-16T11:01:07Z",
+                    "localizedDescription": "### Bug fixes\n- error while asking for motion permission (https://github.com/Akylas/alpimaps/commit/eb7a175053dc751fd8369f8847e29df9f2da9597)\n- GPS Updates interval is in seconds and not ms (https://github.com/Akylas/alpimaps/commit/c3322058bcd94277791c957ef2b4528c5f857927)\n- Translations update by @Julia, @gmail, @Gehtdichnichtsan, @gmx, @zq, @Zulxx, @NotAyu, @Nathan",
+                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.4/242/alpimaps.ipa",
+                    "size": 62303169
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Dopamine",
             "bundleIdentifier": "com.opa334.Dopamine",
             "marketplaceID": "",
@@ -14342,167 +14510,6 @@
                     "localizedDescription": "Pre-beta for Discord.",
                     "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b1/Non-Jailbroken.ipa",
                     "size": 13147368,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Alpimaps",
-            "bundleIdentifier": "akylas.alpi.maps",
-            "marketplaceID": "",
-            "developerName": "Akylas",
-            "subtitle": "Offline map app iOS/Android",
-            "localizedDescription": "Alpi Maps is an outdoor companion app\n\nMap features:\n- enjoy more that 50 different map styles\n- enjoy more that 20 different map overlay styles like ski trails\n- enable / disable HD map for each style\n- combine map styles with opacity to create your own map\n- enjoy Google Maps style, traffic layers and buildings\n- enjoy rotating and tilting map\n- use the Google Maps gestures you love so much like the double tap and drag to zoom!\n- see slopes percentages (based on hill-shading data source offline/online)\n\nGPS features:\n- follow your location on the map\n- choose wether to follow your location or only query your location when needed for the lowest battery consumption\n- choose the accuracy of the GPS for even lower battery consumption\n- access useful information about your position like altitude, orientation, sunset, sunrise...\n- track your position on any computed itinerary to see where you are at\n- see where you are from any point on the map : distance, orientation and altitude\n- share your location with a screenshot of the map\n- get navigation directions\n\nMarkers features:\n- add a marker from any point on the map\n- find the altitude of any point on the map\n\nOffline features:\n- everything map you see is cached. Prepare your hike in advance, look where you are going and access your maps offline while hiking.\n- every single marker and all its details are available offline\n- offline itinerary profile\n- get navigation directions of saved itineraries\n- use your phone airplane mode to make sure you don't sure too much battery (network search can drain your battery), and still access your data.\n\nSearch features:\n- Alpi Maps use the Here/Photon APIs to query data.\n- use the search as you type feature to quickly look for something in your markers or anywhere in the world\n- then use the search to look for businesses, restaurants, ... in the region you are currently seeing\n\nOther features:\n- Compass tool\n- Moon / Sun information tool\n- GPS Satellites testing tool (useful to understand why you get a slow GPS fix)\n- Altitude based pressure\n- View on lockscreen mode\n- Keep screen alive mode",
-            "iconURL": "https://raw.githubusercontent.com/Akylas/alpimaps/refs/heads/master/App_Resources/iOS/icon%403x.png",
-            "tintColor": "#007aff",
-            "category": "lifestyle",
-            "screenshots": [
-                "https://play-lh.googleusercontent.com/hfCulyXdjS8EUnzaWm3FsD8Bb88QGD4RkRxZ2n7pa8BGr3p8SB3-1ibyj6N9L6zthDA=w1052-h592",
-                "https://play-lh.googleusercontent.com/Ks-Kx3aABzRut64WUX6d-V0kT6k2PoP8uH10BMK3jagpQqukdKCtk1lHguisjcpBlw=w1052-h592",
-                "https://play-lh.googleusercontent.com/ok1qx6U4hn-chWPd22Jp4NgVkmFNwVVOK5r204vsOzW--S1681Hco20QEZHYuvWJVqus=w1052-h592",
-                "https://play-lh.googleusercontent.com/aF32FKEP9OKIXoZiktSBYkDy9HjTaKpS0JdRoEj7vl-oyZAVXY0Ev4AeoEwT_gAoLA=w1052-h592",
-                "https://play-lh.googleusercontent.com/gYchlPL59VL4EhqcZ4F1Tv9bQqa-zCudtiqvjCKZS4fYV22Dy22Wdlbh6j44A9y7eA=w1052-h592",
-                "https://play-lh.googleusercontent.com/dFIcgFEJ_kgqur3EXWHJAzJ3WomGyQqiy_QS7uPBde94cLQ9LMmuAZehQTrUBC82LXY=w1052-h592"
-            ],
-            "versions": [
-                {
-                    "version": "ios/alpha/3.0.3/241",
-                    "date": "2025-10-16T15:46:14Z",
-                    "localizedDescription": "### Bug fixes\n- crashes and font scale fixes (https://github.com/Akylas/alpimaps/commit/2e0a95ef07d95ee0ee254b85231761432c120b9a)\n- download area popover fix (https://github.com/Akylas/alpimaps/commit/3b28cd5bc31732c627f8711ccc546206a24f23e8)\n- some direction panel fixes and improvements (https://github.com/Akylas/alpimaps/commit/eb79713a72185155b0e942613f002ce156c1f42f)\n- item info view wrong title size (https://github.com/Akylas/alpimaps/commit/dada92d5ccacf081025de02a01ad396369441a01)\n- some fixes around data sources (addition, search, options...) (https://github.com/Akylas/alpimaps/commit/71fe369b4e6d3ba1879dafd628c2d61401765b20)\n- chart fix on axis (https://github.com/Akylas/alpimaps/commit/6ab8e72e1a3bcf9483058cc3800ea1e6f3d0eef1)",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.3/241/alpimaps.ipa",
-                    "size": 62927088,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/3.0.2/240",
-                    "date": "2025-10-06T17:27:45Z",
-                    "localizedDescription": "### Bug fixes\n- ensure styles are built for ios production (https://github.com/Akylas/alpimaps/commit/eecaf00aceeb96c6e8fb18b103e53c11c73e517d)",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.2/240/alpimaps.ipa",
-                    "size": 60536925,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/3.0.1/239",
-                    "date": "2025-10-04T20:54:58Z",
-                    "localizedDescription": "### Bug fixes\n- error where map style would not be found (https://github.com/Akylas/alpimaps/commit/de0a92c024d16a65497827f14ad60e0f891a8c4c)",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.1/239/alpimaps.ipa",
-                    "size": 59622320,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/3.0.0/238",
-                    "date": "2025-10-04T15:35:41Z",
-                    "localizedDescription": "### Features\n- moved to OpenFreeMap instead of AmericanaOSM (https://github.com/Akylas/alpimaps/commit/0600b8be59f5631be8d8b21ee82de4f73c13883c)\n\n### Bug fixes\n- identify and allow to hide caravan sites (https://github.com/Akylas/alpimaps/commit/db2a474875da0ee6f3ddfa789fd2afc40c9d4915)\n- settings improvements (https://github.com/Akylas/alpimaps/commit/57e0fe9aa1f6896c6849c62dfaaeeb33322a5895)\n- empty tiles when using world mbtiles (https://github.com/Akylas/alpimaps/commit/3f772e7411b31abc8205210a784d50df97db8427)\n- elevation chart fixes (https://github.com/Akylas/alpimaps/commit/25ece152b86d5fd65f4a6a874eb3fd952f023d45)\n- photon does not use bbox anymore (https://github.com/Akylas/alpimaps/commit/7ef8dd6c45c7da449038f750b3d58786e71fb60c)\n- many crash, issues fixes (https://github.com/Akylas/alpimaps/commit/8ae79e412a9e0a37054ff395a540c218207e2dfd)\n- new units system (https://github.com/Akylas/alpimaps/commit/e3983fb4df189dee4b6fb135acfe7c2b0ed8017b)\n- better checkbox all over the app (https://github.com/Akylas/alpimaps/commit/63c8879544bd4798efe3522b240abfc8d6ce8f45)\n- status bar color fix (https://github.com/Akylas/alpimaps/commit/1c849e0f20fe1757ed09929ff53b21be4d68dac8)\n- Translations update by @Adolfo, @ubuntu, @Ldm, @gmail, @Yurt, @oxisol, @proton, @Allan, @anotheragency, @SlotSun, @Micka, @outlook, @marvel, @qq, @Alice, @Ettore, @googlemail",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/3.0.0/238/alpimaps.ipa",
-                    "size": 59621398,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.2.0/237",
-                    "date": "2025-06-10T19:43:00Z",
-                    "localizedDescription": "### Features\n- ascent detection in elevation profile (https://github.com/Akylas/alpimaps/commit/b562626015c38d2d59c33e6d4dc7087debf06902)\n- ascent detection in elevation profile (https://github.com/Akylas/alpimaps/commit/ff53daa152cd3392be85965e63edb190eb07f69e)\n\n### Bug fixes\n- long press awake button to toggle full brightness (https://github.com/Akylas/alpimaps/commit/16a569c467bd055108d2a0b1c2fc7c1397a42f40)\n- lower min zoom while watching location (https://github.com/Akylas/alpimaps/commit/3a0142baa8a3e3bb872942d937708f3db7b1915f)\n- another geo settings fix (https://github.com/Akylas/alpimaps/commit/3648f2ecef992c3ab5b7b394f5e95e2b221a5bbe)\n- more style options (https://github.com/Akylas/alpimaps/commit/bf9be76cafeeac7a50293153a778dbee31adca28)\n- improved navigation mode (https://github.com/Akylas/alpimaps/commit/9e1832b0f5617147942ecf507823907978f50896)\n- improved navigation mode (https://github.com/Akylas/alpimaps/commit/dd6ad7ad8f355feb1136c92c29dd521b8827298b)\n- new screen off auto refresh featurefor Hisense A9 (https://github.com/Akylas/alpimaps/commit/7995215782370d193b77d69eabe5daa8b9fd996d)\n- setting to disable accuracy marker (https://github.com/Akylas/alpimaps/commit/dfe4961c01c4f8d25f7c79e10f04b963dd79cfbe)\n- setting to change elevation chart filter number (https://github.com/Akylas/alpimaps/commit/5f6d91a7097f7c3f5f997b5ca72c4b264b35f138)\n- allow to set icon size (https://github.com/Akylas/alpimaps/commit/6157b18ec1bb704d3a568dc30fc3dfe6e47c3841)\n- exclude_unpaved for bicycle (https://github.com/Akylas/alpimaps/commit/35a1af53431027fabe978cc268b668db023ae690)\n- allow to prompt for value on settings slider (https://github.com/Akylas/alpimaps/commit/6b17903094c9d3caf192ccf4c70d8c5979c0e799)\n- option to draw on route live data (https://github.com/Akylas/alpimaps/commit/6701611638ce1ea6eacf6be63abc9c4553dc678e)\n- trying to fix location info speed drawing (https://github.com/Akylas/alpimaps/commit/aaae1c13f8b51193b13042a31c9b7e77224da4b6)\n- allow to lock item (https://github.com/Akylas/alpimaps/commit/16079a6369bf4297be0a86efd996eb36c8415ee4)\n- Translations update by @Ettore, @googlemail, @Micka, @outlook, @Amalia, @gmail, @mahmoud, @SlotSun, @gmkeebiy, @sharklasers, @Dejan, @ssantos, @web, @abdelbasset, @users, @lorisobi, @Adolfo, @ubuntu, @FW, @slmail, @Manuela, @sky",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.2.0/237/alpimaps.ipa",
-                    "size": 59908771,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.1.1/236",
-                    "date": "2025-02-26T18:10:51Z",
-                    "localizedDescription": "### Bug fixes\n- improved navigation mode (with settings in `directions` settings section) (https://github.com/Akylas/alpimaps/commit/24be652d6e130cf2e5f630a8102388b1facda2e6)\n- new option to emphasis drinking water points and springs (https://github.com/Akylas/alpimaps/commit/faebefc8d22b047b8ce6f185554bf0427797a136)",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.1.1/236/alpimaps.ipa",
-                    "size": 59854245,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.1.0/235",
-                    "date": "2025-02-24T10:08:49Z",
-                    "localizedDescription": "### Features\n- new design for \"show search results on map\". It comes with more details and features (https://github.com/Akylas/alpimaps/commit/fa707722bc3feaa36fec3ad7565c7a770c8f4da2)\n- you can now search \"around\" a saved route (https://github.com/Akylas/alpimaps/commit/691e59dc537a9c7c0da5feb6b87e6f9de54f7e33)\n- you can now specify your own valhalla instance for online directions/elevation/stats (https://github.com/Akylas/alpimaps/commit/bd3889a46f011a8dc094da9c8b44a52debd94e1a)\n- allow to use custom tiles url for americanaosm (https://github.com/Akylas/alpimaps/commit/505a4877bcb639b3eef757b50dbdcc9f57b3b744)\n\n### Bug fixes\n- timezone offset fix for some locations (https://github.com/Akylas/alpimaps/commit/e7eebb9e271fbdd22e67b9ac90f5e69a9a797c15)\n- hiding contour lines was not working (https://github.com/Akylas/alpimaps/commit/037c60a0b5ee5dd0467f24b138c678c691fbcb24)\n- some addresses were wrongly formatted as being in the US (https://github.com/Akylas/alpimaps/commit/fabe6669dca781f47cf64c7e8b92b0944e66a540)\n- smaller directions button (https://github.com/Akylas/alpimaps/commit/3d80d3cba8c5116a43ee3029487691663d06886b)\n- Map options bottom sheet fix (https://github.com/Akylas/alpimaps/commit/30858c7eb232a32b57800ba37e202bd24f0430b0)\n- map saved markers not showing icon (https://github.com/Akylas/alpimaps/commit/4b7ea53050259c8a2f9f59254de12a65ac29cd45)\n- new city min zoom option for vector tiles style (https://github.com/Akylas/alpimaps/commit/551fda495bd799c572508aa0c1be82f6f812d7ce)\n- better export GPX/GeoJSON (https://github.com/Akylas/alpimaps/commit/b4bf340c943453ccc6c4e3c0c1afbaf74b112825)\n- reduce size of profile data (https://github.com/Akylas/alpimaps/commit/c143ce8f4c236ad5ddaac9d8a05c374791cc95c8)\n- navigation mode button for when watching location (https://github.com/Akylas/alpimaps/commit/10fe54a852b455db704ed0bc6a13311d2582a4b7)\n- some style fixes (https://github.com/Akylas/alpimaps/commit/b91875a440c588be89c9b9e8a43e4e47bf3cfde2)\n- export GeoJSON was adding elevation twice (https://github.com/Akylas/alpimaps/commit/05d58a8fc0a7460bb4bb67e9b5c3d0d13567474b)\n- default GPX/GeoJSON export name use time iso string (https://github.com/Akylas/alpimaps/commit/3073d51ca4edcf0266c58491e82a0d58bc1af3a5)\n- Translations update by @protonmail, @Micka, @outlook, @mevius, @gmail, @SlotSun, @Ettore, @googlemail, @K, @seznam, @ajou, @FW, @slmail, @Cassian, @epicraft",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.1.0/235/alpimaps.ipa",
-                    "size": 59854837,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.9/234",
-                    "date": "2025-01-22T17:31:35Z",
-                    "localizedDescription": "### Features\n- longpress the slope button when active to show legend ([75aa02e](/75aa02ebd7e58cd6e05c9dd202c079c96a92c5f5))\n- basic 3dmap available as new \"button\" on map selection. Available only with offline elevation data ([1573db2](/1573db2570b4c0504f496a4c250767b3a97d7748))\n\n### Bug fixes\n- bottomsheet buttons bar was not scrollable (in case there are many buttons) ([dc45eda](/dc45eda8d13b370ce5e32be5878d65962f61020b))",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.9/234/alpimaps.ipa",
-                    "size": 59243020,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.7/230",
-                    "date": "2024-12-19T17:05:33Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.7/230/alpimaps.ipa",
-                    "size": 51983044,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.5/228",
-                    "date": "2024-12-11T17:39:58Z",
-                    "localizedDescription": "### Bug fixes\r\n- elevation chart better handling of scroll ([39ce4d6](/39ce4d6161649d7adb5c001ab9e80cb934b592d7))\r\n- error on astronomy ([1edda52](/1edda52c95c364af301f7ef97aad70e611cdefe9))\r\n- error on opening settings ([c27a3ae](/c27a3ae500d4117d19be986de17986275454eaae))",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.5/228/alpimaps.ipa",
-                    "size": 51867182,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.4/227",
-                    "date": "2024-12-07T20:08:30Z",
-                    "localizedDescription": "### Features\n- offline valhalla custom locale support ([0c2f63a](/0c2f63af08743f230757438802c787134ed531ac))\n\n### Bug fixes\n- cancel request on search cancel ([a97d94b](/a97d94b9dea940bb0c917d065419da78ee0a86aa))",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.4/227/alpimaps.ipa",
-                    "size": 54015093,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.3/226",
-                    "date": "2024-11-18T15:47:47Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.3/226/alpimaps.ipa",
-                    "size": 53849942,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.2/225",
-                    "date": "2024-11-12T21:34:52Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.2/225/alpimaps.ipa",
-                    "size": 53960641,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.1/224",
-                    "date": "2024-11-12T16:38:56Z",
-                    "localizedDescription": "### Bug fixes\n- inner style (routes, items, transit...) now have a eink version ([61743f7](/61743f7b9116ee56e2d80eee555b3e8d19bc05bb))\n- new map style parameters ([2f5ae05](/2f5ae055350d18dfb8faaef53bf658fc362ff5f0))\n- settings icon not updating correctly on dark mode change ([5b40f0c](/5b40f0cb15cf2a7278fbb8a3e2c1bb9be7e6d2e1))",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.1/224/alpimaps.ipa",
-                    "size": 53644324,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.0.0/222",
-                    "date": "2024-11-08T21:34:52Z",
-                    "localizedDescription": "### Features\n- get local time from anywhere in the world. astronomy view will show local data + current time+ more daylight related infos ([3e54c5e](/3e54c5ecf4c5adab2632e4d26240768343894cdb))\n- new show admin boundaries features ([0eb7d5e](/0eb7d5ef819916ccffd39ff7d12f222f1cc59713))\n- new eink theme for eink devices ([1b2cbcd](/1b2cbcdf053b314d335621f2d0ab6acb05bcb440))\n- download area is now working (in layer option menu). Added a new button to force a layer to only use cache data ([34fee94](/34fee94e5a8d3d2c1534addfc125eadd1d29b665))\n- new map font scale option to scale all labels on map ([b1ec0a6](/b1ec0a6787089c5ee7fcb03e4dba0f0836f789ea))\n- new map options bottom sheet available through  a long press on the \u22ee button ([a9d5b92](/a9d5b92c0f4753fa27925f67a3965d4b24abcbb3))\n- new default source using vector tiles! It opens almost all Alpimaps features to everyone! If you dont get it by default on next app start you can add the source `AmericanaOSM` (you can remove the openstreetmap source) ([aa57bb7](/aa57bb75f42921714f0867b42241843987060051))\n- allow customizing valhalla offline routing service ([ec24d85](/ec24d85d2fa8af7447f2526e1652a86d9ab6c25d))\n\n### Bug fixes\n- item info fix ([bb1c3d3](/bb1c3d397bd0e317e98a24d4d66e71aba82a9b16))\n- item info fixes ([b76ec23](/b76ec232deffdb1f9080d3de6cffc43dc5b4893d))\n- disable transit lines button on error ([c2b801e](/c2b801e3155a629ccbf30ee756c856f6f851ecca))\n- elevation chart fixes ([628a15b](/628a15b5b07bf35598a2a12a2effa718ef3288e6))\n- file pickers fix ([bdd80e5](/bdd80e5cfe1348b5f00aaf20e695dd58a6b336c9))\n- item search fix ([f2ad7b5](/f2ad7b579e5f7bdda11f0fcd176ad77daf1958bb))\n- map interaction fix while following user position. ([bba0570](/bba0570a49dee0002bf18f582822aad4f5802f62))\n- style update ([a331c27](/a331c2735d88ab48924a41c46f898e56b416bb2b))\n- wikipedia button almost always available ([5cd819f](/5cd819fe78b224dd4655ee177572fff14f0ff1e3))\n- expandable directionpane ([1098c9a](/1098c9a4c55e9b7cf89193848b2679639f01dab5))\n- some astronomy view improvements ([7221c79](/7221c79bd82a43c840d0a40bfd931de7e1da7539))\n- map item info view improved with more OSM keys ([17f60b1](/17f60b114c43ca8c1b60b955e65b590a975b7a92))\n- untranslated strings are now using english instead of translation key ([f2e475d](/f2e475db45a4ac420d2a641378f51bc40eff4cd4))\n- import/export settings fix ([ebbcf48](/ebbcf48e21e37993465bb446742df6f9c9ce767b))\n- import GPX fix ([8032512](/8032512948bc91a4e8a6cbe902003acf3cb32db7))\n- ensure app urls are handled when everything is ready ([dddc620](/dddc6207f1b1dc18011fd414eef2eccacd5f50e9))\n- broken hillshade shaders ([7398163](/7398163c152be7c9feccd22432b2cc76f849ffb4))\n- improved eink map style ([b7cdf01](/b7cdf01e677a5fa52e28ff48a645102dfd9d17e8))\n- correctly format opening hours with 24h format ([ae74b7e](/ae74b7e1b27604e9999b8541effff2effce41848))\n- route thumbnail fix ([a2c377b](/a2c377b9bf2f457b63958371c3ef47861be02216))\n- multiple item edit fixes ([fe3e273](/fe3e273ae13fbee195a903fffbdecf6d3d14c95f))\n- multiple routes compute: add default settings route ([014b4c4](/014b4c4f0deacb800e4839504f0c0633c7384dfd))\n- hide wikipedia button for routes ([19cf6e0](/19cf6e08b21949ee764ce006954b122a055ac784))\n- action menu in items list not working ([1d9ef25](/1d9ef25c6c10e1d2be36f6dcbf8bf61879ce2653))\n- style improvements ([21e7c15](/21e7c15365b6a7b87835e773ad34ba3d12698dcd))\n- faster item selection on map ([ed52656](/ed52656d73897e74d021e34cf519b6b1aa571d54))\n- long press on directions \"search\" will force only compute ([14093c4](/14093c485edc13777764b4c938ae87aaa1550d90))\n- better saving of map position upon restart ([64b130f](/64b130fd4ba14bf4820a5ce85c43ac45cd1f7e22))\n- allow to change contour lines opacity with a long press on the contour lines button ([6368223](/6368223a5fefcfbfc25cbe440cfcef8ceb61f522))\n- impossibility to remove openstreetmap layer ([f5eb88f](/f5eb88f7bc3f85653e59279652070a98c0b7b313))\n- prevent removing last layer ([e445b73](/e445b73355d6fdf3a737650e309257f36b539d91))\n- share item fix ([afa8883](/afa88830dd3465db758c2ba746259b20e555516d))\n- a lot of transit fixes ([843674f](/843674f15f28998689f9762148d2ae303233dc12))\n- contour style fix ([2aabac9](/2aabac9ff7df36b73b7038b31506b7371ffb451e))\n- style improvements for latest map data ([ab0764a](/ab0764a8b45f5e3b716d27abe56f8d806b6261d2))\n- max_hiking_difficulty to 6 for all profiles to ensure we use all available paths ([d3f582a](/d3f582a35db5768b5782b025f2ddded08ef1d63b))\n- added options to disable address geocoding ([e132f0a](/e132f0a1929b09ec2e399e2a0ccc7f3f70a7f54e))\n- a lot of fixes for the items list page ([9c23b6b](/9c23b6b1d9abfd81aeee1d5fe729b720f7700b86))\n- direction panel improvements ([1d496a4](/1d496a414a6c54f50525b5755905e78ef4b03a9a))\n- cleaner Settings page ([498c5ab](/498c5abef35c85f27941b49edd6db48483daeee1))\n- online routing fix ([f117261](/f117261f813e7e3237cac838152429dc5e2e99b3))\n- more items list fixes ([dc046f7](/dc046f7635afab1315e3646a757af0069882a8b4))\n- differentiate languages variants based on the locale ([7c7bd6e](/7c7bd6e9c24bffacdc5626b2ff618cacd89132ee))\n- new Americana OSM vector tile data source ([9d94e91](/9d94e91482cbcb48eb2f2eb28d82b1b2305dff61))\n- when selecting a park, highlight it on the map ([26e3fba](/26e3fba33d8a62eefe4a4fa423e4ceb22142f032))\n- Sadly the shared AmericanaOSM instance limit got reached very quickly. I cant share mine anymore. Instead i explain in the readme and in the app how to create your own instance and use it. ([e4f8cb1](/e4f8cb1a11bbe03b50c40c1c29c1f12434f3f67b))\n- dynamic color support and color theme (with eink) ([7636b9f](/7636b9ff407de5a747a079ea49948e8ec4e1f314))",
-                    "downloadURL": "https://github.com/Akylas/alpimaps/releases/download/ios/alpha/2.0.0/222/alpimaps.ipa",
-                    "size": 53527287,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
