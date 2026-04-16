@@ -10,6 +10,302 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "OSS Weather",
+            "bundleIdentifier": "com.akylas.weather",
+            "marketplaceID": "",
+            "developerName": "Akylas",
+            "subtitle": "An OSS weather app",
+            "localizedDescription": "OSS Weather is a simple application to get clear and precise weather information from any place around the world. You get daily and minutely weather condition, plus precipitations map.\nData is provided by OpenWeatherMap, Open-Meteo or MeteoFrance.",
+            "iconURL": "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/master/Icon.png",
+            "tintColor": "#d0cd41",
+            "category": "lifestyle",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/5a/ca/6f5aca39-ae97-df95-9960-f3a3b1083e8d/pr_source.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/31/7c/a0317cda-073a-77f4-068c-7afb519eae45/pr_source.png/230x498bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/35/36/59/35365963-e58e-9fbd-b6e0-5dad35f37a35/pr_source.png/230x498bb.webp"
+                ],
+                "ipad": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/89/56/9c/89569cb6-2070-3ee6-1993-906425aed54d/e7de298e-253c-42b2-9c9c-c8f415f8bf78_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.19.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/61/fa/b8/61fab880-a805-1b90-5c39-e87464aca370/7f25d14a-c4ad-4c6c-ba60-e68dc65dd525_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.26.png/480x640bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/1e/8b/be/1e8bbe23-9a2e-1892-dfc0-0f366fc49162/4f131537-57f4-424d-a6ff-a82af2030584_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.36.png/480x640bb.webp"
+                ]
+            },
+            "versions": [
+                {
+                    "version": "ios/alpha/2.11.5/145",
+                    "date": "2025-10-04T15:23:42Z",
+                    "localizedDescription": "### Bug fixes\n- removed deprecated Open-Meteo models (https://github.com/Akylas/oss-weather/commit/02d8c9a4677ae94e8dce29e527f633e7270f8a7d)\n- BRA fix (https://github.com/Akylas/oss-weather/commit/3601e80d0fd254778e40b55393704b200b201403)\n- many fixes around system display size and safe area (https://github.com/Akylas/oss-weather/commit/02b233ee88ffb06e815437d332eb8e4bd528ab60)\n- edge case crashes (https://github.com/Akylas/oss-weather/commit/800bfd239f4ad52983e27d7e1ca6d1d5d0a0a71a)\n- added ECMWF IFS HRES 9km and ECMWF AIFS 0.25\u00b0 Single models for OpenMeteo #396 (https://github.com/Akylas/oss-weather/commit/ff9832150a7584789df7756ce3d45f9d5d8fd5e8)\n- show preview when selecting icon theme (https://github.com/Akylas/oss-weather/commit/0910427b8e791e66e40b27802da48fab4f2bbfc4)\n- crash when showing favorite menu #382 (https://github.com/Akylas/oss-weather/commit/68570157f8916f3189557b9bfeca598f77055560)\n- multiple crashes fix (https://github.com/Akylas/oss-weather/commit/09d739a461e552cb341be9d72a5f40f93cc172d2)\n- Translations update by @ssantos, @web, @Zulfar, @gmail, @ButterflyOfFire, @users, @marvel, @qq, @Michael, @joslajoko, @tutamail, @TenchMaviatorius2759",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.5/145/ossweather.ipa",
+                    "size": 49514092,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.11.4/144",
+                    "date": "2025-07-07T18:18:16Z",
+                    "localizedDescription": "### Bug fixes\n- crash with MeteoFrance (https://github.com/Akylas/oss-weather/commit/db9f7e2ef921b0ee72fe26c7b92f3dcf6842ac32)\n- Translations update by @Alexander, @openmailbox, @elid, @gmail, @Linull, @qq, @elon, @aol, @Kicsi, @linacit, @Philippe",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.4/144/ossweather.ipa",
+                    "size": 48987425,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.11.3/143",
+                    "date": "2025-06-02T13:24:51Z",
+                    "localizedDescription": "### Features\n- Knot as speed unit (https://github.com/Akylas/oss-weather/commit/d22193ffc4f5816bd1d6e307790a3fcb67934c10)\n\n### Bug fixes\n- universal link support (https://github.com/Akylas/oss-weather/commit/c6453c2e02332db3a043dd1db521c6b1c703c5ed)\n- error with air-quality and high numbers for hourly forecast (https://github.com/Akylas/oss-weather/commit/70271bfc384cd1251683249cb4f49f7b17ed1a57)\n- Translations update by @Jptxx, @gmail, @ButterflyOfFire, @users",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.3/143/ossweather.ipa",
+                    "size": 48967897,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.11.2/142",
+                    "date": "2025-05-03T19:21:42Z",
+                    "localizedDescription": "### Bug fixes\n- unit not localized in compare chart view (https://github.com/Akylas/oss-weather/commit/8b8c95a32dab21b5bc1dc60926ff5bd1fe094fab)\n- Open-Meteo not returning the full 384 possible hour range (https://github.com/Akylas/oss-weather/commit/3bf44d93c3dc965dfbab25fb8dffb6ec879ce55b)\n- favorite menu not rendering correctly (https://github.com/Akylas/oss-weather/commit/10962c94d792ce4b7de0122c66ebc3235eca66fb)\n- astronomy always showing current day data (https://github.com/Akylas/oss-weather/commit/438fd6597f28a1f8681b0f5451a0f1be34e3eac9)\n- issue when removing favorites (https://github.com/Akylas/oss-weather/commit/07cecc0a136e14f869f8fc2ff063b96d07ef099e)\n- should fix cloud cover not visible in some cases (https://github.com/Akylas/oss-weather/commit/86920506448bf2564c869ef5a0726d4badf604e5)\n- show current weather description in top view (https://github.com/Akylas/oss-weather/commit/850ac66982424f94f32aa1e4f4733a4af3e609b4)\n- refresh favorites timezone data on start and refresh, fix #354 (https://github.com/Akylas/oss-weather/commit/b276924a8b4ade9e893cb1ffd53e6f6f07cb2cfd)\n- Translations update by @TenchMaviatorius2759, @users, @Jptxx, @gmail, @Massimo, @Rainer, @posteo, @MattSolo451, @vivaldi, @Ihor, @outlook, @Priit, @joeruut, @elid",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.2/142/ossweather.ipa",
+                    "size": 48967017,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.11.1/141",
+                    "date": "2025-02-27T14:41:14Z",
+                    "localizedDescription": "### Features\n- allow to rename favorites (https://github.com/Akylas/oss-weather/commit/97f807629f0a08768e7166940723c02350fb907b)\n- allow to set custom daily date format (https://github.com/Akylas/oss-weather/commit/955dc98cd7318e9af46c6a5f9ca531ea09ec2892)\n- You can now select OpenMeteo model per favorite (https://github.com/Akylas/oss-weather/commit/239e954ab3d0532457892d1a2757629b81670abe)\n\n### Bug fixes\n- reorganized settings page (https://github.com/Akylas/oss-weather/commit/221301bcb8b258056c92ef20d2fd11fec0d137d3)\n- hourly chart view missing icon drawing (https://github.com/Akylas/oss-weather/commit/cb0c941124ac05a803fdc7353a65fc2e93d07dc6)\n- allow full range of hourly forecast or hourly chart. Setting now uses 12 hours step (https://github.com/Akylas/oss-weather/commit/1f40a2f043ccbe4bea0b60e2847fd888837a0c4f)\n- Translations update by @Inigo, @disroot, @Alexander, @openmailbox, @Rainer, @posteo, @Massimo, @gmail, @TenchMaviatorius2759, @users, @Jptxx",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.1/141/ossweather.ipa",
+                    "size": 48958771,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.11.0/140",
+                    "date": "2025-02-24T10:07:50Z",
+                    "localizedDescription": "### Features\n- select per favorite provider/aqiprovider. Default will always be app default provider (https://github.com/Akylas/oss-weather/commit/1423b5afb55523feac90428ca4f2e9fb18d0fc14)\n\n### Bug fixes\n- some missing translation fix (https://github.com/Akylas/oss-weather/commit/36dbafcde1ffd6d918d5b19e542e6f24816bd6be)\n- allow up to 168 hours in hourly chart view (https://github.com/Akylas/oss-weather/commit/928b421b36ab096ca1d68e265bb3f9177ddd6f7d)\n- potentiall error while trying refresh when not connected to internet (https://github.com/Akylas/oss-weather/commit/c99919e61745e0c7fa39d7bfc5d67730dac66c2e)\n- better hourly chart view renderig (https://github.com/Akylas/oss-weather/commit/30f0b1b9debd9da8439df5c160a33002834767dd)\n- legend texts / localization for Charts/Compare (https://github.com/Akylas/oss-weather/commit/e069992b49affff169bede4ca08913a68f8ceae6)\n- edge case fix for wrong wing gust text color (https://github.com/Akylas/oss-weather/commit/564c44317e92c50dbf3aae7f212fe882fdec4cfc)\n- Translations update by @Rainer, @posteo, @TenchMaviatorius2759, @users, @Massimo, @gmail, @Cassian, @outlook, @epicraft, @Ihor",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.0/140/ossweather.ipa",
+                    "size": 48951226,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.10/139",
+                    "date": "2025-02-17T16:11:18Z",
+                    "localizedDescription": "### Bug fixes\n- MB meteogram fix (https://github.com/Akylas/oss-weather/commit/e7245b125d4de8a032b4cc2033ad6dafadeeb672)\n- better handle of nb days/hours forecast parameter (https://github.com/Akylas/oss-weather/commit/50885a3011e57c5d1b4a7d6397f4062c278f30fc)\n- missing locales in compare models (https://github.com/Akylas/oss-weather/commit/811355b7a8c3c7355a17271bcc30443cd050ea85)\n- current condition not showing same min/max datas as current day in list view (https://github.com/Akylas/oss-weather/commit/59fd591014dad66e68bdf541edb0b0506708345b)\n- remove the F from `\u00b0F` (https://github.com/Akylas/oss-weather/commit/53a6e920b063ffdba247546be5b0f4da59a72235)\n- regression fix for AQI query (https://github.com/Akylas/oss-weather/commit/4424ed48e7a439b5f0d34eb96d158590d136db7e)\n- Translations update by @Rainer, @posteo, @Alexander, @openmailbox, @Massimo, @gmail, @TenchMaviatorius2759, @yandex, @cock",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.10/139/ossweather.ipa",
+                    "size": 48946464,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.9/138",
+                    "date": "2025-02-05T20:24:14Z",
+                    "localizedDescription": "### Bug fixes\n- Translated using Weblate (Russian) (https://github.com/Akylas/oss-weather/commit/838298dc859ef084ccedd543e321a6c30b29c02c)\n- Translated using Weblate (Polish) (https://github.com/Akylas/oss-weather/commit/bcb2f10ecb825e920d6c2572fe1df7d262142e45)\n- Translated using Weblate (Italian) (https://github.com/Akylas/oss-weather/commit/3a190fd7dd264a2371378e6ca608d507e51cc2ce)\n- layout issue with system bottom navigation in models compare and font scale setting (https://github.com/Akylas/oss-weather/commit/aa650ee301243eafc18d8f3e5c1844a5700ba8ea)\n- map disable rotation (https://github.com/Akylas/oss-weather/commit/0f1e82ba808cee793613e493e64e3bfd6b81c766)\n- Translated using Weblate (Ukrainian) (https://github.com/Akylas/oss-weather/commit/b382944d2a3d9ead8404b3d7a3136d78d67c2c41)\n- Translated using Weblate (Tamil) (https://github.com/Akylas/oss-weather/commit/5010ecdc0606f6175922719d62ad0ebc95e7f464)\n- Translated using Weblate (Ukrainian) (https://github.com/Akylas/oss-weather/commit/57296fb6cfd1f40039df971d842f080460646da7)\n- Translated using Weblate (Italian) (https://github.com/Akylas/oss-weather/commit/63255d244e1b88542652f85bb3f7df59366c3e20)\n- Translated using Weblate (Polish) (https://github.com/Akylas/oss-weather/commit/c7f7f40477a6588a793df4f54d28b029c15e3fcb)\n- prevent error when trying to select position on app on fresh installed app (https://github.com/Akylas/oss-weather/commit/57af035a837784a0d3712069059f0dbb7b43e76f)\n- BRA fix for France (https://github.com/Akylas/oss-weather/commit/d667b448f2f8348b35bf60ca5d4825aa3d1e57f8)\n- allow max nb hours to be equal to max nb days * 24 (https://github.com/Akylas/oss-weather/commit/79a4ccd4b8bfee4351a30ddbd95c21826e76eb11)\n- Translations update by @Jptxx, @gmail, @Massimo, @gmail, @Rainer, @posteo, @mevius, @gmail",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.9/138/ossweather.ipa",
+                    "size": 48942689,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.8/137",
+                    "date": "2025-01-23T15:06:27Z",
+                    "localizedDescription": "### Bug fixes\n- moved some settings around for better consistency ([214030d](/214030d5ff777654cc04d88937068cbcf68a59b4))\n- some locale fixes ([84c84bb](/84c84bbaa86e5b346bc55a71be705f73dd0e6461))\n- another (again) mm/cm fix ([c7c17d6](/c7c17d6152d2539003718ce6b5046e86a806d95b))\n- timezone fix for some locations (like Tokyo) ([ccf37d3](/ccf37d30690c9f26ab7dbff12524c78c45a9ed4e))\n- layout fix for favorites in drawer ([dd456c9](/dd456c914d25b4b819f5064977abb5df68441d92))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.8/137/ossweather.ipa",
+                    "size": 48928302,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.7/136",
+                    "date": "2025-01-22T16:59:10Z",
+                    "localizedDescription": "### Bug fixes\n- weather map not showing data anymore ([2d01b05](/2d01b053bc67410f59e00617c97e0336594e5a20))\n- new units option to auto switch from cm to mm for small values (disabled by default) ([2198268](/2198268a0feb099e102c30c5a31bd2778d4b3164))\n- precipitation (snow only) wrong in some cases ([48dda45](/48dda452ffe7d58eb6da3241300956a20378bfc1))\n- allow to select unit for snow falls ([672a7a9](/672a7a9504beed626237abc70c3eaa53757e24ce))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.7/136/ossweather.ipa",
+                    "size": 48927475,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.6/135",
+                    "date": "2025-01-16T13:54:32Z",
+                    "localizedDescription": "### Features\n- allow to select position from map ([b8d62d1](/b8d62d13a393fb656835f7d9733d741cfc1ed707))\n\n### Bug fixes\n- error while opening Font scale settings ([ad5bbf4](/ad5bbf49bda3c52285fd0bf4191efeb821e17170))\n- precipitation view being not fully displayed ([730bd0a](/730bd0a31eb352eccb3187ff8b6fcea58fd6edec))\n- try to always show precipitation as mm ([8b7c093](/8b7c0938915e8960cdda90bd27e2ce99d97e5b9b))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.6/135/ossweather.ipa",
+                    "size": 48925080,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.5/134",
+                    "date": "2025-01-14T15:23:35Z",
+                    "localizedDescription": "### Features\n- you can now see (only with Open-Meteo!) past precipition/snow for current day in daily view. You can also see precipitation/snow summary (all providers) ([26761a5](/26761a561d7097cf800e0df0f12cc8c1ba0f6a40))\n\n### Bug fixes\n- compare weather icons was not correctly using timezone ([94363d0](/94363d0d877ff6ad21563f1b2fbeaa6774730cc3))\n- compare charts where not showing times using correct timezone ([306967b](/306967bbbe49ecffae02a07f9b711c48f1158a2b))\n- more timezone fixes. Will fix missing AQI data ([d266e81](/d266e819f75f378567c778bf5908af112bdee2c1))\n- option to disable odd coloring in hourly section ([50d5e5c](/50d5e5c31c51cff755cacb1da0ffd7c9d4f03327))\n- settings first in main menu popover ([25cac14](/25cac1439b46aec041307f2d9ad79203e4a398bc))\n- some local fixes ([296a606](/296a606374cba9a5138f67cfd398d69c399c71c5))\n- ensure we already have timezone data ([59b2a00](/59b2a00e9c97818d3cb23658710ed20e07c5e6a6))\n- white text on yellow background (for windGust) is not really readable ([32c1e7c](/32c1e7c52f979e6f1be3e4cb9b349518e750dcd4))\n- show rain/snow in hourly popover ([30e8790](/30e879052570053e5e764f923cc7531b8b477495))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.5/134/ossweather.ipa",
+                    "size": 48921799,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.4/133",
+                    "date": "2025-01-10T09:50:23Z",
+                    "localizedDescription": "### Bug fixes\n- show odd background in hourly view even with black theme ([3e032c2](/3e032c245b00fc4e2bd114b5fd26d1459ed5e415))\n- Open-Meteo fix while using other models than best match ([b8b0a33](/b8b0a332730f775533e6bfa80e986e1fc271758b))\n- dont show daylight left after sunset ([f31983f](/f31983f130d285eca1ebdc7dc5c34e3217e75b86))\n- capitalized menu entries ([185e362](/185e362119ef034456266dc70a0cce8fed875280))\n- compare chart fixes ([5521de0](/5521de0825c68c45e08ca4e19b669f13b6437a84))",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.4/133/ossweather.ipa",
+                    "size": 48916181,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.3/132",
+                    "date": "2025-01-09T16:43:04Z",
+                    "localizedDescription": "### Bug fixes\n- error which showing hourly popover while using MeteoFrance ([1f1e93b](/1f1e93ba1f4f3e8f04a25ad5e75767ac470f0509))\n- use 24h setting to format location time in favorites drawer ([b949c8b](/b949c8bcee7fff74628ad40be15baf6596c2f5c5))\n- full rewrite of the timezone handling. Hopefully things should be much better now ([776d60e](/776d60e14c406cce3b3c6794debcc015e1a3a03a))\n- add all missing Open-Meteo models ([0c8906d](/0c8906db7944d35b9b2f71626e4accd56aac079c))\n- some compare models fixes ([45e3783](/45e3783c3f4a62e3ce5382764203104e330d7d2b))\n- some padding fixes for settings pages and weather map ([e8c3028](/e8c3028bc3eb2912a81ab8ec4e054e1c3b7b4060))\n- show wind in daily page chart if option is set ([2ca3193](/2ca3193c07be6cfba76548e2037a8569a18c271a))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.3/132/ossweather.ipa",
+                    "size": 48917512,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.2/131",
+                    "date": "2025-01-08T14:55:57Z",
+                    "localizedDescription": "### Bug fixes\n- daily page astronomy fixes for daylight remaining on different timezones. Astronomy update on daily page swipe ([02f114f](/02f114ff3db98837af91baac0832d72eaf3cccd1))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.2/131/ossweather.ipa",
+                    "size": 48912616,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.1/130",
+                    "date": "2025-01-07T16:31:08Z",
+                    "localizedDescription": "### Bug fixes\n- should can no make a donation using in app purchase ([aa9b45c](/aa9b45c446b5e40ff9345d17f487ef9c9a8375f7))\n- padding fix on main list view ([358467d](/358467da56529b370a541f9a717f65926486b8bd))\n- current weather data placement fix ([cb4ea71](/cb4ea7134a2b36e4860412fc0e868a91f5424cec))\n- in daily page the action bar should not scroll with the content ([436fbba](/436fbba5e96f02e8fb2c8e1ed34549bea585d9c6))\n- another fix for the astronomy view and daylight left ([a208289](/a208289e1324635abe524f212fb4096686e2c0b1))\n- dont round temperatures to 0.5 if using decimal temperature ([7885efa](/7885efaf8554b0972190df1f5f9cd81f453533eb))\n- improved layout for \"line\" layout so that it does not overlap with other drawn informations like temperature ([3eb789a](/3eb789adb4288f0192259a9f4c65dee981fbe7f4))\n- wrong wind gust coloring in hourly list view ([71e2bfb](/71e2bfb56ecb3b69369ee682fd2a7ca58db6f150))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.1/130/ossweather.ipa",
+                    "size": 48911928,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.10.0/129",
+                    "date": "2025-01-03T12:57:22Z",
+                    "localizedDescription": "### Features\n- new chart option to set max number of hours shown in the main hourly chart view ([6104f1f](/6104f1fc134ec4f3b3e2d18a47bd009bb6799f7f))\n- swipe on daiily page to change day ([343feb4](/343feb437fdbe8464499e3f4874c687b58b5cd19))\n- option to show wind line chart in main view hourly chart ([eaac09f](/eaac09f94bf2f6666ac123fcd8f0070d174bd069))\n\n### Bug fixes\n- new loading indicator for better layout ([d2c595f](/d2c595fcbb1dfe75b5d4ce1a7620ad8175e1e796))\n- last update time now based on phone time and not weather forecast returned time ([3ccf137](/3ccf13770bf0aa4f1b3cea779780b1495cdec76a))\n- dont show \"daylight left\" when not \"today\" #285 ([ab5b4cc](/ab5b4cc26c6faec50dcf9fc90b8d3cc020e4b9b1))\n- snow fall not showing correct value (was showing the equivalent height of melted water (7 times smaller) ([08231c2](/08231c2ccf0391d39dd92f334c0d0a9958b7d8e5))\n- weather map now uses app language ([fee89bb](/fee89bb47ffd4a0250ba2019bcc6f54cd2e39932))\n- better rounding of temperature values ([56509ae](/56509aee23391f2a0ffa41aba4d8e87d69cddb7f))\n- prevent temperature values from overlapping in hourly chart. The algo to choose values to drawn still need improvement ([51bf59e](/51bf59e013a1dee085e47139feba0eafdb63f761))\n- allow to reorder favorites with a long press ([0aa0d49](/0aa0d493f3a1b1285d3423d8e1e761f67f685c73))\n- show color on wind icon in hourly chart based on wind speed (steps at >40 and >70) ([0dc205c](/0dc205cc0067a91f5f492173c488a37145f18ded))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.0/129/ossweather.ipa",
+                    "size": 48888049,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.9.6/128",
+                    "date": "2024-12-19T16:23:55Z",
+                    "localizedDescription": "### Bug fixes\n- select city results were hidden by the keyboard ([d642b68](/d642b680f9b03669b35a3874bdd720575c60fd6d))\n- another batch of layout fixes for the favorites drawer ([10789f1](/10789f17a80168e7d8a6f17d23b29115668b2e83))\n- error when no favorite yet ([bf6d72e](/bf6d72e0b564a537dde1b73e80922975743c2ee2))",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.6/128/ossweather.ipa",
+                    "size": 48430735,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.9.5/127",
+                    "date": "2024-12-18T10:08:39Z",
+                    "localizedDescription": "### Bug fixes\n- prevent error on hourly chart ([7e6b4f6](/7e6b4f67df507872e9fb03fba03501dc0608f6ab))\n- wrong in for map snow legend ([f945f93](/f945f93b601ffbf51021063d580312d1dd358508))\n- favorites drawing issue ([f1b049d](/f1b049de011d42f4b27da14953d37704fdfcba22))\n- trying to prevent issues while closing the drawer menu ([c0bcc81](/c0bcc81ebe5103c21e872cb8d1eef3dfb293b09f))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.5/127/ossweather.ipa",
+                    "size": 48430591,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.9.4/126",
+                    "date": "2024-12-17T15:34:16Z",
+                    "localizedDescription": "### Features\n- new Favorites design with more favorite infos (coords,time) and access to a menu for specific favorite actions ([ad2c979](/ad2c97931ac452e8410a736f14f9f922d1acdac3))\n\n### Bug fixes\n- crash when showing chart ([2c9dcf4](/2c9dcf4e5c5dfb166e32172daf6d4e99efc0d748))\n- show snow legend in weather map ([63d9bbd](/63d9bbd8cd986ef1035318c88a5a5fc0836c9d47))\n- allow to set custom tile url for weather map ([006bfbd](/006bfbd502fc6b056ac8ff899968715f45e548e2))\n- landscape layout fix ([7d85cfc](/7d85cfcdbed1f462fd54aa81f795e2099bc10763))\n- use local db to find location timezone. Will be much faster in most cases. A bit less precise though ([42e981a](/42e981ae089aa849a2d47f570a7216b0d2ecc5ab))\n- wrong wind gust colors ([a55a0bc](/a55a0bc2962d0f89d8bbed730033e62928f132aa))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.4/126/ossweather.ipa",
+                    "size": 48430581,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.9.3/125",
+                    "date": "2024-12-11T16:58:45Z",
+                    "localizedDescription": "### Features\n- map not using vector tiles and supports dark/black theme ([35ae9a2](/35ae9a205353559372738ec2c8c723505541118d))\n- weather map show snow option ([ec453bc](/ec453bcc68a240f9d2746081f17927608f8ed4a9))\n- hourly chart now show stacked bars for rain/snow. ([61b40a3](/61b40a359b006d05ad9751889f0261b383706a31))\n\n### Bug fixes\n- error while opening daily page because of Open-Meteo pollutants format ([cbd15a2](/cbd15a2a6d8750050c6edfe5ba4cef4cd0cce0fe))\n- hourly chart popover now drown \"on top\" so that you always see the full popover. Should also fix the popover not hiding ([6b6ba51](/6b6ba516c05c5ec50b1d02b91afa96beb0e46e43))",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.3/125/ossweather.ipa",
+                    "size": 47936912,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.9.2/124",
+                    "date": "2024-12-10T14:31:15Z",
+                    "localizedDescription": "### Bug fixes\n- prevent error if ATMO does not have data for the location ([581f909](/581f909bedffbe12337f2f6164d58af2af37615b))\n- prevent error when switched to eink style but not restarted ([6f28a7a](/6f28a7a1c4bbdcc4fdff2d085114fad8e9589466))\n- prevent error when hourly data shows a mix of snow/rain. A weather data refresh will fix it ([7951854](/7951854c9b309ed65cf15b56a74378e99ed2b28a))\n- prevent too big or too small custom font scale ([d721da9](/d721da907006b14c578c089347618293b59d695c))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.2/124/ossweather.ipa",
+                    "size": 49562048,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.9.1/123",
+                    "date": "2024-12-06T15:55:26Z",
+                    "localizedDescription": "### Bug fixes\n- align small icons to right in the current weather data. better layout! ([76d56c0](/76d56c043e2f125b52bf642bdbec184c9e91821b))\n- wind speed not visible in dark mode #259 ([515b475](/515b47544232800349714950452874d1c6cd7a47))\n- menus not beeing scrollable #256 ([968958b](/968958b7719d26a9fd17fea1e83d86eb6a1e8b3a))\n- allow to set font scale with keyboard #249 ([3e1a7c8](/3e1a7c8e8bc438e45f00752d9bf6691b1417a834))\n- map color style was showing wrong value #245 ([728fdac](/728fdaca4f6b339587455471b6d542076bb57d94))\n- show rain/snow icon in more situations #257 ([d813b51](/d813b510f06a68215f389aa297288865459a370f))\n- improved eink theme ([4fe0fe8](/4fe0fe89411852e611baa6e2c98648916bc20d42))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.1/123/ossweather.ipa",
+                    "size": 49564128,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.9.0/122",
+                    "date": "2024-11-29T11:58:38Z",
+                    "localizedDescription": "### Features\n- option to change layer opacity in weather map ([84665b2](/84665b20b52ed1a93b9303f45dc143a370452817))\n- hourly uvIndex when provided by the provider (MeteoFrance does not provide it) ([614f535](/614f535f6cc37ce9b29af91fe3569ff7b79e6d5a))\n\n### Bug fixes\n- layout fix for font size setting screen ([b915e30](/b915e30249f7dbf861e5dd4488221c19c65c9a63))\n- allow small icons in current weather view ([c2f1765](/c2f17657479f18b5e660bcc4a0b20de718850698))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.0/122/ossweather.ipa",
+                    "size": 49309150,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.8.5/121",
+                    "date": "2024-11-25T15:10:19Z",
+                    "localizedDescription": "### Bug fixes\n- draw using small icons in Daily Page since we dont show minutely forecast (so we have room for it) ([8b14fd7](/8b14fd7f30aa925ea91eb92f2ce6503a2588d86d))\n- ran snow limit was not showing unit (nor was it converted in the correct custom unit) ([fbbca25](/fbbca25177afe55a9b7232a1129c83b2e58e7338))\n- regression fix for true black theme ([9b4147b](/9b4147b11a02c1ade0e58ce9bab549fad8c7bb03))\n- error while exporting settings ([a235ae6](/a235ae61905cf2b18e9b406471fd494238b79aa4))\n- weather map option menu fix ([422cae0](/422cae0c072b25e06293831725eb0b8568e88c9b))",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.5/121/ossweather.ipa",
+                    "size": 49292701,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.8.4/120",
+                    "date": "2024-11-20T11:37:51Z",
+                    "localizedDescription": "### Bug fixes\n- snow fall showing wrong unit and using cm when should be using mm ([ea348de](/ea348de5e8deebef3bea69b60d57139197889482))",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.4/120/ossweather.ipa",
+                    "size": 49289863,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.8.3/119",
+                    "date": "2024-11-18T14:30:04Z",
+                    "localizedDescription": "### Bug fixes\n- regression fix on precipitation showing too many digits ([edb99d5](/edb99d539a25da9949e0476d4938b97a1d3d1c3c))\n- clip weather data to prevent overlapping. Still won't look nice if too many weather data ([deb489e](/deb489eb905f491abc25a546d01ecbdcffb33c37))\n- theme colors regression fix ([d66f9a5](/d66f9a58f6a147f5a5dd7a3443170a63093f5dd7))\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.3/119/ossweather.ipa",
+                    "size": 49289650,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.8.1/117",
+                    "date": "2024-10-23T20:39:33Z",
+                    "localizedDescription": "### Features\r\n- allow to set weather map animation speed ([ff5128b](/ff5128ba7594f2761f58879e29b83da73eb6e140))\r\n\r\n### Bug fixes\r\n- Translations update",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.1/117/ossweather.ipa",
+                    "size": 49123881,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "ios/alpha/2.11.7/148",
+                    "date": "2026-04-09T13:29:56Z",
+                    "localizedDescription": "### Bug fixes\n- temperature line sometimes appearing black in chart view (https://github.com/Akylas/oss-weather/commit/7f6b2b4e6c0111fd6ed430f1e80b4d0590072b0a)\n- French BRA fix (https://github.com/Akylas/oss-weather/commit/d7d22d0a95ba1dc508ffedc601203905ce88b363)\n- temperature not showing in chart popover (https://github.com/Akylas/oss-weather/commit/e7b76b000a9e7974750a1e805dc0f2e1cc18cf96)\n- provide localization strings from app to widget library via WidgetLocalizationProvider (https://github.com/Akylas/oss-weather/commit/0b60042fe23a884f974a5263bcf5a5ab229b041b)\n- add strings.xml fallbacks for widget description resources in library AAR (https://github.com/Akylas/oss-weather/commit/3f2b86121688a00f18fa15d289a3c4442e901e58)\n- handle widget click action (https://github.com/Akylas/oss-weather/commit/ea566d6e4e51bee4feeaf92be5468fb15ed52a48)\n- show OpenWeather API errors (https://github.com/Akylas/oss-weather/commit/ffa8bb65cb637d1771a042801f472dad2c230b34)\n\n### Code refactoring\n- use shared utilities to remove duplicate code (https://github.com/Akylas/oss-weather/commit/9a7aa2a2e33b6da2a1943339d7a06035af0cb8ec)\n- remove duplicate code from widget generators using shared utilities (https://github.com/Akylas/oss-weather/commit/96fb5f4cc01f2fdbcf9acb282e574c813023f085)\n- replace WidgetLocalizationProvider with Android resource merging (https://github.com/Akylas/oss-weather/commit/751d244d2dd3edff8c5c1548838776f50fdb3925)\n- Translations update by @TenchMaviatorius2759, @users, @gmail, @Jep, @Tomik, @Alexander, @openmailbox, @ToxxyTheTrash",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.7/148/ossweather.ipa",
+                    "size": 49959675
+                },
+                {
+                    "version": "ios/alpha/2.12.0/149",
+                    "date": "2026-04-15T21:00:02Z",
+                    "localizedDescription": "### Bug fixes\n- temperature line sometimes appearing black in chart view (https://github.com/Akylas/oss-weather/commit/7f6b2b4e6c0111fd6ed430f1e80b4d0590072b0a)\n- French BRA fix (https://github.com/Akylas/oss-weather/commit/d7d22d0a95ba1dc508ffedc601203905ce88b363)\n- temperature not showing in chart popover (https://github.com/Akylas/oss-weather/commit/e7b76b000a9e7974750a1e805dc0f2e1cc18cf96)\n- provide localization strings from app to widget library via WidgetLocalizationProvider (https://github.com/Akylas/oss-weather/commit/0b60042fe23a884f974a5263bcf5a5ab229b041b)\n- add strings.xml fallbacks for widget description resources in library AAR (https://github.com/Akylas/oss-weather/commit/3f2b86121688a00f18fa15d289a3c4442e901e58)\n- handle widget click action (https://github.com/Akylas/oss-weather/commit/ea566d6e4e51bee4feeaf92be5468fb15ed52a48)\n- show OpenWeather API errors (https://github.com/Akylas/oss-weather/commit/ffa8bb65cb637d1771a042801f472dad2c230b34)\n- new settings to define data alignment in daily list items (https://github.com/Akylas/oss-weather/commit/33d6386207e8bf818499af4d8124be46ac691301)\n- ask for api key if needed on manual refresh (https://github.com/Akylas/oss-weather/commit/8ce2812defc8bdfeb05b546c3e18d15cb16526f3)\n- swipe provider ignore providers without api key and wont store it for current location (https://github.com/Akylas/oss-weather/commit/5efc646f9844155bdff482624a694547e790151f)\n- new radar map using maptiler (you need a key) (https://github.com/Akylas/oss-weather/commit/0bc276003b6b988a0e6b097e8f52793fc6cf0640)\n- open meteo option to NOT augment with best match (https://github.com/Akylas/oss-weather/commit/2c451cc8ff82c2a319ee547d77dd7e22f0732146)\n\n### Code refactoring\n- use shared utilities to remove duplicate code (https://github.com/Akylas/oss-weather/commit/9a7aa2a2e33b6da2a1943339d7a06035af0cb8ec)\n- remove duplicate code from widget generators using shared utilities (https://github.com/Akylas/oss-weather/commit/96fb5f4cc01f2fdbcf9acb282e574c813023f085)\n- replace WidgetLocalizationProvider with Android resource merging (https://github.com/Akylas/oss-weather/commit/751d244d2dd3edff8c5c1548838776f50fdb3925)\n- Translations update by @TenchMaviatorius2759, @users, @gmail, @Jep, @Tomik, @Alexander, @openmailbox, @ToxxyTheTrash",
+                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.12.0/149/ossweather.ipa",
+                    "size": 50256986
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "StikDebug",
             "bundleIdentifier": "com.stik.stikdebug",
             "marketplaceID": "",
@@ -814,295 +1110,6 @@
                     "localizedDescription": "- Updated Tor to 0.4.9.6.\r\n- Updated to Snowflake 2.13.1.\r\n- Updated translations.\r\n",
                     "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.7/OnionBrowser.ipa",
                     "size": 35728985
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "OSS Weather",
-            "bundleIdentifier": "com.akylas.weather",
-            "marketplaceID": "",
-            "developerName": "Akylas",
-            "subtitle": "An OSS weather app",
-            "localizedDescription": "OSS Weather is a simple application to get clear and precise weather information from any place around the world. You get daily and minutely weather condition, plus precipitations map.\nData is provided by OpenWeatherMap, Open-Meteo or MeteoFrance.",
-            "iconURL": "https://raw.githubusercontent.com/Akylas/oss-weather/refs/heads/master/Icon.png",
-            "tintColor": "#d0cd41",
-            "category": "lifestyle",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/6f/5a/ca/6f5aca39-ae97-df95-9960-f3a3b1083e8d/pr_source.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/a0/31/7c/a0317cda-073a-77f4-068c-7afb519eae45/pr_source.png/230x498bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/35/36/59/35365963-e58e-9fbd-b6e0-5dad35f37a35/pr_source.png/230x498bb.webp"
-                ],
-                "ipad": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/89/56/9c/89569cb6-2070-3ee6-1993-906425aed54d/e7de298e-253c-42b2-9c9c-c8f415f8bf78_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.19.png/480x640bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/61/fa/b8/61fab880-a805-1b90-5c39-e87464aca370/7f25d14a-c4ad-4c6c-ba60-e68dc65dd525_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.26.png/480x640bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/1e/8b/be/1e8bbe23-9a2e-1892-dfc0-0f366fc49162/4f131537-57f4-424d-a6ff-a82af2030584_Simulator_Screen_Shot_-_iPad_Pro__U002812.9-inch_U0029__U00284th_generation_U0029_-_2020-09-25_at_12.05.36.png/480x640bb.webp"
-                ]
-            },
-            "versions": [
-                {
-                    "version": "ios/alpha/2.11.5/145",
-                    "date": "2025-10-04T15:23:42Z",
-                    "localizedDescription": "### Bug fixes\n- removed deprecated Open-Meteo models (https://github.com/Akylas/oss-weather/commit/02d8c9a4677ae94e8dce29e527f633e7270f8a7d)\n- BRA fix (https://github.com/Akylas/oss-weather/commit/3601e80d0fd254778e40b55393704b200b201403)\n- many fixes around system display size and safe area (https://github.com/Akylas/oss-weather/commit/02b233ee88ffb06e815437d332eb8e4bd528ab60)\n- edge case crashes (https://github.com/Akylas/oss-weather/commit/800bfd239f4ad52983e27d7e1ca6d1d5d0a0a71a)\n- added ECMWF IFS HRES 9km and ECMWF AIFS 0.25\u00b0 Single models for OpenMeteo #396 (https://github.com/Akylas/oss-weather/commit/ff9832150a7584789df7756ce3d45f9d5d8fd5e8)\n- show preview when selecting icon theme (https://github.com/Akylas/oss-weather/commit/0910427b8e791e66e40b27802da48fab4f2bbfc4)\n- crash when showing favorite menu #382 (https://github.com/Akylas/oss-weather/commit/68570157f8916f3189557b9bfeca598f77055560)\n- multiple crashes fix (https://github.com/Akylas/oss-weather/commit/09d739a461e552cb341be9d72a5f40f93cc172d2)\n- Translations update by @ssantos, @web, @Zulfar, @gmail, @ButterflyOfFire, @users, @marvel, @qq, @Michael, @joslajoko, @tutamail, @TenchMaviatorius2759",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.5/145/ossweather.ipa",
-                    "size": 49514092,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.11.4/144",
-                    "date": "2025-07-07T18:18:16Z",
-                    "localizedDescription": "### Bug fixes\n- crash with MeteoFrance (https://github.com/Akylas/oss-weather/commit/db9f7e2ef921b0ee72fe26c7b92f3dcf6842ac32)\n- Translations update by @Alexander, @openmailbox, @elid, @gmail, @Linull, @qq, @elon, @aol, @Kicsi, @linacit, @Philippe",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.4/144/ossweather.ipa",
-                    "size": 48987425,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.11.3/143",
-                    "date": "2025-06-02T13:24:51Z",
-                    "localizedDescription": "### Features\n- Knot as speed unit (https://github.com/Akylas/oss-weather/commit/d22193ffc4f5816bd1d6e307790a3fcb67934c10)\n\n### Bug fixes\n- universal link support (https://github.com/Akylas/oss-weather/commit/c6453c2e02332db3a043dd1db521c6b1c703c5ed)\n- error with air-quality and high numbers for hourly forecast (https://github.com/Akylas/oss-weather/commit/70271bfc384cd1251683249cb4f49f7b17ed1a57)\n- Translations update by @Jptxx, @gmail, @ButterflyOfFire, @users",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.3/143/ossweather.ipa",
-                    "size": 48967897,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.11.2/142",
-                    "date": "2025-05-03T19:21:42Z",
-                    "localizedDescription": "### Bug fixes\n- unit not localized in compare chart view (https://github.com/Akylas/oss-weather/commit/8b8c95a32dab21b5bc1dc60926ff5bd1fe094fab)\n- Open-Meteo not returning the full 384 possible hour range (https://github.com/Akylas/oss-weather/commit/3bf44d93c3dc965dfbab25fb8dffb6ec879ce55b)\n- favorite menu not rendering correctly (https://github.com/Akylas/oss-weather/commit/10962c94d792ce4b7de0122c66ebc3235eca66fb)\n- astronomy always showing current day data (https://github.com/Akylas/oss-weather/commit/438fd6597f28a1f8681b0f5451a0f1be34e3eac9)\n- issue when removing favorites (https://github.com/Akylas/oss-weather/commit/07cecc0a136e14f869f8fc2ff063b96d07ef099e)\n- should fix cloud cover not visible in some cases (https://github.com/Akylas/oss-weather/commit/86920506448bf2564c869ef5a0726d4badf604e5)\n- show current weather description in top view (https://github.com/Akylas/oss-weather/commit/850ac66982424f94f32aa1e4f4733a4af3e609b4)\n- refresh favorites timezone data on start and refresh, fix #354 (https://github.com/Akylas/oss-weather/commit/b276924a8b4ade9e893cb1ffd53e6f6f07cb2cfd)\n- Translations update by @TenchMaviatorius2759, @users, @Jptxx, @gmail, @Massimo, @Rainer, @posteo, @MattSolo451, @vivaldi, @Ihor, @outlook, @Priit, @joeruut, @elid",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.2/142/ossweather.ipa",
-                    "size": 48967017,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.11.1/141",
-                    "date": "2025-02-27T14:41:14Z",
-                    "localizedDescription": "### Features\n- allow to rename favorites (https://github.com/Akylas/oss-weather/commit/97f807629f0a08768e7166940723c02350fb907b)\n- allow to set custom daily date format (https://github.com/Akylas/oss-weather/commit/955dc98cd7318e9af46c6a5f9ca531ea09ec2892)\n- You can now select OpenMeteo model per favorite (https://github.com/Akylas/oss-weather/commit/239e954ab3d0532457892d1a2757629b81670abe)\n\n### Bug fixes\n- reorganized settings page (https://github.com/Akylas/oss-weather/commit/221301bcb8b258056c92ef20d2fd11fec0d137d3)\n- hourly chart view missing icon drawing (https://github.com/Akylas/oss-weather/commit/cb0c941124ac05a803fdc7353a65fc2e93d07dc6)\n- allow full range of hourly forecast or hourly chart. Setting now uses 12 hours step (https://github.com/Akylas/oss-weather/commit/1f40a2f043ccbe4bea0b60e2847fd888837a0c4f)\n- Translations update by @Inigo, @disroot, @Alexander, @openmailbox, @Rainer, @posteo, @Massimo, @gmail, @TenchMaviatorius2759, @users, @Jptxx",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.1/141/ossweather.ipa",
-                    "size": 48958771,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.11.0/140",
-                    "date": "2025-02-24T10:07:50Z",
-                    "localizedDescription": "### Features\n- select per favorite provider/aqiprovider. Default will always be app default provider (https://github.com/Akylas/oss-weather/commit/1423b5afb55523feac90428ca4f2e9fb18d0fc14)\n\n### Bug fixes\n- some missing translation fix (https://github.com/Akylas/oss-weather/commit/36dbafcde1ffd6d918d5b19e542e6f24816bd6be)\n- allow up to 168 hours in hourly chart view (https://github.com/Akylas/oss-weather/commit/928b421b36ab096ca1d68e265bb3f9177ddd6f7d)\n- potentiall error while trying refresh when not connected to internet (https://github.com/Akylas/oss-weather/commit/c99919e61745e0c7fa39d7bfc5d67730dac66c2e)\n- better hourly chart view renderig (https://github.com/Akylas/oss-weather/commit/30f0b1b9debd9da8439df5c160a33002834767dd)\n- legend texts / localization for Charts/Compare (https://github.com/Akylas/oss-weather/commit/e069992b49affff169bede4ca08913a68f8ceae6)\n- edge case fix for wrong wing gust text color (https://github.com/Akylas/oss-weather/commit/564c44317e92c50dbf3aae7f212fe882fdec4cfc)\n- Translations update by @Rainer, @posteo, @TenchMaviatorius2759, @users, @Massimo, @gmail, @Cassian, @outlook, @epicraft, @Ihor",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.0/140/ossweather.ipa",
-                    "size": 48951226,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.10/139",
-                    "date": "2025-02-17T16:11:18Z",
-                    "localizedDescription": "### Bug fixes\n- MB meteogram fix (https://github.com/Akylas/oss-weather/commit/e7245b125d4de8a032b4cc2033ad6dafadeeb672)\n- better handle of nb days/hours forecast parameter (https://github.com/Akylas/oss-weather/commit/50885a3011e57c5d1b4a7d6397f4062c278f30fc)\n- missing locales in compare models (https://github.com/Akylas/oss-weather/commit/811355b7a8c3c7355a17271bcc30443cd050ea85)\n- current condition not showing same min/max datas as current day in list view (https://github.com/Akylas/oss-weather/commit/59fd591014dad66e68bdf541edb0b0506708345b)\n- remove the F from `\u00b0F` (https://github.com/Akylas/oss-weather/commit/53a6e920b063ffdba247546be5b0f4da59a72235)\n- regression fix for AQI query (https://github.com/Akylas/oss-weather/commit/4424ed48e7a439b5f0d34eb96d158590d136db7e)\n- Translations update by @Rainer, @posteo, @Alexander, @openmailbox, @Massimo, @gmail, @TenchMaviatorius2759, @yandex, @cock",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.10/139/ossweather.ipa",
-                    "size": 48946464,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.9/138",
-                    "date": "2025-02-05T20:24:14Z",
-                    "localizedDescription": "### Bug fixes\n- Translated using Weblate (Russian) (https://github.com/Akylas/oss-weather/commit/838298dc859ef084ccedd543e321a6c30b29c02c)\n- Translated using Weblate (Polish) (https://github.com/Akylas/oss-weather/commit/bcb2f10ecb825e920d6c2572fe1df7d262142e45)\n- Translated using Weblate (Italian) (https://github.com/Akylas/oss-weather/commit/3a190fd7dd264a2371378e6ca608d507e51cc2ce)\n- layout issue with system bottom navigation in models compare and font scale setting (https://github.com/Akylas/oss-weather/commit/aa650ee301243eafc18d8f3e5c1844a5700ba8ea)\n- map disable rotation (https://github.com/Akylas/oss-weather/commit/0f1e82ba808cee793613e493e64e3bfd6b81c766)\n- Translated using Weblate (Ukrainian) (https://github.com/Akylas/oss-weather/commit/b382944d2a3d9ead8404b3d7a3136d78d67c2c41)\n- Translated using Weblate (Tamil) (https://github.com/Akylas/oss-weather/commit/5010ecdc0606f6175922719d62ad0ebc95e7f464)\n- Translated using Weblate (Ukrainian) (https://github.com/Akylas/oss-weather/commit/57296fb6cfd1f40039df971d842f080460646da7)\n- Translated using Weblate (Italian) (https://github.com/Akylas/oss-weather/commit/63255d244e1b88542652f85bb3f7df59366c3e20)\n- Translated using Weblate (Polish) (https://github.com/Akylas/oss-weather/commit/c7f7f40477a6588a793df4f54d28b029c15e3fcb)\n- prevent error when trying to select position on app on fresh installed app (https://github.com/Akylas/oss-weather/commit/57af035a837784a0d3712069059f0dbb7b43e76f)\n- BRA fix for France (https://github.com/Akylas/oss-weather/commit/d667b448f2f8348b35bf60ca5d4825aa3d1e57f8)\n- allow max nb hours to be equal to max nb days * 24 (https://github.com/Akylas/oss-weather/commit/79a4ccd4b8bfee4351a30ddbd95c21826e76eb11)\n- Translations update by @Jptxx, @gmail, @Massimo, @gmail, @Rainer, @posteo, @mevius, @gmail",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.9/138/ossweather.ipa",
-                    "size": 48942689,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.8/137",
-                    "date": "2025-01-23T15:06:27Z",
-                    "localizedDescription": "### Bug fixes\n- moved some settings around for better consistency ([214030d](/214030d5ff777654cc04d88937068cbcf68a59b4))\n- some locale fixes ([84c84bb](/84c84bbaa86e5b346bc55a71be705f73dd0e6461))\n- another (again) mm/cm fix ([c7c17d6](/c7c17d6152d2539003718ce6b5046e86a806d95b))\n- timezone fix for some locations (like Tokyo) ([ccf37d3](/ccf37d30690c9f26ab7dbff12524c78c45a9ed4e))\n- layout fix for favorites in drawer ([dd456c9](/dd456c914d25b4b819f5064977abb5df68441d92))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.8/137/ossweather.ipa",
-                    "size": 48928302,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.7/136",
-                    "date": "2025-01-22T16:59:10Z",
-                    "localizedDescription": "### Bug fixes\n- weather map not showing data anymore ([2d01b05](/2d01b053bc67410f59e00617c97e0336594e5a20))\n- new units option to auto switch from cm to mm for small values (disabled by default) ([2198268](/2198268a0feb099e102c30c5a31bd2778d4b3164))\n- precipitation (snow only) wrong in some cases ([48dda45](/48dda452ffe7d58eb6da3241300956a20378bfc1))\n- allow to select unit for snow falls ([672a7a9](/672a7a9504beed626237abc70c3eaa53757e24ce))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.7/136/ossweather.ipa",
-                    "size": 48927475,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.6/135",
-                    "date": "2025-01-16T13:54:32Z",
-                    "localizedDescription": "### Features\n- allow to select position from map ([b8d62d1](/b8d62d13a393fb656835f7d9733d741cfc1ed707))\n\n### Bug fixes\n- error while opening Font scale settings ([ad5bbf4](/ad5bbf49bda3c52285fd0bf4191efeb821e17170))\n- precipitation view being not fully displayed ([730bd0a](/730bd0a31eb352eccb3187ff8b6fcea58fd6edec))\n- try to always show precipitation as mm ([8b7c093](/8b7c0938915e8960cdda90bd27e2ce99d97e5b9b))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.6/135/ossweather.ipa",
-                    "size": 48925080,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.5/134",
-                    "date": "2025-01-14T15:23:35Z",
-                    "localizedDescription": "### Features\n- you can now see (only with Open-Meteo!) past precipition/snow for current day in daily view. You can also see precipitation/snow summary (all providers) ([26761a5](/26761a561d7097cf800e0df0f12cc8c1ba0f6a40))\n\n### Bug fixes\n- compare weather icons was not correctly using timezone ([94363d0](/94363d0d877ff6ad21563f1b2fbeaa6774730cc3))\n- compare charts where not showing times using correct timezone ([306967b](/306967bbbe49ecffae02a07f9b711c48f1158a2b))\n- more timezone fixes. Will fix missing AQI data ([d266e81](/d266e819f75f378567c778bf5908af112bdee2c1))\n- option to disable odd coloring in hourly section ([50d5e5c](/50d5e5c31c51cff755cacb1da0ffd7c9d4f03327))\n- settings first in main menu popover ([25cac14](/25cac1439b46aec041307f2d9ad79203e4a398bc))\n- some local fixes ([296a606](/296a606374cba9a5138f67cfd398d69c399c71c5))\n- ensure we already have timezone data ([59b2a00](/59b2a00e9c97818d3cb23658710ed20e07c5e6a6))\n- white text on yellow background (for windGust) is not really readable ([32c1e7c](/32c1e7c52f979e6f1be3e4cb9b349518e750dcd4))\n- show rain/snow in hourly popover ([30e8790](/30e879052570053e5e764f923cc7531b8b477495))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.5/134/ossweather.ipa",
-                    "size": 48921799,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.4/133",
-                    "date": "2025-01-10T09:50:23Z",
-                    "localizedDescription": "### Bug fixes\n- show odd background in hourly view even with black theme ([3e032c2](/3e032c245b00fc4e2bd114b5fd26d1459ed5e415))\n- Open-Meteo fix while using other models than best match ([b8b0a33](/b8b0a332730f775533e6bfa80e986e1fc271758b))\n- dont show daylight left after sunset ([f31983f](/f31983f130d285eca1ebdc7dc5c34e3217e75b86))\n- capitalized menu entries ([185e362](/185e362119ef034456266dc70a0cce8fed875280))\n- compare chart fixes ([5521de0](/5521de0825c68c45e08ca4e19b669f13b6437a84))",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.4/133/ossweather.ipa",
-                    "size": 48916181,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.3/132",
-                    "date": "2025-01-09T16:43:04Z",
-                    "localizedDescription": "### Bug fixes\n- error which showing hourly popover while using MeteoFrance ([1f1e93b](/1f1e93ba1f4f3e8f04a25ad5e75767ac470f0509))\n- use 24h setting to format location time in favorites drawer ([b949c8b](/b949c8bcee7fff74628ad40be15baf6596c2f5c5))\n- full rewrite of the timezone handling. Hopefully things should be much better now ([776d60e](/776d60e14c406cce3b3c6794debcc015e1a3a03a))\n- add all missing Open-Meteo models ([0c8906d](/0c8906db7944d35b9b2f71626e4accd56aac079c))\n- some compare models fixes ([45e3783](/45e3783c3f4a62e3ce5382764203104e330d7d2b))\n- some padding fixes for settings pages and weather map ([e8c3028](/e8c3028bc3eb2912a81ab8ec4e054e1c3b7b4060))\n- show wind in daily page chart if option is set ([2ca3193](/2ca3193c07be6cfba76548e2037a8569a18c271a))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.3/132/ossweather.ipa",
-                    "size": 48917512,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.2/131",
-                    "date": "2025-01-08T14:55:57Z",
-                    "localizedDescription": "### Bug fixes\n- daily page astronomy fixes for daylight remaining on different timezones. Astronomy update on daily page swipe ([02f114f](/02f114ff3db98837af91baac0832d72eaf3cccd1))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.2/131/ossweather.ipa",
-                    "size": 48912616,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.1/130",
-                    "date": "2025-01-07T16:31:08Z",
-                    "localizedDescription": "### Bug fixes\n- should can no make a donation using in app purchase ([aa9b45c](/aa9b45c446b5e40ff9345d17f487ef9c9a8375f7))\n- padding fix on main list view ([358467d](/358467da56529b370a541f9a717f65926486b8bd))\n- current weather data placement fix ([cb4ea71](/cb4ea7134a2b36e4860412fc0e868a91f5424cec))\n- in daily page the action bar should not scroll with the content ([436fbba](/436fbba5e96f02e8fb2c8e1ed34549bea585d9c6))\n- another fix for the astronomy view and daylight left ([a208289](/a208289e1324635abe524f212fb4096686e2c0b1))\n- dont round temperatures to 0.5 if using decimal temperature ([7885efa](/7885efaf8554b0972190df1f5f9cd81f453533eb))\n- improved layout for \"line\" layout so that it does not overlap with other drawn informations like temperature ([3eb789a](/3eb789adb4288f0192259a9f4c65dee981fbe7f4))\n- wrong wind gust coloring in hourly list view ([71e2bfb](/71e2bfb56ecb3b69369ee682fd2a7ca58db6f150))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.1/130/ossweather.ipa",
-                    "size": 48911928,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.10.0/129",
-                    "date": "2025-01-03T12:57:22Z",
-                    "localizedDescription": "### Features\n- new chart option to set max number of hours shown in the main hourly chart view ([6104f1f](/6104f1fc134ec4f3b3e2d18a47bd009bb6799f7f))\n- swipe on daiily page to change day ([343feb4](/343feb437fdbe8464499e3f4874c687b58b5cd19))\n- option to show wind line chart in main view hourly chart ([eaac09f](/eaac09f94bf2f6666ac123fcd8f0070d174bd069))\n\n### Bug fixes\n- new loading indicator for better layout ([d2c595f](/d2c595fcbb1dfe75b5d4ce1a7620ad8175e1e796))\n- last update time now based on phone time and not weather forecast returned time ([3ccf137](/3ccf13770bf0aa4f1b3cea779780b1495cdec76a))\n- dont show \"daylight left\" when not \"today\" #285 ([ab5b4cc](/ab5b4cc26c6faec50dcf9fc90b8d3cc020e4b9b1))\n- snow fall not showing correct value (was showing the equivalent height of melted water (7 times smaller) ([08231c2](/08231c2ccf0391d39dd92f334c0d0a9958b7d8e5))\n- weather map now uses app language ([fee89bb](/fee89bb47ffd4a0250ba2019bcc6f54cd2e39932))\n- better rounding of temperature values ([56509ae](/56509aee23391f2a0ffa41aba4d8e87d69cddb7f))\n- prevent temperature values from overlapping in hourly chart. The algo to choose values to drawn still need improvement ([51bf59e](/51bf59e013a1dee085e47139feba0eafdb63f761))\n- allow to reorder favorites with a long press ([0aa0d49](/0aa0d493f3a1b1285d3423d8e1e761f67f685c73))\n- show color on wind icon in hourly chart based on wind speed (steps at >40 and >70) ([0dc205c](/0dc205cc0067a91f5f492173c488a37145f18ded))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.10.0/129/ossweather.ipa",
-                    "size": 48888049,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.9.6/128",
-                    "date": "2024-12-19T16:23:55Z",
-                    "localizedDescription": "### Bug fixes\n- select city results were hidden by the keyboard ([d642b68](/d642b680f9b03669b35a3874bdd720575c60fd6d))\n- another batch of layout fixes for the favorites drawer ([10789f1](/10789f17a80168e7d8a6f17d23b29115668b2e83))\n- error when no favorite yet ([bf6d72e](/bf6d72e0b564a537dde1b73e80922975743c2ee2))",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.6/128/ossweather.ipa",
-                    "size": 48430735,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.9.5/127",
-                    "date": "2024-12-18T10:08:39Z",
-                    "localizedDescription": "### Bug fixes\n- prevent error on hourly chart ([7e6b4f6](/7e6b4f67df507872e9fb03fba03501dc0608f6ab))\n- wrong in for map snow legend ([f945f93](/f945f93b601ffbf51021063d580312d1dd358508))\n- favorites drawing issue ([f1b049d](/f1b049de011d42f4b27da14953d37704fdfcba22))\n- trying to prevent issues while closing the drawer menu ([c0bcc81](/c0bcc81ebe5103c21e872cb8d1eef3dfb293b09f))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.5/127/ossweather.ipa",
-                    "size": 48430591,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.9.4/126",
-                    "date": "2024-12-17T15:34:16Z",
-                    "localizedDescription": "### Features\n- new Favorites design with more favorite infos (coords,time) and access to a menu for specific favorite actions ([ad2c979](/ad2c97931ac452e8410a736f14f9f922d1acdac3))\n\n### Bug fixes\n- crash when showing chart ([2c9dcf4](/2c9dcf4e5c5dfb166e32172daf6d4e99efc0d748))\n- show snow legend in weather map ([63d9bbd](/63d9bbd8cd986ef1035318c88a5a5fc0836c9d47))\n- allow to set custom tile url for weather map ([006bfbd](/006bfbd502fc6b056ac8ff899968715f45e548e2))\n- landscape layout fix ([7d85cfc](/7d85cfcdbed1f462fd54aa81f795e2099bc10763))\n- use local db to find location timezone. Will be much faster in most cases. A bit less precise though ([42e981a](/42e981ae089aa849a2d47f570a7216b0d2ecc5ab))\n- wrong wind gust colors ([a55a0bc](/a55a0bc2962d0f89d8bbed730033e62928f132aa))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.4/126/ossweather.ipa",
-                    "size": 48430581,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.9.3/125",
-                    "date": "2024-12-11T16:58:45Z",
-                    "localizedDescription": "### Features\n- map not using vector tiles and supports dark/black theme ([35ae9a2](/35ae9a205353559372738ec2c8c723505541118d))\n- weather map show snow option ([ec453bc](/ec453bcc68a240f9d2746081f17927608f8ed4a9))\n- hourly chart now show stacked bars for rain/snow. ([61b40a3](/61b40a359b006d05ad9751889f0261b383706a31))\n\n### Bug fixes\n- error while opening daily page because of Open-Meteo pollutants format ([cbd15a2](/cbd15a2a6d8750050c6edfe5ba4cef4cd0cce0fe))\n- hourly chart popover now drown \"on top\" so that you always see the full popover. Should also fix the popover not hiding ([6b6ba51](/6b6ba516c05c5ec50b1d02b91afa96beb0e46e43))",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.3/125/ossweather.ipa",
-                    "size": 47936912,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.9.2/124",
-                    "date": "2024-12-10T14:31:15Z",
-                    "localizedDescription": "### Bug fixes\n- prevent error if ATMO does not have data for the location ([581f909](/581f909bedffbe12337f2f6164d58af2af37615b))\n- prevent error when switched to eink style but not restarted ([6f28a7a](/6f28a7a1c4bbdcc4fdff2d085114fad8e9589466))\n- prevent error when hourly data shows a mix of snow/rain. A weather data refresh will fix it ([7951854](/7951854c9b309ed65cf15b56a74378e99ed2b28a))\n- prevent too big or too small custom font scale ([d721da9](/d721da907006b14c578c089347618293b59d695c))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.2/124/ossweather.ipa",
-                    "size": 49562048,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.9.1/123",
-                    "date": "2024-12-06T15:55:26Z",
-                    "localizedDescription": "### Bug fixes\n- align small icons to right in the current weather data. better layout! ([76d56c0](/76d56c043e2f125b52bf642bdbec184c9e91821b))\n- wind speed not visible in dark mode #259 ([515b475](/515b47544232800349714950452874d1c6cd7a47))\n- menus not beeing scrollable #256 ([968958b](/968958b7719d26a9fd17fea1e83d86eb6a1e8b3a))\n- allow to set font scale with keyboard #249 ([3e1a7c8](/3e1a7c8e8bc438e45f00752d9bf6691b1417a834))\n- map color style was showing wrong value #245 ([728fdac](/728fdaca4f6b339587455471b6d542076bb57d94))\n- show rain/snow icon in more situations #257 ([d813b51](/d813b510f06a68215f389aa297288865459a370f))\n- improved eink theme ([4fe0fe8](/4fe0fe89411852e611baa6e2c98648916bc20d42))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.1/123/ossweather.ipa",
-                    "size": 49564128,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.9.0/122",
-                    "date": "2024-11-29T11:58:38Z",
-                    "localizedDescription": "### Features\n- option to change layer opacity in weather map ([84665b2](/84665b20b52ed1a93b9303f45dc143a370452817))\n- hourly uvIndex when provided by the provider (MeteoFrance does not provide it) ([614f535](/614f535f6cc37ce9b29af91fe3569ff7b79e6d5a))\n\n### Bug fixes\n- layout fix for font size setting screen ([b915e30](/b915e30249f7dbf861e5dd4488221c19c65c9a63))\n- allow small icons in current weather view ([c2f1765](/c2f17657479f18b5e660bcc4a0b20de718850698))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.9.0/122/ossweather.ipa",
-                    "size": 49309150,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.8.5/121",
-                    "date": "2024-11-25T15:10:19Z",
-                    "localizedDescription": "### Bug fixes\n- draw using small icons in Daily Page since we dont show minutely forecast (so we have room for it) ([8b14fd7](/8b14fd7f30aa925ea91eb92f2ce6503a2588d86d))\n- ran snow limit was not showing unit (nor was it converted in the correct custom unit) ([fbbca25](/fbbca25177afe55a9b7232a1129c83b2e58e7338))\n- regression fix for true black theme ([9b4147b](/9b4147b11a02c1ade0e58ce9bab549fad8c7bb03))\n- error while exporting settings ([a235ae6](/a235ae61905cf2b18e9b406471fd494238b79aa4))\n- weather map option menu fix ([422cae0](/422cae0c072b25e06293831725eb0b8568e88c9b))",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.5/121/ossweather.ipa",
-                    "size": 49292701,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.8.4/120",
-                    "date": "2024-11-20T11:37:51Z",
-                    "localizedDescription": "### Bug fixes\n- snow fall showing wrong unit and using cm when should be using mm ([ea348de](/ea348de5e8deebef3bea69b60d57139197889482))",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.4/120/ossweather.ipa",
-                    "size": 49289863,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.8.3/119",
-                    "date": "2024-11-18T14:30:04Z",
-                    "localizedDescription": "### Bug fixes\n- regression fix on precipitation showing too many digits ([edb99d5](/edb99d539a25da9949e0476d4938b97a1d3d1c3c))\n- clip weather data to prevent overlapping. Still won't look nice if too many weather data ([deb489e](/deb489eb905f491abc25a546d01ecbdcffb33c37))\n- theme colors regression fix ([d66f9a5](/d66f9a58f6a147f5a5dd7a3443170a63093f5dd7))\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.3/119/ossweather.ipa",
-                    "size": 49289650,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.8.1/117",
-                    "date": "2024-10-23T20:39:33Z",
-                    "localizedDescription": "### Features\r\n- allow to set weather map animation speed ([ff5128b](/ff5128ba7594f2761f58879e29b83da73eb6e140))\r\n\r\n### Bug fixes\r\n- Translations update",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.8.1/117/ossweather.ipa",
-                    "size": 49123881,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "ios/alpha/2.11.7/148",
-                    "date": "2026-04-09T13:29:56Z",
-                    "localizedDescription": "### Bug fixes\n- temperature line sometimes appearing black in chart view (https://github.com/Akylas/oss-weather/commit/7f6b2b4e6c0111fd6ed430f1e80b4d0590072b0a)\n- French BRA fix (https://github.com/Akylas/oss-weather/commit/d7d22d0a95ba1dc508ffedc601203905ce88b363)\n- temperature not showing in chart popover (https://github.com/Akylas/oss-weather/commit/e7b76b000a9e7974750a1e805dc0f2e1cc18cf96)\n- provide localization strings from app to widget library via WidgetLocalizationProvider (https://github.com/Akylas/oss-weather/commit/0b60042fe23a884f974a5263bcf5a5ab229b041b)\n- add strings.xml fallbacks for widget description resources in library AAR (https://github.com/Akylas/oss-weather/commit/3f2b86121688a00f18fa15d289a3c4442e901e58)\n- handle widget click action (https://github.com/Akylas/oss-weather/commit/ea566d6e4e51bee4feeaf92be5468fb15ed52a48)\n- show OpenWeather API errors (https://github.com/Akylas/oss-weather/commit/ffa8bb65cb637d1771a042801f472dad2c230b34)\n\n### Code refactoring\n- use shared utilities to remove duplicate code (https://github.com/Akylas/oss-weather/commit/9a7aa2a2e33b6da2a1943339d7a06035af0cb8ec)\n- remove duplicate code from widget generators using shared utilities (https://github.com/Akylas/oss-weather/commit/96fb5f4cc01f2fdbcf9acb282e574c813023f085)\n- replace WidgetLocalizationProvider with Android resource merging (https://github.com/Akylas/oss-weather/commit/751d244d2dd3edff8c5c1548838776f50fdb3925)\n- Translations update by @TenchMaviatorius2759, @users, @gmail, @Jep, @Tomik, @Alexander, @openmailbox, @ToxxyTheTrash",
-                    "downloadURL": "https://github.com/Akylas/oss-weather/releases/download/ios/alpha/2.11.7/148/ossweather.ipa",
-                    "size": 49959675
                 }
             ],
             "appPermissions": {
