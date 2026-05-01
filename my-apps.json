@@ -10,6 +10,75 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "SkyWizard Weather",
+            "bundleIdentifier": "liquidglasstext.LiquidGlassText.resources",
+            "marketplaceID": "",
+            "developerName": "al051195",
+            "subtitle": "A Revamp of the SwiftUI based SkiWizard Application.",
+            "localizedDescription": "Sky Wizard is a weather information application, developed for iOS devices. The app is open source and developed using open metro api for weather updated and photon for reverse geocoding. Both the integrated api services are free for non-commercial use and required an api key based on the number of api calls.\n\nNote: The application is mainly designed for iOS and iPadOS devices and therefore the Apple Silicon Mac experience will be less optimized.",
+            "iconURL": "https://raw.githubusercontent.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/refs/heads/master/SkyWizard-SwiftUI/Other/Assets.xcassets/wizard_face.imageset/wizard_face%403x.png",
+            "tintColor": "#6100b6",
+            "category": "utilities",
+            "screenshots": {
+                "iphone": [
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone1.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone2.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone3.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone4.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone5.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone6.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone7.png"
+                ],
+                "ipad": [
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad1.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad2.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad4.png",
+                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad6.png"
+                ]
+            },
+            "versions": [
+                {
+                    "version": "2.2",
+                    "date": "2025-12-06T10:12:59Z",
+                    "localizedDescription": "# Sky Wizard v2.2 \u2014 \u201cLiquid Awakening\u201d #\r\n\r\n> The glass sharpens, the magic stabilizes. \r\n\r\n\u2728 New Features & Improvements\r\n- ## Mac Catalyst Support ##\r\nSkyWizard is now available on macOS through Mac Catalyst!\r\nEnjoy the same Liquid Glass weather experience seamlessly on your Mac\r\n( still a beta version, layout is not really optimized for Mac, right now it's basically looking like the iPad version )\r\n- ## \ud83d\uddbc\ufe0f New App Icon ##\r\nA bright, cheerful sun with a soft glass-cloud. A warm and joyful alternative icon for Sky Wizard.\r\n- ## \ud83c\udfa8 Redesigned Icon Picker ##\r\nCompletely revamped icon selector.\r\nCleaner layout, smoother transitions, and enhanced Liquid Glass effects.\r\nIcons are now showcased more elegantly with a refined, modern visual style.\r\n- ## \ud83d\udccd Updated Location Controls ##\r\nLocation-related buttons now feature an improved design that matches the app\u2019s liquid aesthetic.\r\nCity name readability has been enhanced for better clarity and visual integration.\r\n# \ud83d\udee0\ufe0f Fixes #\r\n- ## \ud83c\udfe0 3D Model Stabilization ##\r\nFixed an issue where the 3D house model would occasionally shift position while scrolling.\r\nBehavior is now fully stable:\r\nModel rotation is locked.\r\nInteraction is limited to horizontal swipe only, as originally intended.",
+                    "downloadURL": "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/releases/download/v2.2/SkyWizard-v2.2-Release.ipa",
+                    "size": 47679107,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1",
+                    "date": "2025-11-08T13:44:32Z",
+                    "localizedDescription": "## Key New Features :\r\n- \u2728 New customizable app icon \u2014 choose the best SkyWizard icon to match your mood.\r\n\r\n- \ud83d\udca7 Location button in Liquid Glass style `(.glassEffect())` for complete aesthetic consistency.\r\n\r\n- \ud83c\udf2b\ufe0f Location and temperature text is now translucent with a Liquid Glass effect (thanks to the work of [DanielCrompton123](https://github.com/DanielCrompton123/LiquidGlassText/tree/main)).\r\n\r\n- \u2699\ufe0f Improved fluidity and rendering on iOS 26 for a more vibrant and lively experience.\r\n\r\n## Known bugs :\r\n\r\n- When the app ask for location access you need to click on allow once or at the next launch of skywizard the app will be stuck on the loading screen \r\n",
+                    "downloadURL": "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/releases/download/v2.1/SkyWizard-v2.1-Release.ipa",
+                    "size": 39150989,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0",
+                    "date": "2025-10-23T08:22:31Z",
+                    "localizedDescription": "Known issues : \r\n- The scrolling animation is not working\r\n- When debugging with Xcode if you spoof the location ( let's say to Tokyo ) it's gonna be stuck in Tokyo ( even after a restart of the app ) \r\nFix : reinstall the app\r\n\r\n- 3D model of the house rotating when you are trying to scroll\r\n- No Widget for now, it's coming in a future release",
+                    "downloadURL": "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/releases/download/v2.0/SkyWizard-LG-v2.0.0.ipa",
+                    "size": 39861714,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "26.3",
+                    "date": "2026-04-30T20:04:37Z",
+                    "localizedDescription": "# Sky Wizard v26.3\r\n\r\n\u2728 New Features & Improvements\r\n- ## Changed Release Scheme ##\r\nAs you can see with this release, we\u2019ve updated the version number to 26 to better reflect the fact that we\u2019re using iOS 26 as the minimum supported version and that we\u2019re taking advantage of new features in SDK 26, such as Liquid Glass. \r\n- ## Mac Catalyst Support ##\r\nRemoved the macOS catalyse support instead focusing on the iOS version for now\r\n- ## Better Small Screen Support ##\r\nThe AI summary includes a sheet that you can tap to expand and view the full AI summary if you're having trouble seeing it on your screen (this is especially useful on iPhone SE models, since the text is cut off).\r\n- ##  Other Location Weather Forecast ##\r\nYou can now see the weather forecast of your favourite locations",
+                    "downloadURL": "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/releases/download/v26.3/SkyWizard-v26.3-Release.ipa",
+                    "size": 51168071
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "OSS Weather",
             "bundleIdentifier": "com.akylas.weather",
             "marketplaceID": "",
@@ -14677,68 +14746,6 @@
                     "localizedDescription": "First version of IPA available for self signing!",
                     "downloadURL": "https://github.com/zzanehip/The-OldOS-Project/releases/download/1.0_7/OldOS.ipa",
                     "size": 78494840,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "SkyWizard Weather",
-            "bundleIdentifier": "liquidglasstext.LiquidGlassText.resources",
-            "marketplaceID": "",
-            "developerName": "al051195",
-            "subtitle": "A Revamp of the SwiftUI based SkiWizard Application.",
-            "localizedDescription": "Sky Wizard is a weather information application, developed for iOS devices. The app is open source and developed using open metro api for weather updated and photon for reverse geocoding. Both the integrated api services are free for non-commercial use and required an api key based on the number of api calls.\n\nNote: The application is mainly designed for iOS and iPadOS devices and therefore the Apple Silicon Mac experience will be less optimized.",
-            "iconURL": "https://raw.githubusercontent.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/refs/heads/master/SkyWizard-SwiftUI/Other/Assets.xcassets/wizard_face.imageset/wizard_face%403x.png",
-            "tintColor": "#6100b6",
-            "category": "utilities",
-            "screenshots": {
-                "iphone": [
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone1.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone2.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone3.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone4.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone5.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone6.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/iphone7.png"
-                ],
-                "ipad": [
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad1.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad2.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad4.png",
-                    "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/raw/master/banners/ipad6.png"
-                ]
-            },
-            "versions": [
-                {
-                    "version": "2.2",
-                    "date": "2025-12-06T10:12:59Z",
-                    "localizedDescription": "# Sky Wizard v2.2 \u2014 \u201cLiquid Awakening\u201d #\r\n\r\n> The glass sharpens, the magic stabilizes. \r\n\r\n\u2728 New Features & Improvements\r\n- ## Mac Catalyst Support ##\r\nSkyWizard is now available on macOS through Mac Catalyst!\r\nEnjoy the same Liquid Glass weather experience seamlessly on your Mac\r\n( still a beta version, layout is not really optimized for Mac, right now it's basically looking like the iPad version )\r\n- ## \ud83d\uddbc\ufe0f New App Icon ##\r\nA bright, cheerful sun with a soft glass-cloud. A warm and joyful alternative icon for Sky Wizard.\r\n- ## \ud83c\udfa8 Redesigned Icon Picker ##\r\nCompletely revamped icon selector.\r\nCleaner layout, smoother transitions, and enhanced Liquid Glass effects.\r\nIcons are now showcased more elegantly with a refined, modern visual style.\r\n- ## \ud83d\udccd Updated Location Controls ##\r\nLocation-related buttons now feature an improved design that matches the app\u2019s liquid aesthetic.\r\nCity name readability has been enhanced for better clarity and visual integration.\r\n# \ud83d\udee0\ufe0f Fixes #\r\n- ## \ud83c\udfe0 3D Model Stabilization ##\r\nFixed an issue where the 3D house model would occasionally shift position while scrolling.\r\nBehavior is now fully stable:\r\nModel rotation is locked.\r\nInteraction is limited to horizontal swipe only, as originally intended.",
-                    "downloadURL": "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/releases/download/v2.2/SkyWizard-v2.2-Release.ipa",
-                    "size": 47679107,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1",
-                    "date": "2025-11-08T13:44:32Z",
-                    "localizedDescription": "## Key New Features :\r\n- \u2728 New customizable app icon \u2014 choose the best SkyWizard icon to match your mood.\r\n\r\n- \ud83d\udca7 Location button in Liquid Glass style `(.glassEffect())` for complete aesthetic consistency.\r\n\r\n- \ud83c\udf2b\ufe0f Location and temperature text is now translucent with a Liquid Glass effect (thanks to the work of [DanielCrompton123](https://github.com/DanielCrompton123/LiquidGlassText/tree/main)).\r\n\r\n- \u2699\ufe0f Improved fluidity and rendering on iOS 26 for a more vibrant and lively experience.\r\n\r\n## Known bugs :\r\n\r\n- When the app ask for location access you need to click on allow once or at the next launch of skywizard the app will be stuck on the loading screen \r\n",
-                    "downloadURL": "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/releases/download/v2.1/SkyWizard-v2.1-Release.ipa",
-                    "size": 39150989,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0",
-                    "date": "2025-10-23T08:22:31Z",
-                    "localizedDescription": "Known issues : \r\n- The scrolling animation is not working\r\n- When debugging with Xcode if you spoof the location ( let's say to Tokyo ) it's gonna be stuck in Tokyo ( even after a restart of the app ) \r\nFix : reinstall the app\r\n\r\n- 3D model of the house rotating when you are trying to scroll\r\n- No Widget for now, it's coming in a future release",
-                    "downloadURL": "https://github.com/al051195/SkyWizard-SwiftUI-Liquid-Glass/releases/download/v2.0/SkyWizard-LG-v2.0.0.ipa",
-                    "size": 39861714,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
