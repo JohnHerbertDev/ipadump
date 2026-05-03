@@ -1,5 +1,4 @@
 name: Update AltStore Repo
-
 permissions:
   contents: write
 
@@ -7,16 +6,28 @@ on:
   schedule:
     - cron: "0 0 * * *"   # every day at midnight UTC
   workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type 'run' to confirm manual trigger"
+        required: true
+        default: ""
+
+concurrency:
+  group: altstore-update
+  cancel-in-progress: false   # don't cancel a running job if triggered again
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    if: >
+      github.event_name == 'schedule' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.confirm == 'run')
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # FIX: allow commits to push
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,6 +38,9 @@ jobs:
         run: pip install requests
 
       - name: Run scraper
+        env:
+          API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RATE_LIMIT_PER_SECOND: "2"   # max 2 requests/sec = ~120/min, well under 5000/hr
         run: python githubScrape.py
 
       - name: Check for changes
