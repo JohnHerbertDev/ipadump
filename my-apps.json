@@ -380,6 +380,13 @@
                     "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v2.7.2`\n\n## Release Notes\n- Bulk translation: add Bosnian language support (thanks @hllvc!) (#154)\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.7.2/Apollo-1.15.11_ImprovedCustomApi-2.7.2.ipa",
                     "size": 114902478
+                },
+                {
+                    "version": "1.15.11_2.8.0",
+                    "date": "2026-05-09T08:00:30Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v2.8.0`\n\n## Release Notes\n- Support for uploading images directly to Reddit instead of Imgur (thanks @icpryde for the implementation!) (#123)\r\n    - Configure in **Settings > Custom API > Media > Image Upload Host**\r\n    - Reddit image upload is **experimental** and does not currently support multi-image or video uploads\r\n    - It's normal to see an `amazonaws.com` URL after attaching an image - it is replaced after posting\r\n    - Right after posting, Apollo may briefly show a generic preview icon while Reddit finishes processing the image. Pull to refresh and the real thumbnail should appear\r\n\r\n| | | |\r\n|:--:|:--:|:--:|\r\n| <img src=\"https://github.com/user-attachments/assets/9c129cc9-3580-4c4d-8696-591308fc4a70\" alt=\"\" width=\"500\"> | <img src=\"https://github.com/user-attachments/assets/3e689a33-6ff7-4263-bb0e-ac2208d60a9b\" alt=\"\" width=\"500\"> | <img src=\"https://github.com/user-attachments/assets/10f87933-db5c-4d16-aabf-396a8332d1c0\" alt=\"\" width=\"500\"> |\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.8.0/Apollo-1.15.11_ImprovedCustomApi-2.8.0.ipa",
+                    "size": 114938694
                 }
             ],
             "appPermissions": {
