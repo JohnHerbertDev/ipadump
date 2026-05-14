@@ -1,0 +1,15 @@
+// Egern scripting engine
+let body = JSON.parse($response.body);
+
+// Force subscriber status
+body.subscriberstatus = "Subscriber";
+body.subscriberduration = "active";
+// If the server returns "membertype", force it too
+if (body.membertype !== undefined) {
+    body.membertype = "subscriber";
+}
+
+// If there's a "gamemap" or any per‑game subscriber_features block, ensure they show
+// (Usually the home/gameinfo endpoints return them; you might not need to touch them.)
+
+$done({ body: JSON.stringify(body) });
