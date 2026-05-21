@@ -10,219 +10,6 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
-            "name": "dirtyZero",
-            "bundleIdentifier": "com.jbdotparty.dirtyZero",
-            "marketplaceID": "",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "Basic customization app using CVE-2025-24203. Patched in iOS 18.4.",
-            "localizedDescription": "# dirtyZero\n**A simple customization toolbox that utilizes [CVE-2025-24203](https://project-zero.issues.chromium.org/issues/391518636).**\n\n[Download](https://github.com/jailbreakdotparty/dirtyZero/releases) \u2022 [Join our Discord!](https://discord.gg/XPj66zZ4gT)\n\n# Disclaimer\nAll file modifications are done in memory. If something goes wrong or you want to revert the tweaks, just force reboot your phone. Note that this toolbox, or any subsequent toolbox that uses this exploit, **cannot** write to files. It can only *temporaily* disable them.\n\n# Support Table\n| iOS Version | Support Status |\n| -------- | ------- |\n| iOS 16.0 - iOS 16.7.12  | Supported |\n| iOS 17.0 - iOS 17.7.5 | Supported |\n| iOS 17.7.6+ | Not Supported |\n| iOS 18.0 - iOS 18.3.2 | Supported |\n| iOS 18.4+ | Not Supported |\n\n# Available Tweaks\n  - Custom Tweaks\n    - Create your own tweaks by pressing the + button at the top right\n  - Home Screen\n    - Disable Dock Background\n    - Disable Folder Backgrounds\n    - Disable Widget Config BG\n    - Disable App Library BG (iOS 18 only)\n    - Disable Library Search BG\n    - Disable Spotlight Background\n    - Disable Delete Icon\n  - Lock Screen\n    - Disable Passcode Background\n    - Disable Lock Icon\n    - Disable Quick Action Icons (iOS 16 & 17 only)\n    - Disable Large Battery Icon (iOS 18 only)\n  - Alerts & Overlays\n    - Disable Notification & Widget BGs\n    - Recolor Notification Shadows (Blue)\n    - Disable Touch & Alert Backgrounds\n    - Disable Home Bar\n    - Disable Glassy Overlays\n    - Disable App Switcher BG\n  - Fonts & Icons\n    - Enable \ud835\udda7\ud835\uddbe\ud835\uddc5\ud835\uddcf\ud835\uddbe\ud835\uddcd\ud835\uddc2\ud835\uddbc\ud835\uddba Font\n    - Disable Emojis\n    - Disable Slider Icons\n    - Disable Ring Animations\n    - Disable Tethering Graphic\n  - Control Center\n    - Disable CC Module Background (iOS 18 only)\n    - Disable WiFi & Bluetooth Icons (iOS 16 & 17 only)\n    - Disable DND Icon\n    - Disable Screen Mirroring Module (iOS 16 & 17 only)\n    - Disable Orientation Lock Module (iOS 16 & 17 only)\n    - Disable Focus Module (iOS 16 & 17 only)\n  - Sound Effects\n    - Disable AirDrop Ping\n    - Disable Charge Sound\n    - Disable Low Battery Sound\n    - Disable Payment Sounds\n    - Disable Dialing Sounds\n > [!NOTE]\n> Enable in settings <br>\n> May break your system. If they do, force reboot your device\n  - Risky Tweaks\n    - Disable CC Background\n    - Disable ALL Accent Colors\n    - Break System Font\n    - Disable ALL Banners\n    - Break SpringBoard Labels\n    - Break System Labels\n\n# How do I respring after applying the tweaks?\n## Option 1: Use RespringApp\n1. Install [RespringApp](https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringapp/respringapp.ipa) using your preferred method of sideloading. If you signed RespringApp with PPQ Protection or AltStore/SideStore, enable \"Change Respring App Bundle ID\" in settings and type in the bundle id of RespringApp. You can find the bundle id in AltStore's/SideStore's \"View App IDs\" menu or with tools like [Antrag](https://github.com/khcrysalis/Antrag).\n2. In dirtyZero, click the orange \"Respring\" button.\n3. Profit \ud83d\udd25\n\n*This method brought to you by [`@nyaathea`](https://x.com/nyaathea). Due to the nature of the method, it is not possible to integrate this directly into the dirtyZero app, hence the seperate IPA. Note that you can also simply click the RespringApp application itself to respring.*\n\n**Option 2: Display & Text Size**\n1. Before applying the tweaks, go into Settings > Display & Brightness > Display Zoom\n2. Pick the option that's opposite of the one you're currently using.\n3. After, apply the tweaks.\n4. Go back into Settings > Display & Brightness > Display Zoom\n5. Pick the option that's opposite of the one you're currently using.\n\n\n# Credits\n- [Skadz](https://github.com/skadz108) for making this app.\n- [lunginspector](https://github.com/lunginspector) for the UI and numerous tweaks.\n- Ian Beer of Google Project Zero for discovering and publishing the exploit.\n",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/dirtyZero/refs/heads/main/dirtyZero/Assets.xcassets/AppIcon.appiconset/dirtyZeroRegular-min.png",
-            "tintColor": "#00841e",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2.1",
-                    "date": "2025-10-30T04:44:07Z",
-                    "localizedDescription": "## Changes\r\n### New Features\r\n* **Custom Respring App Bundle ID:** If you sideloaded RespringApp with PPQ protection, then the bundle id might've not matched the one that dirtyZero recognizes, which breaks the ability to respring from the app. If you're facing this, you can now put in the bundle id for your specific respring app. (thanks @Baconium)\r\n### Tweak Adjustments\r\n* Moved \"Disable CC Background\" to the risky tweaks section as it causes resprings when clicking the volume buttons.\r\n* Allowed \"Disable DND Icon\" to appear on iOS 18 as it seems to work on this version.\r\n\r\n**[Join the jailbreak.party Discord!](https://jailbreak.party/discord)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.2.1/dirtyZero_v1.2.1.ipa",
-                    "size": 2636718,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2025-10-15T04:01:09Z",
-                    "localizedDescription": "## Changes\r\n**New Tweaks\u2028**\r\n- Recolor Notification Shadows (Blue)\r\n- Disable Ring Animation\r\n- Disable Tethering Graphic\r\n- Disable Glassy Overlays\r\n- Disable App Switcher BG\r\n- Disable Delete Icon\r\n- Disable Library Search BG\r\n\r\n**New Features**\r\n- Settings Page: You can now disable logs & enable debugging settings.\r\n- Tweak Creator: Create tweaks using your own paths, and apply them as you would a regular tweak.\r\n- Risky Tweaks: This is just for fun, but most of these tweaks will probably cause you to force reboot your device \ud83d\udc80\r\n\r\n**UI Updates**\r\n- New Terminal View: The terminal view now has new statistics for tweak application and device info.\r\n- Updated Colors, Progressive Blurs, etc: Tons of new UI changes and animations.\r\n\r\nOverall, this is a huge update, which has been months in the making. Enjoy!\r\nAll major contributions made by @lunginspector.\r\n\r\n**[Join the jailbreak.party Discord!](https://jailbreak.party/discord)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.2/dirtyZero_v1.2.ipa",
-                    "size": 2644304,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2025-08-23T17:34:27Z",
-                    "localizedDescription": "**Changes**\r\n- Redesigned UI (by @lunginspector)\r\n- New tweaks and compatibility improvements for iOS 16 & 17 (by @lunginspector)\r\n- Built-in version checker & compatibility notices\r\n- Improved tweak applying backend and logging\r\n- Developers can now use updated exploit code to zero out a specific offset of a file page\r\n\r\nThanks for your support! \u2764\ufe0f\r\n\r\n**[Join the jailbreak.party Discord!](https://jailbreak.party/discord)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.1/dirtyZero.ipa",
-                    "size": 1154149,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.1",
-                    "date": "2025-05-24T22:27:16Z",
-                    "localizedDescription": "**changes**\r\n- added warning to some tweak that could cause a respring loop and do some other thing with the tweak path i think (thx @lunginspector)\r\n\r\nthanks everyone for your support!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.0.1/dirtyZero.ipa",
-                    "size": 291778,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-05-24T04:04:34Z",
-                    "localizedDescription": "## dirtyZero v1.0 is here!\r\n\r\n**changes**\r\n- tons of new tweaks\r\n- revert tweaks button\r\n- respring button (requires respringapp installed)\r\n- ui enhancements\r\n- backend improvements\r\n\r\nthis may or may not be the final release, at least in terms of additional tweaks/functionality.\r\nseems like this bug has just about reached its fullest potential...\r\n\r\nthanks everyone for your support!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.0/dirtyZero_v1.0.ipa",
-                    "size": 290946,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "respringapp",
-                    "date": "2025-05-14T23:59:42Z",
-                    "localizedDescription": "all credits to `@nyaathea` on twitter, og link: https://x.com/nyaathea/status/1920978363545510175\r\n\r\njust reuploading this here for convenience.\r\n\r\n**how 2 use**\r\n- install ipa\r\n- try to open app\r\n- instant respring \ud83d\udd25",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringapp/respringapp.ipa",
-                    "size": 264632,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.3.5",
-                    "date": "2025-05-11T23:15:52Z",
-                    "localizedDescription": "**changes**\r\n- improved logs and apply button ui (thx @lunginspector)\r\n- panic button\r\n- ported exploit code to swift\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.3.5/dirtyZero_v0.3.5.ipa",
-                    "size": 213366,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.3",
-                    "date": "2025-05-10T03:07:24Z",
-                    "localizedDescription": "**changes**\r\n- new tweaks (thx @lunginspector)\r\n- new app icon (also thx @lunginspector)\r\n- new tweak system! you can now apply multiple tweaks at once and it'll remember your selected ones\r\n- ui improvements\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.3/dirtyZero_v0.3.ipa",
-                    "size": 204079,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.2",
-                    "date": "2025-05-09T23:03:35Z",
-                    "localizedDescription": "**changes**\r\n- new ui (thx @lunginspector)\r\n- updated disclaimer\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.2/dirtyZero_v0.2.ipa",
-                    "size": 179563,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1",
-                    "date": "2025-05-09T07:25:26Z",
-                    "localizedDescription": "first release. has two tweaks (hide home bar and hide dock).\r\n\r\nyou can also test out custom paths, but i wouldn't recommend that the average user plays around with that.\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.1/dirtyZero_v0.1.ipa",
-                    "size": 105067,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3",
-                    "date": "2026-01-31T17:32:17Z",
-                    "localizedDescription": "## UI Updates\r\n- Rewrote a good chunk of the UI, implementing [PartyUI](https://github.com/jailbreakdotparty/PartyUI) components along the way.\r\n- Tweak sections are now collapsable and have counters.\r\n- iPads now have a proper UI.\r\n\r\n## Tweaks\r\n- New tweaks: Hide Player Buttons.\r\n- Renamed tweaks to be better representative of their functions.\r\n\r\n## QoL enhancements\r\n- You can now reset any tweaks that you selected previously.\r\n- You can also remove all custom tweaks that you've created in the past.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/1.3/dirtyZero_v1.3.ipa",
-                    "size": 917988
-                },
-                {
-                    "version": "respringr",
-                    "date": "2026-04-10T01:05:02Z",
-                    "localizedDescription": "**respringr**\r\n\r\nalternative to the original RespringApp, more lightweight and optimized (uses empty app bundle instead of random copy of PosterBoard from iOS 16.6)\r\n\r\nif you're using sidestore, a signing service with ppq protection, or any method that will edit the bundle id of the app during installation, you will need to specify that bundle id in dirtyZero's settings",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringr/respringr.ipa",
-                    "size": 14184
-                },
-                {
-                    "version": "1.4",
-                    "date": "2026-05-19T21:36:47Z",
-                    "localizedDescription": ">[!NOTE]\r\n>This update adds support for newer versions of iOS thanks to the kernel exploit found in the DarkSword exploit chain! Huge shoutout to @rooootdev and his project [lara](https://github.com/rooootdev/lara) for the implementation of DarkSword! This brings version support up to **iOS 16.0 - iOS 18.7.1 & iOS 26.0 - iOS 26.0.1**! Tweak applying with DarkSword is finicky and may not work properly on all versions of iOS (especially iPads with M-series chips). You may have to apply multiple times for tweaks to appear. Any posts regarding these issues will be closed.\r\n\r\n- **Full Rewrite!** Both the frontend and backend have been fully rewritten from the ground up, making the app a whole lot more UX-friendly.\r\n- **QoL Improvements:** A bunch of various QoL improvements have been implemented, such as in-app respringing, and tweak resetting.\r\n- **Tweak Info Panes:** When you swipe right on a tweak, a new menu will pop up that allows you to get more information on the tweak, such as support status and what paths it targets.\r\n\r\nNo new tweaks have been added in this release, but the tweak array is optimized for iOS 26. Note that a lot less tweaks will be available on iOS 26 due to changes in iOS that does not allow for removing elements with a simple path zeroing.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/1.4/dirtyZero_v1.4.ipa",
-                    "size": 3688693
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "StikDebug",
-            "bundleIdentifier": "com.stik.stikdebug",
-            "marketplaceID": "",
-            "developerName": "StephenDev0",
-            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
-            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [
-                "https://stikdebug.xyz/assets/source/home.png",
-                "https://stikdebug.xyz/assets/source/scripts.png",
-                "https://stikdebug.xyz/assets/source/settings.png"
-            ],
-            "versions": [
-                {
-                    "version": "2.3.7",
-                    "date": "2026-01-09T19:27:57Z",
-                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
-                    "size": 12048589,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.6",
-                    "date": "2025-12-18T02:30:53Z",
-                    "localizedDescription": "This release works with LocalDevVPN",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
-                    "size": 11996559,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2026-02-25T21:26:35Z",
-                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
-                    "size": 10456365
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-03-08T18:56:53Z",
-                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
-                    "size": 10461243
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2026-03-30T17:53:28Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
-                    "size": 10889554
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2026-04-04T03:30:18Z",
-                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
-                    "size": 10973374
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2026-04-12T06:41:17Z",
-                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
-                    "size": 10974298
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2026-05-18T14:50:17Z",
-                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
-                    "size": 11125407
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "Apollo",
             "bundleIdentifier": "com.christianselig.Apollo",
             "marketplaceID": "",
@@ -628,6 +415,226 @@
                     "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v2.12.0b`\n\n## Release Notes\n> [!NOTE]\r\n> `v2.12.0` was pulled due to an issue with loading user avatars\r\n\r\n### New Features\r\n\r\n- Reddit-hosted uploads: support multi-image and video uploads (thanks @icpryde!) (#157, #158)\r\n  - Support adding optional post text to Media posts (#175)\r\n- Add a long-press menu on profile usernames to copy the username to the clipboard (thanks @icpryde!) (#183)\r\n- Refresh user profile pictures on pull-to-refresh and add a **Clear Profile Picture Cache** action under **Settings > Custom API > Media** (#197)\r\n- New **harunatsu** Liquid Glass app icon (thanks @jordanearle and /u/harunatsu91202024!)\r\n  - Requires re-patching your IPA using the updated [patch.sh script](https://github.com/JeffreyCA/Apollo-ImprovedCustomApi/blob/main/patch.sh) or Patch IPA GitHub Action\r\n    <img width=\"400\" alt=\"IMG_3553\" src=\"https://github.com/user-attachments/assets/89bfd607-3342-4faa-ab50-12e1a0875ab7\" />\r\n- Liquid Glass: new **Tab Bar Re-Expands When Idle** toggle in **Settings > Custom API > General** that re-expands the tab bar after a deliberate upward scroll or a longer idle timeout (thanks @icpryde!) (#196)\r\n    <img width=\"400\" alt=\"idle\" src=\"https://github.com/user-attachments/assets/d4157f7b-b89d-4e3c-afac-5c9854e13fe3\" />\r\n\r\n- New **Thanks To** screen under **About** section. Thank you to all the contributors who've helped make this tweak what it is \u2764\ufe0f\r\n\r\n### Fixes\r\n\r\n- Fix the Photo Post composer thumbnail strip so all selected images can be reviewed with reliable horizontal scrolling before submit (thanks @icpryde!)\r\n- Improve user avatar loading on multireddits\r\n\r\n| |  | \r\n|---|---|\r\n| <img width=\"400\" alt=\"IMG_3554\" src=\"https://github.com/user-attachments/assets/11129c99-53b1-4d66-9af0-291ff0f921d7\" /> | <img width=\"400\" alt=\"img\" src=\"https://github.com/user-attachments/assets/64f4e807-1e34-4a45-8965-f075c403aae5\" /> |\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.12.0b/Apollo-1.15.11_ImprovedCustomApi-2.12.0b.ipa",
                     "size": 115489483
+                },
+                {
+                    "version": "1.15.11_2.13.0",
+                    "date": "2026-05-20T03:51:23Z",
+                    "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v2.13.0`\n\n## Release Notes\n### Features\r\n\r\n- Add **Rich Link Previews**: first-party cards for YouTube, Reddit, GitHub, Wikipedia, Twitter/X, Bluesky, and a configurable preview card colour (thanks @icpryde, @DeltAndy123!)\r\n    - Configurable for posts and comments separately between with Full, Compact, and Off in **Settings > Custom API > Media**\r\n\r\n    | Compact | Full | Twitter/X | Bluesky |\r\n    | --- | --- | --- | --- |\r\n    | <img width=\"400\" alt=\"rich-compact-2\" src=\"https://github.com/user-attachments/assets/df5f71a2-33c6-4a7e-a04d-45203b2ef481\" /> | <img width=\"400\" alt=\"rich-full-2\" src=\"https://github.com/user-attachments/assets/cd0e5950-bcd7-46f9-8f17-4acd0db2a0ba\" /> | <img width=\"400\" alt=\"rich-twitter\" src=\"https://github.com/user-attachments/assets/be7ddd87-f351-49b4-bc7e-898db7ea5588\" /> | <img width=\"400\" alt=\"rich-bluesky\" src=\"https://github.com/user-attachments/assets/451ec56a-10a7-4ba8-a623-65cc2c07ceae\" /> |\r\n- Profile pages now include Reddit display name, about text, and an Edit button that opens Reddit's profile editor (thanks @icpryde!)\r\n- New **Profile Picture Tab Icon** setting (**Settings > Custom API > Media**) that displays user profile picture in the tab bar (thanks @icpryde!).\r\n- Polish subreddit list view with a custom alphabet index overlay, larger favourite-star hit targets, and a **Modern Subreddit Dividers** style (**Settings > Custom API > Subreddits**) (thanks @icpryde!)\r\n- Liquid Glass: replace action sheets with native iOS action menus throughout the app\r\n  | Menu sheet | Menu popover |\r\n  | --- | --- |\r\n  | <img width=\"200\" alt=\"menu-2\" src=\"https://github.com/user-attachments/assets/d81e5829-b911-47aa-b14b-19517142f4c7\" /> | <img width=\"200\" alt=\"menu-1\" src=\"https://github.com/user-attachments/assets/f4499a58-c92c-4f00-87c5-10ae896316ff\" /> |\r\n\r\n- Liquid Glass: add new **Sunset** app icon (thanks @bajader!), rename icons, and show icon designer names in the picker\r\n\r\n| User avatars | Subreddit list | App icon | Settings |\r\n| --- | --- | --- | --- |\r\n| <img width=\"400\" alt=\"avatar-profile\" src=\"https://github.com/user-attachments/assets/a343d7b6-60e1-4f0b-b25e-e3774cd4a686\" /> | <img width=\"400\" alt=\"subreddit-list\" src=\"https://github.com/user-attachments/assets/dfd70051-5863-46fc-80fe-534a34ec652c\" /> | <img width=\"400\" alt=\"icon\" src=\"https://github.com/user-attachments/assets/8b3a6359-bcdd-4c54-98c1-0b7cf61bfd9e\" /> | <img width=\"400\" alt=\"settings\" src=\"https://github.com/user-attachments/assets/eb2adbb8-40b7-42e9-9ea2-7b1243ed67e2\" /> |\r\n\r\n\r\n### Fixes\r\n\r\n- Fix user profile pictures appearing inside flair text\r\n- Fix the media post body text editor in subreddits that do not expose Apollo's normal Text tab (thanks @icpryde!)\r\n- Fix subreddit list view scroll position shifting after favouriting a subreddit\r\n- Fix stale subreddit entries lingering after unfavouriting from Favourites section\r\n- Liquid Glass: fix separators blocking alphabet in subreddit list view (thanks @icpryde!)\r\n- Update Custom API settings view to match app theme (thanks @icpryde!)\r\n- Add statsigapi.net to the blocked URL list (thanks @epheterson!)\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.13.0/Apollo-1.15.11_ImprovedCustomApi-2.13.0.ipa",
+                    "size": 115624450
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "dirtyZero",
+            "bundleIdentifier": "com.jbdotparty.dirtyZero",
+            "marketplaceID": "",
+            "developerName": "jailbreakdotparty",
+            "subtitle": "Basic customization app using CVE-2025-24203. Patched in iOS 18.4.",
+            "localizedDescription": "# dirtyZero\n**A simple customization toolbox that utilizes [CVE-2025-24203](https://project-zero.issues.chromium.org/issues/391518636).**\n\n[Download](https://github.com/jailbreakdotparty/dirtyZero/releases) \u2022 [Join our Discord!](https://discord.gg/XPj66zZ4gT)\n\n# Disclaimer\nAll file modifications are done in memory. If something goes wrong or you want to revert the tweaks, just force reboot your phone. Note that this toolbox, or any subsequent toolbox that uses this exploit, **cannot** write to files. It can only *temporaily* disable them.\n\n# Support Table\n| iOS Version | Support Status |\n| -------- | ------- |\n| iOS 16.0 - iOS 16.7.12  | Supported |\n| iOS 17.0 - iOS 17.7.5 | Supported |\n| iOS 17.7.6+ | Not Supported |\n| iOS 18.0 - iOS 18.3.2 | Supported |\n| iOS 18.4+ | Not Supported |\n\n# Available Tweaks\n  - Custom Tweaks\n    - Create your own tweaks by pressing the + button at the top right\n  - Home Screen\n    - Disable Dock Background\n    - Disable Folder Backgrounds\n    - Disable Widget Config BG\n    - Disable App Library BG (iOS 18 only)\n    - Disable Library Search BG\n    - Disable Spotlight Background\n    - Disable Delete Icon\n  - Lock Screen\n    - Disable Passcode Background\n    - Disable Lock Icon\n    - Disable Quick Action Icons (iOS 16 & 17 only)\n    - Disable Large Battery Icon (iOS 18 only)\n  - Alerts & Overlays\n    - Disable Notification & Widget BGs\n    - Recolor Notification Shadows (Blue)\n    - Disable Touch & Alert Backgrounds\n    - Disable Home Bar\n    - Disable Glassy Overlays\n    - Disable App Switcher BG\n  - Fonts & Icons\n    - Enable \ud835\udda7\ud835\uddbe\ud835\uddc5\ud835\uddcf\ud835\uddbe\ud835\uddcd\ud835\uddc2\ud835\uddbc\ud835\uddba Font\n    - Disable Emojis\n    - Disable Slider Icons\n    - Disable Ring Animations\n    - Disable Tethering Graphic\n  - Control Center\n    - Disable CC Module Background (iOS 18 only)\n    - Disable WiFi & Bluetooth Icons (iOS 16 & 17 only)\n    - Disable DND Icon\n    - Disable Screen Mirroring Module (iOS 16 & 17 only)\n    - Disable Orientation Lock Module (iOS 16 & 17 only)\n    - Disable Focus Module (iOS 16 & 17 only)\n  - Sound Effects\n    - Disable AirDrop Ping\n    - Disable Charge Sound\n    - Disable Low Battery Sound\n    - Disable Payment Sounds\n    - Disable Dialing Sounds\n > [!NOTE]\n> Enable in settings <br>\n> May break your system. If they do, force reboot your device\n  - Risky Tweaks\n    - Disable CC Background\n    - Disable ALL Accent Colors\n    - Break System Font\n    - Disable ALL Banners\n    - Break SpringBoard Labels\n    - Break System Labels\n\n# How do I respring after applying the tweaks?\n## Option 1: Use RespringApp\n1. Install [RespringApp](https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringapp/respringapp.ipa) using your preferred method of sideloading. If you signed RespringApp with PPQ Protection or AltStore/SideStore, enable \"Change Respring App Bundle ID\" in settings and type in the bundle id of RespringApp. You can find the bundle id in AltStore's/SideStore's \"View App IDs\" menu or with tools like [Antrag](https://github.com/khcrysalis/Antrag).\n2. In dirtyZero, click the orange \"Respring\" button.\n3. Profit \ud83d\udd25\n\n*This method brought to you by [`@nyaathea`](https://x.com/nyaathea). Due to the nature of the method, it is not possible to integrate this directly into the dirtyZero app, hence the seperate IPA. Note that you can also simply click the RespringApp application itself to respring.*\n\n**Option 2: Display & Text Size**\n1. Before applying the tweaks, go into Settings > Display & Brightness > Display Zoom\n2. Pick the option that's opposite of the one you're currently using.\n3. After, apply the tweaks.\n4. Go back into Settings > Display & Brightness > Display Zoom\n5. Pick the option that's opposite of the one you're currently using.\n\n\n# Credits\n- [Skadz](https://github.com/skadz108) for making this app.\n- [lunginspector](https://github.com/lunginspector) for the UI and numerous tweaks.\n- Ian Beer of Google Project Zero for discovering and publishing the exploit.\n",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/dirtyZero/refs/heads/main/dirtyZero/Assets.xcassets/AppIcon.appiconset/dirtyZeroRegular-min.png",
+            "tintColor": "#00841e",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2.1",
+                    "date": "2025-10-30T04:44:07Z",
+                    "localizedDescription": "## Changes\r\n### New Features\r\n* **Custom Respring App Bundle ID:** If you sideloaded RespringApp with PPQ protection, then the bundle id might've not matched the one that dirtyZero recognizes, which breaks the ability to respring from the app. If you're facing this, you can now put in the bundle id for your specific respring app. (thanks @Baconium)\r\n### Tweak Adjustments\r\n* Moved \"Disable CC Background\" to the risky tweaks section as it causes resprings when clicking the volume buttons.\r\n* Allowed \"Disable DND Icon\" to appear on iOS 18 as it seems to work on this version.\r\n\r\n**[Join the jailbreak.party Discord!](https://jailbreak.party/discord)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.2.1/dirtyZero_v1.2.1.ipa",
+                    "size": 2636718,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2025-10-15T04:01:09Z",
+                    "localizedDescription": "## Changes\r\n**New Tweaks\u2028**\r\n- Recolor Notification Shadows (Blue)\r\n- Disable Ring Animation\r\n- Disable Tethering Graphic\r\n- Disable Glassy Overlays\r\n- Disable App Switcher BG\r\n- Disable Delete Icon\r\n- Disable Library Search BG\r\n\r\n**New Features**\r\n- Settings Page: You can now disable logs & enable debugging settings.\r\n- Tweak Creator: Create tweaks using your own paths, and apply them as you would a regular tweak.\r\n- Risky Tweaks: This is just for fun, but most of these tweaks will probably cause you to force reboot your device \ud83d\udc80\r\n\r\n**UI Updates**\r\n- New Terminal View: The terminal view now has new statistics for tweak application and device info.\r\n- Updated Colors, Progressive Blurs, etc: Tons of new UI changes and animations.\r\n\r\nOverall, this is a huge update, which has been months in the making. Enjoy!\r\nAll major contributions made by @lunginspector.\r\n\r\n**[Join the jailbreak.party Discord!](https://jailbreak.party/discord)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.2/dirtyZero_v1.2.ipa",
+                    "size": 2644304,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2025-08-23T17:34:27Z",
+                    "localizedDescription": "**Changes**\r\n- Redesigned UI (by @lunginspector)\r\n- New tweaks and compatibility improvements for iOS 16 & 17 (by @lunginspector)\r\n- Built-in version checker & compatibility notices\r\n- Improved tweak applying backend and logging\r\n- Developers can now use updated exploit code to zero out a specific offset of a file page\r\n\r\nThanks for your support! \u2764\ufe0f\r\n\r\n**[Join the jailbreak.party Discord!](https://jailbreak.party/discord)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.1/dirtyZero.ipa",
+                    "size": 1154149,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.1",
+                    "date": "2025-05-24T22:27:16Z",
+                    "localizedDescription": "**changes**\r\n- added warning to some tweak that could cause a respring loop and do some other thing with the tweak path i think (thx @lunginspector)\r\n\r\nthanks everyone for your support!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.0.1/dirtyZero.ipa",
+                    "size": 291778,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-05-24T04:04:34Z",
+                    "localizedDescription": "## dirtyZero v1.0 is here!\r\n\r\n**changes**\r\n- tons of new tweaks\r\n- revert tweaks button\r\n- respring button (requires respringapp installed)\r\n- ui enhancements\r\n- backend improvements\r\n\r\nthis may or may not be the final release, at least in terms of additional tweaks/functionality.\r\nseems like this bug has just about reached its fullest potential...\r\n\r\nthanks everyone for your support!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v1.0/dirtyZero_v1.0.ipa",
+                    "size": 290946,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "respringapp",
+                    "date": "2025-05-14T23:59:42Z",
+                    "localizedDescription": "all credits to `@nyaathea` on twitter, og link: https://x.com/nyaathea/status/1920978363545510175\r\n\r\njust reuploading this here for convenience.\r\n\r\n**how 2 use**\r\n- install ipa\r\n- try to open app\r\n- instant respring \ud83d\udd25",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringapp/respringapp.ipa",
+                    "size": 264632,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.3.5",
+                    "date": "2025-05-11T23:15:52Z",
+                    "localizedDescription": "**changes**\r\n- improved logs and apply button ui (thx @lunginspector)\r\n- panic button\r\n- ported exploit code to swift\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.3.5/dirtyZero_v0.3.5.ipa",
+                    "size": 213366,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.3",
+                    "date": "2025-05-10T03:07:24Z",
+                    "localizedDescription": "**changes**\r\n- new tweaks (thx @lunginspector)\r\n- new app icon (also thx @lunginspector)\r\n- new tweak system! you can now apply multiple tweaks at once and it'll remember your selected ones\r\n- ui improvements\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.3/dirtyZero_v0.3.ipa",
+                    "size": 204079,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.2",
+                    "date": "2025-05-09T23:03:35Z",
+                    "localizedDescription": "**changes**\r\n- new ui (thx @lunginspector)\r\n- updated disclaimer\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.2/dirtyZero_v0.2.ipa",
+                    "size": 179563,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1",
+                    "date": "2025-05-09T07:25:26Z",
+                    "localizedDescription": "first release. has two tweaks (hide home bar and hide dock).\r\n\r\nyou can also test out custom paths, but i wouldn't recommend that the average user plays around with that.\r\n\r\nenjoy!\r\n\r\n**[join the jailbreak.party discord](https://discord.gg/XPj66zZ4gT)**",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/v0.1/dirtyZero_v0.1.ipa",
+                    "size": 105067,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3",
+                    "date": "2026-01-31T17:32:17Z",
+                    "localizedDescription": "## UI Updates\r\n- Rewrote a good chunk of the UI, implementing [PartyUI](https://github.com/jailbreakdotparty/PartyUI) components along the way.\r\n- Tweak sections are now collapsable and have counters.\r\n- iPads now have a proper UI.\r\n\r\n## Tweaks\r\n- New tweaks: Hide Player Buttons.\r\n- Renamed tweaks to be better representative of their functions.\r\n\r\n## QoL enhancements\r\n- You can now reset any tweaks that you selected previously.\r\n- You can also remove all custom tweaks that you've created in the past.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/1.3/dirtyZero_v1.3.ipa",
+                    "size": 917988
+                },
+                {
+                    "version": "respringr",
+                    "date": "2026-04-10T01:05:02Z",
+                    "localizedDescription": "**respringr**\r\n\r\nalternative to the original RespringApp, more lightweight and optimized (uses empty app bundle instead of random copy of PosterBoard from iOS 16.6)\r\n\r\nif you're using sidestore, a signing service with ppq protection, or any method that will edit the bundle id of the app during installation, you will need to specify that bundle id in dirtyZero's settings",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/respringr/respringr.ipa",
+                    "size": 14184
+                },
+                {
+                    "version": "1.4",
+                    "date": "2026-05-19T21:36:47Z",
+                    "localizedDescription": ">[!NOTE]\r\n>This update adds support for newer versions of iOS thanks to the kernel exploit found in the DarkSword exploit chain! Huge shoutout to @rooootdev and his project [lara](https://github.com/rooootdev/lara) for the implementation of DarkSword! This brings version support up to **iOS 16.0 - iOS 18.7.1 & iOS 26.0 - iOS 26.0.1**! Tweak applying with DarkSword is finicky and may not work properly on all versions of iOS (especially iPads with M-series chips). You may have to apply multiple times for tweaks to appear. Any posts regarding these issues will be closed.\r\n\r\n- **Full Rewrite!** Both the frontend and backend have been fully rewritten from the ground up, making the app a whole lot more UX-friendly.\r\n- **QoL Improvements:** A bunch of various QoL improvements have been implemented, such as in-app respringing, and tweak resetting.\r\n- **Tweak Info Panes:** When you swipe right on a tweak, a new menu will pop up that allows you to get more information on the tweak, such as support status and what paths it targets.\r\n\r\nNo new tweaks have been added in this release, but the tweak array is optimized for iOS 26. Note that a lot less tweaks will be available on iOS 26 due to changes in iOS that does not allow for removing elements with a simple path zeroing.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/dirtyZero/releases/download/1.4/dirtyZero_v1.4.ipa",
+                    "size": 3688693
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "StikDebug",
+            "bundleIdentifier": "com.stik.stikdebug",
+            "marketplaceID": "",
+            "developerName": "StephenDev0",
+            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
+            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [
+                "https://stikdebug.xyz/assets/source/home.png",
+                "https://stikdebug.xyz/assets/source/scripts.png",
+                "https://stikdebug.xyz/assets/source/settings.png"
+            ],
+            "versions": [
+                {
+                    "version": "2.3.7",
+                    "date": "2026-01-09T19:27:57Z",
+                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
+                    "size": 12048589,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.6",
+                    "date": "2025-12-18T02:30:53Z",
+                    "localizedDescription": "This release works with LocalDevVPN",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
+                    "size": 11996559,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2026-02-25T21:26:35Z",
+                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+                    "size": 10456365
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-03-08T18:56:53Z",
+                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
+                    "size": 10461243
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2026-03-30T17:53:28Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
+                    "size": 10889554
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2026-04-04T03:30:18Z",
+                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
+                    "size": 10973374
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2026-04-12T06:41:17Z",
+                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
+                    "size": 10974298
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2026-05-18T14:50:17Z",
+                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
+                    "size": 11125407
                 }
             ],
             "appPermissions": {
