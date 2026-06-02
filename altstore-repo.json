@@ -10,96 +10,6 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
-            "name": "StikDebug",
-            "bundleIdentifier": "com.stik.stikdebug",
-            "marketplaceID": "",
-            "developerName": "StephenDev0",
-            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
-            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [
-                "https://stikdebug.xyz/assets/source/home.png",
-                "https://stikdebug.xyz/assets/source/scripts.png",
-                "https://stikdebug.xyz/assets/source/settings.png"
-            ],
-            "versions": [
-                {
-                    "version": "2.3.7",
-                    "date": "2026-01-09T19:27:57Z",
-                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
-                    "size": 12048589,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.6",
-                    "date": "2025-12-18T02:30:53Z",
-                    "localizedDescription": "This release works with LocalDevVPN",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
-                    "size": 11996559,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2026-02-25T21:26:35Z",
-                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
-                    "size": 10456365
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-03-08T18:56:53Z",
-                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
-                    "size": 10461243
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2026-03-30T17:53:28Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
-                    "size": 10889554
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2026-04-04T03:30:18Z",
-                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
-                    "size": 10973374
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2026-04-12T06:41:17Z",
-                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
-                    "size": 10974298
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2026-05-18T14:50:17Z",
-                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
-                    "size": 11125407
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2026-06-01T01:12:08Z",
-                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
-                    "size": 11028217
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "Apollo",
             "bundleIdentifier": "com.christianselig.Apollo",
             "marketplaceID": "",
@@ -526,6 +436,110 @@
                     "localizedDescription": "Apollo version: `v1.15.11`\nImprovedCustomApi version: `v1.15.11_3.0.0`\n\n## Release Notes\n> [!NOTE]\r\n> **v3.0.0** marks the move from the solo-maintained **Apollo-ImprovedCustomApi** to **Apollo-Reborn**: now a community-maintained project under the Apollo-Reborn org. Join us at **[r/ApolloReborn](https://www.reddit.com/r/ApolloReborn/)** and check out our new homepage at **[apolloreborn.app](https://apolloreborn.app/)**!\r\n>\r\n> The pace of contributions over the last couple of months has been incredible, and a shared org lets us keep that momentum going sustainably: more reviewers, more shipped features, faster turnaround on issues, and a project that doesn't depend on any one person's availability.\r\n>\r\n> We're also pulling the broader Apollo sideloading workflow together under the org:\r\n>\r\n> - **[apollo-backend](https://github.com/Apollo-Reborn/apollo-backend)** - a self-hostable revival of Christian's original notifications service for push notifications, inbox checks, and watchers on sideloaded builds.\r\n> - **In-house IPA release pipeline** \u2014 each release now publishes ready-to-install Apollo IPAs (Standard, No Extensions, Liquid Glass) and an AltStore/SideStore/Feather source directly from this repo. Huge thanks to [@Balackburn](https://github.com/Balackburn), whose [Balackburn/Apollo](https://github.com/Balackburn/Apollo) source has provided Apollo builds for the community over the years and is the model we're carrying forward. \r\n>\r\n> Thank you,\r\n> **Apollo Reborn team** (@JeffreyCA, @icpryde, @jordanearle, @nickclyde, @DeltAndy123) \u2764\ufe0f\r\n\r\n### Sideloading sources\r\n- These can all be found at [http://apolloreborn.app](http://apolloreborn.app) \r\n\r\n### Features\r\n\r\n- Post **GIFs in comments**: a new **Gif** button in the compose toolbar opens a built-in Giphy browser (trending + search) and uploads selected GIFs natively to Reddit ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n    - Requires a free Giphy API key \u2014 set it in **Settings > Custom API > API Keys > Giphy API Key**. See the in-app **Giphy & ImgChest API Key Setup** guide for instructions ([#285](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/285): @icpryde)\r\n    - Inline playback honors **Settings > General > Autoplay GIFs/Videos** with a static cover + play overlay when paused\r\n- Add **Image Chest** inline album support: bare Image Chest links show the first image inline and open an in-app album viewer with tap-to-hide controls, idle auto-hide, and per-image pinch zoom ([#241](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/241): @icpryde)\r\n    - To set up Image Chest, create an account at https://imgchest.com, generate an API token at https://imgchest.com/profile/api, and paste it into **Img Chest API Key** under **Settings > Custom API > API Keys**\r\n- Add **Subreddit Headers**: view subreddit banners and display icons on subreddit pages, with optional tap-to-set custom local images that can be reset anytime in Settings ([#266](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266): @jordanearle, @icpryde)\r\n- Compact **u/username** and **r/subreddit** cards in rich link previews show avatar/icon, display name, member count, and an about snippet, with long-press peek into the native profile/community view ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Long-press peek now works on usernames and subreddit links in threads and comments ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Show **banned profile state** with a dead Snoo overlay on user profiles, and surface comment author hints for banned/suspended users ([#271](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/271), [#278](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/278): @icpryde, @jordanearle)\r\n- Add **editable user flair text** support to Apollo's flair selector ([#255](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/255): @nunoo)\r\n- Rich link previews now support translation alongside the rest of post and comment content ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Subreddit list (Modern mode) polish ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Add **41 new Liquid Glass icon variants** by @jryng under a new **New Variants** group, plus new **Aperture Science** and **ApollOS** icon sets by @bajader, and reorganize the in-app App Icon picker into groups to reduce clutter ([#287](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/287), [#254](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/254): @DeltAndy123, @jryng, @bajader)\r\n- Add **Inline Media Alignment** option in **Settings > Custom API > Media** to left-align, center, or right-align inline images that don't fill the full content width ([#273](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/273): @lampemw)\r\n- Rename **Custom API** to **Apollo Reborn Options** in Settings, polish the **Thanks To** screen with maintainer/code/icon & design groupings sourced from `contributors.json`, and add an **Apollo Reborn Subreddit** row that opens r/ApolloReborn in-app ([#294](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/294): @icpryde)\r\n- **Mask API keys** in Custom API settings: Reddit, Reddit Secret, Imgur, Img Chest, and Giphy fields show dots when idle and reveal only while editing ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Add **Buy Us a Coffee** screen in Settings with maintainer links, and move Apollo's original **Tip Jar** to **Settings > About** above **What's New** ([#294](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/294): @icpryde)\r\n\r\n### Fixes\r\n\r\n- Fix scroll freeze / loading-spinner lockup while scrolling threads with rich link previews ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix comment layout shifting around as user avatars load in ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Replace placeholder filler text in rich link previews with skeleton loading bars, and reduce flicker when previews reappear ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix a stray translucent star/blob on rich link previews when using Share as Image ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix visionOS (Vision Pro) use-after-free crash on multireddits ([#270](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/270): @rebelancap)\r\n- Fix X and Edit buttons touching the top of the account switcher popup on Liquid Glass ([#275](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/275): @lampemw)\r\n- General stability improvements around rapid subreddit navigation and image loading ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262), [#266](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266): @icpryde, @jordanearle)\r\n- Smoother scrolling through threads with lots of rich link previews ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Keep user profile cards and peek previews up to date when an account is suspended or banned ([#278](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/278): @jordanearle, @icpryde)\r\n- Fix launch crash when opening a banned user's profile ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Fix crash on Reddit link previews in some comment threads ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276), [#280](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/280): @JeffreyCA, @icpryde)\r\n- Fix Reddit-hosted GIFs stopping animation after leaving and returning to a thread ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Fix Giphy GIFs posted from Apollo not rendering in the official Reddit iOS app (and showing a \"image was probably deleted\" placeholder when editing in Apollo) ([#289](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/289): @icpryde)\r\n- Fix Compact link preview cards growing to hero size and overlapping the next comment after voting on a comment that contains a link ([#290](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/290): @icpryde)\r\n---\r\n\r\n### Screenshots & demos\r\n\r\n<table>\r\n  <tr>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <img src=\"https://github.com/user-attachments/assets/6d2157a3-ce4d-4235-9d5c-b3cdb54f666a\" alt=\"Rich link previews\" width=\"100%\" />\r\n      <br />\r\n      <img src=\"https://github.com/user-attachments/assets/604e3c24-17f2-4d89-9d6f-780bb3da3527\" alt=\"Profile and subreddit cards\" width=\"100%\" />\r\n      <p><strong>Rich Link Previews, Profile &amp; Subreddit Cards</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262\">#262</a></p>\r\n    </td>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <img src=\"https://github.com/user-attachments/assets/456f941f-9628-4ba2-b6a9-cb6d2693a6d2\" alt=\"Subreddit headers\" width=\"100%\" />\r\n      <p><strong>Subreddit headers</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266\">#266</a></p>\r\n    </td>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <video src=\"https://github.com/user-attachments/assets/a932d23c-2921-4ea8-8b9a-57a16c62bf5f\" controls width=\"100%\"></video>\r\n      <p><strong>GIFs in comments</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276\">#276</a></p>\r\n    </td>\r\n  </tr>\r\n</table>\r\n## Known Issues\n- Apollo Ultra features may cause app to crash\n- Imgur multi-image upload\n- Uploads usually fail on the first attempt but subsequent retries should succeed\n- Share URLs in private messages and long-tapping them still open in the in-app browser\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_1.15.11_3.0.0/Apollo-1.15.11_ImprovedCustomApi-1.15.11_3.0.0.ipa",
                     "size": 115887098
+                },
+                {
+                    "version": "1.15.11_3.0.0",
+                    "date": "2026-06-01T22:41:39Z",
+                    "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.0.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.0.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n> [!NOTE]\r\n> **v3.0.0** marks the move from the solo-maintained **Apollo-ImprovedCustomApi** to **Apollo-Reborn**: now a community-maintained project under the Apollo-Reborn org. Join us at **[r/ApolloReborn](https://www.reddit.com/r/ApolloReborn/)** and check out our new homepage at **[apolloreborn.app](https://apolloreborn.app/)**!\r\n>\r\n> The pace of contributions over the last couple of months has been incredible, and a shared org lets us keep that momentum going sustainably: more reviewers, more shipped features, faster turnaround on issues, and a project that doesn't depend on any one person's availability.\r\n>\r\n> We're also pulling the broader Apollo sideloading workflow together under the org:\r\n>\r\n> - **[apollo-backend](https://github.com/Apollo-Reborn/apollo-backend)** - a self-hostable revival of Christian's original notifications service for push notifications, inbox checks, and watchers on sideloaded builds.\r\n> - **In-house IPA release pipeline** \u2014 each release now publishes ready-to-install Apollo IPAs (Standard, No Extensions, Liquid Glass) and an AltStore/SideStore/Feather source directly from this repo. Huge thanks to [@Balackburn](https://github.com/Balackburn), whose [Balackburn/Apollo](https://github.com/Balackburn/Apollo) source has provided Apollo builds for the community over the years and is the model we're carrying forward. \r\n>\r\n> Thank you,\r\n> **Apollo Reborn team** (@JeffreyCA, @icpryde, @jordanearle, @nickclyde, @DeltAndy123) \u2764\ufe0f\r\n\r\n### Sideloading sources\r\n- These can all be found at [http://apolloreborn.app](http://apolloreborn.app) \r\n\r\n### Features\r\n\r\n- Post **GIFs in comments**: a new **Gif** button in the compose toolbar opens a built-in Giphy browser (trending + search) and uploads selected GIFs natively to Reddit ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n    - Requires a free Giphy API key \u2014 set it in **Settings > Custom API > API Keys > Giphy API Key**. See the in-app **Giphy & ImgChest API Key Setup** guide for instructions ([#285](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/285): @icpryde)\r\n    - Inline playback honors **Settings > General > Autoplay GIFs/Videos** with a static cover + play overlay when paused\r\n- Add **Image Chest** inline album support: bare Image Chest links show the first image inline and open an in-app album viewer with tap-to-hide controls, idle auto-hide, and per-image pinch zoom ([#241](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/241): @icpryde)\r\n    - To set up Image Chest, create an account at https://imgchest.com, generate an API token at https://imgchest.com/profile/api, and paste it into **Img Chest API Key** under **Settings > Custom API > API Keys**\r\n- Add **Subreddit Headers**: view subreddit banners and display icons on subreddit pages, with optional tap-to-set custom local images that can be reset anytime in Settings ([#266](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266): @jordanearle, @icpryde)\r\n- Compact **u/username** and **r/subreddit** cards in rich link previews show avatar/icon, display name, member count, and an about snippet, with long-press peek into the native profile/community view ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Long-press peek now works on usernames and subreddit links in threads and comments ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Show **banned profile state** with a dead Snoo overlay on user profiles, and surface comment author hints for banned/suspended users ([#271](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/271), [#278](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/278): @icpryde, @jordanearle)\r\n- Add **editable user flair text** support to Apollo's flair selector ([#255](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/255): @nunoo)\r\n- Rich link previews now support translation alongside the rest of post and comment content ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Subreddit list (Modern mode) polish ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Add **41 new Liquid Glass icon variants** by @jryng under a new **New Variants** group, plus new **Aperture Science** and **ApollOS** icon sets by @bajader, and reorganize the in-app App Icon picker into groups to reduce clutter ([#287](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/287), [#254](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/254): @DeltAndy123, @jryng, @bajader)\r\n- Add **Inline Media Alignment** option in **Settings > Custom API > Media** to left-align, center, or right-align inline images that don't fill the full content width ([#273](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/273): @lampemw)\r\n- Rename **Custom API** to **Apollo Reborn Options** in Settings, polish the **Thanks To** screen with maintainer/code/icon & design groupings sourced from `contributors.json`, and add an **Apollo Reborn Subreddit** row that opens r/ApolloReborn in-app ([#294](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/294): @icpryde)\r\n- **Mask API keys** in Custom API settings: Reddit, Reddit Secret, Imgur, Img Chest, and Giphy fields show dots when idle and reveal only while editing ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Add **Buy Us a Coffee** screen in Settings with maintainer links, and move Apollo's original **Tip Jar** to **Settings > About** above **What's New** ([#294](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/294): @icpryde)\r\n\r\n### Fixes\r\n\r\n- Fix scroll freeze / loading-spinner lockup while scrolling threads with rich link previews ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix comment layout shifting around as user avatars load in ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Replace placeholder filler text in rich link previews with skeleton loading bars, and reduce flicker when previews reappear ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix a stray translucent star/blob on rich link previews when using Share as Image ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix visionOS (Vision Pro) use-after-free crash on multireddits ([#270](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/270): @rebelancap)\r\n- Fix X and Edit buttons touching the top of the account switcher popup on Liquid Glass ([#275](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/275): @lampemw)\r\n- General stability improvements around rapid subreddit navigation and image loading ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262), [#266](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266): @icpryde, @jordanearle)\r\n- Smoother scrolling through threads with lots of rich link previews ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Keep user profile cards and peek previews up to date when an account is suspended or banned ([#278](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/278): @jordanearle, @icpryde)\r\n- Fix launch crash when opening a banned user's profile ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Fix crash on Reddit link previews in some comment threads ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276), [#280](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/280): @JeffreyCA, @icpryde)\r\n- Fix Reddit-hosted GIFs stopping animation after leaving and returning to a thread ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Fix Giphy GIFs posted from Apollo not rendering in the official Reddit iOS app (and showing a \"image was probably deleted\" placeholder when editing in Apollo) ([#289](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/289): @icpryde)\r\n- Fix Compact link preview cards growing to hero size and overlapping the next comment after voting on a comment that contains a link ([#290](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/290): @icpryde)\r\n---\r\n\r\n### Screenshots & demos\r\n\r\n<table>\r\n  <tr>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <img src=\"https://github.com/user-attachments/assets/6d2157a3-ce4d-4235-9d5c-b3cdb54f666a\" alt=\"Rich link previews\" width=\"100%\" />\r\n      <br />\r\n      <img src=\"https://github.com/user-attachments/assets/604e3c24-17f2-4d89-9d6f-780bb3da3527\" alt=\"Profile and subreddit cards\" width=\"100%\" />\r\n      <p><strong>Rich Link Previews, Profile &amp; Subreddit Cards</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262\">#262</a></p>\r\n    </td>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <img src=\"https://github.com/user-attachments/assets/456f941f-9628-4ba2-b6a9-cb6d2693a6d2\" alt=\"Subreddit headers\" width=\"100%\" />\r\n      <p><strong>Subreddit headers</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266\">#266</a></p>\r\n    </td>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <video src=\"https://github.com/user-attachments/assets/a932d23c-2921-4ea8-8b9a-57a16c62bf5f\" controls width=\"100%\"></video>\r\n      <p><strong>GIFs in comments</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276\">#276</a></p>\r\n    </td>\r\n  </tr>\r\n</table>\r\n\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.0.0/Apollo-Reborn-3.0.0-GLASS-NOEXTENSIONS.ipa",
+                    "size": 102086459
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "StikDebug",
+            "bundleIdentifier": "com.stik.stikdebug",
+            "marketplaceID": "",
+            "developerName": "StephenDev0",
+            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
+            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [
+                "https://stikdebug.xyz/assets/source/home.png",
+                "https://stikdebug.xyz/assets/source/scripts.png",
+                "https://stikdebug.xyz/assets/source/settings.png"
+            ],
+            "versions": [
+                {
+                    "version": "2.3.7",
+                    "date": "2026-01-09T19:27:57Z",
+                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
+                    "size": 12048589,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.6",
+                    "date": "2025-12-18T02:30:53Z",
+                    "localizedDescription": "This release works with LocalDevVPN",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
+                    "size": 11996559,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2026-02-25T21:26:35Z",
+                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+                    "size": 10456365
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-03-08T18:56:53Z",
+                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
+                    "size": 10461243
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2026-03-30T17:53:28Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
+                    "size": 10889554
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2026-04-04T03:30:18Z",
+                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
+                    "size": 10973374
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2026-04-12T06:41:17Z",
+                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
+                    "size": 10974298
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2026-05-18T14:50:17Z",
+                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
+                    "size": 11125407
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2026-06-01T01:12:08Z",
+                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
+                    "size": 11028217
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2026-06-01T11:32:37Z",
+                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
+                    "size": 11027579
                 }
             ],
             "appPermissions": {
