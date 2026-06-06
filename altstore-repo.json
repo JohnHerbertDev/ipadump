@@ -10,6 +10,311 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "Onion Browser",
+            "bundleIdentifier": "com.miketigas.OnionBrowser",
+            "marketplaceID": "",
+            "developerName": "OnionBrowser",
+            "subtitle": "Secure, anonymous web with Tor",
+            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#a74dff",
+            "category": "utilities",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "3.3.2",
+                    "date": "2025-12-19T17:30:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
+                    "size": 34189973,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.1",
+                    "date": "2025-11-24T12:58:14Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
+                    "size": 33379151,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.0",
+                    "date": "2025-11-10T11:30:32Z",
+                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
+                    "size": 32041275,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.5",
+                    "date": "2025-10-14T14:08:26Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
+                    "size": 31834099,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.4",
+                    "date": "2025-09-22T11:17:43Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
+                    "size": 31757993,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.3",
+                    "date": "2025-08-04T14:02:39Z",
+                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
+                    "size": 31910782,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.2",
+                    "date": "2025-07-07T14:11:32Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
+                    "size": 31490068,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.1",
+                    "date": "2025-06-03T11:29:10Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
+                    "size": 30624177,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.0",
+                    "date": "2025-02-28T16:51:52Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
+                    "size": 30741203,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2024-11-28T11:06:30Z",
+                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
+                    "size": 30084277,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2024-08-07T12:47:23Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
+                    "size": 29631768,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2024-06-03T10:52:56Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
+                    "size": 29620102,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2024-03-31T21:21:37Z",
+                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
+                    "size": 28667469,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2024-01-30T12:22:11Z",
+                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
+                    "size": 31497187,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2023-10-25T10:44:15Z",
+                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
+                    "size": 30722541,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.3",
+                    "date": "2023-09-27T10:31:03Z",
+                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
+                    "size": 14185165,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.2",
+                    "date": "2023-07-17T11:16:33Z",
+                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
+                    "size": 13898686,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2023-06-26T14:37:51Z",
+                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
+                    "size": 13893448,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2023-06-14T10:59:46Z",
+                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
+                    "size": 13891464,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.3",
+                    "date": "2022-12-14T15:04:20Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
+                    "size": 198031926,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.2",
+                    "date": "2022-09-29T11:35:58Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
+                    "size": 197374069,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.3",
+                    "date": "2026-02-13T14:48:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.22.\r\n- Updated Lyrebird to 0.8.1.\r\n- Added experimental DNSTT support.\r\n- Added additional source of bridges.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.3/OnionBrowser.ipa",
+                    "size": 34461313
+                },
+                {
+                    "version": "3.3.4",
+                    "date": "2026-02-19T16:39:17Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.5.\r\n- Fixed bug where certificate info sometimes wouldn't show.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.4/OnionBrowser.ipa",
+                    "size": 34456665
+                },
+                {
+                    "version": "3.3.5",
+                    "date": "2026-03-06T12:52:12Z",
+                    "localizedDescription": "- Improved DNSTT support for challenged countries.\r\n- Fixed bug where URL call from another app wasn't recognized on cold start.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.5/OnionBrowser.ipa",
+                    "size": 35812185
+                },
+                {
+                    "version": "3.3.6",
+                    "date": "2026-03-11T17:06:59Z",
+                    "localizedDescription": "- Improved DNSTT shutdown.\r\n- Updated to Snowflake 2.12.1.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.6/OnionBrowser.ipa",
+                    "size": 35924914
+                },
+                {
+                    "version": "3.3.7",
+                    "date": "2026-04-09T16:44:36Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.6.\r\n- Updated to Snowflake 2.13.1.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.7/OnionBrowser.ipa",
+                    "size": 35728985
+                },
+                {
+                    "version": "3.3.8",
+                    "date": "2026-05-13T09:26:49Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.8.\r\n- Updated DNSTT to 1.20260501.0.\r\n- Updated Korean translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.8/OnionBrowser.ipa",
+                    "size": 36180209
+                },
+                {
+                    "version": "3.3.10",
+                    "date": "2026-06-05T12:08:33Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.9. (Contains many security fixes!)\r\n- Updated Korean, Japanese, Croatian amd simplified Chinese translations. \r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.10/OnionBrowser.ipa",
+                    "size": 35681868
+                },
+                {
+                    "version": "3.3.9",
+                    "date": "2026-06-05T12:22:00Z",
+                    "localizedDescription": "- Updated Korean translation.\r\n- Added promotion hint.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.9/OnionBrowser.ipa",
+                    "size": 36196071
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Apollo",
             "bundleIdentifier": "com.christianselig.Apollo",
             "marketplaceID": "",
@@ -443,6 +748,205 @@
                     "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.0.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.0.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n> [!NOTE]\r\n> **v3.0.0** marks the move from the solo-maintained **Apollo-ImprovedCustomApi** to **Apollo-Reborn**: now a community-maintained project under the Apollo-Reborn org. Join us at **[r/ApolloReborn](https://www.reddit.com/r/ApolloReborn/)** and check out our new homepage at **[apolloreborn.app](https://apolloreborn.app/)**!\r\n>\r\n> The pace of contributions over the last couple of months has been incredible, and a shared org lets us keep that momentum going sustainably: more reviewers, more shipped features, faster turnaround on issues, and a project that doesn't depend on any one person's availability.\r\n>\r\n> We're also pulling the broader Apollo sideloading workflow together under the org:\r\n>\r\n> - **[apollo-backend](https://github.com/Apollo-Reborn/apollo-backend)** - a self-hostable revival of Christian's original notifications service for push notifications, inbox checks, and watchers on sideloaded builds.\r\n> - **In-house IPA release pipeline** \u2014 each release now publishes ready-to-install Apollo IPAs (Standard, No Extensions, Liquid Glass) and an AltStore/SideStore/Feather source directly from this repo. Huge thanks to [@Balackburn](https://github.com/Balackburn), whose [Balackburn/Apollo](https://github.com/Balackburn/Apollo) source has provided Apollo builds for the community over the years and is the model we're carrying forward. \r\n>\r\n> Thank you,\r\n> **Apollo Reborn team** (@JeffreyCA, @icpryde, @jordanearle, @nickclyde, @DeltAndy123) \u2764\ufe0f\r\n\r\n### Sideloading sources\r\n- These can all be found at [http://apolloreborn.app](http://apolloreborn.app) \r\n\r\n### Features\r\n\r\n- Post **GIFs in comments**: a new **Gif** button in the compose toolbar opens a built-in Giphy browser (trending + search) and uploads selected GIFs natively to Reddit ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n    - Requires a free Giphy API key \u2014 set it in **Settings > Custom API > API Keys > Giphy API Key**. See the in-app **Giphy & ImgChest API Key Setup** guide for instructions ([#285](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/285): @icpryde)\r\n    - Inline playback honors **Settings > General > Autoplay GIFs/Videos** with a static cover + play overlay when paused\r\n- Add **Image Chest** inline album support: bare Image Chest links show the first image inline and open an in-app album viewer with tap-to-hide controls, idle auto-hide, and per-image pinch zoom ([#241](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/241): @icpryde)\r\n    - To set up Image Chest, create an account at https://imgchest.com, generate an API token at https://imgchest.com/profile/api, and paste it into **Img Chest API Key** under **Settings > Custom API > API Keys**\r\n- Add **Subreddit Headers**: view subreddit banners and display icons on subreddit pages, with optional tap-to-set custom local images that can be reset anytime in Settings ([#266](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266): @jordanearle, @icpryde)\r\n- Compact **u/username** and **r/subreddit** cards in rich link previews show avatar/icon, display name, member count, and an about snippet, with long-press peek into the native profile/community view ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Long-press peek now works on usernames and subreddit links in threads and comments ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Show **banned profile state** with a dead Snoo overlay on user profiles, and surface comment author hints for banned/suspended users ([#271](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/271), [#278](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/278): @icpryde, @jordanearle)\r\n- Add **editable user flair text** support to Apollo's flair selector ([#255](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/255): @nunoo)\r\n- Rich link previews now support translation alongside the rest of post and comment content ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Subreddit list (Modern mode) polish ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Add **41 new Liquid Glass icon variants** by @jryng under a new **New Variants** group, plus new **Aperture Science** and **ApollOS** icon sets by @bajader, and reorganize the in-app App Icon picker into groups to reduce clutter ([#287](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/287), [#254](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/254): @DeltAndy123, @jryng, @bajader)\r\n- Add **Inline Media Alignment** option in **Settings > Custom API > Media** to left-align, center, or right-align inline images that don't fill the full content width ([#273](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/273): @lampemw)\r\n- Rename **Custom API** to **Apollo Reborn Options** in Settings, polish the **Thanks To** screen with maintainer/code/icon & design groupings sourced from `contributors.json`, and add an **Apollo Reborn Subreddit** row that opens r/ApolloReborn in-app ([#294](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/294): @icpryde)\r\n- **Mask API keys** in Custom API settings: Reddit, Reddit Secret, Imgur, Img Chest, and Giphy fields show dots when idle and reveal only while editing ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Add **Buy Us a Coffee** screen in Settings with maintainer links, and move Apollo's original **Tip Jar** to **Settings > About** above **What's New** ([#294](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/294): @icpryde)\r\n\r\n### Fixes\r\n\r\n- Fix scroll freeze / loading-spinner lockup while scrolling threads with rich link previews ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix comment layout shifting around as user avatars load in ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Replace placeholder filler text in rich link previews with skeleton loading bars, and reduce flicker when previews reappear ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix a stray translucent star/blob on rich link previews when using Share as Image ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Fix visionOS (Vision Pro) use-after-free crash on multireddits ([#270](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/270): @rebelancap)\r\n- Fix X and Edit buttons touching the top of the account switcher popup on Liquid Glass ([#275](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/275): @lampemw)\r\n- General stability improvements around rapid subreddit navigation and image loading ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262), [#266](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266): @icpryde, @jordanearle)\r\n- Smoother scrolling through threads with lots of rich link previews ([#262](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262): @icpryde)\r\n- Keep user profile cards and peek previews up to date when an account is suspended or banned ([#278](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/278): @jordanearle, @icpryde)\r\n- Fix launch crash when opening a banned user's profile ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Fix crash on Reddit link previews in some comment threads ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276), [#280](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/280): @JeffreyCA, @icpryde)\r\n- Fix Reddit-hosted GIFs stopping animation after leaving and returning to a thread ([#276](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276): @icpryde)\r\n- Fix Giphy GIFs posted from Apollo not rendering in the official Reddit iOS app (and showing a \"image was probably deleted\" placeholder when editing in Apollo) ([#289](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/289): @icpryde)\r\n- Fix Compact link preview cards growing to hero size and overlapping the next comment after voting on a comment that contains a link ([#290](https://github.com/Apollo-Reborn/Apollo-Reborn/pull/290): @icpryde)\r\n---\r\n\r\n### Screenshots & demos\r\n\r\n<table>\r\n  <tr>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <img src=\"https://github.com/user-attachments/assets/6d2157a3-ce4d-4235-9d5c-b3cdb54f666a\" alt=\"Rich link previews\" width=\"100%\" />\r\n      <br />\r\n      <img src=\"https://github.com/user-attachments/assets/604e3c24-17f2-4d89-9d6f-780bb3da3527\" alt=\"Profile and subreddit cards\" width=\"100%\" />\r\n      <p><strong>Rich Link Previews, Profile &amp; Subreddit Cards</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/262\">#262</a></p>\r\n    </td>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <img src=\"https://github.com/user-attachments/assets/456f941f-9628-4ba2-b6a9-cb6d2693a6d2\" alt=\"Subreddit headers\" width=\"100%\" />\r\n      <p><strong>Subreddit headers</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/266\">#266</a></p>\r\n    </td>\r\n    <td width=\"33%\" align=\"center\" valign=\"top\">\r\n      <video src=\"https://github.com/user-attachments/assets/a932d23c-2921-4ea8-8b9a-57a16c62bf5f\" controls width=\"100%\"></video>\r\n      <p><strong>GIFs in comments</strong> \u00b7 <a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/276\">#276</a></p>\r\n    </td>\r\n  </tr>\r\n</table>\r\n\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.0.0/Apollo-Reborn-3.0.0-GLASS-NOEXTENSIONS.ipa",
                     "size": 102086459
+                },
+                {
+                    "version": "1.15.11_3.1.0",
+                    "date": "2026-06-05T09:39:38Z",
+                    "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.1.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.1.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n> [!CAUTION]\r\n> **June 4, 2026** - We're aware of reports that Reddit has started revoking some users' API keys. Please see https://github.com/Apollo-Reborn/Apollo-Reborn/issues/367 for the latest discussion and workarounds.\r\n\r\n### Features\r\n\r\n- Support **any custom redirect URI** for the Reddit API without patching the app's Info.plist, so custom URI schemes authenticate without the \"address is invalid\" error (also removes the need for LiveContainer users to patch manually) (#368: @DeltAndy123)\r\n- Add **Show Deleted Comments** option in *Settings > Apollo Reborn Options > General** to restore deleted or removed comments inline from archived copies when available (#300: @nunoo)\r\n- Add a **Color Flairs** option in **Settings > Apollo Reborn Options > General** to color post and user flairs using Reddit's flair colors (#360: @icpryde)\r\n- Add **GLASS Icons** and **No Extensions + GLASS Icons** distribution variants that bundle the Liquid Glass icon catalog without opting into the iOS 26 UI runtime (#317: @nackerr)\r\n- Add new **Glitched** (@bajader) and **Modern** / **Modern Alt** (@paulo1manso) Liquid Glass app icons (#353: @bajader, @paulo1manso)\r\n- **Restore logged-in accounts** when restoring a settings backup, so reinstalling no longer requires re-authenticating each Reddit account (#331: @nickclyde)\r\n- Add a **Subreddit List Enhancements** toggle in **Settings > Apollo Reborn Options > Subreddits** to fall back to Apollo's native list, working around misaligned rows and a broken index scrubber on some devices (#355: @JeffreyCA)\r\n- Render comments with **two or more link previews** as compact cards instead of stacking full hero cards (#344: @icpryde)\r\n- Show **feed thumbnails for text posts** that embed images but produce no native thumbnail, in both Large and Compact modes (#351: @icpryde)\r\n- Fade and disable the comment **image/GIF buttons** when a subreddit doesn't allow that media type, instead of failing only at submit time (#356: @icpryde)\r\n- Add a separate **Autoplay Inline GIFs** setting in **Settings > Apollo Reborn Options > Media** to control inline GIF autoplay independently of Apollo's native Autoplay GIFs/Videos setting (#365: @JeffreyCA)\r\n- Ship an Apollo-Reborn **userscript** and an **\"Open in Apollo\" Shortcut** recipe as app-independent ways to open Reddit links in Apollo from any browser, handy for the no-extensions variant (#307: @nickclyde)\r\n\r\n### Fixes\r\n\r\n- Fix the bundled **\"Open in Apollo\" Safari extension**, which stopped opening links on sideloaded builds \u2014 its default \"Automatic\" mode redirected through `openinapollo.com`, whose auto-open only works for the App Store build. It now redirects straight to `apollo://` and handles `/s/` share links (#307: @nickclyde)\r\n- Fix the bundled **\"Open in Apollo\" share-sheet action** so it opens Reddit links in Apollo from **any** browser (Chrome, Firefox, Edge, Brave\u2026), not just Safari, replacing a deprecated call that iOS 18+ refused to run. On iOS 26 the extension only launches if your installer sets the appex main-binary flag \u2014 **AltStore/SideStore** do, **Sideloadly/Feather** don't, where the Shortcut remains a signer-independent fallback (#307: @nickclyde)\r\n- Fix **Recently Read** showing no posts after a Reddit API change (#341: @JeffreyCA)\r\n- Fix inline **Reddit GIFs in comments** staying frozen instead of autoplaying until collapsed/expanded or refreshed (#349: @icpryde)\r\n- Fix inline **GIFs not autoplaying on cellular** when Autoplay GIFs/Videos is set to Always (#347: @JeffreyCA)\r\n- Fix the inline **video play button** missing on post-body Reddit videos and a clipped AirPlay icon (#350: @icpryde)\r\n- Fix laggy **subreddit header** scrolling and incorrect handling on non-subreddit feeds (#339: @JeffreyCA)\r\n- Fix **Share as Image** not opening under the iOS 26 native action menu (#335: @icpryde)\r\n- Fix the **Rich Link Previews \u2013 Body** setting having no effect and following the Comments setting instead (#329: @nickclyde)\r\n- Fix a crash in the banned-profile hook (#326: @JeffreyCA)\r\n- Fix a crash when navigating into comments from a dangling host pointer in inline image cleanup (#362: @JeffreyCA)\r\n\r\n### Screenshots\r\n\r\n<table>\r\n  <tr>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/40f697ad-bf85-485e-8fc1-dacdd5e716fd\" /><br>\r\n      <b>#360</b> \u00b7 Color Flairs\r\n    </td>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/ce7357c5-1104-48d3-8454-cc01bd4d18ef\" /><br>\r\n      <b>#344</b> \u00b7 Compact multi-link comments\r\n    </td>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/88fbaad1-9d47-4eb5-a515-88de36271fbc\" /><br>\r\n      <b>#355</b> \u00b7 Subreddit List Enhancements\r\n    </td>\r\n  </tr>\r\n  <tr>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/ef6c233f-449b-4458-9a96-9ab752f2cd9b\" /><br>\r\n      <b>#356</b> \u00b7 Fade comment image/GIF buttons\r\n    </td>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/c5fdd1bc-ce18-45e5-baa8-cc2a6af11dfc\" /><br>\r\n      <b>#351</b> \u00b7 Feed thumbnails for text posts\r\n    </td>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/c47e86d7-411a-4abe-86fa-dc0c7e5b5bca\" /><br>\r\n      <b>#349</b> \u00b7 Inline Reddit GIFs autoplay\r\n    </td>\r\n  </tr>\r\n  <tr>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/be3e435e-1346-4c88-8be0-a18b1af95eb8\" /><br>\r\n      <b>#350</b> \u00b7 Inline video play button\r\n    </td>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/3ea8b406-2520-4e3b-8ad1-872233257818\" /><br>\r\n      <b>#353</b> \u00b7 New \"Glitched\" Liquid Glass icon\r\n    </td>\r\n    <td align=\"center\" width=\"33%\">\r\n      <img width=\"240\" src=\"https://github.com/user-attachments/assets/4259c98c-aa6f-4a02-9e72-d905d4686a3c\" /><br>\r\n      <b>#335</b> \u00b7 Share as Image fix\r\n    </td>\r\n  </tr>\r\n</table>\r\n\r\n\r\n> [!NOTE]\r\n> AltStore, SideStore, Feather sources can be found at https://apolloreborn.app/#download\r\n\r\n\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.1.0/Apollo-Reborn-3.1.0-GLASS-NOEXTENSIONS.ipa",
+                    "size": 102347489
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Spotube",
+            "bundleIdentifier": "oss.krtirtho.spotube.stable",
+            "marketplaceID": "",
+            "developerName": "KRTirtho",
+            "subtitle": "\ud83c\udfa7 Open source music streaming app! Available for both desktop & mobile!",
+            "localizedDescription": "A cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by yourself. A small step towards the decentralized music streaming era!\n\ud83c\udf03 Features\n- \ud83e\udde9 Plugin powered, supports any platform or custom music service through plugins.\n- \ud83d\uddfa\ufe0f Community driven plugins for popular platforms or create your own.\n- \u2b07\ufe0f Freely downloadable tracks with tagged metadata.\n- \ud83d\udda5\ufe0f \ud83d\udcf1 Cross-platform support.\n- \ud83e\udeb6 Small size & less data usage.\n- \ud83d\udd52 Time synced lyrics regardless of the plugin support.\n- \u270b No telemetry, diagnostics or user data collection.\n- \ud83d\ude80 Native performance.\n- \ud83d\udcd6 Open source/libre software.\n- \ud83d\udd09 Playback control is done locally, not on the server.",
+            "iconURL": "https://github.com/KRTirtho/spotube/blob/master/website/public/images/spotube-logo.png?raw=true",
+            "tintColor": "#0013d0",
+            "category": "entertainment",
+            "screenshots": {
+                "iphone": [
+                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-1.jpg?raw=true",
+                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-2.jpg?raw=true",
+                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-3.jpg?raw=true",
+                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-4.jpg?raw=true",
+                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-5.jpg?raw=true"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://github.com/KRTirtho/spotube/raw/master/assets/branding/spotube-screenshot.png",
+                        "width": 1660,
+                        "height": 1228
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "5.1.0",
+                    "date": "2025-11-14T11:10:30Z",
+                    "localizedDescription": "## Highlights\r\n\r\n- New Audio-Source plugins. Ability to add custom audio source created by community aside from official supported sources like YT, Piped etc.\r\n- NewPipe support for Desktop platforms\r\n- Single connection streaming instead of chunked streaming\r\n- Improved download manager with faster download speed, thanks to parallel chunked downloading\r\n- Queue batch operations support\r\n\r\n### Features\r\n\r\n- Show plugin source and set the only plugin as default if no plugin is there\r\n- **playback**: Add dab music source\r\n- **playback**: Add uncompressed flac playback support\r\n- Add plugin audio source models and api service\r\n- **plugins**: Filter plugins by abilities in plugins page and show abilities as badge\r\n- Add setting default audio source support\r\n- Move away from track source query and preferences audio quality and codec\r\n- Add NewPipe support for desktop platforms\r\n- Add default plugin loading capability\r\n- **queue**: Add multi-select and bulk actions to queue ([#2839](https://github.com/KRTirtho/spotube/issues/2839))\r\n- **android**: Add 16KB page size support\r\n\r\n### Bug Fixes\r\n\r\n- Change plugin download directory to application support\r\n- **playback**: Play next not working\r\n- Downloaded tracks are not tagged with metadata\r\n- Download not working in different devices and slow\r\n- **playback**: Use stream instead of chunked serving of audio bytes\r\n\r\n## New Contributors\r\n* @Rahul-Sahani04 made their first contribution in https://github.com/KRTirtho/spotube/pull/2839\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.0.0...v5.1.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.0/Spotube-iOS.ipa",
+                    "size": 34982347,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.0.0",
+                    "date": "2025-09-11T18:12:45Z",
+                    "localizedDescription": "Thanks for supporting Spotube. The app was in a non-working state for a long time due to legal and other issues.\r\nWell, I am happy to report that your Spotube is officially back. Now, even more customizable and community-driven.\r\nI hope users of Spotube will finally be enjoying using Spotube.\r\n\r\n## Highlights\r\n\r\n- Support for any music metadata service through plugins.\r\n- Musicbrainz + Listenbrainz official plugin for music metadata.\r\n- Listenbrainz scrobbling support (through plugin)\r\n- Documentation for using and developing your own plugins: https://spotube.krtirtho.dev/docs\r\n- Playback improvements including reduction of skipping issue and HLS support\r\n- Performance improvements:\r\n  - Efficient image handling\r\n  - UI refactors geared towards performance benefits\r\n  - Offloading of heavy operations like track source search to secondary thread (Isolate)\r\n\r\n### Features\r\n\r\n- Add ISRC track search for YouTube ([#2594](https://github.com/KRTirtho/spotube/issues/2594))\r\n- Add new icons #2676 by @alexio-dev ([#2678](https://github.com/KRTirtho/spotube/issues/2678))\r\n- Add connect confirmation dialog\r\n- Add metadata api service and models\r\n- **metadata-plugin**: Add pagination support, feed and playlist CRUD endpoints\r\n- **metadata-plugin**: Add local storage api\r\n- Add webview, totp and setInterval apis for plugins\r\n- Enhance local storage and webview APIs with improved error handling and resource management\r\n- **metadata_plugin**: Add logout method\r\n- Update plugin configuration with more fields\r\n- Implement metadata plugins based on hetu\r\n- Update models to match hetu_spotube_plugin signature\r\n- Add user endpoint calls in metadata and paginated async notifiers\r\n- Add playlist endpoint and providers\r\n- Add albums metadata endpoint and provider\r\n- Add artist and album providers\r\n- Add track endpoint for metadata service\r\n- Remove green corp names formally\r\n- **metadata**: Add plugin form\r\n- Add support for entity specific search\r\n- Enhance image handling\r\n- Add support for automatic plugin repository from github and codeberg\r\n- Use isolate for youtube_explode engine\r\n- Add repository and plugin API version fields to metadata plugins\r\n- Update new pipe version\r\n- **metadata**: Add plugin update checker and dialog for available updates\r\n- Optimize track options and related artists\r\n- Add plugin scrobbling support and support button\r\n- Add ErrorBox and NoDefaultMetadataPlugin components\r\n\r\n### Bug Fixes\r\n\r\n- Calling /track/:streamId endpoint causes active sourced track to be anything\r\n- **mobile**: Dialogs in bottom sheet are not opening\r\n- Default accent color is orange but it shows blue in settings\r\n- Artist images are not loading up\r\n- CVE: Remote path traversal through websocket when devices are on same network\r\n- Endless playback not working\r\n- **android**: NewPipe invalid search content filters\r\n- Make YoutubeExplode engine faster\r\n- Create and delete playlist not working\r\n- Local track not working and images of local not showing up\r\n- Local playback not working for tracks with special # (hashtag) characters\r\n- Inaccessible streaming url causing rapid skips\r\n- **yt**: Fallback to different search result if all streaming url is inaccessible\r\n- **playback**: Skip network requests if cached file already exists\r\n- Yt-dlp playback not working and add partial support for HLS streaming\r\n- Windows webview2 environment permission issue\r\n- **playback**: Play not fetching full playlist if playlist is too long\r\n- **track_options**: Tapping on option doesn't close the menu\r\n- **playback**: Alternative track sources switch not working\r\n- **ui**: Lyrics white text in white background and small player buttons\r\n\r\n### Translation\r\n\r\n- Add Traditional Chinese translation ([#2762](https://github.com/KRTirtho/spotube/issues/2762))\r\n- Fix Japanese translations ([#2732](https://github.com/KRTirtho/spotube/issues/2732))\r\n- Correction of the dutch language ([#1306](https://github.com/KRTirtho/spotube/issues/1306))\r\n\r\n## Pull Requests\r\n* feat: fix track search by @ehfd in https://github.com/KRTirtho/spotube/pull/2594\r\n* chore: revise filter by @ehfd in https://github.com/KRTirtho/spotube/pull/2614\r\n* i18n: Add Chinese Traditional translation to Spotube and update Chinese Simpified translation file by @510208 in https://github.com/KRTirtho/spotube/pull/2762\r\n* Update app_ja.arb Japanese translation by @maboroshin in https://github.com/KRTirtho/spotube/pull/2732\r\n* Removed Google Play Store link from readme file by @lori28167 in https://github.com/KRTirtho/spotube/pull/2638\r\n* doc: compilation with fvm by @richard-hajek in https://github.com/KRTirtho/spotube/pull/2254\r\n* Update app_nl.arb by @Stephan-P in https://github.com/KRTirtho/spotube/pull/1306\r\n\r\n## New Contributors\r\n* @ehfd made their first contribution in https://github.com/KRTirtho/spotube/pull/2594\r\n* @510208 made their first contribution in https://github.com/KRTirtho/spotube/pull/2762\r\n* @lori28167 made their first contribution in https://github.com/KRTirtho/spotube/pull/2638\r\n* @richard-hajek made their first contribution in https://github.com/KRTirtho/spotube/pull/2254\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v4.0.2...v5.0.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.0.0/Spotube-iOS.ipa",
+                    "size": 34486552,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.2",
+                    "date": "2025-03-16T18:24:11Z",
+                    "localizedDescription": "## Highlights\r\n\r\n- Fixes the empty home screen and \"Something went wrong\" bug\r\n\r\n### Bug Fixes\r\n\r\n- invalid access token exception #2525\r\n\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v4.0.1...v4.0.2",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v4.0.2/Spotube-iOS.ipa",
+                    "size": 38528926,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.1",
+                    "date": "2025-03-15T11:52:37Z",
+                    "localizedDescription": "> **NOTICE**: If login isn't working after installing the app, logout and login.\r\n\r\n## Highlights\r\n\r\n- Fixed authentication Error 400 or 429 status due to Spotify API change\r\n- Fixed system navigation bar on top of bottom navigation\r\n\r\n### Bug Fixes\r\n\r\n- **android**: navigation overlaying in app navigation\r\n- add to playlist not working in smaller screen devices\r\n- language picker search broken\r\n- **generate_playlist**: create playlist not adding tracks nor navigating to playlist page\r\n- **desktop**: double titlebar in local library folders and massive space in overlay player\r\n- lastfm form broken in other locales #2447\r\n- spotify login broken due to new totp requirement #2494\r\n- spotify authentication 429 errors\r\n\r\n### Features\r\n\r\n- **local_library**: add support for x-flac, opus and x-wav\r\n- **translation**: add tagalog language support #2504\r\n- **translation**: add tamil translation for spotube #2501\r\n\r\n## New Contributors\r\n* @JusArthur made their first contribution in https://github.com/KRTirtho/spotube/pull/2504\r\n* @vishnumur777 made their first contribution in https://github.com/KRTirtho/spotube/pull/2501\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v4.0.0...v4.0.1",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v4.0.1/Spotube-iOS.ipa",
+                    "size": 38520175,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0",
+                    "date": "2025-03-07T14:51:33Z",
+                    "localizedDescription": "## Highlights:\r\n- Revamped UI from Material V3 to Shadcn design system \r\n    - More intuitive user interface\r\n    - Performant, responsive and adaptive design\r\n    - Better visuals, feedbacks and OLED friendly (pure black) color palette\r\n- Alternative YouTube engine support \r\n    - yt-dlp for desktop platforms\r\n    - NewPipe for Android\r\n- Android: Home screen widget support\r\n- Fixed music skipping, buffering or not playing at all\r\n- Custom editable Piped and Invidious instance support\r\n\r\n### Bug Fixes\r\n\r\n- SafeArea for global bottom items not working\r\n- SafeArea not working for bottom floating widgets\r\n- youtube video unplayable issue and use more ytClients\r\n- **ios**: downloads not working due to permission errors (#2180)\r\n- remove automaticallyImplyLeading from root tabs\r\n- **android**: back button not working and safe area issues\r\n- duplicates in recent section\r\n- youtube source taking too long to buffer\r\n- youtube tracks keeps skipping despite being matched correctly\r\n- follow artist not working #2057\r\n- youtube_explode_dart failing for many videos due to youtube ios client visitor data change\r\n- piped api not working\r\n\r\n### Features\r\n\r\n- **android**: home widget support (#2148)\r\n- rewrite entire app in shadcn-ui replacing material eww\r\n- grid/list customizable playbutton view\r\n- flag to hide spotify generated images with patterns\r\n- show placeholder images where there is no item or on empty page\r\n- pause playback when no internet connection\r\n- implement yt-dlp for desktop and NewPipeExtractor for Android (#2316)\r\n- custom piped & invidious instance support\r\n\r\n## What's Changed\r\n* fix(ios): downloads not working due to permission errors by @malikmiran in https://github.com/KRTirtho/spotube/pull/2180\r\n\r\n## New Contributors\r\n* @malikmiran made their first contribution in https://github.com/KRTirtho/spotube/pull/2180\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.9.0...v4.0.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v4.0.0/Spotube-iOS.ipa",
+                    "size": 39241200,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.9.0",
+                    "date": "2024-12-08T18:47:22Z",
+                    "localizedDescription": "## Highlights\r\n\r\n- New [Invidious](https://invidious.io/) source addition\r\n- Track caching with export support\r\n\r\n### Bug Fixes\r\n\r\n- UI glitch when loading more user artists and albums\r\n- selecting an Alternative Track Source removes the current song from the queue #2039\r\n- **mobile**: ensure audio session is activated when playback is resumed after interruption #2092\r\n\r\n### Features\r\n\r\n- add invidious audio source and fix auto skipping tracks (#2005)\r\n- track caching and cached track export support (#2117)\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.3...v3.9.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.9.0/Spotube-iOS.ipa",
+                    "size": 32162862,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.8.3",
+                    "date": "2024-10-09T11:22:40Z",
+                    "localizedDescription": "### Bug Fixes\r\n\r\n- update youtube_explode_dart to 2.2.3 to fix no playback (#1980)\r\n\r\n### Features\r\n\r\n- **macos**: enable same window webview support\r\n\r\n## What's Changed\r\n* Update youtube_explode_dart to 2.2.3 by @XaviFortes in https://github.com/KRTirtho/spotube/pull/1980\r\n\r\n## New Contributors\r\n* @XaviFortes made their first contribution in https://github.com/KRTirtho/spotube/pull/1980\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.2...v3.8.3",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.3/Spotube-iOS.ipa",
+                    "size": 31486287,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.8.2",
+                    "date": "2024-09-30T16:46:37Z",
+                    "localizedDescription": "## Highlight\r\n\r\n- Fixed no playback from the app due to recent change in YouTube API\r\n\r\n## What's Changed\r\n* Update youtube_explode_dart dependency version (fixes endless loading issue) by @sunryze-git in https://github.com/KRTirtho/spotube/pull/1925\r\n\r\n## New Contributors\r\n* @sunryze-git made their first contribution in https://github.com/KRTirtho/spotube/pull/1925\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.1...v3.8.2",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.2/Spotube-iOS.ipa",
+                    "size": 31427192,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.8.1",
+                    "date": "2024-09-15T14:13:06Z",
+                    "localizedDescription": "## Highlights\r\n\r\n- Lyrics support for anonymous users\r\n- Login error in Getting started page fixed\r\n- Android: Queue doesn't persist after quitting & restarting the app\r\n- Touch support for desktop\r\n- Error dialog if webview is not found on login\r\n\r\n### Bug Fixes\r\n\r\n- **translations**: correct some basque incorrect translations (#1815)\r\n- **lyrics**: LRCLIB lyrics should be usable without logging in #1803\r\n- playlist displaying descriptions unescaped html #1784\r\n- **android**: pressing back while the player is open doesn't take to previous page\r\n- handle dublicated items in playback queue correctly #1852\r\n- **desktop**: scrollbar overlapping with more options of tracks and playlists\r\n- **discord**: stop discord rpc from try update presence when not connected\r\n- **stats**: minutes page shows plays and streams page shows minutes which should be the opposite #1880\r\n- **android**: clears queue upon swiping away notification\r\n- **player**: shuffle button state resets after closing page #1657\r\n- getting started page login page exception #1800\r\n- **mobile**: queue doesn't persist\r\n- local tracks takes time to load\r\n- start radio not working #1629\r\n\r\n### Features\r\n\r\n- **desktop**: show error dialog if webview is not found on login #1871\r\n- manually detect and define touch behavior #1763\r\n\r\n## What's Changed\r\n* webview user agent typo by @sonu36437 in https://github.com/KRTirtho/spotube/pull/1807\r\n* Update winget-releaser to latest by @vedantmgoyal9 in https://github.com/KRTirtho/spotube/pull/1840\r\n* correct some basque strings by @josuigoa in https://github.com/KRTirtho/spotube/pull/1815\r\n* docs: add small logo image in inno setup installer by @fuegans4213 in https://github.com/KRTirtho/spotube/pull/1795\r\n\r\n## New Contributors\r\n* @sonu36437 made their first contribution in https://github.com/KRTirtho/spotube/pull/1807\r\n* @fuegans4213 made their first contribution in https://github.com/KRTirtho/spotube/pull/1795\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.0...v3.8.1",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.1/Spotube-iOS.ipa",
+                    "size": 31520585,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.8.0",
+                    "date": "2024-08-11T09:46:34Z",
+                    "localizedDescription": "## Highlights\r\n- Webview based login on Desktop (special thanks to @SantiiRepair)\r\n- Discord RPC support for MacOS and Linux arm64\r\n- Fixed Linux tray icon not visible\r\n\r\n### Features\r\n\r\n- translations: make state page's hard coded strings translatable (#1719)\r\n- discord: add listening activity type\r\n- discord: album art, playing time and play pause support (#1765)\r\n- linux: Use XDG_STATE_HOME to storage logs (#1675)\r\n- discord rpc for macOS, windows-arm64 and linux-arm64 (#1713)\r\n- desktop: implement webview based login\r\n- stats: add lazy loading support\r\n\r\n### Bug Fixes\r\n\r\n- translations: fix Russian translations (#1696)\r\n- ios: permission exception\r\n- linux: tray icon wrong name for flatpak\r\n- windows: app crashes when no internet\r\n- windows: local tracks plays but disabled playback controls\r\n- go to track album shows up for local tracks\r\n- local track metadata timeout\r\n- windows: window stretching #1553\r\n- android: app getting killed from background\r\n- linux: OS Media control not working for Flatpak #1627\r\n- incorrect datatype used for MPRIS position property #1521\r\n- Too many artists for a track causing overflows\r\n- playlist share button does not work #1639\r\n- unescape html escape values #1300\r\n- lyrics page doesn't scroll to top after song ends #885\r\n- changed source doesn't get saved and uses the wrong once again\r\n- null exception in album page navigated from /home\r\n- popup menu item opacity\r\n- linux: change app id in flatpak environment\r\n\r\n## Outside Contributions\r\n* feat(linux): Use XDG_STATE_HOME to storage logs by @arenekosreal in https://github.com/KRTirtho/spotube/pull/1675\r\n* Improve Discord RPC by @nexpid in https://github.com/KRTirtho/spotube/pull/1765\r\n* fix(l10n): fix russian tranlsations by @marat2509 in https://github.com/KRTirtho/spotube/pull/1696\r\n* Make some hard coded strings translatable by @josuigoa in https://github.com/KRTirtho/spotube/pull/1719\r\n\r\n## New Contributors\r\n* @arenekosreal made their first contribution in https://github.com/KRTirtho/spotube/pull/1675\r\n* @nexpid made their first contribution in https://github.com/KRTirtho/spotube/pull/1765\r\n* @marat2509 made their first contribution in https://github.com/KRTirtho/spotube/pull/1696\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.7.1...v3.8.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.0/Spotube-iOS.ipa",
+                    "size": 31487272,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.7.1",
+                    "date": "2024-06-06T09:24:39Z",
+                    "localizedDescription": "## Highlights\r\n\r\n- App crashing in Linux fixed\r\n- Windows distorted window on startup fix\r\n\r\n### Bug Fixes\r\n\r\n* alternative sources not showing up for SongLink matched results ([37d002d](https://github.com/krtirtho/spotube/commit/37d002d133cacb3a34884713ac8f6637694af57c))\r\n* **android:** Media Controls not working above Android 14 [#1561](https://github.com/krtirtho/spotube/issues/1561) ([3394c1b](https://github.com/krtirtho/spotube/commit/3394c1b0574e44dc624b2b2f0bf32f343ae9f049))\r\n* browse anonymously button takes to wrong route ([73c5b30](https://github.com/krtirtho/spotube/commit/73c5b30b63a4c82bb7ad5b52bc10c5594566a800))\r\n* **desktop:** titlebar drag to move not working ([5f280a1](https://github.com/krtirtho/spotube/commit/5f280a19f4d5f8882ae2ff60c6cc595ded7a5a1d))\r\n* **desktop:** window is not centered ([47f98b9](https://github.com/krtirtho/spotube/commit/47f98b98aafab9b426733ed44cab2be8a646a98e))\r\n* **ios:** download not working [#1575](https://github.com/krtirtho/spotube/issues/1575) ([6591ec0](https://github.com/krtirtho/spotube/commit/6591ec0e1b441dd8fd535eace19a58c7749389ca))\r\n* **linux:** application window not visible after launch ([8fc44ed](https://github.com/krtirtho/spotube/commit/8fc44ed6550e8b2b804991ff82df08afb1c94ca8))\r\n* local track not showing up in queue ([d82261c](https://github.com/krtirtho/spotube/commit/d82261cb25ece63f85af0e40216cf32dccdc9dd5))\r\n* use weak match for Jiosaavn fallback to improve matching ([6cb2986](https://github.com/krtirtho/spotube/commit/6cb29868d2030b5e9312863c17e8f24889942e24))\r\n* **windows:** media controls not showing up [#1542](https://github.com/krtirtho/spotube/issues/1542) ([d7d864f](https://github.com/krtirtho/spotube/commit/d7d864ff2bc937675a544a7edf645c5148ec836a))\r\n* **windows:** revert Flutter version to 3.19.6 to avoid distortion [#1553](https://github.com/krtirtho/spotube/issues/1553) ([982cf0b](https://github.com/krtirtho/spotube/commit/982cf0bd435638fa20f17ef527fe21d031b5ffaf))\r\n\r\n## What's Changed\r\n* fix(updater): dead link by @GhoulBoii in https://github.com/KRTirtho/spotube/pull/1408\r\n* fix: windows SSL Certificate error breaking login #905 by @KRTirtho in https://github.com/KRTirtho/spotube/pull/1474\r\n* refactor: Dart based Github Workflow CLI by @KRTirtho in https://github.com/KRTirtho/spotube/pull/1490\r\n* added Basque translation by @josuigoa in https://github.com/KRTirtho/spotube/pull/1493\r\n* Add georgian language by @osopromadze in https://github.com/KRTirtho/spotube/pull/1450\r\n* Added Finnish translations by @ctih1 in https://github.com/KRTirtho/spotube/pull/1449\r\n* Add Indonesia translation by @yusriltakeuchi in https://github.com/KRTirtho/spotube/pull/1426\r\n* Improve tr locales by @mikropsoft in https://github.com/KRTirtho/spotube/pull/1419\r\n* Add volume level tooltip to volume_slider by @iAkashPattnaik in https://github.com/KRTirtho/spotube/pull/1445\r\n* Feature: Local music library by @bleonard252 in https://github.com/KRTirtho/spotube/pull/1479\r\n* feat: personalized stats based on local music history by @KRTirtho in https://github.com/KRTirtho/spotube/pull/1522\r\n\r\n## New Contributors\r\n* @GhoulBoii made their first contribution in https://github.com/KRTirtho/spotube/pull/1408\r\n* @josuigoa made their first contribution in https://github.com/KRTirtho/spotube/pull/1493\r\n* @osopromadze made their first contribution in https://github.com/KRTirtho/spotube/pull/1450\r\n* @ctih1 made their first contribution in https://github.com/KRTirtho/spotube/pull/1449\r\n* @yusriltakeuchi made their first contribution in https://github.com/KRTirtho/spotube/pull/1426\r\n* @iAkashPattnaik made their first contribution in https://github.com/KRTirtho/spotube/pull/1445\r\n* @bleonard252 made their first contribution in https://github.com/KRTirtho/spotube/pull/1479\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.7.0...v3.7.1",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.7.1/Spotube-iOS.ipa",
+                    "size": 29638563,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.7.0",
+                    "date": "2024-06-03T08:13:24Z",
+                    "localizedDescription": "## Highlights\r\n\r\n- Local Library folder support\r\n- Personalized Stats based on local playback\r\n- Improved playback experience\r\n\r\n### Features\r\n\r\n* local library folder cards ([fc5bfa0](https://github.com/krtirtho/spotube/commit/fc5bfa089ce2f46ab786565d6750564d704ee7e0))\r\n* Local music library ([#1479](https://github.com/krtirtho/spotube/issues/1479)) ([22caa81](https://github.com/krtirtho/spotube/commit/22caa818f4ac31626aaff6952e43512b42237d00))\r\n* personalized stats based on local music history ([#1522](https://github.com/krtirtho/spotube/issues/1522)) ([82307bc](https://github.com/krtirtho/spotube/commit/82307bc030035b03ab1b8d8ec7b24da19a866b12))\r\n* play initially available tracks of playlist/album immediately and fetch rest in background [#670](https://github.com/krtirtho/spotube/issues/670) ([02acbd9](https://github.com/krtirtho/spotube/commit/02acbd93271145dde365f6c547e0d9d902be65f1))\r\n* **player:** add volume slider floating label showing percentage ([#1445](https://github.com/krtirtho/spotube/issues/1445)) ([8fad225](https://github.com/krtirtho/spotube/commit/8fad2251b3536e9468e0fb193939ead98bad3bc6)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* **translations:** add Basque translation ([#1493](https://github.com/krtirtho/spotube/issues/1493)) ([dbc1c45](https://github.com/krtirtho/spotube/commit/dbc1c452dd53153c61589f956ea9836cea7bf2bb))\r\n* **translations:** add Finnish translations ([#1449](https://github.com/krtirtho/spotube/issues/1449)) ([edc997e](https://github.com/krtirtho/spotube/commit/edc997e7470ce17f60c96b8198dc8851cbf21f18)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* **translations:** add georgian language ([#1450](https://github.com/krtirtho/spotube/issues/1450)) ([1e7f0e1](https://github.com/krtirtho/spotube/commit/1e7f0e1fe71e0a8d86614fc884861f8791469112))\r\n* **translations:** add Indonesian translation ([#1426](https://github.com/krtirtho/spotube/issues/1426)) ([0280654](https://github.com/krtirtho/spotube/commit/0280654bb6bad373aee521f5a866228d2d38f038)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* **translations:** Improve tr locales ([#1419](https://github.com/krtirtho/spotube/issues/1419)) ([bf45681](https://github.com/krtirtho/spotube/commit/bf45681deb951c772bf6ca05e213c949c04bded1)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* upgrade to Flutter 3.22.0 ([71341ec](https://github.com/krtirtho/spotube/commit/71341ec0bda6ed985b43836712075b97a2cf8bac))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* fallback to LRCLIB when lyrics line less than 6 lines [#1461](https://github.com/krtirtho/spotube/issues/1461) ([9aea354](https://github.com/krtirtho/spotube/commit/9aea35468fa7cd176ddc8810b37b90c2d8246931))\r\n* **linux:** tray icon not showing [#541](https://github.com/krtirtho/spotube/issues/541) ([7ac7917](https://github.com/krtirtho/spotube/commit/7ac791757abb30f40374c169c4211916287bb3f3))\r\n* local track not showing up in queue ([d82261c](https://github.com/krtirtho/spotube/commit/d82261cb25ece63f85af0e40216cf32dccdc9dd5))\r\n* **macos:** Logs directory not created by default [#1353](https://github.com/krtirtho/spotube/issues/1353) ([4ca8939](https://github.com/krtirtho/spotube/commit/4ca893950b07f678acf7db690112c47d21e54782))\r\n* **playback:** skipping tracks with unplayable sources instead of falling back [#1492](https://github.com/krtirtho/spotube/issues/1492) ([c607a33](https://github.com/krtirtho/spotube/commit/c607a330ed279dfbebe8d4bd325745ac6301a58f))\r\n* **search:** load more button not working [#1417](https://github.com/krtirtho/spotube/issues/1417) ([7e07c2e](https://github.com/krtirtho/spotube/commit/7e07c2e1985da7ccb96b1fac2ecd703720068d26))\r\n* some text are garbled in different parts of the app [#1463](https://github.com/krtirtho/spotube/issues/1463) [#1505](https://github.com/krtirtho/spotube/issues/1505) ([d2683c5](https://github.com/krtirtho/spotube/commit/d2683c52d81d807be6ff72f15b8e9eb18181e211))\r\n* spotify friends and user profile icon (mobile) showing when not authenticated [#1410](https://github.com/krtirtho/spotube/issues/1410) ([9bccbc9](https://github.com/krtirtho/spotube/commit/9bccbc93c63dd34f6e15ff68c276976ecd1d9a33))\r\n* **updater:** dead link ([#1408](https://github.com/krtirtho/spotube/issues/1408)) ([6907f9c](https://github.com/krtirtho/spotube/commit/6907f9c756d8f49aadb1b23a2a1dc8bf7d658dc0)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* windows SSL Certificate error breaking login [#905](https://github.com/krtirtho/spotube/issues/905) ([#1474](https://github.com/krtirtho/spotube/issues/1474)) ([937a706](https://github.com/krtirtho/spotube/commit/937a706ac9c0e59943b2609e5cc398dcdbed2344)), closes [#1468](https://github.com/krtirtho/spotube/issues/1468)\r\n* **windows:** installer tries to install in current directory ([c3c9fc5](https://github.com/krtirtho/spotube/commit/c3c9fc544c68b3d897dd7241a61cab7a199b4539))\r\n\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.6.0...v3.7.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.7.0/Spotube-iOS.ipa",
+                    "size": 29639564,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.6.0",
+                    "date": "2024-04-15T14:08:29Z",
+                    "localizedDescription": "## Highlights\r\n\r\n- Spotify Connect support a.k.a LAN Control\r\n  Users can now control Spotube playback and select local\r\n  output devices from other devices on the same network. \r\n- Alternative LRCLIB lyrics provider\r\n- Caching improvment making experience smoother\r\n\r\n### Features\r\n\r\n* add Spotify homepage personalized recommendations ([#1402](https://github.com/krtirtho/spotube/issues/1402)) ([9e25c74](https://github.com/krtirtho/spotube/commit/9e25c742d4e43e4e10d2b48afb8e6d90288ffa11))\r\n* add user profile page ([39e97ee](https://github.com/krtirtho/spotube/commit/39e97eef34d87348a264843e145f31f82832d12e))\r\n* **android:** Filter Device To Force High Frame Rate ([#880](https://github.com/krtirtho/spotube/issues/880)) ([6e41b10](https://github.com/krtirtho/spotube/commit/6e41b106fa989adee393d3ce2535e75446ad3eea))\r\n* improved caching based on riverpod ([#1343](https://github.com/krtirtho/spotube/issues/1343)) ([6673e5a](https://github.com/krtirtho/spotube/commit/6673e5a8a86b9667cf9dbff9bb7c40ea6b7de771))\r\n* LAN connect a.k.a control remote Spotube playback and local output device selection ([#1355](https://github.com/krtirtho/spotube/issues/1355)) ([68374ef](https://github.com/krtirtho/spotube/commit/68374efd3ec556f31b937e5b96920787b54eec78))\r\n* **lyrics:** add LRCLIB lyrics provider as fallback ([5afe823](https://github.com/krtirtho/spotube/commit/5afe823abdb198340b55d138d8173d886a811632))\r\n* search history support [#1236](https://github.com/krtirtho/spotube/issues/1236) ([82b1cfa](https://github.com/krtirtho/spotube/commit/82b1cfa0d775e3958c666280943a893c9113d468))\r\n* **translations:** Add Czech translation ([#1401](https://github.com/krtirtho/spotube/issues/1401)) ([5a6b800](https://github.com/krtirtho/spotube/commit/5a6b80091259359bc38c4b91cd8cb496c4270fa4))\r\n* **translations:** add Thai Language ([#1319](https://github.com/krtirtho/spotube/issues/1319)) ([b70f250](https://github.com/krtirtho/spotube/commit/b70f250e8d5137fd990787ec9e3d058126cf14f3)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* instance of Artist bug [#1362](https://github.com/krtirtho/spotube/issues/1362) ([c8dd802](https://github.com/krtirtho/spotube/commit/c8dd8025ec96bd78ed77cae35f1429aa48c16fde))\r\n* **playback:** sponsor block skips and stutters in same position ([0d080b7](https://github.com/krtirtho/spotube/commit/0d080b77b72529c0be5ebc27ace1c52307511f73))\r\n\r\n## What's Changed\r\n* Fix broken link in README.md by @MerkomassDev in https://github.com/KRTirtho/spotube/pull/1311\r\n* feat : added Thai Language by @watchakorn-18k in https://github.com/KRTirtho/spotube/pull/1319\r\n* Update app_tr.arb by @mikropsoft in https://github.com/KRTirtho/spotube/pull/1307\r\n* Updating Readme according to #1082 by @ksaadDE in https://github.com/KRTirtho/spotube/pull/1171\r\n* Android: Filter Device To Force High Frame Rate by @brianabdl in https://github.com/KRTirtho/spotube/pull/880\r\n* Add Czech translation by @Tutislav in https://github.com/KRTirtho/spotube/pull/1401\r\n\r\n## New Contributors\r\n* @watchakorn-18k made their first contribution in https://github.com/KRTirtho/spotube/pull/1319\r\n* @mikropsoft made their first contribution in https://github.com/KRTirtho/spotube/pull/1307\r\n* @ksaadDE made their first contribution in https://github.com/KRTirtho/spotube/pull/1171\r\n* @brianabdl made their first contribution in https://github.com/KRTirtho/spotube/pull/880\r\n* @Tutislav made their first contribution in https://github.com/KRTirtho/spotube/pull/1401\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.5.0...v3.6.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.6.0/Spotube-iOS.ipa",
+                    "size": 29344226,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.5.0",
+                    "date": "2024-03-08T18:19:06Z",
+                    "localizedDescription": "## Highlights\r\n- Endless playback support\r\n- Getting started page addition\r\n- iOS background play support\r\n- songlink.com based track matching for YouTube\r\n- Automatic installation of vcredist if not installed support in Windows installer\r\n- Fix android audio distortion issue when screen is off\r\n\r\n\r\n### Features\r\n\r\n* add endless playback support [#285](https://github.com/krtirtho/spotube/issues/285) ([9dfd49c](https://github.com/krtirtho/spotube/commit/9dfd49ca04f0e915e333e205b17ac70456873f6e))\r\n* add getting started page ([96a2a1f](https://github.com/krtirtho/spotube/commit/96a2a1f5a622cb3c580041417d5023e37fa69716))\r\n* Add iOS background play support ([#1166](https://github.com/krtirtho/spotube/issues/1166)) ([095587e](https://github.com/krtirtho/spotube/commit/095587ee84f7d867c69fcf4b09ed608d63478e1e))\r\n* add songlink based track matching for youtube and open song link button ([9095a8c](https://github.com/krtirtho/spotube/commit/9095a8c8f849e42daabb7efcc20085cfb863c974))\r\n* **playlist:** show confirmation before deleting user playlist [#1222](https://github.com/krtirtho/spotube/issues/1222) ([9f92440](https://github.com/krtirtho/spotube/commit/9f9244062a39759aa0ce28d2d5f7c8fa53d73003))\r\n* Sort by Duration ([#1238](https://github.com/krtirtho/spotube/issues/1238)) ([6f8271f](https://github.com/krtirtho/spotube/commit/6f8271f5e9394cb4053e41dd222aa2844c34d609))\r\n* start radio support ([4defeef](https://github.com/krtirtho/spotube/commit/4defeefe7e5947aa00a2afb2a06577ec141cdc52))\r\n* **translations:** add Korean translation ([#1275](https://github.com/krtirtho/spotube/issues/1275)) ([fdea930](https://github.com/krtirtho/spotube/commit/fdea9307bbfb8f3f62cfb795bfb3ca58c38c33d9))\r\n* **translations:** Added Vietnamese ([#1135](https://github.com/krtirtho/spotube/issues/1135)) ([019ba86](https://github.com/krtirtho/spotube/commit/019ba865e20a8b54ea3490c01e47158eaf3a4c8d))\r\n* **windows:** Install Visual C++ 2015-2022 Redistributable if missing when installing ([ba69496](https://github.com/krtirtho/spotube/commit/ba69496dcc9a1b7f6ea4e104e71764a854d27f1f))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* album images are small in certain places ([ca76a39](https://github.com/krtirtho/spotube/commit/ca76a39910b1a5af91aa7882a0d33c9d71db58a2))\r\n* album, artist page not loading [#1282](https://github.com/krtirtho/spotube/issues/1282) ([a9a1d4c](https://github.com/krtirtho/spotube/commit/a9a1d4c9dc24aaf3181dc4090d1822ebfe755991))\r\n* **android:** audio issue when screen is off and broadcast audio session id ([#1221](https://github.com/krtirtho/spotube/issues/1221) & [#1247](https://github.com/krtirtho/spotube/issues/1247)) ([17105a6](https://github.com/krtirtho/spotube/commit/17105a640bf5107bd5d333b9b4d097c14a3949a2)), closes [KRTirtho/spotube#571](https://github.com/KRTirtho/spotube/issues/571)\r\n* **android:** only ask battery optimization once [#1252](https://github.com/krtirtho/spotube/issues/1252) ([e516afb](https://github.com/krtirtho/spotube/commit/e516afb185f616471822ea745495a3d1d1281bd3))\r\n* **android:** pressing back button in any other tab other than home exits the app ([c3289a0](https://github.com/krtirtho/spotube/commit/c3289a0ba4e7de094a15246677ffcb940504ebde))\r\n* **android:** system back button in player page exits the app ([3294f65](https://github.com/krtirtho/spotube/commit/3294f657fe8a03b18d9be8974968b6508465963d))\r\n* cleanTitle removing feat and ft from words instead of whole words ([8612345](https://github.com/krtirtho/spotube/commit/86123456f2ff577921cf62cffca180427dfe1dd5))\r\n* friends list not scrollable with mouse drag ([ab08c82](https://github.com/krtirtho/spotube/commit/ab08c82c8dd501263049f3adcbd48907ba13e3a9))\r\n* no draggable scrollbar in playlist/album page [#1158](https://github.com/krtirtho/spotube/issues/1158) ([6f71e52](https://github.com/krtirtho/spotube/commit/6f71e52ea8a5712d2c3527f2a524af9fbb718bef))\r\n* non-banger songs breaking the queue if sources not found ([90f7c53](https://github.com/krtirtho/spotube/commit/90f7c531cdc8640afdbabf5a0592159715ea1e6f))\r\n* track loading when not found in Youtube ([e964f61](https://github.com/krtirtho/spotube/commit/e964f61d38cb303e3d3fd60c866414f57207181c))\r\n* **translations:** Update app_nl.arb ([#1168](https://github.com/krtirtho/spotube/issues/1168)) ([8167963](https://github.com/krtirtho/spotube/commit/8167963212eeb5dfb0b4fb2eadf81d466659a9f1))\r\n\r\n## New Contributors\r\n* @VishwasSaini25 made their first contribution in https://github.com/KRTirtho/spotube/pull/1203\r\n* @Stephan-P made their first contribution in https://github.com/KRTirtho/spotube/pull/1168\r\n* @Kuyumee made their first contribution in https://github.com/KRTirtho/spotube/pull/1238\r\n* @olivier2 made their first contribution in https://github.com/KRTirtho/spotube/pull/1208\r\n* @doannc2212 made their first contribution in https://github.com/KRTirtho/spotube/pull/1135\r\n* @sappho192 made their first contribution in https://github.com/KRTirtho/spotube/pull/1275\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.4.1...v3.5.0",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.5.0/Spotube-iOS.ipa",
+                    "size": 28863477,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.4.1",
+                    "date": "2024-01-27T16:52:30Z",
+                    "localizedDescription": "### Features\r\n\r\n*  add create playlist button in add playlist dialog ([2168a64](https://github.com/krtirtho/spotube/commit/2168a640af3104a43139c303d78e2c2326a1bda7))\r\n* add spotify friends activity ([#1130](https://github.com/krtirtho/spotube/issues/1130)) ([7983932](https://github.com/krtirtho/spotube/commit/79839329b0970acccb0c566a31eee508adbc8557))\r\n* **deep-link:** add track opening page ([988a975](https://github.com/krtirtho/spotube/commit/988a975bf1a675df0cfc7b17776bcec74c67f1f2))\r\n* haptic feedback on long press and reordering actions ([6242200](https://github.com/krtirtho/spotube/commit/624220090572eb643dce37ca8ffd85d2b3f5c9df))\r\n* improve youtube/piped matching by suffixing \"- Topic\" ([8184555](https://github.com/krtirtho/spotube/commit/8184555ee89fd30aaf886af9fc1d52c142fdebb0))\r\n* **translations:** add Nepali (\u0928\u0947\u092a\u093e\u0932\u0940) translations ([#1111](https://github.com/krtirtho/spotube/issues/1111)) ([c3ebf56](https://github.com/krtirtho/spotube/commit/c3ebf56ac149b0af8815a5533fe6c386df743440)), closes [#1074](https://github.com/krtirtho/spotube/issues/1074) [#1100](https://github.com/krtirtho/spotube/issues/1100)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* alternative searched sources doesn't play [#1059](https://github.com/krtirtho/spotube/issues/1059) ([a8e9b82](https://github.com/krtirtho/spotube/commit/a8e9b824f33add8f6a83f0d147e889eb6beeb442))\r\n* alternative source doesn't persist on next restart [#840](https://github.com/krtirtho/spotube/issues/840) ([62fde50](https://github.com/krtirtho/spotube/commit/62fde50442f04f93255b5b1b1dcca23d116a13ec))\r\n* **android:** download failing for permission issues [#1015](https://github.com/krtirtho/spotube/issues/1015) ([5509cae](https://github.com/krtirtho/spotube/commit/5509cae91c8b1f5cb9fac179060f477397a4a27f))\r\n* artist page error [#1018](https://github.com/krtirtho/spotube/issues/1018) ([8cd650b](https://github.com/krtirtho/spotube/commit/8cd650b07e5f4c4c2f296bf4374e5ee67fb3eb50))\r\n* audio resumes after a phone call even if it was paused before  [#926](https://github.com/krtirtho/spotube/issues/926) ([fd1899f](https://github.com/krtirtho/spotube/commit/fd1899f162395752142d7aa7320d1c39b0995070))\r\n* better error message for failing to find lyrics [#1085](https://github.com/krtirtho/spotube/issues/1085) ([e58e18d](https://github.com/krtirtho/spotube/commit/e58e18de33d7bc6fb0e4ddd7ccf6ea14472642b1))\r\n* Black window flash when starting the app ([#1003](https://github.com/krtirtho/spotube/issues/1003)) ([02e44fc](https://github.com/krtirtho/spotube/commit/02e44fc6b849a873adad382f5d46ed8caf32359f))\r\n* **linux:** crash after login ([0dfd401](https://github.com/krtirtho/spotube/commit/0dfd40153714b7a4b83ac30f0c56830bc0c05ffd))\r\n* **macos:** backbutton and window button overlap and unused empty space on home ([b9417ca](https://github.com/krtirtho/spotube/commit/b9417ca3575992673357230dab49e0124dd576b1))\r\n* **macos:** download folder unchangeable ([9d74cf5](https://github.com/krtirtho/spotube/commit/9d74cf5fc250a6a143321d49b8e045519b4c2872))\r\n* **macos:** Respect Minimize to tray option ([#1001](https://github.com/krtirtho/spotube/issues/1001)) ([69559ba](https://github.com/krtirtho/spotube/commit/69559ba24285636e42b2f2231f956c31388c5cf3))\r\n* **macos:** system tray shows name and sidebar weird gap [#1083](https://github.com/krtirtho/spotube/issues/1083) ([27057ea](https://github.com/krtirtho/spotube/commit/27057ea0c8d83c9701057c18b473f1af4e4e82be))\r\n* releases section is empty when user doesn't follow any artists [#1104](https://github.com/krtirtho/spotube/issues/1104) ([682e88e](https://github.com/krtirtho/spotube/commit/682e88e0c55bc0f4708bc0b4681b129e5c61c999))\r\n* search page vertical scrollbar moves on horizontal scroll [#1017](https://github.com/krtirtho/spotube/issues/1017) ([c203ac6](https://github.com/krtirtho/spotube/commit/c203ac69ee74ba8722dae3da4b47761cd8d59c34))\r\n* songs doesn't play when sources with preferred audio codec is empty ([#976](https://github.com/krtirtho/spotube/issues/976)) ([ba4e11a](https://github.com/krtirtho/spotube/commit/ba4e11a40ab18308437a05333a46eace6f8eeb5a))\r\n* track index not showing after 200 ([a752cf4](https://github.com/krtirtho/spotube/commit/a752cf4c978d1b05851aabb6c84c7862de551320))\r\n* track pad horizontal scrolling not working ([59e0e6b](https://github.com/krtirtho/spotube/commit/59e0e6bb659b70831f6e0ae064100381c57f149c))\r\n\r\n## New Contributors\r\n* @franchioping made their first contribution in https://github.com/KRTirtho/spotube/pull/977\r\n* @powenn made their first contribution in https://github.com/KRTirtho/spotube/pull/971\r\n* @taha-ghadirian made their first contribution in https://github.com/KRTirtho/spotube/pull/1074\r\n* @m-Jawa-d made their first contribution in https://github.com/KRTirtho/spotube/pull/1100\r\n* @iamnabink made their first contribution in https://github.com/KRTirtho/spotube/pull/1111\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.4.0...v3.4.1",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.4.1/Spotube-iOS.ipa",
+                    "size": 28520194,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "nightly",
+                    "date": "2023-02-05T03:00:20Z",
+                    "localizedDescription": "Nightly release includes newest features but may contain bugs\r\n\r\nIt is preferred to use the stable version unless you know what you're doing",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/nightly/Spotube-iOS.ipa",
+                    "size": 45847083,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.1.1",
+                    "date": "2026-02-24T13:15:09Z",
+                    "localizedDescription": "## v5.1.1\r\n\r\n### Bug Fixes\r\n\r\n- Upgrade NewPipeExtractor to latest version fixing playback issue\r\n- Lyrics not working\r\n\r\n\r\n## What's Changed\r\n* chore: replace windows app icon by a higher resolution by @TobseF in https://github.com/KRTirtho/spotube/pull/2838\r\n\r\n## New Contributors\r\n* @TobseF made their first contribution in https://github.com/KRTirtho/spotube/pull/2838\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.1.0...v5.1.1",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-iOS.ipa",
+                    "size": 34926819
+                },
+                {
+                    "version": "5.1.2",
+                    "date": "2026-06-05T05:10:18Z",
+                    "localizedDescription": "### Bug Fixes\r\n\r\n- **newpipe**: Fallback to muxed streams if no audio stream is available\r\n- Dismiss search dropdown and keyboard on submission\r\n- Custom image helper null exception\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.1.1...v5.1.2",
+                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.2/Spotube-iOS.ipa",
+                    "size": 34853093
                 }
             ],
             "appPermissions": {
@@ -1388,297 +1892,6 @@
                     "localizedDescription": "### Bug fixes\n- errors in 'icons' settings (https://github.com/ossappscollective/oss-weather/commit/10454f5918db2e4cc07f5a5babb080cd70565c58)\n- Open Meteo fix for hourly  weather icon not showing (https://github.com/ossappscollective/oss-weather/commit/6fa97d294e24e6115eab72600a2328de0eb1a550)\n- prevent errors on small screens (https://github.com/ossappscollective/oss-weather/commit/587e24661135ff2446a4eecbb3b2cb462b423e0a)\n- weather condition (icon) as possible hourly data (https://github.com/ossappscollective/oss-weather/commit/b01efeecfdd2f5a1b1746ac32894934171c1cd80)\n- error when removing precipation from hourly chart data (https://github.com/ossappscollective/oss-weather/commit/8e578bad5cf971ac089efbeee2d9ee1dfcf636a9)",
                     "downloadURL": "https://github.com/ossappscollective/oss-weather/releases/download/ios/alpha/2.13.3/155/ossweather.ipa",
                     "size": 50328340
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Onion Browser",
-            "bundleIdentifier": "com.miketigas.OnionBrowser",
-            "marketplaceID": "",
-            "developerName": "OnionBrowser",
-            "subtitle": "Secure, anonymous web with Tor",
-            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
-            "tintColor": "#a74dff",
-            "category": "utilities",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "3.3.2",
-                    "date": "2025-12-19T17:30:32Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
-                    "size": 34189973,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.1",
-                    "date": "2025-11-24T12:58:14Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
-                    "size": 33379151,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.0",
-                    "date": "2025-11-10T11:30:32Z",
-                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
-                    "size": 32041275,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.5",
-                    "date": "2025-10-14T14:08:26Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
-                    "size": 31834099,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.4",
-                    "date": "2025-09-22T11:17:43Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
-                    "size": 31757993,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.3",
-                    "date": "2025-08-04T14:02:39Z",
-                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
-                    "size": 31910782,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.2",
-                    "date": "2025-07-07T14:11:32Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
-                    "size": 31490068,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.1",
-                    "date": "2025-06-03T11:29:10Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
-                    "size": 30624177,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.0",
-                    "date": "2025-02-28T16:51:52Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
-                    "size": 30741203,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2024-11-28T11:06:30Z",
-                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
-                    "size": 30084277,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2024-08-07T12:47:23Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
-                    "size": 29631768,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2024-06-03T10:52:56Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
-                    "size": 29620102,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2024-03-31T21:21:37Z",
-                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
-                    "size": 28667469,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2024-01-30T12:22:11Z",
-                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
-                    "size": 31497187,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2023-10-25T10:44:15Z",
-                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
-                    "size": 30722541,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.3",
-                    "date": "2023-09-27T10:31:03Z",
-                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
-                    "size": 14185165,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.2",
-                    "date": "2023-07-17T11:16:33Z",
-                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
-                    "size": 13898686,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2023-06-26T14:37:51Z",
-                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
-                    "size": 13893448,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2023-06-14T10:59:46Z",
-                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
-                    "size": 13891464,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.3",
-                    "date": "2022-12-14T15:04:20Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
-                    "size": 198031926,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.2",
-                    "date": "2022-09-29T11:35:58Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
-                    "size": 197374069,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.3",
-                    "date": "2026-02-13T14:48:32Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.22.\r\n- Updated Lyrebird to 0.8.1.\r\n- Added experimental DNSTT support.\r\n- Added additional source of bridges.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.3/OnionBrowser.ipa",
-                    "size": 34461313
-                },
-                {
-                    "version": "3.3.4",
-                    "date": "2026-02-19T16:39:17Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.5.\r\n- Fixed bug where certificate info sometimes wouldn't show.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.4/OnionBrowser.ipa",
-                    "size": 34456665
-                },
-                {
-                    "version": "3.3.5",
-                    "date": "2026-03-06T12:52:12Z",
-                    "localizedDescription": "- Improved DNSTT support for challenged countries.\r\n- Fixed bug where URL call from another app wasn't recognized on cold start.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.5/OnionBrowser.ipa",
-                    "size": 35812185
-                },
-                {
-                    "version": "3.3.6",
-                    "date": "2026-03-11T17:06:59Z",
-                    "localizedDescription": "- Improved DNSTT shutdown.\r\n- Updated to Snowflake 2.12.1.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.6/OnionBrowser.ipa",
-                    "size": 35924914
-                },
-                {
-                    "version": "3.3.7",
-                    "date": "2026-04-09T16:44:36Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.6.\r\n- Updated to Snowflake 2.13.1.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.7/OnionBrowser.ipa",
-                    "size": 35728985
-                },
-                {
-                    "version": "3.3.8",
-                    "date": "2026-05-13T09:26:49Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.8.\r\n- Updated DNSTT to 1.20260501.0.\r\n- Updated Korean translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.8/OnionBrowser.ipa",
-                    "size": 36180209
                 }
             ],
             "appPermissions": {
@@ -10883,191 +11096,6 @@
                     "localizedDescription": "# EnsWilde v3.1.3\r\n\r\n## Updates\r\n- You can now download DDI, fully resolving all DDI-related issues (updated via Settings)\r\n\r\n## Features\r\n- Added an option to hide the Dynamic Island in Theme UI  \r\n  *(A device restart is required for this feature to take effect)*\r\n- Added Feature Flags for in-app functionalities  \r\n  *(A device restart is required for this feature to take effect)*\r\n- zpatch Custom no longer requires a password\r\n\r\n## Guides\r\n- Updated the guide for obtaining default passcode files and Apple Wallet files  \r\n  *(You will need a Mac or a device that can receive AirDrop)*  \r\n  *(The guide is available in Settings)*",
                     "downloadURL": "https://github.com/YangJiiii/EnsWilde/releases/download/EnsWilde3.1.3/EnsWilde.ipa",
                     "size": 13591314
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Spotube",
-            "bundleIdentifier": "oss.krtirtho.spotube.stable",
-            "marketplaceID": "",
-            "developerName": "KRTirtho",
-            "subtitle": "\ud83c\udfa7 Open source music streaming app! Available for both desktop & mobile!",
-            "localizedDescription": "A cross-platform extensible open-source music streaming platform.\nBring your own music metadata/playlist/audio-source with plugins created by community or by yourself. A small step towards the decentralized music streaming era!\n\ud83c\udf03 Features\n- \ud83e\udde9 Plugin powered, supports any platform or custom music service through plugins.\n- \ud83d\uddfa\ufe0f Community driven plugins for popular platforms or create your own.\n- \u2b07\ufe0f Freely downloadable tracks with tagged metadata.\n- \ud83d\udda5\ufe0f \ud83d\udcf1 Cross-platform support.\n- \ud83e\udeb6 Small size & less data usage.\n- \ud83d\udd52 Time synced lyrics regardless of the plugin support.\n- \u270b No telemetry, diagnostics or user data collection.\n- \ud83d\ude80 Native performance.\n- \ud83d\udcd6 Open source/libre software.\n- \ud83d\udd09 Playback control is done locally, not on the server.",
-            "iconURL": "https://github.com/KRTirtho/spotube/blob/master/website/public/images/spotube-logo.png?raw=true",
-            "tintColor": "#0013d0",
-            "category": "entertainment",
-            "screenshots": {
-                "iphone": [
-                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-1.jpg?raw=true",
-                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-2.jpg?raw=true",
-                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-3.jpg?raw=true",
-                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-4.jpg?raw=true",
-                    "https://github.com/KRTirtho/spotube/blob/master/assets/branding/mobile-screenshots/android-5.jpg?raw=true"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://github.com/KRTirtho/spotube/raw/master/assets/branding/spotube-screenshot.png",
-                        "width": 1660,
-                        "height": 1228
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "5.1.0",
-                    "date": "2025-11-14T11:10:30Z",
-                    "localizedDescription": "## Highlights\r\n\r\n- New Audio-Source plugins. Ability to add custom audio source created by community aside from official supported sources like YT, Piped etc.\r\n- NewPipe support for Desktop platforms\r\n- Single connection streaming instead of chunked streaming\r\n- Improved download manager with faster download speed, thanks to parallel chunked downloading\r\n- Queue batch operations support\r\n\r\n### Features\r\n\r\n- Show plugin source and set the only plugin as default if no plugin is there\r\n- **playback**: Add dab music source\r\n- **playback**: Add uncompressed flac playback support\r\n- Add plugin audio source models and api service\r\n- **plugins**: Filter plugins by abilities in plugins page and show abilities as badge\r\n- Add setting default audio source support\r\n- Move away from track source query and preferences audio quality and codec\r\n- Add NewPipe support for desktop platforms\r\n- Add default plugin loading capability\r\n- **queue**: Add multi-select and bulk actions to queue ([#2839](https://github.com/KRTirtho/spotube/issues/2839))\r\n- **android**: Add 16KB page size support\r\n\r\n### Bug Fixes\r\n\r\n- Change plugin download directory to application support\r\n- **playback**: Play next not working\r\n- Downloaded tracks are not tagged with metadata\r\n- Download not working in different devices and slow\r\n- **playback**: Use stream instead of chunked serving of audio bytes\r\n\r\n## New Contributors\r\n* @Rahul-Sahani04 made their first contribution in https://github.com/KRTirtho/spotube/pull/2839\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.0.0...v5.1.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.0/Spotube-iOS.ipa",
-                    "size": 34982347,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0",
-                    "date": "2025-09-11T18:12:45Z",
-                    "localizedDescription": "Thanks for supporting Spotube. The app was in a non-working state for a long time due to legal and other issues.\r\nWell, I am happy to report that your Spotube is officially back. Now, even more customizable and community-driven.\r\nI hope users of Spotube will finally be enjoying using Spotube.\r\n\r\n## Highlights\r\n\r\n- Support for any music metadata service through plugins.\r\n- Musicbrainz + Listenbrainz official plugin for music metadata.\r\n- Listenbrainz scrobbling support (through plugin)\r\n- Documentation for using and developing your own plugins: https://spotube.krtirtho.dev/docs\r\n- Playback improvements including reduction of skipping issue and HLS support\r\n- Performance improvements:\r\n  - Efficient image handling\r\n  - UI refactors geared towards performance benefits\r\n  - Offloading of heavy operations like track source search to secondary thread (Isolate)\r\n\r\n### Features\r\n\r\n- Add ISRC track search for YouTube ([#2594](https://github.com/KRTirtho/spotube/issues/2594))\r\n- Add new icons #2676 by @alexio-dev ([#2678](https://github.com/KRTirtho/spotube/issues/2678))\r\n- Add connect confirmation dialog\r\n- Add metadata api service and models\r\n- **metadata-plugin**: Add pagination support, feed and playlist CRUD endpoints\r\n- **metadata-plugin**: Add local storage api\r\n- Add webview, totp and setInterval apis for plugins\r\n- Enhance local storage and webview APIs with improved error handling and resource management\r\n- **metadata_plugin**: Add logout method\r\n- Update plugin configuration with more fields\r\n- Implement metadata plugins based on hetu\r\n- Update models to match hetu_spotube_plugin signature\r\n- Add user endpoint calls in metadata and paginated async notifiers\r\n- Add playlist endpoint and providers\r\n- Add albums metadata endpoint and provider\r\n- Add artist and album providers\r\n- Add track endpoint for metadata service\r\n- Remove green corp names formally\r\n- **metadata**: Add plugin form\r\n- Add support for entity specific search\r\n- Enhance image handling\r\n- Add support for automatic plugin repository from github and codeberg\r\n- Use isolate for youtube_explode engine\r\n- Add repository and plugin API version fields to metadata plugins\r\n- Update new pipe version\r\n- **metadata**: Add plugin update checker and dialog for available updates\r\n- Optimize track options and related artists\r\n- Add plugin scrobbling support and support button\r\n- Add ErrorBox and NoDefaultMetadataPlugin components\r\n\r\n### Bug Fixes\r\n\r\n- Calling /track/:streamId endpoint causes active sourced track to be anything\r\n- **mobile**: Dialogs in bottom sheet are not opening\r\n- Default accent color is orange but it shows blue in settings\r\n- Artist images are not loading up\r\n- CVE: Remote path traversal through websocket when devices are on same network\r\n- Endless playback not working\r\n- **android**: NewPipe invalid search content filters\r\n- Make YoutubeExplode engine faster\r\n- Create and delete playlist not working\r\n- Local track not working and images of local not showing up\r\n- Local playback not working for tracks with special # (hashtag) characters\r\n- Inaccessible streaming url causing rapid skips\r\n- **yt**: Fallback to different search result if all streaming url is inaccessible\r\n- **playback**: Skip network requests if cached file already exists\r\n- Yt-dlp playback not working and add partial support for HLS streaming\r\n- Windows webview2 environment permission issue\r\n- **playback**: Play not fetching full playlist if playlist is too long\r\n- **track_options**: Tapping on option doesn't close the menu\r\n- **playback**: Alternative track sources switch not working\r\n- **ui**: Lyrics white text in white background and small player buttons\r\n\r\n### Translation\r\n\r\n- Add Traditional Chinese translation ([#2762](https://github.com/KRTirtho/spotube/issues/2762))\r\n- Fix Japanese translations ([#2732](https://github.com/KRTirtho/spotube/issues/2732))\r\n- Correction of the dutch language ([#1306](https://github.com/KRTirtho/spotube/issues/1306))\r\n\r\n## Pull Requests\r\n* feat: fix track search by @ehfd in https://github.com/KRTirtho/spotube/pull/2594\r\n* chore: revise filter by @ehfd in https://github.com/KRTirtho/spotube/pull/2614\r\n* i18n: Add Chinese Traditional translation to Spotube and update Chinese Simpified translation file by @510208 in https://github.com/KRTirtho/spotube/pull/2762\r\n* Update app_ja.arb Japanese translation by @maboroshin in https://github.com/KRTirtho/spotube/pull/2732\r\n* Removed Google Play Store link from readme file by @lori28167 in https://github.com/KRTirtho/spotube/pull/2638\r\n* doc: compilation with fvm by @richard-hajek in https://github.com/KRTirtho/spotube/pull/2254\r\n* Update app_nl.arb by @Stephan-P in https://github.com/KRTirtho/spotube/pull/1306\r\n\r\n## New Contributors\r\n* @ehfd made their first contribution in https://github.com/KRTirtho/spotube/pull/2594\r\n* @510208 made their first contribution in https://github.com/KRTirtho/spotube/pull/2762\r\n* @lori28167 made their first contribution in https://github.com/KRTirtho/spotube/pull/2638\r\n* @richard-hajek made their first contribution in https://github.com/KRTirtho/spotube/pull/2254\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v4.0.2...v5.0.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.0.0/Spotube-iOS.ipa",
-                    "size": 34486552,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.2",
-                    "date": "2025-03-16T18:24:11Z",
-                    "localizedDescription": "## Highlights\r\n\r\n- Fixes the empty home screen and \"Something went wrong\" bug\r\n\r\n### Bug Fixes\r\n\r\n- invalid access token exception #2525\r\n\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v4.0.1...v4.0.2",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v4.0.2/Spotube-iOS.ipa",
-                    "size": 38528926,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.1",
-                    "date": "2025-03-15T11:52:37Z",
-                    "localizedDescription": "> **NOTICE**: If login isn't working after installing the app, logout and login.\r\n\r\n## Highlights\r\n\r\n- Fixed authentication Error 400 or 429 status due to Spotify API change\r\n- Fixed system navigation bar on top of bottom navigation\r\n\r\n### Bug Fixes\r\n\r\n- **android**: navigation overlaying in app navigation\r\n- add to playlist not working in smaller screen devices\r\n- language picker search broken\r\n- **generate_playlist**: create playlist not adding tracks nor navigating to playlist page\r\n- **desktop**: double titlebar in local library folders and massive space in overlay player\r\n- lastfm form broken in other locales #2447\r\n- spotify login broken due to new totp requirement #2494\r\n- spotify authentication 429 errors\r\n\r\n### Features\r\n\r\n- **local_library**: add support for x-flac, opus and x-wav\r\n- **translation**: add tagalog language support #2504\r\n- **translation**: add tamil translation for spotube #2501\r\n\r\n## New Contributors\r\n* @JusArthur made their first contribution in https://github.com/KRTirtho/spotube/pull/2504\r\n* @vishnumur777 made their first contribution in https://github.com/KRTirtho/spotube/pull/2501\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v4.0.0...v4.0.1",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v4.0.1/Spotube-iOS.ipa",
-                    "size": 38520175,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0",
-                    "date": "2025-03-07T14:51:33Z",
-                    "localizedDescription": "## Highlights:\r\n- Revamped UI from Material V3 to Shadcn design system \r\n    - More intuitive user interface\r\n    - Performant, responsive and adaptive design\r\n    - Better visuals, feedbacks and OLED friendly (pure black) color palette\r\n- Alternative YouTube engine support \r\n    - yt-dlp for desktop platforms\r\n    - NewPipe for Android\r\n- Android: Home screen widget support\r\n- Fixed music skipping, buffering or not playing at all\r\n- Custom editable Piped and Invidious instance support\r\n\r\n### Bug Fixes\r\n\r\n- SafeArea for global bottom items not working\r\n- SafeArea not working for bottom floating widgets\r\n- youtube video unplayable issue and use more ytClients\r\n- **ios**: downloads not working due to permission errors (#2180)\r\n- remove automaticallyImplyLeading from root tabs\r\n- **android**: back button not working and safe area issues\r\n- duplicates in recent section\r\n- youtube source taking too long to buffer\r\n- youtube tracks keeps skipping despite being matched correctly\r\n- follow artist not working #2057\r\n- youtube_explode_dart failing for many videos due to youtube ios client visitor data change\r\n- piped api not working\r\n\r\n### Features\r\n\r\n- **android**: home widget support (#2148)\r\n- rewrite entire app in shadcn-ui replacing material eww\r\n- grid/list customizable playbutton view\r\n- flag to hide spotify generated images with patterns\r\n- show placeholder images where there is no item or on empty page\r\n- pause playback when no internet connection\r\n- implement yt-dlp for desktop and NewPipeExtractor for Android (#2316)\r\n- custom piped & invidious instance support\r\n\r\n## What's Changed\r\n* fix(ios): downloads not working due to permission errors by @malikmiran in https://github.com/KRTirtho/spotube/pull/2180\r\n\r\n## New Contributors\r\n* @malikmiran made their first contribution in https://github.com/KRTirtho/spotube/pull/2180\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.9.0...v4.0.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v4.0.0/Spotube-iOS.ipa",
-                    "size": 39241200,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.9.0",
-                    "date": "2024-12-08T18:47:22Z",
-                    "localizedDescription": "## Highlights\r\n\r\n- New [Invidious](https://invidious.io/) source addition\r\n- Track caching with export support\r\n\r\n### Bug Fixes\r\n\r\n- UI glitch when loading more user artists and albums\r\n- selecting an Alternative Track Source removes the current song from the queue #2039\r\n- **mobile**: ensure audio session is activated when playback is resumed after interruption #2092\r\n\r\n### Features\r\n\r\n- add invidious audio source and fix auto skipping tracks (#2005)\r\n- track caching and cached track export support (#2117)\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.3...v3.9.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.9.0/Spotube-iOS.ipa",
-                    "size": 32162862,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.8.3",
-                    "date": "2024-10-09T11:22:40Z",
-                    "localizedDescription": "### Bug Fixes\r\n\r\n- update youtube_explode_dart to 2.2.3 to fix no playback (#1980)\r\n\r\n### Features\r\n\r\n- **macos**: enable same window webview support\r\n\r\n## What's Changed\r\n* Update youtube_explode_dart to 2.2.3 by @XaviFortes in https://github.com/KRTirtho/spotube/pull/1980\r\n\r\n## New Contributors\r\n* @XaviFortes made their first contribution in https://github.com/KRTirtho/spotube/pull/1980\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.2...v3.8.3",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.3/Spotube-iOS.ipa",
-                    "size": 31486287,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.8.2",
-                    "date": "2024-09-30T16:46:37Z",
-                    "localizedDescription": "## Highlight\r\n\r\n- Fixed no playback from the app due to recent change in YouTube API\r\n\r\n## What's Changed\r\n* Update youtube_explode_dart dependency version (fixes endless loading issue) by @sunryze-git in https://github.com/KRTirtho/spotube/pull/1925\r\n\r\n## New Contributors\r\n* @sunryze-git made their first contribution in https://github.com/KRTirtho/spotube/pull/1925\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.1...v3.8.2",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.2/Spotube-iOS.ipa",
-                    "size": 31427192,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.8.1",
-                    "date": "2024-09-15T14:13:06Z",
-                    "localizedDescription": "## Highlights\r\n\r\n- Lyrics support for anonymous users\r\n- Login error in Getting started page fixed\r\n- Android: Queue doesn't persist after quitting & restarting the app\r\n- Touch support for desktop\r\n- Error dialog if webview is not found on login\r\n\r\n### Bug Fixes\r\n\r\n- **translations**: correct some basque incorrect translations (#1815)\r\n- **lyrics**: LRCLIB lyrics should be usable without logging in #1803\r\n- playlist displaying descriptions unescaped html #1784\r\n- **android**: pressing back while the player is open doesn't take to previous page\r\n- handle dublicated items in playback queue correctly #1852\r\n- **desktop**: scrollbar overlapping with more options of tracks and playlists\r\n- **discord**: stop discord rpc from try update presence when not connected\r\n- **stats**: minutes page shows plays and streams page shows minutes which should be the opposite #1880\r\n- **android**: clears queue upon swiping away notification\r\n- **player**: shuffle button state resets after closing page #1657\r\n- getting started page login page exception #1800\r\n- **mobile**: queue doesn't persist\r\n- local tracks takes time to load\r\n- start radio not working #1629\r\n\r\n### Features\r\n\r\n- **desktop**: show error dialog if webview is not found on login #1871\r\n- manually detect and define touch behavior #1763\r\n\r\n## What's Changed\r\n* webview user agent typo by @sonu36437 in https://github.com/KRTirtho/spotube/pull/1807\r\n* Update winget-releaser to latest by @vedantmgoyal9 in https://github.com/KRTirtho/spotube/pull/1840\r\n* correct some basque strings by @josuigoa in https://github.com/KRTirtho/spotube/pull/1815\r\n* docs: add small logo image in inno setup installer by @fuegans4213 in https://github.com/KRTirtho/spotube/pull/1795\r\n\r\n## New Contributors\r\n* @sonu36437 made their first contribution in https://github.com/KRTirtho/spotube/pull/1807\r\n* @fuegans4213 made their first contribution in https://github.com/KRTirtho/spotube/pull/1795\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.8.0...v3.8.1",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.1/Spotube-iOS.ipa",
-                    "size": 31520585,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.8.0",
-                    "date": "2024-08-11T09:46:34Z",
-                    "localizedDescription": "## Highlights\r\n- Webview based login on Desktop (special thanks to @SantiiRepair)\r\n- Discord RPC support for MacOS and Linux arm64\r\n- Fixed Linux tray icon not visible\r\n\r\n### Features\r\n\r\n- translations: make state page's hard coded strings translatable (#1719)\r\n- discord: add listening activity type\r\n- discord: album art, playing time and play pause support (#1765)\r\n- linux: Use XDG_STATE_HOME to storage logs (#1675)\r\n- discord rpc for macOS, windows-arm64 and linux-arm64 (#1713)\r\n- desktop: implement webview based login\r\n- stats: add lazy loading support\r\n\r\n### Bug Fixes\r\n\r\n- translations: fix Russian translations (#1696)\r\n- ios: permission exception\r\n- linux: tray icon wrong name for flatpak\r\n- windows: app crashes when no internet\r\n- windows: local tracks plays but disabled playback controls\r\n- go to track album shows up for local tracks\r\n- local track metadata timeout\r\n- windows: window stretching #1553\r\n- android: app getting killed from background\r\n- linux: OS Media control not working for Flatpak #1627\r\n- incorrect datatype used for MPRIS position property #1521\r\n- Too many artists for a track causing overflows\r\n- playlist share button does not work #1639\r\n- unescape html escape values #1300\r\n- lyrics page doesn't scroll to top after song ends #885\r\n- changed source doesn't get saved and uses the wrong once again\r\n- null exception in album page navigated from /home\r\n- popup menu item opacity\r\n- linux: change app id in flatpak environment\r\n\r\n## Outside Contributions\r\n* feat(linux): Use XDG_STATE_HOME to storage logs by @arenekosreal in https://github.com/KRTirtho/spotube/pull/1675\r\n* Improve Discord RPC by @nexpid in https://github.com/KRTirtho/spotube/pull/1765\r\n* fix(l10n): fix russian tranlsations by @marat2509 in https://github.com/KRTirtho/spotube/pull/1696\r\n* Make some hard coded strings translatable by @josuigoa in https://github.com/KRTirtho/spotube/pull/1719\r\n\r\n## New Contributors\r\n* @arenekosreal made their first contribution in https://github.com/KRTirtho/spotube/pull/1675\r\n* @nexpid made their first contribution in https://github.com/KRTirtho/spotube/pull/1765\r\n* @marat2509 made their first contribution in https://github.com/KRTirtho/spotube/pull/1696\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.7.1...v3.8.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.8.0/Spotube-iOS.ipa",
-                    "size": 31487272,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.7.1",
-                    "date": "2024-06-06T09:24:39Z",
-                    "localizedDescription": "## Highlights\r\n\r\n- App crashing in Linux fixed\r\n- Windows distorted window on startup fix\r\n\r\n### Bug Fixes\r\n\r\n* alternative sources not showing up for SongLink matched results ([37d002d](https://github.com/krtirtho/spotube/commit/37d002d133cacb3a34884713ac8f6637694af57c))\r\n* **android:** Media Controls not working above Android 14 [#1561](https://github.com/krtirtho/spotube/issues/1561) ([3394c1b](https://github.com/krtirtho/spotube/commit/3394c1b0574e44dc624b2b2f0bf32f343ae9f049))\r\n* browse anonymously button takes to wrong route ([73c5b30](https://github.com/krtirtho/spotube/commit/73c5b30b63a4c82bb7ad5b52bc10c5594566a800))\r\n* **desktop:** titlebar drag to move not working ([5f280a1](https://github.com/krtirtho/spotube/commit/5f280a19f4d5f8882ae2ff60c6cc595ded7a5a1d))\r\n* **desktop:** window is not centered ([47f98b9](https://github.com/krtirtho/spotube/commit/47f98b98aafab9b426733ed44cab2be8a646a98e))\r\n* **ios:** download not working [#1575](https://github.com/krtirtho/spotube/issues/1575) ([6591ec0](https://github.com/krtirtho/spotube/commit/6591ec0e1b441dd8fd535eace19a58c7749389ca))\r\n* **linux:** application window not visible after launch ([8fc44ed](https://github.com/krtirtho/spotube/commit/8fc44ed6550e8b2b804991ff82df08afb1c94ca8))\r\n* local track not showing up in queue ([d82261c](https://github.com/krtirtho/spotube/commit/d82261cb25ece63f85af0e40216cf32dccdc9dd5))\r\n* use weak match for Jiosaavn fallback to improve matching ([6cb2986](https://github.com/krtirtho/spotube/commit/6cb29868d2030b5e9312863c17e8f24889942e24))\r\n* **windows:** media controls not showing up [#1542](https://github.com/krtirtho/spotube/issues/1542) ([d7d864f](https://github.com/krtirtho/spotube/commit/d7d864ff2bc937675a544a7edf645c5148ec836a))\r\n* **windows:** revert Flutter version to 3.19.6 to avoid distortion [#1553](https://github.com/krtirtho/spotube/issues/1553) ([982cf0b](https://github.com/krtirtho/spotube/commit/982cf0bd435638fa20f17ef527fe21d031b5ffaf))\r\n\r\n## What's Changed\r\n* fix(updater): dead link by @GhoulBoii in https://github.com/KRTirtho/spotube/pull/1408\r\n* fix: windows SSL Certificate error breaking login #905 by @KRTirtho in https://github.com/KRTirtho/spotube/pull/1474\r\n* refactor: Dart based Github Workflow CLI by @KRTirtho in https://github.com/KRTirtho/spotube/pull/1490\r\n* added Basque translation by @josuigoa in https://github.com/KRTirtho/spotube/pull/1493\r\n* Add georgian language by @osopromadze in https://github.com/KRTirtho/spotube/pull/1450\r\n* Added Finnish translations by @ctih1 in https://github.com/KRTirtho/spotube/pull/1449\r\n* Add Indonesia translation by @yusriltakeuchi in https://github.com/KRTirtho/spotube/pull/1426\r\n* Improve tr locales by @mikropsoft in https://github.com/KRTirtho/spotube/pull/1419\r\n* Add volume level tooltip to volume_slider by @iAkashPattnaik in https://github.com/KRTirtho/spotube/pull/1445\r\n* Feature: Local music library by @bleonard252 in https://github.com/KRTirtho/spotube/pull/1479\r\n* feat: personalized stats based on local music history by @KRTirtho in https://github.com/KRTirtho/spotube/pull/1522\r\n\r\n## New Contributors\r\n* @GhoulBoii made their first contribution in https://github.com/KRTirtho/spotube/pull/1408\r\n* @josuigoa made their first contribution in https://github.com/KRTirtho/spotube/pull/1493\r\n* @osopromadze made their first contribution in https://github.com/KRTirtho/spotube/pull/1450\r\n* @ctih1 made their first contribution in https://github.com/KRTirtho/spotube/pull/1449\r\n* @yusriltakeuchi made their first contribution in https://github.com/KRTirtho/spotube/pull/1426\r\n* @iAkashPattnaik made their first contribution in https://github.com/KRTirtho/spotube/pull/1445\r\n* @bleonard252 made their first contribution in https://github.com/KRTirtho/spotube/pull/1479\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.7.0...v3.7.1",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.7.1/Spotube-iOS.ipa",
-                    "size": 29638563,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.7.0",
-                    "date": "2024-06-03T08:13:24Z",
-                    "localizedDescription": "## Highlights\r\n\r\n- Local Library folder support\r\n- Personalized Stats based on local playback\r\n- Improved playback experience\r\n\r\n### Features\r\n\r\n* local library folder cards ([fc5bfa0](https://github.com/krtirtho/spotube/commit/fc5bfa089ce2f46ab786565d6750564d704ee7e0))\r\n* Local music library ([#1479](https://github.com/krtirtho/spotube/issues/1479)) ([22caa81](https://github.com/krtirtho/spotube/commit/22caa818f4ac31626aaff6952e43512b42237d00))\r\n* personalized stats based on local music history ([#1522](https://github.com/krtirtho/spotube/issues/1522)) ([82307bc](https://github.com/krtirtho/spotube/commit/82307bc030035b03ab1b8d8ec7b24da19a866b12))\r\n* play initially available tracks of playlist/album immediately and fetch rest in background [#670](https://github.com/krtirtho/spotube/issues/670) ([02acbd9](https://github.com/krtirtho/spotube/commit/02acbd93271145dde365f6c547e0d9d902be65f1))\r\n* **player:** add volume slider floating label showing percentage ([#1445](https://github.com/krtirtho/spotube/issues/1445)) ([8fad225](https://github.com/krtirtho/spotube/commit/8fad2251b3536e9468e0fb193939ead98bad3bc6)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* **translations:** add Basque translation ([#1493](https://github.com/krtirtho/spotube/issues/1493)) ([dbc1c45](https://github.com/krtirtho/spotube/commit/dbc1c452dd53153c61589f956ea9836cea7bf2bb))\r\n* **translations:** add Finnish translations ([#1449](https://github.com/krtirtho/spotube/issues/1449)) ([edc997e](https://github.com/krtirtho/spotube/commit/edc997e7470ce17f60c96b8198dc8851cbf21f18)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* **translations:** add georgian language ([#1450](https://github.com/krtirtho/spotube/issues/1450)) ([1e7f0e1](https://github.com/krtirtho/spotube/commit/1e7f0e1fe71e0a8d86614fc884861f8791469112))\r\n* **translations:** add Indonesian translation ([#1426](https://github.com/krtirtho/spotube/issues/1426)) ([0280654](https://github.com/krtirtho/spotube/commit/0280654bb6bad373aee521f5a866228d2d38f038)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* **translations:** Improve tr locales ([#1419](https://github.com/krtirtho/spotube/issues/1419)) ([bf45681](https://github.com/krtirtho/spotube/commit/bf45681deb951c772bf6ca05e213c949c04bded1)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* upgrade to Flutter 3.22.0 ([71341ec](https://github.com/krtirtho/spotube/commit/71341ec0bda6ed985b43836712075b97a2cf8bac))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* fallback to LRCLIB when lyrics line less than 6 lines [#1461](https://github.com/krtirtho/spotube/issues/1461) ([9aea354](https://github.com/krtirtho/spotube/commit/9aea35468fa7cd176ddc8810b37b90c2d8246931))\r\n* **linux:** tray icon not showing [#541](https://github.com/krtirtho/spotube/issues/541) ([7ac7917](https://github.com/krtirtho/spotube/commit/7ac791757abb30f40374c169c4211916287bb3f3))\r\n* local track not showing up in queue ([d82261c](https://github.com/krtirtho/spotube/commit/d82261cb25ece63f85af0e40216cf32dccdc9dd5))\r\n* **macos:** Logs directory not created by default [#1353](https://github.com/krtirtho/spotube/issues/1353) ([4ca8939](https://github.com/krtirtho/spotube/commit/4ca893950b07f678acf7db690112c47d21e54782))\r\n* **playback:** skipping tracks with unplayable sources instead of falling back [#1492](https://github.com/krtirtho/spotube/issues/1492) ([c607a33](https://github.com/krtirtho/spotube/commit/c607a330ed279dfbebe8d4bd325745ac6301a58f))\r\n* **search:** load more button not working [#1417](https://github.com/krtirtho/spotube/issues/1417) ([7e07c2e](https://github.com/krtirtho/spotube/commit/7e07c2e1985da7ccb96b1fac2ecd703720068d26))\r\n* some text are garbled in different parts of the app [#1463](https://github.com/krtirtho/spotube/issues/1463) [#1505](https://github.com/krtirtho/spotube/issues/1505) ([d2683c5](https://github.com/krtirtho/spotube/commit/d2683c52d81d807be6ff72f15b8e9eb18181e211))\r\n* spotify friends and user profile icon (mobile) showing when not authenticated [#1410](https://github.com/krtirtho/spotube/issues/1410) ([9bccbc9](https://github.com/krtirtho/spotube/commit/9bccbc93c63dd34f6e15ff68c276976ecd1d9a33))\r\n* **updater:** dead link ([#1408](https://github.com/krtirtho/spotube/issues/1408)) ([6907f9c](https://github.com/krtirtho/spotube/commit/6907f9c756d8f49aadb1b23a2a1dc8bf7d658dc0)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1171](https://github.com/krtirtho/spotube/issues/1171) [#1082](https://github.com/krtirtho/spotube/issues/1082) [#1082](https://github.com/krtirtho/spotube/issues/1082)\r\n* windows SSL Certificate error breaking login [#905](https://github.com/krtirtho/spotube/issues/905) ([#1474](https://github.com/krtirtho/spotube/issues/1474)) ([937a706](https://github.com/krtirtho/spotube/commit/937a706ac9c0e59943b2609e5cc398dcdbed2344)), closes [#1468](https://github.com/krtirtho/spotube/issues/1468)\r\n* **windows:** installer tries to install in current directory ([c3c9fc5](https://github.com/krtirtho/spotube/commit/c3c9fc544c68b3d897dd7241a61cab7a199b4539))\r\n\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.6.0...v3.7.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.7.0/Spotube-iOS.ipa",
-                    "size": 29639564,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.6.0",
-                    "date": "2024-04-15T14:08:29Z",
-                    "localizedDescription": "## Highlights\r\n\r\n- Spotify Connect support a.k.a LAN Control\r\n  Users can now control Spotube playback and select local\r\n  output devices from other devices on the same network. \r\n- Alternative LRCLIB lyrics provider\r\n- Caching improvment making experience smoother\r\n\r\n### Features\r\n\r\n* add Spotify homepage personalized recommendations ([#1402](https://github.com/krtirtho/spotube/issues/1402)) ([9e25c74](https://github.com/krtirtho/spotube/commit/9e25c742d4e43e4e10d2b48afb8e6d90288ffa11))\r\n* add user profile page ([39e97ee](https://github.com/krtirtho/spotube/commit/39e97eef34d87348a264843e145f31f82832d12e))\r\n* **android:** Filter Device To Force High Frame Rate ([#880](https://github.com/krtirtho/spotube/issues/880)) ([6e41b10](https://github.com/krtirtho/spotube/commit/6e41b106fa989adee393d3ce2535e75446ad3eea))\r\n* improved caching based on riverpod ([#1343](https://github.com/krtirtho/spotube/issues/1343)) ([6673e5a](https://github.com/krtirtho/spotube/commit/6673e5a8a86b9667cf9dbff9bb7c40ea6b7de771))\r\n* LAN connect a.k.a control remote Spotube playback and local output device selection ([#1355](https://github.com/krtirtho/spotube/issues/1355)) ([68374ef](https://github.com/krtirtho/spotube/commit/68374efd3ec556f31b937e5b96920787b54eec78))\r\n* **lyrics:** add LRCLIB lyrics provider as fallback ([5afe823](https://github.com/krtirtho/spotube/commit/5afe823abdb198340b55d138d8173d886a811632))\r\n* search history support [#1236](https://github.com/krtirtho/spotube/issues/1236) ([82b1cfa](https://github.com/krtirtho/spotube/commit/82b1cfa0d775e3958c666280943a893c9113d468))\r\n* **translations:** Add Czech translation ([#1401](https://github.com/krtirtho/spotube/issues/1401)) ([5a6b800](https://github.com/krtirtho/spotube/commit/5a6b80091259359bc38c4b91cd8cb496c4270fa4))\r\n* **translations:** add Thai Language ([#1319](https://github.com/krtirtho/spotube/issues/1319)) ([b70f250](https://github.com/krtirtho/spotube/commit/b70f250e8d5137fd990787ec9e3d058126cf14f3)), closes [#1310](https://github.com/krtirtho/spotube/issues/1310) [#1311](https://github.com/krtirtho/spotube/issues/1311)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* instance of Artist bug [#1362](https://github.com/krtirtho/spotube/issues/1362) ([c8dd802](https://github.com/krtirtho/spotube/commit/c8dd8025ec96bd78ed77cae35f1429aa48c16fde))\r\n* **playback:** sponsor block skips and stutters in same position ([0d080b7](https://github.com/krtirtho/spotube/commit/0d080b77b72529c0be5ebc27ace1c52307511f73))\r\n\r\n## What's Changed\r\n* Fix broken link in README.md by @MerkomassDev in https://github.com/KRTirtho/spotube/pull/1311\r\n* feat : added Thai Language by @watchakorn-18k in https://github.com/KRTirtho/spotube/pull/1319\r\n* Update app_tr.arb by @mikropsoft in https://github.com/KRTirtho/spotube/pull/1307\r\n* Updating Readme according to #1082 by @ksaadDE in https://github.com/KRTirtho/spotube/pull/1171\r\n* Android: Filter Device To Force High Frame Rate by @brianabdl in https://github.com/KRTirtho/spotube/pull/880\r\n* Add Czech translation by @Tutislav in https://github.com/KRTirtho/spotube/pull/1401\r\n\r\n## New Contributors\r\n* @watchakorn-18k made their first contribution in https://github.com/KRTirtho/spotube/pull/1319\r\n* @mikropsoft made their first contribution in https://github.com/KRTirtho/spotube/pull/1307\r\n* @ksaadDE made their first contribution in https://github.com/KRTirtho/spotube/pull/1171\r\n* @brianabdl made their first contribution in https://github.com/KRTirtho/spotube/pull/880\r\n* @Tutislav made their first contribution in https://github.com/KRTirtho/spotube/pull/1401\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.5.0...v3.6.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.6.0/Spotube-iOS.ipa",
-                    "size": 29344226,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.5.0",
-                    "date": "2024-03-08T18:19:06Z",
-                    "localizedDescription": "## Highlights\r\n- Endless playback support\r\n- Getting started page addition\r\n- iOS background play support\r\n- songlink.com based track matching for YouTube\r\n- Automatic installation of vcredist if not installed support in Windows installer\r\n- Fix android audio distortion issue when screen is off\r\n\r\n\r\n### Features\r\n\r\n* add endless playback support [#285](https://github.com/krtirtho/spotube/issues/285) ([9dfd49c](https://github.com/krtirtho/spotube/commit/9dfd49ca04f0e915e333e205b17ac70456873f6e))\r\n* add getting started page ([96a2a1f](https://github.com/krtirtho/spotube/commit/96a2a1f5a622cb3c580041417d5023e37fa69716))\r\n* Add iOS background play support ([#1166](https://github.com/krtirtho/spotube/issues/1166)) ([095587e](https://github.com/krtirtho/spotube/commit/095587ee84f7d867c69fcf4b09ed608d63478e1e))\r\n* add songlink based track matching for youtube and open song link button ([9095a8c](https://github.com/krtirtho/spotube/commit/9095a8c8f849e42daabb7efcc20085cfb863c974))\r\n* **playlist:** show confirmation before deleting user playlist [#1222](https://github.com/krtirtho/spotube/issues/1222) ([9f92440](https://github.com/krtirtho/spotube/commit/9f9244062a39759aa0ce28d2d5f7c8fa53d73003))\r\n* Sort by Duration ([#1238](https://github.com/krtirtho/spotube/issues/1238)) ([6f8271f](https://github.com/krtirtho/spotube/commit/6f8271f5e9394cb4053e41dd222aa2844c34d609))\r\n* start radio support ([4defeef](https://github.com/krtirtho/spotube/commit/4defeefe7e5947aa00a2afb2a06577ec141cdc52))\r\n* **translations:** add Korean translation ([#1275](https://github.com/krtirtho/spotube/issues/1275)) ([fdea930](https://github.com/krtirtho/spotube/commit/fdea9307bbfb8f3f62cfb795bfb3ca58c38c33d9))\r\n* **translations:** Added Vietnamese ([#1135](https://github.com/krtirtho/spotube/issues/1135)) ([019ba86](https://github.com/krtirtho/spotube/commit/019ba865e20a8b54ea3490c01e47158eaf3a4c8d))\r\n* **windows:** Install Visual C++ 2015-2022 Redistributable if missing when installing ([ba69496](https://github.com/krtirtho/spotube/commit/ba69496dcc9a1b7f6ea4e104e71764a854d27f1f))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* album images are small in certain places ([ca76a39](https://github.com/krtirtho/spotube/commit/ca76a39910b1a5af91aa7882a0d33c9d71db58a2))\r\n* album, artist page not loading [#1282](https://github.com/krtirtho/spotube/issues/1282) ([a9a1d4c](https://github.com/krtirtho/spotube/commit/a9a1d4c9dc24aaf3181dc4090d1822ebfe755991))\r\n* **android:** audio issue when screen is off and broadcast audio session id ([#1221](https://github.com/krtirtho/spotube/issues/1221) & [#1247](https://github.com/krtirtho/spotube/issues/1247)) ([17105a6](https://github.com/krtirtho/spotube/commit/17105a640bf5107bd5d333b9b4d097c14a3949a2)), closes [KRTirtho/spotube#571](https://github.com/KRTirtho/spotube/issues/571)\r\n* **android:** only ask battery optimization once [#1252](https://github.com/krtirtho/spotube/issues/1252) ([e516afb](https://github.com/krtirtho/spotube/commit/e516afb185f616471822ea745495a3d1d1281bd3))\r\n* **android:** pressing back button in any other tab other than home exits the app ([c3289a0](https://github.com/krtirtho/spotube/commit/c3289a0ba4e7de094a15246677ffcb940504ebde))\r\n* **android:** system back button in player page exits the app ([3294f65](https://github.com/krtirtho/spotube/commit/3294f657fe8a03b18d9be8974968b6508465963d))\r\n* cleanTitle removing feat and ft from words instead of whole words ([8612345](https://github.com/krtirtho/spotube/commit/86123456f2ff577921cf62cffca180427dfe1dd5))\r\n* friends list not scrollable with mouse drag ([ab08c82](https://github.com/krtirtho/spotube/commit/ab08c82c8dd501263049f3adcbd48907ba13e3a9))\r\n* no draggable scrollbar in playlist/album page [#1158](https://github.com/krtirtho/spotube/issues/1158) ([6f71e52](https://github.com/krtirtho/spotube/commit/6f71e52ea8a5712d2c3527f2a524af9fbb718bef))\r\n* non-banger songs breaking the queue if sources not found ([90f7c53](https://github.com/krtirtho/spotube/commit/90f7c531cdc8640afdbabf5a0592159715ea1e6f))\r\n* track loading when not found in Youtube ([e964f61](https://github.com/krtirtho/spotube/commit/e964f61d38cb303e3d3fd60c866414f57207181c))\r\n* **translations:** Update app_nl.arb ([#1168](https://github.com/krtirtho/spotube/issues/1168)) ([8167963](https://github.com/krtirtho/spotube/commit/8167963212eeb5dfb0b4fb2eadf81d466659a9f1))\r\n\r\n## New Contributors\r\n* @VishwasSaini25 made their first contribution in https://github.com/KRTirtho/spotube/pull/1203\r\n* @Stephan-P made their first contribution in https://github.com/KRTirtho/spotube/pull/1168\r\n* @Kuyumee made their first contribution in https://github.com/KRTirtho/spotube/pull/1238\r\n* @olivier2 made their first contribution in https://github.com/KRTirtho/spotube/pull/1208\r\n* @doannc2212 made their first contribution in https://github.com/KRTirtho/spotube/pull/1135\r\n* @sappho192 made their first contribution in https://github.com/KRTirtho/spotube/pull/1275\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.4.1...v3.5.0",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.5.0/Spotube-iOS.ipa",
-                    "size": 28863477,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.4.1",
-                    "date": "2024-01-27T16:52:30Z",
-                    "localizedDescription": "### Features\r\n\r\n*  add create playlist button in add playlist dialog ([2168a64](https://github.com/krtirtho/spotube/commit/2168a640af3104a43139c303d78e2c2326a1bda7))\r\n* add spotify friends activity ([#1130](https://github.com/krtirtho/spotube/issues/1130)) ([7983932](https://github.com/krtirtho/spotube/commit/79839329b0970acccb0c566a31eee508adbc8557))\r\n* **deep-link:** add track opening page ([988a975](https://github.com/krtirtho/spotube/commit/988a975bf1a675df0cfc7b17776bcec74c67f1f2))\r\n* haptic feedback on long press and reordering actions ([6242200](https://github.com/krtirtho/spotube/commit/624220090572eb643dce37ca8ffd85d2b3f5c9df))\r\n* improve youtube/piped matching by suffixing \"- Topic\" ([8184555](https://github.com/krtirtho/spotube/commit/8184555ee89fd30aaf886af9fc1d52c142fdebb0))\r\n* **translations:** add Nepali (\u0928\u0947\u092a\u093e\u0932\u0940) translations ([#1111](https://github.com/krtirtho/spotube/issues/1111)) ([c3ebf56](https://github.com/krtirtho/spotube/commit/c3ebf56ac149b0af8815a5533fe6c386df743440)), closes [#1074](https://github.com/krtirtho/spotube/issues/1074) [#1100](https://github.com/krtirtho/spotube/issues/1100)\r\n\r\n\r\n### Bug Fixes\r\n\r\n* alternative searched sources doesn't play [#1059](https://github.com/krtirtho/spotube/issues/1059) ([a8e9b82](https://github.com/krtirtho/spotube/commit/a8e9b824f33add8f6a83f0d147e889eb6beeb442))\r\n* alternative source doesn't persist on next restart [#840](https://github.com/krtirtho/spotube/issues/840) ([62fde50](https://github.com/krtirtho/spotube/commit/62fde50442f04f93255b5b1b1dcca23d116a13ec))\r\n* **android:** download failing for permission issues [#1015](https://github.com/krtirtho/spotube/issues/1015) ([5509cae](https://github.com/krtirtho/spotube/commit/5509cae91c8b1f5cb9fac179060f477397a4a27f))\r\n* artist page error [#1018](https://github.com/krtirtho/spotube/issues/1018) ([8cd650b](https://github.com/krtirtho/spotube/commit/8cd650b07e5f4c4c2f296bf4374e5ee67fb3eb50))\r\n* audio resumes after a phone call even if it was paused before  [#926](https://github.com/krtirtho/spotube/issues/926) ([fd1899f](https://github.com/krtirtho/spotube/commit/fd1899f162395752142d7aa7320d1c39b0995070))\r\n* better error message for failing to find lyrics [#1085](https://github.com/krtirtho/spotube/issues/1085) ([e58e18d](https://github.com/krtirtho/spotube/commit/e58e18de33d7bc6fb0e4ddd7ccf6ea14472642b1))\r\n* Black window flash when starting the app ([#1003](https://github.com/krtirtho/spotube/issues/1003)) ([02e44fc](https://github.com/krtirtho/spotube/commit/02e44fc6b849a873adad382f5d46ed8caf32359f))\r\n* **linux:** crash after login ([0dfd401](https://github.com/krtirtho/spotube/commit/0dfd40153714b7a4b83ac30f0c56830bc0c05ffd))\r\n* **macos:** backbutton and window button overlap and unused empty space on home ([b9417ca](https://github.com/krtirtho/spotube/commit/b9417ca3575992673357230dab49e0124dd576b1))\r\n* **macos:** download folder unchangeable ([9d74cf5](https://github.com/krtirtho/spotube/commit/9d74cf5fc250a6a143321d49b8e045519b4c2872))\r\n* **macos:** Respect Minimize to tray option ([#1001](https://github.com/krtirtho/spotube/issues/1001)) ([69559ba](https://github.com/krtirtho/spotube/commit/69559ba24285636e42b2f2231f956c31388c5cf3))\r\n* **macos:** system tray shows name and sidebar weird gap [#1083](https://github.com/krtirtho/spotube/issues/1083) ([27057ea](https://github.com/krtirtho/spotube/commit/27057ea0c8d83c9701057c18b473f1af4e4e82be))\r\n* releases section is empty when user doesn't follow any artists [#1104](https://github.com/krtirtho/spotube/issues/1104) ([682e88e](https://github.com/krtirtho/spotube/commit/682e88e0c55bc0f4708bc0b4681b129e5c61c999))\r\n* search page vertical scrollbar moves on horizontal scroll [#1017](https://github.com/krtirtho/spotube/issues/1017) ([c203ac6](https://github.com/krtirtho/spotube/commit/c203ac69ee74ba8722dae3da4b47761cd8d59c34))\r\n* songs doesn't play when sources with preferred audio codec is empty ([#976](https://github.com/krtirtho/spotube/issues/976)) ([ba4e11a](https://github.com/krtirtho/spotube/commit/ba4e11a40ab18308437a05333a46eace6f8eeb5a))\r\n* track index not showing after 200 ([a752cf4](https://github.com/krtirtho/spotube/commit/a752cf4c978d1b05851aabb6c84c7862de551320))\r\n* track pad horizontal scrolling not working ([59e0e6b](https://github.com/krtirtho/spotube/commit/59e0e6bb659b70831f6e0ae064100381c57f149c))\r\n\r\n## New Contributors\r\n* @franchioping made their first contribution in https://github.com/KRTirtho/spotube/pull/977\r\n* @powenn made their first contribution in https://github.com/KRTirtho/spotube/pull/971\r\n* @taha-ghadirian made their first contribution in https://github.com/KRTirtho/spotube/pull/1074\r\n* @m-Jawa-d made their first contribution in https://github.com/KRTirtho/spotube/pull/1100\r\n* @iamnabink made their first contribution in https://github.com/KRTirtho/spotube/pull/1111\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v3.4.0...v3.4.1",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v3.4.1/Spotube-iOS.ipa",
-                    "size": 28520194,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "nightly",
-                    "date": "2023-02-05T03:00:20Z",
-                    "localizedDescription": "Nightly release includes newest features but may contain bugs\r\n\r\nIt is preferred to use the stable version unless you know what you're doing",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/nightly/Spotube-iOS.ipa",
-                    "size": 45847083,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.1.1",
-                    "date": "2026-02-24T13:15:09Z",
-                    "localizedDescription": "## v5.1.1\r\n\r\n### Bug Fixes\r\n\r\n- Upgrade NewPipeExtractor to latest version fixing playback issue\r\n- Lyrics not working\r\n\r\n\r\n## What's Changed\r\n* chore: replace windows app icon by a higher resolution by @TobseF in https://github.com/KRTirtho/spotube/pull/2838\r\n\r\n## New Contributors\r\n* @TobseF made their first contribution in https://github.com/KRTirtho/spotube/pull/2838\r\n\r\n**Full Changelog**: https://github.com/KRTirtho/spotube/compare/v5.1.0...v5.1.1",
-                    "downloadURL": "https://github.com/KRTirtho/spotube/releases/download/v5.1.1/Spotube-iOS.ipa",
-                    "size": 34926819
                 }
             ],
             "appPermissions": {
