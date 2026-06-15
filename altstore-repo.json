@@ -90,6 +90,13 @@
                     "localizedDescription": "Release 4.2.0",
                     "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.0/Asspp.ipa",
                     "size": 15153128
+                },
+                {
+                    "version": "4.2.1",
+                    "date": "2026-06-14T02:47:42Z",
+                    "localizedDescription": "Release 4.2.1",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.1/Asspp.ipa",
+                    "size": 15162563
                 }
             ],
             "appPermissions": {
