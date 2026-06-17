@@ -10,424 +10,191 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
-            "name": "Asspp",
-            "bundleIdentifier": "wiki.qaq.Asspp",
+            "name": "DLiPA",
+            "bundleIdentifier": "com.ahmedbafkir.dlipa",
             "marketplaceID": "",
-            "developerName": "Lakr233",
-            "subtitle": "The App Store for your multi-account eco system.",
-            "localizedDescription": "Seamless multi-account App Store management.\nKey Features\n- Multi-Account: Supports multiple Apple IDs\n- Region Selection: Choose your App Store region\n- App Search: Search for apps by keywords\n- App Download: Download apps from the App Store\n- IPA Install: Install IPAs on non-jailbroken devices\n- IPA Sharing: Share IPA files easily\n- Historical Versions: Download previous app versions\n- Free App Purchase: Purchase free apps",
-            "iconURL": "https://raw.githubusercontent.com/Lakr233/Asspp/refs/heads/main/Asspp/App/Assets.xcassets/AppIcon.appiconset/asspp_512.png",
+            "developerName": "AhmedBafkir",
+            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
+            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
+            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
             "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": {
-                "iphone": [
-                    "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_iPhone.png"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_MAC.png",
-                        "width": 3006,
-                        "height": 1654
-                    }
-                ]
-            },
-            "versions": [
-                {
-                    "version": "3.0.25",
-                    "date": "2025-10-16T21:15:10Z",
-                    "localizedDescription": "## What's Changed\r\n* Fix macOS login sheet by @LiYanan2004 in https://github.com/Lakr233/Asspp/pull/48\r\n* Update macOS password field style\r\n* Update macOS installer with more detailed error information\r\n* Update App icons with more accurate corner radius\r\n\r\n## New Contributors\r\n* @LiYanan2004 made their first contribution in https://github.com/Lakr233/Asspp/pull/48\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/3.0.24...3.0.25",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.25/Asspp.ipa",
-                    "size": 10917639,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.24",
-                    "date": "2025-10-10T07:56:08Z",
-                    "localizedDescription": "## What's Changed\r\n* macOS Support\r\n\r\n--- \r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n\r\n- \u652f\u6301 macOS\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.20...3.0.24",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.24/Asspp.ipa",
-                    "size": 10915165,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.20",
-                    "date": "2025-09-19T19:40:57Z",
-                    "localizedDescription": "## Release Notes\r\n* Added SideStore source\r\n* Added support for dark icons\r\n* Fixed the auto-pop issue on iOS 16 ~ iOS 18\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20\r\n\r\n---\r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n* \u652f\u6301 SideStore \u6e90\r\n* \u521d\u6b65\u9002\u914d\u6df1\u8272\u56fe\u6807\r\n* \u4fee\u590d iOS 16 ~ iOS 18 \u9875\u9762\u81ea\u52a8\u8fd4\u56de\u7684\u95ee\u9898\r\n\r\n**\u5b8c\u6574\u53d8\u66f4**\uff1ahttps://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.20/Asspp.ipa",
-                    "size": 10219280,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.18",
-                    "date": "2025-09-17T03:40:02Z",
-                    "localizedDescription": "## What's Changed\r\n* Adopt Liquid Glass by @bo2themax in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n## New Contributors\r\n* @bo2themax made their first contribution in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.2.16...2.3.18",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.18/Asspp.ipa",
-                    "size": 9951832,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.2.16",
-                    "date": "2025-09-16T06:58:25Z",
-                    "localizedDescription": "# Release Notes: From 1.x to 2.2.16\r\n\r\nThis release enhances functionality, stability, and user experience.\r\n\r\n## New Features\r\n- You can now view and download historical versions of apps.\r\n\r\n## Improvements\r\n- Improved search experience.\r\n- Improved handling of server-provided instructions.\r\n- Improved user experience on iOS 26.\r\n\r\n## Changes\r\n- On-device installer now uses a new certificate valid for 2 years.\r\n- Complete redesign of API backend with updated APIs.\r\n\r\n## Bug Fixes\r\n- Fixed issues with account login.\r\n- Fixed application purchasing issues.\r\n- Fixed downloading issues with improved cookie handling.\r\n- Resolved logical issues with two-factor authentication.\r\n\r\n## Other Changes\r\n- Updated files and configs for new features.\r\n\r\nWe hope you enjoy the new release!\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**New Contributors**: @bo2themax, @lbr77\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\uff1a\u4ece 1.x \u5230 2.2.16\r\n\r\n\u672c\u6b21\u66f4\u65b0\u589e\u5f3a\u4e86\u529f\u80fd\u6027\u3001\u7a33\u5b9a\u6027\u4e0e\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u65b0\u529f\u80fd\r\n- \u73b0\u5728\u60a8\u53ef\u4ee5\u67e5\u770b\u5e76\u4e0b\u8f7d\u5e94\u7528\u7684\u5386\u53f2\u7248\u672c\u4e86\u3002\r\n\r\n## \u6539\u8fdb\r\n- \u4f18\u5316\u4e86\u641c\u7d22\u4f53\u9a8c\u3002\r\n- \u6539\u8fdb\u4e86\u5bf9\u670d\u52a1\u5668\u6307\u4ee4\u7684\u5904\u7406\u3002\r\n- \u6539\u5584\u4e86\u5728 iOS 26 \u4e0a\u7684\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u53d8\u66f4\r\n- \u8bbe\u5907\u7aef\u5b89\u88c5\u5668\u73b0\u5df2\u4f7f\u7528\u65b0\u7684\u8bc1\u4e66\uff0c\u6709\u6548\u671f\u4e3a 2 \u5e74\u3002\r\n- \u5f7b\u5e95\u91cd\u6784\u4e86 API \u540e\u7aef\uff0c\u5e76\u66f4\u65b0\u4e86\u76f8\u5173\u63a5\u53e3\u3002\r\n\r\n## \u95ee\u9898\u4fee\u590d\r\n- \u4fee\u590d\u4e86\u8d26\u6237\u767b\u5f55\u76f8\u5173\u7684\u95ee\u9898\u3002\r\n- \u4fee\u590d\u4e86\u5e94\u7528\u8d2d\u4e70\u65f6\u9047\u5230\u7684\u95ee\u9898\u3002\r\n- \u901a\u8fc7\u6539\u8fdb Cookie \u5904\u7406\uff0c\u4fee\u590d\u4e86\u4e0b\u8f7d\u95ee\u9898\u3002\r\n- \u89e3\u51b3\u4e86\u4e24\u6b65\u9a8c\u8bc1\u4e2d\u7684\u903b\u8f91\u95ee\u9898\u3002\r\n\r\n## \u5176\u4ed6\u53d8\u66f4\r\n- \u4e3a\u652f\u6301\u65b0\u529f\u80fd\uff0c\u66f4\u65b0\u4e86\u76f8\u5173\u6587\u4ef6\u4e0e\u914d\u7f6e\u3002\r\n\r\n\u5e0c\u671b\u60a8\u559c\u6b22\u8fd9\u6b21\u66f4\u65b0\uff01\r\n\r\n**\u5b8c\u6574\u66f4\u65b0\u65e5\u5fd7**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**\u65b0\u8d21\u732e\u8005**: @bo2themax, @lbr77\r\n",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.2.16/Asspp.ipa",
-                    "size": 9912930,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.1.1",
-                    "date": "2026-02-20T17:26:46Z",
-                    "localizedDescription": "### New Features\n- **macOS Installed Apps tab** \u2014 view and update apps on connected devices\n- **In-app logging** \u2014 built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** \u2014 IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** \u2014 login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
-                    "size": 13586686
-                },
-                {
-                    "version": "4.2.0",
-                    "date": "2026-06-12T08:23:55Z",
-                    "localizedDescription": "Release 4.2.0",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.0/Asspp.ipa",
-                    "size": 15153128
-                },
-                {
-                    "version": "4.2.1",
-                    "date": "2026-06-14T02:47:42Z",
-                    "localizedDescription": "Release 4.2.1",
-                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.1/Asspp.ipa",
-                    "size": 15162563
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "PancakeStore",
-            "bundleIdentifier": "com.jbdotparty.PancakeStore",
-            "marketplaceID": "",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "MuffinStore Jailed, with UI.",
-            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
-            "tintColor": "#c64000",
             "category": "developer",
             "screenshots": [],
             "versions": [
                 {
-                    "version": "1.0.1",
-                    "date": "2025-12-26T16:26:45Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
-                    "size": 777601,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-12-20T20:14:48Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
-                    "size": 751441,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
                     "version": "1.1",
-                    "date": "2026-02-27T02:18:24Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- PancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\r\n\r\n## UI Updates\r\n- Added a proper UI for iPads.\r\n- Cleaned up multiple components, updated PartyUI.\r\n- Added a settings page.\r\n- Code reorganization.\r\n\r\n## QoL Improvements\r\n- When the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\r\n- Added more information about the app while it's downgrading.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.1/PancakeStore_v1.1.ipa",
-                    "size": 1132982
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-06-12T05:52:23Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- **PancakeStore has been fixed again.** Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\r\n- **Improved error handling.** The app should no longer abruptly exit when things go wrong.\r\n- **Auto-clean.** The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\r\n\r\n## Added Features\r\n- **Share Extension.** PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\r\n- **Export IPA.** You can export the IPA after the app has been downgraded. Probably useful for research or archival.\r\n\r\nThank you everybody for your patience and support!",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
-                    "size": 1936006
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "Fur Affinity",
-            "bundleIdentifier": "ceylo.FurAffinity",
-            "marketplaceID": "",
-            "developerName": "Ceylo",
-            "subtitle": "Unofficial iOS app for furaffinity.net",
-            "localizedDescription": "\ud83d\udc3e Connect with your furaffinity.net account and enjoy the furry community in a native app.\n\ud83d\udcf1 FEATURES\n- Browse the latest submissions from your followed artists, add favorites and leave comments!\\n- Read and participate to artists journals.\n- Check received notes and notifications.\n- Browse user profiles to check their content and eventually follow them!\nThis app is opensource and its sources are available at https://github.com/Ceylo/FurAffinityApp\n\ud83d\udd17 Website: https://furaffinity.app\nPrivacy policy: https://github.com/Ceylo/FurAffinityApp/blob/main/Privacy%20Policy.md",
-            "iconURL": "https://get.furaffinity.app/altstore/AppIconLG.heic",
-            "tintColor": "#0cc800",
-            "category": "social",
-            "screenshots": [
-                {
-                    "height": 2532,
-                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/feed.heic",
-                    "width": 1170
-                },
-                {
-                    "height": 2532,
-                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/submission.heic",
-                    "width": 1170
-                },
-                {
-                    "height": 2532,
-                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/notifications.heic",
-                    "width": 1170
-                },
-                {
-                    "height": 2532,
-                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/notes.heic",
-                    "width": 1170
-                },
-                {
-                    "height": 2532,
-                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/note reply.heic",
-                    "width": 1170
-                }
-            ],
-            "versions": [
-                {
-                    "version": "1.15.1",
-                    "date": "2025-11-29T10:38:59Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed submissions loading after 28th November furaffinity.net website update\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.15.1/FurAffinity-1.15.1-0c0d3ff.ipa",
-                    "size": 22693828,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.15",
-                    "date": "2025-11-05T20:39:04Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Further improved iOS 26 integration\r\n- Updated app icon to support iOS 18 dark mode and iOS 26 transparent mode (https://github.com/Ceylo/FurAffinityApp/issues/15)\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a crash happening when deleting the last submission during a refresh (https://github.com/Ceylo/FurAffinityApp/issues/19)\r\n- Fixed submission previews still loading during scroll instead of being preloaded\r\n- Fixed the submission save control looking enabled too early on iOS 26\r\n- Fixed a crash when viewing a submission after clearing the app cache\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.15/FurAffinity-1.15-aefe23e.ipa",
-                    "size": 22693450,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.14",
-                    "date": "2025-09-14T10:36:40Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- iOS 26 support: adopted Liquid Glass design\r\n- Submissions and submission previews are now displayed full width\r\n- The submissions feed now highlights the submission title rather than the author\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Note editor now allows the . (dot) and - (dash) characters in static name field\r\n- Fixes following furaffinity.net website updates:\r\n  - Fixed loading of users Watching and Watched By lists\r\n  - Fixed text color in dark mode on comments and submission and journal descriptions",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.14/FurAffinity-1.14-2a8463b.ipa",
-                    "size": 3039727,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.13.1",
-                    "date": "2025-07-06T08:20:48Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed loading of submissions that contain tags considered as invalid since June 30th website update (https://github.com/Ceylo/FurAffinityApp/issues/17)",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.13.1/FurAffinity-1.13.1-549a33b.ipa",
-                    "size": 2634993,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.13",
-                    "date": "2025-06-28T11:15:17Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\nVersion 1.13 is focused on social interactions!\r\n\r\n# \ud83d\udcf1 Features\r\n- The app fully embraces FA's Display Names update: Notes tab, Notes, User pages, shouts and comments now show both the Display Name and the user's static name, to better let you know who you're actually interacting with\r\n- The app now allows sending notes, either from the revamped Notes tab, when viewing a Note or from a user's page\r\n- The Notes tab now allows switching between your Inbox or Sent notes\r\n- The Notes tab gets a new filter control to only display unread notes\r\n- The toolbar is widely revisited with many more actions available from the top right icon:\r\n  - most pages now have a Share Link action\r\n  - submission pages also get a Favorite, Save Image, Share Image and Reply actions\r\n  - user pages get a Watch and Send a Note actions\r\n  - notes get a Reply action\r\n  - Notes tab gets Inbox, Sent and Send a Note actions\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- User page design is slightly revisited\r\n- Tapping a user icon in the Notes tab now opens the user's page\r\n- Error reporting has been improved: if posting a comment or sending a note fails, an alert gives a more useful error description\r\n- Reading a note now immediately marks it as read in the app\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.13/FurAffinity-1.13-fcc946e.ipa",
-                    "size": 2635002,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.12.1",
-                    "date": "2025-06-18T20:23:58Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Around 17th June 2025, [furaffinity.net](https://www.furaffinity.net/) website was updated and removed the Gender information on submissions. This prevented submissions from displaying in the app and has now been resolved (issue #16).",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.12.1/FurAffinity-1.12.1-57dc12a.ipa",
-                    "size": 2564535,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.12",
-                    "date": "2025-03-08T23:03:44Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Support for user gallery folders: a new folder icon is displayed in the toolbar when navigating to any user gallery or folder. It provides a menu to navigate to any other folder of this user\u2019s gallery, including to their Scraps.\r\n- When tapping on a shout or comment notification, in addition to opening the relevant page, the app will now scroll and highlight the relevant comment.\r\n- Submissions in the Submissions tab can now be removed one by one through a swipe action (issue #11).\r\n- Submissions display a new metadata control. It allows viewing all the submission metadata, such as image resolution, rating, category, view count, keywords and the folders to which this submission belongs. The folder items are interactive and can be used to navigate to the chosen folder.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- On 3rd March 2025, [furaffinity.net](https://www.furaffinity.net/) website was updated in order to support the new display name feature. This affected many parts of the app with missing information or the inability to load user profiles or notes, or missing notifications. This has been resolved (issue #12).\r\n- The app includes an auto-refresh feature for the Submissions feed, Notes and Notifications tab, when you open the app again and after some delay. This behavior was not working for the Notes and Notifications tab if the tab had never been opened since the app was launched. This is now resolved.",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.12/FurAffinity-1.12-7146d2d.ipa",
-                    "size": 2565738,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.11",
-                    "date": "2025-01-10T22:47:02Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Improved submission fullscreen view: you can now use a single tap to display a submission zoomed in and in fullscreen. Then tap one more time to change again the zoom level.\r\n- The Notifications tab now displays a badge when you have notifications. By default, all supported types of notifications are taken into account, except journal notifications. You can change this behavior in the Settings tab.\r\n- Scrolling through a user's gallery, scraps or favorites now automatically loads the next page when needed. This effectively makes scrolling infinite as long as more content is available.\r\n- User's gallery, scraps and favorites now have a search field at the top. Combined with infinite loading, this effectively allows searching through a full gallery, scraps or favorites of any user. Search is case insensitive and done on the submissions title and author.\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- Submissions and journals where comments have been disabled is now reflected in the app: the comment icon has a different color and tapping it will inform that posting a comment is not possible.\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.11/FurAffinity-1.11-037de74.ipa",
-                    "size": 2468515,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.10",
-                    "date": "2024-10-21T09:32:26Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Submissions featuring animated GIFs are now displayed animated. Downloading also preserves the animation\r\n- Avatars using an animated GIF are now displayed animated by default. A setting was added in case you prefer to disable avatar animations\r\n- Avatars and submission thumbnails are now loaded in advance, so you'll mostly not see them loading anymore\r\n- Scrolling through galleries and the submissions feed has again been made much smoother\r\n- User profiles now give access to the user's journals\r\n- In addition to swiping to the left, replying to comments is now also available through long press\r\n- Touching avatars in notifications now opens the corresponding user profile\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a rare case where the submission zoomable sheet could be opened before the full submission is actually loaded\r\n- Fixed a rare crash that could happen when deleting notifications one by one\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- \u26a0\ufe0f iOS 16 support has been removed, iOS 17.4 or later is now required\r\n- The top right action button in Notifications tab doesn't display the Nuke action anymore for types of notifications whose section is already empty\r\n- Logging out will now forget what was the last viewed submission. Logging in to the same or a different account will then display the latest submissions instead of going back to this last viewed submission\r\n- A new item in the Settings tab allows deleting cached files\r\n- Haptic feedback has been added when a download is successful, a submission is marked as favorite, a comment has been successfully submitted or when you watch a user\r\n- When Notifications and Notes tabs are empty, they can now be pulled to refresh",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.10/FurAffinity-1.10-2d0ba50.ipa",
-                    "size": 2375521,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.9.1",
-                    "date": "2024-10-02T10:19:03Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n\r\n- Fix ability to refresh the submissions feed when it is empty (regression from 1.9.0, https://github.com/Ceylo/FurAffinityApp/issues/8)\r\n- Fix the submissions feed loading after app start when it tries to restore the feed position to a submission that is now gone, for instance after nuking all submission notifications (regression from 1.9.0, https://github.com/Ceylo/FurAffinityApp/issues/8)",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.9.1/FurAffinity-1.9.1-6606733.ipa",
-                    "size": 2209993,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.9.0",
-                    "date": "2024-09-16T18:01:17Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Shout notifications are now displayed in the Notifications tab\r\n- User watch and \"watched by\" lists are now accessible from user profiles. Additionally, the watchlist features a search field allowing to look for a specific user\r\n- The scroll position of the submissions feed is now preserved when restarting the app\r\n- Speed improvements:\r\n    - Until furaffinity.net answers and provide the full data, user profiles now first display a preview content instead of a progress indicator\r\n    - A lot more avatars get cached and are thus available for early display\r\n    - Scrolling through favorites is much smoother\r\n    - Submissions or journals with many comments are loaded much faster\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fix new submissions notification bubble sometimes not dismissing\r\n- Fix navigation bar sometimes becoming bigger when navigating back\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- The login screen has been redesigned\r\n- Analytics have been migrated from \"Microsoft AppCenter\" to \"Amplitude\"",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.9.0/FurAffinity-1.9.0-75b71f0.ipa",
-                    "size": 2208262,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.8.0",
-                    "date": "2024-07-03T10:53:19Z",
-                    "localizedDescription": "# Features\r\n- User view now gives access to the user's gallery, scraps, favorites and shouts. Users can also be followed or unfollowed.\r\n- Hide furaffinity.net latency on submissions loading by first displaying the thumbnail when possible\r\n- Display hidden/deleted comments in comment threads\r\n- Display journal comment notifications in the Notifications tab\r\n- Display the number of favorites and comments next to their respective controls in submissions\r\n- Notes sent by a deleted user are now properly displayed\r\n- New app icon designed by [BAKA.RASU](https://www.instagram.com/baka.rasu/) \ud83c\udf89\r\n- New AltStore source for easier installation and update! See [ReadMe](https://github.com/Ceylo/FurAffinityApp?tab=readme-ov-file#installation-with-altstore) for more details.\r\n\r\n# Misc\r\n- More resilient notifications loading\r\n- Preserve link color as chosen by FA users instead of forcing it to be blue\r\n- Many UI improvements, including in particular clearer comments UI through the use of bubbles\r\n\r\n# Bug fixes\r\n- Fix crash when deleting a notification\r\n- Fix transparent tab bar on iOS 17\r\n- Fixed temporarily incorrect contents layout when loading a submission, note or journal\r\n- Fix loading of the user view for banned users\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.8.0/FurAffinity-1.8.0-58b3697.ipa",
-                    "size": 1920345,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.7.0",
-                    "date": "2023-05-11T20:22:39Z",
-                    "localizedDescription": "# Features\r\n- Extended in app navigation: opening links to journals now displays them within the app. Journals feature the same controls (including comments) as submissions, except the `Download` and `Favorite` controls.\r\n- New \"Notifications\" tab: this lists all submission comment and journal notifications from https://www.furaffinity.net/msg/others/ and lets you jump to the corresponding submission or journal from there.\r\n- The \"Notifications\" screen provides a control in top right to nuke all submission comment or journal notifications.\r\n- Draft comments on the current submission or journal are saved until posted. So you can freely go back and check the submission or journal details before continuing your own comment. Leaving the submission or journal will discard the draft.\r\n- The comment editor now displays the comment you're answering to.\r\n\r\n# Misc\r\n- Pages now display a progress indicator instead of staying empty while waiting for furaffinity.net servers to provide the target web page.\r\n- The Submissions tab will not automatically refresh anymore if it's not currently displayed (eg. you're on another tab or have opened some submission). This prevents scrolling away from your last seen submission in the feed.\r\n\r\n# Bug fixes\r\n- Links to pages that were supported for in app navigation now also work from comments.\r\n- Fix a \"loading failed\" message appearing when a user whose name contains special characters is involved in the target page.",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.7.0/FurAffinity-1.7.0-db72f89.ipa",
-                    "size": 1513038,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.6.0",
-                    "date": "2023-03-30T21:55:51Z",
-                    "localizedDescription": "# Features\r\n- In app navigation:\r\n  - supported links now open a new native view within the app instead of opening the web browser\r\n  - navigation \"Back\" control now displays the name of the parent view\r\n  - keeping this \"Back\" control pressed allows moving back several navigation steps at once\r\n- Supported in app links include submissions and user pages\r\n  - Submission view is mostly identical to the previous version. It now displays when the submission was published.\r\n  - User page displays the user banner, avatar, name and profile description. It'll be later improved to give access to more content such as the user gallery.\r\n  - Most places where a user avatar is displayed can be touched to open this user's view.\r\n- New Profile tab: this new tab displays your own user page within the app.\r\n- The control to open the current view in your web browser is standardized to now always appears in the top right of the navigation bar\r\n- All displayed date & time label can now be touched to toggle between relative and absolute date & time\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.6.0/FurAffinity-1.6.0-3488177.ipa",
-                    "size": 1426768,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.5.0",
-                    "date": "2023-01-23T22:42:11Z",
-                    "localizedDescription": "# Features\r\n- You can now post comments on submissions directly from the app:\r\n  - Post a new comment with the reply button next to the other controls.\r\n  - Reply to existing comments with a swipe gesture.\r\n- A menu is added in top-right corner of the submission feed.\r\n  - For now it only contains an entry to nuke all submission notifications and does the same as \"Nuke\" button from [submissions page](https://www.furaffinity.net/msg/submissions/) on FA. This answers issue https://github.com/Ceylo/FurAffinityApp/issues/3\r\n- A new Refresh button is added when the submissions feed is empty, since in this state there's no scrolling and no pull to refresh.\r\n- When the submissions feed is refreshed (either automatically or manually), there's now a notification even when no new submission is available. This better shows that the refresh was actually performed.\r\n- Each submission can now be pulled to be refreshed.\r\n- The Settings tab now displays a badge when an update is available.\r\n\r\n# Misc\r\n- The app now requires iOS 16.1 or later.\r\n- The app internal identifier was changed. Once installed it will be considered as a new app. You can safely delete previous versions of the app.\r\n- iPad layout is disabled, the app was already not adapted to iPad display size so this is just a _safety_ measure\r\n- A new [Privacy Policy document](https://github.com/Ceylo/FurAffinityApp/blob/main/Privacy%20Policy.md) was added",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.5.0/FurAffinity-1.5.0-9054c0a.ipa",
-                    "size": 1397023,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.4.1",
-                    "date": "2022-12-11T14:29:13Z",
-                    "localizedDescription": "# Bugfixes\r\n- Fixed clipping of submissions description\r\n- Fixed avatar loading after November website update\r\n- Fixed comments loading after November website update\r\n- Fixed an issue in avatar caching that would provide expired avatars\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.4.1/FurAffinity-1.4.1-77e2338.ipa",
-                    "size": 1195266,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.4.0",
-                    "date": "2022-10-31T18:55:26Z",
-                    "localizedDescription": "# Features\r\n- Comments are now displayed in Submission screen\r\n\r\n# Bugfixes\r\n- Submissions with updated title don't show up as new submission anymore\r\n- A message is now displayed in Submissions and Notes tab instead of an empty list when there's no note or submission to show \r\n\r\nHere's an example of how comments look for https://www.furaffinity.net/view/49593180/:\r\n<img src=\"https://user-images.githubusercontent.com/451334/199089993-f1b5470f-2c22-43b2-9c70-4b216563282e.jpg\" width=25% height=25%>\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.4.0/FurAffinity-1.4.0-42115fe.ipa",
-                    "size": 1110874,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.2",
-                    "date": "2022-10-13T21:28:57Z",
-                    "localizedDescription": "- Application logs can now be exported from the Settings tab for debugging purpose",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.2/FurAffinity-1.3.2-729e6f7.ipa",
-                    "size": 1153463,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.1",
-                    "date": "2022-10-02T16:29:13Z",
-                    "localizedDescription": "# Bugfixes\r\n- iOS 16: Fix scrolling behavior when refreshing: last submission before refresh remains on screen\r\n- iOS 16: Preserve session after killing the app",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.1/FurAffinity-1.3.1-827a647.ipa",
-                    "size": 1140936,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.0",
-                    "date": "2022-10-01T12:28:24Z",
-                    "localizedDescription": "# Features & improvements\r\n- Handoff/Continuity support: if your iPhone and Mac are using to the same Apple ID, your Mac will display a web browser icon in the Dock while browsing a specific submission or note in this app ; clicking that icon will open the matching page from furaffinity.net in your web browser on your Mac\r\n- Notes tab now displays a badge when you have unread notes\r\n- Submissions can now be faved/unfaved from the app\r\n- Auto-refresh delay when opening the app is increased from 1mn to 15mn\r\n- Auto-refresh does not happen anymore when just switching tabs, you can still pull to refresh as you want\r\n- Auto-refresh on Submissions tab will only happen if it is scrolled to the top, to prevent losing current scroll position among submissions\r\n- Faster users' avatar loading: avatar URL is now cached for some days to reduce the number of network requests made to furaffinity.net. Avatar images remain cached automatically as before.\r\n\r\n# Bugfixes & admin features\r\n- Network requests to furaffinity.net now use a custom agent to be identifiable by Fur Affinity administrators\r\n- Fixed a crash happening when trying to read a submission that had been deleted in the meantime\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.0/FurAffinity-1.3.0-91b90cc.ipa",
-                    "size": 1135299,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.0",
-                    "date": "2022-06-04T13:35:52Z",
-                    "localizedDescription": "- Fixed user icons loading\r\n- Notes can now be opened in web browser\r\n- Settings tab now displays app information and whether a new version is available",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.2.0/FurAffinity-1.2.0-4db20c2.ipa",
-                    "size": 8255546,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1.0",
-                    "date": "2022-04-14T17:48:04Z",
-                    "localizedDescription": "- Ability to list and read notes from inbox\n- Fixed a layout issue with text in submission details\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.1.0/FurAffinity-1.1.0-c2b6f85.ipa",
-                    "size": 5124122,
+                    "date": "2025-11-16T17:59:20Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
+                    "size": 480115,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
                     "version": "1.0.0",
-                    "date": "2022-04-07T18:32:52Z",
-                    "localizedDescription": "This is the initial release of FurAffinity iOS app. It features the following:\n- Ability to login with your furaffinity.net account\n- Display of the last submissions from your followed artists as a feed\n- Ability to view full resolution version of a submission, along with the description from the artist\n- Ability to share, download and open in your web browser a submission\n- Ability to zoom in the full resolution art\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.0.0/FurAffinity-1.0.0-cb403dc.ipa",
-                    "size": 4836124,
+                    "date": "2025-06-07T17:24:30Z",
+                    "localizedDescription": "Initial Release.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
+                    "size": 480247,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "1.16",
-                    "date": "2026-01-24T22:15:33Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Error handling has been reworked in order to show information in case a page fails to load or an action is not performed as expected. Previously the app could silently fail on some actions.\r\n- Added support for displaying furaffinity.net error messages (System Error and System Message)\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a case where the app could stay on the furaffinity.net web view after logging in\r\n- Fixed display of journals title\r\n",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.16/FurAffinity-1.16-8f38b23.ipa",
-                    "size": 20223751
+                    "version": "1.2",
+                    "date": "2026-02-22T21:04:04Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
+                    "size": 471971
                 },
                 {
-                    "version": "1.16.2",
-                    "date": "2026-05-10T14:47:08Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Error handling shows a more useful message in case furaffinity.net has CloudFlare challenge currently active\r\n- Fixed submissions loading after early May's furaffinity.net website update",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.16.2/FurAffinity-1.16.2-3a1f679.ipa",
-                    "size": 20217864
+                    "version": "1.3",
+                    "date": "2026-06-17T01:22:52Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n### New Feature\r\n- Ability to download a specific version of any app using the Version ID.\r\n- Access your last 15 searches instantly just by tapping the search bar for quick navigation.\r\n\r\n### Fixes\r\n- Resolved the login issue.\r\n- Resolved the \"An unknown error occurred\" issue when downloading certain popular apps, including Google and Microsoft apps and others.\r\n- Fixed an issue that caused the app to crash when searching after setting a search limit.\r\n- Fixed a bug where downloaded data was not automatically deleted when selecting \"Delete account with files\".\r\n\r\n### Improvements\r\n- Other minor fixes.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.3/DLiPA_v1.3.ipa",
+                    "size": 479107
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "DolphiniOS",
+            "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+            "marketplaceID": "",
+            "developerName": "OatmealDome",
+            "subtitle": "Dolphin for iOS, reborn",
+            "localizedDescription": "DolphiniOS is a GameCube and Wii emulator for iOS and iPadOS. All iOS versions starting with 14.0 are supported, and no jailbreak is required!",
+            "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png",
+            "tintColor": "#007aff",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "5.0.0b4",
+                    "date": "2025-10-23T02:48:05Z",
+                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed a crash when using JIT on devices running iOS 26 with an A12, A13, A14, or M1 chip.\r\n* Added additional JIT information to the Debug menu to assist in debugging problems.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b3...v5.0.0b4",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b4/Non-Jailbroken.ipa",
+                    "size": 17963622,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
-                    "version": "1.16.3",
-                    "date": "2026-05-14T13:16:52Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed again submissions loading after 13th May's furaffinity.net website update",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.16.3/FurAffinity-1.16.3-516ef13.ipa",
-                    "size": 20217707
+                    "version": "5.0.0b3",
+                    "date": "2025-10-18T17:01:54Z",
+                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Added support for the Skylanders Portal of Power in Skylanders games for the Wii, courtesy of @deReeperJosh.\r\n  * Enable \"Emulate Skylander Portal\" in Settings -> Config -> Wii and select \"Skylanders Portal\" in the in-game menu to load a figure.\r\n* Fixed an issue where devices with an A15+ or M2+ chip running iOS 17 or 18 would crash when starting a game in JIT mode.\r\n* Fixed an issue where \"vm_map\" errors would randomly occur.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b2...v5.0.0b3",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b3/Non-Jailbroken.ipa",
+                    "size": 17963458,
+                    "buildVersion": null,
+                    "minOSVersion": null
                 },
                 {
-                    "version": "1.17",
-                    "date": "2026-06-07T16:40:19Z",
-                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Cloudflare challenges from furaffinity.net are now handled: the app solves them in the background, so browsing and logging in keep working when the site is behind Cloudflare.\r\n- The app now refreshes in the background and sends you local iOS notifications when there's something new for you: new submissions in your feed, new notes, and new notifications (favorites, comments, watches, shouts) \u2014 even while the app is closed\r\n- The Notes tab can now browse the Archive and Trash boxes in addition to Inbox and Sent\r\n- New swipe actions allow notes to be moved to Archive or Trash, and marked back as unread\r\n- A \"Send a Note\" action was added on submissions, and \"Comment\" and \"Send a Note\" actions were added to the journals menu\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- Settings now separate app badge counts from iOS notifications, so you can turn each on or off independently\r\n- The app now keeps an on-device log you can export to help diagnose issues, plus a new \"Clear Application Logs\" button in Settings\r\n\r\n\u26a0\ufe0f Note for AltStore Classic users: the app now contains an extension. You might get asked by AltStore upon installation whether you want to preserve the extension, which will count toward your weekly App ID limit. If you remove the app's extension, you'll lose preview of submissions on long press on iOS notifications.",
-                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.17/FurAffinity-1.17-95521d8.ipa",
-                    "size": 12059533
+                    "version": "5.0.0b2",
+                    "date": "2025-10-13T02:16:56Z",
+                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed an issue where some controller options would be incorrectly disabled.\r\n* Fixed an issue where there was a typo in text pertaining to \"memory size\" overrides.\r\n* Added additional alerts to help debug a crash on some devices running iOS 18 and older.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b1...v5.0.0b2",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b2/Non-Jailbroken.ipa",
+                    "size": 17958160,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.0.0b1",
+                    "date": "2025-10-11T17:27:37Z",
+                    "localizedDescription": "* Added support for JIT on iOS 26.\r\n  * **[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** Using other JIT enablers may cause DolphiniOS to crash.\r\n* Enabled Liquid Glass on iOS 26.\r\n* Added new Liquid Glass app icons by Kongolabongo.\r\n* The Dolphin core was updated to 2509.\r\n  * Save states made in previous versions of DolphiniOS are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Sped up Cached Interpreter by approximately 10%, courtesy of TellowKrinkle. \r\n* The version number has been increased to 5.0.0 to prevent confusion with DolphiniOS forks.\r\n\r\n## For Developers\r\n\r\n* Due to changes made by Apple in iOS 26, Xcode is no longer a supported JIT enabler on devices utilizing TXM (A15+ or M2+) running iOS 26 or newer.\r\n  * If you are running DolphiniOS within Xcode, you will need to use Cached Interpreter or switch to an older device to use JIT.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b9...v5.0.0b1",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b1/Non-Jailbroken.ipa",
+                    "size": 17958943,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b9",
+                    "date": "2025-05-06T17:25:12Z",
+                    "localizedDescription": "* The Dolphin core has been updated to 2503a.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Fixed keyboards not showing up in the devices list in controller settings. (#201 by @SamoZ256)\r\n* Added a temporary fix for CMake 4.0+ compatibility.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b8...v4.0.0b9",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b9/Non-Jailbroken.ipa",
+                    "size": 16149753,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b8",
+                    "date": "2025-01-17T21:00:27Z",
+                    "localizedDescription": "This is the fourth revision of beta 8.\r\n\r\n### Changes\r\n\r\n* The Dolphin core has been updated to 2412.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Added new app icons based off the macOS icon introduced in Dolphin 2407. (thanks Kongolabongo and @brand175 for the new iOS icons, and thanks MayImilae for the original macOS icon)\r\n* No JIT mode (**very slow**) has been added. (thanks @brand175)\r\n  * When launching a game without JIT enabled, you can now choose to start it in No JIT mode.\r\n  * The \"waiting for JIT\" screen can be bypassed entirely by manually changing the CPU Emulation Engine in Settings -> Config -> Advanced to Cached Interpreter.\r\n  * No JIT mode is **very slow**. You will need a high-end device (like a recent iPhone or iPad Pro) and to enable speed hacks (VBI Skip, CPU underclock, etc) to achieve playable speeds.\r\n* Added a button to import BootMii NAND backups in the software list.\r\n  * This is useful for those who want to play Wiimmfi online.\r\n  * No JIT users beware: Wiimmfi will ban devices that run below 100% emulation speed in Mario Kart Wii. We recommend that Wiimmfi should only be used in JIT mode.\r\n* Added experimental support for rootless jailbreaks. \r\n* Added a menu to check which buttons are being pressed on physical controllers when mapping buttons.\r\n* Ported \"Respect Silent Mode\" toggle from Delta.\r\n  * This setting controls whether DolphiniOS obeys the Ring/Silent switch on your device. If disabled, then audio will play even if silent mode is enabled.\r\n  * Find it in Settings -> Config -> Audio.  \r\n* Added Game Mode for devices running iOS 18.\r\n* Re-implemented the touch screen Wii pointer.\r\n  * A new default mode has been added: \"drag\". This mode allows you to use your touch screen like a laptop trackpad when moving the Wii pointer.\r\n  * The mode used in 3.2.1 and earlier is still available as \"follow\" mode.\r\n  * Choose the mode you want as default in the top bar menu during emulation or in Settings -> Controllers -> Touchscreen.\r\n* Re-implemented automatic disc changing.\r\n  * When a game asks for a different disc, DolphiniOS will automatically insert the correct disc into the emulated disc drive.\r\n  * Both disc files must be imported (i.e. in the Software folder and visible in the software list) for this feature to work properly.\r\n  * If it still does not work, ensure that \"Change Disc Automatically\" is enabled in Settings -> Config -> General.\r\n* Re-implemented the touch screen transparency level slider.\r\n* Re-implemented support for multiple save state slots.\r\n* Re-implemented the Open button in the software list.\r\n* Re-implemented the Delete button in the software list.\r\n* Re-implemented the Launch GameCube Main Menu button in the software list.\r\n* Matched the refresh rate of the `MTKView` to the display's refresh rate.\r\n  * GameCube and Wii games do not run above 30/60Hz.\r\n  * This is only for testing purposes.\r\n* Fixed many crashes, freezes, physics bugs, etc when using Cached Interpreter.\r\n  * The fix for this bug (disabling \"fast math\" mode in Xcode) will likely result in a slight performance decrease.\r\n  * While fast math does make math calculations run faster, it also causes [some calculations to return incorrect answers](https://simonbyrne.github.io/notes/fastmath/).\r\n  * Accuracy is vital when emulating software. When fast math returns a wrong answer for a calculation, it can cause crashing and other bugs in the emulated software, as they always expect to receive correct answers.\r\n  * For example, the Wii's System Menu immediately crashes when using Cached Interpreter in previous 4.0.0 beta builds, as the math used to calculate whether the pointer is hovering over a channel or not returns incorrect results. Disabling fast math fixes this issue.\r\n* Fixed an issue where the bottom of the \"waiting for JIT\" screen was cut off on some devices. (thanks @brand175)\r\n* Fixed an issue where booting Wii software during the first launch of the app could cause DolphiniOS to crash.\r\n* Fixed an issue where the state of the \"Enabled\" switch in the menu shown when mapping controller buttons does not save properly.\r\n* Fixed an issue where the toggle for VBI Skip in Settings was still using its old name, VI Skip.\r\n* Fixed an issue where the top bar could get dismissed while using the menu.\r\n  * This was fixed by removing the code which dismissed the top bar after 5 seconds.\r\n  * You now need to manually dismiss the top bar by pressing the \"eye with a slash through it\" icon.\r\n  * Unfortunately, there is no way to check to see if the menu is open, so this was the best solution I could come up with. \r\n* Fixed an issue where the software list was not refreshed when importing new software.\r\n* Fixed an issue where device motion did not apply to the Nunchuk.\r\n  * Users who are updating from an older beta version will need to re-import the Touchscreen default profile in Controllers to apply this bug fix.\r\n* Hid some options in the debug menu when DolphiniOS is built in release mode. \r\n* Updated MoltenVK to 1.2.8.\r\n  * [The latest version of MoltenVK is incompatible with Dolphin due to a bug](https://github.com/KhronosGroup/MoltenVK/issues/2403).\r\n\r\n### Revisions\r\n\r\n* Revision 2 was released shortly after the initial revision was published.\r\n  * Fixed a problem with the build creation process which caused builds to not show up on GitHub.\r\n* Revision 3 was released on Jan 17.\r\n  * Fixed a problem with the app icon not showing up on SpringBoard.\r\n  * Fixed a problem where the version number was not updated to beta 8.\r\n  * Fixed a problem where using Vulkan would cause colours to appear oversaturated until the app was restarted. (thanks @brand175)\r\n* Revision 4 was released shortly after Revision 3.\r\n  * Fixed a problem where the touch screen controller button images were not included in the app.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b7...v4.0.0b8",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b8/Non-Jailbroken.ipa",
+                    "size": 15830129,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b7",
+                    "date": "2024-01-19T20:55:14Z",
+                    "localizedDescription": "The full changelog can be found here: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b6...v4.0.0b7.\r\n\r\nThis version fixes several critical bugs found in 4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Worked around an issue which causes fastmem initialization to fail (#115).\r\n* Fixed an issue which causes the app to freeze and/or crash when changing graphics settings.\r\n\r\n# Developer-Facing Changes\r\n\r\n* The UI thread is now the host thread while emulation is not running. When emulation is running, the host thread is whatever thread is executing for the host queue.\r\n* Calling `DOLHostQueueRunSync` on the host thread is now possible.\r\n* Calling `DOLHostQueueRunAsync` while on the host thread is now an illegal operation.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b7/Non-Jailbroken.ipa",
+                    "size": 13775833,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b6",
+                    "date": "2024-01-16T22:23:36Z",
+                    "localizedDescription": "# DO NOT USE THIS VERSION! USE [4.0.0b7](https://github.com/OatmealDome/dolphin-ios/releases/tag/v4.0.0b7) INSTEAD!\r\n\r\n---\r\n\r\n\r\nThe full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b5...v4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Updated the Dolphin core to 5.0-19708.\r\n* Added the Software Properties menu (tap and hold on a game in the game list). \r\n* Added the Gecko and Action Replay cheats menus in Software Properties.\r\n* Improved the updater to not prompt for an update if the currently running version is newer than the one reported by the server.\r\n\r\n# Developer-Facing Changes\r\n\r\n* Fixed an issue where using shared zstd would cause a build error on recent Xcode versions. (potentially issue #109)\r\n* Made the host thread be dynamically set to whatever thread is currently executing for a special dispatch queue.\r\n* Disabled the JitCache fast block map optimization to prevent fastmem issues.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b6/Non-Jailbroken.ipa",
+                    "size": 13773902,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b5",
+                    "date": "2023-02-18T08:33:19Z",
+                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b4...v4.0.0b5.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* The status bar is now hidden during emulation. (issue #54, PR #58 by @icelaglace)\r\n* Removed the Software Renderer from the list of available graphics backends.\r\n  * This backend never worked in the first place because OpenGL is not supported.\r\n* Fixed a bug which could cause the app to crash when attempting to clear the screen while stopping emulation. (issue #56)\r\n* Fixed a bug which caused the graphics backend menu to not set the correct backend. (issue #57)",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b5/Non-Jailbroken.ipa",
+                    "size": 13415869,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b4",
+                    "date": "2023-01-26T14:29:31Z",
+                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b3...v4.0.0b4.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Removed OpenGL ES from the list of available video backends.\r\n* Removed cubeb from the list of available audio backends.\r\n* Added the ability for DolphiniOS to shutdown the Dolphin core if the app is being terminated.\r\n* Fixed a bug where the video output would not extend past the area where the home indicator is on devices without a home button.\r\n* Fixed a bug where \"Extensions\" in Wii Remote configuration would show as a regular `ControlGroup` editing view controller on release builds instead of an extension editor.\r\n\r\n## Developer Changes\r\n\r\n* Replaced a call to `[UIDocumentPickerViewController initWithDocumentTypes:inMode:]`, which was deprecated in iOS 14.\r\n  * The app now links with `UniformTypeIdentifiers.framework` to be able to use `UTTypes`.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b4/Non-Jailbroken.ipa",
+                    "size": 13415662,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b3",
+                    "date": "2023-01-23T18:36:51Z",
+                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b2...v4.0.0b3.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Added new performance statistics options from the latest official Dolphin builds (courtesy of samb).\r\n  * If you are looking for the \"Show FPS\" option, it has now been moved to the \"Advanced\" menu.\r\n* Added new texture filtering options from the latest Dolphin builds (#41).\r\n* Added a prompt for importing the default profile when changing the default device for a controller.\r\n* Added an About screen.\r\n* Added settings for fastmem (#29) and Sync on Idle Skip to the Debug menu.\r\n* The home indicator on devices without a home button is now hidden during emulation (#39).\r\n* A device refresh is now automatically requested when entering the Devices menu while configuring a controller.\r\n* Fixed a bug where TrollStore builds would use the user folder intended for builds installed via Sileo / Cydia / etc.\r\n* Fixed a bug where builds installed via Sileo / Cydia / etc. crashed on launch.\r\n* Fixed a bug where the gyroscope and accelerometer on physical controllers was inverted.\r\n* Fixed a bug where closing the app and reopening it after manually pausing emulation would unpause emulation automatically.\r\n* Fixed a bug where `gcm`, `tgc`, and `gcz` files were not detected as valid disc images.\r\n\r\n## Developer Changes\r\n\r\n* Fix bartycrouch not being detected on Apple silicon computers when installed via Homebrew (#36).",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b3/Non-Jailbroken.ipa",
+                    "size": 13414159,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b2",
+                    "date": "2023-01-19T04:00:21Z",
+                    "localizedDescription": "* Updated Dolphin core version to 5.0-18273.\r\n* Added option for VI Skip to Settings -> Graphics -> Hacks.\r\n* Fixed the app container not being created on TrollStore builds (#21 - thanks opa331).\r\n* Fixed the CPU clock override text not updating correctly (#22).\r\n* Added mitigations against crashes in JITMemoryTracker (#33).\r\n* Added mitigations against crashes when stopping emulation (#32).",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b2/Non-Jailbroken.ipa",
+                    "size": 13158027,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b1",
+                    "date": "2023-01-08T20:19:15Z",
+                    "localizedDescription": "Pre-beta for Discord.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b1/Non-Jailbroken.ipa",
+                    "size": 13147368,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.0.0b5",
+                    "date": "2026-06-16T21:42:57Z",
+                    "localizedDescription": "* Fixed TXM check for non-jailbroken devices running iOS 26.6 or newer. (thanks @StephenDev0)\r\n  * iOS 27 is still broken and requires additional work.\r\n\r\nThe next update will be sometime after the next official Dolphin release. It will include a core update.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b4...v5.0.0b5",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b5/Non-Jailbroken.ipa",
+                    "size": 17963147
                 }
             ],
             "appPermissions": {
@@ -884,6 +651,440 @@
                     "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.1.1](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.1.1).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n> [!NOTE]\r\n> We're aware of reports that Reddit has started revoking some users' API keys. Please see [our new updated instructions](https://github.com/Apollo-Reborn/Apollo-Reborn#dont-have-an-api-key) for workarounds.\r\n>\r\n> AltStore, SideStore, Feather sources can be found at https://apolloreborn.app/#download\r\n\r\n- Fix a **crash when sharing a post to Messages or Mail** from the share sheet \u2014 the system compose controller was misidentified as an Apollo composer, leaving GIF-toolbar injection timers that dereferenced the dismissed share UI and crashed (#378: @nickclyde)\r\n- Fix **Reddit login on iOS 15** by automatically falling back to Old Reddit, and add an Old Reddit button to the auth view for users who need to switch manually (#377: @DeltAndy123)\r\n- Fix **video controls** overlay rendering, including the AirPlay button getting clipped or misaligned (#383: @JeffreyCA)\r\n- Fix **flair alignment** so post and user flairs no longer sit too low or clip their text (#389: @JeffreyCA)\r\n- Fix **Color Flairs** reverting to grey or the wrong shade after returning to Apollo from the background (#391: @icpryde)\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.1.1/Apollo-Reborn-3.1.1-GLASS-NOEXTENSIONS.ipa",
                     "size": 102353234
+                },
+                {
+                    "version": "1.15.11_3.2.0",
+                    "date": "2026-06-16T11:04:58Z",
+                    "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.2.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.2.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n> [!NOTE]\r\n> Stay tuned for our next upcoming release, bringing  ***even more*** new features like signing in without API keys, Picture-in-Picture (PiP), build your own theme, Img Chest image uploads, Apple on-device translations, redesigned subreddit sidebar, community highlights, and more!\r\n\r\n### Features\r\n\r\n- New **Apollo Reborn Widgets** \u2014 nine Home Screen, Lock Screen, and StandBy widgets (Showerthoughts, Jokes, Post, Feed, Photo, Shortcuts, Apollo Actions, Calendar, and Headline) (#406: @jordanearle)\r\n  - To configure widgets: copy the one-time setup code from **Settings > Apollo Reborn > Copy Widget Setup Code**. Then, long-press any widget \u2192 Edit Widget \u2192 paste into Setup Code.\r\n  - Requires iOS 17 or later. Widgets do not work on iOS 26 if sideloading with Sideloadly - please use an alternative instead. The `NOEXTENSIONS` IPA variant **does not** include widgets.\r\n\r\n    <img width=\"300\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0786ef40-83d0-4369-9824-73a479cacdb0\" />\r\n    <img width=\"300\" alt=\"image\" src=\"https://github.com/user-attachments/assets/eba1d9a2-ad93-4001-917d-0339b470c316\" />\r\n\r\n- Add a **Universal OAuth Sign-In** toggle in **Settings > Apollo Reborn** (on by default) to fall back to Apollo's native sign-in if the in-app login causes trouble (#432: @JeffreyCA)\r\n  - All IPAs released from now on have `dystopia` and `redreader` URL schemes already registered so no need to manually edit Info.plist anymore\r\n- Add a **manual sign-in fallback** for older iOS versions that can't load Reddit's login page, using an external browser and an Apollo Reborn userscript to paste a sign-in code back into Apollo (#430: @DeltAndy123; sign-in keyboard improvements by @Alstruit)\r\n- Add a **Text Post Thumbnails** toggle in **Settings > Apollo Reborn > Media** (on by default) \u2014 text posts that embed an image now show a thumbnail with a **Text Post** badge, and tapping it opens the image in the media viewer instead of the thread (#426: @icpryde)\r\n- Add **Hide Mod Subreddits** to remove moderated subreddits you can't leave from the Subreddits list \u2014 tap Edit, then the blue button to hide a subreddit and the green button to bring it back (#424: @icpryde)\r\n- Show **moderator reports** as native inline sections in the post and comment action menu (#412: @JeffreyCA)\r\n- Make the **banned-profile overlay** dismissable (#409: @JeffreyCA)\r\n- Combine cache-clearing options into one **Clear Tweak Caches** button under a renamed **Data** section (#409: @JeffreyCA)\r\n\r\n### Fixes\r\n\r\n- Show the **author avatar and subreddit icon** in **Share as Image** post exports, so the image matches what you see in the app (#438: @icpryde)\r\n- Fix several **link card glitches in feeds** \u2014 cards whose text overflowed into the post below, Bluesky posts losing their paragraph breaks, compact cards stuck at full height, and blank image areas on links whose thumbnail isn't ready yet (#427: @icpryde)\r\n- Fix **gallery GIFs** getting stuck on a loading spinner when swiping between items in an album (#404: @JeffreyCA)\r\n- Fix comment and post text showing a literal **`&#x200B;`** or an extra blank line at the end (#405: @JeffreyCA)\r\n- Fix **comment scrolling freezing** in threads that contain a link to removed media, such as a deleted `v.redd.it` video (#395: @JeffreyCA)\r\n- Fix spurious **\"error :(\" overlay** appearing over videos that play fine but whose preview image fails to load (#409: @JeffreyCA)\r\n- Fix **Live Activities** not updating on secret-protected self-hosted notification backends (#411: @nickclyde)\r\n- Fix an **installation conflict** when upgrading from some older versions (#401: @Alstruit)\r\n- Bundle **libFLEX inside the app** so rootless jailbreak users can keep the standalone libFLEX package installed without it conflicting with Apollo Reborn (#437: @iCrazeiOS)\r\n\r\n\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.2.0/Apollo-Reborn-3.2.0-GLASS-NOEXTENSIONS.ipa",
+                    "size": 102389411
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Asspp",
+            "bundleIdentifier": "wiki.qaq.Asspp",
+            "marketplaceID": "",
+            "developerName": "Lakr233",
+            "subtitle": "The App Store for your multi-account eco system.",
+            "localizedDescription": "Seamless multi-account App Store management.\nKey Features\n- Multi-Account: Supports multiple Apple IDs\n- Region Selection: Choose your App Store region\n- App Search: Search for apps by keywords\n- App Download: Download apps from the App Store\n- IPA Install: Install IPAs on non-jailbroken devices\n- IPA Sharing: Share IPA files easily\n- Historical Versions: Download previous app versions\n- Free App Purchase: Purchase free apps",
+            "iconURL": "https://raw.githubusercontent.com/Lakr233/Asspp/refs/heads/main/Asspp/App/Assets.xcassets/AppIcon.appiconset/asspp_512.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": {
+                "iphone": [
+                    "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_iPhone.png"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://github.com/Lakr233/Asspp/raw/main/Resources/Screenshots/README_PREVIEW_MAC.png",
+                        "width": 3006,
+                        "height": 1654
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "3.0.25",
+                    "date": "2025-10-16T21:15:10Z",
+                    "localizedDescription": "## What's Changed\r\n* Fix macOS login sheet by @LiYanan2004 in https://github.com/Lakr233/Asspp/pull/48\r\n* Update macOS password field style\r\n* Update macOS installer with more detailed error information\r\n* Update App icons with more accurate corner radius\r\n\r\n## New Contributors\r\n* @LiYanan2004 made their first contribution in https://github.com/Lakr233/Asspp/pull/48\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/3.0.24...3.0.25",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.25/Asspp.ipa",
+                    "size": 10917639,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.24",
+                    "date": "2025-10-10T07:56:08Z",
+                    "localizedDescription": "## What's Changed\r\n* macOS Support\r\n\r\n--- \r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n\r\n- \u652f\u6301 macOS\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.20...3.0.24",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/3.0.24/Asspp.ipa",
+                    "size": 10915165,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.20",
+                    "date": "2025-09-19T19:40:57Z",
+                    "localizedDescription": "## Release Notes\r\n* Added SideStore source\r\n* Added support for dark icons\r\n* Fixed the auto-pop issue on iOS 16 ~ iOS 18\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20\r\n\r\n---\r\n\r\n## \u66f4\u65b0\u65e5\u5fd7\r\n* \u652f\u6301 SideStore \u6e90\r\n* \u521d\u6b65\u9002\u914d\u6df1\u8272\u56fe\u6807\r\n* \u4fee\u590d iOS 16 ~ iOS 18 \u9875\u9762\u81ea\u52a8\u8fd4\u56de\u7684\u95ee\u9898\r\n\r\n**\u5b8c\u6574\u53d8\u66f4**\uff1ahttps://github.com/Lakr233/Asspp/compare/2.3.19\u20262.3.20",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.20/Asspp.ipa",
+                    "size": 10219280,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.18",
+                    "date": "2025-09-17T03:40:02Z",
+                    "localizedDescription": "## What's Changed\r\n* Adopt Liquid Glass by @bo2themax in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n## New Contributors\r\n* @bo2themax made their first contribution in https://github.com/Lakr233/Asspp/pull/37\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/2.2.16...2.3.18",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.3.18/Asspp.ipa",
+                    "size": 9951832,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.2.16",
+                    "date": "2025-09-16T06:58:25Z",
+                    "localizedDescription": "# Release Notes: From 1.x to 2.2.16\r\n\r\nThis release enhances functionality, stability, and user experience.\r\n\r\n## New Features\r\n- You can now view and download historical versions of apps.\r\n\r\n## Improvements\r\n- Improved search experience.\r\n- Improved handling of server-provided instructions.\r\n- Improved user experience on iOS 26.\r\n\r\n## Changes\r\n- On-device installer now uses a new certificate valid for 2 years.\r\n- Complete redesign of API backend with updated APIs.\r\n\r\n## Bug Fixes\r\n- Fixed issues with account login.\r\n- Fixed application purchasing issues.\r\n- Fixed downloading issues with improved cookie handling.\r\n- Resolved logical issues with two-factor authentication.\r\n\r\n## Other Changes\r\n- Updated files and configs for new features.\r\n\r\nWe hope you enjoy the new release!\r\n\r\n**Full Changelog**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**New Contributors**: @bo2themax, @lbr77\r\n\r\n# \u66f4\u65b0\u65e5\u5fd7\uff1a\u4ece 1.x \u5230 2.2.16\r\n\r\n\u672c\u6b21\u66f4\u65b0\u589e\u5f3a\u4e86\u529f\u80fd\u6027\u3001\u7a33\u5b9a\u6027\u4e0e\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u65b0\u529f\u80fd\r\n- \u73b0\u5728\u60a8\u53ef\u4ee5\u67e5\u770b\u5e76\u4e0b\u8f7d\u5e94\u7528\u7684\u5386\u53f2\u7248\u672c\u4e86\u3002\r\n\r\n## \u6539\u8fdb\r\n- \u4f18\u5316\u4e86\u641c\u7d22\u4f53\u9a8c\u3002\r\n- \u6539\u8fdb\u4e86\u5bf9\u670d\u52a1\u5668\u6307\u4ee4\u7684\u5904\u7406\u3002\r\n- \u6539\u5584\u4e86\u5728 iOS 26 \u4e0a\u7684\u7528\u6237\u4f53\u9a8c\u3002\r\n\r\n## \u53d8\u66f4\r\n- \u8bbe\u5907\u7aef\u5b89\u88c5\u5668\u73b0\u5df2\u4f7f\u7528\u65b0\u7684\u8bc1\u4e66\uff0c\u6709\u6548\u671f\u4e3a 2 \u5e74\u3002\r\n- \u5f7b\u5e95\u91cd\u6784\u4e86 API \u540e\u7aef\uff0c\u5e76\u66f4\u65b0\u4e86\u76f8\u5173\u63a5\u53e3\u3002\r\n\r\n## \u95ee\u9898\u4fee\u590d\r\n- \u4fee\u590d\u4e86\u8d26\u6237\u767b\u5f55\u76f8\u5173\u7684\u95ee\u9898\u3002\r\n- \u4fee\u590d\u4e86\u5e94\u7528\u8d2d\u4e70\u65f6\u9047\u5230\u7684\u95ee\u9898\u3002\r\n- \u901a\u8fc7\u6539\u8fdb Cookie \u5904\u7406\uff0c\u4fee\u590d\u4e86\u4e0b\u8f7d\u95ee\u9898\u3002\r\n- \u89e3\u51b3\u4e86\u4e24\u6b65\u9a8c\u8bc1\u4e2d\u7684\u903b\u8f91\u95ee\u9898\u3002\r\n\r\n## \u5176\u4ed6\u53d8\u66f4\r\n- \u4e3a\u652f\u6301\u65b0\u529f\u80fd\uff0c\u66f4\u65b0\u4e86\u76f8\u5173\u6587\u4ef6\u4e0e\u914d\u7f6e\u3002\r\n\r\n\u5e0c\u671b\u60a8\u559c\u6b22\u8fd9\u6b21\u66f4\u65b0\uff01\r\n\r\n**\u5b8c\u6574\u66f4\u65b0\u65e5\u5fd7**: https://github.com/Lakr233/Asspp/compare/1.2.10.patch-1...2.2.16\r\n**\u65b0\u8d21\u732e\u8005**: @bo2themax, @lbr77\r\n",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/2.2.16/Asspp.ipa",
+                    "size": 9912930,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.1.1",
+                    "date": "2026-02-20T17:26:46Z",
+                    "localizedDescription": "### New Features\n- **macOS Installed Apps tab** \u2014 view and update apps on connected devices\n- **In-app logging** \u2014 built-in log viewer for debugging\n- **Chinese localization** (zh-Hans)\n- **iTunesMetadata injection** \u2014 IPAs now include proper App Store metadata\n\n### Improvements\n- Migrated to `@Observable` and modern SwiftUI patterns\n- Modernized UI with AsyncButton, grouped Form style, and enriched package details\n- Fixed buttons not tappable in iOS Settings\n\n### Bug Fixes\n- **Fixed login failure due to empty response body** \u2014 login now works correctly\n- Fixed install failure message not showing\n- Fixed macOS login sheet",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.1.1/Asspp.ipa",
+                    "size": 13586686
+                },
+                {
+                    "version": "4.2.0",
+                    "date": "2026-06-12T08:23:55Z",
+                    "localizedDescription": "Release 4.2.0",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.0/Asspp.ipa",
+                    "size": 15153128
+                },
+                {
+                    "version": "4.2.1",
+                    "date": "2026-06-14T02:47:42Z",
+                    "localizedDescription": "Release 4.2.1",
+                    "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.1/Asspp.ipa",
+                    "size": 15162563
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "PancakeStore",
+            "bundleIdentifier": "com.jbdotparty.PancakeStore",
+            "marketplaceID": "",
+            "developerName": "jailbreakdotparty",
+            "subtitle": "MuffinStore Jailed, with UI.",
+            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
+            "tintColor": "#c64000",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "date": "2025-12-26T16:26:45Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
+                    "size": 777601,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-12-20T20:14:48Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
+                    "size": 751441,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2026-02-27T02:18:24Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- PancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\r\n\r\n## UI Updates\r\n- Added a proper UI for iPads.\r\n- Cleaned up multiple components, updated PartyUI.\r\n- Added a settings page.\r\n- Code reorganization.\r\n\r\n## QoL Improvements\r\n- When the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\r\n- Added more information about the app while it's downgrading.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.1/PancakeStore_v1.1.ipa",
+                    "size": 1132982
+                },
+                {
+                    "version": "1.2",
+                    "date": "2026-06-12T05:52:23Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- **PancakeStore has been fixed again.** Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\r\n- **Improved error handling.** The app should no longer abruptly exit when things go wrong.\r\n- **Auto-clean.** The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\r\n\r\n## Added Features\r\n- **Share Extension.** PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\r\n- **Export IPA.** You can export the IPA after the app has been downgraded. Probably useful for research or archival.\r\n\r\nThank you everybody for your patience and support!",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
+                    "size": 1936006
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Fur Affinity",
+            "bundleIdentifier": "ceylo.FurAffinity",
+            "marketplaceID": "",
+            "developerName": "Ceylo",
+            "subtitle": "Unofficial iOS app for furaffinity.net",
+            "localizedDescription": "\ud83d\udc3e Connect with your furaffinity.net account and enjoy the furry community in a native app.\n\ud83d\udcf1 FEATURES\n- Browse the latest submissions from your followed artists, add favorites and leave comments!\\n- Read and participate to artists journals.\n- Check received notes and notifications.\n- Browse user profiles to check their content and eventually follow them!\nThis app is opensource and its sources are available at https://github.com/Ceylo/FurAffinityApp\n\ud83d\udd17 Website: https://furaffinity.app\nPrivacy policy: https://github.com/Ceylo/FurAffinityApp/blob/main/Privacy%20Policy.md",
+            "iconURL": "https://get.furaffinity.app/altstore/AppIconLG.heic",
+            "tintColor": "#0cc800",
+            "category": "social",
+            "screenshots": [
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/feed.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/submission.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/notifications.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/notes.heic",
+                    "width": 1170
+                },
+                {
+                    "height": 2532,
+                    "imageURL": "https://get.furaffinity.app/altstore/releases/1.15/screenshots/note reply.heic",
+                    "width": 1170
+                }
+            ],
+            "versions": [
+                {
+                    "version": "1.15.1",
+                    "date": "2025-11-29T10:38:59Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed submissions loading after 28th November furaffinity.net website update\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.15.1/FurAffinity-1.15.1-0c0d3ff.ipa",
+                    "size": 22693828,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.15",
+                    "date": "2025-11-05T20:39:04Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Further improved iOS 26 integration\r\n- Updated app icon to support iOS 18 dark mode and iOS 26 transparent mode (https://github.com/Ceylo/FurAffinityApp/issues/15)\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a crash happening when deleting the last submission during a refresh (https://github.com/Ceylo/FurAffinityApp/issues/19)\r\n- Fixed submission previews still loading during scroll instead of being preloaded\r\n- Fixed the submission save control looking enabled too early on iOS 26\r\n- Fixed a crash when viewing a submission after clearing the app cache\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.15/FurAffinity-1.15-aefe23e.ipa",
+                    "size": 22693450,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.14",
+                    "date": "2025-09-14T10:36:40Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- iOS 26 support: adopted Liquid Glass design\r\n- Submissions and submission previews are now displayed full width\r\n- The submissions feed now highlights the submission title rather than the author\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Note editor now allows the . (dot) and - (dash) characters in static name field\r\n- Fixes following furaffinity.net website updates:\r\n  - Fixed loading of users Watching and Watched By lists\r\n  - Fixed text color in dark mode on comments and submission and journal descriptions",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.14/FurAffinity-1.14-2a8463b.ipa",
+                    "size": 3039727,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.13.1",
+                    "date": "2025-07-06T08:20:48Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed loading of submissions that contain tags considered as invalid since June 30th website update (https://github.com/Ceylo/FurAffinityApp/issues/17)",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.13.1/FurAffinity-1.13.1-549a33b.ipa",
+                    "size": 2634993,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.13",
+                    "date": "2025-06-28T11:15:17Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\nVersion 1.13 is focused on social interactions!\r\n\r\n# \ud83d\udcf1 Features\r\n- The app fully embraces FA's Display Names update: Notes tab, Notes, User pages, shouts and comments now show both the Display Name and the user's static name, to better let you know who you're actually interacting with\r\n- The app now allows sending notes, either from the revamped Notes tab, when viewing a Note or from a user's page\r\n- The Notes tab now allows switching between your Inbox or Sent notes\r\n- The Notes tab gets a new filter control to only display unread notes\r\n- The toolbar is widely revisited with many more actions available from the top right icon:\r\n  - most pages now have a Share Link action\r\n  - submission pages also get a Favorite, Save Image, Share Image and Reply actions\r\n  - user pages get a Watch and Send a Note actions\r\n  - notes get a Reply action\r\n  - Notes tab gets Inbox, Sent and Send a Note actions\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- User page design is slightly revisited\r\n- Tapping a user icon in the Notes tab now opens the user's page\r\n- Error reporting has been improved: if posting a comment or sending a note fails, an alert gives a more useful error description\r\n- Reading a note now immediately marks it as read in the app\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.13/FurAffinity-1.13-fcc946e.ipa",
+                    "size": 2635002,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.12.1",
+                    "date": "2025-06-18T20:23:58Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Around 17th June 2025, [furaffinity.net](https://www.furaffinity.net/) website was updated and removed the Gender information on submissions. This prevented submissions from displaying in the app and has now been resolved (issue #16).",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.12.1/FurAffinity-1.12.1-57dc12a.ipa",
+                    "size": 2564535,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.12",
+                    "date": "2025-03-08T23:03:44Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Support for user gallery folders: a new folder icon is displayed in the toolbar when navigating to any user gallery or folder. It provides a menu to navigate to any other folder of this user\u2019s gallery, including to their Scraps.\r\n- When tapping on a shout or comment notification, in addition to opening the relevant page, the app will now scroll and highlight the relevant comment.\r\n- Submissions in the Submissions tab can now be removed one by one through a swipe action (issue #11).\r\n- Submissions display a new metadata control. It allows viewing all the submission metadata, such as image resolution, rating, category, view count, keywords and the folders to which this submission belongs. The folder items are interactive and can be used to navigate to the chosen folder.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- On 3rd March 2025, [furaffinity.net](https://www.furaffinity.net/) website was updated in order to support the new display name feature. This affected many parts of the app with missing information or the inability to load user profiles or notes, or missing notifications. This has been resolved (issue #12).\r\n- The app includes an auto-refresh feature for the Submissions feed, Notes and Notifications tab, when you open the app again and after some delay. This behavior was not working for the Notes and Notifications tab if the tab had never been opened since the app was launched. This is now resolved.",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.12/FurAffinity-1.12-7146d2d.ipa",
+                    "size": 2565738,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.11",
+                    "date": "2025-01-10T22:47:02Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Improved submission fullscreen view: you can now use a single tap to display a submission zoomed in and in fullscreen. Then tap one more time to change again the zoom level.\r\n- The Notifications tab now displays a badge when you have notifications. By default, all supported types of notifications are taken into account, except journal notifications. You can change this behavior in the Settings tab.\r\n- Scrolling through a user's gallery, scraps or favorites now automatically loads the next page when needed. This effectively makes scrolling infinite as long as more content is available.\r\n- User's gallery, scraps and favorites now have a search field at the top. Combined with infinite loading, this effectively allows searching through a full gallery, scraps or favorites of any user. Search is case insensitive and done on the submissions title and author.\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- Submissions and journals where comments have been disabled is now reflected in the app: the comment icon has a different color and tapping it will inform that posting a comment is not possible.\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.11/FurAffinity-1.11-037de74.ipa",
+                    "size": 2468515,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.10",
+                    "date": "2024-10-21T09:32:26Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Submissions featuring animated GIFs are now displayed animated. Downloading also preserves the animation\r\n- Avatars using an animated GIF are now displayed animated by default. A setting was added in case you prefer to disable avatar animations\r\n- Avatars and submission thumbnails are now loaded in advance, so you'll mostly not see them loading anymore\r\n- Scrolling through galleries and the submissions feed has again been made much smoother\r\n- User profiles now give access to the user's journals\r\n- In addition to swiping to the left, replying to comments is now also available through long press\r\n- Touching avatars in notifications now opens the corresponding user profile\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a rare case where the submission zoomable sheet could be opened before the full submission is actually loaded\r\n- Fixed a rare crash that could happen when deleting notifications one by one\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- \u26a0\ufe0f iOS 16 support has been removed, iOS 17.4 or later is now required\r\n- The top right action button in Notifications tab doesn't display the Nuke action anymore for types of notifications whose section is already empty\r\n- Logging out will now forget what was the last viewed submission. Logging in to the same or a different account will then display the latest submissions instead of going back to this last viewed submission\r\n- A new item in the Settings tab allows deleting cached files\r\n- Haptic feedback has been added when a download is successful, a submission is marked as favorite, a comment has been successfully submitted or when you watch a user\r\n- When Notifications and Notes tabs are empty, they can now be pulled to refresh",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.10/FurAffinity-1.10-2d0ba50.ipa",
+                    "size": 2375521,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.9.1",
+                    "date": "2024-10-02T10:19:03Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n\r\n- Fix ability to refresh the submissions feed when it is empty (regression from 1.9.0, https://github.com/Ceylo/FurAffinityApp/issues/8)\r\n- Fix the submissions feed loading after app start when it tries to restore the feed position to a submission that is now gone, for instance after nuking all submission notifications (regression from 1.9.0, https://github.com/Ceylo/FurAffinityApp/issues/8)",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.9.1/FurAffinity-1.9.1-6606733.ipa",
+                    "size": 2209993,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.9.0",
+                    "date": "2024-09-16T18:01:17Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Shout notifications are now displayed in the Notifications tab\r\n- User watch and \"watched by\" lists are now accessible from user profiles. Additionally, the watchlist features a search field allowing to look for a specific user\r\n- The scroll position of the submissions feed is now preserved when restarting the app\r\n- Speed improvements:\r\n    - Until furaffinity.net answers and provide the full data, user profiles now first display a preview content instead of a progress indicator\r\n    - A lot more avatars get cached and are thus available for early display\r\n    - Scrolling through favorites is much smoother\r\n    - Submissions or journals with many comments are loaded much faster\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fix new submissions notification bubble sometimes not dismissing\r\n- Fix navigation bar sometimes becoming bigger when navigating back\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- The login screen has been redesigned\r\n- Analytics have been migrated from \"Microsoft AppCenter\" to \"Amplitude\"",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.9.0/FurAffinity-1.9.0-75b71f0.ipa",
+                    "size": 2208262,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.8.0",
+                    "date": "2024-07-03T10:53:19Z",
+                    "localizedDescription": "# Features\r\n- User view now gives access to the user's gallery, scraps, favorites and shouts. Users can also be followed or unfollowed.\r\n- Hide furaffinity.net latency on submissions loading by first displaying the thumbnail when possible\r\n- Display hidden/deleted comments in comment threads\r\n- Display journal comment notifications in the Notifications tab\r\n- Display the number of favorites and comments next to their respective controls in submissions\r\n- Notes sent by a deleted user are now properly displayed\r\n- New app icon designed by [BAKA.RASU](https://www.instagram.com/baka.rasu/) \ud83c\udf89\r\n- New AltStore source for easier installation and update! See [ReadMe](https://github.com/Ceylo/FurAffinityApp?tab=readme-ov-file#installation-with-altstore) for more details.\r\n\r\n# Misc\r\n- More resilient notifications loading\r\n- Preserve link color as chosen by FA users instead of forcing it to be blue\r\n- Many UI improvements, including in particular clearer comments UI through the use of bubbles\r\n\r\n# Bug fixes\r\n- Fix crash when deleting a notification\r\n- Fix transparent tab bar on iOS 17\r\n- Fixed temporarily incorrect contents layout when loading a submission, note or journal\r\n- Fix loading of the user view for banned users\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.8.0/FurAffinity-1.8.0-58b3697.ipa",
+                    "size": 1920345,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.7.0",
+                    "date": "2023-05-11T20:22:39Z",
+                    "localizedDescription": "# Features\r\n- Extended in app navigation: opening links to journals now displays them within the app. Journals feature the same controls (including comments) as submissions, except the `Download` and `Favorite` controls.\r\n- New \"Notifications\" tab: this lists all submission comment and journal notifications from https://www.furaffinity.net/msg/others/ and lets you jump to the corresponding submission or journal from there.\r\n- The \"Notifications\" screen provides a control in top right to nuke all submission comment or journal notifications.\r\n- Draft comments on the current submission or journal are saved until posted. So you can freely go back and check the submission or journal details before continuing your own comment. Leaving the submission or journal will discard the draft.\r\n- The comment editor now displays the comment you're answering to.\r\n\r\n# Misc\r\n- Pages now display a progress indicator instead of staying empty while waiting for furaffinity.net servers to provide the target web page.\r\n- The Submissions tab will not automatically refresh anymore if it's not currently displayed (eg. you're on another tab or have opened some submission). This prevents scrolling away from your last seen submission in the feed.\r\n\r\n# Bug fixes\r\n- Links to pages that were supported for in app navigation now also work from comments.\r\n- Fix a \"loading failed\" message appearing when a user whose name contains special characters is involved in the target page.",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.7.0/FurAffinity-1.7.0-db72f89.ipa",
+                    "size": 1513038,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.6.0",
+                    "date": "2023-03-30T21:55:51Z",
+                    "localizedDescription": "# Features\r\n- In app navigation:\r\n  - supported links now open a new native view within the app instead of opening the web browser\r\n  - navigation \"Back\" control now displays the name of the parent view\r\n  - keeping this \"Back\" control pressed allows moving back several navigation steps at once\r\n- Supported in app links include submissions and user pages\r\n  - Submission view is mostly identical to the previous version. It now displays when the submission was published.\r\n  - User page displays the user banner, avatar, name and profile description. It'll be later improved to give access to more content such as the user gallery.\r\n  - Most places where a user avatar is displayed can be touched to open this user's view.\r\n- New Profile tab: this new tab displays your own user page within the app.\r\n- The control to open the current view in your web browser is standardized to now always appears in the top right of the navigation bar\r\n- All displayed date & time label can now be touched to toggle between relative and absolute date & time\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.6.0/FurAffinity-1.6.0-3488177.ipa",
+                    "size": 1426768,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.5.0",
+                    "date": "2023-01-23T22:42:11Z",
+                    "localizedDescription": "# Features\r\n- You can now post comments on submissions directly from the app:\r\n  - Post a new comment with the reply button next to the other controls.\r\n  - Reply to existing comments with a swipe gesture.\r\n- A menu is added in top-right corner of the submission feed.\r\n  - For now it only contains an entry to nuke all submission notifications and does the same as \"Nuke\" button from [submissions page](https://www.furaffinity.net/msg/submissions/) on FA. This answers issue https://github.com/Ceylo/FurAffinityApp/issues/3\r\n- A new Refresh button is added when the submissions feed is empty, since in this state there's no scrolling and no pull to refresh.\r\n- When the submissions feed is refreshed (either automatically or manually), there's now a notification even when no new submission is available. This better shows that the refresh was actually performed.\r\n- Each submission can now be pulled to be refreshed.\r\n- The Settings tab now displays a badge when an update is available.\r\n\r\n# Misc\r\n- The app now requires iOS 16.1 or later.\r\n- The app internal identifier was changed. Once installed it will be considered as a new app. You can safely delete previous versions of the app.\r\n- iPad layout is disabled, the app was already not adapted to iPad display size so this is just a _safety_ measure\r\n- A new [Privacy Policy document](https://github.com/Ceylo/FurAffinityApp/blob/main/Privacy%20Policy.md) was added",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.5.0/FurAffinity-1.5.0-9054c0a.ipa",
+                    "size": 1397023,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.4.1",
+                    "date": "2022-12-11T14:29:13Z",
+                    "localizedDescription": "# Bugfixes\r\n- Fixed clipping of submissions description\r\n- Fixed avatar loading after November website update\r\n- Fixed comments loading after November website update\r\n- Fixed an issue in avatar caching that would provide expired avatars\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.4.1/FurAffinity-1.4.1-77e2338.ipa",
+                    "size": 1195266,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.4.0",
+                    "date": "2022-10-31T18:55:26Z",
+                    "localizedDescription": "# Features\r\n- Comments are now displayed in Submission screen\r\n\r\n# Bugfixes\r\n- Submissions with updated title don't show up as new submission anymore\r\n- A message is now displayed in Submissions and Notes tab instead of an empty list when there's no note or submission to show \r\n\r\nHere's an example of how comments look for https://www.furaffinity.net/view/49593180/:\r\n<img src=\"https://user-images.githubusercontent.com/451334/199089993-f1b5470f-2c22-43b2-9c70-4b216563282e.jpg\" width=25% height=25%>\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.4.0/FurAffinity-1.4.0-42115fe.ipa",
+                    "size": 1110874,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2022-10-13T21:28:57Z",
+                    "localizedDescription": "- Application logs can now be exported from the Settings tab for debugging purpose",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.2/FurAffinity-1.3.2-729e6f7.ipa",
+                    "size": 1153463,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.1",
+                    "date": "2022-10-02T16:29:13Z",
+                    "localizedDescription": "# Bugfixes\r\n- iOS 16: Fix scrolling behavior when refreshing: last submission before refresh remains on screen\r\n- iOS 16: Preserve session after killing the app",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.1/FurAffinity-1.3.1-827a647.ipa",
+                    "size": 1140936,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.0",
+                    "date": "2022-10-01T12:28:24Z",
+                    "localizedDescription": "# Features & improvements\r\n- Handoff/Continuity support: if your iPhone and Mac are using to the same Apple ID, your Mac will display a web browser icon in the Dock while browsing a specific submission or note in this app ; clicking that icon will open the matching page from furaffinity.net in your web browser on your Mac\r\n- Notes tab now displays a badge when you have unread notes\r\n- Submissions can now be faved/unfaved from the app\r\n- Auto-refresh delay when opening the app is increased from 1mn to 15mn\r\n- Auto-refresh does not happen anymore when just switching tabs, you can still pull to refresh as you want\r\n- Auto-refresh on Submissions tab will only happen if it is scrolled to the top, to prevent losing current scroll position among submissions\r\n- Faster users' avatar loading: avatar URL is now cached for some days to reduce the number of network requests made to furaffinity.net. Avatar images remain cached automatically as before.\r\n\r\n# Bugfixes & admin features\r\n- Network requests to furaffinity.net now use a custom agent to be identifiable by Fur Affinity administrators\r\n- Fixed a crash happening when trying to read a submission that had been deleted in the meantime\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.3.0/FurAffinity-1.3.0-91b90cc.ipa",
+                    "size": 1135299,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.0",
+                    "date": "2022-06-04T13:35:52Z",
+                    "localizedDescription": "- Fixed user icons loading\r\n- Notes can now be opened in web browser\r\n- Settings tab now displays app information and whether a new version is available",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.2.0/FurAffinity-1.2.0-4db20c2.ipa",
+                    "size": 8255546,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2022-04-14T17:48:04Z",
+                    "localizedDescription": "- Ability to list and read notes from inbox\n- Fixed a layout issue with text in submission details\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.1.0/FurAffinity-1.1.0-c2b6f85.ipa",
+                    "size": 5124122,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2022-04-07T18:32:52Z",
+                    "localizedDescription": "This is the initial release of FurAffinity iOS app. It features the following:\n- Ability to login with your furaffinity.net account\n- Display of the last submissions from your followed artists as a feed\n- Ability to view full resolution version of a submission, along with the description from the artist\n- Ability to share, download and open in your web browser a submission\n- Ability to zoom in the full resolution art\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.0.0/FurAffinity-1.0.0-cb403dc.ipa",
+                    "size": 4836124,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.16",
+                    "date": "2026-01-24T22:15:33Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Error handling has been reworked in order to show information in case a page fails to load or an action is not performed as expected. Previously the app could silently fail on some actions.\r\n- Added support for displaying furaffinity.net error messages (System Error and System Message)\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed a case where the app could stay on the furaffinity.net web view after logging in\r\n- Fixed display of journals title\r\n",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.16/FurAffinity-1.16-8f38b23.ipa",
+                    "size": 20223751
+                },
+                {
+                    "version": "1.16.2",
+                    "date": "2026-05-10T14:47:08Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Error handling shows a more useful message in case furaffinity.net has CloudFlare challenge currently active\r\n- Fixed submissions loading after early May's furaffinity.net website update",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.16.2/FurAffinity-1.16.2-3a1f679.ipa",
+                    "size": 20217864
+                },
+                {
+                    "version": "1.16.3",
+                    "date": "2026-05-14T13:16:52Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udc1e Bugfixes\r\n- Fixed again submissions loading after 13th May's furaffinity.net website update",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.16.3/FurAffinity-1.16.3-516ef13.ipa",
+                    "size": 20217707
+                },
+                {
+                    "version": "1.17",
+                    "date": "2026-06-07T16:40:19Z",
+                    "localizedDescription": "\ud83d\udcac The Fur Affinity app is available through AltStore PAL, AltStore World and SideStore. See https://furaffinity.app/ for more details.\r\n\r\n# \ud83d\udcf1 Features\r\n- Cloudflare challenges from furaffinity.net are now handled: the app solves them in the background, so browsing and logging in keep working when the site is behind Cloudflare.\r\n- The app now refreshes in the background and sends you local iOS notifications when there's something new for you: new submissions in your feed, new notes, and new notifications (favorites, comments, watches, shouts) \u2014 even while the app is closed\r\n- The Notes tab can now browse the Archive and Trash boxes in addition to Inbox and Sent\r\n- New swipe actions allow notes to be moved to Archive or Trash, and marked back as unread\r\n- A \"Send a Note\" action was added on submissions, and \"Comment\" and \"Send a Note\" actions were added to the journals menu\r\n\r\n# \ud83d\udce6 Miscellaneous\r\n- Settings now separate app badge counts from iOS notifications, so you can turn each on or off independently\r\n- The app now keeps an on-device log you can export to help diagnose issues, plus a new \"Clear Application Logs\" button in Settings\r\n\r\n\u26a0\ufe0f Note for AltStore Classic users: the app now contains an extension. You might get asked by AltStore upon installation whether you want to preserve the extension, which will count toward your weekly App ID limit. If you remove the app's extension, you'll lose preview of submissions on long press on iOS notifications.",
+                    "downloadURL": "https://github.com/Ceylo/FurAffinityApp/releases/download/1.17/FurAffinity-1.17-95521d8.ipa",
+                    "size": 12059533
                 }
             ],
             "appPermissions": {
@@ -11222,50 +11423,6 @@
             "patreon": {}
         },
         {
-            "name": "DLiPA",
-            "bundleIdentifier": "com.ahmedbafkir.dlipa",
-            "marketplaceID": "",
-            "developerName": "AhmedBafkir",
-            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
-            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
-            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2025-11-16T17:59:20Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
-                    "size": 480115,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-06-07T17:24:30Z",
-                    "localizedDescription": "Initial Release.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
-                    "size": 480247,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-02-22T21:04:04Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
-                    "size": 471971
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "LiveContainer Installer",
             "bundleIdentifier": "site.ashutoshportfolio.lcinstaller.app",
             "marketplaceID": "",
@@ -15316,142 +15473,6 @@
                     "downloadURL": "https://github.com/NeoFreeBird/app/releases/download/0.3/NeoFreeBird-0.3-Twitter-10.76-new-icons.ipa",
                     "size": 138000000,
                     "buildVersion": "",
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "DolphiniOS",
-            "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
-            "marketplaceID": "",
-            "developerName": "OatmealDome",
-            "subtitle": "Dolphin for iOS, reborn",
-            "localizedDescription": "DolphiniOS is a GameCube and Wii emulator for iOS and iPadOS. All iOS versions starting with 14.0 are supported, and no jailbreak is required!",
-            "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png",
-            "tintColor": "#007aff",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.0.0b4",
-                    "date": "2025-10-23T02:48:05Z",
-                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed a crash when using JIT on devices running iOS 26 with an A12, A13, A14, or M1 chip.\r\n* Added additional JIT information to the Debug menu to assist in debugging problems.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b3...v5.0.0b4",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b4/Non-Jailbroken.ipa",
-                    "size": 17963622,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0b3",
-                    "date": "2025-10-18T17:01:54Z",
-                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Added support for the Skylanders Portal of Power in Skylanders games for the Wii, courtesy of @deReeperJosh.\r\n  * Enable \"Emulate Skylander Portal\" in Settings -> Config -> Wii and select \"Skylanders Portal\" in the in-game menu to load a figure.\r\n* Fixed an issue where devices with an A15+ or M2+ chip running iOS 17 or 18 would crash when starting a game in JIT mode.\r\n* Fixed an issue where \"vm_map\" errors would randomly occur.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b2...v5.0.0b3",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b3/Non-Jailbroken.ipa",
-                    "size": 17963458,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0b2",
-                    "date": "2025-10-13T02:16:56Z",
-                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed an issue where some controller options would be incorrectly disabled.\r\n* Fixed an issue where there was a typo in text pertaining to \"memory size\" overrides.\r\n* Added additional alerts to help debug a crash on some devices running iOS 18 and older.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b1...v5.0.0b2",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b2/Non-Jailbroken.ipa",
-                    "size": 17958160,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0b1",
-                    "date": "2025-10-11T17:27:37Z",
-                    "localizedDescription": "* Added support for JIT on iOS 26.\r\n  * **[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** Using other JIT enablers may cause DolphiniOS to crash.\r\n* Enabled Liquid Glass on iOS 26.\r\n* Added new Liquid Glass app icons by Kongolabongo.\r\n* The Dolphin core was updated to 2509.\r\n  * Save states made in previous versions of DolphiniOS are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Sped up Cached Interpreter by approximately 10%, courtesy of TellowKrinkle. \r\n* The version number has been increased to 5.0.0 to prevent confusion with DolphiniOS forks.\r\n\r\n## For Developers\r\n\r\n* Due to changes made by Apple in iOS 26, Xcode is no longer a supported JIT enabler on devices utilizing TXM (A15+ or M2+) running iOS 26 or newer.\r\n  * If you are running DolphiniOS within Xcode, you will need to use Cached Interpreter or switch to an older device to use JIT.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b9...v5.0.0b1",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b1/Non-Jailbroken.ipa",
-                    "size": 17958943,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b9",
-                    "date": "2025-05-06T17:25:12Z",
-                    "localizedDescription": "* The Dolphin core has been updated to 2503a.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Fixed keyboards not showing up in the devices list in controller settings. (#201 by @SamoZ256)\r\n* Added a temporary fix for CMake 4.0+ compatibility.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b8...v4.0.0b9",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b9/Non-Jailbroken.ipa",
-                    "size": 16149753,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b8",
-                    "date": "2025-01-17T21:00:27Z",
-                    "localizedDescription": "This is the fourth revision of beta 8.\r\n\r\n### Changes\r\n\r\n* The Dolphin core has been updated to 2412.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Added new app icons based off the macOS icon introduced in Dolphin 2407. (thanks Kongolabongo and @brand175 for the new iOS icons, and thanks MayImilae for the original macOS icon)\r\n* No JIT mode (**very slow**) has been added. (thanks @brand175)\r\n  * When launching a game without JIT enabled, you can now choose to start it in No JIT mode.\r\n  * The \"waiting for JIT\" screen can be bypassed entirely by manually changing the CPU Emulation Engine in Settings -> Config -> Advanced to Cached Interpreter.\r\n  * No JIT mode is **very slow**. You will need a high-end device (like a recent iPhone or iPad Pro) and to enable speed hacks (VBI Skip, CPU underclock, etc) to achieve playable speeds.\r\n* Added a button to import BootMii NAND backups in the software list.\r\n  * This is useful for those who want to play Wiimmfi online.\r\n  * No JIT users beware: Wiimmfi will ban devices that run below 100% emulation speed in Mario Kart Wii. We recommend that Wiimmfi should only be used in JIT mode.\r\n* Added experimental support for rootless jailbreaks. \r\n* Added a menu to check which buttons are being pressed on physical controllers when mapping buttons.\r\n* Ported \"Respect Silent Mode\" toggle from Delta.\r\n  * This setting controls whether DolphiniOS obeys the Ring/Silent switch on your device. If disabled, then audio will play even if silent mode is enabled.\r\n  * Find it in Settings -> Config -> Audio.  \r\n* Added Game Mode for devices running iOS 18.\r\n* Re-implemented the touch screen Wii pointer.\r\n  * A new default mode has been added: \"drag\". This mode allows you to use your touch screen like a laptop trackpad when moving the Wii pointer.\r\n  * The mode used in 3.2.1 and earlier is still available as \"follow\" mode.\r\n  * Choose the mode you want as default in the top bar menu during emulation or in Settings -> Controllers -> Touchscreen.\r\n* Re-implemented automatic disc changing.\r\n  * When a game asks for a different disc, DolphiniOS will automatically insert the correct disc into the emulated disc drive.\r\n  * Both disc files must be imported (i.e. in the Software folder and visible in the software list) for this feature to work properly.\r\n  * If it still does not work, ensure that \"Change Disc Automatically\" is enabled in Settings -> Config -> General.\r\n* Re-implemented the touch screen transparency level slider.\r\n* Re-implemented support for multiple save state slots.\r\n* Re-implemented the Open button in the software list.\r\n* Re-implemented the Delete button in the software list.\r\n* Re-implemented the Launch GameCube Main Menu button in the software list.\r\n* Matched the refresh rate of the `MTKView` to the display's refresh rate.\r\n  * GameCube and Wii games do not run above 30/60Hz.\r\n  * This is only for testing purposes.\r\n* Fixed many crashes, freezes, physics bugs, etc when using Cached Interpreter.\r\n  * The fix for this bug (disabling \"fast math\" mode in Xcode) will likely result in a slight performance decrease.\r\n  * While fast math does make math calculations run faster, it also causes [some calculations to return incorrect answers](https://simonbyrne.github.io/notes/fastmath/).\r\n  * Accuracy is vital when emulating software. When fast math returns a wrong answer for a calculation, it can cause crashing and other bugs in the emulated software, as they always expect to receive correct answers.\r\n  * For example, the Wii's System Menu immediately crashes when using Cached Interpreter in previous 4.0.0 beta builds, as the math used to calculate whether the pointer is hovering over a channel or not returns incorrect results. Disabling fast math fixes this issue.\r\n* Fixed an issue where the bottom of the \"waiting for JIT\" screen was cut off on some devices. (thanks @brand175)\r\n* Fixed an issue where booting Wii software during the first launch of the app could cause DolphiniOS to crash.\r\n* Fixed an issue where the state of the \"Enabled\" switch in the menu shown when mapping controller buttons does not save properly.\r\n* Fixed an issue where the toggle for VBI Skip in Settings was still using its old name, VI Skip.\r\n* Fixed an issue where the top bar could get dismissed while using the menu.\r\n  * This was fixed by removing the code which dismissed the top bar after 5 seconds.\r\n  * You now need to manually dismiss the top bar by pressing the \"eye with a slash through it\" icon.\r\n  * Unfortunately, there is no way to check to see if the menu is open, so this was the best solution I could come up with. \r\n* Fixed an issue where the software list was not refreshed when importing new software.\r\n* Fixed an issue where device motion did not apply to the Nunchuk.\r\n  * Users who are updating from an older beta version will need to re-import the Touchscreen default profile in Controllers to apply this bug fix.\r\n* Hid some options in the debug menu when DolphiniOS is built in release mode. \r\n* Updated MoltenVK to 1.2.8.\r\n  * [The latest version of MoltenVK is incompatible with Dolphin due to a bug](https://github.com/KhronosGroup/MoltenVK/issues/2403).\r\n\r\n### Revisions\r\n\r\n* Revision 2 was released shortly after the initial revision was published.\r\n  * Fixed a problem with the build creation process which caused builds to not show up on GitHub.\r\n* Revision 3 was released on Jan 17.\r\n  * Fixed a problem with the app icon not showing up on SpringBoard.\r\n  * Fixed a problem where the version number was not updated to beta 8.\r\n  * Fixed a problem where using Vulkan would cause colours to appear oversaturated until the app was restarted. (thanks @brand175)\r\n* Revision 4 was released shortly after Revision 3.\r\n  * Fixed a problem where the touch screen controller button images were not included in the app.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b7...v4.0.0b8",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b8/Non-Jailbroken.ipa",
-                    "size": 15830129,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b7",
-                    "date": "2024-01-19T20:55:14Z",
-                    "localizedDescription": "The full changelog can be found here: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b6...v4.0.0b7.\r\n\r\nThis version fixes several critical bugs found in 4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Worked around an issue which causes fastmem initialization to fail (#115).\r\n* Fixed an issue which causes the app to freeze and/or crash when changing graphics settings.\r\n\r\n# Developer-Facing Changes\r\n\r\n* The UI thread is now the host thread while emulation is not running. When emulation is running, the host thread is whatever thread is executing for the host queue.\r\n* Calling `DOLHostQueueRunSync` on the host thread is now possible.\r\n* Calling `DOLHostQueueRunAsync` while on the host thread is now an illegal operation.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b7/Non-Jailbroken.ipa",
-                    "size": 13775833,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b6",
-                    "date": "2024-01-16T22:23:36Z",
-                    "localizedDescription": "# DO NOT USE THIS VERSION! USE [4.0.0b7](https://github.com/OatmealDome/dolphin-ios/releases/tag/v4.0.0b7) INSTEAD!\r\n\r\n---\r\n\r\n\r\nThe full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b5...v4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Updated the Dolphin core to 5.0-19708.\r\n* Added the Software Properties menu (tap and hold on a game in the game list). \r\n* Added the Gecko and Action Replay cheats menus in Software Properties.\r\n* Improved the updater to not prompt for an update if the currently running version is newer than the one reported by the server.\r\n\r\n# Developer-Facing Changes\r\n\r\n* Fixed an issue where using shared zstd would cause a build error on recent Xcode versions. (potentially issue #109)\r\n* Made the host thread be dynamically set to whatever thread is currently executing for a special dispatch queue.\r\n* Disabled the JitCache fast block map optimization to prevent fastmem issues.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b6/Non-Jailbroken.ipa",
-                    "size": 13773902,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b5",
-                    "date": "2023-02-18T08:33:19Z",
-                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b4...v4.0.0b5.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* The status bar is now hidden during emulation. (issue #54, PR #58 by @icelaglace)\r\n* Removed the Software Renderer from the list of available graphics backends.\r\n  * This backend never worked in the first place because OpenGL is not supported.\r\n* Fixed a bug which could cause the app to crash when attempting to clear the screen while stopping emulation. (issue #56)\r\n* Fixed a bug which caused the graphics backend menu to not set the correct backend. (issue #57)",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b5/Non-Jailbroken.ipa",
-                    "size": 13415869,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b4",
-                    "date": "2023-01-26T14:29:31Z",
-                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b3...v4.0.0b4.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Removed OpenGL ES from the list of available video backends.\r\n* Removed cubeb from the list of available audio backends.\r\n* Added the ability for DolphiniOS to shutdown the Dolphin core if the app is being terminated.\r\n* Fixed a bug where the video output would not extend past the area where the home indicator is on devices without a home button.\r\n* Fixed a bug where \"Extensions\" in Wii Remote configuration would show as a regular `ControlGroup` editing view controller on release builds instead of an extension editor.\r\n\r\n## Developer Changes\r\n\r\n* Replaced a call to `[UIDocumentPickerViewController initWithDocumentTypes:inMode:]`, which was deprecated in iOS 14.\r\n  * The app now links with `UniformTypeIdentifiers.framework` to be able to use `UTTypes`.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b4/Non-Jailbroken.ipa",
-                    "size": 13415662,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b3",
-                    "date": "2023-01-23T18:36:51Z",
-                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b2...v4.0.0b3.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Added new performance statistics options from the latest official Dolphin builds (courtesy of samb).\r\n  * If you are looking for the \"Show FPS\" option, it has now been moved to the \"Advanced\" menu.\r\n* Added new texture filtering options from the latest Dolphin builds (#41).\r\n* Added a prompt for importing the default profile when changing the default device for a controller.\r\n* Added an About screen.\r\n* Added settings for fastmem (#29) and Sync on Idle Skip to the Debug menu.\r\n* The home indicator on devices without a home button is now hidden during emulation (#39).\r\n* A device refresh is now automatically requested when entering the Devices menu while configuring a controller.\r\n* Fixed a bug where TrollStore builds would use the user folder intended for builds installed via Sileo / Cydia / etc.\r\n* Fixed a bug where builds installed via Sileo / Cydia / etc. crashed on launch.\r\n* Fixed a bug where the gyroscope and accelerometer on physical controllers was inverted.\r\n* Fixed a bug where closing the app and reopening it after manually pausing emulation would unpause emulation automatically.\r\n* Fixed a bug where `gcm`, `tgc`, and `gcz` files were not detected as valid disc images.\r\n\r\n## Developer Changes\r\n\r\n* Fix bartycrouch not being detected on Apple silicon computers when installed via Homebrew (#36).",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b3/Non-Jailbroken.ipa",
-                    "size": 13414159,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b2",
-                    "date": "2023-01-19T04:00:21Z",
-                    "localizedDescription": "* Updated Dolphin core version to 5.0-18273.\r\n* Added option for VI Skip to Settings -> Graphics -> Hacks.\r\n* Fixed the app container not being created on TrollStore builds (#21 - thanks opa331).\r\n* Fixed the CPU clock override text not updating correctly (#22).\r\n* Added mitigations against crashes in JITMemoryTracker (#33).\r\n* Added mitigations against crashes when stopping emulation (#32).",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b2/Non-Jailbroken.ipa",
-                    "size": 13158027,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b1",
-                    "date": "2023-01-08T20:19:15Z",
-                    "localizedDescription": "Pre-beta for Discord.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b1/Non-Jailbroken.ipa",
-                    "size": 13147368,
-                    "buildVersion": null,
                     "minOSVersion": null
                 }
             ],
