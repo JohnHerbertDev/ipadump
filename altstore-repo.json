@@ -10,754 +10,55 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
-            "name": "Onion Browser",
-            "bundleIdentifier": "com.miketigas.OnionBrowser",
+            "name": "PancakeStore",
+            "bundleIdentifier": "com.jbdotparty.PancakeStore",
             "marketplaceID": "",
-            "developerName": "OnionBrowser",
-            "subtitle": "Secure, anonymous web with Tor",
-            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
-            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
-            "tintColor": "#a74dff",
-            "category": "utilities",
-            "screenshots": {
-                "iphone": [
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
-                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
-                ],
-                "ipad": [
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    },
-                    {
-                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
-                        "width": 480,
-                        "height": 360
-                    }
-                ]
-            },
+            "developerName": "jailbreakdotparty",
+            "subtitle": "MuffinStore Jailed, with UI.",
+            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
+            "tintColor": "#c64000",
+            "category": "developer",
+            "screenshots": [],
             "versions": [
                 {
-                    "version": "3.3.2",
-                    "date": "2025-12-19T17:30:32Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
-                    "size": 34189973,
+                    "version": "1.0.1",
+                    "date": "2025-12-26T16:26:45Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
+                    "size": 777601,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "3.3.1",
-                    "date": "2025-11-24T12:58:14Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
-                    "size": 33379151,
+                    "version": "1.0",
+                    "date": "2025-12-20T20:14:48Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
+                    "size": 751441,
                     "buildVersion": null,
                     "minOSVersion": null
                 },
                 {
-                    "version": "3.3.0",
-                    "date": "2025-11-10T11:30:32Z",
-                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
-                    "size": 32041275,
-                    "buildVersion": null,
-                    "minOSVersion": null
+                    "version": "1.1",
+                    "date": "2026-02-27T02:18:24Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- PancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\r\n\r\n## UI Updates\r\n- Added a proper UI for iPads.\r\n- Cleaned up multiple components, updated PartyUI.\r\n- Added a settings page.\r\n- Code reorganization.\r\n\r\n## QoL Improvements\r\n- When the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\r\n- Added more information about the app while it's downgrading.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.1/PancakeStore_v1.1.ipa",
+                    "size": 1132982
                 },
                 {
-                    "version": "3.2.5",
-                    "date": "2025-10-14T14:08:26Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
-                    "size": 31834099,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.4",
-                    "date": "2025-09-22T11:17:43Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
-                    "size": 31757993,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.3",
-                    "date": "2025-08-04T14:02:39Z",
-                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
-                    "size": 31910782,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.2",
-                    "date": "2025-07-07T14:11:32Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
-                    "size": 31490068,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.1",
-                    "date": "2025-06-03T11:29:10Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
-                    "size": 30624177,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.2.0",
-                    "date": "2025-02-28T16:51:52Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
-                    "size": 30741203,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2024-11-28T11:06:30Z",
-                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
-                    "size": 30084277,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2024-08-07T12:47:23Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
-                    "size": 29631768,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2024-06-03T10:52:56Z",
-                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
-                    "size": 29620102,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2024-03-31T21:21:37Z",
-                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
-                    "size": 28667469,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2024-01-30T12:22:11Z",
-                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
-                    "size": 31497187,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2023-10-25T10:44:15Z",
-                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
-                    "size": 30722541,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.3",
-                    "date": "2023-09-27T10:31:03Z",
-                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
-                    "size": 14185165,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.2",
-                    "date": "2023-07-17T11:16:33Z",
-                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
-                    "size": 13898686,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2023-06-26T14:37:51Z",
-                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
-                    "size": 13893448,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2023-06-14T10:59:46Z",
-                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
-                    "size": 13891464,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.3",
-                    "date": "2022-12-14T15:04:20Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
-                    "size": 198031926,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.8.2",
-                    "date": "2022-09-29T11:35:58Z",
-                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
-                    "size": 197374069,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.3.3",
-                    "date": "2026-02-13T14:48:32Z",
-                    "localizedDescription": "- Updated Tor to 0.4.8.22.\r\n- Updated Lyrebird to 0.8.1.\r\n- Added experimental DNSTT support.\r\n- Added additional source of bridges.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.3/OnionBrowser.ipa",
-                    "size": 34461313
-                },
-                {
-                    "version": "3.3.4",
-                    "date": "2026-02-19T16:39:17Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.5.\r\n- Fixed bug where certificate info sometimes wouldn't show.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.4/OnionBrowser.ipa",
-                    "size": 34456665
-                },
-                {
-                    "version": "3.3.5",
-                    "date": "2026-03-06T12:52:12Z",
-                    "localizedDescription": "- Improved DNSTT support for challenged countries.\r\n- Fixed bug where URL call from another app wasn't recognized on cold start.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.5/OnionBrowser.ipa",
-                    "size": 35812185
-                },
-                {
-                    "version": "3.3.6",
-                    "date": "2026-03-11T17:06:59Z",
-                    "localizedDescription": "- Improved DNSTT shutdown.\r\n- Updated to Snowflake 2.12.1.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.6/OnionBrowser.ipa",
-                    "size": 35924914
-                },
-                {
-                    "version": "3.3.7",
-                    "date": "2026-04-09T16:44:36Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.6.\r\n- Updated to Snowflake 2.13.1.\r\n- Updated translations.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.7/OnionBrowser.ipa",
-                    "size": 35728985
-                },
-                {
-                    "version": "3.3.8",
-                    "date": "2026-05-13T09:26:49Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.8.\r\n- Updated DNSTT to 1.20260501.0.\r\n- Updated Korean translation.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.8/OnionBrowser.ipa",
-                    "size": 36180209
-                },
-                {
-                    "version": "3.3.10",
-                    "date": "2026-06-05T12:08:33Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.9. (Contains many security fixes!)\r\n- Updated Korean, Japanese, Croatian amd simplified Chinese translations. \r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.10/OnionBrowser.ipa",
-                    "size": 35681868
-                },
-                {
-                    "version": "3.3.9",
-                    "date": "2026-06-05T12:22:00Z",
-                    "localizedDescription": "- Updated Korean translation.\r\n- Added promotion hint.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.9/OnionBrowser.ipa",
-                    "size": 36196071
-                },
-                {
-                    "version": "3.4.0",
-                    "date": "2026-06-24T11:37:19Z",
-                    "localizedDescription": "- Updated Tor to 0.4.9.10.\r\n- Updated Snowflake to 2.14.0.\r\n- Updated DNSTT to 1.20260501.0.\r\n- Security fix: Elevated link preview security to same as normal tabs.\r\n- Fixed link preview title background in iOS 26.\r\n- Make link preview optional. \r\n- Updated Korean, Japanese and simplified Chinese translations.\r\n- Removed outdated NYT default bookmark. Onion service was discontinued.\r\n- Removed promotion hint again after end of campaign.\r\n",
-                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.0/OnionBrowser.ipa",
-                    "size": 35893388
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "qBitControl",
-            "bundleIdentifier": "MikeMichael225.qBitControl",
-            "marketplaceID": "",
-            "developerName": "Michael-128",
-            "subtitle": "qBittorrent remote client for iOS devices.",
-            "localizedDescription": "qBitControl is the definitive remote client for managing your qBittorrent downloads on iOS devices. With qBitControl, you can effortlessly add torrents, browse files, monitor your download progress, and manage your torrents, all while enjoying real-time statistics and a native iOS user interface.",
-            "iconURL": "https://raw.githubusercontent.com/Michael-128/qBitControl/main/qBitControl/Assets.xcassets/AppIcon.appiconset/logo1.png",
-            "tintColor": "#449FFF",
-            "category": "utilities",
-            "screenshots": [
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc1.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc2.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc3.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc4.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc5.png"
-            ],
-            "versions": [
-                {
-                    "version": "1.3.4",
-                    "date": "2025-10-02T17:12:20Z",
-                    "localizedDescription": "## Features\r\n- Add 'Advanced' page to 'Add Server' view & Add basic authentication (#74) [#74](https://github.com/Michael-128/qBitControl/pull/74) ([Michael](https://github.com/Michael-128/qBitControl/commit/3733dacb87bb18844ead5012a4f328b2366169cc))\r\n- Add animation when selecting torrents ([Michael-128](https://github.com/Michael-128/qBitControl/commit/2c5158589c65993e6aee5186b2e93e82395118dc))\r\n\r\n## Bug Fixes\r\n- iOS 26 UI issues with select multiple ([Michael-128](https://github.com/Michael-128/qBitControl/commit/e9f328f7519ff531db2d9afbc86921f7ac372ecf))\r\n\r\n## Code Refactoring\r\n- Extract TorrentListSelectionToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/5d7f9fbdb13740192ed546af6b79a6a77d5a903d))\r\n- Extract TorrentListDefaultToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/c9cb9bc211db600faf9fb62af9004f7ceb598229))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/1433ca2632acac4e0adc9172cc9ca8553fb46a9f))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/d368d4dcb9bddb78e19332200cf37e1869ae5e22))\r\n- Rewrite deprecated code ([Michael-128](https://github.com/Michael-128/qBitControl/commit/355bdd78216f6139af9bf54bc6a4226ba92bd65b))\r\n\r\n## Commits\r\n- 11d7c5d: Update README.md (Michael)\r\n- 2fa7305: Add AltStore source badges in README (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- 220ed78: Alternative README badges (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- d1bd427: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 4e2a51b: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 89325cc: Add torrent list scroll down behavior for iOS 28 (Michael-128)\r\n- a8561f2: Update to MacOS 26 & Xcode 26 (Michael)\r\n- df6e25b: Merge remote-tracking branch 'refs/remotes/origin/main' (Michael-128)\r\n- 9667fad: Improve tab view to meet standard of iOS 26 (Michael-128)",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.4/qBitControl.ipa",
-                    "size": 3870732,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.3",
-                    "date": "2025-04-21T18:32:31Z",
-                    "localizedDescription": "## New:\r\n- Add Search Functionality to RSS Tab\r\n\r\n## Improvements:\r\n- Improve Charts in Stats Tab\r\n\r\n## Fixes:\r\n- Fix Translation Related Bugs\r\n- Update Translation\r\n- Add a Missing Uncategorized Option in Category Selection View\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.2...1.3.3",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.3/qBitControl.ipa",
-                    "size": 4321496,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.2",
-                    "date": "2025-02-13T19:07:42Z",
-                    "localizedDescription": "## New:\r\n- Added New Category & Tag Selection System\r\n- Added RSS Feed & Folder Renaming & Deleting\r\n- Updated Translations\r\n\r\n## Improvements:\r\n- Enhance Tips when Adding Server (by: @MrNocole in https://github.com/Michael-128/qBitControl/pull/62)\r\n- Improve Naming to Match qBitttorrent\r\n\r\n## Fixes:\r\n-  Fixed Pause Option for qBittorrent 5.0.X in 'Torrent Add Sheet'\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.1...1.3.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.2/qBitControl.ipa",
-                    "size": 4222623,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.1",
-                    "date": "2025-01-09T19:50:10Z",
-                    "localizedDescription": "## New:\r\n- Added RSS Support\r\n- Added 'Add Tracker' Option\r\n- Added Option to Download First & Last Pieces First\r\n- Added Force Start Option\r\n- Added 'Help with Translation' Button in About Section\r\n- Added Chinese Simplified Localization (by @peaynan)\r\n\r\n\r\n## Improvements:\r\n- Rearranged Torrent Details & Added ETA\r\n- Updated Localizations\r\n\r\n## Fixes:\r\n- Fixed Compatibility with qBittorrent 5.0.0 API\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.2...1.3.1",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.1/qBitControl.ipa",
-                    "size": 4178946,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.2",
-                    "date": "2024-09-20T09:34:36Z",
-                    "localizedDescription": "## New:\r\n- Added Server Editing\r\n\r\n## Fixed:\r\n- Disabled Category Path Auto-Fill if Automatic Torrent Management is Enabled\r\n- Fixed Compatibility for Older qBittorrent Clients\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.1...1.2.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.2/qBitControl.ipa",
-                    "size": 4084813,
-                    "buildVersion": null,
-                    "minOSVersion": null
+                    "version": "1.2",
+                    "date": "2026-06-12T05:52:23Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- **PancakeStore has been fixed again.** Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\r\n- **Improved error handling.** The app should no longer abruptly exit when things go wrong.\r\n- **Auto-clean.** The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\r\n\r\n## Added Features\r\n- **Share Extension.** PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\r\n- **Export IPA.** You can export the IPA after the app has been downgraded. Probably useful for research or archival.\r\n\r\nThank you everybody for your patience and support!",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
+                    "size": 1936006
                 },
                 {
                     "version": "1.2.1",
-                    "date": "2024-09-03T15:30:20Z",
-                    "localizedDescription": "## New:\r\n- Improved 'Stats' View\r\n- Added 'About' Section\r\n\r\n## Fixed:\r\n- Torrent availability is now displayed correctly\r\n- Fixed password encoding\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2...1.2.1",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.1/qBitControl.ipa",
-                    "size": 4080368,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2024-07-25T16:33:34Z",
-                    "localizedDescription": "## New:\r\n- Added Torrent Priority Management \r\n- Added Sequential Download Option\r\n- Added MacCatalyst support (by: @vit9696)\r\n- Added Polish & Japanese Localizations\r\n- Allowed HTTP connections over the internet\r\n\r\n## Fixed:\r\n- Fixed incorrect ratio bug on stats page\r\n- Refactored a lot of code\r\n- Fix category save path not updating (by: @narenh)\r\n\r\n## New Contributors\r\nThank you @vit9696 and @narenh for contributing to the repository. Your efforts are greatly appreciated!\r\n- @vit9696 made their first contribution in https://github.com/Michael-128/qBitControl/pull/11\r\n- @narenh made their first contribution in https://github.com/Michael-128/qBitControl/pull/15\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.1...1.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2/qBitControl.ipa",
-                    "size": 4061844,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2024-01-17T12:13:53Z",
-                    "localizedDescription": "## New:\r\n- Reworked login system with support for multiple qBittorrent instances.\r\n- Magnet links are now redirected to qBitControl.\r\n- BitTorrent files can now be opened using qBitControl.\r\n\r\n## Fixed:\r\n- Fixed broken UI on iPad.\r\n- Fixed filtering torrents by tags.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.4...1.1",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.1/qBitControl.ipa",
-                    "size": 2538421,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.4",
-                    "date": "2023-12-20T20:10:31Z",
-                    "localizedDescription": "## New:\r\n- Batch Torrent Management\r\n- Upload & Download Stats View\r\n- 'Clear Completed Torrents\u2019 Button\r\n- 'Pause Category\u2019 Button\r\n- Demo View\r\n\r\n## Fixed:\r\n- Flickering Menu\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.3...1.0.4",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.4/qBitControl.ipa",
-                    "size": 2595915,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.3",
-                    "date": "2023-12-10T19:52:09Z",
-                    "localizedDescription": "## Changes:\r\n- Currently selected category is displayed as navigation title\r\n\r\n## Fixed:\r\n- The app couldn't differentiate between two torrents with the same name. The two torrents\u2019 details pages showed the same exact information of one of the torrents.\r\n- Infinite login bug.\r\n- Can't connect warning message appeared after local network access was allowed.\r\n- Fixed typos.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.2...1.0.3",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.3/qBitControl.ipa",
-                    "size": 1817965,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.2",
-                    "date": "2023-12-05T09:20:10Z",
-                    "localizedDescription": "## Changes:\r\n- Moved log out button to a toolbar menu\r\n- Added pause all & resume all buttons\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/release...1.0.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.2/qBitControl.ipa",
-                    "size": 2448085,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "release",
-                    "date": "2023-12-02T22:00:46Z",
-                    "localizedDescription": "qBittorrent client for iOS devices.\r\n\r\n## Features\r\n- Add torrents from magnet or file.\r\n- View progress, stats, peers, and trackers of your torrents.\r\n- Manage your torrents - pause/resume, recheck, reannounce and delete.\r\n- Browse torrents files\r\n- Search, sort, and filter torrents.\r\n- Dark mode and light mode\r\n",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release/qBitControl.ipa",
-                    "size": 2427940,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "CI",
-                    "date": "2026-06-21T19:18:25Z",
-                    "localizedDescription": "## Features\r\n- Resume current tasks [#94](https://github.com/Michael-128/qBitControl/pull/94) (by @kambala-decapitator )\r\n- Sanitize server URL for trailing slashes when adding a server [#84](https://github.com/Michael-128/qBitControl/pull/84) (by @danpiths )\r\n\r\n## Bug Fixes\r\n- Resolve single task deletion from context menu and use standard alert (#92) (by @Michael-128)\r\n- Fix stats showing up as zeros on qBittorrent >5.2 (by @Michael-128)\r\n- Fix peers JSON decoding [#96](https://github.com/Michael-128/qBitControl/pull/96) (by @kambala-decapitator)\r\n- Fix ServersHelper thread safety warning (by @Michael-128)\r\n\r\n## Code Refactoring\r\n- Sanitize inputs before running validations (by @Michael-128)\r\n\r\n## Chores\r\n- **localization**: Update Polish & Japanese localizations [#94](https://github.com/Michael-128/qBitControl/pull/94)\r\n- **l10n**: Add & complete Chinese (zh-Hans/Hant) translations [#95](https://github.com/Michael-128/qBitControl/pull/95) (by @XaoflySho)\r\n- Automated build setup & pipeline fixes\r\n- Remove obsolete Xcode workspace (by @kambala-decapitator )\r\n- Bump version to 1.3.5 (build 19)",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/CI/qBitControl.ipa",
-                    "size": 4302381
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "DolphiniOS",
-            "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
-            "marketplaceID": "",
-            "developerName": "OatmealDome",
-            "subtitle": "Dolphin for iOS, reborn",
-            "localizedDescription": "DolphiniOS is a GameCube and Wii emulator for iOS and iPadOS. All iOS versions starting with 14.0 are supported, and no jailbreak is required!",
-            "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png",
-            "tintColor": "#007aff",
-            "category": "games",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "5.0.0b4",
-                    "date": "2025-10-23T02:48:05Z",
-                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed a crash when using JIT on devices running iOS 26 with an A12, A13, A14, or M1 chip.\r\n* Added additional JIT information to the Debug menu to assist in debugging problems.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b3...v5.0.0b4",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b4/Non-Jailbroken.ipa",
-                    "size": 17963622,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0b3",
-                    "date": "2025-10-18T17:01:54Z",
-                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Added support for the Skylanders Portal of Power in Skylanders games for the Wii, courtesy of @deReeperJosh.\r\n  * Enable \"Emulate Skylander Portal\" in Settings -> Config -> Wii and select \"Skylanders Portal\" in the in-game menu to load a figure.\r\n* Fixed an issue where devices with an A15+ or M2+ chip running iOS 17 or 18 would crash when starting a game in JIT mode.\r\n* Fixed an issue where \"vm_map\" errors would randomly occur.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b2...v5.0.0b3",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b3/Non-Jailbroken.ipa",
-                    "size": 17963458,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0b2",
-                    "date": "2025-10-13T02:16:56Z",
-                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed an issue where some controller options would be incorrectly disabled.\r\n* Fixed an issue where there was a typo in text pertaining to \"memory size\" overrides.\r\n* Added additional alerts to help debug a crash on some devices running iOS 18 and older.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b1...v5.0.0b2",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b2/Non-Jailbroken.ipa",
-                    "size": 17958160,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0b1",
-                    "date": "2025-10-11T17:27:37Z",
-                    "localizedDescription": "* Added support for JIT on iOS 26.\r\n  * **[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** Using other JIT enablers may cause DolphiniOS to crash.\r\n* Enabled Liquid Glass on iOS 26.\r\n* Added new Liquid Glass app icons by Kongolabongo.\r\n* The Dolphin core was updated to 2509.\r\n  * Save states made in previous versions of DolphiniOS are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Sped up Cached Interpreter by approximately 10%, courtesy of TellowKrinkle. \r\n* The version number has been increased to 5.0.0 to prevent confusion with DolphiniOS forks.\r\n\r\n## For Developers\r\n\r\n* Due to changes made by Apple in iOS 26, Xcode is no longer a supported JIT enabler on devices utilizing TXM (A15+ or M2+) running iOS 26 or newer.\r\n  * If you are running DolphiniOS within Xcode, you will need to use Cached Interpreter or switch to an older device to use JIT.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b9...v5.0.0b1",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b1/Non-Jailbroken.ipa",
-                    "size": 17958943,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b9",
-                    "date": "2025-05-06T17:25:12Z",
-                    "localizedDescription": "* The Dolphin core has been updated to 2503a.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Fixed keyboards not showing up in the devices list in controller settings. (#201 by @SamoZ256)\r\n* Added a temporary fix for CMake 4.0+ compatibility.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b8...v4.0.0b9",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b9/Non-Jailbroken.ipa",
-                    "size": 16149753,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b8",
-                    "date": "2025-01-17T21:00:27Z",
-                    "localizedDescription": "This is the fourth revision of beta 8.\r\n\r\n### Changes\r\n\r\n* The Dolphin core has been updated to 2412.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Added new app icons based off the macOS icon introduced in Dolphin 2407. (thanks Kongolabongo and @brand175 for the new iOS icons, and thanks MayImilae for the original macOS icon)\r\n* No JIT mode (**very slow**) has been added. (thanks @brand175)\r\n  * When launching a game without JIT enabled, you can now choose to start it in No JIT mode.\r\n  * The \"waiting for JIT\" screen can be bypassed entirely by manually changing the CPU Emulation Engine in Settings -> Config -> Advanced to Cached Interpreter.\r\n  * No JIT mode is **very slow**. You will need a high-end device (like a recent iPhone or iPad Pro) and to enable speed hacks (VBI Skip, CPU underclock, etc) to achieve playable speeds.\r\n* Added a button to import BootMii NAND backups in the software list.\r\n  * This is useful for those who want to play Wiimmfi online.\r\n  * No JIT users beware: Wiimmfi will ban devices that run below 100% emulation speed in Mario Kart Wii. We recommend that Wiimmfi should only be used in JIT mode.\r\n* Added experimental support for rootless jailbreaks. \r\n* Added a menu to check which buttons are being pressed on physical controllers when mapping buttons.\r\n* Ported \"Respect Silent Mode\" toggle from Delta.\r\n  * This setting controls whether DolphiniOS obeys the Ring/Silent switch on your device. If disabled, then audio will play even if silent mode is enabled.\r\n  * Find it in Settings -> Config -> Audio.  \r\n* Added Game Mode for devices running iOS 18.\r\n* Re-implemented the touch screen Wii pointer.\r\n  * A new default mode has been added: \"drag\". This mode allows you to use your touch screen like a laptop trackpad when moving the Wii pointer.\r\n  * The mode used in 3.2.1 and earlier is still available as \"follow\" mode.\r\n  * Choose the mode you want as default in the top bar menu during emulation or in Settings -> Controllers -> Touchscreen.\r\n* Re-implemented automatic disc changing.\r\n  * When a game asks for a different disc, DolphiniOS will automatically insert the correct disc into the emulated disc drive.\r\n  * Both disc files must be imported (i.e. in the Software folder and visible in the software list) for this feature to work properly.\r\n  * If it still does not work, ensure that \"Change Disc Automatically\" is enabled in Settings -> Config -> General.\r\n* Re-implemented the touch screen transparency level slider.\r\n* Re-implemented support for multiple save state slots.\r\n* Re-implemented the Open button in the software list.\r\n* Re-implemented the Delete button in the software list.\r\n* Re-implemented the Launch GameCube Main Menu button in the software list.\r\n* Matched the refresh rate of the `MTKView` to the display's refresh rate.\r\n  * GameCube and Wii games do not run above 30/60Hz.\r\n  * This is only for testing purposes.\r\n* Fixed many crashes, freezes, physics bugs, etc when using Cached Interpreter.\r\n  * The fix for this bug (disabling \"fast math\" mode in Xcode) will likely result in a slight performance decrease.\r\n  * While fast math does make math calculations run faster, it also causes [some calculations to return incorrect answers](https://simonbyrne.github.io/notes/fastmath/).\r\n  * Accuracy is vital when emulating software. When fast math returns a wrong answer for a calculation, it can cause crashing and other bugs in the emulated software, as they always expect to receive correct answers.\r\n  * For example, the Wii's System Menu immediately crashes when using Cached Interpreter in previous 4.0.0 beta builds, as the math used to calculate whether the pointer is hovering over a channel or not returns incorrect results. Disabling fast math fixes this issue.\r\n* Fixed an issue where the bottom of the \"waiting for JIT\" screen was cut off on some devices. (thanks @brand175)\r\n* Fixed an issue where booting Wii software during the first launch of the app could cause DolphiniOS to crash.\r\n* Fixed an issue where the state of the \"Enabled\" switch in the menu shown when mapping controller buttons does not save properly.\r\n* Fixed an issue where the toggle for VBI Skip in Settings was still using its old name, VI Skip.\r\n* Fixed an issue where the top bar could get dismissed while using the menu.\r\n  * This was fixed by removing the code which dismissed the top bar after 5 seconds.\r\n  * You now need to manually dismiss the top bar by pressing the \"eye with a slash through it\" icon.\r\n  * Unfortunately, there is no way to check to see if the menu is open, so this was the best solution I could come up with. \r\n* Fixed an issue where the software list was not refreshed when importing new software.\r\n* Fixed an issue where device motion did not apply to the Nunchuk.\r\n  * Users who are updating from an older beta version will need to re-import the Touchscreen default profile in Controllers to apply this bug fix.\r\n* Hid some options in the debug menu when DolphiniOS is built in release mode. \r\n* Updated MoltenVK to 1.2.8.\r\n  * [The latest version of MoltenVK is incompatible with Dolphin due to a bug](https://github.com/KhronosGroup/MoltenVK/issues/2403).\r\n\r\n### Revisions\r\n\r\n* Revision 2 was released shortly after the initial revision was published.\r\n  * Fixed a problem with the build creation process which caused builds to not show up on GitHub.\r\n* Revision 3 was released on Jan 17.\r\n  * Fixed a problem with the app icon not showing up on SpringBoard.\r\n  * Fixed a problem where the version number was not updated to beta 8.\r\n  * Fixed a problem where using Vulkan would cause colours to appear oversaturated until the app was restarted. (thanks @brand175)\r\n* Revision 4 was released shortly after Revision 3.\r\n  * Fixed a problem where the touch screen controller button images were not included in the app.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b7...v4.0.0b8",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b8/Non-Jailbroken.ipa",
-                    "size": 15830129,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b7",
-                    "date": "2024-01-19T20:55:14Z",
-                    "localizedDescription": "The full changelog can be found here: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b6...v4.0.0b7.\r\n\r\nThis version fixes several critical bugs found in 4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Worked around an issue which causes fastmem initialization to fail (#115).\r\n* Fixed an issue which causes the app to freeze and/or crash when changing graphics settings.\r\n\r\n# Developer-Facing Changes\r\n\r\n* The UI thread is now the host thread while emulation is not running. When emulation is running, the host thread is whatever thread is executing for the host queue.\r\n* Calling `DOLHostQueueRunSync` on the host thread is now possible.\r\n* Calling `DOLHostQueueRunAsync` while on the host thread is now an illegal operation.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b7/Non-Jailbroken.ipa",
-                    "size": 13775833,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b6",
-                    "date": "2024-01-16T22:23:36Z",
-                    "localizedDescription": "# DO NOT USE THIS VERSION! USE [4.0.0b7](https://github.com/OatmealDome/dolphin-ios/releases/tag/v4.0.0b7) INSTEAD!\r\n\r\n---\r\n\r\n\r\nThe full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b5...v4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Updated the Dolphin core to 5.0-19708.\r\n* Added the Software Properties menu (tap and hold on a game in the game list). \r\n* Added the Gecko and Action Replay cheats menus in Software Properties.\r\n* Improved the updater to not prompt for an update if the currently running version is newer than the one reported by the server.\r\n\r\n# Developer-Facing Changes\r\n\r\n* Fixed an issue where using shared zstd would cause a build error on recent Xcode versions. (potentially issue #109)\r\n* Made the host thread be dynamically set to whatever thread is currently executing for a special dispatch queue.\r\n* Disabled the JitCache fast block map optimization to prevent fastmem issues.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b6/Non-Jailbroken.ipa",
-                    "size": 13773902,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b5",
-                    "date": "2023-02-18T08:33:19Z",
-                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b4...v4.0.0b5.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* The status bar is now hidden during emulation. (issue #54, PR #58 by @icelaglace)\r\n* Removed the Software Renderer from the list of available graphics backends.\r\n  * This backend never worked in the first place because OpenGL is not supported.\r\n* Fixed a bug which could cause the app to crash when attempting to clear the screen while stopping emulation. (issue #56)\r\n* Fixed a bug which caused the graphics backend menu to not set the correct backend. (issue #57)",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b5/Non-Jailbroken.ipa",
-                    "size": 13415869,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b4",
-                    "date": "2023-01-26T14:29:31Z",
-                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b3...v4.0.0b4.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Removed OpenGL ES from the list of available video backends.\r\n* Removed cubeb from the list of available audio backends.\r\n* Added the ability for DolphiniOS to shutdown the Dolphin core if the app is being terminated.\r\n* Fixed a bug where the video output would not extend past the area where the home indicator is on devices without a home button.\r\n* Fixed a bug where \"Extensions\" in Wii Remote configuration would show as a regular `ControlGroup` editing view controller on release builds instead of an extension editor.\r\n\r\n## Developer Changes\r\n\r\n* Replaced a call to `[UIDocumentPickerViewController initWithDocumentTypes:inMode:]`, which was deprecated in iOS 14.\r\n  * The app now links with `UniformTypeIdentifiers.framework` to be able to use `UTTypes`.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b4/Non-Jailbroken.ipa",
-                    "size": 13415662,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b3",
-                    "date": "2023-01-23T18:36:51Z",
-                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b2...v4.0.0b3.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Added new performance statistics options from the latest official Dolphin builds (courtesy of samb).\r\n  * If you are looking for the \"Show FPS\" option, it has now been moved to the \"Advanced\" menu.\r\n* Added new texture filtering options from the latest Dolphin builds (#41).\r\n* Added a prompt for importing the default profile when changing the default device for a controller.\r\n* Added an About screen.\r\n* Added settings for fastmem (#29) and Sync on Idle Skip to the Debug menu.\r\n* The home indicator on devices without a home button is now hidden during emulation (#39).\r\n* A device refresh is now automatically requested when entering the Devices menu while configuring a controller.\r\n* Fixed a bug where TrollStore builds would use the user folder intended for builds installed via Sileo / Cydia / etc.\r\n* Fixed a bug where builds installed via Sileo / Cydia / etc. crashed on launch.\r\n* Fixed a bug where the gyroscope and accelerometer on physical controllers was inverted.\r\n* Fixed a bug where closing the app and reopening it after manually pausing emulation would unpause emulation automatically.\r\n* Fixed a bug where `gcm`, `tgc`, and `gcz` files were not detected as valid disc images.\r\n\r\n## Developer Changes\r\n\r\n* Fix bartycrouch not being detected on Apple silicon computers when installed via Homebrew (#36).",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b3/Non-Jailbroken.ipa",
-                    "size": 13414159,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b2",
-                    "date": "2023-01-19T04:00:21Z",
-                    "localizedDescription": "* Updated Dolphin core version to 5.0-18273.\r\n* Added option for VI Skip to Settings -> Graphics -> Hacks.\r\n* Fixed the app container not being created on TrollStore builds (#21 - thanks opa331).\r\n* Fixed the CPU clock override text not updating correctly (#22).\r\n* Added mitigations against crashes in JITMemoryTracker (#33).\r\n* Added mitigations against crashes when stopping emulation (#32).",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b2/Non-Jailbroken.ipa",
-                    "size": 13158027,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "4.0.0b1",
-                    "date": "2023-01-08T20:19:15Z",
-                    "localizedDescription": "Pre-beta for Discord.",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b1/Non-Jailbroken.ipa",
-                    "size": 13147368,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "5.0.0b5",
-                    "date": "2026-06-16T21:42:57Z",
-                    "localizedDescription": "* Fixed TXM check for non-jailbroken devices running iOS 26.6 or newer. (thanks @StephenDev0)\r\n  * iOS 27 is still broken and requires additional work.\r\n\r\nThe next update will be sometime after the next official Dolphin release. It will include a core update.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b4...v5.0.0b5",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b5/Non-Jailbroken.ipa",
-                    "size": 17963147
-                },
-                {
-                    "version": "5.0.0b6",
-                    "date": "2026-06-20T07:01:54Z",
-                    "localizedDescription": "* Fixed JIT support on A13/A14/M1 devices running iOS 27 beta. (@CelloSerenity)\r\n* Fixed wrong app version number introduced in 5.0.0b5. (@CelloSerenity)\r\n\r\nThe next update will be sometime after the next official Dolphin release. It will include a core update.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b5...v5.0.0b6",
-                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
-                    "size": 17963367
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "StikDebug",
-            "bundleIdentifier": "com.stik.stikdebug",
-            "marketplaceID": "",
-            "developerName": "StephenDev0",
-            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
-            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [
-                "https://stikdebug.xyz/assets/source/home.png",
-                "https://stikdebug.xyz/assets/source/scripts.png",
-                "https://stikdebug.xyz/assets/source/settings.png"
-            ],
-            "versions": [
-                {
-                    "version": "2.3.7",
-                    "date": "2026-01-09T19:27:57Z",
-                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
-                    "size": 12048589,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.6",
-                    "date": "2025-12-18T02:30:53Z",
-                    "localizedDescription": "This release works with LocalDevVPN",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
-                    "size": 11996559,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2026-02-25T21:26:35Z",
-                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
-                    "size": 10456365
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-03-08T18:56:53Z",
-                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
-                    "size": 10461243
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2026-03-30T17:53:28Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
-                    "size": 10889554
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2026-04-04T03:30:18Z",
-                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
-                    "size": 10973374
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2026-04-12T06:41:17Z",
-                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
-                    "size": 10974298
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2026-05-18T14:50:17Z",
-                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
-                    "size": 11125407
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2026-06-01T01:12:08Z",
-                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
-                    "size": 11028217
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2026-06-01T11:32:37Z",
-                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
-                    "size": 11027579
-                },
-                {
-                    "version": "3.1.6",
-                    "date": "2026-06-17T04:07:42Z",
-                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
-                    "size": 11028710
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "DLiPA",
-            "bundleIdentifier": "com.ahmedbafkir.dlipa",
-            "marketplaceID": "",
-            "developerName": "AhmedBafkir",
-            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
-            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
-            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2025-11-16T17:59:20Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
-                    "size": 480115,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-06-07T17:24:30Z",
-                    "localizedDescription": "Initial Release.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
-                    "size": 480247,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-02-22T21:04:04Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
-                    "size": 471971
-                },
-                {
-                    "version": "1.3",
-                    "date": "2026-06-17T01:22:52Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n### New Feature\r\n- Ability to download a specific version of any app using the Version ID.\r\n- Access your last 15 searches instantly just by tapping the search bar for quick navigation.\r\n\r\n### Fixes\r\n- Resolved the login issue.\r\n- Resolved the \"An unknown error occurred\" issue when downloading certain popular apps, including Google and Microsoft apps and others.\r\n- Fixed an issue that caused the app to crash when searching after setting a search limit.\r\n- Fixed a bug where downloaded data was not automatically deleted when selecting \"Delete account with files\".\r\n\r\n### Improvements\r\n- Other minor fixes.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.3/DLiPA_v1.3.ipa",
-                    "size": 479107
+                    "date": "2026-06-26T23:43:46Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Changes\r\n- **Fix authentication.** We'll see how long this lasts.\r\n- **Add link to information about sign-in issues.** Maybe people will read? No, they probably won't...\r\n- **Minor project updates.** The version number now says `1.2.1` instead of `1.2`.\r\n\r\nThank you everybody for your patience and support! Unless you weren't. I'm tired please just don't spam us with issues when it breaks",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.1/PancakeStore_v1.2.1.ipa",
+                    "size": 3105584
                 }
             ],
             "appPermissions": {
@@ -1221,6 +522,777 @@
                     "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.2.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.2.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n> [!NOTE]\r\n> Stay tuned for our next upcoming release, bringing  ***even more*** new features like signing in without API keys, Picture-in-Picture (PiP), build your own theme, Img Chest image uploads, Apple on-device translations, redesigned subreddit sidebar, community highlights, and more!\r\n\r\n### Features\r\n\r\n- New **Apollo Reborn Widgets** \u2014 nine Home Screen, Lock Screen, and StandBy widgets (Showerthoughts, Jokes, Post, Feed, Photo, Shortcuts, Apollo Actions, Calendar, and Headline) (#406: @jordanearle)\r\n  - To configure widgets: copy the one-time setup code from **Settings > Apollo Reborn > Copy Widget Setup Code**. Then, long-press any widget \u2192 Edit Widget \u2192 paste into Setup Code.\r\n  - Requires iOS 17 or later. Widgets do not work on iOS 26 if sideloading with Sideloadly - please use an alternative instead. The `NOEXTENSIONS` IPA variant **does not** include widgets.\r\n\r\n    <img width=\"300\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0786ef40-83d0-4369-9824-73a479cacdb0\" />\r\n    <img width=\"300\" alt=\"image\" src=\"https://github.com/user-attachments/assets/eba1d9a2-ad93-4001-917d-0339b470c316\" />\r\n\r\n- Add a **Universal OAuth Sign-In** toggle in **Settings > Apollo Reborn** (on by default) to fall back to Apollo's native sign-in if the in-app login causes trouble (#432: @JeffreyCA)\r\n  - All IPAs released from now on have `dystopia` and `redreader` URL schemes already registered so no need to manually edit Info.plist anymore\r\n- Add a **manual sign-in fallback** for older iOS versions that can't load Reddit's login page, using an external browser and an Apollo Reborn userscript to paste a sign-in code back into Apollo (#430: @DeltAndy123; sign-in keyboard improvements by @Alstruit)\r\n- Add a **Text Post Thumbnails** toggle in **Settings > Apollo Reborn > Media** (on by default) \u2014 text posts that embed an image now show a thumbnail with a **Text Post** badge, and tapping it opens the image in the media viewer instead of the thread (#426: @icpryde)\r\n- Add **Hide Mod Subreddits** to remove moderated subreddits you can't leave from the Subreddits list \u2014 tap Edit, then the blue button to hide a subreddit and the green button to bring it back (#424: @icpryde)\r\n- Show **moderator reports** as native inline sections in the post and comment action menu (#412: @JeffreyCA)\r\n- Make the **banned-profile overlay** dismissable (#409: @JeffreyCA)\r\n- Combine cache-clearing options into one **Clear Tweak Caches** button under a renamed **Data** section (#409: @JeffreyCA)\r\n\r\n### Fixes\r\n\r\n- Show the **author avatar and subreddit icon** in **Share as Image** post exports, so the image matches what you see in the app (#438: @icpryde)\r\n- Fix several **link card glitches in feeds** \u2014 cards whose text overflowed into the post below, Bluesky posts losing their paragraph breaks, compact cards stuck at full height, and blank image areas on links whose thumbnail isn't ready yet (#427: @icpryde)\r\n- Fix **gallery GIFs** getting stuck on a loading spinner when swiping between items in an album (#404: @JeffreyCA)\r\n- Fix comment and post text showing a literal **`&#x200B;`** or an extra blank line at the end (#405: @JeffreyCA)\r\n- Fix **comment scrolling freezing** in threads that contain a link to removed media, such as a deleted `v.redd.it` video (#395: @JeffreyCA)\r\n- Fix spurious **\"error :(\" overlay** appearing over videos that play fine but whose preview image fails to load (#409: @JeffreyCA)\r\n- Fix **Live Activities** not updating on secret-protected self-hosted notification backends (#411: @nickclyde)\r\n- Fix an **installation conflict** when upgrading from some older versions (#401: @Alstruit)\r\n- Bundle **libFLEX inside the app** so rootless jailbreak users can keep the standalone libFLEX package installed without it conflicting with Apollo Reborn (#437: @iCrazeiOS)\r\n\r\n\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.2.0/Apollo-Reborn-3.2.0-GLASS-NOEXTENSIONS.ipa",
                     "size": 102389411
+                },
+                {
+                    "version": "1.15.11_3.3.0",
+                    "date": "2026-06-26T08:57:41Z",
+                    "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.3.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.3.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n### Features\r\n\r\n- Add a **Theme Builder** in **Settings > Appearance > Themes** to create, save, and manage multiple custom themes that behave like Apollo's built-in themes, including importing and exporting themes to share them (#454: @jordanearle, @icpryde)\r\n- Add **AI Summaries** in **Settings > Apollo Reborn > Apollo AI** (off by default, iOS 26+) \u2014 generates post, discussion, and linked-article summaries entirely **on-device** using Apple's FoundationModels (#489, #491: @jordanearle, @icpryde)\r\n  - Post summaries appear in the comments header between the title and body, and discussion summaries appear above the first comment on larger threads; summaries stream in token-by-token and are cached to disk so reopening a thread is instant\r\n  - Includes per-type controls and a **Tap to Summarize** option that avoids auto-fetching a linked article's page until you ask for it\r\n- New experimental **API-Key-Free Mode** in **Settings > Apollo Reborn > API Keys** to use Apollo without API keys by signing in to reddit.com directly! Supports browsing, voting, commenting, and saving. (#442: @nickclyde)\r\n  - In this mode, images attached to comments and posts now upload straight to Reddit's own CDN instead of falling back to Imgur (#495: @nickclyde)\r\n- Add **multi-account credentials** so each signed-in account can use its own Reddit API key (or web session) instead of sharing one, with a redesigned account switcher to add, edit, reorder, and remove accounts, and support for Reddit \"Web app\" confidential clients (#505: @DeltAndy123)\r\n- Add **Picture-in-Picture** for videos and GIFs \u2014 a floating in-app miniplayer that keeps playing as you scroll through the comments (drag to reposition, swipe to hide, double-tap to resize), with optional handoff to the iOS system PiP so playback continues when you leave Apollo (#467: @JeffreyCA)\r\n- Add **Img Chest** as a media upload host in **Settings > Apollo Reborn > Media Upload Host** for single images and albums, with thumbnails and host labels in **Manage Uploads**, the ability to delete Img Chest uploads, and an improved album viewer with share, Save All, an accurate loading percentage, and swipe-to-dismiss (#434: @icpryde)\r\n- Revamp the **Subreddit Sidebar** to render new-Reddit's structured content above the existing markdown \u2014 community stats (subscribers and created date), a **Search by Flair** chip row that jumps straight to a flair's posts, related communities, resource links, and a table of contents (#462: @icpryde)\r\n- Add an opt-in **Community Highlights** carousel in **Settings > Apollo Reborn > Subreddits**, showing a subreddit's pinned posts as tappable cards at the top of the feed, with tap-to-collapse, spoiler blurring, and an optional **Load All Highlights** mode that surfaces the full set of pinned posts (#463, #499: @icpryde)\r\n- Expand **Filters & Blocks** with per-subreddit keyword and post-flair filters plus subreddit-name filtering that hides any subreddit whose name contains a word (e.g. `circlejerk`) across feeds and search (#507: @icpryde)\r\n- Improve **Direct Chat** with inline images, GIFs, and emoji/snoomoji in message bubbles, ImgChest-backed image sending, a recipient avatar in the composer, a **Direct Chat** inbox filter with avatars on every row, and an **Inline Media in Chat** toggle in **Settings > Media** (#488: @icpryde)\r\n- Add **Apple's on-device Translation** (iOS 18+) as a translation provider in **Settings > Translation > Primary Provider**, alongside Google and LibreTranslate (#460: @icpryde)\r\n- Show a user's **Social Links** on their profile page (#465, #496, #498: @icpryde)\r\n- Move **Rich Link Previews** into its own settings section with a combined Body, Comments, and Color sub-screen, and replace the preset card colors with a full color picker (grid, spectrum, sliders, eyedropper, hex) plus quick swatches, a live card preview, and exact full-fill card coloring with automatic text contrast (#504: @icpryde)\r\n- Add **Include Link** and **Share as Video** options to **Share as Image** \u2014 attach the post's Reddit link alongside the rendered image, or export the post as a video (#484: @icpryde)\r\n- Add **Inbox Comment Scroll** so tapping a reply in the Inbox lands on the linked comment instead of the top of the post (#457: @icpryde)\r\n- Improve the **user flair selector** to handle old (CSS-class) and emoji-based flair systems, add a custom-emoji picker, and show clearer empty states instead of errors or walls of blank rows (#474: @icpryde)\r\n- Show **moderator avatars** in the subreddit Mods list (#459: @icpryde)\r\n- Add **0.75\u00d7 and 1.25\u00d7 playback speeds** to the fullscreen video player (#476: @icpryde)\r\n- Add a **hold-for-2\u00d7 gesture** \u2014 press and hold the right side of a fullscreen video to play at 2\u00d7 while held, then release to restore the previous speed (#479: @icpryde)\r\n\r\n### Fixes\r\n\r\n- Replace the misleading **\"Error Loading Notifications \u2014 contact developer\"** alert on free-Apple-ID sideloads with a clear **Notifications Unavailable** explanation, since Apple only grants the push entitlement to paid Developer accounts, so push, watchers, and inbox alerts can never reach those builds; paid-account sideloads and App Store/jailbreak builds are detected and left untouched (#492: @federgilad)\r\n- Make **deleted comment recovery** faster and more reliable, with cleaner labels on recovered comments and a heads-up when enabling it that comments may load slower (#418: @nunoo)\r\n- Fix the tweak's settings screens only following the system light/dark mode instead of **Apollo's own color theme**, along with related cell coloring glitches when switching appearance (#440: @iCrazeiOS)\r\n- Keep a profile's **avatar, banner, bio, and social links** visible even when **Show User Profile Pictures** is turned off (#487: @icpryde)\r\n- Rework the **feed and subreddit search bar** so the navigation bar fully hides on iOS 26 instead of floating half-visible, and add an opt-in **Keep Search Bar In Place** mode in **Settings > Apollo Reborn > General** (#451: @icpryde)\r\n- Fix **link-preview card text** showing raw HTML entities like `&amp;` (#461: @icpryde)\r\n- Fix the **SUBREDDIT SUGGESTIONS** header overlapping the first row on the Search tab (#478: @icpryde)\r\n- Fix the **modern subreddit list** tinting the whole navigation bar when the Home row is selected (#453: @icpryde)\r\n- Fix the **profile-picture tab icon** greying out after opening a direct chat room from the Inbox (#458: @icpryde)\r\n- Fix the **translation globe** spacing in the Liquid Glass navigation bar (#455: @icpryde)\r\n- Fix **Pixel Pals** opening their menu over media, web views, and modals (#506: @icpryde)\r\n- Hide the redundant **GIF** caption beneath inline GIFs (#464: @icpryde)\r\n- Improve the **manual sign-in fallback** UI on older iOS versions (#480: @Alstruit)\r\n- Fix **Hide Mod Subreddits** stripping the moderator badge and mod tools when every moderated subreddit was hidden; the Subreddits list now filters display only, leaving the app-wide moderator roster intact (#500: @icpryde)\r\n- Restore the **follow-thread Live Activity** in the Reborn widgets so a self-hosted notification backend can render and update it again (#490: @nickclyde)\r\n- Show the **website name** on a link card when the scraped title is only numbers, instead of a bare number like a single-page app's match ID (#503: @icpryde)\r\n\r\n### Screenshots\r\n\r\n<table>\r\n<tr>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/bb349d61-3df3-4cfd-b4b4-bc4c78f39ff0\" width=\"200\" /><br/><b>AI Summaries</b><br/><sub>On-device post &amp; article summaries in the comments header</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/489\">#489</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/2e20bc25-9afb-4d0b-9f56-b3424a4ae6bf\" width=\"200\" /><br/><b>Rich Link Preview Colors</b><br/><sub>Full color picker for link cards with a live preview</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/504\">#504</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/8c2bf4c0-321d-4c5b-88e1-98543a48075a\" width=\"200\" /><br/><b>Share Custom Themes</b><br/><sub>Export and import themes to share with others</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/454\">#454</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/2a498cea-7226-4d8f-8358-7e5ebecc1ebd\" width=\"200\" /><br/><b>Theme Builder</b><br/><sub>Create and fine-tune your own custom themes</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/454\">#454</a></td>\r\n</tr>\r\n<tr>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/e8b285e7-7eb4-474e-b9eb-4f99d1c78aa3\" width=\"200\" /><br/><b>Custom Themes</b><br/><sub>Manage multiple saved themes like built-ins</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/454\">#454</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/29fb5600-4e62-4547-a7f2-d1b392f8e1b6\" width=\"200\" /><br/><b>Reddit CDN Uploads</b><br/><sub>API-Key-Free mode uploads media straight to Reddit</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/495\">#495</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/7407618d-86b8-42bf-80b9-92ab51f7702a\" width=\"200\" /><br/><b>Expanded Filters &amp; Blocks</b><br/><sub>Per-subreddit keyword, flair, and name filters</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/507\">#507</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/1e626bb6-1234-4b7c-9df4-b6a65713f853\" width=\"200\" /><br/><b>Direct Chat Filter</b><br/><sub>A new inbox filter to isolate direct chats</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/488\">#488</a></td>\r\n</tr>\r\n<tr>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/e9515a11-5975-452e-aeb3-e53c0eb5593c\" width=\"200\" /><br/><b>Inline Chat Media</b><br/><sub>Images, GIFs, and emoji in message bubbles</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/488\">#488</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/468a51d8-bc78-43de-9d16-8e22ee81ce89\" width=\"200\" /><br/><b>Share as Video</b><br/><sub>Export a post as a video clip</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/484\">#484</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/b8271b7a-4671-4dc0-ad0c-34ef5da7615c\" width=\"200\" /><br/><b>Embedded Video Info</b><br/><sub>Shared video keeps the post's title and source</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/484\">#484</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/b7778f4d-5ad3-4d9e-b82f-15049ee21d72\" width=\"200\" /><br/><b>Hold for 2&#215; Speed</b><br/><sub>Press and hold the right side to play at 2&#215;</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/479\">#479</a></td>\r\n</tr>\r\n<tr>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/fdd4f492-cc6c-4449-85b2-9ecb4db3f506\" width=\"200\" /><br/><b>2&#215; While Held</b><br/><sub>Release to restore the previous speed</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/479\">#479</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/f0c3203b-f281-46aa-a84f-f16e727fc015\" width=\"200\" /><br/><b>Img Chest Upload Host</b><br/><sub>Upload single images and albums to Img Chest</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/434\">#434</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/944f8d5a-c802-43bc-a9e5-dfcc0aba613b\" width=\"200\" /><br/><b>Album Share &amp; Save</b><br/><sub>Share, Save All, and manage Img Chest uploads</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/434\">#434</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/1114a149-c083-4610-a3fc-84f984fcdea7\" width=\"200\" /><br/><b>Improved Flair Selector</b><br/><sub>Handles emoji/CSS flairs with a custom-emoji picker</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/474\">#474</a></td>\r\n</tr>\r\n<tr>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/c1d9b114-79a8-419e-aa6f-80f139c3b7b8\" width=\"200\" /><br/><b>More Playback Speeds</b><br/><sub>Adds 0.75&#215; and 1.25&#215; to the video player</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/476\">#476</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/d6e05e27-8875-417f-a5de-5f5c1ec4a9ee\" width=\"200\" /><br/><b>Picture-in-Picture</b><br/><sub>A floating miniplayer keeps videos playing as you scroll</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/467\">#467</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/56601389-6459-4ff9-b63f-69f4e136d08d\" width=\"200\" /><br/><b>Hide Mod Subreddits</b><br/><sub>Hide dead mod subs without losing mod tools</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/500\">#500</a></td>\r\n<td align=\"center\" width=\"25%\" valign=\"top\"><img src=\"https://github.com/user-attachments/assets/09291289-5a1f-417d-b1b3-b2aa9724ca6a\" width=\"200\" /><br/><b>View Deleted Comments</b><br/><sub>Faster, more reliable deleted-comment recovery</sub><br/><a href=\"https://github.com/Apollo-Reborn/Apollo-Reborn/pull/418\">#418</a></td>\r\n</tr>\r\n</table>\r\n\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.3.0/Apollo-Reborn-3.3.0-GLASS-NOEXTENSIONS.ipa",
+                    "size": 102993883
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Onion Browser",
+            "bundleIdentifier": "com.miketigas.OnionBrowser",
+            "marketplaceID": "",
+            "developerName": "OnionBrowser",
+            "subtitle": "Secure, anonymous web with Tor",
+            "localizedDescription": "Onion Browser is the original free and open-source Tor-powered web browser for iOS. Onion Browser helps you access the internet with more safety and privacy, and no extra cost to you.\n\n\u201cThe best Tor-related offering on iOS right now is Onion Browser\u201d - The Daily Dot, October 14, 2015.\n\nFeatured in: The New York Times, The Guardian, Salon, TechCrunch, Gizmodo, Boing Boing, Lifehacker, Macworld, The Daily Dot, & others.\n\nFEATURES:\n\u2022 Browse the internet over Tor:\n- Protect your privacy from website tracking\n- Secure your traffic from insecure wireless networks and ISPs\n- Access .onion sites that are only accessible over Tor.\n\n\u2022 Fight online tracking: block scripts and automatically clear cookies and tabs, based on your preferences.\n\n\u2022 And more privacy-enhancing features!\n\nDISCLAIMERS:\n- Web browsing is much slower than through a normal web browser or a VPN because your traffic is encrypted and relayed through the Tor network.\n\n- Onion Browser might not work on networks with advanced network restrictions. If the app does not connect, try using bridges (or a different type of bridge), force-quit, and then restart the app.\n\n- Use of Onion Browser is at your own risk; remember that sensitive data does not always belong on a mobile device.\n\n** Onion Browser is free and open-source software. You can read more about Onion Browser and how to support development of Tor on iOS by visiting onionbrowser.com ** ",
+            "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/62/a4/de/62a4deec-dd9c-e07d-9357-84b6970b06bb/Placeholder.mill/400x400bb-75.webp",
+            "tintColor": "#a74dff",
+            "category": "utilities",
+            "screenshots": {
+                "iphone": [
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/28/a5/3e/28a53e65-4cf4-984a-721f-38ac74870026/a6cd20bc-d773-45d1-95bf-99bd5cbca798_1_iphone65_1.1.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/da/a3/3c/daa33c08-db8c-f87a-ee52-e2d5c22e21df/28e7cb50-fa7d-41ed-a9ce-ad1ba4aa497f_2_iphone65_2.2.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5b/59/fb/5b59fbdf-7c83-1627-9684-dc9466d3efe7/962fc3ee-b119-4779-9d99-a698a02e7b56_3_iphone65_3.3.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/b8/25/72/b8257273-043b-f306-5776-c90ae90361ae/44e53f10-2384-4a52-964e-0e92cba34ce7_4_iphone65_4.4.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/73/0c/4c/730c4ca3-e9ca-2431-0260-dd6f04c61518/fc2e4a1f-23b8-41ce-987c-0adb0d96be96_5_iphone65_5.5.png/230x499bb.webp",
+                    "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/7c/3d/f5/7c3df55f-04c5-1d9e-88e3-552e276cbeca/c0c42511-e29d-4529-b7ed-07affdf15b26_6_iphone65_6.6.png/230x499bb.webp"
+                ],
+                "ipad": [
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/31/d1/e6/31d1e6e9-b51a-2cd1-c685-2bf9f183f69c/eb95e434-5031-4363-a5f9-646cb9348cd4_1_ipadPro129_1.1.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/e4/72/08/e472089f-5ea5-a82b-712d-8cdaa75565d9/dddc3908-7f97-4e47-915c-c72c8ab32114_2_ipadPro129_2.2.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/98/3b/3b/983b3bd5-2f49-d22c-66c3-7efeb5022c46/dad6a080-995c-4cff-ba52-18e3a91fb98c_3_ipadPro129_3.3.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/0d/69/cf/0d69cf20-ba4e-2b60-a0a9-1f7923526d95/2edc1443-ba76-4ea7-a66a-2b8981a80709_4_ipadPro129_4.4.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource126/v4/5a/b8/7e/5ab87e60-a811-f036-5e42-0256bf222be8/5f75f09d-8017-4a40-a885-d0fc7b06c315_5_ipadPro129_5.5.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    },
+                    {
+                        "imageURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/8e/54/5b/8e545bbd-9faa-3f10-ff11-b204661e593c/f347ab9f-244f-4e49-ac5b-2551b57e578d_6_ipadPro129_6.6.png/480x360bb.webp",
+                        "width": 480,
+                        "height": 360
+                    }
+                ]
+            },
+            "versions": [
+                {
+                    "version": "3.3.2",
+                    "date": "2025-12-19T17:30:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.21.\r\n- Updated Lyrebird to 0.8.0.\r\n- Fixed minor bugs around bookmarks.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.2/OnionBrowser.ipa",
+                    "size": 34189973,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.1",
+                    "date": "2025-11-24T12:58:14Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.20.\r\n- Added bookmarks import/export with Firefox-compatible HTML file.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.1/OnionBrowser.ipa",
+                    "size": 33379151,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.0",
+                    "date": "2025-11-10T11:30:32Z",
+                    "localizedDescription": "- Added Siri Shortcuts support.\r\n- Added bookmarks folder support.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.0/OnionBrowser.ipa",
+                    "size": 32041275,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.5",
+                    "date": "2025-10-14T14:08:26Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.19.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.5/OnionBrowser.ipa",
+                    "size": 31834099,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.4",
+                    "date": "2025-09-22T11:17:43Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.18.\r\n- Updated translations.\r\n- Added support for \"vanilla bridges\" - bridges, that don't use obfuscation at all.\r\n- Improved accessibility with VoiceOver.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.4/OnionBrowser.ipa",
+                    "size": 31757993,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.3",
+                    "date": "2025-08-04T14:02:39Z",
+                    "localizedDescription": "- Show status text when bootstrapping Tor.\r\n- Improved URL blocker:\r\n  - Replaced outdated blocklist with HaGeZi's list: https://github.com/hagezi/dns-blocklists\r\n  - App ships with light list by default.\r\n  - Updateable by user, 5 different lists to choose from.\r\n  - Optionally switch off completely.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.3/OnionBrowser.ipa",
+                    "size": 31910782,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.2",
+                    "date": "2025-07-07T14:11:32Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.17.\r\n- Fixed leak through share sheet by providing our own metadata acquired through Tor.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.2/OnionBrowser.ipa",
+                    "size": 31490068,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.1",
+                    "date": "2025-06-03T11:29:10Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.16.\r\n- Updated Lyrebird to latest version 0.6.1.\r\n- Added Pashto translation. (Thanks leoprohacker!)\r\n- Minor translation updates.\r\n- Fixed crash with WhatsApp links.\r\n- Fixed UI bug around new lockdown mode.\r\n- Improved display of certificate information.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.1/OnionBrowser.ipa",
+                    "size": 30624177,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.2.0",
+                    "date": "2025-02-28T16:51:52Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.14.\r\n- Added Lockdown Mode support for iOS 16 and up.\r\n- Added \"block insecure HTTP requests\" feature.\r\n- Fixed cache purge when in \"forget tabs at shutdown\" mode.\r\n- Built-in Tor: fixed broken state when app was in background for too long.\r\n- Built-in Tor: Fixed leaking when requesting Bookmark favicons, when talking to a Nextcloud Bookmarks server, when doing live search results and when downloading items.\r\n- Fixed some minor UI issues.\r\n- Replaced old Endless Objective-C code with rewrite in Swift.\r\n- Replaced print with OSLog.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.2.0/OnionBrowser.ipa",
+                    "size": 30741203,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2024-11-28T11:06:30Z",
+                    "localizedDescription": "- Fixed bug where a selected transport was ignored during startup and only took effect after changing it.\r\n- Updated Tor to latest version 0.4.8.13.\r\n- Updated Snowflake to latest version 2.10.1.\r\n- Updated Lyrebird to latest version 0.5.0.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.5/OnionBrowser.ipa",
+                    "size": 30084277,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2024-08-07T12:47:23Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.12.\r\n- Always use `https` on clearnet addresses, when the user didn't enter a URL scheme.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.4/OnionBrowser.ipa",
+                    "size": 29631768,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2024-06-03T10:52:56Z",
+                    "localizedDescription": "- Updated Tor to latest version 0.4.8.11.\r\n- Added support for mixed custom bridges: You can now mix meek, obfs4 and the new WebTunnel bridge type in your custom bridge list.\r\n- Fixed an issue with the bottom toolbar hiding and showing.\r\n- Minor updates to translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.3/OnionBrowser.ipa",
+                    "size": 29620102,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2024-03-31T21:21:37Z",
+                    "localizedDescription": "- Updated built-in Snowflake to latest version 2.9.2.\r\n- Added Indonesian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.2/OnionBrowser.ipa",
+                    "size": 28667469,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2024-01-30T12:22:11Z",
+                    "localizedDescription": "- Updated built-in Tor to latest version 0.4.8.10.\r\n- Updated built-in Snowflake to latest version 2.8.1.\r\n- Updated translations.\r\n- Fixed crash.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.1/OnionBrowser.ipa",
+                    "size": 31497187,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2023-10-25T10:44:15Z",
+                    "localizedDescription": "- Added built-in Tor again to use with new `WKWebView` proxy settings in iOS 17.\r\n  This supports scenarios, where Orbot is too unreliable because of memory constraints\r\n  or when users want to use it over another VPN.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.1.0/OnionBrowser.ipa",
+                    "size": 30722541,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.3",
+                    "date": "2023-09-27T10:31:03Z",
+                    "localizedDescription": "- Fixed crashes in popups.\r\n- Fixed \"Clear Data\" shortcut on iPhones.\r\n- Allow Onion Browser to become the default webbrowser.\r\n- Added Tatar translation.\r\n- Updated many other translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.3/OnionBrowser.ipa",
+                    "size": 14185165,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.2",
+                    "date": "2023-07-17T11:16:33Z",
+                    "localizedDescription": "- Improved communication with Orbot.\r\n- Updated Hungarian translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.2/OnionBrowser.ipa",
+                    "size": 13898686,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2023-06-26T14:37:51Z",
+                    "localizedDescription": "- Fixed problem, where webpage was still showing when returning to the app,\r\n  although \"forget in background\" security setting was selected.\r\n- Updated Spanish translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.1/OnionBrowser.ipa",
+                    "size": 13893448,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2023-06-14T10:59:46Z",
+                    "localizedDescription": "- Onion Browser now relies on Orbot for Tor network access.\r\n  Orbot handles all network routing and Onion Browser just makes sure that all requests get cancelled, when Orbot stops.\r\n- Replaced old `UIWebView` with newer `WKWebView`. Parallelized loading, newer web standards support.\r\n- Finally supports media streaming over Tor!\r\n- Minimum iOS version is now 15, as that's what Orbot supports.\r\n- Removed HTTPSEverywhere. That's built into iOS 15, already.\r\n- Removed WebRTC blocking. Not a danger anymore.\r\n- Replaced outdated DNT header (\"Do-Not-Track\") with new GPC header (\"Global-Privacy-Control\").\r\n- Added support for multiple windows on iPad.\r\n- Added support to download all content.\r\n- Added \"Find in Page\" for iOS 16 and newer.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.0.0/OnionBrowser.ipa",
+                    "size": 13891464,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.3",
+                    "date": "2022-12-14T15:04:20Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.11.1 containing Tor 0.4.7.11.\r\n- Support custom search engines.\r\n- Translation updates.\r\n- Added setting to control background-hiding.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.3/OnionBrowser.ipa",
+                    "size": 198031926,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.8.2",
+                    "date": "2022-09-29T11:35:58Z",
+                    "localizedDescription": "- Updated to Tor.framework 407.10.2 containing Tor 0.4.7.10.\r\n- Updated Snowflake to version 2.3.0.\r\n- Fixed crash when editing a bookmark URL.\r\n- Minor translation updates.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v2.8.2/OnionBrowser.ipa",
+                    "size": 197374069,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.3.3",
+                    "date": "2026-02-13T14:48:32Z",
+                    "localizedDescription": "- Updated Tor to 0.4.8.22.\r\n- Updated Lyrebird to 0.8.1.\r\n- Added experimental DNSTT support.\r\n- Added additional source of bridges.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.3/OnionBrowser.ipa",
+                    "size": 34461313
+                },
+                {
+                    "version": "3.3.4",
+                    "date": "2026-02-19T16:39:17Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.5.\r\n- Fixed bug where certificate info sometimes wouldn't show.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.4/OnionBrowser.ipa",
+                    "size": 34456665
+                },
+                {
+                    "version": "3.3.5",
+                    "date": "2026-03-06T12:52:12Z",
+                    "localizedDescription": "- Improved DNSTT support for challenged countries.\r\n- Fixed bug where URL call from another app wasn't recognized on cold start.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.5/OnionBrowser.ipa",
+                    "size": 35812185
+                },
+                {
+                    "version": "3.3.6",
+                    "date": "2026-03-11T17:06:59Z",
+                    "localizedDescription": "- Improved DNSTT shutdown.\r\n- Updated to Snowflake 2.12.1.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.6/OnionBrowser.ipa",
+                    "size": 35924914
+                },
+                {
+                    "version": "3.3.7",
+                    "date": "2026-04-09T16:44:36Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.6.\r\n- Updated to Snowflake 2.13.1.\r\n- Updated translations.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.7/OnionBrowser.ipa",
+                    "size": 35728985
+                },
+                {
+                    "version": "3.3.8",
+                    "date": "2026-05-13T09:26:49Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.8.\r\n- Updated DNSTT to 1.20260501.0.\r\n- Updated Korean translation.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.8/OnionBrowser.ipa",
+                    "size": 36180209
+                },
+                {
+                    "version": "3.3.10",
+                    "date": "2026-06-05T12:08:33Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.9. (Contains many security fixes!)\r\n- Updated Korean, Japanese, Croatian amd simplified Chinese translations. \r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.10/OnionBrowser.ipa",
+                    "size": 35681868
+                },
+                {
+                    "version": "3.3.9",
+                    "date": "2026-06-05T12:22:00Z",
+                    "localizedDescription": "- Updated Korean translation.\r\n- Added promotion hint.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.3.9/OnionBrowser.ipa",
+                    "size": 36196071
+                },
+                {
+                    "version": "3.4.0",
+                    "date": "2026-06-24T11:37:19Z",
+                    "localizedDescription": "- Updated Tor to 0.4.9.10.\r\n- Updated Snowflake to 2.14.0.\r\n- Updated DNSTT to 1.20260501.0.\r\n- Security fix: Elevated link preview security to same as normal tabs.\r\n- Fixed link preview title background in iOS 26.\r\n- Make link preview optional. \r\n- Updated Korean, Japanese and simplified Chinese translations.\r\n- Removed outdated NYT default bookmark. Onion service was discontinued.\r\n- Removed promotion hint again after end of campaign.\r\n",
+                    "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.0/OnionBrowser.ipa",
+                    "size": 35893388
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "qBitControl",
+            "bundleIdentifier": "MikeMichael225.qBitControl",
+            "marketplaceID": "",
+            "developerName": "Michael-128",
+            "subtitle": "qBittorrent remote client for iOS devices.",
+            "localizedDescription": "qBitControl is the definitive remote client for managing your qBittorrent downloads on iOS devices. With qBitControl, you can effortlessly add torrents, browse files, monitor your download progress, and manage your torrents, all while enjoying real-time statistics and a native iOS user interface.",
+            "iconURL": "https://raw.githubusercontent.com/Michael-128/qBitControl/main/qBitControl/Assets.xcassets/AppIcon.appiconset/logo1.png",
+            "tintColor": "#449FFF",
+            "category": "utilities",
+            "screenshots": [
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc1.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc2.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc3.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc4.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc5.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.3.4",
+                    "date": "2025-10-02T17:12:20Z",
+                    "localizedDescription": "## Features\r\n- Add 'Advanced' page to 'Add Server' view & Add basic authentication (#74) [#74](https://github.com/Michael-128/qBitControl/pull/74) ([Michael](https://github.com/Michael-128/qBitControl/commit/3733dacb87bb18844ead5012a4f328b2366169cc))\r\n- Add animation when selecting torrents ([Michael-128](https://github.com/Michael-128/qBitControl/commit/2c5158589c65993e6aee5186b2e93e82395118dc))\r\n\r\n## Bug Fixes\r\n- iOS 26 UI issues with select multiple ([Michael-128](https://github.com/Michael-128/qBitControl/commit/e9f328f7519ff531db2d9afbc86921f7ac372ecf))\r\n\r\n## Code Refactoring\r\n- Extract TorrentListSelectionToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/5d7f9fbdb13740192ed546af6b79a6a77d5a903d))\r\n- Extract TorrentListDefaultToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/c9cb9bc211db600faf9fb62af9004f7ceb598229))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/1433ca2632acac4e0adc9172cc9ca8553fb46a9f))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/d368d4dcb9bddb78e19332200cf37e1869ae5e22))\r\n- Rewrite deprecated code ([Michael-128](https://github.com/Michael-128/qBitControl/commit/355bdd78216f6139af9bf54bc6a4226ba92bd65b))\r\n\r\n## Commits\r\n- 11d7c5d: Update README.md (Michael)\r\n- 2fa7305: Add AltStore source badges in README (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- 220ed78: Alternative README badges (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- d1bd427: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 4e2a51b: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 89325cc: Add torrent list scroll down behavior for iOS 28 (Michael-128)\r\n- a8561f2: Update to MacOS 26 & Xcode 26 (Michael)\r\n- df6e25b: Merge remote-tracking branch 'refs/remotes/origin/main' (Michael-128)\r\n- 9667fad: Improve tab view to meet standard of iOS 26 (Michael-128)",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.4/qBitControl.ipa",
+                    "size": 3870732,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.3",
+                    "date": "2025-04-21T18:32:31Z",
+                    "localizedDescription": "## New:\r\n- Add Search Functionality to RSS Tab\r\n\r\n## Improvements:\r\n- Improve Charts in Stats Tab\r\n\r\n## Fixes:\r\n- Fix Translation Related Bugs\r\n- Update Translation\r\n- Add a Missing Uncategorized Option in Category Selection View\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.2...1.3.3",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.3/qBitControl.ipa",
+                    "size": 4321496,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2025-02-13T19:07:42Z",
+                    "localizedDescription": "## New:\r\n- Added New Category & Tag Selection System\r\n- Added RSS Feed & Folder Renaming & Deleting\r\n- Updated Translations\r\n\r\n## Improvements:\r\n- Enhance Tips when Adding Server (by: @MrNocole in https://github.com/Michael-128/qBitControl/pull/62)\r\n- Improve Naming to Match qBitttorrent\r\n\r\n## Fixes:\r\n-  Fixed Pause Option for qBittorrent 5.0.X in 'Torrent Add Sheet'\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.1...1.3.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.2/qBitControl.ipa",
+                    "size": 4222623,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.1",
+                    "date": "2025-01-09T19:50:10Z",
+                    "localizedDescription": "## New:\r\n- Added RSS Support\r\n- Added 'Add Tracker' Option\r\n- Added Option to Download First & Last Pieces First\r\n- Added Force Start Option\r\n- Added 'Help with Translation' Button in About Section\r\n- Added Chinese Simplified Localization (by @peaynan)\r\n\r\n\r\n## Improvements:\r\n- Rearranged Torrent Details & Added ETA\r\n- Updated Localizations\r\n\r\n## Fixes:\r\n- Fixed Compatibility with qBittorrent 5.0.0 API\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.2...1.3.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.1/qBitControl.ipa",
+                    "size": 4178946,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2024-09-20T09:34:36Z",
+                    "localizedDescription": "## New:\r\n- Added Server Editing\r\n\r\n## Fixed:\r\n- Disabled Category Path Auto-Fill if Automatic Torrent Management is Enabled\r\n- Fixed Compatibility for Older qBittorrent Clients\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.1...1.2.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.2/qBitControl.ipa",
+                    "size": 4084813,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2024-09-03T15:30:20Z",
+                    "localizedDescription": "## New:\r\n- Improved 'Stats' View\r\n- Added 'About' Section\r\n\r\n## Fixed:\r\n- Torrent availability is now displayed correctly\r\n- Fixed password encoding\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2...1.2.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.1/qBitControl.ipa",
+                    "size": 4080368,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2024-07-25T16:33:34Z",
+                    "localizedDescription": "## New:\r\n- Added Torrent Priority Management \r\n- Added Sequential Download Option\r\n- Added MacCatalyst support (by: @vit9696)\r\n- Added Polish & Japanese Localizations\r\n- Allowed HTTP connections over the internet\r\n\r\n## Fixed:\r\n- Fixed incorrect ratio bug on stats page\r\n- Refactored a lot of code\r\n- Fix category save path not updating (by: @narenh)\r\n\r\n## New Contributors\r\nThank you @vit9696 and @narenh for contributing to the repository. Your efforts are greatly appreciated!\r\n- @vit9696 made their first contribution in https://github.com/Michael-128/qBitControl/pull/11\r\n- @narenh made their first contribution in https://github.com/Michael-128/qBitControl/pull/15\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.1...1.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2/qBitControl.ipa",
+                    "size": 4061844,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2024-01-17T12:13:53Z",
+                    "localizedDescription": "## New:\r\n- Reworked login system with support for multiple qBittorrent instances.\r\n- Magnet links are now redirected to qBitControl.\r\n- BitTorrent files can now be opened using qBitControl.\r\n\r\n## Fixed:\r\n- Fixed broken UI on iPad.\r\n- Fixed filtering torrents by tags.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.4...1.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.1/qBitControl.ipa",
+                    "size": 2538421,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.4",
+                    "date": "2023-12-20T20:10:31Z",
+                    "localizedDescription": "## New:\r\n- Batch Torrent Management\r\n- Upload & Download Stats View\r\n- 'Clear Completed Torrents\u2019 Button\r\n- 'Pause Category\u2019 Button\r\n- Demo View\r\n\r\n## Fixed:\r\n- Flickering Menu\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.3...1.0.4",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.4/qBitControl.ipa",
+                    "size": 2595915,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.3",
+                    "date": "2023-12-10T19:52:09Z",
+                    "localizedDescription": "## Changes:\r\n- Currently selected category is displayed as navigation title\r\n\r\n## Fixed:\r\n- The app couldn't differentiate between two torrents with the same name. The two torrents\u2019 details pages showed the same exact information of one of the torrents.\r\n- Infinite login bug.\r\n- Can't connect warning message appeared after local network access was allowed.\r\n- Fixed typos.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.2...1.0.3",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.3/qBitControl.ipa",
+                    "size": 1817965,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2023-12-05T09:20:10Z",
+                    "localizedDescription": "## Changes:\r\n- Moved log out button to a toolbar menu\r\n- Added pause all & resume all buttons\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/release...1.0.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.2/qBitControl.ipa",
+                    "size": 2448085,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "release",
+                    "date": "2023-12-02T22:00:46Z",
+                    "localizedDescription": "qBittorrent client for iOS devices.\r\n\r\n## Features\r\n- Add torrents from magnet or file.\r\n- View progress, stats, peers, and trackers of your torrents.\r\n- Manage your torrents - pause/resume, recheck, reannounce and delete.\r\n- Browse torrents files\r\n- Search, sort, and filter torrents.\r\n- Dark mode and light mode\r\n",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release/qBitControl.ipa",
+                    "size": 2427940,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "CI",
+                    "date": "2026-06-21T19:18:25Z",
+                    "localizedDescription": "## Features\r\n- Resume current tasks [#94](https://github.com/Michael-128/qBitControl/pull/94) (by @kambala-decapitator )\r\n- Sanitize server URL for trailing slashes when adding a server [#84](https://github.com/Michael-128/qBitControl/pull/84) (by @danpiths )\r\n\r\n## Bug Fixes\r\n- Resolve single task deletion from context menu and use standard alert (#92) (by @Michael-128)\r\n- Fix stats showing up as zeros on qBittorrent >5.2 (by @Michael-128)\r\n- Fix peers JSON decoding [#96](https://github.com/Michael-128/qBitControl/pull/96) (by @kambala-decapitator)\r\n- Fix ServersHelper thread safety warning (by @Michael-128)\r\n\r\n## Code Refactoring\r\n- Sanitize inputs before running validations (by @Michael-128)\r\n\r\n## Chores\r\n- **localization**: Update Polish & Japanese localizations [#94](https://github.com/Michael-128/qBitControl/pull/94)\r\n- **l10n**: Add & complete Chinese (zh-Hans/Hant) translations [#95](https://github.com/Michael-128/qBitControl/pull/95) (by @XaoflySho)\r\n- Automated build setup & pipeline fixes\r\n- Remove obsolete Xcode workspace (by @kambala-decapitator )\r\n- Bump version to 1.3.5 (build 19)",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/CI/qBitControl.ipa",
+                    "size": 4302381
+                },
+                {
+                    "version": "1.3.5",
+                    "date": "2026-06-21T19:18:25Z",
+                    "localizedDescription": "## Features\r\n- Resume current tasks [#94](https://github.com/Michael-128/qBitControl/pull/94) (by @kambala-decapitator )\r\n- Sanitize server URL for trailing slashes when adding a server [#84](https://github.com/Michael-128/qBitControl/pull/84) (by @danpiths )\r\n\r\n## Bug Fixes\r\n- Resolve single task deletion from context menu and use standard alert (#92) (by @Michael-128)\r\n- Fix stats showing up as zeros on qBittorrent >5.2 (by @Michael-128)\r\n- Fix peers JSON decoding [#96](https://github.com/Michael-128/qBitControl/pull/96) (by @kambala-decapitator)\r\n- Fix ServersHelper thread safety warning (by @Michael-128)\r\n\r\n## Code Refactoring\r\n- Sanitize inputs before running validations (by @Michael-128)\r\n\r\n## Chores\r\n- **localization**: Update Polish & Japanese localizations [#94](https://github.com/Michael-128/qBitControl/pull/94)\r\n- **l10n**: Add & complete Chinese (zh-Hans/Hant) translations [#95](https://github.com/Michael-128/qBitControl/pull/95) (by @XaoflySho)\r\n- Automated build setup & pipeline fixes\r\n- Remove obsolete Xcode workspace (by @kambala-decapitator )\r\n- Bump version to 1.3.5 (build 19)",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.5/qBitControl.ipa",
+                    "size": 4302381
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "DolphiniOS",
+            "bundleIdentifier": "me.oatmealdome.DolphiniOS-njb-patreon-beta",
+            "marketplaceID": "",
+            "developerName": "OatmealDome",
+            "subtitle": "Dolphin for iOS, reborn",
+            "localizedDescription": "DolphiniOS is a GameCube and Wii emulator for iOS and iPadOS. All iOS versions starting with 14.0 are supported, and no jailbreak is required!",
+            "iconURL": "https://raw.githubusercontent.com/OatmealDome/dolphin-ios/refs/heads/master/Data/dolphin-emu.png",
+            "tintColor": "#007aff",
+            "category": "games",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "5.0.0b4",
+                    "date": "2025-10-23T02:48:05Z",
+                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed a crash when using JIT on devices running iOS 26 with an A12, A13, A14, or M1 chip.\r\n* Added additional JIT information to the Debug menu to assist in debugging problems.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b3...v5.0.0b4",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b4/Non-Jailbroken.ipa",
+                    "size": 17963622,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.0.0b3",
+                    "date": "2025-10-18T17:01:54Z",
+                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Added support for the Skylanders Portal of Power in Skylanders games for the Wii, courtesy of @deReeperJosh.\r\n  * Enable \"Emulate Skylander Portal\" in Settings -> Config -> Wii and select \"Skylanders Portal\" in the in-game menu to load a figure.\r\n* Fixed an issue where devices with an A15+ or M2+ chip running iOS 17 or 18 would crash when starting a game in JIT mode.\r\n* Fixed an issue where \"vm_map\" errors would randomly occur.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b2...v5.0.0b3",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b3/Non-Jailbroken.ipa",
+                    "size": 17963458,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.0.0b2",
+                    "date": "2025-10-13T02:16:56Z",
+                    "localizedDescription": "**[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** LiveContainer will also require some additional setup.\r\n\r\n* Fixed an issue where some controller options would be incorrectly disabled.\r\n* Fixed an issue where there was a typo in text pertaining to \"memory size\" overrides.\r\n* Added additional alerts to help debug a crash on some devices running iOS 18 and older.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b1...v5.0.0b2",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b2/Non-Jailbroken.ipa",
+                    "size": 17958160,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.0.0b1",
+                    "date": "2025-10-11T17:27:37Z",
+                    "localizedDescription": "* Added support for JIT on iOS 26.\r\n  * **[StikDebug](https://apps.apple.com/us/app/stikdebug/id6744045754) version 2.3.0 or newer is required on iOS 26 devices.** Using other JIT enablers may cause DolphiniOS to crash.\r\n* Enabled Liquid Glass on iOS 26.\r\n* Added new Liquid Glass app icons by Kongolabongo.\r\n* The Dolphin core was updated to 2509.\r\n  * Save states made in previous versions of DolphiniOS are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Sped up Cached Interpreter by approximately 10%, courtesy of TellowKrinkle. \r\n* The version number has been increased to 5.0.0 to prevent confusion with DolphiniOS forks.\r\n\r\n## For Developers\r\n\r\n* Due to changes made by Apple in iOS 26, Xcode is no longer a supported JIT enabler on devices utilizing TXM (A15+ or M2+) running iOS 26 or newer.\r\n  * If you are running DolphiniOS within Xcode, you will need to use Cached Interpreter or switch to an older device to use JIT.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b9...v5.0.0b1",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b1/Non-Jailbroken.ipa",
+                    "size": 17958943,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b9",
+                    "date": "2025-05-06T17:25:12Z",
+                    "localizedDescription": "* The Dolphin core has been updated to 2503a.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Fixed keyboards not showing up in the devices list in controller settings. (#201 by @SamoZ256)\r\n* Added a temporary fix for CMake 4.0+ compatibility.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b8...v4.0.0b9",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b9/Non-Jailbroken.ipa",
+                    "size": 16149753,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b8",
+                    "date": "2025-01-17T21:00:27Z",
+                    "localizedDescription": "This is the fourth revision of beta 8.\r\n\r\n### Changes\r\n\r\n* The Dolphin core has been updated to 2412.\r\n  * Save states made in previous beta versions are not compatible. GameCube memory cards and Wii in-game save files are not affected.\r\n* Added new app icons based off the macOS icon introduced in Dolphin 2407. (thanks Kongolabongo and @brand175 for the new iOS icons, and thanks MayImilae for the original macOS icon)\r\n* No JIT mode (**very slow**) has been added. (thanks @brand175)\r\n  * When launching a game without JIT enabled, you can now choose to start it in No JIT mode.\r\n  * The \"waiting for JIT\" screen can be bypassed entirely by manually changing the CPU Emulation Engine in Settings -> Config -> Advanced to Cached Interpreter.\r\n  * No JIT mode is **very slow**. You will need a high-end device (like a recent iPhone or iPad Pro) and to enable speed hacks (VBI Skip, CPU underclock, etc) to achieve playable speeds.\r\n* Added a button to import BootMii NAND backups in the software list.\r\n  * This is useful for those who want to play Wiimmfi online.\r\n  * No JIT users beware: Wiimmfi will ban devices that run below 100% emulation speed in Mario Kart Wii. We recommend that Wiimmfi should only be used in JIT mode.\r\n* Added experimental support for rootless jailbreaks. \r\n* Added a menu to check which buttons are being pressed on physical controllers when mapping buttons.\r\n* Ported \"Respect Silent Mode\" toggle from Delta.\r\n  * This setting controls whether DolphiniOS obeys the Ring/Silent switch on your device. If disabled, then audio will play even if silent mode is enabled.\r\n  * Find it in Settings -> Config -> Audio.  \r\n* Added Game Mode for devices running iOS 18.\r\n* Re-implemented the touch screen Wii pointer.\r\n  * A new default mode has been added: \"drag\". This mode allows you to use your touch screen like a laptop trackpad when moving the Wii pointer.\r\n  * The mode used in 3.2.1 and earlier is still available as \"follow\" mode.\r\n  * Choose the mode you want as default in the top bar menu during emulation or in Settings -> Controllers -> Touchscreen.\r\n* Re-implemented automatic disc changing.\r\n  * When a game asks for a different disc, DolphiniOS will automatically insert the correct disc into the emulated disc drive.\r\n  * Both disc files must be imported (i.e. in the Software folder and visible in the software list) for this feature to work properly.\r\n  * If it still does not work, ensure that \"Change Disc Automatically\" is enabled in Settings -> Config -> General.\r\n* Re-implemented the touch screen transparency level slider.\r\n* Re-implemented support for multiple save state slots.\r\n* Re-implemented the Open button in the software list.\r\n* Re-implemented the Delete button in the software list.\r\n* Re-implemented the Launch GameCube Main Menu button in the software list.\r\n* Matched the refresh rate of the `MTKView` to the display's refresh rate.\r\n  * GameCube and Wii games do not run above 30/60Hz.\r\n  * This is only for testing purposes.\r\n* Fixed many crashes, freezes, physics bugs, etc when using Cached Interpreter.\r\n  * The fix for this bug (disabling \"fast math\" mode in Xcode) will likely result in a slight performance decrease.\r\n  * While fast math does make math calculations run faster, it also causes [some calculations to return incorrect answers](https://simonbyrne.github.io/notes/fastmath/).\r\n  * Accuracy is vital when emulating software. When fast math returns a wrong answer for a calculation, it can cause crashing and other bugs in the emulated software, as they always expect to receive correct answers.\r\n  * For example, the Wii's System Menu immediately crashes when using Cached Interpreter in previous 4.0.0 beta builds, as the math used to calculate whether the pointer is hovering over a channel or not returns incorrect results. Disabling fast math fixes this issue.\r\n* Fixed an issue where the bottom of the \"waiting for JIT\" screen was cut off on some devices. (thanks @brand175)\r\n* Fixed an issue where booting Wii software during the first launch of the app could cause DolphiniOS to crash.\r\n* Fixed an issue where the state of the \"Enabled\" switch in the menu shown when mapping controller buttons does not save properly.\r\n* Fixed an issue where the toggle for VBI Skip in Settings was still using its old name, VI Skip.\r\n* Fixed an issue where the top bar could get dismissed while using the menu.\r\n  * This was fixed by removing the code which dismissed the top bar after 5 seconds.\r\n  * You now need to manually dismiss the top bar by pressing the \"eye with a slash through it\" icon.\r\n  * Unfortunately, there is no way to check to see if the menu is open, so this was the best solution I could come up with. \r\n* Fixed an issue where the software list was not refreshed when importing new software.\r\n* Fixed an issue where device motion did not apply to the Nunchuk.\r\n  * Users who are updating from an older beta version will need to re-import the Touchscreen default profile in Controllers to apply this bug fix.\r\n* Hid some options in the debug menu when DolphiniOS is built in release mode. \r\n* Updated MoltenVK to 1.2.8.\r\n  * [The latest version of MoltenVK is incompatible with Dolphin due to a bug](https://github.com/KhronosGroup/MoltenVK/issues/2403).\r\n\r\n### Revisions\r\n\r\n* Revision 2 was released shortly after the initial revision was published.\r\n  * Fixed a problem with the build creation process which caused builds to not show up on GitHub.\r\n* Revision 3 was released on Jan 17.\r\n  * Fixed a problem with the app icon not showing up on SpringBoard.\r\n  * Fixed a problem where the version number was not updated to beta 8.\r\n  * Fixed a problem where using Vulkan would cause colours to appear oversaturated until the app was restarted. (thanks @brand175)\r\n* Revision 4 was released shortly after Revision 3.\r\n  * Fixed a problem where the touch screen controller button images were not included in the app.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b7...v4.0.0b8",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b8/Non-Jailbroken.ipa",
+                    "size": 15830129,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b7",
+                    "date": "2024-01-19T20:55:14Z",
+                    "localizedDescription": "The full changelog can be found here: https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b6...v4.0.0b7.\r\n\r\nThis version fixes several critical bugs found in 4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Worked around an issue which causes fastmem initialization to fail (#115).\r\n* Fixed an issue which causes the app to freeze and/or crash when changing graphics settings.\r\n\r\n# Developer-Facing Changes\r\n\r\n* The UI thread is now the host thread while emulation is not running. When emulation is running, the host thread is whatever thread is executing for the host queue.\r\n* Calling `DOLHostQueueRunSync` on the host thread is now possible.\r\n* Calling `DOLHostQueueRunAsync` while on the host thread is now an illegal operation.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b7/Non-Jailbroken.ipa",
+                    "size": 13775833,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b6",
+                    "date": "2024-01-16T22:23:36Z",
+                    "localizedDescription": "# DO NOT USE THIS VERSION! USE [4.0.0b7](https://github.com/OatmealDome/dolphin-ios/releases/tag/v4.0.0b7) INSTEAD!\r\n\r\n---\r\n\r\n\r\nThe full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b5...v4.0.0b6.\r\n\r\nEnabling JIT is still required on non-jailbroken devices. However, Apple made changes in iOS 17 which broke all JIT enablers. Please be aware that, as of the time of writing, **all JIT enablers that support iOS 17 require a Mac**.\r\n\r\nWe are currently monitoring the situation with sideloading in Europe. We will have more to share once Apple and/or the European Commission releases information about how it will be implemented.\r\n\r\n# User-Facing Changes\r\n\r\n* Updated the Dolphin core to 5.0-19708.\r\n* Added the Software Properties menu (tap and hold on a game in the game list). \r\n* Added the Gecko and Action Replay cheats menus in Software Properties.\r\n* Improved the updater to not prompt for an update if the currently running version is newer than the one reported by the server.\r\n\r\n# Developer-Facing Changes\r\n\r\n* Fixed an issue where using shared zstd would cause a build error on recent Xcode versions. (potentially issue #109)\r\n* Made the host thread be dynamically set to whatever thread is currently executing for a special dispatch queue.\r\n* Disabled the JitCache fast block map optimization to prevent fastmem issues.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b6/Non-Jailbroken.ipa",
+                    "size": 13773902,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b5",
+                    "date": "2023-02-18T08:33:19Z",
+                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b4...v4.0.0b5.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* The status bar is now hidden during emulation. (issue #54, PR #58 by @icelaglace)\r\n* Removed the Software Renderer from the list of available graphics backends.\r\n  * This backend never worked in the first place because OpenGL is not supported.\r\n* Fixed a bug which could cause the app to crash when attempting to clear the screen while stopping emulation. (issue #56)\r\n* Fixed a bug which caused the graphics backend menu to not set the correct backend. (issue #57)",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b5/Non-Jailbroken.ipa",
+                    "size": 13415869,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b4",
+                    "date": "2023-01-26T14:29:31Z",
+                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b3...v4.0.0b4.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Removed OpenGL ES from the list of available video backends.\r\n* Removed cubeb from the list of available audio backends.\r\n* Added the ability for DolphiniOS to shutdown the Dolphin core if the app is being terminated.\r\n* Fixed a bug where the video output would not extend past the area where the home indicator is on devices without a home button.\r\n* Fixed a bug where \"Extensions\" in Wii Remote configuration would show as a regular `ControlGroup` editing view controller on release builds instead of an extension editor.\r\n\r\n## Developer Changes\r\n\r\n* Replaced a call to `[UIDocumentPickerViewController initWithDocumentTypes:inMode:]`, which was deprecated in iOS 14.\r\n  * The app now links with `UniformTypeIdentifiers.framework` to be able to use `UTTypes`.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b4/Non-Jailbroken.ipa",
+                    "size": 13415662,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b3",
+                    "date": "2023-01-23T18:36:51Z",
+                    "localizedDescription": "The full changelog can be found at https://github.com/OatmealDome/dolphin-ios/compare/v4.0.0b2...v4.0.0b3.\r\n\r\nNOTE: If you are upgrading from the TrollStore build of 4.0.0b2, your save files, settings, and imported games will appear to have been deleted. Due to a bug, DolphiniOS was putting the data in the wrong folder. If you want to recover your data, move the contents of the folder `/private/var/mobile/Documents/DolphiniOS` to the folder listed in Settings -> Debug -> Environment -> User Folder.\r\n\r\n## User-Facing Changes\r\n\r\n* Added new performance statistics options from the latest official Dolphin builds (courtesy of samb).\r\n  * If you are looking for the \"Show FPS\" option, it has now been moved to the \"Advanced\" menu.\r\n* Added new texture filtering options from the latest Dolphin builds (#41).\r\n* Added a prompt for importing the default profile when changing the default device for a controller.\r\n* Added an About screen.\r\n* Added settings for fastmem (#29) and Sync on Idle Skip to the Debug menu.\r\n* The home indicator on devices without a home button is now hidden during emulation (#39).\r\n* A device refresh is now automatically requested when entering the Devices menu while configuring a controller.\r\n* Fixed a bug where TrollStore builds would use the user folder intended for builds installed via Sileo / Cydia / etc.\r\n* Fixed a bug where builds installed via Sileo / Cydia / etc. crashed on launch.\r\n* Fixed a bug where the gyroscope and accelerometer on physical controllers was inverted.\r\n* Fixed a bug where closing the app and reopening it after manually pausing emulation would unpause emulation automatically.\r\n* Fixed a bug where `gcm`, `tgc`, and `gcz` files were not detected as valid disc images.\r\n\r\n## Developer Changes\r\n\r\n* Fix bartycrouch not being detected on Apple silicon computers when installed via Homebrew (#36).",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b3/Non-Jailbroken.ipa",
+                    "size": 13414159,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b2",
+                    "date": "2023-01-19T04:00:21Z",
+                    "localizedDescription": "* Updated Dolphin core version to 5.0-18273.\r\n* Added option for VI Skip to Settings -> Graphics -> Hacks.\r\n* Fixed the app container not being created on TrollStore builds (#21 - thanks opa331).\r\n* Fixed the CPU clock override text not updating correctly (#22).\r\n* Added mitigations against crashes in JITMemoryTracker (#33).\r\n* Added mitigations against crashes when stopping emulation (#32).",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b2/Non-Jailbroken.ipa",
+                    "size": 13158027,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "4.0.0b1",
+                    "date": "2023-01-08T20:19:15Z",
+                    "localizedDescription": "Pre-beta for Discord.",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v4.0.0b1/Non-Jailbroken.ipa",
+                    "size": 13147368,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "5.0.0b5",
+                    "date": "2026-06-16T21:42:57Z",
+                    "localizedDescription": "* Fixed TXM check for non-jailbroken devices running iOS 26.6 or newer. (thanks @StephenDev0)\r\n  * iOS 27 is still broken and requires additional work.\r\n\r\nThe next update will be sometime after the next official Dolphin release. It will include a core update.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b4...v5.0.0b5",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b5/Non-Jailbroken.ipa",
+                    "size": 17963147
+                },
+                {
+                    "version": "5.0.0b6",
+                    "date": "2026-06-20T07:01:54Z",
+                    "localizedDescription": "* Fixed JIT support on A13/A14/M1 devices running iOS 27 beta. (@CelloSerenity)\r\n* Fixed wrong app version number introduced in 5.0.0b5. (@CelloSerenity)\r\n\r\nThe next update will be sometime after the next official Dolphin release. It will include a core update.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b5...v5.0.0b6",
+                    "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
+                    "size": 17963367
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "StikDebug",
+            "bundleIdentifier": "com.stik.stikdebug",
+            "marketplaceID": "",
+            "developerName": "StephenDev0",
+            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
+            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [
+                "https://stikdebug.xyz/assets/source/home.png",
+                "https://stikdebug.xyz/assets/source/scripts.png",
+                "https://stikdebug.xyz/assets/source/settings.png"
+            ],
+            "versions": [
+                {
+                    "version": "2.3.7",
+                    "date": "2026-01-09T19:27:57Z",
+                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
+                    "size": 12048589,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.6",
+                    "date": "2025-12-18T02:30:53Z",
+                    "localizedDescription": "This release works with LocalDevVPN",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
+                    "size": 11996559,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2026-02-25T21:26:35Z",
+                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+                    "size": 10456365
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-03-08T18:56:53Z",
+                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
+                    "size": 10461243
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2026-03-30T17:53:28Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
+                    "size": 10889554
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2026-04-04T03:30:18Z",
+                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
+                    "size": 10973374
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2026-04-12T06:41:17Z",
+                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
+                    "size": 10974298
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2026-05-18T14:50:17Z",
+                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
+                    "size": 11125407
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2026-06-01T01:12:08Z",
+                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
+                    "size": 11028217
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2026-06-01T11:32:37Z",
+                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
+                    "size": 11027579
+                },
+                {
+                    "version": "3.1.6",
+                    "date": "2026-06-17T04:07:42Z",
+                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
+                    "size": 11028710
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "DLiPA",
+            "bundleIdentifier": "com.ahmedbafkir.dlipa",
+            "marketplaceID": "",
+            "developerName": "AhmedBafkir",
+            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
+            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
+            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2025-11-16T17:59:20Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
+                    "size": 480115,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-06-07T17:24:30Z",
+                    "localizedDescription": "Initial Release.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
+                    "size": 480247,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2026-02-22T21:04:04Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
+                    "size": 471971
+                },
+                {
+                    "version": "1.3",
+                    "date": "2026-06-17T01:22:52Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n### New Feature\r\n- Ability to download a specific version of any app using the Version ID.\r\n- Access your last 15 searches instantly just by tapping the search bar for quick navigation.\r\n\r\n### Fixes\r\n- Resolved the login issue.\r\n- Resolved the \"An unknown error occurred\" issue when downloading certain popular apps, including Google and Microsoft apps and others.\r\n- Fixed an issue that caused the app to crash when searching after setting a search limit.\r\n- Fixed a bug where downloaded data was not automatically deleted when selecting \"Delete account with files\".\r\n\r\n### Improvements\r\n- Other minor fixes.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.3/DLiPA_v1.3.ipa",
+                    "size": 479107
                 }
             ],
             "appPermissions": {
@@ -1317,57 +1389,6 @@
                     "localizedDescription": "Release 4.2.1",
                     "downloadURL": "https://github.com/Lakr233/Asspp/releases/download/4.2.1/Asspp.ipa",
                     "size": 15162563
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "PancakeStore",
-            "bundleIdentifier": "com.jbdotparty.PancakeStore",
-            "marketplaceID": "",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "MuffinStore Jailed, with UI.",
-            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
-            "tintColor": "#c64000",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.1",
-                    "date": "2025-12-26T16:26:45Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
-                    "size": 777601,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-12-20T20:14:48Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
-                    "size": 751441,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2026-02-27T02:18:24Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- PancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\r\n\r\n## UI Updates\r\n- Added a proper UI for iPads.\r\n- Cleaned up multiple components, updated PartyUI.\r\n- Added a settings page.\r\n- Code reorganization.\r\n\r\n## QoL Improvements\r\n- When the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\r\n- Added more information about the app while it's downgrading.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.1/PancakeStore_v1.1.ipa",
-                    "size": 1132982
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-06-12T05:52:23Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- **PancakeStore has been fixed again.** Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\r\n- **Improved error handling.** The app should no longer abruptly exit when things go wrong.\r\n- **Auto-clean.** The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\r\n\r\n## Added Features\r\n- **Share Extension.** PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\r\n- **Export IPA.** You can export the IPA after the app has been downgraded. Probably useful for research or archival.\r\n\r\nThank you everybody for your patience and support!",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
-                    "size": 1936006
                 }
             ],
             "appPermissions": {
