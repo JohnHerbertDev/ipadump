@@ -10,6 +10,289 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "iTorrent",
+            "bundleIdentifier": "com.xitrix.iTorrent2",
+            "marketplaceID": "",
+            "developerName": "XITRIX",
+            "subtitle": "Torrent client for iOS 16+",
+            "localizedDescription": "WARNING\niTorrent 2.0 app is in beta preview state, expect to see some bugs and be ready report about them.\n\nIt is an ordinary torrent client for iOS with Files app support.\n\nWhat can this app do:\n- Download in the background\n- Live Activity and Dynamic Island progress widget\n- Sequential download (use VLC to watch films while loading)\n- Add torrent files from Share menu (Safari and other apps)\n- Add magnet links directly from Safari\n- Store files in Files app\n- File sharing directly from app\n- Download torrent by link\n- Download torrent by magnet\n- Send notification on torrent downloaded\n- WebDav Server\n- Select files to download or not\n- Change UI to dark theme\n- RSS Feed\n- ??? \n\nLocalization\nNow iTorrent supports the following languages:\n- English\n- German\n- Russian\n- Spanish\n- Simplified Chinese\n- Italian\n- Polish\n\nImportant information\nThis app using Firebase Analytics and so it collects next information from your device:\n- The country of your internet provider\n- Time of app's working session\n\nAll this data presents as statistic, and cannot be used to get someone's personal information\n\nAlso this app using Firebase Crashlytics, which collects the next information when application crashes:\n- Model of your device (IPhone X or IPad Pro (10.5 inch) for example)\n- Device orientation\n- Free space on RAM and ROM\n- IOS version\n- Time of crash\n- Detailed log of the thread where the stuck happens\n\nAll this information is using for bug fixing and improving the quality of this app\n\nMore information you can find on https://firebase.google.com\n\nLicense:\nCopyright (c) 2024 XITRIX (Vinogradov Daniil)\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal \nin the Software without restriction, including without limitation the rights \nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER \nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+            "iconURL": "https://raw.githubusercontent.com/XITRIX/iTorrent/refs/heads/main/iTorrent/Core/Assets/Assets.xcassets/AppIcons/AppIcon.appiconset/Frame%2018.png",
+            "tintColor": "#da9000",
+            "category": "utilities",
+            "screenshots": {
+                "iphone": [
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/1.png",
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/2.png",
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/3.png",
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/4.png",
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/5.png"
+                ],
+                "ipad": [
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/1.PNG",
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/2.PNG",
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/3.PNG",
+                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/4.PNG"
+                ]
+            },
+            "versions": [
+                {
+                    "version": "2.1.1-1",
+                    "date": "2025-12-18T09:43:35Z",
+                    "localizedDescription": "## What\u2019s new\r\n* Import/Export of RSS channels\r\n\r\n## Improvements\r\n* Files thumbnails now looks properly\r\n* Minor UI changes\r\n\r\n## Fixes\r\n* HTTPS trackers now works!\r\n* App crash on launch fixed\r\n* RSS magnet links now works\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.1.0-1...v2.1.1-1",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.1.1-1/iTorrent.ipa",
+                    "size": 8362011,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1.0-1",
+                    "date": "2025-10-25T08:40:14Z",
+                    "localizedDescription": "## What\u2019s new\r\n* iOS 26 Support, iTorrent fully adopted new Liquid Glass design\r\n* LibTorrent updated to version 2.0.11\r\n* On first launch, app will ask if you'd like to use Cellular connection, instead of disabling it by default\r\n* Added German localization by @soebbing in https://github.com/XITRIX/iTorrent/pull/369\r\n* Added Italian localization by @fraucs in https://github.com/XITRIX/iTorrent/pull/385\r\n* Added Polish localization by @yaptx in https://github.com/XITRIX/iTorrent/pull/391\r\n* Added Spanish localization  by @Deci8BelioS in https://github.com/XITRIX/iTorrent/pull/396\r\n\r\n## Fixes\r\n* Crash on iOS <18 fixed\r\n\r\n## New Contributors\r\n* @soebbing made their first contribution in https://github.com/XITRIX/iTorrent/pull/369\r\n* @fraucs made their first contribution in https://github.com/XITRIX/iTorrent/pull/385\r\n* @yaptx made their first contribution in https://github.com/XITRIX/iTorrent/pull/391\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.14-1...v2.1.0-1",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.1.0-1/iTorrent.ipa",
+                    "size": 7092275,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.15-1",
+                    "date": "2025-09-21T23:04:40Z",
+                    "localizedDescription": "## What\u2019s new\r\n* iOS 26 Support, iTorrent fully adopted new Liquid Glass design\r\n* LibTorrent updated to version 2.0.11\r\n* On first launch, app will ask if you'd like to use Cellular connection, instead of disabling it by default\r\n* Added German localization by @soebbing in https://github.com/XITRIX/iTorrent/pull/369\r\n* Added Italian localization by @fraucs in https://github.com/XITRIX/iTorrent/pull/385\r\n* Added Polish localization by @yaptx in https://github.com/XITRIX/iTorrent/pull/391\r\n* Added Spanish localization  by @Deci8BelioS in https://github.com/XITRIX/iTorrent/pull/396\r\n\r\n## New Contributors\r\n* @soebbing made their first contribution in https://github.com/XITRIX/iTorrent/pull/369\r\n* @fraucs made their first contribution in https://github.com/XITRIX/iTorrent/pull/385\r\n* @yaptx made their first contribution in https://github.com/XITRIX/iTorrent/pull/391\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.14-1...v2.0.15-1",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.15-1/iTorrent.ipa",
+                    "size": 7090878,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.14-1",
+                    "date": "2024-11-29T17:59:41Z",
+                    "localizedDescription": "Fixes: \r\n- Background downloading crash fix and performance improvements\r\n\r\n---\r\nv2.0.13\r\n\r\nWhat\u2019s new:\r\n- Status filters in navigation bar\r\n\r\nImprovements:\r\n- Core performance refactoring\r\n\r\nFixes:\r\n- Background download improvements\r\n- #314: End live activities on app termination\r\n- #353: Fixed incorrect byte counting\r\n- Rare crash in torrent trackers list\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.12-1...v2.0.14-1",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.14-1/iTorrent.ipa",
+                    "size": 7027297,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.13-2",
+                    "date": "2024-11-23T16:53:53Z",
+                    "localizedDescription": "## THIS BUILD CONTAINS CRITICAL BUG, DO NOT INSTALL IT AS PRIMARY VERSION!!!\r\n\r\nWhat\u2019s new:\r\n- Status filters in navigation bar\r\n\r\nImprovements:\r\n- Core performance refactoring\r\n\r\nFixes:\r\n- Background download improvements\r\n- #314: End live activities on app termination\r\n- #353: Fixed incorrect byte counting\r\n- Rare crash in torrent trackers list\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.12-1...v2.0.13-2",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.13-2/iTorrent.ipa",
+                    "size": 7025619,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.12-1",
+                    "date": "2024-11-11T22:11:49Z",
+                    "localizedDescription": "Fixes:\r\n- `Default port` setting now work properly\r\n- Navigation glitches leading to unresponsive UI fixed\r\n- Improvements for Chinese translation",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.12-1/iTorrent.ipa",
+                    "size": 7002771,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.11-3",
+                    "date": "2024-10-05T23:16:54Z",
+                    "localizedDescription": "What\u2019s new:\r\n- iOS 18 support\r\n- WatchOS 11 Downloading widget\r\n- Chinese translation\r\n- Remote and local tracker source lists",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.11-3/iTorrent.ipa",
+                    "size": 7002901,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.10-1",
+                    "date": "2024-07-29T22:10:24Z",
+                    "localizedDescription": "What\u2019s new:\r\n- Spanish localization\r\n- Trackers reannouncement\r\n- Enabled LibTorrent Extensions\r\n- Fixed client name on announcement\r\n- Live Activity UI update throttling",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.10-1/iTorrent.ipa",
+                    "size": 6581661,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.9-1",
+                    "date": "2024-07-24T21:40:15Z",
+                    "localizedDescription": "What\u2019s new:\r\n- RSS improvements\r\n- Added null checks for required RSS fields\r\n- RSS download reworked\r\n- Crashlytics fix\r\n\r\n\u2014 v2.0.8 \u2014\r\niTorrent's first official release for EU marketplace!\r\n\r\nWhat's new:\r\n- App was rewritten from scratch!\r\n- Powered by latest version of LibTorrent core 2.0.10\r\n- External disks support\r\n- Background download with Live Activity and Dynamic Island progress monitoring\r\n- VPN safety! App will not try to use your direct WiFi or Cellular interfaces, if you will not allow it explicitly\r\n- And much-much more changes under the hood in the same well known design",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.9-1/iTorrent.ipa",
+                    "size": 6555495,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.8-1",
+                    "date": "2024-07-18T09:12:49Z",
+                    "localizedDescription": "iTorrent's first official release for EU marketplace!\r\n\r\nWhat's new:\r\n- App was rewritten from scratch!\r\n- Powered by latest version of LibTorrent core 2.0.10\r\n- External disks support\r\n- Background download with Live Activity and Dynamic Island progress monitoring\r\n- VPN safety! App will not try to use your direct WiFi or Cellular interfaces, if you will not allow it explicitly\r\n- And much-much more changes under the hood in the same well known design",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.8-1/iTorrent.ipa",
+                    "size": 6917810,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.7-5",
+                    "date": "2024-07-13T20:58:19Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.7-5/iTorrent.ipa",
+                    "size": 6917642,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.7-4",
+                    "date": "2024-07-13T13:06:36Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.7-4/iTorrent.ipa",
+                    "size": 6916445,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.7-3",
+                    "date": "2024-07-13T10:31:49Z",
+                    "localizedDescription": "",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.7-3/iTorrent.ipa",
+                    "size": 6912532,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": ".2.0.7-2",
+                    "date": "2024-07-10T21:04:58Z",
+                    "localizedDescription": "Beta preview release, report any bugs you find, please",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v.2.0.7-2/iTorrent.ipa",
+                    "size": 6755521,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.8.3",
+                    "date": "2020-09-20T20:18:35Z",
+                    "localizedDescription": "What's new:\r\n- Patreon fix on iOS 14\r\n- Libtorrent updated to 1.2.10",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.3/iTorrent.ipa",
+                    "size": 21247865,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.8.2",
+                    "date": "2020-08-30T14:08:54Z",
+                    "localizedDescription": "What's new:\r\n- Text accessibility support added\r\n- Huge backend refactoring\r\n- Libtorrent updated to 1.2.9\r\n- Minor UI improvements\r\n- Many bugs fixed (possibly new ones added)",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.2/iTorrent.ipa",
+                    "size": 21200353,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.8.1",
+                    "date": "2020-07-22T15:52:17Z",
+                    "localizedDescription": "What's new:\r\n- Added RSS feed\r\n- Improved section partitioning\r\n- Added support for other P2P protocols\r\n- Added support for proxy server\r\n- Added port selection\r\n- Added custom choice of speed limitations\r\n- Libtorrent updated to 1.2.7\r\n- Other, less noticeable interface improvements\r\n- Many bugs fixed (possibly new ones added)",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.1/iTorrent.ipa",
+                    "size": 21569387,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.8",
+                    "date": "2020-04-29T21:43:00Z",
+                    "localizedDescription": "What's new:\r\n- Most of the application was rewritten from scratch, no more memory leaks\r\n- Significantly improved stability of the app\r\n- Memory management implemented\r\n- Memory allocation for files before downloading\r\n- Libtorrent updated to 1.2.6\r\n- UI improvements, noticeable and not so much\r\n- Added integration with Patreon",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8/iTorrent.ipa",
+                    "size": 20945778,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.7.4Hotfix",
+                    "date": "2020-03-19T16:09:56Z",
+                    "localizedDescription": "Fixed:\r\n- Background mode not work if zero speed limit disabled\r\n\r\nWhat's new:\r\n- Added https protocol support for trackers!\r\n- FTP server replaced by WebDAV, file sharing is now possible through a web browser\r\n- Added background stop when downloading at zero speed\r\n- Clicking on a notification now opens a specific window\r\n- UI improvements\r\n",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.4Hotfix/iTorrent.ipa",
+                    "size": 20119366,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.7.4",
+                    "date": "2020-03-10T22:31:52Z",
+                    "localizedDescription": "What's new:\r\n- Added https protocol support for trackers!\r\n- FTP server replaced by WebDAV, file sharing is now possible through a web browser\r\n- Added background stop when downloading at zero speed\r\n- Clicking on a notification now opens a specific window\r\n- UI improvements\r\n \r\nIssues:\r\n- Background mode not work if zero speed limit disabled",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.4/iTorrent.ipa",
+                    "size": 20108956,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.7.3",
+                    "date": "2019-10-13T21:25:54Z",
+                    "localizedDescription": "What's new:\r\n- All core libraries updated to the latest versions\r\n- Added launch screen\r\n- iOS 13 automatic theme switcher\r\n- Huge code refactoring\r\n- Tons of bugs fixed\r\n\r\nKnown issues:\r\n- Torrent files not opening on iOS 13\r\nIt happens if ipa file was resigned (i.e. by Impactor), so any app compiled for iOS 13 will not open torrent file correctly.\r\nYou can use Chrome, Telegram or any another app which was build for older iOS version, to open files.\r\nAlso you can add it by URL or place .torrent file directly into _Config folder using Files app.\r\n",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.3/iTorrent.ipa",
+                    "size": 20052139,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.7.2",
+                    "date": "2019-08-15T08:39:14Z",
+                    "localizedDescription": "- Added iOS 13 support\r\n- Added sequential files download\r\n- Added an ability to change trackers\r\n- Added search by your torrents\r\n- Localization fixes\r\n- Theme fixes\r\n- Income call crash fixed\r\n- Minor improvements",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.2/iTorrent.ipa",
+                    "size": 19767090,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.6.1",
+                    "date": "2019-01-08T12:59:10Z",
+                    "localizedDescription": "- Added sending a group of files\r\n- Added file download priority selection\r\n- Localization fixes\r\n- Minor improvements",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.6.1/iTorrent.ipa",
+                    "size": 27244338,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.6",
+                    "date": "2018-08-21T22:31:07Z",
+                    "localizedDescription": "- Added Russian localization\r\n- Added restoration of previous file selection when updating a torrent\r\n- Added small ad banner to support the developer\r\n- Minor improvements\r\n- Bug fixes",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.6/iTorrent.ipa",
+                    "size": 25474754,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.5",
+                    "date": "2018-07-03T23:45:23Z",
+                    "localizedDescription": "Added:\r\n- Seed limit\r\n- Speed limit\r\n- Torrent share\r\n- Trackers list\r\n- Marquee title\r\n\r\nAnd minor improvements",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.5/iTorrent.ipa",
+                    "size": 34581435,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.4",
+                    "date": "2018-06-25T23:12:03Z",
+                    "localizedDescription": "- Implemented theme system to easy theme creating\r\n- Added dark theme\r\n- Added some alert views with errors instead of app crashing\r\n- Fixed a lot of bugs and fatal exceptions\r\n",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.4/iTorrent.ipa",
+                    "size": 34292734,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3",
+                    "date": "2018-06-19T23:06:25Z",
+                    "localizedDescription": "### Added:\r\n- Folders sorting in files view controllers\r\n- Ability to change sections order on main screen\r\n- Lots less visible features \r\n\r\n### Fixed:\r\n- Memory drain of TorrentFilesController\r\n- A lot of minor bugs",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.3/iTorrent.ipa",
+                    "size": 34211608,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.2.0-1",
+                    "date": "2026-07-19T09:59:41Z",
+                    "localizedDescription": "GH Actions fix",
+                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.2.0-1/iTorrent.ipa",
+                    "size": 24288935
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Apollo",
             "bundleIdentifier": "com.christianselig.Apollo",
             "marketplaceID": "",
@@ -14708,282 +14991,6 @@
                     "localizedDescription": "## What's Changed\n* merge upstream by @castdrian in https://github.com/castdrian/TubeTweaks/pull/2\n\n\n**Full Changelog**: https://github.com/castdrian/TubeTweaks/commits/v19.47.7",
                     "downloadURL": "https://github.com/castdrian/TubeTweaks/releases/download/v19.47.7/TubeTweaks_19.47.7.ipa",
                     "size": 115479183,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "iTorrent",
-            "bundleIdentifier": "com.xitrix.iTorrent2",
-            "marketplaceID": "",
-            "developerName": "XITRIX",
-            "subtitle": "Torrent client for iOS 16+",
-            "localizedDescription": "WARNING\niTorrent 2.0 app is in beta preview state, expect to see some bugs and be ready report about them.\n\nIt is an ordinary torrent client for iOS with Files app support.\n\nWhat can this app do:\n- Download in the background\n- Live Activity and Dynamic Island progress widget\n- Sequential download (use VLC to watch films while loading)\n- Add torrent files from Share menu (Safari and other apps)\n- Add magnet links directly from Safari\n- Store files in Files app\n- File sharing directly from app\n- Download torrent by link\n- Download torrent by magnet\n- Send notification on torrent downloaded\n- WebDav Server\n- Select files to download or not\n- Change UI to dark theme\n- RSS Feed\n- ??? \n\nLocalization\nNow iTorrent supports the following languages:\n- English\n- German\n- Russian\n- Spanish\n- Simplified Chinese\n- Italian\n- Polish\n\nImportant information\nThis app using Firebase Analytics and so it collects next information from your device:\n- The country of your internet provider\n- Time of app's working session\n\nAll this data presents as statistic, and cannot be used to get someone's personal information\n\nAlso this app using Firebase Crashlytics, which collects the next information when application crashes:\n- Model of your device (IPhone X or IPad Pro (10.5 inch) for example)\n- Device orientation\n- Free space on RAM and ROM\n- IOS version\n- Time of crash\n- Detailed log of the thread where the stuck happens\n\nAll this information is using for bug fixing and improving the quality of this app\n\nMore information you can find on https://firebase.google.com\n\nLicense:\nCopyright (c) 2024 XITRIX (Vinogradov Daniil)\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal \nin the Software without restriction, including without limitation the rights \nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER \nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
-            "iconURL": "https://raw.githubusercontent.com/XITRIX/iTorrent/refs/heads/main/iTorrent/Core/Assets/Assets.xcassets/AppIcons/AppIcon.appiconset/Frame%2018.png",
-            "tintColor": "#da9000",
-            "category": "utilities",
-            "screenshots": {
-                "iphone": [
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/1.png",
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/2.png",
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/3.png",
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/4.png",
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/sidestore/5.png"
-                ],
-                "ipad": [
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/1.PNG",
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/2.PNG",
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/3.PNG",
-                    "https://raw.githubusercontent.com/XITRIX/xitrix.github.io/master/screenshots/4.PNG"
-                ]
-            },
-            "versions": [
-                {
-                    "version": "2.1.1-1",
-                    "date": "2025-12-18T09:43:35Z",
-                    "localizedDescription": "## What\u2019s new\r\n* Import/Export of RSS channels\r\n\r\n## Improvements\r\n* Files thumbnails now looks properly\r\n* Minor UI changes\r\n\r\n## Fixes\r\n* HTTPS trackers now works!\r\n* App crash on launch fixed\r\n* RSS magnet links now works\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.1.0-1...v2.1.1-1",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.1.1-1/iTorrent.ipa",
-                    "size": 8362011,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1.0-1",
-                    "date": "2025-10-25T08:40:14Z",
-                    "localizedDescription": "## What\u2019s new\r\n* iOS 26 Support, iTorrent fully adopted new Liquid Glass design\r\n* LibTorrent updated to version 2.0.11\r\n* On first launch, app will ask if you'd like to use Cellular connection, instead of disabling it by default\r\n* Added German localization by @soebbing in https://github.com/XITRIX/iTorrent/pull/369\r\n* Added Italian localization by @fraucs in https://github.com/XITRIX/iTorrent/pull/385\r\n* Added Polish localization by @yaptx in https://github.com/XITRIX/iTorrent/pull/391\r\n* Added Spanish localization  by @Deci8BelioS in https://github.com/XITRIX/iTorrent/pull/396\r\n\r\n## Fixes\r\n* Crash on iOS <18 fixed\r\n\r\n## New Contributors\r\n* @soebbing made their first contribution in https://github.com/XITRIX/iTorrent/pull/369\r\n* @fraucs made their first contribution in https://github.com/XITRIX/iTorrent/pull/385\r\n* @yaptx made their first contribution in https://github.com/XITRIX/iTorrent/pull/391\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.14-1...v2.1.0-1",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.1.0-1/iTorrent.ipa",
-                    "size": 7092275,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.15-1",
-                    "date": "2025-09-21T23:04:40Z",
-                    "localizedDescription": "## What\u2019s new\r\n* iOS 26 Support, iTorrent fully adopted new Liquid Glass design\r\n* LibTorrent updated to version 2.0.11\r\n* On first launch, app will ask if you'd like to use Cellular connection, instead of disabling it by default\r\n* Added German localization by @soebbing in https://github.com/XITRIX/iTorrent/pull/369\r\n* Added Italian localization by @fraucs in https://github.com/XITRIX/iTorrent/pull/385\r\n* Added Polish localization by @yaptx in https://github.com/XITRIX/iTorrent/pull/391\r\n* Added Spanish localization  by @Deci8BelioS in https://github.com/XITRIX/iTorrent/pull/396\r\n\r\n## New Contributors\r\n* @soebbing made their first contribution in https://github.com/XITRIX/iTorrent/pull/369\r\n* @fraucs made their first contribution in https://github.com/XITRIX/iTorrent/pull/385\r\n* @yaptx made their first contribution in https://github.com/XITRIX/iTorrent/pull/391\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.14-1...v2.0.15-1",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.15-1/iTorrent.ipa",
-                    "size": 7090878,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.14-1",
-                    "date": "2024-11-29T17:59:41Z",
-                    "localizedDescription": "Fixes: \r\n- Background downloading crash fix and performance improvements\r\n\r\n---\r\nv2.0.13\r\n\r\nWhat\u2019s new:\r\n- Status filters in navigation bar\r\n\r\nImprovements:\r\n- Core performance refactoring\r\n\r\nFixes:\r\n- Background download improvements\r\n- #314: End live activities on app termination\r\n- #353: Fixed incorrect byte counting\r\n- Rare crash in torrent trackers list\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.12-1...v2.0.14-1",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.14-1/iTorrent.ipa",
-                    "size": 7027297,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.13-2",
-                    "date": "2024-11-23T16:53:53Z",
-                    "localizedDescription": "## THIS BUILD CONTAINS CRITICAL BUG, DO NOT INSTALL IT AS PRIMARY VERSION!!!\r\n\r\nWhat\u2019s new:\r\n- Status filters in navigation bar\r\n\r\nImprovements:\r\n- Core performance refactoring\r\n\r\nFixes:\r\n- Background download improvements\r\n- #314: End live activities on app termination\r\n- #353: Fixed incorrect byte counting\r\n- Rare crash in torrent trackers list\r\n\r\n**Full Changelog**: https://github.com/XITRIX/iTorrent/compare/v2.0.12-1...v2.0.13-2",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.13-2/iTorrent.ipa",
-                    "size": 7025619,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.12-1",
-                    "date": "2024-11-11T22:11:49Z",
-                    "localizedDescription": "Fixes:\r\n- `Default port` setting now work properly\r\n- Navigation glitches leading to unresponsive UI fixed\r\n- Improvements for Chinese translation",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.12-1/iTorrent.ipa",
-                    "size": 7002771,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.11-3",
-                    "date": "2024-10-05T23:16:54Z",
-                    "localizedDescription": "What\u2019s new:\r\n- iOS 18 support\r\n- WatchOS 11 Downloading widget\r\n- Chinese translation\r\n- Remote and local tracker source lists",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.11-3/iTorrent.ipa",
-                    "size": 7002901,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.10-1",
-                    "date": "2024-07-29T22:10:24Z",
-                    "localizedDescription": "What\u2019s new:\r\n- Spanish localization\r\n- Trackers reannouncement\r\n- Enabled LibTorrent Extensions\r\n- Fixed client name on announcement\r\n- Live Activity UI update throttling",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.10-1/iTorrent.ipa",
-                    "size": 6581661,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.9-1",
-                    "date": "2024-07-24T21:40:15Z",
-                    "localizedDescription": "What\u2019s new:\r\n- RSS improvements\r\n- Added null checks for required RSS fields\r\n- RSS download reworked\r\n- Crashlytics fix\r\n\r\n\u2014 v2.0.8 \u2014\r\niTorrent's first official release for EU marketplace!\r\n\r\nWhat's new:\r\n- App was rewritten from scratch!\r\n- Powered by latest version of LibTorrent core 2.0.10\r\n- External disks support\r\n- Background download with Live Activity and Dynamic Island progress monitoring\r\n- VPN safety! App will not try to use your direct WiFi or Cellular interfaces, if you will not allow it explicitly\r\n- And much-much more changes under the hood in the same well known design",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.9-1/iTorrent.ipa",
-                    "size": 6555495,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.8-1",
-                    "date": "2024-07-18T09:12:49Z",
-                    "localizedDescription": "iTorrent's first official release for EU marketplace!\r\n\r\nWhat's new:\r\n- App was rewritten from scratch!\r\n- Powered by latest version of LibTorrent core 2.0.10\r\n- External disks support\r\n- Background download with Live Activity and Dynamic Island progress monitoring\r\n- VPN safety! App will not try to use your direct WiFi or Cellular interfaces, if you will not allow it explicitly\r\n- And much-much more changes under the hood in the same well known design",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.8-1/iTorrent.ipa",
-                    "size": 6917810,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.7-5",
-                    "date": "2024-07-13T20:58:19Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.7-5/iTorrent.ipa",
-                    "size": 6917642,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.7-4",
-                    "date": "2024-07-13T13:06:36Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.7-4/iTorrent.ipa",
-                    "size": 6916445,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.7-3",
-                    "date": "2024-07-13T10:31:49Z",
-                    "localizedDescription": "",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v2.0.7-3/iTorrent.ipa",
-                    "size": 6912532,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": ".2.0.7-2",
-                    "date": "2024-07-10T21:04:58Z",
-                    "localizedDescription": "Beta preview release, report any bugs you find, please",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v.2.0.7-2/iTorrent.ipa",
-                    "size": 6755521,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.8.3",
-                    "date": "2020-09-20T20:18:35Z",
-                    "localizedDescription": "What's new:\r\n- Patreon fix on iOS 14\r\n- Libtorrent updated to 1.2.10",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.3/iTorrent.ipa",
-                    "size": 21247865,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.8.2",
-                    "date": "2020-08-30T14:08:54Z",
-                    "localizedDescription": "What's new:\r\n- Text accessibility support added\r\n- Huge backend refactoring\r\n- Libtorrent updated to 1.2.9\r\n- Minor UI improvements\r\n- Many bugs fixed (possibly new ones added)",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.2/iTorrent.ipa",
-                    "size": 21200353,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.8.1",
-                    "date": "2020-07-22T15:52:17Z",
-                    "localizedDescription": "What's new:\r\n- Added RSS feed\r\n- Improved section partitioning\r\n- Added support for other P2P protocols\r\n- Added support for proxy server\r\n- Added port selection\r\n- Added custom choice of speed limitations\r\n- Libtorrent updated to 1.2.7\r\n- Other, less noticeable interface improvements\r\n- Many bugs fixed (possibly new ones added)",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8.1/iTorrent.ipa",
-                    "size": 21569387,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.8",
-                    "date": "2020-04-29T21:43:00Z",
-                    "localizedDescription": "What's new:\r\n- Most of the application was rewritten from scratch, no more memory leaks\r\n- Significantly improved stability of the app\r\n- Memory management implemented\r\n- Memory allocation for files before downloading\r\n- Libtorrent updated to 1.2.6\r\n- UI improvements, noticeable and not so much\r\n- Added integration with Patreon",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.8/iTorrent.ipa",
-                    "size": 20945778,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.7.4Hotfix",
-                    "date": "2020-03-19T16:09:56Z",
-                    "localizedDescription": "Fixed:\r\n- Background mode not work if zero speed limit disabled\r\n\r\nWhat's new:\r\n- Added https protocol support for trackers!\r\n- FTP server replaced by WebDAV, file sharing is now possible through a web browser\r\n- Added background stop when downloading at zero speed\r\n- Clicking on a notification now opens a specific window\r\n- UI improvements\r\n",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.4Hotfix/iTorrent.ipa",
-                    "size": 20119366,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.7.4",
-                    "date": "2020-03-10T22:31:52Z",
-                    "localizedDescription": "What's new:\r\n- Added https protocol support for trackers!\r\n- FTP server replaced by WebDAV, file sharing is now possible through a web browser\r\n- Added background stop when downloading at zero speed\r\n- Clicking on a notification now opens a specific window\r\n- UI improvements\r\n \r\nIssues:\r\n- Background mode not work if zero speed limit disabled",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.4/iTorrent.ipa",
-                    "size": 20108956,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.7.3",
-                    "date": "2019-10-13T21:25:54Z",
-                    "localizedDescription": "What's new:\r\n- All core libraries updated to the latest versions\r\n- Added launch screen\r\n- iOS 13 automatic theme switcher\r\n- Huge code refactoring\r\n- Tons of bugs fixed\r\n\r\nKnown issues:\r\n- Torrent files not opening on iOS 13\r\nIt happens if ipa file was resigned (i.e. by Impactor), so any app compiled for iOS 13 will not open torrent file correctly.\r\nYou can use Chrome, Telegram or any another app which was build for older iOS version, to open files.\r\nAlso you can add it by URL or place .torrent file directly into _Config folder using Files app.\r\n",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.3/iTorrent.ipa",
-                    "size": 20052139,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.7.2",
-                    "date": "2019-08-15T08:39:14Z",
-                    "localizedDescription": "- Added iOS 13 support\r\n- Added sequential files download\r\n- Added an ability to change trackers\r\n- Added search by your torrents\r\n- Localization fixes\r\n- Theme fixes\r\n- Income call crash fixed\r\n- Minor improvements",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.7.2/iTorrent.ipa",
-                    "size": 19767090,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.6.1",
-                    "date": "2019-01-08T12:59:10Z",
-                    "localizedDescription": "- Added sending a group of files\r\n- Added file download priority selection\r\n- Localization fixes\r\n- Minor improvements",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/1.6.1/iTorrent.ipa",
-                    "size": 27244338,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.6",
-                    "date": "2018-08-21T22:31:07Z",
-                    "localizedDescription": "- Added Russian localization\r\n- Added restoration of previous file selection when updating a torrent\r\n- Added small ad banner to support the developer\r\n- Minor improvements\r\n- Bug fixes",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.6/iTorrent.ipa",
-                    "size": 25474754,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.5",
-                    "date": "2018-07-03T23:45:23Z",
-                    "localizedDescription": "Added:\r\n- Seed limit\r\n- Speed limit\r\n- Torrent share\r\n- Trackers list\r\n- Marquee title\r\n\r\nAnd minor improvements",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.5/iTorrent.ipa",
-                    "size": 34581435,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.4",
-                    "date": "2018-06-25T23:12:03Z",
-                    "localizedDescription": "- Implemented theme system to easy theme creating\r\n- Added dark theme\r\n- Added some alert views with errors instead of app crashing\r\n- Fixed a lot of bugs and fatal exceptions\r\n",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.4/iTorrent.ipa",
-                    "size": 34292734,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3",
-                    "date": "2018-06-19T23:06:25Z",
-                    "localizedDescription": "### Added:\r\n- Folders sorting in files view controllers\r\n- Ability to change sections order on main screen\r\n- Lots less visible features \r\n\r\n### Fixed:\r\n- Memory drain of TorrentFilesController\r\n- A lot of minor bugs",
-                    "downloadURL": "https://github.com/XITRIX/iTorrent/releases/download/v1.3/iTorrent.ipa",
-                    "size": 34211608,
                     "buildVersion": null,
                     "minOSVersion": null
                 }
