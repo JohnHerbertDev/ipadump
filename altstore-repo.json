@@ -10,6 +10,160 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "qBitControl",
+            "bundleIdentifier": "MikeMichael225.qBitControl",
+            "marketplaceID": "",
+            "developerName": "Michael-128",
+            "subtitle": "qBittorrent remote client for iOS devices.",
+            "localizedDescription": "qBitControl is the definitive remote client for managing your qBittorrent downloads on iOS devices. With qBitControl, you can effortlessly add torrents, browse files, monitor your download progress, and manage your torrents, all while enjoying real-time statistics and a native iOS user interface.",
+            "iconURL": "https://raw.githubusercontent.com/Michael-128/qBitControl/main/qBitControl/Assets.xcassets/AppIcon.appiconset/logo1.png",
+            "tintColor": "#449FFF",
+            "category": "utilities",
+            "screenshots": [
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc1.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc2.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc3.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc4.png",
+                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc5.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.3.4",
+                    "date": "2025-10-02T17:12:20Z",
+                    "localizedDescription": "## Features\r\n- Add 'Advanced' page to 'Add Server' view & Add basic authentication (#74) [#74](https://github.com/Michael-128/qBitControl/pull/74) ([Michael](https://github.com/Michael-128/qBitControl/commit/3733dacb87bb18844ead5012a4f328b2366169cc))\r\n- Add animation when selecting torrents ([Michael-128](https://github.com/Michael-128/qBitControl/commit/2c5158589c65993e6aee5186b2e93e82395118dc))\r\n\r\n## Bug Fixes\r\n- iOS 26 UI issues with select multiple ([Michael-128](https://github.com/Michael-128/qBitControl/commit/e9f328f7519ff531db2d9afbc86921f7ac372ecf))\r\n\r\n## Code Refactoring\r\n- Extract TorrentListSelectionToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/5d7f9fbdb13740192ed546af6b79a6a77d5a903d))\r\n- Extract TorrentListDefaultToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/c9cb9bc211db600faf9fb62af9004f7ceb598229))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/1433ca2632acac4e0adc9172cc9ca8553fb46a9f))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/d368d4dcb9bddb78e19332200cf37e1869ae5e22))\r\n- Rewrite deprecated code ([Michael-128](https://github.com/Michael-128/qBitControl/commit/355bdd78216f6139af9bf54bc6a4226ba92bd65b))\r\n\r\n## Commits\r\n- 11d7c5d: Update README.md (Michael)\r\n- 2fa7305: Add AltStore source badges in README (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- 220ed78: Alternative README badges (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- d1bd427: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 4e2a51b: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 89325cc: Add torrent list scroll down behavior for iOS 28 (Michael-128)\r\n- a8561f2: Update to MacOS 26 & Xcode 26 (Michael)\r\n- df6e25b: Merge remote-tracking branch 'refs/remotes/origin/main' (Michael-128)\r\n- 9667fad: Improve tab view to meet standard of iOS 26 (Michael-128)",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.4/qBitControl.ipa",
+                    "size": 3870732,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.3",
+                    "date": "2025-04-21T18:32:31Z",
+                    "localizedDescription": "## New:\r\n- Add Search Functionality to RSS Tab\r\n\r\n## Improvements:\r\n- Improve Charts in Stats Tab\r\n\r\n## Fixes:\r\n- Fix Translation Related Bugs\r\n- Update Translation\r\n- Add a Missing Uncategorized Option in Category Selection View\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.2...1.3.3",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.3/qBitControl.ipa",
+                    "size": 4321496,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2025-02-13T19:07:42Z",
+                    "localizedDescription": "## New:\r\n- Added New Category & Tag Selection System\r\n- Added RSS Feed & Folder Renaming & Deleting\r\n- Updated Translations\r\n\r\n## Improvements:\r\n- Enhance Tips when Adding Server (by: @MrNocole in https://github.com/Michael-128/qBitControl/pull/62)\r\n- Improve Naming to Match qBitttorrent\r\n\r\n## Fixes:\r\n-  Fixed Pause Option for qBittorrent 5.0.X in 'Torrent Add Sheet'\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.1...1.3.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.2/qBitControl.ipa",
+                    "size": 4222623,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.1",
+                    "date": "2025-01-09T19:50:10Z",
+                    "localizedDescription": "## New:\r\n- Added RSS Support\r\n- Added 'Add Tracker' Option\r\n- Added Option to Download First & Last Pieces First\r\n- Added Force Start Option\r\n- Added 'Help with Translation' Button in About Section\r\n- Added Chinese Simplified Localization (by @peaynan)\r\n\r\n\r\n## Improvements:\r\n- Rearranged Torrent Details & Added ETA\r\n- Updated Localizations\r\n\r\n## Fixes:\r\n- Fixed Compatibility with qBittorrent 5.0.0 API\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.2...1.3.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.1/qBitControl.ipa",
+                    "size": 4178946,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2024-09-20T09:34:36Z",
+                    "localizedDescription": "## New:\r\n- Added Server Editing\r\n\r\n## Fixed:\r\n- Disabled Category Path Auto-Fill if Automatic Torrent Management is Enabled\r\n- Fixed Compatibility for Older qBittorrent Clients\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.1...1.2.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.2/qBitControl.ipa",
+                    "size": 4084813,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2024-09-03T15:30:20Z",
+                    "localizedDescription": "## New:\r\n- Improved 'Stats' View\r\n- Added 'About' Section\r\n\r\n## Fixed:\r\n- Torrent availability is now displayed correctly\r\n- Fixed password encoding\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2...1.2.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.1/qBitControl.ipa",
+                    "size": 4080368,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2024-07-25T16:33:34Z",
+                    "localizedDescription": "## New:\r\n- Added Torrent Priority Management \r\n- Added Sequential Download Option\r\n- Added MacCatalyst support (by: @vit9696)\r\n- Added Polish & Japanese Localizations\r\n- Allowed HTTP connections over the internet\r\n\r\n## Fixed:\r\n- Fixed incorrect ratio bug on stats page\r\n- Refactored a lot of code\r\n- Fix category save path not updating (by: @narenh)\r\n\r\n## New Contributors\r\nThank you @vit9696 and @narenh for contributing to the repository. Your efforts are greatly appreciated!\r\n- @vit9696 made their first contribution in https://github.com/Michael-128/qBitControl/pull/11\r\n- @narenh made their first contribution in https://github.com/Michael-128/qBitControl/pull/15\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.1...1.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2/qBitControl.ipa",
+                    "size": 4061844,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2024-01-17T12:13:53Z",
+                    "localizedDescription": "## New:\r\n- Reworked login system with support for multiple qBittorrent instances.\r\n- Magnet links are now redirected to qBitControl.\r\n- BitTorrent files can now be opened using qBitControl.\r\n\r\n## Fixed:\r\n- Fixed broken UI on iPad.\r\n- Fixed filtering torrents by tags.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.4...1.1",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.1/qBitControl.ipa",
+                    "size": 2538421,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.4",
+                    "date": "2023-12-20T20:10:31Z",
+                    "localizedDescription": "## New:\r\n- Batch Torrent Management\r\n- Upload & Download Stats View\r\n- 'Clear Completed Torrents\u2019 Button\r\n- 'Pause Category\u2019 Button\r\n- Demo View\r\n\r\n## Fixed:\r\n- Flickering Menu\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.3...1.0.4",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.4/qBitControl.ipa",
+                    "size": 2595915,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.3",
+                    "date": "2023-12-10T19:52:09Z",
+                    "localizedDescription": "## Changes:\r\n- Currently selected category is displayed as navigation title\r\n\r\n## Fixed:\r\n- The app couldn't differentiate between two torrents with the same name. The two torrents\u2019 details pages showed the same exact information of one of the torrents.\r\n- Infinite login bug.\r\n- Can't connect warning message appeared after local network access was allowed.\r\n- Fixed typos.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.2...1.0.3",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.3/qBitControl.ipa",
+                    "size": 1817965,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.2",
+                    "date": "2023-12-05T09:20:10Z",
+                    "localizedDescription": "## Changes:\r\n- Moved log out button to a toolbar menu\r\n- Added pause all & resume all buttons\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/release...1.0.2",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.2/qBitControl.ipa",
+                    "size": 2448085,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "release",
+                    "date": "2023-12-02T22:00:46Z",
+                    "localizedDescription": "qBittorrent client for iOS devices.\r\n\r\n## Features\r\n- Add torrents from magnet or file.\r\n- View progress, stats, peers, and trackers of your torrents.\r\n- Manage your torrents - pause/resume, recheck, reannounce and delete.\r\n- Browse torrents files\r\n- Search, sort, and filter torrents.\r\n- Dark mode and light mode\r\n",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release/qBitControl.ipa",
+                    "size": 2427940,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "CI",
+                    "date": "2026-06-21T19:18:25Z",
+                    "localizedDescription": "## Features\r\n- Resume current tasks [#94](https://github.com/Michael-128/qBitControl/pull/94) (by @kambala-decapitator )\r\n- Sanitize server URL for trailing slashes when adding a server [#84](https://github.com/Michael-128/qBitControl/pull/84) (by @danpiths )\r\n\r\n## Bug Fixes\r\n- Resolve single task deletion from context menu and use standard alert (#92) (by @Michael-128)\r\n- Fix stats showing up as zeros on qBittorrent >5.2 (by @Michael-128)\r\n- Fix peers JSON decoding [#96](https://github.com/Michael-128/qBitControl/pull/96) (by @kambala-decapitator)\r\n- Fix ServersHelper thread safety warning (by @Michael-128)\r\n\r\n## Code Refactoring\r\n- Sanitize inputs before running validations (by @Michael-128)\r\n\r\n## Chores\r\n- **localization**: Update Polish & Japanese localizations [#94](https://github.com/Michael-128/qBitControl/pull/94)\r\n- **l10n**: Add & complete Chinese (zh-Hans/Hant) translations [#95](https://github.com/Michael-128/qBitControl/pull/95) (by @XaoflySho)\r\n- Automated build setup & pipeline fixes\r\n- Remove obsolete Xcode workspace (by @kambala-decapitator )\r\n- Bump version to 1.3.5 (build 19)",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/CI/qBitControl.ipa",
+                    "size": 4302381
+                },
+                {
+                    "version": "1.3.5",
+                    "date": "2026-06-21T19:18:25Z",
+                    "localizedDescription": "## Features\r\n- Resume current tasks [#94](https://github.com/Michael-128/qBitControl/pull/94) (by @kambala-decapitator )\r\n- Sanitize server URL for trailing slashes when adding a server [#84](https://github.com/Michael-128/qBitControl/pull/84) (by @danpiths )\r\n\r\n## Bug Fixes\r\n- Resolve single task deletion from context menu and use standard alert (#92) (by @Michael-128)\r\n- Fix stats showing up as zeros on qBittorrent >5.2 (by @Michael-128)\r\n- Fix peers JSON decoding [#96](https://github.com/Michael-128/qBitControl/pull/96) (by @kambala-decapitator)\r\n- Fix ServersHelper thread safety warning (by @Michael-128)\r\n\r\n## Code Refactoring\r\n- Sanitize inputs before running validations (by @Michael-128)\r\n\r\n## Chores\r\n- **localization**: Update Polish & Japanese localizations [#94](https://github.com/Michael-128/qBitControl/pull/94)\r\n- **l10n**: Add & complete Chinese (zh-Hans/Hant) translations [#95](https://github.com/Michael-128/qBitControl/pull/95) (by @XaoflySho)\r\n- Automated build setup & pipeline fixes\r\n- Remove obsolete Xcode workspace (by @kambala-decapitator )\r\n- Bump version to 1.3.5 (build 19)",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.5/qBitControl.ipa",
+                    "size": 4302381
+                },
+                {
+                    "version": "release-1.4.1",
+                    "date": "2026-07-23T18:28:15Z",
+                    "localizedDescription": "## \ud83d\udcca Performance & Efficiency\r\n\r\n- **Reduced Data Usage:** Network traffic reduced by **93%** thanks to optimized data syncing.\r\n- **Smooth Charts:** Statistics charts now scroll continuously and smoothly instead of updating every two seconds.\r\n- **Responsive Progress Bars:** Progress indicators now feature fluid animations for a more natural feel.\r\n\r\n## \ud83d\udee0\ufe0f Interface & Usability\r\n\r\n- **Custom Headers:** Specify custom HTTP headers for server connections\u2014offering seamless support for reverse proxies and zero-trust networks (e.g., Cloudflare Access, Authelia).\r\n- **Reworked Server Addition:** Redesigned server setup and edit screens with an updated *Advanced* settings page and deferred saving.\r\n- **Limit Configuration:** Configure precise speed limits, seeding time limits, and share ratios for individual torrents directly in-app.\r\n- **Cleaner Torrent List:** Torrent rows now adapt dynamically to show the most relevant details depending on whether a transfer is downloading, seeding, or paused.\r\n- **Repositioned Add Button:** Moved the \"Add Torrent\" button to the toolbar for cleaner, more intuitive access.\r\n- **Offline Banner:** A clear overlay banner now appears whenever your connection drops.\r\n- **In-App Logs:** Added a built-in log viewer to review and easily share system events directly inside the app.\r\n\r\n## \ud83d\udc1b Fixes & Refinements\r\n\r\n- **Self-Signed Certificate Support:** Full support for untrusted and self-signed SSL certificates, making it easier to connect to home-hosted servers.\r\n- **Stable RSS Downloads:** Fixed an issue in the RSS view where tapping a row to download a torrent caused the confirmation sheet to glitch and reopen unexpectedly.\r\n- **Connection Timeouts:** Implemented strict network timeouts to prevent the app from hanging indefinitely on the launch screen if a server is unresponsive.\r\n- **Clearer Error Alerts:** If adding a `.torrent` file or magnet link fails, a clear error message now pops up explaining what went wrong.",
+                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release-1.4.1/qBitControl.ipa",
+                    "size": 4777720
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "iTorrent",
             "bundleIdentifier": "com.xitrix.iTorrent2",
             "marketplaceID": "",
@@ -8472,153 +8626,6 @@
                     "localizedDescription": "- Updated Tor to 0.4.9.10.\r\n- Updated Snowflake to 2.14.0.\r\n- Updated DNSTT to 1.20260501.0.\r\n- Security fix: Elevated link preview security to same as normal tabs.\r\n- Fixed link preview title background in iOS 26.\r\n- Make link preview optional. \r\n- Updated Korean, Japanese and simplified Chinese translations.\r\n- Removed outdated NYT default bookmark. Onion service was discontinued.\r\n- Removed promotion hint again after end of campaign.\r\n",
                     "downloadURL": "https://github.com/OnionBrowser/OnionBrowser/releases/download/v3.4.0/OnionBrowser.ipa",
                     "size": 35893388
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "qBitControl",
-            "bundleIdentifier": "MikeMichael225.qBitControl",
-            "marketplaceID": "",
-            "developerName": "Michael-128",
-            "subtitle": "qBittorrent remote client for iOS devices.",
-            "localizedDescription": "qBitControl is the definitive remote client for managing your qBittorrent downloads on iOS devices. With qBitControl, you can effortlessly add torrents, browse files, monitor your download progress, and manage your torrents, all while enjoying real-time statistics and a native iOS user interface.",
-            "iconURL": "https://raw.githubusercontent.com/Michael-128/qBitControl/main/qBitControl/Assets.xcassets/AppIcon.appiconset/logo1.png",
-            "tintColor": "#449FFF",
-            "category": "utilities",
-            "screenshots": [
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc1.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc2.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc3.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc4.png",
-                "https://raw.githubusercontent.com/Michael-128/qBitControl-releases/main/screenshots/1.3.4/sc5.png"
-            ],
-            "versions": [
-                {
-                    "version": "1.3.4",
-                    "date": "2025-10-02T17:12:20Z",
-                    "localizedDescription": "## Features\r\n- Add 'Advanced' page to 'Add Server' view & Add basic authentication (#74) [#74](https://github.com/Michael-128/qBitControl/pull/74) ([Michael](https://github.com/Michael-128/qBitControl/commit/3733dacb87bb18844ead5012a4f328b2366169cc))\r\n- Add animation when selecting torrents ([Michael-128](https://github.com/Michael-128/qBitControl/commit/2c5158589c65993e6aee5186b2e93e82395118dc))\r\n\r\n## Bug Fixes\r\n- iOS 26 UI issues with select multiple ([Michael-128](https://github.com/Michael-128/qBitControl/commit/e9f328f7519ff531db2d9afbc86921f7ac372ecf))\r\n\r\n## Code Refactoring\r\n- Extract TorrentListSelectionToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/5d7f9fbdb13740192ed546af6b79a6a77d5a903d))\r\n- Extract TorrentListDefaultToolbar logic to view model ([Michael-128](https://github.com/Michael-128/qBitControl/commit/c9cb9bc211db600faf9fb62af9004f7ceb598229))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/1433ca2632acac4e0adc9172cc9ca8553fb46a9f))\r\n- Extract tabs to array ([Michael-128](https://github.com/Michael-128/qBitControl/commit/d368d4dcb9bddb78e19332200cf37e1869ae5e22))\r\n- Rewrite deprecated code ([Michael-128](https://github.com/Michael-128/qBitControl/commit/355bdd78216f6139af9bf54bc6a4226ba92bd65b))\r\n\r\n## Commits\r\n- 11d7c5d: Update README.md (Michael)\r\n- 2fa7305: Add AltStore source badges in README (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- 220ed78: Alternative README badges (Mehdi Kharraz) [#70](https://github.com/Michael-128/qBitControl/pull/70)\r\n- d1bd427: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 4e2a51b: Update README.md (Michael) [#73](https://github.com/Michael-128/qBitControl/pull/73)\r\n- 89325cc: Add torrent list scroll down behavior for iOS 28 (Michael-128)\r\n- a8561f2: Update to MacOS 26 & Xcode 26 (Michael)\r\n- df6e25b: Merge remote-tracking branch 'refs/remotes/origin/main' (Michael-128)\r\n- 9667fad: Improve tab view to meet standard of iOS 26 (Michael-128)",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.4/qBitControl.ipa",
-                    "size": 3870732,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.3",
-                    "date": "2025-04-21T18:32:31Z",
-                    "localizedDescription": "## New:\r\n- Add Search Functionality to RSS Tab\r\n\r\n## Improvements:\r\n- Improve Charts in Stats Tab\r\n\r\n## Fixes:\r\n- Fix Translation Related Bugs\r\n- Update Translation\r\n- Add a Missing Uncategorized Option in Category Selection View\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.2...1.3.3",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.3/qBitControl.ipa",
-                    "size": 4321496,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.2",
-                    "date": "2025-02-13T19:07:42Z",
-                    "localizedDescription": "## New:\r\n- Added New Category & Tag Selection System\r\n- Added RSS Feed & Folder Renaming & Deleting\r\n- Updated Translations\r\n\r\n## Improvements:\r\n- Enhance Tips when Adding Server (by: @MrNocole in https://github.com/Michael-128/qBitControl/pull/62)\r\n- Improve Naming to Match qBitttorrent\r\n\r\n## Fixes:\r\n-  Fixed Pause Option for qBittorrent 5.0.X in 'Torrent Add Sheet'\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.3.1...1.3.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.2/qBitControl.ipa",
-                    "size": 4222623,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.1",
-                    "date": "2025-01-09T19:50:10Z",
-                    "localizedDescription": "## New:\r\n- Added RSS Support\r\n- Added 'Add Tracker' Option\r\n- Added Option to Download First & Last Pieces First\r\n- Added Force Start Option\r\n- Added 'Help with Translation' Button in About Section\r\n- Added Chinese Simplified Localization (by @peaynan)\r\n\r\n\r\n## Improvements:\r\n- Rearranged Torrent Details & Added ETA\r\n- Updated Localizations\r\n\r\n## Fixes:\r\n- Fixed Compatibility with qBittorrent 5.0.0 API\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.2...1.3.1",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.1/qBitControl.ipa",
-                    "size": 4178946,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.2",
-                    "date": "2024-09-20T09:34:36Z",
-                    "localizedDescription": "## New:\r\n- Added Server Editing\r\n\r\n## Fixed:\r\n- Disabled Category Path Auto-Fill if Automatic Torrent Management is Enabled\r\n- Fixed Compatibility for Older qBittorrent Clients\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2.1...1.2.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.2/qBitControl.ipa",
-                    "size": 4084813,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.1",
-                    "date": "2024-09-03T15:30:20Z",
-                    "localizedDescription": "## New:\r\n- Improved 'Stats' View\r\n- Added 'About' Section\r\n\r\n## Fixed:\r\n- Torrent availability is now displayed correctly\r\n- Fixed password encoding\r\n\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.2...1.2.1",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2.1/qBitControl.ipa",
-                    "size": 4080368,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2024-07-25T16:33:34Z",
-                    "localizedDescription": "## New:\r\n- Added Torrent Priority Management \r\n- Added Sequential Download Option\r\n- Added MacCatalyst support (by: @vit9696)\r\n- Added Polish & Japanese Localizations\r\n- Allowed HTTP connections over the internet\r\n\r\n## Fixed:\r\n- Fixed incorrect ratio bug on stats page\r\n- Refactored a lot of code\r\n- Fix category save path not updating (by: @narenh)\r\n\r\n## New Contributors\r\nThank you @vit9696 and @narenh for contributing to the repository. Your efforts are greatly appreciated!\r\n- @vit9696 made their first contribution in https://github.com/Michael-128/qBitControl/pull/11\r\n- @narenh made their first contribution in https://github.com/Michael-128/qBitControl/pull/15\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.1...1.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.2/qBitControl.ipa",
-                    "size": 4061844,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2024-01-17T12:13:53Z",
-                    "localizedDescription": "## New:\r\n- Reworked login system with support for multiple qBittorrent instances.\r\n- Magnet links are now redirected to qBitControl.\r\n- BitTorrent files can now be opened using qBitControl.\r\n\r\n## Fixed:\r\n- Fixed broken UI on iPad.\r\n- Fixed filtering torrents by tags.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.4...1.1",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.1/qBitControl.ipa",
-                    "size": 2538421,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.4",
-                    "date": "2023-12-20T20:10:31Z",
-                    "localizedDescription": "## New:\r\n- Batch Torrent Management\r\n- Upload & Download Stats View\r\n- 'Clear Completed Torrents\u2019 Button\r\n- 'Pause Category\u2019 Button\r\n- Demo View\r\n\r\n## Fixed:\r\n- Flickering Menu\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.3...1.0.4",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.4/qBitControl.ipa",
-                    "size": 2595915,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.3",
-                    "date": "2023-12-10T19:52:09Z",
-                    "localizedDescription": "## Changes:\r\n- Currently selected category is displayed as navigation title\r\n\r\n## Fixed:\r\n- The app couldn't differentiate between two torrents with the same name. The two torrents\u2019 details pages showed the same exact information of one of the torrents.\r\n- Infinite login bug.\r\n- Can't connect warning message appeared after local network access was allowed.\r\n- Fixed typos.\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/1.0.2...1.0.3",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.3/qBitControl.ipa",
-                    "size": 1817965,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.2",
-                    "date": "2023-12-05T09:20:10Z",
-                    "localizedDescription": "## Changes:\r\n- Moved log out button to a toolbar menu\r\n- Added pause all & resume all buttons\r\n\r\n**Full Changelog**: https://github.com/Michael-128/qBitControl/compare/release...1.0.2",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.0.2/qBitControl.ipa",
-                    "size": 2448085,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "release",
-                    "date": "2023-12-02T22:00:46Z",
-                    "localizedDescription": "qBittorrent client for iOS devices.\r\n\r\n## Features\r\n- Add torrents from magnet or file.\r\n- View progress, stats, peers, and trackers of your torrents.\r\n- Manage your torrents - pause/resume, recheck, reannounce and delete.\r\n- Browse torrents files\r\n- Search, sort, and filter torrents.\r\n- Dark mode and light mode\r\n",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/release/qBitControl.ipa",
-                    "size": 2427940,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "CI",
-                    "date": "2026-06-21T19:18:25Z",
-                    "localizedDescription": "## Features\r\n- Resume current tasks [#94](https://github.com/Michael-128/qBitControl/pull/94) (by @kambala-decapitator )\r\n- Sanitize server URL for trailing slashes when adding a server [#84](https://github.com/Michael-128/qBitControl/pull/84) (by @danpiths )\r\n\r\n## Bug Fixes\r\n- Resolve single task deletion from context menu and use standard alert (#92) (by @Michael-128)\r\n- Fix stats showing up as zeros on qBittorrent >5.2 (by @Michael-128)\r\n- Fix peers JSON decoding [#96](https://github.com/Michael-128/qBitControl/pull/96) (by @kambala-decapitator)\r\n- Fix ServersHelper thread safety warning (by @Michael-128)\r\n\r\n## Code Refactoring\r\n- Sanitize inputs before running validations (by @Michael-128)\r\n\r\n## Chores\r\n- **localization**: Update Polish & Japanese localizations [#94](https://github.com/Michael-128/qBitControl/pull/94)\r\n- **l10n**: Add & complete Chinese (zh-Hans/Hant) translations [#95](https://github.com/Michael-128/qBitControl/pull/95) (by @XaoflySho)\r\n- Automated build setup & pipeline fixes\r\n- Remove obsolete Xcode workspace (by @kambala-decapitator )\r\n- Bump version to 1.3.5 (build 19)",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/CI/qBitControl.ipa",
-                    "size": 4302381
-                },
-                {
-                    "version": "1.3.5",
-                    "date": "2026-06-21T19:18:25Z",
-                    "localizedDescription": "## Features\r\n- Resume current tasks [#94](https://github.com/Michael-128/qBitControl/pull/94) (by @kambala-decapitator )\r\n- Sanitize server URL for trailing slashes when adding a server [#84](https://github.com/Michael-128/qBitControl/pull/84) (by @danpiths )\r\n\r\n## Bug Fixes\r\n- Resolve single task deletion from context menu and use standard alert (#92) (by @Michael-128)\r\n- Fix stats showing up as zeros on qBittorrent >5.2 (by @Michael-128)\r\n- Fix peers JSON decoding [#96](https://github.com/Michael-128/qBitControl/pull/96) (by @kambala-decapitator)\r\n- Fix ServersHelper thread safety warning (by @Michael-128)\r\n\r\n## Code Refactoring\r\n- Sanitize inputs before running validations (by @Michael-128)\r\n\r\n## Chores\r\n- **localization**: Update Polish & Japanese localizations [#94](https://github.com/Michael-128/qBitControl/pull/94)\r\n- **l10n**: Add & complete Chinese (zh-Hans/Hant) translations [#95](https://github.com/Michael-128/qBitControl/pull/95) (by @XaoflySho)\r\n- Automated build setup & pipeline fixes\r\n- Remove obsolete Xcode workspace (by @kambala-decapitator )\r\n- Bump version to 1.3.5 (build 19)",
-                    "downloadURL": "https://github.com/Michael-128/qBitControl/releases/download/1.3.5/qBitControl.ipa",
-                    "size": 4302381
                 }
             ],
             "appPermissions": {
