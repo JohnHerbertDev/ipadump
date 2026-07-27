@@ -10,6 +10,78 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "PancakeStore",
+            "bundleIdentifier": "com.jbdotparty.PancakeStore",
+            "marketplaceID": "",
+            "developerName": "jailbreakdotparty",
+            "subtitle": "MuffinStore Jailed, with UI.",
+            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
+            "tintColor": "#c64000",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.0.1",
+                    "date": "2025-12-26T16:26:45Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
+                    "size": 777601,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-12-20T20:14:48Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
+                    "size": 751441,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2026-02-27T02:18:24Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- PancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\r\n\r\n## UI Updates\r\n- Added a proper UI for iPads.\r\n- Cleaned up multiple components, updated PartyUI.\r\n- Added a settings page.\r\n- Code reorganization.\r\n\r\n## QoL Improvements\r\n- When the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\r\n- Added more information about the app while it's downgrading.",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.1/PancakeStore_v1.1.ipa",
+                    "size": 1132982
+                },
+                {
+                    "version": "1.2",
+                    "date": "2026-06-12T05:52:23Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- **PancakeStore has been fixed again.** Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\r\n- **Improved error handling.** The app should no longer abruptly exit when things go wrong.\r\n- **Auto-clean.** The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\r\n\r\n## Added Features\r\n- **Share Extension.** PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\r\n- **Export IPA.** You can export the IPA after the app has been downgraded. Probably useful for research or archival.\r\n\r\nThank you everybody for your patience and support!",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
+                    "size": 1936006
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2026-06-26T23:43:46Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Changes\r\n- **Fix authentication.** We'll see how long this lasts.\r\n- **Add link to information about sign-in issues.** Maybe people will read? No, they probably won't...\r\n- **Minor project updates.** The version number now says `1.2.1` instead of `1.2`.\r\n\r\nThank you everybody for your patience and support! Unless you weren't. I'm tired please just don't spam us with issues when it breaks",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.1/PancakeStore_v1.2.1.ipa",
+                    "size": 3105584
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2026-07-01T02:08:51Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Changes\r\n- **Improved URL handling.** Authentication was broken for some people due to my poor choices in programming the URL handling. Now it should be more reliable hopefully. Brazil fix\r\n- **Improved buttons.** The buttons have been bugged for a while where you have to tap on the text for them to work, now they should be normal. Shoutout to everybody whose problems were solved by \"you have to tap the text\".\r\n- **Minor project updates.** The version number now says `1.2.2` instead of `1.2.1`. Also some small codebase cleanup.\r\n\r\nThank you everybody for your patience and support! Working slowly to make things more stable, hopefully less impatient complaints make their way to us...",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.2/PancakeStore_v1.2.2.ipa",
+                    "size": 3099981
+                },
+                {
+                    "version": "1.3",
+                    "date": "2026-07-26T06:57:39Z",
+                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Localizations\r\nWe've added full localization for the following languages:\r\n- Russian (#2, @ezn1hero)\r\n- German (@rooootdev)\r\n- Chinese, Simplified (#3, @trollstorex)\r\n\r\nTranslations have been a goal for a long time, and we're very excited in taking the first steps to implement them.\r\nAt the moment, we have not arranged a system to widely crowdsource translations for our projects, so translations will be on a one-off individually-contributed basis. This will hopefully change in the short future.\r\n\r\n## Changes\r\n- **Fixed authentication again again again.** If you were running into \"failed to get pod\" errors, they should be resolved now.\r\n- **Some UI changes.** UI is cleaner now i think...? I know some changes were done to it. Should be more better now.\r\n- **Minor project updates.** Surprisingly, the version number now says `1.3` instead of `1.2.2`. If anybody predicts and leaks the next version number I'm going to be very upset.\r\n\r\nThank you everybody for your patience and support! Attention has been on some other projects for a bit, but we do have plenty more features to add to PancakeStore still. Stay tuned for all that.\r\nHappy downgrading!",
+                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.3/PancakeStore_v1.3.ipa",
+                    "size": 5965008
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "StikDebug",
             "bundleIdentifier": "com.stik.stikdebug",
             "marketplaceID": "",
@@ -8223,71 +8295,6 @@
                     "localizedDescription": "Thank you for all your feedback and contributions!\r\n\r\n> [!TIP]\r\n> For `idevice` configuration, you can use [Impactor](https://github.com/claration/Impactor?tab=readme-ov-file#pairing-file) for easily retrieving a pairing file for installing!\r\n\r\n## What's Changed\r\n* Added tweak options in default signing options.\r\n* Added ability to search for identifier's in Library @ismailcarlik in https://github.com/claration/Feather/pull/652\r\n* Fixed issue in the file enumeration logic, by using the path property instead of method.\r\n* Fixed credit links.\r\n* Fixed duplicate repository in recommended repositories.\r\n\r\n## New Contributors\r\n* @xiangfeidexiaohuo made their first contribution in https://github.com/claration/Feather/pull/634\r\n* @osageling made their first contribution in https://github.com/claration/Feather/pull/642\r\n\r\n**Full Changelog**: https://github.com/claration/Feather/compare/v2.8.2...v2.9.0",
                     "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
                     "size": 14241853
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "PancakeStore",
-            "bundleIdentifier": "com.jbdotparty.PancakeStore",
-            "marketplaceID": "",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "MuffinStore Jailed, with UI.",
-            "localizedDescription": "MuffinStore Jailed, but with a proper UI. iOS 16.4 and later.\n\nWARNING\nUse this tool at your own risk! You may lose app data, and other damage could occur.\n\nFeatures\n- Downgrade most applications available on the App Store (you will need to input the link to the app store app).\n\n## How do I downgrade an application?\n1. The application you want to downgrade will need to be uninstalled. If you want to keep the app data, offload the app first.\n2. Install PancakeStore using your preferred sideloading method.\n3. Log in your Apple ID, and click \"Send 2FA Code.\" If you can, try sending a 2FA code before logging in (there should be this in the settings app, but it was removed in iOS 18?).\n4. In most cases, you should get a popup. Accept the new login, and copy the verification code into the 2FA field. If you don't get that popup, type six random numbers into the 2FA field. I assume this works because you must've logged into MuffinStoreJailed/PancakeStore at a different time. \n5. Click \"log in\" and go to the App Store.\n6. Find the application you're looking for, click the share button, and copy the link.\n7. Go back to PancakeStore and click the clipboard button.\n8. Click \"Downgrade App\" and wait patiently!\n",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/PancakeStore/main/previewIcon.png",
-            "tintColor": "#c64000",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.0.1",
-                    "date": "2025-12-26T16:26:45Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## UI Changes\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI).\r\n- Other UI fixes.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0.1/PancakeStore_v1.0.1.ipa",
-                    "size": 777601,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-12-20T20:14:48Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\nfirst release lol, probably will be the only one unless there's some major issue or something. read the [readme](https://github.com/jailbreakdotparty/PancakeStore) for instructions.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.0/PancakeStore_v1.0.ipa",
-                    "size": 751441,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2026-02-27T02:18:24Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Support Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- PancakeStore is now FIXED! Thanks to @skadz108 for all of his backend contributions to make the app actually work again properly.\r\n\r\n## UI Updates\r\n- Added a proper UI for iPads.\r\n- Cleaned up multiple components, updated PartyUI.\r\n- Added a settings page.\r\n- Code reorganization.\r\n\r\n## QoL Improvements\r\n- When the app finishes downgrading, there's now an \"Open App\" button. This button will probably not work on first appearance because the app still has to install.\r\n- Added more information about the app while it's downgrading.",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.1/PancakeStore_v1.1.ipa",
-                    "size": 1132982
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-06-12T05:52:23Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Backend Changes\r\n- **PancakeStore has been fixed again.** Shoutout to Apple for the random backend changes. Signing in (and therefore downgrading) should work fine now.\r\n- **Improved error handling.** The app should no longer abruptly exit when things go wrong.\r\n- **Auto-clean.** The app now automatically clears the download and server caches, so PancakeStore shouldn't be taking up tons of extra space now.\r\n\r\n## Added Features\r\n- **Share Extension.** PancakeStore now has a built-in sharing extension that lets you share apps directly from the App Store to PancakeStore. No more copying links back and forth!\r\n- **Export IPA.** You can export the IPA after the app has been downgraded. Probably useful for research or archival.\r\n\r\nThank you everybody for your patience and support!",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2/PancakeStore_v1.2.ipa",
-                    "size": 1936006
-                },
-                {
-                    "version": "1.2.1",
-                    "date": "2026-06-26T23:43:46Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Changes\r\n- **Fix authentication.** We'll see how long this lasts.\r\n- **Add link to information about sign-in issues.** Maybe people will read? No, they probably won't...\r\n- **Minor project updates.** The version number now says `1.2.1` instead of `1.2`.\r\n\r\nThank you everybody for your patience and support! Unless you weren't. I'm tired please just don't spam us with issues when it breaks",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.1/PancakeStore_v1.2.1.ipa",
-                    "size": 3105584
-                },
-                {
-                    "version": "1.2.2",
-                    "date": "2026-07-01T02:08:51Z",
-                    "localizedDescription": ">[!WARNING]\r\n>Use this tool at your own risk! You may lose app data, and other damage could occur.\r\n\r\n[Discord Server](https://jailbreak.party/discord) \u2022 [Website](https://jailbreak.party) \u2022 [Original Project (by mineek)](https://github.com/mineek/MuffinStoreJailed-Public)\r\n\r\n## Changes\r\n- **Improved URL handling.** Authentication was broken for some people due to my poor choices in programming the URL handling. Now it should be more reliable hopefully. Brazil fix\r\n- **Improved buttons.** The buttons have been bugged for a while where you have to tap on the text for them to work, now they should be normal. Shoutout to everybody whose problems were solved by \"you have to tap the text\".\r\n- **Minor project updates.** The version number now says `1.2.2` instead of `1.2.1`. Also some small codebase cleanup.\r\n\r\nThank you everybody for your patience and support! Working slowly to make things more stable, hopefully less impatient complaints make their way to us...",
-                    "downloadURL": "https://github.com/jailbreakdotparty/PancakeStore/releases/download/1.2.2/PancakeStore_v1.2.2.ipa",
-                    "size": 3099981
                 }
             ],
             "appPermissions": {
