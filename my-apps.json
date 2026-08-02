@@ -119,6 +119,13 @@
                     "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
                     "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
                     "size": 12818500
+                },
+                {
+                    "version": "3.1.9",
+                    "date": "2026-08-01T20:09:58Z",
+                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+                    "size": 12822956
                 }
             ],
             "appPermissions": {
