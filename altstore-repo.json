@@ -10,6 +10,64 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "DLiPA",
+            "bundleIdentifier": "com.ahmedbafkir.dlipa",
+            "marketplaceID": "",
+            "developerName": "AhmedBafkir",
+            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
+            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
+            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2025-11-16T17:59:20Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
+                    "size": 480115,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-06-07T17:24:30Z",
+                    "localizedDescription": "Initial Release.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
+                    "size": 480247,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2026-02-22T21:04:04Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
+                    "size": 471971
+                },
+                {
+                    "version": "1.3",
+                    "date": "2026-06-17T01:22:52Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n### New Feature\r\n- Ability to download a specific version of any app using the Version ID.\r\n- Access your last 15 searches instantly just by tapping the search bar for quick navigation.\r\n\r\n### Fixes\r\n- Resolved the login issue.\r\n- Resolved the \"An unknown error occurred\" issue when downloading certain popular apps, including Google and Microsoft apps and others.\r\n- Fixed an issue that caused the app to crash when searching after setting a search limit.\r\n- Fixed a bug where downloaded data was not automatically deleted when selecting \"Delete account with files\".\r\n\r\n### Improvements\r\n- Other minor fixes.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.3/DLiPA_v1.3.ipa",
+                    "size": 479107
+                },
+                {
+                    "version": "1.4",
+                    "date": "2026-08-03T08:46:29Z",
+                    "localizedDescription": "## What's Changed \r\n\r\n- Fixed authentication issues\r\n- Multi-language support (AI translations):\r\n  - Chinese, Simplified\r\n  - French\r\n  - German\r\n  - Hindi\r\n  - Indonesian\r\n  - Italian\r\n  - Japanese\r\n  - Korean\r\n  - Russian\r\n  - Spanish\r\n  - Turkish\r\n  - Vietnamese\r\n\r\n## Support the app \u2661\r\nIf you find this project useful, I would be very grateful for your support in its continuation and development.\r\n\r\n[![Support DLiPA](https://img.shields.io/badge/PayPal-Support_DLiPA-blue?logo=paypal)](https://www.paypal.com/ncp/payment/RLKKWBYSKSPVU)",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.4/DLiPA_v1.4.ipa",
+                    "size": 534245
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "StikDebug",
             "bundleIdentifier": "com.stik.stikdebug",
             "marketplaceID": "",
@@ -8929,57 +8987,6 @@
                     "localizedDescription": "* Fixed JIT support on A13/A14/M1 devices running iOS 27 beta. (@CelloSerenity)\r\n* Fixed wrong app version number introduced in 5.0.0b5. (@CelloSerenity)\r\n\r\nThe next update will be sometime after the next official Dolphin release. It will include a core update.\r\n\r\n**Full Changelog**: https://github.com/OatmealDome/dolphin-ios/compare/v5.0.0b5...v5.0.0b6",
                     "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v5.0.0b6/Non-Jailbroken.ipa",
                     "size": 17963367
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "DLiPA",
-            "bundleIdentifier": "com.ahmedbafkir.dlipa",
-            "marketplaceID": "",
-            "developerName": "AhmedBafkir",
-            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
-            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
-            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2025-11-16T17:59:20Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
-                    "size": 480115,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-06-07T17:24:30Z",
-                    "localizedDescription": "Initial Release.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
-                    "size": 480247,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-02-22T21:04:04Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
-                    "size": 471971
-                },
-                {
-                    "version": "1.3",
-                    "date": "2026-06-17T01:22:52Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n### New Feature\r\n- Ability to download a specific version of any app using the Version ID.\r\n- Access your last 15 searches instantly just by tapping the search bar for quick navigation.\r\n\r\n### Fixes\r\n- Resolved the login issue.\r\n- Resolved the \"An unknown error occurred\" issue when downloading certain popular apps, including Google and Microsoft apps and others.\r\n- Fixed an issue that caused the app to crash when searching after setting a search limit.\r\n- Fixed a bug where downloaded data was not automatically deleted when selecting \"Delete account with files\".\r\n\r\n### Improvements\r\n- Other minor fixes.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.3/DLiPA_v1.3.ipa",
-                    "size": 479107
                 }
             ],
             "appPermissions": {
