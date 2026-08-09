@@ -10,425 +10,6 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
-            "name": "Dopamine",
-            "bundleIdentifier": "com.opa334.Dopamine",
-            "marketplaceID": "",
-            "developerName": "opa334",
-            "subtitle": "Dopamine is a semi-untethered jailbreak for iOS 15 and 16",
-            "localizedDescription": "A rootless semi-untethered jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
-            "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
-            "tintColor": "#457f18",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "2.4.7",
-                    "date": "2026-01-09T11:11:43Z",
-                    "localizedDescription": "- Fix an issue where the jailbreaking process would get stuck on \"Patchfinding\" on some device / version combinations (seemingly affected early iOS 15 arm64 devices the most) [2.4.6 regression]\r\n- Fix issues with custom boot logos not getting set / not persisting correctly\r\n- Fix an issue where selecting a picture taken with a camera as the custom boot logo would cause it to have the wrong orientation in some cases",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.7/Dopamine.ipa",
-                    "size": 53694474,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4.6",
-                    "date": "2026-01-04T11:58:03Z",
-                    "localizedDescription": "- Add the ability to have the device display a boot logo during userspace reboots (By default the background of the selected theme will be used, additionally there is an option to select a custom one)\r\n- Fix the issue that previously broke iOS 15 arm64 support when compiling libjailbreak with compiler optimizations, enable compiler optimizations for libjailbreak again\r\n- Fix a page table alignment bug in `pmap_map_in` that would never be triggered in practice unless a developer called it themselves with addresses not aligned to L2 boundaries\r\n- Several optimizations have been made to make rejailbreaking / userspace rebooting slightly faster\r\n\r\nThanks to @TheRealClarity for looking into some issues with boot logos on landscape iPads.",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.6/Dopamine.ipa",
-                    "size": 53694012,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4.5",
-                    "date": "2025-04-19T20:56:35Z",
-                    "localizedDescription": "- Revert compiler optimizations for libjailbreak since this broke 15.x arm64 support [2.4.4 regression]",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.5/Dopamine.ipa",
-                    "size": 53241819,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4.4",
-                    "date": "2025-04-19T14:54:32Z",
-                    "localizedDescription": "- Improve fix from 2.4.3 to also work in processes for which tweak injection has been disabled\r\n- Fix in-app respring button not working when jailbreak is hidden\r\n- Improve error message that appears when libgrabkernel2 does not work\r\n- Add password authentication for when changing mobile password (Contributed by @khcrysalis)\r\n- Add compiler optimizations to some jailbreak components\r\n- Update ChOma and XPF",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.4/Dopamine.ipa",
-                    "size": 53228002,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4.3",
-                    "date": "2025-03-15T22:08:52Z",
-                    "localizedDescription": "- Fix an issue where calling dlopen in a fork child would fail (on iOS 15) or crash the process (on iOS 16) (Fixes `perl` crashing when running `apt-file search <query>` on iOS 16) [2.4 regression]",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.3/Dopamine.ipa",
-                    "size": 53237456,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4.2",
-                    "date": "2025-03-09T20:42:14Z",
-                    "localizedDescription": "- Extend library validation bypass to also work when something manually invokes fcntl in the dyld_shared_cache\r\n- Remove stray macho magics from patched dyld, works around issues where third party software (e.g. Frida) would mistake the wrong page to be the start of dyld, causing it to fail in unpredictable ways (Regarding Frida, there is still an issue where it conflicts with the spinlock panic fix, but I don't think there is anything I can do on Dopamines end to fix it, the issue is being tracked [here](https://github.com/frida/frida-core/issues/1137)) (Credits to @tihmstar for helping with debugging)\r\n- Update bootstrap tarball (Better late than never?)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.2/Dopamine.ipa",
-                    "size": 53236821,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4.1",
-                    "date": "2025-02-16T19:18:08Z",
-                    "localizedDescription": "- Fix support for iOS 16.0.x [2.4 regression]",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
-                    "size": 50005508,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4",
-                    "date": "2025-02-16T15:04:51Z",
-                    "localizedDescription": "NOTE: Doing an OTA update to this version will reboot your device, requiring a rejailbreak afterwards, this is expected and unavoidable, because Dopamine <=2.3 has a bind mount that cannot possibly be unmounted without panicing the device.\r\n\r\n- Add a workaround for spinlock panics on iOS 15 arm64e that fully prevents them in all cases (except one, see below*)\r\n- Make \"Hide Jailbreak\" fully hide the jailbreak, to the point where it should be undetectable (see notes below)\r\n- Apply sandbox patches before linking, fixes issues when a process directly links against a library inside /var/jb\r\n- Improve and optimize library validation bypass\r\n- Slightly improve forkfix\r\n- Fix/reenable tweak injection into WebContent on iOS 16\r\n- Fix a rare system deadlock during \"Initializing Jailbreak\"\r\n\r\n**CAVEATS WITH \"HIDE JAILBREAK\":**\r\n- Once you have hidden the jailbreak once since the last userspace reboot, spinlock panics can happen again* if your device is affected by them (iOS 15 arm64e), this is because the spinlock workaround relies on a dyld hook, which has to be disabled to properly hide the jailbreak, there is not much that can be done about this, the only idea I had did not work when I tested it\r\n- When hiding the jailbreak, a few processes, such as apps where tweak injection has been disabled via Choicy, will crash, I was trying to fully fix this by deprecating the /usr/lib bind mount in favor of a namecache based solution, but that caused weird panics on iOS 16 (the code for this has been pushed to the `nofakelib` branch), so unless a fix for those can be found, there is nothing I can do about this\r\n\r\n**POTENTIAL CAVEATS WITH JAILBREAK DETECTION:**\r\n- Since Dopamine 2.4 has introduced a dyld hook and also redirects dyld to a different folder via symlink now, it might be slightly more detectable, even while tweak injection for an app is disabled, there is not much that can be done about this, but as explained in the change log, the \"Hide Jailbreak\" option now works better as a result of these changes",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4/Dopamine.ipa",
-                    "size": 50005102,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.2.2",
-                    "date": "2024-08-10T17:11:38Z",
-                    "localizedDescription": "- Stop redirecting all `execve` calls to `posix_spawn`, fixes issues with certain sandbox profiles (e.g. `configd`) that block `posix_spawn` but allow `execve`, fixes WPA2/3 ENTERPRISE networks not working (these issues started in 2.2 but were not a regression, in earlier versions the exec call was not hooked properly which is why this wasn't noticed before)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2.2/Dopamine.ipa",
-                    "size": 49694581,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.2.1",
-                    "date": "2024-07-30T22:00:36Z",
-                    "localizedDescription": "- Bump default jetsam multiplier back to 3x because apparently people don't read changelogs and that's why we can't have nice things (Most people should still be using 2x, but that's on their own to figure out now...)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2.1/Dopamine.ipa",
-                    "size": 49692070,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.2",
-                    "date": "2024-07-28T11:07:03Z",
-                    "localizedDescription": "- Remove `DYLD_INTERPOSE` in favor of other hooking techniques, since `DYLD_INTERPOSE` was apparently causing memory usage to be much higher than what it should be\r\n- The jetsam multiplier can now be configured inside the Dopamine app, in previous Dopamine versions this was 3x everywhere with no option to configure it, due to the removal of the `DYLD_INTERPOSE`, the default setting has been able to be lowered to 2x\r\n- `NSTask` is now supported everywhere by default, unlike before where it was only supported inside tweak dylibs or when you called `dopamine_fix_NSTask` yourself\r\n- Due to the better hooking techniques, a lot of unnecessary code has been able to be removed\r\n- Fix kcall on iOS 15 arm64 not working from libkrw and iDownload\r\n- Fix `frida-ps -U` panicing the device (To be honest, I have no clue what change actually fixed this, the only thing I know is that it happens in older Dopamine versions and doesn't happen in 2.2 anymore)\r\n- Improve launchd crash reporter in various different ways\r\n- Code cleanup",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2/Dopamine.ipa",
-                    "size": 49691621,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1.7",
-                    "date": "2024-06-12T21:20:47Z",
-                    "localizedDescription": "- Remove `libkrw0` dependency of libkrw plug-in, should fix rejailbreaking when `libkrw0` has been uninstalled\r\n- Improve verbose logging, also log `stderr` to it\r\n",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa",
-                    "size": 49687727,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1.6",
-                    "date": "2024-06-12T15:38:03Z",
-                    "localizedDescription": "- Fix jailbreaking with developer mode disabled not working on iOS 16.0 - 16.3.1 arm64\r\n- Fix weightBufs not working on some device / version combinations\r\n- Fix libkrw physrw not working when kcall is not available\r\n- Improve libkrw packaging and error handling\r\n- Skip installing a bundled package if a newer version is installed already\r\n- When an update is available while unjailbroken, it will now be opened directly in TrollStore if it's URL scheme is enabled",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.6/Dopamine.ipa",
-                    "size": 49687245,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1.5",
-                    "date": "2024-05-27T14:45:03Z",
-                    "localizedDescription": "- Allow binaries to get custom pmap_cs trust level via the `jb.pmap_cs_custom_trust` entitlement, possible values: {`\"PMAP_CS_PROFILE_PREFLIGHT\"`, `\"PMAP_CS_COMPILATION_SERVICE\"`, `\"PMAP_CS_OOP_JIT\"` (iOS 16 only), `\"PMAP_CS_LOCAL_SIGNING\"`, `\"PMAP_CS_PROFILE_VALIDATED\"`, `\"PMAP_CS_APP_STORE\"`, `\"PMAP_CS_IN_LOADED_TRUST_CACHE\"`, `\"PMAP_CS_IN_STATIC_TRUST_CACHE\"`}, a lower trust level allows the process to be less restricted by PMAP_CS, this in practice fixes the EQE app and it's Lua recompiler not to work (but only if it has the entitlement, so make sure you use the newest EQE build)\r\n- Fix `posix_spawnattr_setarchpref_np` not being supported by the codesign bypass (#573)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.5/Dopamine.ipa",
-                    "size": 49680775,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1.4",
-                    "date": "2024-05-07T12:20:05Z",
-                    "localizedDescription": "- Only automatically fix up permissions of relevant directories inside `/var/jb/var/mobile`, rather than the entirety of it\r\n- Skip permission fix up if either `/var/jb/var` or `/var/jb/var/mobile` is a symbolic link, previously there was a bootloop risk when either of them point to the real `/var` or `/var/mobile`",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.4/Dopamine.ipa",
-                    "size": 49675799,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1.2",
-                    "date": "2024-05-02T17:29:03Z",
-                    "localizedDescription": "- Fix app switcher not displaying preview images of jailbreak apps in some cases [2.1 regression]\r\n- Sandbox: Allow writing to /var/jb/var/mobile system wide\r\n",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.2/Dopamine.ipa",
-                    "size": 49671105,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1.1",
-                    "date": "2024-04-30T23:50:56Z",
-                    "localizedDescription": "- Fix codesigning bypass failing on binaries/libraries that have an armv7s slice (Fixes Designer not working) [2.1 regression]\r\n- Fix sharing files to jailbreak apps not working in some instances [2.1 regression]\r\n- Fix string corruption in sandbox bypass, the fact I never noticed this before means it probably wasn't that bad of an issue (don't use strcat on uninitialized stack buffers!)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.1/Dopamine.ipa",
-                    "size": 49670197,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.1",
-                    "date": "2024-04-30T17:15:02Z",
-                    "localizedDescription": "- Add support for A8(X) devices\r\n- Fix Dopamine app instantly crashing when installed using TrollStore on A8 devices\r\n- Add kcall implementation on arm64 iOS 15.x (this was needed for A8 support)\r\n- Use kcall for allocating page tables when available\r\n- Improve performance of some parts of the jailbreaking process by ~1000x (because A8 was getting stuck in them for multiple minutes.....)\r\n- Fix support for some obscure device / version combinations (e.g. A9 15.0.1, early 15.0 betas, etc...)\r\n- Add `weightBufs` and `multicast_bytecopy` as Kernel exploit options\r\n- Protect system files in preboot partition so users cannot delete them and cause the device to recovery loop\r\n- Add \"Allow JIT in Apps\" toggle, enabled by default, when enabled this will add `CS_DEBUGGED` to apps (Note: This has no effect on apps that have tweak injection disabled via Choicy)\r\n- Fix `/var/mobile/Library/Application Support/Containers/`, `/var/mobile/Library/SplashBoard/Snapshots/` getting polluted with some jailbreak files\r\n- Fix jailbreak apps disappearing after the system (or TrollStore) reloads the icon cache\r\n- Add back \"Change mobile password\" option in Dopamine settings\r\n- Revamp jbctl trustcache management, new commands: `jbctl trustcache info`, `jbctl trustcache clear`, `jbctl trustcache add`\r\n- Switch to libgrabkernel2 (@alfiecg24, @dhinakg), removes the requirement for Dopamine to be installed by TrollStore on beta versions\r\n- Fix smith not working on iOS 15\r\n- Order exploits by recommendation score, add \"(Recommended)\" to the best one\r\n\r\n\r\n30-04-2024 21:13 UTC: Build was reuploaded to fix issues with OTA updates on 15.x arm64, people who have already updated do not need it, so I decided to not make it a new update\r\n",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1/Dopamine.ipa",
-                    "size": 49669210,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.11",
-                    "date": "2024-03-10T23:14:28Z",
-                    "localizedDescription": "- **Actually** fix relevant file path permissions when rejailbreaking (previously the method for this existed but was never called, sigh...), this should now actually automatically fix issues such as NewTerm / SSH not working",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.11/Dopamine.ipa",
-                    "size": 49682668,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.10",
-                    "date": "2024-03-08T02:45:47Z",
-                    "localizedDescription": "- Fix jailbreaking not working when developer mode was disabled (Developer mode will now be automatically enabled in a non persistent way for the current boot)\r\n- Fix NECP connections failing after some time on arm64 (Apple Watch, VPN...)\r\n- Fix `terminusd` crashes on arm64, reenable injection into it and `nesessionmanager`\r\n- Automatically fix wrong permissions for `/private` and `/private/preboot` when jailbreaking\r\n- Fix app icons disappearing or no longer opening on OTA updates (Will only be fixed for future updates, not for the one to 2.0.10, also requires TrollStore 2.0.13)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.10/Dopamine.ipa",
-                    "size": 49682303,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.0.9",
-                    "date": "2024-02-29T13:19:28Z",
-                    "localizedDescription": "- Fix a super bad security issue where app store apps would be allowed to obtain full system captabilities (root + phys r/w) that were otherwise only intended to be accessible by root processes, as a result of this Dopamine 2.0.0 - 2.0.8 have been pulled and are no longer recommended to be used by anyone\r\n- Fix an issue where the arm64 related fixes of 2.0.7 and 2.0.8 were only working when ellekit was installed and tweak injection was enabled\r\n- Disable injection into terminusd and nesessionmanager on arm64 in an attempt to resolve issues with crash loops and VPN apps still not working for some users\r\n- Immediately allow invalid pages on all processes that are spawned via `POSIX_SPAWN_START_SUSPENDED`, this fixes an issue where several Frida features would not work correctly\r\n- Actually fix support for early iOS 15.0 betas (2.0.8 changelog lied)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.9/Dopamine.ipa",
-                    "size": 49675263,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.4.8",
-                    "date": "2026-03-14T14:12:27Z",
-                    "localizedDescription": "- Reflect that landa got patched in 15.8.7 (RIP) (Thanks @TheMasterOfMike for the PR)\r\n- Fix support for early iOS 16.1 betas\r\n- Minor fixes / improvements to forkfix",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.8/Dopamine.ipa",
-                    "size": 53695473
-                },
-                {
-                    "version": "2.4.9",
-                    "date": "2026-04-25T16:20:49Z",
-                    "localizedDescription": "- Fix a logic bug in forkfix [2.4.8 regression]",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.9/Dopamine.ipa",
-                    "size": 53702230
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-08-07T23:20:15Z",
-                    "localizedDescription": "- Fix Titan not working on ARM_LARGE_MEMORY kernels (Mainly M1/M2 iPads)\r\n- Fix XPF being broken on some iOS 15.x versions\r\n- Fix kfd exploits being broken on iOS 16.x\r\n- Fix ClearSword / DarkSword showing up as supported even on devices that do not support them\r\n- In DarkSword / ClearSword workaround message, add notice about A8 possibly requiring multiple attempts\r\n\r\n(All of the issues fixed were regressions from 3.0)",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.1/Dopamine.ipa",
-                    "size": 56502838
-                },
-                {
-                    "version": "3.0",
-                    "date": "2026-08-07T18:51:04Z",
-                    "localizedDescription": "- Add Titan PPL/SPTM bypass by @alfiecg24, introduces support for all devices running 16.5.1 - 17.3.1\r\n- Add momentarius PPL bypass by @staturnzz and @TheRealClarity, introduces support for A12/A13 devices running 16.6 - 18.7.1, 26.0 - 26.0.1\r\n- Add support for SPTM devices up to 27.0 betas in general, can be tested on Corellium devices using the install script at Standalone/Corellium, obviously only works up to 17.3.1 on real devices due to lack of an SPTM bypass on >=17.4\r\n- Add ClearSword exploit by @TheRealClarity, cleaner alternative to DarkSword that seems to have better reliability\r\n- Add workaround for DarkSword/ClearSword not working on A8 iPads, iPad 5, iPad 6 and iPad Pro 9.7\" contributed by @sk8ingDuck, involves a respring through a respring method contributed by @wh1te4ever\r\n- Fix various issues with the Dopamine app from the 2.5 Betas, such as settings not saving\r\n- Fix various issues with installing apps via TrollStore Lite on iOS 17.4+\r\n- More secure method of detecting the Dopamine app that jailbroke the device by saving it's id when intially jailbreaking and later comparing against it, should also solve issues when a signing tool renames the .app bundle\r\n\r\nNOTES:\r\n- The DarkSword/ClearSword respring workaround may need to be done multiple times on A8\r\n- A jbupdate from an earlier versions will trigger a full reboot by design",
-                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0/Dopamine.ipa",
-                    "size": 56499923
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "DLiPA",
-            "bundleIdentifier": "com.ahmedbafkir.dlipa",
-            "marketplaceID": "",
-            "developerName": "AhmedBafkir",
-            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
-            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
-            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.1",
-                    "date": "2025-11-16T17:59:20Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
-                    "size": 480115,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-06-07T17:24:30Z",
-                    "localizedDescription": "Initial Release.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
-                    "size": 480247,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2",
-                    "date": "2026-02-22T21:04:04Z",
-                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
-                    "size": 471971
-                },
-                {
-                    "version": "1.3",
-                    "date": "2026-06-17T01:22:52Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n### New Feature\r\n- Ability to download a specific version of any app using the Version ID.\r\n- Access your last 15 searches instantly just by tapping the search bar for quick navigation.\r\n\r\n### Fixes\r\n- Resolved the login issue.\r\n- Resolved the \"An unknown error occurred\" issue when downloading certain popular apps, including Google and Microsoft apps and others.\r\n- Fixed an issue that caused the app to crash when searching after setting a search limit.\r\n- Fixed a bug where downloaded data was not automatically deleted when selecting \"Delete account with files\".\r\n\r\n### Improvements\r\n- Other minor fixes.",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.3/DLiPA_v1.3.ipa",
-                    "size": 479107
-                },
-                {
-                    "version": "1.4",
-                    "date": "2026-08-03T08:46:29Z",
-                    "localizedDescription": "## What's Changed \r\n\r\n- Fixed authentication issues\r\n- Multi-language support (AI translations):\r\n  - Chinese, Simplified\r\n  - French\r\n  - German\r\n  - Hindi\r\n  - Indonesian\r\n  - Italian\r\n  - Japanese\r\n  - Korean\r\n  - Russian\r\n  - Spanish\r\n  - Turkish\r\n  - Vietnamese\r\n\r\n## Support the app \u2661\r\nIf you find this project useful, I would be very grateful for your support in its continuation and development.\r\n\r\n[![Support DLiPA](https://img.shields.io/badge/PayPal-Support_DLiPA-blue?logo=paypal)](https://www.paypal.com/ncp/payment/RLKKWBYSKSPVU)",
-                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.4/DLiPA_v1.4.ipa",
-                    "size": 534245
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "StikDebug",
-            "bundleIdentifier": "com.stik.stikdebug",
-            "marketplaceID": "",
-            "developerName": "StephenDev0",
-            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
-            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [
-                "https://stikdebug.xyz/assets/source/home.png",
-                "https://stikdebug.xyz/assets/source/scripts.png",
-                "https://stikdebug.xyz/assets/source/settings.png"
-            ],
-            "versions": [
-                {
-                    "version": "2.3.7",
-                    "date": "2026-01-09T19:27:57Z",
-                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
-                    "size": 12048589,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.6",
-                    "date": "2025-12-18T02:30:53Z",
-                    "localizedDescription": "This release works with LocalDevVPN",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
-                    "size": 11996559,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2026-02-25T21:26:35Z",
-                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
-                    "size": 10456365
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-03-08T18:56:53Z",
-                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
-                    "size": 10461243
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2026-03-30T17:53:28Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
-                    "size": 10889554
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2026-04-04T03:30:18Z",
-                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
-                    "size": 10973374
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2026-04-12T06:41:17Z",
-                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
-                    "size": 10974298
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2026-05-18T14:50:17Z",
-                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
-                    "size": 11125407
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2026-06-01T01:12:08Z",
-                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
-                    "size": 11028217
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2026-06-01T11:32:37Z",
-                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
-                    "size": 11027579
-                },
-                {
-                    "version": "3.1.6",
-                    "date": "2026-06-17T04:07:42Z",
-                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
-                    "size": 11028710
-                },
-                {
-                    "version": "3.1.7",
-                    "date": "2026-07-26T00:25:37Z",
-                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
-                    "size": 12815045
-                },
-                {
-                    "version": "3.1.8",
-                    "date": "2026-07-31T15:01:19Z",
-                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
-                    "size": 12818500
-                },
-                {
-                    "version": "3.1.9",
-                    "date": "2026-08-01T20:09:58Z",
-                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
-                    "size": 12822956
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "Apollo",
             "bundleIdentifier": "com.christianselig.Apollo",
             "marketplaceID": "",
@@ -918,6 +499,432 @@
                     "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.5.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.5.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n### Features\r\n\r\n- Add **Gallery View** to subreddit menus for browsing photos, GIFs, and videos in a filterable waterfall grid with fullscreen paging, sorting, sharing, and media saving (#746: @icpryde)\r\n- Revamp **Settings** with task-focused sections, unified deep-linkable search, clearer support flows, better organization, and both always-visible and pull-to-search access (#637, #695, #758: @jordanearle, @icpryde)\r\n- Redesign **profile and subreddit headers** with immersive artwork, prominent avatars, themed stat cards, configurable New/Classic/Native densities, and much faster Social Links (#696, #697, #722, #758: @jordanearle)\r\n- Add a **Badge Book** to profiles for browsing Reddit achievements and the restored classic Trophy Case (#689: @jordanearle)\r\n- Add native **Reddit Polls** voting and creation behind an opt-in setting, with a confirmation step before casting irreversible votes (#643, #735: @jordanearle, @DeltAndy123)\r\n- Add modern **Reddit Chat and Moderator Mail** for API-Key-Free accounts while letting API-key accounts choose independently between Reddit's current experience and Apollo's legacy clients (#658, #740, #750: @icpryde)\r\n- Expand **Apollo AI Summaries** with bring-your-own-key OpenRouter, Gemini, and custom OpenAI-compatible providers plus controls for minimum post length and summary detail (#674, #687: @nickclyde, @icpryde)\r\n- Add a universal **Open Reddit Links in Apollo** flow using the Link Companion app, so Safari links can open any sideloaded or rebranded Apollo build without the custom-scheme confirmation (#685: @jordanearle)\r\n- Redesign the Liquid Glass **App Icon picker** with featured icons, browsable icon-pack cards, and more reliable active-icon detection on sideloaded installs (#668: @DeltAndy123)\r\n- Enable **ProMotion** in patched IPAs and improve scrolling smoothness by reducing main-thread work across feeds, translations, previews, avatars, and Liquid Glass navigation (#724, #731: @jordanearle, @icpryde)\r\n- Add **Hide Feed Descriptions** to compact the built-in Home, Popular, All, and Moderator rows in the subreddit list (#692: @icpryde)\r\n- Show a live **character counter** for the 25-character Message Moderators subject limit (#751: @icpryde)\r\n\r\n### Fixes\r\n\r\n- Make **Imgur** images, animated media, and albums work without a personal API key, with additional fallbacks for networks where Imgur is blocked (#729: @jordanearle)\r\n- Fix **API-Key-Free posting** so post flair opens correctly, user-flair emoji limits match each subreddit, newly posted comments show your flair, and multi-image galleries belong to the correct account (#669, #670, #733: @icpryde)\r\n- Fix **rich link previews** reserving full-card space for image-less sites and prevent oversized preview images from overflowing the main-thread stack during row layout (#686, #741: @icpryde)\r\n- Fix **inline comment images** shrinking after collapse and expand, and keep translated comments stable while votes update (#675, #676: @icpryde)\r\n- Fix modern **Moderator Mail** exposing half-rendered transitions or flickering the subreddit icon while typing a reply (#749: @icpryde)\r\n- Fix Apollo Reborn **Settings** backgrounds, cards, and separators retaining stale colors after appearance or theme changes (#734: @DeltAndy123)\r\n- Polish **Liquid Glass navigation** by keeping titles centered between button groups, preserving edge fades during swipe-back, balancing trailing pill padding, and keeping menu controls visible throughout their morph animation (#671, #693, #730, #753: @icpryde)\r\n- Fix the **Info Row** comment action firing a haptic or opening comments when its touch becomes a scroll gesture (#739: @icpryde)\r\n\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.5.0/Apollo-Reborn-3.5.0-GLASS-NOEXTENSIONS.ipa",
                     "size": 107697823
+                },
+                {
+                    "version": "1.15.11_3.5.1",
+                    "date": "2026-08-08T01:15:30Z",
+                    "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.5.1](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.5.1).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n### Features\n\n- Add **Swipe Through Feed Galleries** for paging through every image directly in a feed card, with smarter sizing and seamless fullscreen transitions, plus **Swipe Up for Comments** to open the real comments screen over fullscreen media (#805: @jordanearle)\n- Expand **multireddits** with Gallery View, in-app renaming and descriptions, custom icons, and an option to hide their descriptions in the Subreddits list (#799, #837: @icpryde)\n- Add approximate **vote breakdowns** for posts and author-only insights for your own comments (#802: @jordanearle)\n- Replace **Scroll Edge Effect** with a clearer **Header Style** picker and add a progressive Blur option alongside the iOS 26 Soft and iOS 27 Hard styles (#843: @jordanearle)\n- Add private, local-only **Crash Reports** that stay on your device unless you review and explicitly attach a sanitized report to the bug form (#824: @jordanearle)\n- Add an opt-in **Apple Translate** sheet for Apollo's post and comment Translate action on supported iOS versions (#812: @DeltAndy123)\n- Add full-screen **View Banner** and **View Icon** actions to subreddit headers, with tap-and-hold access to customization options (#845: @icpryde)\n- Improve the **Search** tab with pull-to-refresh for subreddit discovery, reliable trending limits, and a separate Random NSFW Subreddit row (#788: @JeffreyCA)\n- Improve cloud **AI Summaries** with searchable Gemini and OpenRouter model browsers, working defaults, provider attribution, and clearer service errors (#778: @jordanearle)\n- Improve **Settings** discoverability with a reddit.com Web Sign-In row under Accounts & API Keys and a Theme Manager shortcut on the Apollo Reborn hub (#855: @jordanearle)\n- Add gaze and pointer hover effects plus multiwindow support when Apollo runs on **Apple Vision Pro** (#759: @rebelancap)\n- Add Original Apollo, Halo, Aloppo, and Pixels **Liquid Glass app icons**, while refreshing the Apollo Classic, Helios, and Jryng artwork for iOS 27 (#784, #800, #804, #819, #842: @IllIIllIllIllII)\n- Make **Open Reddit Links in Apollo** more reliable by moving recommended automatic Safari routing into Link Companion and retaining manual and legacy fallback extensions (#786: @jordanearle)\n\n### Fixes\n\n- Improve networking and media reliability by removing avoidable stalls, bounding caches and concurrent downloads, preserving animated album media when saving or sharing, and making uploads and share-link resolution more resilient (#728: @ryannair05)\n- Fix newly posted or edited **comments** appearing blank or incomplete until the thread is reopened, including missing usernames, flair, scores, and timestamps (#808: @icpryde)\n- Fix major **crash and memory** regressions affecting video-heavy threads, translated or recovered comments, native video comments, and profile-tab long presses (#796, #823, #829, #844: @icpryde, @jordanearle)\n- Fix **Gallery and media** issues including silent hosted videos, ignored NSFW blur preferences, iOS 27 menu crashes, frozen search-result videos, and blank or permanently compact link previews (#767, #769, #781, #789, #807: @jordanearle, @JeffreyCA, @icpryde)\n- Fix **profiles, subreddit headers, and themes** flickering or laying out incorrectly, including unreadable context menus and duration pills, indistinct read posts, uneven row highlights, misaligned profile cards, stuck refresh offsets, and Pixel Pals drifting behind the Dynamic Island (#846, #848, #849, #853: @icpryde, @jordanearle)\n- Fix **posting, translation, and moderation** regressions including long composer titles, an unsafe Text editor Post button, untranslated media-post bodies, poll flair, search state, long translated titles, and incorrect moderator-row routing (#780, #793, #795, #835: @jordanearle, @icpryde)\n- Fix lists becoming stuck beneath the tab bar on **iOS 27** or hiding their final rows on standard builds, while smoothing legacy hide-bars transitions (#821: @jordanearle)\n- Prevent account recovery and Settings Backup from triggering repeated **keychain passcode prompts** (#777: @jordanearle)\n\n",
+                    "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.5.1/Apollo-Reborn-3.5.1-GLASS-NOEXTENSIONS.ipa",
+                    "size": 109628657
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Dopamine",
+            "bundleIdentifier": "com.opa334.Dopamine",
+            "marketplaceID": "",
+            "developerName": "opa334",
+            "subtitle": "Dopamine is a semi-untethered jailbreak for iOS 15 and 16",
+            "localizedDescription": "A rootless semi-untethered jailbreak for iOS 15.0 - 16.5.1 (arm64e) and iOS 15.0 - 16.6.1 (arm64). More details will follow here soon.",
+            "iconURL": "https://raw.githubusercontent.com/opa334/Dopamine/refs/heads/2.x/Application/Dopamine/Assets.xcassets/AppIcon.appiconset/Icon-76%402x.png",
+            "tintColor": "#457f18",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.4.7",
+                    "date": "2026-01-09T11:11:43Z",
+                    "localizedDescription": "- Fix an issue where the jailbreaking process would get stuck on \"Patchfinding\" on some device / version combinations (seemingly affected early iOS 15 arm64 devices the most) [2.4.6 regression]\r\n- Fix issues with custom boot logos not getting set / not persisting correctly\r\n- Fix an issue where selecting a picture taken with a camera as the custom boot logo would cause it to have the wrong orientation in some cases",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.7/Dopamine.ipa",
+                    "size": 53694474,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4.6",
+                    "date": "2026-01-04T11:58:03Z",
+                    "localizedDescription": "- Add the ability to have the device display a boot logo during userspace reboots (By default the background of the selected theme will be used, additionally there is an option to select a custom one)\r\n- Fix the issue that previously broke iOS 15 arm64 support when compiling libjailbreak with compiler optimizations, enable compiler optimizations for libjailbreak again\r\n- Fix a page table alignment bug in `pmap_map_in` that would never be triggered in practice unless a developer called it themselves with addresses not aligned to L2 boundaries\r\n- Several optimizations have been made to make rejailbreaking / userspace rebooting slightly faster\r\n\r\nThanks to @TheRealClarity for looking into some issues with boot logos on landscape iPads.",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.6/Dopamine.ipa",
+                    "size": 53694012,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4.5",
+                    "date": "2025-04-19T20:56:35Z",
+                    "localizedDescription": "- Revert compiler optimizations for libjailbreak since this broke 15.x arm64 support [2.4.4 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.5/Dopamine.ipa",
+                    "size": 53241819,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4.4",
+                    "date": "2025-04-19T14:54:32Z",
+                    "localizedDescription": "- Improve fix from 2.4.3 to also work in processes for which tweak injection has been disabled\r\n- Fix in-app respring button not working when jailbreak is hidden\r\n- Improve error message that appears when libgrabkernel2 does not work\r\n- Add password authentication for when changing mobile password (Contributed by @khcrysalis)\r\n- Add compiler optimizations to some jailbreak components\r\n- Update ChOma and XPF",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.4/Dopamine.ipa",
+                    "size": 53228002,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4.3",
+                    "date": "2025-03-15T22:08:52Z",
+                    "localizedDescription": "- Fix an issue where calling dlopen in a fork child would fail (on iOS 15) or crash the process (on iOS 16) (Fixes `perl` crashing when running `apt-file search <query>` on iOS 16) [2.4 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.3/Dopamine.ipa",
+                    "size": 53237456,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4.2",
+                    "date": "2025-03-09T20:42:14Z",
+                    "localizedDescription": "- Extend library validation bypass to also work when something manually invokes fcntl in the dyld_shared_cache\r\n- Remove stray macho magics from patched dyld, works around issues where third party software (e.g. Frida) would mistake the wrong page to be the start of dyld, causing it to fail in unpredictable ways (Regarding Frida, there is still an issue where it conflicts with the spinlock panic fix, but I don't think there is anything I can do on Dopamines end to fix it, the issue is being tracked [here](https://github.com/frida/frida-core/issues/1137)) (Credits to @tihmstar for helping with debugging)\r\n- Update bootstrap tarball (Better late than never?)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.2/Dopamine.ipa",
+                    "size": 53236821,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4.1",
+                    "date": "2025-02-16T19:18:08Z",
+                    "localizedDescription": "- Fix support for iOS 16.0.x [2.4 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.1/Dopamine.ipa",
+                    "size": 50005508,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4",
+                    "date": "2025-02-16T15:04:51Z",
+                    "localizedDescription": "NOTE: Doing an OTA update to this version will reboot your device, requiring a rejailbreak afterwards, this is expected and unavoidable, because Dopamine <=2.3 has a bind mount that cannot possibly be unmounted without panicing the device.\r\n\r\n- Add a workaround for spinlock panics on iOS 15 arm64e that fully prevents them in all cases (except one, see below*)\r\n- Make \"Hide Jailbreak\" fully hide the jailbreak, to the point where it should be undetectable (see notes below)\r\n- Apply sandbox patches before linking, fixes issues when a process directly links against a library inside /var/jb\r\n- Improve and optimize library validation bypass\r\n- Slightly improve forkfix\r\n- Fix/reenable tweak injection into WebContent on iOS 16\r\n- Fix a rare system deadlock during \"Initializing Jailbreak\"\r\n\r\n**CAVEATS WITH \"HIDE JAILBREAK\":**\r\n- Once you have hidden the jailbreak once since the last userspace reboot, spinlock panics can happen again* if your device is affected by them (iOS 15 arm64e), this is because the spinlock workaround relies on a dyld hook, which has to be disabled to properly hide the jailbreak, there is not much that can be done about this, the only idea I had did not work when I tested it\r\n- When hiding the jailbreak, a few processes, such as apps where tweak injection has been disabled via Choicy, will crash, I was trying to fully fix this by deprecating the /usr/lib bind mount in favor of a namecache based solution, but that caused weird panics on iOS 16 (the code for this has been pushed to the `nofakelib` branch), so unless a fix for those can be found, there is nothing I can do about this\r\n\r\n**POTENTIAL CAVEATS WITH JAILBREAK DETECTION:**\r\n- Since Dopamine 2.4 has introduced a dyld hook and also redirects dyld to a different folder via symlink now, it might be slightly more detectable, even while tweak injection for an app is disabled, there is not much that can be done about this, but as explained in the change log, the \"Hide Jailbreak\" option now works better as a result of these changes",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4/Dopamine.ipa",
+                    "size": 50005102,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.2.2",
+                    "date": "2024-08-10T17:11:38Z",
+                    "localizedDescription": "- Stop redirecting all `execve` calls to `posix_spawn`, fixes issues with certain sandbox profiles (e.g. `configd`) that block `posix_spawn` but allow `execve`, fixes WPA2/3 ENTERPRISE networks not working (these issues started in 2.2 but were not a regression, in earlier versions the exec call was not hooked properly which is why this wasn't noticed before)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2.2/Dopamine.ipa",
+                    "size": 49694581,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.2.1",
+                    "date": "2024-07-30T22:00:36Z",
+                    "localizedDescription": "- Bump default jetsam multiplier back to 3x because apparently people don't read changelogs and that's why we can't have nice things (Most people should still be using 2x, but that's on their own to figure out now...)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2.1/Dopamine.ipa",
+                    "size": 49692070,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.2",
+                    "date": "2024-07-28T11:07:03Z",
+                    "localizedDescription": "- Remove `DYLD_INTERPOSE` in favor of other hooking techniques, since `DYLD_INTERPOSE` was apparently causing memory usage to be much higher than what it should be\r\n- The jetsam multiplier can now be configured inside the Dopamine app, in previous Dopamine versions this was 3x everywhere with no option to configure it, due to the removal of the `DYLD_INTERPOSE`, the default setting has been able to be lowered to 2x\r\n- `NSTask` is now supported everywhere by default, unlike before where it was only supported inside tweak dylibs or when you called `dopamine_fix_NSTask` yourself\r\n- Due to the better hooking techniques, a lot of unnecessary code has been able to be removed\r\n- Fix kcall on iOS 15 arm64 not working from libkrw and iDownload\r\n- Fix `frida-ps -U` panicing the device (To be honest, I have no clue what change actually fixed this, the only thing I know is that it happens in older Dopamine versions and doesn't happen in 2.2 anymore)\r\n- Improve launchd crash reporter in various different ways\r\n- Code cleanup",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.2/Dopamine.ipa",
+                    "size": 49691621,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1.7",
+                    "date": "2024-06-12T21:20:47Z",
+                    "localizedDescription": "- Remove `libkrw0` dependency of libkrw plug-in, should fix rejailbreaking when `libkrw0` has been uninstalled\r\n- Improve verbose logging, also log `stderr` to it\r\n",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.7/Dopamine.ipa",
+                    "size": 49687727,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1.6",
+                    "date": "2024-06-12T15:38:03Z",
+                    "localizedDescription": "- Fix jailbreaking with developer mode disabled not working on iOS 16.0 - 16.3.1 arm64\r\n- Fix weightBufs not working on some device / version combinations\r\n- Fix libkrw physrw not working when kcall is not available\r\n- Improve libkrw packaging and error handling\r\n- Skip installing a bundled package if a newer version is installed already\r\n- When an update is available while unjailbroken, it will now be opened directly in TrollStore if it's URL scheme is enabled",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.6/Dopamine.ipa",
+                    "size": 49687245,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1.5",
+                    "date": "2024-05-27T14:45:03Z",
+                    "localizedDescription": "- Allow binaries to get custom pmap_cs trust level via the `jb.pmap_cs_custom_trust` entitlement, possible values: {`\"PMAP_CS_PROFILE_PREFLIGHT\"`, `\"PMAP_CS_COMPILATION_SERVICE\"`, `\"PMAP_CS_OOP_JIT\"` (iOS 16 only), `\"PMAP_CS_LOCAL_SIGNING\"`, `\"PMAP_CS_PROFILE_VALIDATED\"`, `\"PMAP_CS_APP_STORE\"`, `\"PMAP_CS_IN_LOADED_TRUST_CACHE\"`, `\"PMAP_CS_IN_STATIC_TRUST_CACHE\"`}, a lower trust level allows the process to be less restricted by PMAP_CS, this in practice fixes the EQE app and it's Lua recompiler not to work (but only if it has the entitlement, so make sure you use the newest EQE build)\r\n- Fix `posix_spawnattr_setarchpref_np` not being supported by the codesign bypass (#573)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.5/Dopamine.ipa",
+                    "size": 49680775,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1.4",
+                    "date": "2024-05-07T12:20:05Z",
+                    "localizedDescription": "- Only automatically fix up permissions of relevant directories inside `/var/jb/var/mobile`, rather than the entirety of it\r\n- Skip permission fix up if either `/var/jb/var` or `/var/jb/var/mobile` is a symbolic link, previously there was a bootloop risk when either of them point to the real `/var` or `/var/mobile`",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.4/Dopamine.ipa",
+                    "size": 49675799,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1.2",
+                    "date": "2024-05-02T17:29:03Z",
+                    "localizedDescription": "- Fix app switcher not displaying preview images of jailbreak apps in some cases [2.1 regression]\r\n- Sandbox: Allow writing to /var/jb/var/mobile system wide\r\n",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.2/Dopamine.ipa",
+                    "size": 49671105,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1.1",
+                    "date": "2024-04-30T23:50:56Z",
+                    "localizedDescription": "- Fix codesigning bypass failing on binaries/libraries that have an armv7s slice (Fixes Designer not working) [2.1 regression]\r\n- Fix sharing files to jailbreak apps not working in some instances [2.1 regression]\r\n- Fix string corruption in sandbox bypass, the fact I never noticed this before means it probably wasn't that bad of an issue (don't use strcat on uninitialized stack buffers!)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1.1/Dopamine.ipa",
+                    "size": 49670197,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.1",
+                    "date": "2024-04-30T17:15:02Z",
+                    "localizedDescription": "- Add support for A8(X) devices\r\n- Fix Dopamine app instantly crashing when installed using TrollStore on A8 devices\r\n- Add kcall implementation on arm64 iOS 15.x (this was needed for A8 support)\r\n- Use kcall for allocating page tables when available\r\n- Improve performance of some parts of the jailbreaking process by ~1000x (because A8 was getting stuck in them for multiple minutes.....)\r\n- Fix support for some obscure device / version combinations (e.g. A9 15.0.1, early 15.0 betas, etc...)\r\n- Add `weightBufs` and `multicast_bytecopy` as Kernel exploit options\r\n- Protect system files in preboot partition so users cannot delete them and cause the device to recovery loop\r\n- Add \"Allow JIT in Apps\" toggle, enabled by default, when enabled this will add `CS_DEBUGGED` to apps (Note: This has no effect on apps that have tweak injection disabled via Choicy)\r\n- Fix `/var/mobile/Library/Application Support/Containers/`, `/var/mobile/Library/SplashBoard/Snapshots/` getting polluted with some jailbreak files\r\n- Fix jailbreak apps disappearing after the system (or TrollStore) reloads the icon cache\r\n- Add back \"Change mobile password\" option in Dopamine settings\r\n- Revamp jbctl trustcache management, new commands: `jbctl trustcache info`, `jbctl trustcache clear`, `jbctl trustcache add`\r\n- Switch to libgrabkernel2 (@alfiecg24, @dhinakg), removes the requirement for Dopamine to be installed by TrollStore on beta versions\r\n- Fix smith not working on iOS 15\r\n- Order exploits by recommendation score, add \"(Recommended)\" to the best one\r\n\r\n\r\n30-04-2024 21:13 UTC: Build was reuploaded to fix issues with OTA updates on 15.x arm64, people who have already updated do not need it, so I decided to not make it a new update\r\n",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.1/Dopamine.ipa",
+                    "size": 49669210,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.11",
+                    "date": "2024-03-10T23:14:28Z",
+                    "localizedDescription": "- **Actually** fix relevant file path permissions when rejailbreaking (previously the method for this existed but was never called, sigh...), this should now actually automatically fix issues such as NewTerm / SSH not working",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.11/Dopamine.ipa",
+                    "size": 49682668,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.10",
+                    "date": "2024-03-08T02:45:47Z",
+                    "localizedDescription": "- Fix jailbreaking not working when developer mode was disabled (Developer mode will now be automatically enabled in a non persistent way for the current boot)\r\n- Fix NECP connections failing after some time on arm64 (Apple Watch, VPN...)\r\n- Fix `terminusd` crashes on arm64, reenable injection into it and `nesessionmanager`\r\n- Automatically fix wrong permissions for `/private` and `/private/preboot` when jailbreaking\r\n- Fix app icons disappearing or no longer opening on OTA updates (Will only be fixed for future updates, not for the one to 2.0.10, also requires TrollStore 2.0.13)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.10/Dopamine.ipa",
+                    "size": 49682303,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.0.9",
+                    "date": "2024-02-29T13:19:28Z",
+                    "localizedDescription": "- Fix a super bad security issue where app store apps would be allowed to obtain full system captabilities (root + phys r/w) that were otherwise only intended to be accessible by root processes, as a result of this Dopamine 2.0.0 - 2.0.8 have been pulled and are no longer recommended to be used by anyone\r\n- Fix an issue where the arm64 related fixes of 2.0.7 and 2.0.8 were only working when ellekit was installed and tweak injection was enabled\r\n- Disable injection into terminusd and nesessionmanager on arm64 in an attempt to resolve issues with crash loops and VPN apps still not working for some users\r\n- Immediately allow invalid pages on all processes that are spawned via `POSIX_SPAWN_START_SUSPENDED`, this fixes an issue where several Frida features would not work correctly\r\n- Actually fix support for early iOS 15.0 betas (2.0.8 changelog lied)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.0.9/Dopamine.ipa",
+                    "size": 49675263,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.4.8",
+                    "date": "2026-03-14T14:12:27Z",
+                    "localizedDescription": "- Reflect that landa got patched in 15.8.7 (RIP) (Thanks @TheMasterOfMike for the PR)\r\n- Fix support for early iOS 16.1 betas\r\n- Minor fixes / improvements to forkfix",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.8/Dopamine.ipa",
+                    "size": 53695473
+                },
+                {
+                    "version": "2.4.9",
+                    "date": "2026-04-25T16:20:49Z",
+                    "localizedDescription": "- Fix a logic bug in forkfix [2.4.8 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/2.4.9/Dopamine.ipa",
+                    "size": 53702230
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-08-07T23:20:15Z",
+                    "localizedDescription": "- Fix Titan not working on ARM_LARGE_MEMORY kernels (Mainly M1/M2 iPads)\r\n- Fix XPF being broken on some iOS 15.x versions\r\n- Fix kfd exploits being broken on iOS 16.x\r\n- Fix ClearSword / DarkSword showing up as supported even on devices that do not support them\r\n- In DarkSword / ClearSword workaround message, add notice about A8 possibly requiring multiple attempts\r\n\r\n(All of the issues fixed were regressions from 3.0)",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.1/Dopamine.ipa",
+                    "size": 56502838
+                },
+                {
+                    "version": "3.0",
+                    "date": "2026-08-07T18:51:04Z",
+                    "localizedDescription": "- Add Titan PPL/SPTM bypass by @alfiecg24, introduces support for all devices running 16.5.1 - 17.3.1\r\n- Add momentarius PPL bypass by @staturnzz and @TheRealClarity, introduces support for A12/A13 devices running 16.6 - 18.7.1, 26.0 - 26.0.1\r\n- Add support for SPTM devices up to 27.0 betas in general, can be tested on Corellium devices using the install script at Standalone/Corellium, obviously only works up to 17.3.1 on real devices due to lack of an SPTM bypass on >=17.4\r\n- Add ClearSword exploit by @TheRealClarity, cleaner alternative to DarkSword that seems to have better reliability\r\n- Add workaround for DarkSword/ClearSword not working on A8 iPads, iPad 5, iPad 6 and iPad Pro 9.7\" contributed by @sk8ingDuck, involves a respring through a respring method contributed by @wh1te4ever\r\n- Fix various issues with the Dopamine app from the 2.5 Betas, such as settings not saving\r\n- Fix various issues with installing apps via TrollStore Lite on iOS 17.4+\r\n- More secure method of detecting the Dopamine app that jailbroke the device by saving it's id when intially jailbreaking and later comparing against it, should also solve issues when a signing tool renames the .app bundle\r\n\r\nNOTES:\r\n- The DarkSword/ClearSword respring workaround may need to be done multiple times on A8\r\n- A jbupdate from an earlier versions will trigger a full reboot by design",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0/Dopamine.ipa",
+                    "size": 56499923
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "DLiPA",
+            "bundleIdentifier": "com.ahmedbafkir.dlipa",
+            "marketplaceID": "",
+            "developerName": "AhmedBafkir",
+            "subtitle": "An iOS app inspired by the ipatool project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions \u2014 no jailbreak required.",
+            "localizedDescription": "Features\n- Select an available storefronts.\n- Search for applications with name, Bundle-id, link.\n- Ability to copy such as Bundle-id, application-id, link.\n- Multiple account support.\n- Purchase only free apps.\n- Download apps as an ipa file.\n- Download apps with older versions.\n- Each account has separate downloads.\n- Share apps as an ipa file.\n- Install apps on device.\n- Supports for non jailbroken devices.\n\n> \u26a0\ufe0f Note: Installing apps directly from within the app may cause issues such as missing automatic updates.  \nFor best results, use AirDrop to install them by sharing from another device.\n\nRequirements:\n1. A computer running macOS or Windows\n2. Internet connection\n3. Apple ID (email & password)\n4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)",
+            "iconURL": "https://raw.githubusercontent.com/AhmedBafkir/DLiPA/refs/heads/main/images/icon.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.1",
+                    "date": "2025-11-16T17:59:20Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed an issue where the app would crash when downloading very large apps (1 GB or more).\r\n- Resolved interface freezing during processing operations.\r\n- Added a progress bar showing the processing time.\r\n- The minimum OS version for each downloaded app is displayed.\r\n- Fixed other general issues.\r\n- Added support for iOS 26.\r\n\r\n",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.1/DLiPA_v1.1.ipa",
+                    "size": 480115,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-06-07T17:24:30Z",
+                    "localizedDescription": "Initial Release.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/1.0.0/DLiPA_v1.0.0.ipa",
+                    "size": 480247,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2",
+                    "date": "2026-02-22T21:04:04Z",
+                    "localizedDescription": "### What's Changed\r\n\r\n- Fixed login issue.\r\n- Fixed other general issues.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.2/DLiPA_v1.2.ipa",
+                    "size": 471971
+                },
+                {
+                    "version": "1.3",
+                    "date": "2026-06-17T01:22:52Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n### New Feature\r\n- Ability to download a specific version of any app using the Version ID.\r\n- Access your last 15 searches instantly just by tapping the search bar for quick navigation.\r\n\r\n### Fixes\r\n- Resolved the login issue.\r\n- Resolved the \"An unknown error occurred\" issue when downloading certain popular apps, including Google and Microsoft apps and others.\r\n- Fixed an issue that caused the app to crash when searching after setting a search limit.\r\n- Fixed a bug where downloaded data was not automatically deleted when selecting \"Delete account with files\".\r\n\r\n### Improvements\r\n- Other minor fixes.",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.3/DLiPA_v1.3.ipa",
+                    "size": 479107
+                },
+                {
+                    "version": "1.4",
+                    "date": "2026-08-03T08:46:29Z",
+                    "localizedDescription": "## What's Changed \r\n\r\n- Fixed authentication issues\r\n- Multi-language support (AI translations):\r\n  - Chinese, Simplified\r\n  - French\r\n  - German\r\n  - Hindi\r\n  - Indonesian\r\n  - Italian\r\n  - Japanese\r\n  - Korean\r\n  - Russian\r\n  - Spanish\r\n  - Turkish\r\n  - Vietnamese\r\n\r\n## Support the app \u2661\r\nIf you find this project useful, I would be very grateful for your support in its continuation and development.\r\n\r\n[![Support DLiPA](https://img.shields.io/badge/PayPal-Support_DLiPA-blue?logo=paypal)](https://www.paypal.com/ncp/payment/RLKKWBYSKSPVU)",
+                    "downloadURL": "https://github.com/AhmedBafkir/DLiPA/releases/download/v1.4/DLiPA_v1.4.ipa",
+                    "size": 534245
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "StikDebug",
+            "bundleIdentifier": "com.stik.stikdebug",
+            "marketplaceID": "",
+            "developerName": "StephenDev0",
+            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
+            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [
+                "https://stikdebug.xyz/assets/source/home.png",
+                "https://stikdebug.xyz/assets/source/scripts.png",
+                "https://stikdebug.xyz/assets/source/settings.png"
+            ],
+            "versions": [
+                {
+                    "version": "2.3.7",
+                    "date": "2026-01-09T19:27:57Z",
+                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
+                    "size": 12048589,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.6",
+                    "date": "2025-12-18T02:30:53Z",
+                    "localizedDescription": "This release works with LocalDevVPN",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
+                    "size": 11996559,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2026-02-25T21:26:35Z",
+                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+                    "size": 10456365
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-03-08T18:56:53Z",
+                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
+                    "size": 10461243
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2026-03-30T17:53:28Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
+                    "size": 10889554
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2026-04-04T03:30:18Z",
+                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
+                    "size": 10973374
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2026-04-12T06:41:17Z",
+                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
+                    "size": 10974298
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2026-05-18T14:50:17Z",
+                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
+                    "size": 11125407
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2026-06-01T01:12:08Z",
+                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
+                    "size": 11028217
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2026-06-01T11:32:37Z",
+                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
+                    "size": 11027579
+                },
+                {
+                    "version": "3.1.6",
+                    "date": "2026-06-17T04:07:42Z",
+                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
+                    "size": 11028710
+                },
+                {
+                    "version": "3.1.7",
+                    "date": "2026-07-26T00:25:37Z",
+                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
+                    "size": 12815045
+                },
+                {
+                    "version": "3.1.8",
+                    "date": "2026-07-31T15:01:19Z",
+                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
+                    "size": 12818500
+                },
+                {
+                    "version": "3.1.9",
+                    "date": "2026-08-01T20:09:58Z",
+                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+                    "size": 12822956
                 }
             ],
             "appPermissions": {
