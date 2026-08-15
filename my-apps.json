@@ -265,6 +265,13 @@
                     "localizedDescription": "- Fix support for iOS 18.2 to 18.(?) [3.0.2 regression]",
                     "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.3/Dopamine.ipa",
                     "size": 55400013
+                },
+                {
+                    "version": "3.0.6",
+                    "date": "2026-08-14T17:57:43Z",
+                    "localizedDescription": "- Fix \"Finalizing Bootstrap\" sometimes failing with \"code signature invalid\" error when jailbreaking a device for the first time [3.0.5 regression]",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.6/Dopamine.ipa",
+                    "size": 55407373
                 }
             ],
             "appPermissions": {
