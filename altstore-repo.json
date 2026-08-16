@@ -272,6 +272,13 @@
                     "localizedDescription": "- Fix \"Finalizing Bootstrap\" sometimes failing with \"code signature invalid\" error when jailbreaking a device for the first time [3.0.5 regression]",
                     "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.6/Dopamine.ipa",
                     "size": 55407373
+                },
+                {
+                    "version": "3.0.7",
+                    "date": "2026-08-15T03:38:22Z",
+                    "localizedDescription": "- Fix an OOB kernel write during the jbupdate process that could cause a panic and in some cases leave the file `/var/jb/basebin/gen/dyld.old` in a corrupted state where it cannot be deleted anymore (Technically not a 3.0 regression, just 3.0 made the allocation smaller which is why the issue is only noticeable since 3.0)\r\n- During rejailbreak, `/var/jb/basebin/gen/dyld.old` corruption is now automatically detected and if found, the issue is automatically solved by moving the corrupted file to `/private/preboot/<UUID>/orphaned-<UUID>`, which will allow rejailbreaking to work again",
+                    "downloadURL": "https://github.com/opa334/Dopamine/releases/download/3.0.7/Dopamine.ipa",
+                    "size": 55409953
                 }
             ],
             "appPermissions": {
