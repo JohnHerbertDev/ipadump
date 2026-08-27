@@ -10,6 +10,378 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "StikDebug",
+            "bundleIdentifier": "com.stik.stikdebug",
+            "marketplaceID": "",
+            "developerName": "StephenDev0",
+            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
+            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [
+                "https://stikdebug.xyz/assets/source/home.png",
+                "https://stikdebug.xyz/assets/source/scripts.png",
+                "https://stikdebug.xyz/assets/source/settings.png"
+            ],
+            "versions": [
+                {
+                    "version": "2.3.7",
+                    "date": "2026-01-09T19:27:57Z",
+                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
+                    "size": 12048589,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.6",
+                    "date": "2025-12-18T02:30:53Z",
+                    "localizedDescription": "This release works with LocalDevVPN",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
+                    "size": 11996559,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2026-02-25T21:26:35Z",
+                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+                    "size": 10456365
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-03-08T18:56:53Z",
+                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
+                    "size": 10461243
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2026-03-30T17:53:28Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
+                    "size": 10889554
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2026-04-04T03:30:18Z",
+                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
+                    "size": 10973374
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2026-04-12T06:41:17Z",
+                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
+                    "size": 10974298
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2026-05-18T14:50:17Z",
+                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
+                    "size": 11125407
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2026-06-01T01:12:08Z",
+                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
+                    "size": 11028217
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2026-06-01T11:32:37Z",
+                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
+                    "size": 11027579
+                },
+                {
+                    "version": "3.1.6",
+                    "date": "2026-06-17T04:07:42Z",
+                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
+                    "size": 11028710
+                },
+                {
+                    "version": "3.1.7",
+                    "date": "2026-07-26T00:25:37Z",
+                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
+                    "size": 12815045
+                },
+                {
+                    "version": "3.1.8",
+                    "date": "2026-07-31T15:01:19Z",
+                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
+                    "size": 12818500
+                },
+                {
+                    "version": "3.1.9",
+                    "date": "2026-08-01T20:09:58Z",
+                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+                    "size": 12822956
+                },
+                {
+                    "version": "3.1.10",
+                    "date": "2026-08-27T04:07:04Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.9...3.1.10",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
+                    "size": 12824047
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "NuvioStreaming",
+            "bundleIdentifier": "com.nuvio.app",
+            "marketplaceID": "",
+            "developerName": "tapframe",
+            "subtitle": "Streaming app for movies and TV shows",
+            "localizedDescription": "Nuvio is a comprehensive streaming application that provides access to a vast library of movies and TV shows.\nNuvio Media Hub is a cross\u2011platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
+            "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
+            "tintColor": "#04dcfc",
+            "category": "entertainment",
+            "screenshots": [
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/seasonandepisode-portrait.png?raw=tru",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png?raw=true",
+                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png?raw=true"
+            ],
+            "versions": [
+                {
+                    "version": "1.3.5",
+                    "date": "2026-01-11T18:43:44Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### ExoPlayer Subtitle Fixes\r\nThis update mainly focuses on fixing multiple subtitle-related issues in ExoPlayer:\r\n- Fixed issue where **only the first subtitle index** was being rendered  \r\n- Fixed subtitles **always showing background** due to Android native caption settings  \r\n- Fixed subtitles being **rendered inside the player view**  \r\n- Fixed **subtitle bottom offset** issues  \r\n- Merged PR **#391** by **@saifshaikh1805**  \r\n  - Fixes issue **#301**\r\n\r\n### KSPlayer Improvements\r\n- Improved **subtitle behavior** in KSPlayer  \r\n- Merged PR **#394** by **@AdityasahuX07**\r\n\r\n### Settings & Persistence\r\n- Implemented **save and load** functionality for **Discover settings**\r\n\r\nThis release improves subtitle rendering accuracy across players and adds better persistence for user preferences.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.5/Stable_1-3-5.ipa",
+                    "size": 38669923,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.4",
+                    "date": "2026-01-06T14:15:08Z",
+                    "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - \u26a0\ufe0f **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
+                    "size": 39686624,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.3",
+                    "date": "2025-12-31T22:32:21Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - \u26a0\ufe0f It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
+                    "size": 36122947,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.2",
+                    "date": "2025-12-27T22:16:36Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Added back **ExoPlayer as the primary player** for better **Dolby Vision (DV)** and **HDR** handling  \r\n  - Automatic fallback to **MPV Player** when required  \r\n- Users can now choose between **Auto** or **MPV** player modes  \r\n- Added **Auto / HW / HW+SW** decoding options for MPV  \r\n  - **Auto is recommended**  \r\n- Added **Video Output Renderer** option  \r\n  - GPU  \r\n  - GPU-next  \r\n\r\n### New Features\r\n- Added **Skip Intro** feature powered by **IntroDB**  \r\n- Added support for **Internal Subtitle customization** for both **MPV** and **ExoPlayer**  \r\n  - ExoPlayer customization is currently limited  \r\n\r\n### Stability & Fixes\r\n- Improved **StreamScreen error handling** to prevent crashes  \r\n- Minor bug fixes and internal improvements  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.2/Stable_1-3-2.ipa",
+                    "size": 35884924,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.0",
+                    "date": "2025-12-24T14:21:50Z",
+                    "localizedDescription": "# \u26a0\ufe0f Important Notice Before Updating to v1.3.0  \r\n\r\nBefore updating, please read this carefully.\r\n\r\nEspecially for **Android users**, this update is **not mandatory**.  \r\nWe have **completely migrated the internal player** from **ExoPlayer + VLC** to **MPV Player**.  \r\nBecause this is a major internal change, **unexpected bugs may occur**.\r\n\r\nThis update is **recommended only for users who are willing to test and provide feedback**.  \r\nYour feedback is important to help complete this migration and make it bug-free.\r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.3.0  \r\n\r\n## Android\r\n- Replaced internal player with **MPV Player** for better codec support  \r\n- Added toggles for **Software (SW) / Hardware (HW) decoding**  \r\n\r\n## Global\r\n- Dependency updates  \r\n- Minor bug fixes  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.0/Stable_1-3-0.ipa",
+                    "size": 35835616,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.11",
+                    "date": "2025-12-14T21:41:31Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
+                    "size": 36074020,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.10",
+                    "date": "2025-11-25T18:12:44Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week\u2019s section** card UI for a cleaner look  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
+                    "size": 54201010,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.9",
+                    "date": "2025-11-16T16:31:11Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
+                    "size": 54170603,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.8",
+                    "date": "2025-11-09T16:11:34Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
+                    "size": 54120130,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.7",
+                    "date": "2025-10-26T09:13:08Z",
+                    "localizedDescription": "# \u26a0\ufe0f Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings \u2192 Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > \u26a0\ufe0f This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you\u2019ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
+                    "size": 49189840,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.6",
+                    "date": "2025-10-21T11:23:31Z",
+                    "localizedDescription": "# Version 1.2.6 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge \u2013 Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
+                    "size": 48961527,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.5",
+                    "date": "2025-10-15T17:58:07Z",
+                    "localizedDescription": "# Version 1.2.5 \u2013 Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
+                    "size": 46750250,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.4",
+                    "date": "2025-10-11T21:39:45Z",
+                    "localizedDescription": "# Version 1.2.4 \u2013 Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
+                    "size": 44690634,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.3",
+                    "date": "2025-10-04T18:50:35Z",
+                    "localizedDescription": "# Version 1.2.3 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** \u2013 contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from \u201cH and MIN\u201d to \u201cH and M\u201d  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
+                    "size": 44424662,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.2",
+                    "date": "2025-09-30T12:28:46Z",
+                    "localizedDescription": "# Version 1.2.2 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
+                    "size": 42388702,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.1",
+                    "date": "2025-09-26T17:36:56Z",
+                    "localizedDescription": "# Version 1.2.1 \u2013 Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - \u26a0\ufe0f New users should use the respective **plugin repository link** to set up properly  \r\n\r\n\u26a0\ufe0f **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
+                    "size": 42367478,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.2.0",
+                    "date": "2025-09-22T15:52:55Z",
+                    "localizedDescription": "# Version 1.2.0 \u2013 Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app\u2019s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
+                    "size": 42350147,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1.1",
+                    "date": "2025-09-20T11:27:24Z",
+                    "localizedDescription": "# Version 1.1.1 \u2013 Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
+                    "size": 26625101,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1.0",
+                    "date": "2025-09-18T11:40:28Z",
+                    "localizedDescription": "# Version 1.1.0 \u2013 Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
+                    "size": 26624100,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0.0",
+                    "date": "2025-09-15T17:12:25Z",
+                    "localizedDescription": "# Version 1.0.0 \u2013 Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it\u2019s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n\ud83d\ude4f A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
+                    "size": 30213962,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.3.6",
+                    "date": "2026-01-21T13:51:44Z",
+                    "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Updated **React Native Video** to the latest version  \r\n- Fixed some **TXT-based streams** failing to play in ExoPlayer  \r\n- Fixed **M3U8 streams without file extension** failing to play in ExoPlayer  \r\n- Added more **aspect ratio options** to ExoPlayer for better viewing control  \r\n\r\n### Improvements & Fixes\r\n- Updated several **dependencies**  \r\n- Added an **in-built major app update downloader** (Android)  \r\n- Various **internal fixes and stability improvements**  \r\n\r\nThis update focuses on improving playback compatibility, update handling, and overall stability.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.6/Stable_1-3-6.ipa",
+                    "size": 38423102
+                },
+                {
+                    "version": "1.3.7",
+                    "date": "2026-01-25T11:39:27Z",
+                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.3.7  \r\n\r\n## Update Notes\r\n- **Android hotfix** to reduce ExoPlayer-related crashes  \r\n  - Adjusted **buffer configuration** for better stability  \r\n- Minor app optimizations and internal fixes  \r\n\r\nThis update is recommended for **Android users** experiencing playback crashes.\r\n",
+                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.7/Stable_1-3-7.ipa",
+                    "size": 39793651
+                },
+                {
+                    "version": "1.4.1",
+                    "date": "2026-02-27T19:13:50Z",
+                    "localizedDescription": "## Release Notes\r\n\r\n### Audio & Subtitle Track Info \u2014 @chrisk325\r\n- Added audio codec, channel count, and estimated bitrate info to the track selector\r\n- Improved parsing of audio/subtitle track metadata from the player\r\n- Fixed edge cases with DTS track info, AC3 codecs, and 6.1 channel tracks\r\n- Fixed handling when player does not return language info\r\n- Removed hardcoded track info in favor of dynamic parsing\r\n\r\n### Player & Streaming Fixes \u2014 @chrisk325\r\n- Fixed Kitsu ID duplication that prevented streams from being fetched via Kitsu IDs\r\n- Fixed a crash in the player\r\n\r\n### Performance \u2014 @chrisk325\r\n- Improved app launch time by reducing OTA update checks at startup\r\n\r\n### Addon Configuration\r\n- Removed hardcoded addon config URL guesses\r\n\r\n### UI & Image Improvements \u2014 @chrisk325\r\n- Switched to FastImage for the IMDb logo\r\n\r\n### Asset & Logo Updates \u2014 @milicevicivan\r\n- Updated TMDB logo to higher quality (SVG to PNG)\r\n- Updated Simkl favicon and logo to higher quality versions\r\n- Added Trakt favicon\r\n\r\n### Internationalization (i18n) \u2014 @saimuelbr, @milicevicivan, @albyalex96, @IberianSoldierPC\r\n- Added i18n support for the Nuvio Sync screen \u2014 @saimuelbr\r\n- Updated Italian localization \u2014 @albyalex96\r\n- Improved Spanish translation \u2014 @IberianSoldierPC\r\n- Updated translations for 23 languages (AR, BG, ZH-CN, CS, DE, ES, FIL, FR, HE, HI, IT, MK, NL, PL, PT-BR, PT-PT, RO, RU, SL, SQ, SR, TR) \u2014 @milicevicivan\r\n\r\n---\r\n\r\n### Contributors\r\n- **@chrisk325** \u2014 Audio/subtitle track info, player fixes, performance\r\n- **@milicevicivan** \u2014 Asset updates, translations\r\n- **@saimuelbr** \u2014 i18n sync screen\r\n- **@albyalex96** \u2014 Italian localization\r\n- **@IberianSoldierPC** \u2014 Spanish translation",
+                    "downloadURL": "https://github.com/tapframe/NuvioMobile/releases/download/1.4.1/Stable_1-4-1.ipa",
+                    "size": 37611976
+                },
+                {
+                    "version": "1.4.2",
+                    "date": "2026-03-13T04:38:11Z",
+                    "localizedDescription": "- ## Update Notes\r\n\r\n- Added **MyAnimeList (MAL) integration** with authentication, library sync, rewatch support, and profile dashboard  \r\n- Improved **MAL mapping and sync performance**  \r\n- Updated **authentication logic and UI**  \r\n- Updated **trailer extraction logic**  \r\n- Dependency updates and internal improvements  \r\n\r\n### Contributors\r\n- @paregi12  \r\n- @saimuelbr  \r\n- @vhtuan288",
+                    "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/1.4.2/Stable_1-4-2.ipa",
+                    "size": 38765502
+                },
+                {
+                    "version": "0.4.11",
+                    "date": "2026-08-26T09:40:11Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n- 04ca1226 feat(details): add tappable expandable descriptions @tapframe\r\n- [fix: Simkl anime type classification and landscape poster aspect ratio (#1786)](https://github.com/NuvioMedia/NuvioMobile/pull/1786) @skoruppa\r\n- aa67e069 fix(details): reset episode position when switching seasons @tapframe\r\n- ab57cf1b fix(search): persist discover catalog selection @tapframe\r\n- 560e5a28 fix(ios): correct launch screen configuration @tapframe\r\n- 2c7438d6 fix(player): make subtitle aggregation multiplatform @tapframe\r\n- [Respect corner radius for trailers and episodes (#1784)](https://github.com/NuvioMedia/NuvioMobile/pull/1784) @skoruppa\r\n- [i18n(el): add missing Greek translations (#1783)](https://github.com/NuvioMedia/NuvioMobile/pull/1783) @nosvasedis\r\n- 96fb98c4 fix(catalog): preserve scroll position after details @tapframe\r\n- 191be42a fix: address mobile crash clusters (NUVIO-MOBILE-4 NUVIO-MOBILE-QK NUVIO-MOBILE-FZ) @tapframe\r\n- [Latest strings added to the Bulgarian translation (#1779)](https://github.com/NuvioMedia/NuvioMobile/pull/1779) @viiktr\r\n- [fix: per-episode rating from addon metadata is never parsed (#1776)](https://github.com/NuvioMedia/NuvioMobile/pull/1776) @6ip\r\n- [feat(player): port sidecar addon subtitles, fix selection state, and parallelize fetching (#1705)](https://github.com/NuvioMedia/NuvioMobile/pull/1705) @halibiram\r\n",
+                    "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.11/nuvio-0.4.11-full-release.ipa",
+                    "size": 51638510
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "OSS Weather",
             "bundleIdentifier": "com.akylas.weather",
             "marketplaceID": "",
@@ -7934,131 +8306,6 @@
             "patreon": {}
         },
         {
-            "name": "StikDebug",
-            "bundleIdentifier": "com.stik.stikdebug",
-            "marketplaceID": "",
-            "developerName": "StephenDev0",
-            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
-            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [
-                "https://stikdebug.xyz/assets/source/home.png",
-                "https://stikdebug.xyz/assets/source/scripts.png",
-                "https://stikdebug.xyz/assets/source/settings.png"
-            ],
-            "versions": [
-                {
-                    "version": "2.3.7",
-                    "date": "2026-01-09T19:27:57Z",
-                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
-                    "size": 12048589,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.6",
-                    "date": "2025-12-18T02:30:53Z",
-                    "localizedDescription": "This release works with LocalDevVPN",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
-                    "size": 11996559,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2026-02-25T21:26:35Z",
-                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
-                    "size": 10456365
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-03-08T18:56:53Z",
-                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
-                    "size": 10461243
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2026-03-30T17:53:28Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
-                    "size": 10889554
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2026-04-04T03:30:18Z",
-                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
-                    "size": 10973374
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2026-04-12T06:41:17Z",
-                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
-                    "size": 10974298
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2026-05-18T14:50:17Z",
-                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
-                    "size": 11125407
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2026-06-01T01:12:08Z",
-                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
-                    "size": 11028217
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2026-06-01T11:32:37Z",
-                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
-                    "size": 11027579
-                },
-                {
-                    "version": "3.1.6",
-                    "date": "2026-06-17T04:07:42Z",
-                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
-                    "size": 11028710
-                },
-                {
-                    "version": "3.1.7",
-                    "date": "2026-07-26T00:25:37Z",
-                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
-                    "size": 12815045
-                },
-                {
-                    "version": "3.1.8",
-                    "date": "2026-07-31T15:01:19Z",
-                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
-                    "size": 12818500
-                },
-                {
-                    "version": "3.1.9",
-                    "date": "2026-08-01T20:09:58Z",
-                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
-                    "size": 12822956
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "PancakeStore",
             "bundleIdentifier": "com.jbdotparty.PancakeStore",
             "marketplaceID": "",
@@ -11633,239 +11880,6 @@
                     "localizedDescription": "## What's New in 3.3.0\n\nThis is a big one. Four months of work since 3.2.1 covering iCloud sync, a completely revamped tvOS interface, video filters, and a ton of core and stability fixes.\n\n### \u2601\ufe0f iCloud / CloudKit Sync\n- ROMs, save states, BIOS files, and artwork now sync across devices via iCloud\n- Real-time download progress indicators when loading cloud save states\n- Auto BIOS sync on game load when available in iCloud\n- ROM metadata syncs alongside files\n- Artwork syncs after library updates\n- CloudKit records management tab in Settings\n- iCloud upsell UI for new users with empty libraries\n- Sync queue pauses during emulation and resumes after\n\n### \ud83d\udcfa New tvOS UI (Default)\n- Completely redesigned tvOS interface now enabled by default\n- RetroWave-themed side menu with smooth animations\n- Save states browser accessible from the main UI with artwork and core name\n- \"View All\" saves section with per-system filtering\n- TopShelf v2: recent games and save states with artwork and timestamps\n- Cheats UI in the pause menu\n- Game \"More Info\" panel\n- Log viewer tab\n- Import status view in side menu\n- Search with persistent history\n- Dozens of focus, navigation, and theming fixes throughout\n\n### \ud83c\udfa8 Video Filters & Shaders\n- Unified filter pipeline works across native and RetroArch cores\n- GB and VHS filters improved\n- Filters accessible from the pause menu\n- RetroArch GLES 3D cores now supported (Vecx/GLiden, etc.)\n- Dolphin shader/filter support\n- PPSSPP filter support\n\n### \ud83c\udfae Core & Controller Fixes\n- **RetroArch**: Fixed player index mapping for MFi, PS4, and Xbox controllers; PS4 start/select fixed; 32x controls added; GameCube controller responder added\n- **Mupen64Plus**: Fixed PS4 start button; fixed tvOS scaling and placement; better save error messages\n- **Dolphin**: Fixed Vulkan landscape rendering\n- **GenPluGX**: Added CHD support; added wide-screen GameGear core\n- **PicoDrive**: Fixed crash on unload; fixed 32x controller mapping\n- **FCEUmm**: Fixed start/select button mapping\n- **Mednafen**: Fixed DualShock/DualSense pause/play button mapping\n- **GameBatte / TGDB Dual**: Fixed PSX/Xbox pause/select button mapping\n\n### \ud83d\udc1b Bug Fixes & Stability\n- Fixed multiple app hangs from main-thread Realm access (moved to background)\n- Fixed crash in pause menu when closing core\n- Fixed potential crash if audio ring buffer init fails\n- Fixed crash in share/import extension\n- Fixed aspect ratio issues in Stella and some other cores\n- Fixed FPS label appearing in screenshots\n- Fixed artwork not refreshing in game library after sync\n- Fixed game importer re-queuing already-imported items\n- Fixed Realm contentless core crash\n- Fixed \"Continue\" carousel metadata mismatch\n- Skin selector refreshes orientation previews on rotation change\n- ManicSkin/DeltaSkin files can now be opened directly from Safari\n- iPad import status modal clipped layout fixed\n- DSP audio engine fixes\n\n### \u26a1 Performance\n- Artwork loading significantly faster\n- Game library UI rendering optimizations (removed unnecessary Observable wrappers)\n- Async tab bar icon loading\n- CloudKit sync deduplication and repeat-lookup fixes\n- Game importer skips MD5 hashing for large non-BIOS files\n\n**Full Changelog**: https://github.com/Provenance-Emu/Provenance/compare/3.2.1...3.3.0",
                     "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
                     "size": 1076407494
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "NuvioStreaming",
-            "bundleIdentifier": "com.nuvio.app",
-            "marketplaceID": "",
-            "developerName": "tapframe",
-            "subtitle": "Streaming app for movies and TV shows",
-            "localizedDescription": "Nuvio is a comprehensive streaming application that provides access to a vast library of movies and TV shows.\nNuvio Media Hub is a cross\u2011platform app for managing, discovering, and streaming your media via a flexible addon ecosystem. Built with React Native + Expo, it integrates providers and sync services while keeping a simple, fast UI.",
-            "iconURL": "https://raw.githubusercontent.com/tapframe/NuvioStreaming/refs/heads/main/assets/android/playstore-icon.png",
-            "tintColor": "#04dcfc",
-            "category": "entertainment",
-            "screenshots": [
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.08.32-portrait.png?raw=true",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/WhatsApp%20Image%202025-09-02%20at%2000.24.31-portrait.png?raw=true",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/seasonandepisode-portrait.png?raw=tru",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.09.43-portrait.png?raw=true",
-                "https://github.com/tapframe/NuvioStreaming/blob/main/screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-27%20at%2021.10.14-portrait.png?raw=true"
-            ],
-            "versions": [
-                {
-                    "version": "1.3.5",
-                    "date": "2026-01-11T18:43:44Z",
-                    "localizedDescription": "## Update Notes\r\n\r\n### ExoPlayer Subtitle Fixes\r\nThis update mainly focuses on fixing multiple subtitle-related issues in ExoPlayer:\r\n- Fixed issue where **only the first subtitle index** was being rendered  \r\n- Fixed subtitles **always showing background** due to Android native caption settings  \r\n- Fixed subtitles being **rendered inside the player view**  \r\n- Fixed **subtitle bottom offset** issues  \r\n- Merged PR **#391** by **@saifshaikh1805**  \r\n  - Fixes issue **#301**\r\n\r\n### KSPlayer Improvements\r\n- Improved **subtitle behavior** in KSPlayer  \r\n- Merged PR **#394** by **@AdityasahuX07**\r\n\r\n### Settings & Persistence\r\n- Implemented **save and load** functionality for **Discover settings**\r\n\r\nThis release improves subtitle rendering accuracy across players and adds better persistence for user preferences.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.5/Stable_1-3-5.ipa",
-                    "size": 38669923,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.4",
-                    "date": "2026-01-06T14:15:08Z",
-                    "localizedDescription": "\r\n## Update Notes\r\n\r\n### Player & Playback\r\n- Fixed **Android player crashes with large files** when using ExoPlayer  \r\n  - Merged PR **#361** by **@chrisk325**\r\n\r\n### Trakt Improvements\r\n- Improved **Trakt Continue Watching** section for better accuracy and reliability\r\n\r\n### Internationalization\r\n- Added **multi-language support** across the app using **i18n**  \r\n  - More languages will be added through **community contributions**  \r\n  - \u26a0\ufe0f **Arabic UI does not use RTL yet**. RTL support will be added in a future update\r\n\r\n### Stability & Fixes\r\n- Crash optimizations and internal stability improvements\r\n\r\nThis update focuses on improving playback stability, Trakt experience, and expanding language support.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.4/Stable_1-3-4.ipa",
-                    "size": 39686624,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.3",
-                    "date": "2025-12-31T22:32:21Z",
-                    "localizedDescription": "## Update Notes\r\n\r\n### Playback & Preferences\r\n- Added **default audio and subtitle track selection**\r\n\r\n### Plugins & Repositories\r\n- Added support for **multiple active repositories**\r\n- Improved **plugin fetch logic** for better reliability and performance\r\n- Changed OTA server.\r\n\r\n### Trakt & Metadata Fixes\r\n- Fixed **TMDB enrichment logic**\r\n- Fixed **Trakt watch progress not syncing** for older seasons  \r\n  - Contributed by **@chrisk325**  \r\n  - Fixes #331 and closes #233  \r\n  - \u26a0\ufe0f It is recommended to **log out and log back into Trakt** inside the app to correctly reflect watched status for older seasons\r\n\r\n### UI Improvements & Bug Fixes\r\n- Minor UI refinements and bug fixes  \r\n- Added **YouTube-style press-and-hold playback speed indicator**  \r\n- Refined **gesture indicator pill**  \r\n- Fixed **OSC not auto-hiding on Android**  \r\n  - Contributed by **@AdityasahuX07**  \r\n  - Fixes #326 and #298  \r\n\r\nThis release includes valuable contributions from the community and focuses on improving playback preferences, plugin handling, Trakt syncing, and overall UI polish.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.3/Stable_1-3-3.ipa",
-                    "size": 36122947,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.2",
-                    "date": "2025-12-27T22:16:36Z",
-                    "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Added back **ExoPlayer as the primary player** for better **Dolby Vision (DV)** and **HDR** handling  \r\n  - Automatic fallback to **MPV Player** when required  \r\n- Users can now choose between **Auto** or **MPV** player modes  \r\n- Added **Auto / HW / HW+SW** decoding options for MPV  \r\n  - **Auto is recommended**  \r\n- Added **Video Output Renderer** option  \r\n  - GPU  \r\n  - GPU-next  \r\n\r\n### New Features\r\n- Added **Skip Intro** feature powered by **IntroDB**  \r\n- Added support for **Internal Subtitle customization** for both **MPV** and **ExoPlayer**  \r\n  - ExoPlayer customization is currently limited  \r\n\r\n### Stability & Fixes\r\n- Improved **StreamScreen error handling** to prevent crashes  \r\n- Minor bug fixes and internal improvements  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.2/Stable_1-3-2.ipa",
-                    "size": 35884924,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.0",
-                    "date": "2025-12-24T14:21:50Z",
-                    "localizedDescription": "# \u26a0\ufe0f Important Notice Before Updating to v1.3.0  \r\n\r\nBefore updating, please read this carefully.\r\n\r\nEspecially for **Android users**, this update is **not mandatory**.  \r\nWe have **completely migrated the internal player** from **ExoPlayer + VLC** to **MPV Player**.  \r\nBecause this is a major internal change, **unexpected bugs may occur**.\r\n\r\nThis update is **recommended only for users who are willing to test and provide feedback**.  \r\nYour feedback is important to help complete this migration and make it bug-free.\r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.3.0  \r\n\r\n## Android\r\n- Replaced internal player with **MPV Player** for better codec support  \r\n- Added toggles for **Software (SW) / Hardware (HW) decoding**  \r\n\r\n## Global\r\n- Dependency updates  \r\n- Minor bug fixes  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.0/Stable_1-3-0.ipa",
-                    "size": 35835616,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.11",
-                    "date": "2025-12-14T21:41:31Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.11  \r\n\r\n## Update Notes\r\n- **Dependency updates** for improved stability  \r\n- **Android animation improvements** for smoother UI interactions  \r\n- Multiple **backend bug fixes**  \r\n\r\n## Note for iOS Users\r\n- iOS users can continue using the **TestFlight build**  \r\n- It may show version **1.2.10 (27)**, but the **build is the same as 1.2.11**  \r\n- This is intentional, as bumping the version would require a manual TestFlight review  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.11/Stabe_1-2-11.ipa",
-                    "size": 36074020,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.10",
-                    "date": "2025-11-25T18:12:44Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.10  \r\n\r\n## Update Notes\r\n- **Dependency updates** for stability and performance  \r\n- **Trakt optimizations** for smoother syncing  \r\n- **Subtitle RTL detection** improvements for better language handling  \r\n- **KSPlayer** pause behavior improvements  \r\n- Fixed incorrect **HDR detection logic** in KSPlayer  \r\n- Simplified **This Week\u2019s section** card UI for a cleaner look  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.10/Stable_1-2-10.ipa",
-                    "size": 54201010,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.9",
-                    "date": "2025-11-16T16:31:11Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.9  \r\n\r\n## Update Notes\r\n- **Trakt optimizations**\r\n- **Dependency updates** for better performance  \r\n- **API fixes** to improve data fetching and stability  \r\n- General **bug fixes** across the app  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.9/Stable_1-2-9.ipa",
-                    "size": 54170603,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.8",
-                    "date": "2025-11-09T16:11:34Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.2.8  \r\n\r\n## Update Notes\r\n- Dependency updates for stability and performance  \r\n- Minor animation tweaks  \r\n- Backend fixes and optimizations  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.8/Stable_1-2-8.ipa",
-                    "size": 54120130,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.7",
-                    "date": "2025-10-26T09:13:08Z",
-                    "localizedDescription": "# \u26a0\ufe0f Important: Backup Before Updating to v1.2.7  \r\n\r\nBefore installing this update, **please back up your data** by going to **Settings \u2192 Backup** inside the app.  \r\nThis update replaces the internal storage system. **Old data will not be retrievable** without a backup.  \r\n\r\n---\r\n\r\n# Nuvio Media Hub \u2013 v1.2.7  \r\n\r\n## Major Changes\r\n- Replaced **Async Storage** with **React Native MMKV** for **much faster and more reliable local storage**  \r\n  > \u26a0\ufe0f This change resets previous local data unless backed up and restored  \r\n- Added **Playback Speed Controls** to **KSPlayer** (iOS)  \r\n- Repositioned **Details Screen Action Buttons** for a cleaner layout  \r\n- Added **TMDB request caching** for faster performance when revisiting titles  \r\n- Fixed **Library Screen issue** with adding/removing movies and shows  \r\n\r\n---\r\n\r\n## Features Previously Released via OTA\r\n- **Playback controls for Android**  \r\n- **Library screen layout improvements**  \r\n- Various **backend bug fixes**  \r\n\r\n---\r\n\r\n## Recommended\r\nAll users are **strongly advised to perform a clean install** after updating  \r\nIf you\u2019ve created a backup in the old version, restore it after installation using the **Restore** option in settings  \r\n\r\n---",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.7/Stable_1-2-7.ipa",
-                    "size": 49189840,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.6",
-                    "date": "2025-10-21T11:23:31Z",
-                    "localizedDescription": "# Version 1.2.6 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- **AirPlay Support (iOS):**  \r\n  - Introduced native AirPlay support for compatible playback.  \r\n  - Note: **MKV format not supported** due to iOS restrictions.  \r\n- **Last Streamed Link Caching:**  \r\n  - The last streamed link is now cached for **1 hour** on the stream screen for faster playback.  \r\n- **KSPlayer Internal Subtitle Support (iOS):**  \r\n  - KSPlayer now supports internal subtitles for improved viewing experience.  \r\n\r\n### PR Merge \u2013 Responsive Video Controls by @qarqun  \r\n- **Responsive Sizing:**  \r\n  - All controls now scale dynamically based on screen width for better phone and tablet compatibility.  \r\n- **Play/Pause Animation:**  \r\n  - Smooth crossfade transitions with scale effects for a polished user experience.  \r\n- **Seek Animations:**  \r\n  - Arc sweep animation on seek buttons.  \r\n  - Number slide-out showing +10/-10 seconds.  \r\n  - Touch feedback with semi-transparent circle flash.  \r\n- **Technical Details:**  \r\n  - Button sizes calculated as a percentage of screen width.  \r\n  - All animations use `useNativeDriver` for optimal performance.  \r\n  - Separate animation references to prevent animation conflicts.  \r\n\r\n### Fixes  \r\n- Fixed an issue where **Cinemeta Addon** reappeared even after removal from the addon screen.  \r\n\r\n---\r\n\r\n## Changelog & Download  \r\n[View on GitHub](https://github.com/tapframe/NuvioStreaming/releases/tag/1.2.6)  \r\n\r\nSince the VLClib alone is 45 MB, Android APKs tend to be larger.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.6/Stable_1-2-6.ipa",
-                    "size": 48961527,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.5",
-                    "date": "2025-10-15T17:58:07Z",
-                    "localizedDescription": "# Version 1.2.5 \u2013 Update Notes  \r\n\r\n### New Additions  \r\n- Introduced **Liquid Glass Theme** for **iOS/iPadOS 26 and above**  \r\n  - Devices running iOS/iPadOS 26 will now use the new Liquid Glass theme across the app  \r\n  - Older iOS versions will automatically fall back to the default theme  \r\n\r\n### Improvements  \r\n- Major **dependency updates** across the project  \r\n- Improved **iOS player performance**  \r\n- Optimized **metadata screen** rendering and responsiveness  \r\n- Various **backend improvements** for smoother operations  \r\n\r\n### General  \r\n- Overall stability and performance improvements  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.5/Stable_1-2-5.ipa",
-                    "size": 46750250,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.4",
-                    "date": "2025-10-11T21:39:45Z",
-                    "localizedDescription": "# Version 1.2.4 \u2013 Update Notes  \r\n\r\n### Improvements & Updates  \r\n- Replaced **Expo Image** with **React Native Fast Image** for better performance and smoother image loading  \r\n- Updated **VLCLib dependencies** to improve stability and compatibility  \r\n\r\n### Bug Fixes  \r\n- Fixed **rating screen episode number alignment**  \r\n\r\n### General  \r\n- Minor stability and performance improvements across the app  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.4/Stable_1-2-4.ipa",
-                    "size": 44690634,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.3",
-                    "date": "2025-10-04T18:50:35Z",
-                    "localizedDescription": "# Version 1.2.3 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **Local Backup & Restore** option  \r\n  - This feature **will replace** the old **Cloud-based Authentication and Sync** system permanently  \r\n  - See the in-app information section for more details on how to use it  \r\n\r\n- **Playback Speed Control** \u2013 contributed by @CrissZollo  \r\n  - Adds the ability to change playback speed directly within the player  \r\n  - Currently tested and supported on **ExoPlayer (Android only)**  \r\n  - Fixes [Issue #86](https://github.com/tapframe/NuvioStreaming/issues/86)  \r\n\r\n### UI & Metadata Improvements  \r\n- Improvements by @CrissZollo  \r\n  - Fixed runtime display logic in **TMDB catalogs** where there was no space between hours and minutes  \r\n  - Changed runtime labels from \u201cH and MIN\u201d to \u201cH and M\u201d  \r\n  - Increased gap between metadata by 50% for better readability  \r\n  - Fixes [Issue #160](https://github.com/tapframe/NuvioStreaming/issues/160)  \r\n\r\n### Bug Fixes  \r\n- Fixed **Trakt list sorting issue** in Library screen  \r\n- Fixed an issue where **autoplay does not work** after closing an episode and selecting another  \r\n\r\n### General  \r\n- Minor stability and UI refinements  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.3/Stable_1-2-3.ipa",
-                    "size": 44424662,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.2",
-                    "date": "2025-09-30T12:28:46Z",
-                    "localizedDescription": "# Version 1.2.2 \u2013 Update Notes  \r\n\r\n### New Features  \r\n- Added **FFmpeg Extension to ExoPlayer**  \r\n  - ExoPlayer now supports **DTS** and **EAC3** audio formats.  \r\n  - For a full list of supported formats, visit the [official documentation](https://developer.android.com/media/media3/exoplayer/supported-formats#ffmpeg-library).  \r\n\r\n### Notes  \r\n- Video decoders that lack hardware support (e.g., **DV**, **HDR10+**) will still not work.  \r\n  - Your device must have hardware decoding support for those formats.  \r\n- If a decoder fails, playback will **gracefully fallback to VLCLib Player**.  \r\n\r\n### Improvements  \r\n- Improved **addon compatibility**, including support for addons such as **USATV**  \r\n- General **stability improvements** across the app  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.2/Stable_1-2-2.ipa",
-                    "size": 42388702,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.1",
-                    "date": "2025-09-26T17:36:56Z",
-                    "localizedDescription": "# Version 1.2.1 \u2013 Update Notes  \r\n\r\nThis release focuses on **stability improvements** and internal fixes.  \r\n\r\n## Improvements & Fixes  \r\n- Multiple **minor internal bug fixes**  \r\n- Updated dependencies for improved stability and compatibility  \r\n- Plugin is no longer **hardcoded** into the app  \r\n  - \u26a0\ufe0f New users should use the respective **plugin repository link** to set up properly  \r\n\r\n\u26a0\ufe0f **Important:**  \r\n- All users are strongly **recommended to update** to this version for stability improvements and to continue receiving **future OTA updates**.  \r\n\r\n## Merged PRs\r\n- **Adding addons with `stremio://` URL** by @CrissZollo  \r\n  - Fixed an issue with `stremio://` URLs being incorrectly converted to `https://` URLs  \r\n  - Ensures correct handling of addon URLs  \r\n  - Fixes [Issue #25](https://github.com/tapframe/NuvioStreaming/issues/25)  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.1/Stable_1-2-1.ipa",
-                    "size": 42367478,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.2.0",
-                    "date": "2025-09-22T15:52:55Z",
-                    "localizedDescription": "# Version 1.2.0 \u2013 Update Notes  \r\n\r\nThis release brings **VLCLib** for Android users for better codec support.  \r\niOS now uses **KSPlayer** as the exclusive player.  \r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This is the **initial release with VLCLib**, so you may encounter some bugs.  \r\n- The **APK size will be significantly larger** due to VLC integration.  \r\n- Please report any issues on the GitHub **Issues** page.  \r\n- Until some bugs are resolved, you can continue using an **external player** for unsupported formats.  \r\n\r\n## Merged PRs & Community Contributions  \r\n- **Custom Confirmation Popup** by @CrissZollo:  \r\n  - Introduces a new, custom-made confirmation popup with a modern design.  \r\n  - Matches the app\u2019s theme and the user-selected theming.  \r\n  - Replaces all **Alert.alert** instances with the new custom popup.  \r\n  - Fixes [Issue #83](https://github.com/tapframe/NuvioStreaming/issues/83).  ",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.2.0/Stable_1-2-0.ipa",
-                    "size": 42350147,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1.1",
-                    "date": "2025-09-20T11:27:24Z",
-                    "localizedDescription": "# Version 1.1.1 \u2013 Update Notes  \r\n\r\nThis update includes community contributions, bug fixes, and playback improvements.  \r\n\r\n## Merged PR from @CrissZollo  \r\n- Fixed test notification (now instant).  \r\n- Updated test notification text.  \r\n- Ensured scheduled notifications do not cancel on test.  \r\n- Added and removed scheduled notifications by saving to library.  \r\n- Fixed **mark/unmark as watched** (long press).  \r\n- Fixed **adding/removing from library** (long press).  \r\n\r\n## Improvements & Fixes  \r\n- Fixed **Addon Sync across devices**.  \r\n- Improved **iOS video playback** for MKV files.  \r\n- Improved **error handling** in Android ExoPlayer.  \r\n- Various minor bug fixes.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Note for Android users:**  \r\n- This update **does not yet add HEVC/unsupported codec support** on devices without hardware decoding support.  \r\n- A fix is in progress, until then, please use an **external player** for unsupported formats.  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.1/Stable_1-1-1.ipa",
-                    "size": 26625101,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1.0",
-                    "date": "2025-09-18T11:40:28Z",
-                    "localizedDescription": "# Version 1.1.0 \u2013 Update Notes  \r\n\r\nThis update focuses on important bug fixes and a major internal player replacement for iOS.  \r\n\r\n## Changes\r\n- **iOS Player Update**:  \r\n  - iOS now uses **KSPlayer** internally for MKV files (replacing VLCKit).  \r\n  - AVPlayer continues to be used for all other formats.  \r\n- Fixed an issue where posters disappeared on the Cast movie screen.  \r\n- Minor glitch fixes and improvements.  \r\n\r\n---\r\n\r\n## Note for iOS Users  \r\nThis is the **initial build with KSPlayer**. Please expect bugs and limitations:  \r\n- Embedded subtitle support is **not available** yet, as KSPlayer is a custom React Native module.  \r\n- Use **external/addon subtitles** for now until proper support is added.  \r\n\r\n---\r\n\r\n\u26a0\ufe0f **Important:** Both **iOS and Android users** are requested to update to this version to continue receiving future **OTA updates**.  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.1.0/Stable_1-1-0.ipa",
-                    "size": 26624100,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0.0",
-                    "date": "2025-09-15T17:12:25Z",
-                    "localizedDescription": "# Version 1.0.0 \u2013 Stable Release \r\n\r\nAfter many beta builds and countless bug reports, Nuvio Streaming App has reached its **first Stable release**!  \r\n\r\n## Highlights\r\n- All major features from the beta phase are now included and refined.  \r\n- Stability improvements across the app.  \r\n- Numerous bug fixes and performance optimizations.  \r\n\r\n---\r\n\r\n## A Note on Stability\r\nThis marks the **first Stable release (v1.0.0)** of Nuvio Streaming App.  \r\nWhile it\u2019s not completely bug-free, it is much more stable compared to previous beta builds. Remaining issues will continue to be addressed in future updates.  \r\n\r\n\ud83d\ude4f A huge thank you to all the testers who tried early versions, reported issues, and helped shape this release!  \r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.0.0/Stable_1-0-0.ipa",
-                    "size": 30213962,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.3.6",
-                    "date": "2026-01-21T13:51:44Z",
-                    "localizedDescription": "## Update Notes\r\n\r\n### Player & Playback\r\n- Updated **React Native Video** to the latest version  \r\n- Fixed some **TXT-based streams** failing to play in ExoPlayer  \r\n- Fixed **M3U8 streams without file extension** failing to play in ExoPlayer  \r\n- Added more **aspect ratio options** to ExoPlayer for better viewing control  \r\n\r\n### Improvements & Fixes\r\n- Updated several **dependencies**  \r\n- Added an **in-built major app update downloader** (Android)  \r\n- Various **internal fixes and stability improvements**  \r\n\r\nThis update focuses on improving playback compatibility, update handling, and overall stability.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.6/Stable_1-3-6.ipa",
-                    "size": 38423102
-                },
-                {
-                    "version": "1.3.7",
-                    "date": "2026-01-25T11:39:27Z",
-                    "localizedDescription": "# Nuvio Media Hub \u2013 v1.3.7  \r\n\r\n## Update Notes\r\n- **Android hotfix** to reduce ExoPlayer-related crashes  \r\n  - Adjusted **buffer configuration** for better stability  \r\n- Minor app optimizations and internal fixes  \r\n\r\nThis update is recommended for **Android users** experiencing playback crashes.\r\n",
-                    "downloadURL": "https://github.com/tapframe/NuvioStreaming/releases/download/1.3.7/Stable_1-3-7.ipa",
-                    "size": 39793651
-                },
-                {
-                    "version": "1.4.1",
-                    "date": "2026-02-27T19:13:50Z",
-                    "localizedDescription": "## Release Notes\r\n\r\n### Audio & Subtitle Track Info \u2014 @chrisk325\r\n- Added audio codec, channel count, and estimated bitrate info to the track selector\r\n- Improved parsing of audio/subtitle track metadata from the player\r\n- Fixed edge cases with DTS track info, AC3 codecs, and 6.1 channel tracks\r\n- Fixed handling when player does not return language info\r\n- Removed hardcoded track info in favor of dynamic parsing\r\n\r\n### Player & Streaming Fixes \u2014 @chrisk325\r\n- Fixed Kitsu ID duplication that prevented streams from being fetched via Kitsu IDs\r\n- Fixed a crash in the player\r\n\r\n### Performance \u2014 @chrisk325\r\n- Improved app launch time by reducing OTA update checks at startup\r\n\r\n### Addon Configuration\r\n- Removed hardcoded addon config URL guesses\r\n\r\n### UI & Image Improvements \u2014 @chrisk325\r\n- Switched to FastImage for the IMDb logo\r\n\r\n### Asset & Logo Updates \u2014 @milicevicivan\r\n- Updated TMDB logo to higher quality (SVG to PNG)\r\n- Updated Simkl favicon and logo to higher quality versions\r\n- Added Trakt favicon\r\n\r\n### Internationalization (i18n) \u2014 @saimuelbr, @milicevicivan, @albyalex96, @IberianSoldierPC\r\n- Added i18n support for the Nuvio Sync screen \u2014 @saimuelbr\r\n- Updated Italian localization \u2014 @albyalex96\r\n- Improved Spanish translation \u2014 @IberianSoldierPC\r\n- Updated translations for 23 languages (AR, BG, ZH-CN, CS, DE, ES, FIL, FR, HE, HI, IT, MK, NL, PL, PT-BR, PT-PT, RO, RU, SL, SQ, SR, TR) \u2014 @milicevicivan\r\n\r\n---\r\n\r\n### Contributors\r\n- **@chrisk325** \u2014 Audio/subtitle track info, player fixes, performance\r\n- **@milicevicivan** \u2014 Asset updates, translations\r\n- **@saimuelbr** \u2014 i18n sync screen\r\n- **@albyalex96** \u2014 Italian localization\r\n- **@IberianSoldierPC** \u2014 Spanish translation",
-                    "downloadURL": "https://github.com/tapframe/NuvioMobile/releases/download/1.4.1/Stable_1-4-1.ipa",
-                    "size": 37611976
-                },
-                {
-                    "version": "1.4.2",
-                    "date": "2026-03-13T04:38:11Z",
-                    "localizedDescription": "- ## Update Notes\r\n\r\n- Added **MyAnimeList (MAL) integration** with authentication, library sync, rewatch support, and profile dashboard  \r\n- Improved **MAL mapping and sync performance**  \r\n- Updated **authentication logic and UI**  \r\n- Updated **trailer extraction logic**  \r\n- Dependency updates and internal improvements  \r\n\r\n### Contributors\r\n- @paregi12  \r\n- @saimuelbr  \r\n- @vhtuan288",
-                    "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/1.4.2/Stable_1-4-2.ipa",
-                    "size": 38765502
                 }
             ],
             "appPermissions": {
