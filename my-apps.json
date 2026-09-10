@@ -10,59 +10,6 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
-            "name": "Bridge",
-            "bundleIdentifier": "com.jailbreakdotparty.Bridge",
-            "marketplaceID": "",
-            "developerName": "jailbreakdotparty",
-            "subtitle": "An internal system app opener",
-            "localizedDescription": "An internal system app opener & extractor for jailed iDevices running iOS 16 and later.",
-            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/Bridge/refs/heads/v1/Bridge/Assets.xcassets/AppIcon.appiconset/BridgeIconRegular-min.png",
-            "tintColor": "#8400fa",
-            "category": "developer",
-            "screenshots": [],
-            "versions": [
-                {
-                    "version": "1.2",
-                    "date": "2025-12-24T19:37:38Z",
-                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n## New Features\r\n- **Custom Apps:** You can now add applications by their bundle identifier.\r\n\r\n## UI Improvements\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI/tree/main), which cleaned up the UI a lot.\r\n\r\n## QoL Improvements\r\n- Changed the Bundle ID (so if you have already installed Bridge, uninstall it beforehand).\r\n- Reduced the file size heavily by compressing various assets.\r\n\r\n**The documented internal system applications gist is now [public](https://gist.github.com/lunginspector/783adaa5e34b4063d38a90cb30ae0986)!**\r\nJoin the [jailbreak.party Discord!](https://jailbreak.party/discord)",
-                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.2/Bridge_v1.2.ipa",
-                    "size": 737446,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.1",
-                    "date": "2025-11-08T17:35:32Z",
-                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n> [!WARNING]\r\n> If you are coming from Bridge v1.0 or earlier, **please use the updated helper shortcut by clicking on the link above!** Bridge v1.0 *probably* does not work with the new helper shortcut.\r\n\r\n## New Features\r\n- **Static Applists:** If you do not want to fetch an applist from your device, you can now use a pre-created one in setup. **This means that some of Bridge's functionality can now work with iOS 26.1 and above!** The only downside is that some of the applications listed may not actually exist on your device.\r\n\r\n## UI Improvements\r\n- Updated various UI elements for better consistency, especially in the Settings panel.\r\n- Removed & updated some warnings.\r\n\r\n## QoL Enhancements\r\n- **New Settings Toggles:** Reset Favorites List & Toggle Favorites Dropdown.\r\n- Apps are now counted & shown in the headers.\r\n- Empty lists will now auto-collapse.\r\n- New haptics have been added when clicking certain buttons.\r\n\r\n## Fixes\r\n- **iOS 16 Users:** The weird .plist appearing inside of /Applications should no longer appear (fixed in the updated helper shortcut).\r\n- Fixed an issue where resetting the application would not reset the favorites list or the settings.\r\n- Fixed Haptics not properly playing.\r\n\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
-                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.1/Bridge_v1.1.ipa",
-                    "size": 3705498,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "1.0",
-                    "date": "2025-10-31T22:14:40Z",
-                    "localizedDescription": "- Bridge v1 takes the core functionality of v0 and improves it greatly. This is a full rewrite, with new functions and features that make this much better to use than previously.\r\n\r\n[REQUIRED: Setup Shortcut](https://jailbreak.party/bridge-helper)\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
-                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.0/Bridge_v1.0.ipa",
-                    "size": 3692382,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "0.1/0.2",
-                    "date": "2026-09-06T17:29:14Z",
-                    "localizedDescription": "since i really wanna get rid of the repo that held bridge v0.1 & bridge v0.2, i'm gonna put these ipas here. **please don't use this.**\r\n\r\nsetup shortcut: https://www.icloud.com/shortcuts/efba4fca21ee4d18a2cc9b86b1a36acb",
-                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/0.1/0.2/Bridge_v0.1_iOS17_18.ipa",
-                    "size": 1223100
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
             "name": "NuvioStreaming",
             "bundleIdentifier": "com.nuvio.app",
             "marketplaceID": "",
@@ -315,6 +262,66 @@
                     "localizedDescription": "- 4f79bfe0 fix(player): original audio language preference @tapframe  \r\n- 9b09045f fix(player): allow minimum device brightness @tapframe  \r\n- [use Android User-Agent so IPTV DASH streams do not 403 (#1863)](https://github.com/NuvioMedia/NuvioMobile/pull/1863) @halibiram  \r\n- [feat: updated Spanish string resource file for application localization (#1861)](https://github.com/NuvioMedia/NuvioMobile/pull/1861) @IberianSoldierPC  \r\n- 92466c4e fix(player): align mobile control icons with tv @tapframe  \r\n- [i18n(el): translate delayed addon content state strings (#1851)](https://github.com/NuvioMedia/NuvioMobile/pull/1851) @nosvasedis  \r\n- 58864ec1 fix(streams): honor autoplay source loading scope @tapframe  \r\n- [Updated BG translation and fixes with later versiond (#1838)](https://github.com/NuvioMedia/NuvioMobile/pull/1838) @viiktr  \r\n- 4026ec92 fix(player): persist next episode dismissal @tapframe  \r\n- [Use Simkl for anime ID resolution in skip-intro (replaces ARM) (#1836)](https://github.com/NuvioMedia/NuvioMobile/pull/1836) @skoruppa  \r\n- 22096a1e fix(details): map addon specials season posters @tapframe  \r\n- [fix(details): optimize large vertical episode lists (#1835)](https://github.com/NuvioMedia/NuvioMobile/pull/1835) @ThePunpun  \r\n- 802db48d fix(updater): apply theme gradient to download progress @tapframe  \r\n- [fix(player): keep subtitle picker stable for duplicate tracks (#1800)](https://github.com/NuvioMedia/NuvioMobile/pull/1800) @halibiram  \r\n",
                     "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.14/nuvio-0.4.14-full-release.ipa",
                     "size": 51787331
+                },
+                {
+                    "version": "0.4.15",
+                    "date": "2026-09-09T13:41:42Z",
+                    "localizedDescription": "- cf6cf2d6 fix(auth): synchronize shared client initialization @tapframe  \r\n- 28df1e7d fix(home): restore hero position when switching profiles @tapframe  \r\n- 972109f9 fix(playback): disable play when no source is available @tapframe  \r\n- 872a5937 fix(home): reduce hero height without continue watching @tapframe  \r\n- [Fix NetworkOnMainThreadException when starting a download (#1893)](https://github.com/NuvioMedia/NuvioMobile/pull/1893) @Axl-Lvy  \r\n- 526a5b97 feat: custom static colours @tapframe  \r\n- 68337ffa feat(members): custom gradient @tapframe  \r\n- [Added Russian translation (#1886)](https://github.com/NuvioMedia/NuvioMobile/pull/1886) @zamalatb  \r\n- 378f120e fix(downloads): exclude foreground service from playstore builds @tapframe  \r\n- 6d4ad8bb fix(player): preserve each foreground service start notification @tapframe  \r\n- 40af63ad fix(player): synchronize native subtitle rendering @tapframe  \r\n- 3554904b fix(player): resolve subtitle formats off the main thread @tapframe  \r\n- 42667b9f feat(ui): unify skeleton loading states @tapframe  \r\n- 5fa890ee perf(home): improve lazy list item reuse @tapframe  \r\n- 8b43fd89 perf(startup): avoid redundant collection and catalog processing @tapframe  \r\n- e306a0a0 perf(ios): release temporary GIF decoding resources @tapframe  \r\n- 59a13cbf perf(loading): cache bundled animation resource reads @tapframe  \r\n- 6fb5d44f perf(ui): defer loading and parallax state reads @tapframe  \r\n- d7159342 fix(streams): refresh resume position Fixes #1866 @tapframe  \r\n- 3c239664 fix(android): background downloads @tapframe  \r\n",
+                    "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.15/nuvio-0.4.15-full-release.ipa",
+                    "size": 52822264
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
+            "name": "Bridge",
+            "bundleIdentifier": "com.jailbreakdotparty.Bridge",
+            "marketplaceID": "",
+            "developerName": "jailbreakdotparty",
+            "subtitle": "An internal system app opener",
+            "localizedDescription": "An internal system app opener & extractor for jailed iDevices running iOS 16 and later.",
+            "iconURL": "https://raw.githubusercontent.com/jailbreakdotparty/Bridge/refs/heads/v1/Bridge/Assets.xcassets/AppIcon.appiconset/BridgeIconRegular-min.png",
+            "tintColor": "#8400fa",
+            "category": "developer",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.2",
+                    "date": "2025-12-24T19:37:38Z",
+                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n## New Features\r\n- **Custom Apps:** You can now add applications by their bundle identifier.\r\n\r\n## UI Improvements\r\n- Implemented [PartyUI](https://github.com/jailbreakdotparty/PartyUI/tree/main), which cleaned up the UI a lot.\r\n\r\n## QoL Improvements\r\n- Changed the Bundle ID (so if you have already installed Bridge, uninstall it beforehand).\r\n- Reduced the file size heavily by compressing various assets.\r\n\r\n**The documented internal system applications gist is now [public](https://gist.github.com/lunginspector/783adaa5e34b4063d38a90cb30ae0986)!**\r\nJoin the [jailbreak.party Discord!](https://jailbreak.party/discord)",
+                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.2/Bridge_v1.2.ipa",
+                    "size": 737446,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.1",
+                    "date": "2025-11-08T17:35:32Z",
+                    "localizedDescription": "> [!NOTE]\r\n> A [shortcut](https://jailbreak.party/bridge-helper) is required to use this application. This is for initial setup, app opening (though not the default method), and app exporting.\r\n\r\n> [!WARNING]\r\n> If you are coming from Bridge v1.0 or earlier, **please use the updated helper shortcut by clicking on the link above!** Bridge v1.0 *probably* does not work with the new helper shortcut.\r\n\r\n## New Features\r\n- **Static Applists:** If you do not want to fetch an applist from your device, you can now use a pre-created one in setup. **This means that some of Bridge's functionality can now work with iOS 26.1 and above!** The only downside is that some of the applications listed may not actually exist on your device.\r\n\r\n## UI Improvements\r\n- Updated various UI elements for better consistency, especially in the Settings panel.\r\n- Removed & updated some warnings.\r\n\r\n## QoL Enhancements\r\n- **New Settings Toggles:** Reset Favorites List & Toggle Favorites Dropdown.\r\n- Apps are now counted & shown in the headers.\r\n- Empty lists will now auto-collapse.\r\n- New haptics have been added when clicking certain buttons.\r\n\r\n## Fixes\r\n- **iOS 16 Users:** The weird .plist appearing inside of /Applications should no longer appear (fixed in the updated helper shortcut).\r\n- Fixed an issue where resetting the application would not reset the favorites list or the settings.\r\n- Fixed Haptics not properly playing.\r\n\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
+                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.1/Bridge_v1.1.ipa",
+                    "size": 3705498,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "1.0",
+                    "date": "2025-10-31T22:14:40Z",
+                    "localizedDescription": "- Bridge v1 takes the core functionality of v0 and improves it greatly. This is a full rewrite, with new functions and features that make this much better to use than previously.\r\n\r\n[REQUIRED: Setup Shortcut](https://jailbreak.party/bridge-helper)\r\n[Join the jailbreak.party Discord!](https://jailbreak.party/discord)",
+                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/v1.0/Bridge_v1.0.ipa",
+                    "size": 3692382,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "0.1/0.2",
+                    "date": "2026-09-06T17:29:14Z",
+                    "localizedDescription": "since i really wanna get rid of the repo that held bridge v0.1 & bridge v0.2, i'm gonna put these ipas here. **please don't use this.**\r\n\r\nsetup shortcut: https://www.icloud.com/shortcuts/efba4fca21ee4d18a2cc9b86b1a36acb",
+                    "downloadURL": "https://github.com/jailbreakdotparty/Bridge/releases/download/0.1/0.2/Bridge_v0.1_iOS17_18.ipa",
+                    "size": 1223100
                 }
             ],
             "appPermissions": {
