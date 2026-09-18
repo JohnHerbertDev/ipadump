@@ -318,6 +318,13 @@
                     "localizedDescription": "- 12111fd8 feat(updater): add stable and beta update channels @tapframe  \n- df589078 feat(tmdb): add personal API key override with credential sync @tapframe  \n- 48bf5ed3 feat(details): parse addon episode runtimes @tapframe  \n- [Use addon imdb_id as fallback for non-IMDB content enrichment (#1966)](https://github.com/NuvioMedia/NuvioMobile/pull/1966) @skoruppa  \n- 3312374e fix(settings): keep page content visible during navigation @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#1959)](https://github.com/NuvioMedia/NuvioMobile/pull/1959) @blueocean2308  \n- [fix: limit anime ID preference to entries with anime-specific IDs (#1955)](https://github.com/NuvioMedia/NuvioMobile/pull/1955) @skoruppa  \n- 177f4b5c feat(ratings): add rotten tomatoes status icons @tapframe  \n",
                     "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.22-beta/nuvio-0.4.22-full-release.ipa",
                     "size": 51383038
+                },
+                {
+                    "version": "0.4.23-beta",
+                    "date": "2026-09-17T09:40:44Z",
+                    "localizedDescription": "- 542aa570 fix(simkl): retain posters when marking items watched @tapframe  \n- 08bdd629 fix(home): restore wide continue watching sizing @tapframe  \n- [i18n(vi): update latest Vietnamese strings (#1975)](https://github.com/NuvioMedia/NuvioMobile/pull/1975) @blueocean2308  \n- a599340e fix(ui): use filled chips and consistent surface colors @tapframe  \n- [feat(playback): support IntroDB movie segments and external forwarding (#1963)](https://github.com/NuvioMedia/NuvioMobile/pull/1963) @Laskco  \n",
+                    "downloadURL": "https://github.com/NuvioMedia/NuvioMobile/releases/download/0.4.23-beta/nuvio-0.4.23-full-release.ipa",
+                    "size": 51420909
                 }
             ],
             "appPermissions": {
