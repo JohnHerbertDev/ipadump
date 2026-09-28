@@ -10,6 +10,152 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "StikDebug",
+            "bundleIdentifier": "com.stik.stikdebug",
+            "marketplaceID": "",
+            "developerName": "StephenDev0",
+            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
+            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [
+                "https://stikdebug.xyz/assets/source/home.png",
+                "https://stikdebug.xyz/assets/source/scripts.png",
+                "https://stikdebug.xyz/assets/source/settings.png"
+            ],
+            "versions": [
+                {
+                    "version": "2.3.7",
+                    "date": "2026-01-09T19:27:57Z",
+                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
+                    "size": 12048589,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.6",
+                    "date": "2025-12-18T02:30:53Z",
+                    "localizedDescription": "This release works with LocalDevVPN",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
+                    "size": 11996559,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2026-02-25T21:26:35Z",
+                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+                    "size": 10456365
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-03-08T18:56:53Z",
+                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
+                    "size": 10461243
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2026-03-30T17:53:28Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
+                    "size": 10889554
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2026-04-04T03:30:18Z",
+                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
+                    "size": 10973374
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2026-04-12T06:41:17Z",
+                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
+                    "size": 10974298
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2026-05-18T14:50:17Z",
+                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
+                    "size": 11125407
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2026-06-01T01:12:08Z",
+                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
+                    "size": 11028217
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2026-06-01T11:32:37Z",
+                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
+                    "size": 11027579
+                },
+                {
+                    "version": "3.1.6",
+                    "date": "2026-06-17T04:07:42Z",
+                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
+                    "size": 11028710
+                },
+                {
+                    "version": "3.1.7",
+                    "date": "2026-07-26T00:25:37Z",
+                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
+                    "size": 12815045
+                },
+                {
+                    "version": "3.1.8",
+                    "date": "2026-07-31T15:01:19Z",
+                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
+                    "size": 12818500
+                },
+                {
+                    "version": "3.1.9",
+                    "date": "2026-08-01T20:09:58Z",
+                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+                    "size": 12822956
+                },
+                {
+                    "version": "3.1.10",
+                    "date": "2026-08-27T04:07:04Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.9...3.1.10",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
+                    "size": 12824047
+                },
+                {
+                    "version": "3.1.11",
+                    "date": "2026-09-23T23:25:55Z",
+                    "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series.\n\n## What's Changed\n* Add Malloc Debugging by @Leviidev in https://github.com/StikDebug/StikDebug/pull/460\n\n## New Contributors\n* @Leviidev made their first contribution in https://github.com/StikDebug/StikDebug/pull/460\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.10...3.1.11",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
+                    "size": 13515131
+                },
+                {
+                    "version": "3.1.12",
+                    "date": "2026-09-27T20:57:00Z",
+                    "localizedDescription": "Should fix issues with DDI for iOS versions below 26.4.\r\nAlso, lots of fixes and improvements for TXM scripts, location simulation, and keep-alives.\r\n\r\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.11...3.1.12",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.12/StikDebug-3.1.12.ipa",
+                    "size": 13544301
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "NuvioStreaming",
             "bundleIdentifier": "com.nuvio.app",
             "marketplaceID": "",
@@ -907,145 +1053,6 @@
                     "localizedDescription": "Mirrored from [Apollo-Reborn v1.15.11_3.8.0](https://github.com/Apollo-Reborn/Apollo-Reborn/releases/tag/v1.15.11_3.8.0).\n\nThese IPAs are the **official Apollo-Reborn builds**, re-hosted here so this long-standing AltStore source keeps working for existing users. Apollo-Reborn also runs its own website and sources at https://apolloreborn.app\n\n---\n\n### Features\n\n- Add **Save All Media** to save every image, GIF, and video in a Reddit gallery, Imgur album, or ImageChest post at once, from the fullscreen viewer's menus or an album's long-press menu, with a progress ring and Cancel (#1048: @IllIIllIllIllII)\n  - Fullscreen images offer Save Image next to Share, and holding an image in the viewer or a feed gallery offers Copy Image and Save Image for that image instead of jumping straight to the share sheet\n  - Also fixes **Download Video** when only Reddit's copy is available, **Save GIF** in the share sheet, and missing post controls on albums opened from a link in a post\n- Add **Action Menus** (Interface \u2192 Menus) to reorder and hide the actions in Apollo's \u2022\u2022\u2022 menus and, for moderators, its moderator menus, one menu at a time with a live preview (#1131: @icpryde)\n- Redesign the **Account Switcher** as a themed bottom sheet with larger avatars, Add Account and Edit at the top, and drag-to-reorder that no longer refreshes your feed (#1077: @IllIIllIllIllII)\n  - Also fixes a crash when switching accounts\n- Add **Automatic Backups** (Data \u2192 Backup Settings) \u2014 pick a folder in Files and your settings are backed up there every day, three days, or seven days, keeping the ten most recent automatic backups (#1060, #1148, #1152: @IllIIllIllIllII)\n  - Backups now save as `.apollobackup` files with the Apollo icon, and opening one from Files asks before restoring; existing `.zip` backups still restore\n- Add **Settings Shortcuts** \u2014 press and hold the Settings tab to jump straight to up to 15 settings pages, chosen and reordered under Interface \u2192 Tab Bar \u2192 Settings Shortcuts (#1150: @IllIIllIllIllII)\n- Add a **Return Button** that appears beside Back after a status-bar tap takes you to the top; tap it, or the status bar again, to jump back to where you were reading, now on Liquid Glass too (#1116: @icpryde, @IllIIllIllIllII)\n  - Turn the button off under Interface \u2192 Display & Navigation; the second status-bar tap keeps working either way\n- Rework **Hidden & Deleted** into a profile row that opens one combined feed of archived posts and comments, labeled Hidden, Removed, or Deleted, with inline images and swipeable albums (#1137: @IllIIllIllIllII)\n- Add **Profile Picture Shape** (Interface \u2192 Display & Navigation) to show profile pictures as Full, Circle, or rounded Square across posts, comments, messages, the profile tab, and the Account Switcher (#1136: @IllIIllIllIllII)\n- Extend **Immersive** profile artwork behind the status and navigation bars with a wider crop and smoother fade, and long-press a profile banner to view it fullscreen and save it (#1186: @IllIIllIllIllII)\n- Play GIF and video tiles silently in **Gallery View**'s grid while they're on screen, with separate **Play Videos in Gallery View** and **Play GIFs in Gallery View** switches (Media \u2192 Browsing, on by default) (#1142: @icpryde)\n- Speed up opening and closing **images and albums** \u2014 albums zoom straight out of the feed thumbnail like single images, the background fades as you swipe media away, and closing an album returns the feed carousel to the last image you viewed (#1143: @IllIIllIllIllII)\n- Smooth out scrolling through **video-heavy feeds** \u2014 playing videos take far less of the app's time, and the new **Smoother Video Scrolling** switch (Posts & Feeds \u2192 Feed, on by default) prepares players in the background and lets video posts draw without stalling the scroll (#1168: @icpryde)\n- Keep unsent **Chat** drafts in modern Direct Chat, saved per account and conversation and restored when you come back (#1207: @Thetromboneman1)\n- Add **Swipe Tab Bar to Navigate** (Interface \u2192 Tab Bar, Liquid Glass, off by default) to swipe the tab bar back and forward again in place of the native drag-to-switch-tabs gesture; takes effect after relaunching (#1075: @DeltAndy123)\n- Add **Confirm Favorite Changes** (Subreddits \u2192 Favorites, off by default) so the star on the Subreddits list asks before adding or removing a favorite (#1173: @nunoo)\n\n### Fixes\n\n- Fix a **startup crash loop** after adding an account while Reddit is rate-limiting; an unexpected listing response now fails like any other load (#1147: @icpryde)\n- Fix a crash on launch or when switching accounts after changing your **Reddit password**; Apollo now tries to recover the expired session and asks you to sign in again if it can't (#1200: @IllIIllIllIllII)\n- Fix crashes loading older comments in **Live Update** mode and choosing Open in Safari on a shared GIF or other downloaded media (#1171: @IllIIllIllIllII)\n- Fix a crash when touching and holding a post while the feed scrolls (#1193: @icpryde)\n- Fix a crash tapping **Cancel** on a subreddit search with results on non-Liquid-Glass builds (#1133: @icpryde)\n- Bring back **Copy with Account** in Copy Widget Setup Code, lost in 3.7.1, so Home and multireddit widgets can use your account again (#1195: @icpryde)\n- Fix **Gallery View** hiding its first row of tiles under the navigation bar since 3.7.1, and its spinner staying up after changing the filter while it loads (#1140, #1194: @icpryde)\n  - Holding a video in the viewer opens Save/Share without letting go, and dragging down with that sheet open no longer leaves the viewer black and unresponsive\n- Fix the Liquid Glass **feed search bar** springing back open after you scroll it away, staying pinned when you scroll right after cancelling a search, and the Hard header style cutting off the top of the field (#1130, #1146: @icpryde)\n  - Collapsing a comment no longer jumps the thread or flashes a band across the top, Find in Comments swaps its buttons smoothly, and a cancelled swipe-back keeps the search field's glass\n- Keep the **Settings** search field below the title while searching on Liquid Glass instead of sliding up over it (#1156: @icpryde)\n- Make **Apollo Reborn settings** follow Apollo's Text Size and match the native rows' font weight and text colors, including the softer gray in Pure Black mode (#1165: @IllIIllIllIllII)\n- Fix Apollo Reborn settings screens stuttering or refusing to scroll back up, footer text drawing over the rows above it, and the list shifting after a swipe back (#1170: @icpryde)\n- Soften the **row highlight** when you tap a row \u2014 stock themes use Apollo's original gray again and custom themes a lighter tint of their accent (#1166: @IllIIllIllIllII)\n- Fix **subreddit list editing** \u2014 favorite stars stay aligned, long names stop short of the star, confirmation buttons stay tappable, rows no longer stay highlighted, and removals animate smoothly (#1174: @IllIIllIllIllII)\n- Keep the header visible while editing the subreddit list with **Hide Header on Scroll** on, and bring the header and tab bar back as soon as you tap the status bar (#1120: @IllIIllIllIllII)\n- Fix a brief stall when scrolling back down right after reaching the top of a post, and a stutter where Hide Header on Scroll kept hiding and revealing the header (#1119: @IllIIllIllIllII)\n- Make the **Posts** tab scroll to the top and then go back on profiles, trophies, multireddits, and posts opened from a profile, like it does on feeds (#1153: @IllIIllIllIllII)\n- Fix a cancelled forward swipe erasing your navigation history, so swiping forward again reopens the page (#1128: @IllIIllIllIllII)\n- Reopen **Floating Post Tabs** on the comment sort you left them on, Live Update included, instead of the default sort (#1125: @icpryde)\n- Fade a newly **posted comment** into the thread with its avatar and flair already in place, instead of the thread jumping and the avatar popping in afterwards (#1196: @icpryde)\n- Fix collapsing a comment thread sliding its replies down before the comments below move up (#1180: @IllIIllIllIllII)\n- Keep the **comment age** visible next to long usernames, which now truncate instead (#1162: @IllIIllIllIllII)\n- Keep recovered **deleted comments** readable when Apollo switches between light and dark mode while the thread is open (#1206: @Thetromboneman1)\n- Fix feed usernames drifting right, leaving a growing gap after \"by\", each time you came back to the feed from a post with Translate Post Titles on (#1208: @icpryde)\n- Fix **rich link cards** overlapping a post's details and vote buttons once they finish loading, in feeds and comment threads, including while you scroll (#1191: @IllIIllIllIllII)\n- Fix the composer's **GIF** button staying over username and subreddit suggestions, and the formatting toolbar sitting partly behind the keyboard on iOS 27, on non-Liquid-Glass builds (#1164: @IllIIllIllIllII)\n- Fix a **Chat** conversation you opened from the Inbox turning unread again, badge included, after a refresh when Use Modern Reddit Chat is on (#1141: @icpryde)\n- Fix double-tapping the **Search** tab sometimes not opening the keyboard (#1190: @IllIIllIllIllII)\n- Show the gallery counter in its usual top-right spot on the **iPhone 18 Pro** and Pro Max instead of centered (#1189: @IllIIllIllIllII)\n- Fix **Bark Notifications** showing Bark's own icon when your app icon has no Bark artwork; they fall back to the default Apollo icon instead (#1204: @Thetromboneman1)\n- Turn **Swipe Up for Comments** off by default (Media \u2192 Browsing); if you already switched it on or off, your choice is kept (#1134: @icpryde)\n\n",
                     "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_3.8.0/Apollo-Reborn-3.8.0-GLASS-NOEXTENSIONS.ipa",
                     "size": 114893279
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "StikDebug",
-            "bundleIdentifier": "com.stik.stikdebug",
-            "marketplaceID": "",
-            "developerName": "StephenDev0",
-            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
-            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [
-                "https://stikdebug.xyz/assets/source/home.png",
-                "https://stikdebug.xyz/assets/source/scripts.png",
-                "https://stikdebug.xyz/assets/source/settings.png"
-            ],
-            "versions": [
-                {
-                    "version": "2.3.7",
-                    "date": "2026-01-09T19:27:57Z",
-                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
-                    "size": 12048589,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.6",
-                    "date": "2025-12-18T02:30:53Z",
-                    "localizedDescription": "This release works with LocalDevVPN",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
-                    "size": 11996559,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2026-02-25T21:26:35Z",
-                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
-                    "size": 10456365
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-03-08T18:56:53Z",
-                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
-                    "size": 10461243
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2026-03-30T17:53:28Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
-                    "size": 10889554
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2026-04-04T03:30:18Z",
-                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
-                    "size": 10973374
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2026-04-12T06:41:17Z",
-                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
-                    "size": 10974298
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2026-05-18T14:50:17Z",
-                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
-                    "size": 11125407
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2026-06-01T01:12:08Z",
-                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
-                    "size": 11028217
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2026-06-01T11:32:37Z",
-                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
-                    "size": 11027579
-                },
-                {
-                    "version": "3.1.6",
-                    "date": "2026-06-17T04:07:42Z",
-                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
-                    "size": 11028710
-                },
-                {
-                    "version": "3.1.7",
-                    "date": "2026-07-26T00:25:37Z",
-                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
-                    "size": 12815045
-                },
-                {
-                    "version": "3.1.8",
-                    "date": "2026-07-31T15:01:19Z",
-                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
-                    "size": 12818500
-                },
-                {
-                    "version": "3.1.9",
-                    "date": "2026-08-01T20:09:58Z",
-                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
-                    "size": 12822956
-                },
-                {
-                    "version": "3.1.10",
-                    "date": "2026-08-27T04:07:04Z",
-                    "localizedDescription": "**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.9...3.1.10",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
-                    "size": 12824047
-                },
-                {
-                    "version": "3.1.11",
-                    "date": "2026-09-23T23:25:55Z",
-                    "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series.\n\n## What's Changed\n* Add Malloc Debugging by @Leviidev in https://github.com/StikDebug/StikDebug/pull/460\n\n## New Contributors\n* @Leviidev made their first contribution in https://github.com/StikDebug/StikDebug/pull/460\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.10...3.1.11",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
-                    "size": 13515131
                 }
             ],
             "appPermissions": {
