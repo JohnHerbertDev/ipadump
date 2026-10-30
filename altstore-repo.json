@@ -10,6 +10,180 @@
     "headerURL": "https://raw.githubusercontent.com/JohnHerbertDev/ipadump/refs/heads/main/scrapedIcons/Essential_Repo_Banner.png",
     "apps": [
         {
+            "name": "StikDebug",
+            "bundleIdentifier": "com.stik.stikdebug",
+            "marketplaceID": "",
+            "developerName": "StephenDev0",
+            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
+            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
+            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
+            "tintColor": "#007aff",
+            "category": "developer",
+            "screenshots": [
+                "https://stikdebug.xyz/assets/source/home.png",
+                "https://stikdebug.xyz/assets/source/scripts.png",
+                "https://stikdebug.xyz/assets/source/settings.png"
+            ],
+            "versions": [
+                {
+                    "version": "2.3.7",
+                    "date": "2026-01-09T19:27:57Z",
+                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
+                    "size": 12048589,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "2.3.6",
+                    "date": "2025-12-18T02:30:53Z",
+                    "localizedDescription": "This release works with LocalDevVPN",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
+                    "size": 11996559,
+                    "buildVersion": null,
+                    "minOSVersion": null
+                },
+                {
+                    "version": "3.0.0",
+                    "date": "2026-02-25T21:26:35Z",
+                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
+                    "size": 10456365
+                },
+                {
+                    "version": "3.0.1",
+                    "date": "2026-03-08T18:56:53Z",
+                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
+                    "size": 10461243
+                },
+                {
+                    "version": "3.1.0",
+                    "date": "2026-03-30T17:53:28Z",
+                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
+                    "size": 10889554
+                },
+                {
+                    "version": "3.1.1",
+                    "date": "2026-04-04T03:30:18Z",
+                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
+                    "size": 10973374
+                },
+                {
+                    "version": "3.1.2",
+                    "date": "2026-04-12T06:41:17Z",
+                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
+                    "size": 10974298
+                },
+                {
+                    "version": "3.1.3",
+                    "date": "2026-05-18T14:50:17Z",
+                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
+                    "size": 11125407
+                },
+                {
+                    "version": "3.1.4",
+                    "date": "2026-06-01T01:12:08Z",
+                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
+                    "size": 11028217
+                },
+                {
+                    "version": "3.1.5",
+                    "date": "2026-06-01T11:32:37Z",
+                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
+                    "size": 11027579
+                },
+                {
+                    "version": "3.1.6",
+                    "date": "2026-06-17T04:07:42Z",
+                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
+                    "size": 11028710
+                },
+                {
+                    "version": "3.1.7",
+                    "date": "2026-07-26T00:25:37Z",
+                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
+                    "size": 12815045
+                },
+                {
+                    "version": "3.1.8",
+                    "date": "2026-07-31T15:01:19Z",
+                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
+                    "size": 12818500
+                },
+                {
+                    "version": "3.1.9",
+                    "date": "2026-08-01T20:09:58Z",
+                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
+                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
+                    "size": 12822956
+                },
+                {
+                    "version": "3.1.10",
+                    "date": "2026-08-27T04:07:04Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.9...3.1.10",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
+                    "size": 12824047
+                },
+                {
+                    "version": "3.1.11",
+                    "date": "2026-09-23T23:25:55Z",
+                    "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series.\n\n## What's Changed\n* Add Malloc Debugging by @Leviidev in https://github.com/StikDebug/StikDebug/pull/460\n\n## New Contributors\n* @Leviidev made their first contribution in https://github.com/StikDebug/StikDebug/pull/460\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.10...3.1.11",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
+                    "size": 13515131
+                },
+                {
+                    "version": "3.1.12",
+                    "date": "2026-09-27T20:57:00Z",
+                    "localizedDescription": "Should fix issues with DDI for iOS versions below 26.4.\r\nAlso, lots of fixes and improvements for TXM scripts, location simulation, and keep-alives.\r\n\r\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.11...3.1.12",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.12/StikDebug-3.1.12.ipa",
+                    "size": 13544301
+                },
+                {
+                    "version": "3.1.13",
+                    "date": "2026-09-28T14:29:59Z",
+                    "localizedDescription": "Fix MeloCaf\u00e9 auto assign\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.12...3.1.13",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.13/StikDebug-3.1.13.ipa",
+                    "size": 13544310
+                },
+                {
+                    "version": "3.1.14",
+                    "date": "2026-10-12T03:13:42Z",
+                    "localizedDescription": "Add Husk support\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.1.14",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
+                    "size": 13544340
+                },
+                {
+                    "version": "3.1.15",
+                    "date": "2026-10-15T14:31:50Z",
+                    "localizedDescription": "**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\r\nAttempt to fix ServiceNotFound errors, add debugging",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
+                    "size": 13543234
+                },
+                {
+                    "version": "3.2.0",
+                    "date": "2026-10-30T03:02:00Z",
+                    "localizedDescription": "## What's Changed\r\n* Adds on-device pairing file creation and management for the local device, as well as external devices (Apple TV included)\r\n* Error cleanup\r\n* Fixes some connection issues\r\n* Prevent stale legacy pairing files overriding fresh imports by @mvanhorn in https://github.com/StikDebug/StikDebug/pull/479\r\n* Revert \"Prevent stale legacy pairing files overriding fresh imports\" by @CelloSerenity in https://github.com/StikDebug/StikDebug/pull/486\r\n* fix: release the route when playback finishes so a new spot can be set by @OpenUmar in https://github.com/StikDebug/StikDebug/pull/490\r\n* more prob\r\n\r\n## New Contributors\r\n* @mvanhorn made their first contribution in https://github.com/StikDebug/StikDebug/pull/479\r\n* @OpenUmar made their first contribution in https://github.com/StikDebug/StikDebug/pull/490\r\n\r\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.15...3.2.0",
+                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.2.0/StikDebug-3.2.0.ipa",
+                    "size": 16818331
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            },
+            "patreon": {}
+        },
+        {
             "name": "Twitter (NeoFreeBird)",
             "bundleIdentifier": "com.atebits.Tweetie2",
             "marketplaceID": "",
@@ -4548,173 +4722,6 @@
                     "localizedDescription": "## Highlights\n* (macOS) **DirectX graphics support for Windows**: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n* **Vulkan 1.3 graphics support for Linux**: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n* **Snapshots**: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n* (macOS) **Apple Virtualization on macOS 27**: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n* (iOS) **Better touch controls**: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n* (iOS) **iPhone Duo**: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\n\n## Notes\n* Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n* The minimum supported versions are now macOS 12 and iOS 15.\n* We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n* (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n* (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\n* Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\n\n## Changes (v5.0.8)\n* Fixed several changes listed for v5.0.7 being left out of that build by mistake.\n* (macOS) Fixed Windows 3D acceleration on Apple Silicon Macs without Rosetta by falling back to DXMT\n* (macOS) QEMU: Fixed Windows installs from the USB CD drive stalling repeatedly, which made them much slower in v5.0.7 (#7970)\n\n## Changes (v5.0.7)\n* Updated the virglrenderer, MoltenVK and DXMT graphics backends with fixes for Windows 3D acceleration\n* QEMU: Windows guests now use the host display's refresh rate instead of always 60 Hz, which also fixes 3D acceleration failing on displays faster than 125 Hz (#7820)\n* QEMU: Fixed VirtIO GPU stalls that hung Windows at shutdown, stalled 3D benchmarks on Linux, and could leave the Windows 3D driver without a display\n* Snapshots: Fixed saving and restoring the state of VMs with compressed disks (#7916)\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS 27.1) Support for iPhone Duo: the VM toolbar sits in the outer display's camera strip, and a new laptop mode turns the bottom half of the folded screen into a keyboard or touchpad\n* (macOS) Fixed headless VMs keeping the Mac from sleeping after they were paused or stopped\n* (macOS) Closing a VM window or quitting UTM while a VM runs now confirms with \"Close\" or \"Quit\" instead of \"OK\"\n* (macOS) Fixed shaders using instancing or integer vertex attributes drawing incorrectly with the Apple Core OpenGL backend (#7944)\n* (macOS) Updated the D3DMetal graphics backend with fixes for DirectX 12\n* (macOS) Display: The option to use the area beside the camera housing in full screen is now available on macOS 12 and later (#6183)\n* (macOS) Wizard: Fixed the Name field's focus ring being clipped on the summary page (thanks @dnicolson)\n* (macOS 15) QEMU: Better performance on Apple Silicon with the Hypervisor.framework built-in interrupt controller\n* (macOS) Scripting: Force stopping a paused VM is now allowed\n* (macOS 27) AVF: Explain when a USB device such as a webcam or phone can't be passed through, instead of showing \"VZErrorDomain error -6\" (#7914)\n* (macOS) Guest Agent: Fixed an issue where clipboard sharing fails upon suspend-resume in macOS guests (you need to re-install the latest guest tools) (#7717)\n\n## Changes (v5.0.6)\n* Raised the minimum supported versions to macOS 12 and iOS 15 (#7758)\n* Updated the DXMT and MoltenVK graphics backends\n* Updated the KosmicKrisp Vulkan driver, which now requires macOS 26 or iOS 26\n* Home: The welcome screen now offers to open an existing VM instead of linking to the gallery\n* Snapshots: New Snapshots tab to save, overwrite, restore, rename and delete snapshots of QEMU and Apple VMs. Requires iOS 26 on iOS and macOS 27 for Apple VMs (#5484)\n* Settings: Custom QEMU arguments moved to their own page, and the full command line is shown as read-only text that can be copied (#489, #7604)\n* SPICE: Fixed microphone audio quality (#7751)\n* SPICE: Fixed display and input freezing when audio playback hangs under memory pressure (thanks @evan314159)\n* CocoaSpice: Fixed typing into the built-in serial terminal (#7814)\n* Terminal: Updated SwiftTerm with a new Metal renderer, and only web links printed by the guest can be opened\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* (iOS) Fixed the VM toolbar and external display on iOS 26 and iOS 27\n* (iOS 26) Reclaim Space, Compress, Resize and converting imported drives to qcow2 are now available on iOS (#4774)\n* (iOS 27) Confirm before closing the window of a running VM on iPad\n* (iOS) Display: Long press and pan gestures respond immediately, touches at the screen edges reach the guest, new middle click and right/middle drag actions, and a new \"Touch mode (drag to scroll)\" (#4738)\n* (iOS) Display: Redesigned the keyboard accessory bar to match the iOS 26 keyboard\n* (iOS) Input: Game controller Options and Home buttons can now be mapped\n* (iOS) Settings: Fixed selecting the KosmicKrisp Vulkan driver\n* (macOS) VoiceOver now announces file browse fields by their name (thanks @lprazdnik)\n* (macOS) Terminal: Added a find bar (Cmd-F)\n* (macOS 27) Display: New option to use the area beside the camera housing in full screen (#6183)\n* (macOS 27) Display: Hot Corners are turned off while a VM is in full screen\n* (macOS) Settings: Improved the notes field\n* (macOS 26) Settings: The \"New\u2026\" device menu now matches the sidebar\n* (macOS) AVF: Sound input and output can be enabled separately, so \"Output Only\" no longer switches Bluetooth headphones to headset mode (#7875)\n* (macOS 26) AVF: New \"Shared Network (VM to VM)\" and \"Host Only\" networking modes (#6975, #7480) (thanks @lovon-spec)\n* (macOS 27) AVF: USB passthrough, also available from scripting and utmctl (#3778, #7777)\n* (macOS 27) AVF: Run without saving changes (#4201, #7326)\n* (macOS 27) AVF: Secure Boot option for UEFI guests (#7874)\n* (macOS) Scripting: Snapshots are now scriptable objects, and utmctl gains `snapshot` and `discard-state` commands\n* (macOS) Scripting: Create and install macOS VMs on the Apple backend (#6092) (thanks @meisenbarth)\n* (macOS 27) Scripting: Set up the user account, automatic login and Remote Login of a new macOS VM on first boot (#7757)\n* (macOS) Scripting: Fixed shared directories set with `update registry` failing to open on Apple VMs (thanks @atkinsam)\n* (macOS) Scripting: Fixed a crash when starting a VM after removing its displays with `update configuration` (#7882)\n\n## Changes (v5.0.5)\n* ~~Reverted minimum version requirement imposed by v5.0.4: once again we support versions down to macOS 11.3 and iOS 14.0. However, DirectX support is still limited to macOS 13.0 and iOS 16.0.~~\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* Config: For ARM64 configs, GICv3 is now selected by default. Previously this was only the case for > 8 vCPUs. This improves performance for higher vCPU counts < 8.\n* Downloader: Path traversal and symlink checks added when unpacking downloaded ZIP files\n* Wizard: scaling is now default to \"nearest\" when a \"classic\" computer emulation is created in the wizard and \"linear\" otherwise. Previously it was \"nearest\" for all configurations which led to poor scaling filter for anything with higher resolutions.\n* (iOS) Support DirectX 11 with DXMT. Note that due to older iOS version (which supports TrollStore + Hypervisor), compatibility of DirectX titles is worse than macOS.\n* (iOS) QEMU: Fixed MMIO BAR bug which prevented large hostmem window from working\n* (iOS) Config: Improved RAM limit detection\n* (macOS) DirectX 12 is now supported with D3DMetal backend (when available). You must (re)install the latest UTM guest tools experimental 3D graphics driver.\n* (macOS) Support holding down Caps Lock key when input capture is enabled (#7840) (thanks @lprazdnik)\n* (macOS) Settings: new options to gracefully power down all running VMs on exit (#7829) (thanks @vectorseven)\n* (macOS) Settings: support Cmd<->Opt swapping (#7837) (thanks @lprazdnik)\n* (macOS) Scripting: add snapshots commands to scripting interface (#7832) (thanks @naveenrajm7)\n* (macOS) AVF: Better error message when macOS guest version is too high (#7806) (thanks @sigitkusuma)\n\n## Changes (v5.0.4)\n* (macOS) Added support for Neptune backend in virglrenderer for DirectX support\n* Localization: Updated German (thanks @Benjamin123-tech)\n* Scripting: new reload config and VLAN commands (#7710, #7711) (thanks @GregOriol)\n* SPICE: Fixed various bugs in renderer that leads to performance and tearing issues\n* SPICE: Fixed a memory leak that could result in large amount of memory use by UTM\n* Updated USB icon (#7718) (thanks @tan9)\n* Fixed crash in UTMRegistry and memory leak in AVF installer (#7701) (thanks @Casey)\n\n## Changes (v5.0.3)\n* Fixed regression in GRUB rendering time due to new graphics backend\n* Fixed Vulkan issues on latest Wayland\n* Localization: Updated Chinese (Hong Kong, Simplified) (thanks @changanmoon)\n* Home: Confirm delete when using swipe left (#3086)\n* Home: Prevent duplicate VMs from appearing (#7533) (thanks @DevSecTim)\n* AVF: Fixed CPU spike and mic loss due to two audio devices (thanks @matapo)\n* Scripting: Added ability to get IP address from AVF machines (#7643) (thanks @hellcastter)\n* Scripting: Fixed \"update registry\" for AVM backend (#7664) (thanks @EkkoG)\n* Scripting: Improve USB device matching logic (thanks @TronickDev)\n\n## Changes (v5.0.2)\n* Environment variables are now logged when debug log is enabled\n* Fixed a regression in GL acceleration where desktop might not render correctly (#7626)\n* Added geometry shaders support to MoltenVK to enable DXVK (thanks @Anducalliew433) (#7575)\n* (iOS) Fixed an issue where EAGL backend boots into a black screen (#7587)\n* (iOS) Fixed a crash on iOS 15 due to incompatible symbols (#7593)\n* (iOS) Fixed verbose logging for graphics backend\n* (iOS) Fixed a crash when GL is enabled due to missing support for glDrawElementsInstancedBaseVertex (#7596)\n* (macOS) Fixed an issue when after resizing a window if the guest outputs a different resolution size, the wrong texture resolution is used leading to misaligned cursor and warped graphics (#5781)\n* (macOS) Fixed an issue where the window resizes to 0x0 when native scaling is enabled\n\n## Changes (v5.0.1)\n* CocoaSpice: Reworked Metal renderer to be faster and have lower latency\n* Fixed an issue where a BIOS file with a comma in the filename will fail to load\n* Default FPS will now be the maximum refresh rate of the display on macOS and iPadOS (iPhone with ProMotion will still have 60Hz as the default rate but can be overridden to 120Hz through settings)\n* (macOS) Fixed issue causing `HV_UNSUPPORTED` on startup with Vulkan enabled (#7579)\n* (iOS) Fixed resolution issue on external displays (#6040)\n* (iOS) Pinch to zoom will turn off automatically updating zoom from the guest (until reset with the resize button)\n* (iOS) Fixed external display menu not updating\n* (iOS) Fixed incorrect scale on external displays and connecting an external display will now automatically scale to fit\n* (iOS) Fixed an issue where powering off the VM will show the home screen but not terminate UTM in the background\n\n## Changes (v5.0.0)\n* Add Venus support for Vulkan (#4551)\n* Add Apple Core OpenGL support for OpenGL 4.1 (#4285) (thanks @startergo)\n\n## Issues\nPlease check the full list on [Github](https://github.com/utmapp/UTM/issues) and help report any bug you find that is not listed.\n\n## Installation\n\n* [iOS](https://docs.getutm.app/installation/ios/)\n* [macOS](https://docs.getutm.app/installation/macos/)\n\n| File | Description | Installation | JIT | Hypervisor | USB |\n|------|------------|--------------|-----|-----------|-----|\n| UTM.deb | Jailbroken iOS version | Open in Cydia, dpkg, or Sileo | Yes | Yes(1) | Yes |\n| UTM.dmg | macOS version | Mounting and copying UTM.app to /Applications | Yes | Yes | Yes |\n| UTM.ipa | Non-jailbroken iOS version (sideloading) | AltStore, etc (see guide) | Yes(2) | No | No |\n| UTM-HV.ipa | Non-jailbroken iOS version (TrollStore) | TrollStore | Yes | Yes(1) | Yes |\n| UTM-SE.ipa | Non-jailbroken iOS version (sideloading) | AltStore, enterprise signing, etc | No | No | No |\n| UTM-Remote.ipa | Remote client | Any | No | No | No |\n\n1. Hypervisor on iOS requires an M1 iPad or newer.\n2. Enabling JIT may require a separate JIT enabler such as [Jitterbug][2] or Jitstreamer.\n\n[1]: https://getutm.app/install/\n[2]: https://github.com/osy/Jitterbug\n",
                     "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.8/UTM-HV.ipa",
                     "size": 150556668
-                }
-            ],
-            "appPermissions": {
-                "entitlements": [],
-                "privacy": {}
-            },
-            "patreon": {}
-        },
-        {
-            "name": "StikDebug",
-            "bundleIdentifier": "com.stik.stikdebug",
-            "marketplaceID": "",
-            "developerName": "StephenDev0",
-            "subtitle": "An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.",
-            "localizedDescription": "Features  \n- On-device debugging/Just-In-Time (JIT) compilation for supported apps via [`idevice`](https://github.com/jkcoxson/idevice).  \n- No special VPN/Network Extension entitlements required.  \n- Native UI for managing debugging/JIT-enabling.  \n- No data collection\u2014ensuring full privacy. ",
-            "iconURL": "https://raw.githubusercontent.com/StephenDev0/StikDebug/refs/heads/main/assets/StikJIT.png",
-            "tintColor": "#007aff",
-            "category": "developer",
-            "screenshots": [
-                "https://stikdebug.xyz/assets/source/home.png",
-                "https://stikdebug.xyz/assets/source/scripts.png",
-                "https://stikdebug.xyz/assets/source/settings.png"
-            ],
-            "versions": [
-                {
-                    "version": "2.3.7",
-                    "date": "2026-01-09T19:27:57Z",
-                    "localizedDescription": "- Amethyst and MeloNX Universal Script Support\r\n- LocalDevVPN links and warnings",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.7/StikDebug-2.3.7.ipa",
-                    "size": 12048589,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "2.3.6",
-                    "date": "2025-12-18T02:30:53Z",
-                    "localizedDescription": "This release works with LocalDevVPN",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/2.3.6/StikDebug-2.3.6.ipa",
-                    "size": 11996559,
-                    "buildVersion": null,
-                    "minOSVersion": null
-                },
-                {
-                    "version": "3.0.0",
-                    "date": "2026-02-25T21:26:35Z",
-                    "localizedDescription": "## What's New in 3.0.0\r\n\r\n> [!WARNING]\r\n> **Known Issue:** This update does not fix the iOS 26.4 issue that most users are currently experiencing. If you are having trouble on that specific version, this update will not resolve them.\r\n\r\n### New Features & Enhancements\r\n* **Interface Rework:** Simplified the UI with iOS 26 in mind and introduced a brand new Tools view. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Background Support:** Added background audio and location persistence capabilities. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **App Expiry Tab:** Turned the Profiles tab into the new App Expiry tab. ([16f6615](https://github.com/StephenDev0/StikDebug/commit/16f6615e66627d0e4cba905f511db3de0193246d) by @hugeBlack)\r\n\r\n### Under the Hood\r\n* **Massive Codebase Cleanup:** Completed a semi-rewrite, removing approximately 10,000 lines of dead code, unused views, themes, feature flags, and placeholders. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Improved `idevice` Handling:** Significantly improved the handling of JIT, mounts, profiles, and heartbeats, alongside better script organization and execution flow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n* **Repository Improvements:** Updated the README, GitHub templates, and the CI workflow. ([#328](https://github.com/StephenDev0/StikDebug/pull/328) by @StephenDev0)\r\n\r\n### Deprecations & Removals\r\n* **Minitool Removal:** Removed the minitool utility as it is outdated and no longer useful. ([e9d9f35](https://github.com/StephenDev0/StikDebug/commit/e9d9f3578eb5558a18823559b0dabca0b501506d) by @hugeBlack)\r\n\r\n---\r\n**Full Changelog**: [2.3.7...3.0.0](https://github.com/StephenDev0/StikDebug/compare/2.3.7...3.0.0)",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.0/StikDebug-3.0.0.ipa",
-                    "size": 10456365
-                },
-                {
-                    "version": "3.0.1",
-                    "date": "2026-03-08T18:56:53Z",
-                    "localizedDescription": "The update is pretty cool. I\u2019ll update the release notes later.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.0.1/StikDebug-3.0.1.ipa",
-                    "size": 10461243
-                },
-                {
-                    "version": "3.1.0",
-                    "date": "2026-03-30T17:53:28Z",
-                    "localizedDescription": "## What's Changed\r\n\r\n* Added support for iOS 26.4. A new pairing file must be created using [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest)\r\n* Replaced the lockdown implementation with rppairing by @jkcoxson in #354\r\n* Fixed the port used for `location_simulation` via rppairing by @jkcoxson in #355\r\n* Added support for freezing and resuming processes\r\n* Improved location simulation stability and added route simulation based on local speed limits\r\n* Rewrote parts of the app in Swift and improved overall stability by @StephenDev0 in #358\r\n\r\n## Known Issues\r\n\r\n* DDI mounting is currently not working. This is planned to be fixed in the next update. As a workaround, you can use [idevice pair](https://github.com/jkcoxson/idevice_pair/releases/latest) to mount the DDI.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.0.1...3.1.0",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.0/StikDebug-3.1.0.ipa",
-                    "size": 10889554
-                },
-                {
-                    "version": "3.1.1",
-                    "date": "2026-04-04T03:30:18Z",
-                    "localizedDescription": "## Changes\r\n\r\n- Updated the universal script\r\n- Added support for mounting the DDI over RSD",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.1/StikDebug-3.1.1.ipa",
-                    "size": 10973374
-                },
-                {
-                    "version": "3.1.2",
-                    "date": "2026-04-12T06:41:17Z",
-                    "localizedDescription": "Improved iOS 26/TXM JIT reliability.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.1...3.1.2",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.2/StikDebug-3.1.2.ipa",
-                    "size": 10974298
-                },
-                {
-                    "version": "3.1.3",
-                    "date": "2026-05-18T14:50:17Z",
-                    "localizedDescription": "Includes performance improvements, bug fixes, quality of life improvements, a new news tab, and more.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.2...3.1.3",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.3/StikDebug-3.1.3.ipa",
-                    "size": 11125407
-                },
-                {
-                    "version": "3.1.4",
-                    "date": "2026-06-01T01:12:08Z",
-                    "localizedDescription": "Fixed issues with TXM detection and fixed a few other weird issues.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.3...3.1.4",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.4/StikDebug-3.1.4.ipa",
-                    "size": 11028217
-                },
-                {
-                    "version": "3.1.5",
-                    "date": "2026-06-01T11:32:37Z",
-                    "localizedDescription": "Fixed a bug that prevented the location simulator from starting.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.4...3.1.5",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.5/StikDebug-3.1.5.ipa",
-                    "size": 11027579
-                },
-                {
-                    "version": "3.1.6",
-                    "date": "2026-06-17T04:07:42Z",
-                    "localizedDescription": "Fixes TXM checks for devices with A13/A14/M1 chips on iOS 27. Apps you want to enable JIT for require their own patches to work on those versions as well.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.6/StikDebug-3.1.6.ipa",
-                    "size": 11028710
-                },
-                {
-                    "version": "3.1.7",
-                    "date": "2026-07-26T00:25:37Z",
-                    "localizedDescription": "Remove old screenshot scripts, rename UTM-Dolphin.js to legacy.js, fixes for the `script-name` query of the url scheme.",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.7/StikDebug-3.1.7.ipa",
-                    "size": 12815045
-                },
-                {
-                    "version": "3.1.8",
-                    "date": "2026-07-31T15:01:19Z",
-                    "localizedDescription": "Fix pairing file import, improve bounce-back reliability",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.8/StikDebug-3.1.8.ipa",
-                    "size": 12818500
-                },
-                {
-                    "version": "3.1.9",
-                    "date": "2026-08-01T20:09:58Z",
-                    "localizedDescription": "Attempted another fix for pairing files.\r\nRenamed `rp_pairing_file.plist` back to `pairingFile.plist`.\r\n\r\n**Full Changelog**: https://github.com/StephenDev0/StikDebug/compare/3.1.8...3.1.9",
-                    "downloadURL": "https://github.com/StephenDev0/StikDebug/releases/download/3.1.9/StikDebug-3.1.9.ipa",
-                    "size": 12822956
-                },
-                {
-                    "version": "3.1.10",
-                    "date": "2026-08-27T04:07:04Z",
-                    "localizedDescription": "**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.9...3.1.10",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.10/StikDebug-3.1.10.ipa",
-                    "size": 12824047
-                },
-                {
-                    "version": "3.1.11",
-                    "date": "2026-09-23T23:25:55Z",
-                    "localizedDescription": "Transitions to mounting the DDI via cryptex, should fix issues with the iPhone 18 Pro series.\n\n## What's Changed\n* Add Malloc Debugging by @Leviidev in https://github.com/StikDebug/StikDebug/pull/460\n\n## New Contributors\n* @Leviidev made their first contribution in https://github.com/StikDebug/StikDebug/pull/460\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.10...3.1.11",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.11/StikDebug-3.1.11.ipa",
-                    "size": 13515131
-                },
-                {
-                    "version": "3.1.12",
-                    "date": "2026-09-27T20:57:00Z",
-                    "localizedDescription": "Should fix issues with DDI for iOS versions below 26.4.\r\nAlso, lots of fixes and improvements for TXM scripts, location simulation, and keep-alives.\r\n\r\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.11...3.1.12",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.12/StikDebug-3.1.12.ipa",
-                    "size": 13544301
-                },
-                {
-                    "version": "3.1.13",
-                    "date": "2026-09-28T14:29:59Z",
-                    "localizedDescription": "Fix MeloCaf\u00e9 auto assign\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.12...3.1.13",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.13/StikDebug-3.1.13.ipa",
-                    "size": 13544310
-                },
-                {
-                    "version": "3.1.14",
-                    "date": "2026-10-12T03:13:42Z",
-                    "localizedDescription": "Add Husk support\n\n**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.13...3.1.14",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.14/StikDebug-3.1.14.ipa",
-                    "size": 13544340
-                },
-                {
-                    "version": "3.1.15",
-                    "date": "2026-10-15T14:31:50Z",
-                    "localizedDescription": "**Full Changelog**: https://github.com/StikDebug/StikDebug/compare/3.1.14...3.1.15\r\nAttempt to fix ServiceNotFound errors, add debugging",
-                    "downloadURL": "https://github.com/StikDebug/StikDebug/releases/download/3.1.15/StikDebug-3.1.15.ipa",
-                    "size": 13543234
                 }
             ],
             "appPermissions": {
